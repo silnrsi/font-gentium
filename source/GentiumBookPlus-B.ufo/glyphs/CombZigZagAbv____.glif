@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombZigZagAbv" format="1">
+  <advance width="0"/>
+  <unicode hex="035B"/>
+  <outline>
+    <contour>
+      <point x="-715" y="1379" type="line"/>
+      <point x="-724" y="1240" type="line"/>
+      <point x="-404" y="1240" type="line"/>
+      <point x="-345" y="1379" type="line"/>
+    </contour>
+    <contour>
+      <point x="-542" y="1592" type="line"/>
+      <point x="-561" y="1592"/>
+      <point x="-657" y="1575"/>
+      <point x="-676" y="1571" type="curve"/>
+      <point x="-764" y="1265" type="line"/>
+      <point x="-744" y="1240" type="line"/>
+      <point x="-725" y="1239"/>
+      <point x="-631" y="1242"/>
+      <point x="-612" y="1244" type="curve"/>
+      <point x="-521" y="1565" type="line"/>
+    </contour>
+    <contour>
+      <point x="-566" y="1054" type="line"/>
+      <point x="-531" y="1027" type="line"/>
+      <point x="-514" y="1027"/>
+      <point x="-428" y="1045"/>
+      <point x="-409" y="1048" type="curve"/>
+      <point x="-322" y="1354" type="line"/>
+      <point x="-345" y="1379" type="line"/>
+      <point x="-477" y="1375" type="line"/>
+    </contour>
+    <contour>
+      <point x="-545" y="1556" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-545" y="1050" type="move" name="_U"/>
+    </contour>
+  </outline>
+</glyph>

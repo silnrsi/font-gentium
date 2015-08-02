@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombMacronBlw" format="1">
+  <advance width="0"/>
+  <unicode hex="0331"/>
+  <outline>
+    <contour>
+      <point x="-221" y="-235" type="curve"/>
+      <point x="-240" y="-210" type="line"/>
+      <point x="-787" y="-210" type="line"/>
+      <point x="-802" y="-237"/>
+      <point x="-826" y="-285"/>
+      <point x="-836" y="-312" type="curve"/>
+      <point x="-820" y="-336" type="line"/>
+      <point x="-271" y="-336" type="line"/>
+      <point x="-258" y="-314"/>
+      <point x="-230" y="-264"/>
+    </contour>
+    <contour>
+      <point x="-572" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-504" y="-100" type="move" name="_L"/>
+    </contour>
+  </outline>
+</glyph>

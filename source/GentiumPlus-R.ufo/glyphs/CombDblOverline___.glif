@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombDblOverline" format="1">
+  <advance width="0"/>
+  <unicode hex="033F"/>
+  <outline>
+    <contour>
+      <point x="64" y="1281" type="curve"/>
+      <point x="42" y="1305" type="line"/>
+      <point x="-987" y="1305" type="line"/>
+      <point x="-1000" y="1279"/>
+      <point x="-1022" y="1229"/>
+      <point x="-1028" y="1200" type="curve"/>
+      <point x="-1006" y="1175" type="line"/>
+      <point x="25" y="1175" type="line"/>
+      <point x="35" y="1200"/>
+      <point x="58" y="1252"/>
+    </contour>
+    <contour>
+      <point x="64" y="1551" type="curve"/>
+      <point x="42" y="1575" type="line"/>
+      <point x="-987" y="1575" type="line"/>
+      <point x="-1000" y="1549"/>
+      <point x="-1022" y="1499"/>
+      <point x="-1028" y="1470" type="curve"/>
+      <point x="-1006" y="1445" type="line"/>
+      <point x="25" y="1445" type="line"/>
+      <point x="35" y="1470"/>
+      <point x="58" y="1522"/>
+    </contour>
+    <contour>
+      <point x="-482" y="1680" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-482" y="1050" type="move" name="_U"/>
+    </contour>
+  </outline>
+</glyph>

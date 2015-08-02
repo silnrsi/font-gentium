@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CyCapE.MongolStyle" format="1">
+  <advance width="1030"/>
+  <outline>
+    <contour>
+      <point x="999" y="658" type="curve" smooth="yes"/>
+      <point x="1055" y="1065"/>
+      <point x="911" y="1290"/>
+      <point x="632" y="1290" type="curve" smooth="yes"/>
+      <point x="510" y="1290"/>
+      <point x="355" y="1252"/>
+      <point x="238" y="1186" type="curve" smooth="yes"/>
+      <point x="229" y="1181"/>
+      <point x="214" y="939"/>
+      <point x="226" y="933" type="curve"/>
+      <point x="265" y="941" type="line"/>
+      <point x="330" y="1152"/>
+      <point x="503" y="1191"/>
+      <point x="556" y="1191" type="curve" smooth="yes"/>
+      <point x="782" y="1191"/>
+      <point x="896" y="995"/>
+      <point x="845" y="621" type="curve" smooth="yes"/>
+      <point x="785" y="185"/>
+      <point x="620" y="84"/>
+      <point x="451" y="84" type="curve" smooth="yes"/>
+      <point x="304" y="84"/>
+      <point x="200" y="148"/>
+      <point x="160" y="329" type="curve"/>
+      <point x="122" y="334" type="line"/>
+      <point x="84" y="211"/>
+      <point x="77" y="87"/>
+      <point x="87" y="78" type="curve"/>
+      <point x="150" y="24"/>
+      <point x="250" y="-30"/>
+      <point x="394" y="-30" type="curve" smooth="yes"/>
+      <point x="688" y="-30"/>
+      <point x="939" y="218"/>
+    </contour>
+    <contour>
+      <point x="921" y="761" type="curve"/>
+      <point x="875" y="784" type="line"/>
+      <point x="824" y="706"/>
+      <point x="775" y="671"/>
+      <point x="729" y="671" type="curve" smooth="yes"/>
+      <point x="671" y="671"/>
+      <point x="615" y="774"/>
+      <point x="524" y="774" type="curve" smooth="yes"/>
+      <point x="430" y="774"/>
+      <point x="336" y="667"/>
+      <point x="279" y="558" type="curve"/>
+      <point x="324" y="538" type="line"/>
+      <point x="378" y="612"/>
+      <point x="420" y="649"/>
+      <point x="467" y="649" type="curve" smooth="yes"/>
+      <point x="538" y="649"/>
+      <point x="592" y="546"/>
+      <point x="675" y="546" type="curve" smooth="yes"/>
+      <point x="768" y="546"/>
+      <point x="863" y="653"/>
+    </contour>
+    <contour>
+      <point x="622" y="1320" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="420" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1</real>
+        <real>0.6</real>
+        <real>0.6</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombVertLineBlw" format="1">
+  <advance width="0"/>
+  <unicode hex="0329"/>
+  <outline>
+    <contour>
+      <point x="-511" y="-470" type="curve"/>
+      <point x="-464" y="-133" type="line"/>
+      <point x="-484" y="-110" type="line"/>
+      <point x="-508" y="-115"/>
+      <point x="-541" y="-129"/>
+      <point x="-564" y="-139" type="curve"/>
+      <point x="-611" y="-479" type="line"/>
+      <point x="-591" y="-500" type="line"/>
+      <point x="-567" y="-494"/>
+      <point x="-536" y="-483"/>
+    </contour>
+    <contour>
+      <point x="-577" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-508" y="-100" type="move" name="_L"/>
+    </contour>
+  </outline>
+</glyph>

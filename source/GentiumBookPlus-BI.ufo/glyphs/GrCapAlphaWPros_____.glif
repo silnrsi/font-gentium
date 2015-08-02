@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapAlphaWPros" format="1">
+  <advance width="1686"/>
+  <unicode hex="1FBC"/>
+  <outline>
+    <component base="GrCapAlpha"/>
+    <component base="GrPros" xOffset="1147"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.704</real>
+        <real>1</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

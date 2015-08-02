@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModOpenNine" format="1">
+  <advance width="1061"/>
+  <unicode hex="A770"/>
+  <outline>
+    <contour>
+      <point x="63" y="398" type="curve" smooth="yes"/>
+      <point x="63" y="162"/>
+      <point x="211" y="-20"/>
+      <point x="423" y="-20" type="curve" smooth="yes"/>
+      <point x="462" y="-20"/>
+      <point x="506" y="-15"/>
+      <point x="556" y="7" type="curve"/>
+      <point x="576" y="30"/>
+      <point x="602" y="100"/>
+      <point x="602" y="138" type="curve"/>
+      <point x="567" y="125"/>
+      <point x="537" y="125"/>
+      <point x="529" y="125" type="curve" smooth="yes"/>
+      <point x="399" y="125"/>
+      <point x="326" y="343"/>
+      <point x="326" y="516" type="curve" smooth="yes"/>
+      <point x="326" y="630"/>
+      <point x="353" y="799"/>
+      <point x="458" y="798" type="curve" smooth="yes"/>
+      <point x="617" y="796"/>
+      <point x="694" y="593"/>
+      <point x="694" y="343" type="curve" smooth="yes"/>
+      <point x="694" y="69"/>
+      <point x="569" y="-246"/>
+      <point x="268" y="-401" type="curve"/>
+      <point x="271" y="-419"/>
+      <point x="302" y="-486"/>
+      <point x="311" y="-500" type="curve"/>
+      <point x="691" y="-345"/>
+      <point x="984" y="29"/>
+      <point x="984" y="437" type="curve" smooth="yes"/>
+      <point x="984" y="755"/>
+      <point x="797" y="960"/>
+      <point x="543" y="960" type="curve" smooth="yes"/>
+      <point x="227" y="960"/>
+      <point x="63" y="653"/>
+    </contour>
+    <contour>
+      <point x="450" y="1620" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="450" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1</real>
+        <real>0.986</real>
+        <real>0.6</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

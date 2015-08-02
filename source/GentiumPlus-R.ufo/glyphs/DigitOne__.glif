@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="DigitOne" format="1">
+  <advance width="961"/>
+  <unicode hex="0031"/>
+  <outline>
+    <contour>
+      <point x="840" y="0" type="line"/>
+      <point x="840" y="53" type="line"/>
+      <point x="639" y="78"/>
+      <point x="590" y="117"/>
+      <point x="590" y="143" type="curve" smooth="yes"/>
+      <point x="590" y="1210" type="line"/>
+      <point x="553" y="1245" type="line"/>
+      <point x="465" y="1196"/>
+      <point x="250" y="1106"/>
+      <point x="139" y="1075" type="curve"/>
+      <point x="160" y="1024" type="line"/>
+      <point x="336" y="1061"/>
+      <point x="406" y="1055"/>
+      <point x="422" y="1038" type="curve" smooth="yes"/>
+      <point x="438" y="1020"/>
+      <point x="440" y="993"/>
+      <point x="440" y="940" type="curve" smooth="yes"/>
+      <point x="440" y="143" type="line" smooth="yes"/>
+      <point x="440" y="115"/>
+      <point x="379" y="78"/>
+      <point x="170" y="53" type="curve"/>
+      <point x="170" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="480" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="480" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

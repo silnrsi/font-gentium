@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmVend.sc" format="1">
+  <advance width="1040"/>
+  <outline>
+    <contour>
+      <point x="994" y="998" type="line"/>
+      <point x="994" y="1041" type="line"/>
+      <point x="597" y="1041" type="line"/>
+      <point x="597" y="992" type="line"/>
+      <point x="695" y="982"/>
+      <point x="738" y="972"/>
+      <point x="728" y="947" type="curve"/>
+      <point x="728" y="948" type="line"/>
+      <point x="338" y="199" type="line"/>
+      <point x="338" y="1033" type="line"/>
+      <point x="301" y="1066" type="line"/>
+      <point x="228" y="1035"/>
+      <point x="138" y="1015"/>
+      <point x="49" y="999" type="curve"/>
+      <point x="49" y="951" type="line"/>
+      <point x="166" y="940"/>
+      <point x="179" y="928"/>
+      <point x="179" y="852" type="curve"/>
+      <point x="179" y="-298" type="line"/>
+      <point x="179" y="-312"/>
+      <point x="131" y="-325"/>
+      <point x="49" y="-342" type="curve"/>
+      <point x="49" y="-391" type="line"/>
+      <point x="494" y="-391" type="line"/>
+      <point x="494" y="-342" type="line"/>
+      <point x="380" y="-326"/>
+      <point x="338" y="-311"/>
+      <point x="338" y="-298" type="curve"/>
+      <point x="338" y="-43" type="line"/>
+      <point x="853" y="946" type="line"/>
+      <point x="861" y="968"/>
+      <point x="908" y="977"/>
+      <point x="988" y="991" type="curve"/>
+    </contour>
+    <contour>
+      <point x="502" y="1145" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="500" y="-491" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

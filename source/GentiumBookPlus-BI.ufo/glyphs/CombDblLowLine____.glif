@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombDblLowLine" format="1">
+  <advance width="0"/>
+  <unicode hex="0333"/>
+  <outline>
+    <contour>
+      <point x="-15" y="-225" type="curve"/>
+      <point x="-44" y="-190" type="line"/>
+      <point x="-1050" y="-190" type="line"/>
+      <point x="-1065" y="-217"/>
+      <point x="-1109" y="-295"/>
+      <point x="-1119" y="-322" type="curve"/>
+      <point x="-1093" y="-356" type="line"/>
+      <point x="-85" y="-356" type="line"/>
+      <point x="-72" y="-334"/>
+      <point x="-24" y="-254"/>
+    </contour>
+    <contour>
+      <point x="-51" y="-475" type="curve"/>
+      <point x="-80" y="-440" type="line"/>
+      <point x="-1086" y="-440" type="line"/>
+      <point x="-1101" y="-467"/>
+      <point x="-1145" y="-545"/>
+      <point x="-1155" y="-572" type="curve"/>
+      <point x="-1129" y="-606" type="line"/>
+      <point x="-121" y="-606" type="line"/>
+      <point x="-108" y="-584"/>
+      <point x="-60" y="-504"/>
+    </contour>
+    <contour>
+      <point x="-611" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-543" y="-100" type="move" name="_L"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmSaltillo" format="1">
+  <advance width="592"/>
+  <unicode hex="A78C"/>
+  <outline>
+    <contour>
+      <point x="457" y="1449" type="line"/>
+      <point x="404" y="1480" type="line"/>
+      <point x="376" y="1474"/>
+      <point x="165" y="1403"/>
+      <point x="135" y="1386" type="curve"/>
+      <point x="233" y="633" type="line"/>
+      <point x="264" y="633"/>
+      <point x="349" y="643"/>
+      <point x="369" y="654" type="curve"/>
+    </contour>
+    <contour>
+      <point x="296" y="1620" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="296" y="100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

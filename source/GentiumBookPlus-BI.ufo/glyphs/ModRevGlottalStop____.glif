@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModRevGlottalStop" format="1">
+  <advance width="611"/>
+  <unicode hex="02C1"/>
+  <outline>
+    <contour>
+      <point x="463" y="897" type="line" smooth="yes"/>
+      <point x="492" y="1080"/>
+      <point x="308" y="1165"/>
+      <point x="326" y="1301" type="curve" smooth="yes"/>
+      <point x="336" y="1378"/>
+      <point x="374" y="1413"/>
+      <point x="418" y="1413" type="curve" smooth="yes"/>
+      <point x="486" y="1413"/>
+      <point x="503" y="1354"/>
+      <point x="491" y="1243" type="curve"/>
+      <point x="541" y="1234"/>
+      <point x="694" y="1268"/>
+      <point x="710" y="1291" type="curve"/>
+      <point x="718" y="1405"/>
+      <point x="657" y="1520"/>
+      <point x="460" y="1520" type="curve" smooth="yes"/>
+      <point x="282" y="1520"/>
+      <point x="127" y="1432"/>
+      <point x="103" y="1287" type="curve"/>
+      <point x="78" y="1123"/>
+      <point x="274" y="1040"/>
+      <point x="245" y="877" type="curve" smooth="yes"/>
+      <point x="229" y="782" type="line"/>
+      <point x="273" y="740" type="line"/>
+      <point x="307" y="746"/>
+      <point x="412" y="774"/>
+      <point x="446" y="788" type="curve"/>
+    </contour>
+    <contour>
+      <point x="456" y="1580" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="334" y="750" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

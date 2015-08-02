@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModVertLineDep" format="1">
+  <advance width="448"/>
+  <unicode hex="F196"/>
+  <outline>
+    <contour>
+      <point x="183" y="970" type="line"/>
+      <point x="449" y="970" type="line"/>
+      <point x="449" y="1680" type="line"/>
+      <point x="183" y="1680" type="line"/>
+    </contour>
+    <contour>
+      <point x="333" y="1031" type="line"/>
+      <point x="307" y="1018"/>
+      <point x="257" y="1006"/>
+      <point x="232" y="1000" type="curve"/>
+      <point x="213" y="1022" type="line"/>
+      <point x="300" y="1620" type="line"/>
+      <point x="322" y="1630"/>
+      <point x="373" y="1644"/>
+      <point x="398" y="1650" type="curve"/>
+      <point x="419" y="1626" type="line"/>
+    </contour>
+    <contour>
+      <point x="311" y="1320" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="268" y="1000" type="move" name="_U"/>
+    </contour>
+  </outline>
+</glyph>

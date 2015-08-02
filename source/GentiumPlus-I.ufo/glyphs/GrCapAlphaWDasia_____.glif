@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapAlphaWDasia" format="1">
+  <advance width="1267"/>
+  <unicode hex="1F09"/>
+  <outline>
+    <component base="GrCapAlpha" xOffset="120"/>
+    <component base="GrDasia" yOffset="-100"/>
+  </outline>
+</glyph>

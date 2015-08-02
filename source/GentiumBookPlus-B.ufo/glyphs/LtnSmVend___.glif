@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmVend" format="1">
+  <advance width="1050"/>
+  <unicode hex="A769"/>
+  <outline>
+    <contour>
+      <point x="614" y="-397" type="line"/>
+      <point x="489" y="-378"/>
+      <point x="445" y="-356"/>
+      <point x="445" y="-335" type="curve" smooth="yes"/>
+      <point x="445" y="-84" type="line"/>
+      <point x="939" y="779" type="line"/>
+      <point x="955" y="817"/>
+      <point x="959" y="828"/>
+      <point x="1039" y="847" type="curve"/>
+      <point x="1039" y="930" type="line"/>
+      <point x="716" y="930" type="line"/>
+      <point x="716" y="847" type="line"/>
+      <point x="804" y="832"/>
+      <point x="807" y="819"/>
+      <point x="790" y="779" type="curve"/>
+      <point x="445" y="171" type="line"/>
+      <point x="445" y="915" type="line"/>
+      <point x="400" y="960" type="line"/>
+      <point x="292" y="923"/>
+      <point x="217" y="900"/>
+      <point x="45" y="880" type="curve"/>
+      <point x="45" y="800" type="line"/>
+      <point x="159" y="788"/>
+      <point x="175" y="786"/>
+      <point x="175" y="671" type="curve" smooth="yes"/>
+      <point x="175" y="-335" type="line" smooth="yes"/>
+      <point x="175" y="-358"/>
+      <point x="133" y="-376"/>
+      <point x="45" y="-397" type="curve"/>
+      <point x="45" y="-480" type="line"/>
+      <point x="614" y="-480" type="line"/>
+    </contour>
+    <contour>
+      <point x="525" y="1050" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="525" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

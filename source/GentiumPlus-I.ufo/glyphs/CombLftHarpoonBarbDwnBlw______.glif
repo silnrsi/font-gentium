@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombLftHarpoonBarbDwnBlw" format="1">
+  <advance width="0"/>
+  <unicode hex="20ED"/>
+  <outline>
+    <contour>
+      <point x="-292" y="-287" type="curve"/>
+      <point x="-310" y="-260" type="line"/>
+      <point x="-801" y="-260" type="line"/>
+      <point x="-704" y="-349" type="line"/>
+      <point x="-325" y="-349" type="line"/>
+      <point x="-311" y="-327"/>
+      <point x="-302" y="-312"/>
+    </contour>
+    <contour>
+      <point x="-801" y="-260" type="line"/>
+      <point x="-668" y="-502" type="line"/>
+      <point x="-615" y="-477" type="line"/>
+      <point x="-686" y="-305" type="line"/>
+    </contour>
+    <contour>
+      <point x="-516" y="-100" type="move" name="_L"/>
+    </contour>
+    <contour>
+      <point x="-586" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

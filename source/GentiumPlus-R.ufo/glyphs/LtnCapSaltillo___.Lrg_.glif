@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapSaltillo.Lrg" format="1">
+  <advance width="542"/>
+  <outline>
+    <contour>
+      <point x="377" y="1554" type="line"/>
+      <point x="324" y="1580" type="line"/>
+      <point x="296" y="1574"/>
+      <point x="175" y="1538"/>
+      <point x="145" y="1521" type="curve"/>
+      <point x="218" y="483" type="line"/>
+      <point x="249" y="483"/>
+      <point x="294" y="493"/>
+      <point x="314" y="504" type="curve"/>
+    </contour>
+    <contour>
+      <point x="271" y="1620" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="271" y="100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

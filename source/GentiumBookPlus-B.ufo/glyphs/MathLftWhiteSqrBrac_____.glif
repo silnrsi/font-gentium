@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="MathLftWhiteSqrBrac" format="1">
+  <advance width="950"/>
+  <unicode hex="27E6"/>
+  <outline>
+    <contour>
+      <point x="450" y="-180" type="line"/>
+      <point x="305" y="-180" type="line"/>
+      <point x="305" y="1445" type="line"/>
+      <point x="450" y="1445" type="line"/>
+    </contour>
+    <contour>
+      <point x="625" y="1445" type="line"/>
+      <point x="846" y="1445" type="line"/>
+      <point x="854" y="1461"/>
+      <point x="877" y="1531"/>
+      <point x="883" y="1564" type="curve"/>
+      <point x="840" y="1600" type="line"/>
+      <point x="130" y="1600" type="line"/>
+      <point x="130" y="-335" type="line"/>
+      <point x="846" y="-335" type="line"/>
+      <point x="856" y="-312"/>
+      <point x="879" y="-245"/>
+      <point x="885" y="-219" type="curve"/>
+      <point x="840" y="-180" type="line"/>
+      <point x="625" y="-180" type="line"/>
+    </contour>
+  </outline>
+</glyph>

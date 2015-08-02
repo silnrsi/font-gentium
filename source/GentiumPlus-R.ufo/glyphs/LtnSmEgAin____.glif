@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmEgAin" format="1">
+  <advance width="530"/>
+  <unicode hex="A725"/>
+  <outline>
+    <contour>
+      <point x="237" y="960" type="curve"/>
+      <point x="125" y="940"/>
+      <point x="83" y="856"/>
+      <point x="83" y="781" type="curve" smooth="yes"/>
+      <point x="83" y="673"/>
+      <point x="153" y="553"/>
+      <point x="392" y="487" type="curve"/>
+      <point x="412" y="520" type="line"/>
+      <point x="274" y="567"/>
+      <point x="240" y="640"/>
+      <point x="240" y="720" type="curve" smooth="yes"/>
+      <point x="240" y="798"/>
+      <point x="291" y="875"/>
+      <point x="431" y="870" type="curve"/>
+      <point x="441" y="901" type="line"/>
+      <point x="417" y="915"/>
+      <point x="278" y="959"/>
+    </contour>
+    <contour>
+      <point x="265" y="1050" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="265" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

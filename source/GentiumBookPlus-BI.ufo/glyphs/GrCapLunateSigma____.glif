@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapLunateSigma" format="1">
+  <advance width="1080"/>
+  <unicode hex="03F9"/>
+  <outline>
+    <contour>
+      <point x="685" y="1149" type="curve" smooth="yes"/>
+      <point x="840" y="1149"/>
+      <point x="878" y="1013"/>
+      <point x="941" y="1013" type="curve" smooth="yes"/>
+      <point x="994" y="1013"/>
+      <point x="1095" y="1171"/>
+      <point x="1140" y="1222" type="curve"/>
+      <point x="1130" y="1232"/>
+      <point x="1118" y="1249"/>
+      <point x="1106" y="1261" type="curve"/>
+      <point x="995" y="1257"/>
+      <point x="893" y="1290"/>
+      <point x="764" y="1290" type="curve"/>
+      <point x="638" y="1290"/>
+      <point x="484" y="1243"/>
+      <point x="387" y="1167" type="curve" smooth="yes"/>
+      <point x="162" y="989"/>
+      <point x="56" y="711"/>
+      <point x="56" y="459" type="curve" smooth="yes"/>
+      <point x="56" y="150"/>
+      <point x="246" y="-27"/>
+      <point x="487" y="-27" type="curve" smooth="yes"/>
+      <point x="612" y="-27"/>
+      <point x="796" y="21"/>
+      <point x="977" y="201" type="curve"/>
+      <point x="972" y="209"/>
+      <point x="950" y="265"/>
+      <point x="938" y="276" type="curve"/>
+      <point x="789" y="167"/>
+      <point x="667" y="145"/>
+      <point x="603" y="146" type="curve" smooth="yes"/>
+      <point x="493" y="148"/>
+      <point x="327" y="225"/>
+      <point x="327" y="516" type="curve" smooth="yes"/>
+      <point x="327" y="684"/>
+      <point x="373" y="969"/>
+      <point x="541" y="1100" type="curve" smooth="yes"/>
+      <point x="594" y="1141"/>
+      <point x="632" y="1149"/>
+    </contour>
+    <contour>
+      <point x="686" y="1320" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="491" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="465" y="0" type="move" name="H"/>
+    </contour>
+  </outline>
+</glyph>

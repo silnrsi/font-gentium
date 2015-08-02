@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SupplRtTransBrac" format="1">
+  <advance width="702"/>
+  <unicode hex="2E0A"/>
+  <outline>
+    <contour>
+      <point x="454" y="1132" type="curve" smooth="yes"/>
+      <point x="454" y="1217"/>
+      <point x="393" y="1270"/>
+      <point x="289" y="1270" type="curve" smooth="yes"/>
+      <point x="158" y="1270"/>
+      <point x="46" y="1163"/>
+      <point x="51" y="1095" type="curve"/>
+      <point x="64" y="1069" type="line"/>
+      <point x="91" y="1065"/>
+      <point x="190" y="1107"/>
+      <point x="185" y="1115" type="curve" smooth="yes"/>
+      <point x="162" y="1153"/>
+      <point x="190" y="1203"/>
+      <point x="250" y="1203" type="curve" smooth="yes"/>
+      <point x="279" y="1203"/>
+      <point x="334" y="1186"/>
+      <point x="334" y="1104" type="curve" smooth="yes"/>
+      <point x="334" y="995"/>
+      <point x="248" y="867"/>
+      <point x="248" y="747" type="curve" smooth="yes"/>
+      <point x="248" y="632"/>
+      <point x="324" y="598"/>
+      <point x="413" y="598" type="curve" smooth="yes"/>
+      <point x="544" y="598"/>
+      <point x="656" y="705"/>
+      <point x="651" y="773" type="curve"/>
+      <point x="638" y="799" type="line"/>
+      <point x="611" y="803"/>
+      <point x="512" y="761"/>
+      <point x="517" y="753" type="curve" smooth="yes"/>
+      <point x="544" y="707"/>
+      <point x="502" y="665"/>
+      <point x="454" y="665" type="curve" smooth="yes"/>
+      <point x="405" y="665"/>
+      <point x="368" y="693"/>
+      <point x="368" y="775" type="curve" smooth="yes"/>
+      <point x="368" y="892"/>
+      <point x="454" y="990"/>
+    </contour>
+    <contour>
+      <point x="349" y="1286" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

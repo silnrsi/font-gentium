@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmRevRFishhook" format="1">
+  <advance width="684"/>
+  <unicode hex="027F"/>
+  <outline>
+    <contour>
+      <point x="675" y="709" type="curve" smooth="yes"/>
+      <point x="697" y="878"/>
+      <point x="577" y="936"/>
+      <point x="448" y="936" type="curve" smooth="yes"/>
+      <point x="320" y="936"/>
+      <point x="163" y="876"/>
+      <point x="47" y="773" type="curve"/>
+      <point x="33" y="744"/>
+      <point x="44" y="569"/>
+      <point x="74" y="469" type="curve"/>
+      <point x="148" y="469" type="line"/>
+      <point x="168" y="592"/>
+      <point x="249" y="788"/>
+      <point x="346" y="788" type="curve" smooth="yes"/>
+      <point x="393" y="788"/>
+      <point x="448" y="756"/>
+      <point x="430" y="612" type="curve" smooth="yes"/>
+      <point x="379" y="206"/>
+      <point x="301" y="-149"/>
+      <point x="238" y="-461" type="curve"/>
+      <point x="283" y="-500" type="line"/>
+      <point x="316" y="-484"/>
+      <point x="511" y="-409"/>
+      <point x="547" y="-397" type="curve"/>
+      <point x="530" y="-294"/>
+      <point x="640" y="443"/>
+    </contour>
+    <contour>
+      <point x="477" y="1000" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="281" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

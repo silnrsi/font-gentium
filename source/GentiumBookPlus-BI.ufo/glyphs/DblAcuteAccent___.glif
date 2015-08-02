@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="DblAcuteAccent" format="1">
+  <advance width="645"/>
+  <unicode hex="02DD"/>
+  <outline>
+    <contour>
+      <point x="809" y="1383" type="line"/>
+      <point x="788" y="1444" type="line"/>
+      <point x="768" y="1449"/>
+      <point x="651" y="1467"/>
+      <point x="625" y="1469" type="curve"/>
+      <point x="443" y="1057" type="line"/>
+      <point x="461" y="1041"/>
+      <point x="500" y="1018"/>
+      <point x="520" y="1016" type="curve"/>
+    </contour>
+    <contour>
+      <point x="504" y="1383" type="line"/>
+      <point x="483" y="1444" type="line"/>
+      <point x="463" y="1449"/>
+      <point x="346" y="1467"/>
+      <point x="320" y="1469" type="curve"/>
+      <point x="138" y="1057" type="line"/>
+      <point x="156" y="1041"/>
+      <point x="195" y="1018"/>
+      <point x="215" y="1016" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

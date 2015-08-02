@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmSaltilloDep" format="1">
+  <advance width="502"/>
+  <unicode hex="F21D"/>
+  <outline>
+    <contour>
+      <point x="115" y="603" type="line"/>
+      <point x="387" y="603" type="line"/>
+      <point x="387" y="1510" type="line"/>
+      <point x="115" y="1510" type="line"/>
+    </contour>
+    <contour>
+      <point x="304" y="654" type="line"/>
+      <point x="284" y="643"/>
+      <point x="239" y="633"/>
+      <point x="208" y="633" type="curve"/>
+      <point x="145" y="1421" type="line"/>
+      <point x="175" y="1438"/>
+      <point x="276" y="1474"/>
+      <point x="304" y="1480" type="curve"/>
+      <point x="357" y="1454" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1</real>
+        <real>0.986</real>
+        <real>0.6</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

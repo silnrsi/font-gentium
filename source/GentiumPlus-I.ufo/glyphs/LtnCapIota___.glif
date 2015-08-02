@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapIota" format="1">
+  <advance width="642"/>
+  <unicode hex="0196"/>
+  <outline>
+    <contour>
+      <point x="599" y="245" type="line"/>
+      <point x="571" y="288" type="line"/>
+      <point x="468" y="168"/>
+      <point x="423" y="149"/>
+      <point x="387" y="149" type="curve" smooth="yes"/>
+      <point x="334" y="149"/>
+      <point x="325" y="174"/>
+      <point x="358" y="415" type="curve" smooth="yes"/>
+      <point x="503" y="1290" type="line"/>
+      <point x="470" y="1290" type="line"/>
+      <point x="386" y="1246"/>
+      <point x="272" y="1225"/>
+      <point x="168" y="1203" type="curve"/>
+      <point x="162" y="1160" type="line"/>
+      <point x="333" y="1143"/>
+      <point x="322" y="1118"/>
+      <point x="297" y="935" type="curve" smooth="yes"/>
+      <point x="189" y="281" type="line" smooth="yes"/>
+      <point x="149" y="39"/>
+      <point x="206" y="-30"/>
+      <point x="272" y="-30" type="curve" smooth="yes"/>
+      <point x="344" y="-30"/>
+      <point x="424" y="4"/>
+      <point x="570" y="205" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="464" y="1320" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="270" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

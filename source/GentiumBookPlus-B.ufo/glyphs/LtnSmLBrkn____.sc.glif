@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmLBrkn.sc" format="1">
+  <advance width="1311"/>
+  <outline>
+    <contour>
+      <point x="1276" y="279" type="line"/>
+      <point x="1193" y="303" type="line"/>
+      <point x="1139" y="175"/>
+      <point x="1105" y="120"/>
+      <point x="996" y="120" type="curve"/>
+      <point x="901" y="120" type="line"/>
+      <point x="772" y="120"/>
+      <point x="737" y="140"/>
+      <point x="737" y="173" type="curve"/>
+      <point x="737" y="658" type="line"/>
+      <point x="432" y="559" type="line"/>
+      <point x="432" y="915" type="line"/>
+      <point x="432" y="926"/>
+      <point x="474" y="944"/>
+      <point x="556" y="959" type="curve"/>
+      <point x="556" y="1041" type="line"/>
+      <point x="37" y="1041" type="line"/>
+      <point x="37" y="959" type="line"/>
+      <point x="125" y="944"/>
+      <point x="162" y="925"/>
+      <point x="162" y="915" type="curve"/>
+      <point x="162" y="393" type="line"/>
+      <point x="465" y="494" type="line"/>
+      <point x="465" y="124" type="line"/>
+      <point x="465" y="113"/>
+      <point x="424" y="96"/>
+      <point x="341" y="81" type="curve"/>
+      <point x="341" y="0" type="line"/>
+      <point x="1240" y="0" type="line"/>
+      <point x="1250" y="35"/>
+      <point x="1271" y="177"/>
+      <point x="1279" y="271" type="curve"/>
+    </contour>
+    <contour>
+      <point x="649" y="1145" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="649" y="-76" type="move" name="L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1</real>
+        <real>0.986</real>
+        <real>0.6</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

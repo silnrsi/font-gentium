@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombXBlw" format="1">
+  <advance width="0"/>
+  <unicode hex="0353"/>
+  <outline>
+    <contour>
+      <point x="-191" y="-479" type="curve"/>
+      <point x="-453" y="-260" type="line"/>
+      <point x="-640" y="-260" type="line"/>
+      <point x="-894" y="-489" type="line"/>
+      <point x="-881" y="-510"/>
+      <point x="-851" y="-549"/>
+      <point x="-833" y="-564" type="curve"/>
+      <point x="-548" y="-426" type="line"/>
+      <point x="-254" y="-564" type="line"/>
+      <point x="-234" y="-548"/>
+      <point x="-202" y="-501"/>
+    </contour>
+    <contour>
+      <point x="-191" y="-167" type="line"/>
+      <point x="-202" y="-145"/>
+      <point x="-234" y="-98"/>
+      <point x="-254" y="-82" type="curve"/>
+      <point x="-548" y="-220" type="line"/>
+      <point x="-833" y="-82" type="line"/>
+      <point x="-851" y="-97"/>
+      <point x="-881" y="-136"/>
+      <point x="-894" y="-157" type="curve"/>
+      <point x="-640" y="-386" type="line"/>
+      <point x="-453" y="-386" type="line"/>
+    </contour>
+    <contour>
+      <point x="-548" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-548" y="-100" type="move" name="_L"/>
+    </contour>
+  </outline>
+</glyph>

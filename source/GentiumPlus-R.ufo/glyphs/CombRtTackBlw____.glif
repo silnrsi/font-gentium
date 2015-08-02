@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombRtTackBlw" format="1">
+  <advance width="0"/>
+  <unicode hex="0319"/>
+  <outline>
+    <contour>
+      <point x="-344" y="-282" type="curve"/>
+      <point x="-369" y="-255" type="line"/>
+      <point x="-620" y="-255" type="line"/>
+      <point x="-634" y="-282"/>
+      <point x="-641" y="-294"/>
+      <point x="-649" y="-321" type="curve"/>
+      <point x="-626" y="-345" type="line"/>
+      <point x="-371" y="-345" type="line"/>
+      <point x="-359" y="-323"/>
+      <point x="-351" y="-308"/>
+    </contour>
+    <contour>
+      <point x="-595" y="-469" type="curve"/>
+      <point x="-595" y="-124" type="line"/>
+      <point x="-622" y="-100" type="line"/>
+      <point x="-648" y="-108"/>
+      <point x="-662" y="-117"/>
+      <point x="-685" y="-130" type="curve"/>
+      <point x="-685" y="-478" type="line"/>
+      <point x="-660" y="-500" type="line"/>
+      <point x="-634" y="-492"/>
+      <point x="-622" y="-485"/>
+    </contour>
+    <contour>
+      <point x="-514" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-514" y="-100" type="move" name="_L"/>
+    </contour>
+  </outline>
+</glyph>

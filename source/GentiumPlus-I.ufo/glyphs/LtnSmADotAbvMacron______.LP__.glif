@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmADotAbvMacron.LP" format="1">
+  <advance width="922"/>
+  <outline>
+    <component base="LtnSmA"/>
+    <component base="CombDotAbv.LP" xOffset="906"/>
+    <component base="CombMacron.LP" xOffset="959" yOffset="320"/>
+  </outline>
+</glyph>

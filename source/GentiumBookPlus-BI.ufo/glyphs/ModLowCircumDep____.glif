@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModLowCircumDep" format="1">
+  <advance width="573"/>
+  <unicode hex="F1E7"/>
+  <outline>
+    <contour>
+      <point x="-85" y="-533" type="line"/>
+      <point x="534" y="-533" type="line"/>
+      <point x="534" y="-127" type="line"/>
+      <point x="-85" y="-127" type="line"/>
+    </contour>
+    <contour>
+      <point x="504" y="-458" type="line"/>
+      <point x="486" y="-485"/>
+      <point x="480" y="-493"/>
+      <point x="459" y="-503" type="curve"/>
+      <point x="244" y="-298" type="line"/>
+      <point x="-22" y="-503" type="line"/>
+      <point x="-34" y="-495"/>
+      <point x="-42" y="-485"/>
+      <point x="-55" y="-458" type="curve"/>
+      <point x="220" y="-157" type="line"/>
+      <point x="312" y="-157" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1</real>
+        <real>0.986</real>
+        <real>0.6</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

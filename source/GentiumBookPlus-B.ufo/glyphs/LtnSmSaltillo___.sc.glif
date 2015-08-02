@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmSaltillo.sc" format="1">
+  <advance width="481"/>
+  <outline>
+    <contour>
+      <point x="337" y="1277" type="line"/>
+      <point x="283" y="1301" type="line"/>
+      <point x="256" y="1296"/>
+      <point x="149" y="1265"/>
+      <point x="119" y="1250" type="curve"/>
+      <point x="184" y="556" type="line"/>
+      <point x="216" y="556"/>
+      <point x="263" y="565"/>
+      <point x="285" y="576" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1</real>
+        <real>0.986</real>
+        <real>0.6</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

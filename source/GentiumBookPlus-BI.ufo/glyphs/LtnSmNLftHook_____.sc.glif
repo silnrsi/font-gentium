@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmNLftHook.sc" format="1">
+  <advance width="1124"/>
+  <outline>
+    <contour>
+      <point x="267" y="972" type="line"/>
+      <point x="227" y="705"/>
+      <point x="181" y="418"/>
+      <point x="140" y="150" type="curve"/>
+      <point x="96" y="-113"/>
+      <point x="9" y="-194"/>
+      <point x="-44" y="-194" type="curve" smooth="yes"/>
+      <point x="-86" y="-194"/>
+      <point x="-112" y="-188"/>
+      <point x="-168" y="-148" type="curve"/>
+      <point x="-203" y="-159"/>
+      <point x="-281" y="-217"/>
+      <point x="-284" y="-236" type="curve" smooth="yes"/>
+      <point x="-287" y="-257"/>
+      <point x="-222" y="-310"/>
+      <point x="-150" y="-310" type="curve" smooth="yes"/>
+      <point x="-106" y="-310"/>
+      <point x="-8" y="-280"/>
+      <point x="59" y="-233" type="curve" smooth="yes"/>
+      <point x="156" y="-164"/>
+      <point x="215" y="-66"/>
+      <point x="259" y="207" type="curve"/>
+      <point x="374" y="954" type="line"/>
+    </contour>
+    <contour>
+      <point x="1205" y="1041" type="line"/>
+      <point x="856" y="1041" type="line"/>
+      <point x="849" y="992" type="line"/>
+      <point x="932" y="980"/>
+      <point x="963" y="959"/>
+      <point x="963" y="949" type="curve"/>
+      <point x="853" y="236" type="line"/>
+      <point x="415" y="973" type="line"/>
+      <point x="384" y="1027"/>
+      <point x="372" y="1041"/>
+      <point x="320" y="1041" type="curve"/>
+      <point x="150" y="1041" type="line"/>
+      <point x="143" y="992" type="line"/>
+      <point x="217" y="981"/>
+      <point x="259" y="964"/>
+      <point x="298" y="900" type="curve"/>
+      <point x="801" y="41" type="line"/>
+      <point x="832" y="-11"/>
+      <point x="863" y="-19"/>
+      <point x="922" y="-26" type="curve"/>
+      <point x="1074" y="947" type="line"/>
+      <point x="1076" y="963"/>
+      <point x="1117" y="981"/>
+      <point x="1198" y="992" type="curve"/>
+    </contour>
+    <contour>
+      <point x="695" y="1103" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="421" y="-491" type="move" name="L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1</real>
+        <real>0.986</real>
+        <real>0.6</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

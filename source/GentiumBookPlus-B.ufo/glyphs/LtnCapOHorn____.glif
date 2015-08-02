@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapOHorn" format="1">
+  <advance width="1317"/>
+  <unicode hex="01A0"/>
+  <outline>
+    <component base="LtnCapO"/>
+    <component base="CombHorn" xOffset="1150" yOffset="350"/>
+  </outline>
+</glyph>

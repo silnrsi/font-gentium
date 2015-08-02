@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapUpsilonWDasiaPeris" format="1">
+  <advance width="1491"/>
+  <unicode hex="1F5F"/>
+  <outline>
+    <component base="GrCapUpsilon" xOffset="400"/>
+    <component base="GrDasiaPeris" yOffset="-100"/>
+  </outline>
+</glyph>

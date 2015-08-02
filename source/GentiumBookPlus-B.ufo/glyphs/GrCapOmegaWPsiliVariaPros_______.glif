@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapOmegaWPsiliVariaPros" format="1">
+  <advance width="2555"/>
+  <unicode hex="1FAA"/>
+  <outline>
+    <component base="GrCapOmega" xOffset="655"/>
+    <component base="GrPsiliVaria" xOffset="-49" yOffset="-100"/>
+    <component base="GrPros" xOffset="1951"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.704</real>
+        <real>1</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

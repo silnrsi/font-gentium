@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmTurnedV.sc" format="1">
+  <advance width="1141"/>
+  <outline>
+    <contour>
+      <point x="748" y="96" type="line"/>
+      <point x="754" y="67"/>
+      <point x="716" y="55"/>
+      <point x="632" y="50" type="curve"/>
+      <point x="626" y="0" type="line"/>
+      <point x="995" y="0" type="line"/>
+      <point x="999" y="49" type="line"/>
+      <point x="918" y="59"/>
+      <point x="901" y="72"/>
+      <point x="898" y="99" type="curve"/>
+      <point x="697" y="1091" type="line"/>
+      <point x="662" y="1073"/>
+      <point x="597" y="1040"/>
+      <point x="562" y="1013" type="curve"/>
+      <point x="113" y="101" type="line"/>
+      <point x="98" y="74"/>
+      <point x="50" y="62"/>
+      <point x="-27" y="49" type="curve"/>
+      <point x="-35" y="0" type="line"/>
+      <point x="327" y="0" type="line"/>
+      <point x="335" y="49" type="line"/>
+      <point x="243" y="61"/>
+      <point x="208" y="68"/>
+      <point x="220" y="95" type="curve"/>
+      <point x="597" y="867" type="line"/>
+    </contour>
+    <contour>
+      <point x="660" y="1103" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="476" y="-76" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

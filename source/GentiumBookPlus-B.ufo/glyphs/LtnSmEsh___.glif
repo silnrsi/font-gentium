@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmEsh" format="1">
+  <advance width="604"/>
+  <unicode hex="0283"/>
+  <outline>
+    <contour>
+      <point x="500" y="96" type="curve" smooth="yes"/>
+      <point x="500" y="330"/>
+      <point x="392" y="839"/>
+      <point x="392" y="1146" type="curve" smooth="yes"/>
+      <point x="392" y="1326"/>
+      <point x="448" y="1385"/>
+      <point x="507" y="1385" type="curve" smooth="yes"/>
+      <point x="562" y="1385"/>
+      <point x="634" y="1319"/>
+      <point x="677" y="1253" type="curve"/>
+      <point x="716" y="1262"/>
+      <point x="854" y="1422"/>
+      <point x="854" y="1454" type="curve" smooth="yes"/>
+      <point x="854" y="1477"/>
+      <point x="718" y="1550"/>
+      <point x="576" y="1550" type="curve" smooth="yes"/>
+      <point x="515" y="1550"/>
+      <point x="398" y="1516"/>
+      <point x="326" y="1458" type="curve" smooth="yes"/>
+      <point x="220" y="1372"/>
+      <point x="112" y="1246"/>
+      <point x="112" y="1011" type="curve" smooth="yes"/>
+      <point x="112" y="778"/>
+      <point x="220" y="265"/>
+      <point x="220" y="-50" type="curve" smooth="yes"/>
+      <point x="220" y="-261"/>
+      <point x="164" y="-305"/>
+      <point x="107" y="-305" type="curve" smooth="yes"/>
+      <point x="57" y="-305"/>
+      <point x="-40" y="-250"/>
+      <point x="-83" y="-193" type="curve"/>
+      <point x="-122" y="-211"/>
+      <point x="-270" y="-351"/>
+      <point x="-270" y="-374" type="curve" smooth="yes"/>
+      <point x="-270" y="-396"/>
+      <point x="-174" y="-490"/>
+      <point x="-12" y="-490" type="curve" smooth="yes"/>
+      <point x="71" y="-490"/>
+      <point x="175" y="-452"/>
+      <point x="246" y="-395" type="curve" smooth="yes"/>
+      <point x="353" y="-309"/>
+      <point x="500" y="-162"/>
+    </contour>
+    <contour>
+      <point x="292" y="1690" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="292" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

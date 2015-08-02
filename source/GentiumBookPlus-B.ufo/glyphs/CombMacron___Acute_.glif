@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombMacron_Acute" format="1">
+  <advance width="0"/>
+  <unicode hex="1DC4"/>
+  <outline>
+    <contour>
+      <point x="-577" y="1236" type="line"/>
+      <point x="-544" y="1177" type="line"/>
+      <point x="-514" y="1168"/>
+      <point x="-320" y="1136"/>
+      <point x="-289" y="1134" type="curve"/>
+      <point x="-157" y="1498" type="line"/>
+      <point x="-172" y="1510"/>
+      <point x="-230" y="1542"/>
+      <point x="-254" y="1546" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-917" y="1168" type="curve"/>
+      <point x="-885" y="1134" type="line"/>
+      <point x="-289" y="1134" type="line"/>
+      <point x="-283" y="1160"/>
+      <point x="-254" y="1230"/>
+      <point x="-248" y="1259" type="curve"/>
+      <point x="-270" y="1304" type="line"/>
+      <point x="-868" y="1304" type="line"/>
+      <point x="-878" y="1279"/>
+      <point x="-911" y="1197"/>
+    </contour>
+    <contour>
+      <point x="-547" y="1050" type="move" name="_U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>-516</real>
+          <key>y</key>
+          <real>0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

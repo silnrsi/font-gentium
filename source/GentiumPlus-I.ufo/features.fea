@@ -1,0 +1,513 @@
+feature kern {
+   pos LtnCapA LtnCapO -27;
+   pos LtnCapA LtnCapT -90;
+   pos LtnCapA LtnCapU -90;
+   pos LtnCapA LtnCapW -90;
+   pos LtnCapA LtnCapC -27;
+   pos LtnCapA LtnCapG -27;
+   pos LtnCapA LtnCapQ -27;
+   pos LtnCapA LtnCapV -162;
+   pos LtnCapA LtnCapY -162;
+   pos LtnCapA LtnSmV -90;
+   pos LtnCapA LtnSmY -90;
+   pos LtnCapA LtnSmW -72;
+   pos LtnCapC LtnCapA -53;
+   pos LtnCapD LtnCapY -53;
+   pos LtnCapD LtnCapV -53;
+   pos LtnCapD LtnCapW -20;
+   pos LtnCapD LtnCapA -49;
+   pos LtnCapF LtnCapA -135;
+   pos LtnCapF LtnSmA -72;
+   pos LtnCapF LtnSmE -72;
+   pos LtnCapF LtnSmO -72;
+   pos LtnCapK LtnCapO -53;
+   pos LtnCapL LtnCapV -160;
+   pos LtnCapL LtnCapY -121;
+   pos LtnCapL LtnCapT -125;
+   pos LtnCapL LtnCapW -80;
+   pos LtnCapO LtnCapA -41;
+   pos LtnCapO LtnCapV -53;
+   pos LtnCapO LtnCapY -53;
+   pos LtnCapO LtnCapX -59;
+   pos LtnCapP LtnCapA -111;
+   pos LtnCapR LtnCapV -111;
+   pos LtnCapR LtnCapW -53;
+   pos LtnCapR LtnCapT -37;
+   pos LtnCapT LtnCapA -135;
+   pos LtnCapT LtnSmA -72;
+   pos LtnCapT LtnSmE -72;
+   pos LtnCapT LtnSmO -72;
+   pos LtnCapU LtnCapA -90;
+   pos LtnCapV LtnCapA -170;
+   pos LtnCapV LtnCapG -59;
+   pos LtnCapV LtnSmA -90;
+   pos LtnCapV LtnSmE -90;
+   pos LtnCapV LtnSmO -90;
+   pos LtnCapV LtnCapO -59;
+   pos LtnCapW LtnCapA -100;
+   pos LtnCapW LtnCapO -20;
+   pos LtnCapW LtnSmA -49;
+   pos LtnCapW LtnSmE -49;
+   pos LtnCapW LtnSmO -49;
+   pos LtnCapY LtnCapA -162;
+   pos LtnCapY LtnSmA -121;
+   pos LtnCapY LtnSmE -129;
+   pos LtnCapY LtnSmO -129;
+   pos LtnCapY LtnCapO -90;
+   pos LtnCapY LtnSmU -59;
+   pos LtnCapY LtnCapS -41;
+   pos LtnSmA LtnSmV -27;
+   pos LtnSmA LtnSmW -27;
+   pos LtnSmC LtnSmH -27;
+   pos LtnSmC LtnSmK -27;
+   pos LtnSmE LtnSmX -27;
+   pos LtnSmK LtnSmE -14;
+   pos LtnSmM LtnSmY -31;
+   pos LtnSmN LtnSmV -31;
+   pos LtnSmN LtnSmY -31;
+   pos LtnSmO LtnSmV -37;
+   pos LtnSmO LtnSmW -27;
+   pos LtnSmO LtnSmX -20;
+   pos LtnSmR LtnSmO -20;
+   pos LtnSmR LtnSmE -49;
+   pos LtnSmR LtnSmA -59;
+   pos LtnSmR LtnSmQ -41;
+   pos LtnSmR LtnSmC -41;
+   pos LtnSmR LtnSmD -31;
+   pos LtnSmR LtnSmG -41;
+   pos LtnSmV LtnSmO -20;
+   pos LtnSmV LtnSmA -20;
+   pos LtnSmV LtnSmE -20;
+   pos LtnSmX LtnSmE -14;
+   pos LtnSmY LtnSmA -20;
+   pos LtnSmY LtnSmO -20;
+   pos LtnSmY LtnSmE -31;
+   pos GrCapBeta GrSmGamma -41;
+   pos GrCapBeta GrSmRho -31;
+   pos GrSmBeta GrSmGamma -20;
+   pos GrSmBeta GrSmLamda -31;
+   pos GrSmBeta GrSmRho -31;
+   pos GrCapDelta GrSmNu -100;
+   pos GrCapGamma GrSmRho -160;
+   pos GrCapGamma GrCapLamda -121;
+   pos GrCapGamma GrCapDelta -90;
+   pos GrSmTheta GrSmLamda -31;
+   pos GrSmSigma GrSmGamma 41;
+   pos GrSmSigma GrSmNu 41;
+   pos GrCapOmicron GrCapLamda -49;
+   pos GrCapOmicron GrCapSigma -49;
+   pos GrCapOmicron GrCapChi -59;
+   pos GrCapOmicron GrCapPsi -20;
+   pos GrCapTheta GrCapLamda -49;
+   pos GrCapTheta GrSmLamda -41;
+   pos GrCapOmega GrCapPsi -41;
+   pos GrCapOmega GrCapChi -41;
+   pos GrCapOmega GrCapSigma -41;
+   pos GrCapOmega GrCapTau -20;
+   pos GrSmRho GrSmGamma -20;
+   pos GrSmRho GrSmChi -41;
+   pos GrSmRho GrSmTheta 20;
+   pos GrSmRho GrSmTau -20;
+   pos GrSmRho GrSmNu -41;
+   pos GrSmPhi GrSmChi -31;
+   pos GrSmPhi GrSmTheta 31;
+   pos GrSmPhi GrSmLamda -31;
+   pos GrSmPhi GrSmTau -31;
+   pos GrCapRho GrCapLamda -100;
+   pos GrCapRho GrCapDelta -80;
+   pos GrCapPhi GrSmLamda -100;
+   pos GrCapPhi GrCapLamda -70;
+   pos GrCapPhi GrCapSigma -80;
+   pos GrCapPhi GrCapChi -100;
+   pos GrSmTau GrSmSigma -41;
+   pos GrSmTau GrSmRho -41;
+   pos GrSmTau GrSmPhi -41;
+   pos GrSmTau GrSmFinSigma -49;
+   pos GrCapTau GrSmRho -139;
+   pos GrCapTau GrSmSigma -150;
+   pos GrCapTau GrCapPhi -31;
+   pos GrCapTau GrCapLamda -121;
+   pos GrSmMu GrSmChi -41;
+   pos GrSmMu GrSmTau -31;
+   pos GrSmMu GrSmNu -41;
+   pos GrSmGamma GrSmLamda -49;
+   pos GrSmGamma GrSmDelta -31;
+   pos GrSmChi GrSmPhi -49;
+   pos GrSmChi GrSmLamda -49;
+   pos GrCapChi GrSmTheta -31;
+   pos GrCapChi GrSmNu -100;
+   pos GrCapChi GrSmTau -121;
+   pos GrCapChi GrCapTheta -59;
+   pos GrCapChi GrCapOmicron -59;
+   pos GrCapChi GrCapPhi -100;
+   pos GrSmLamda GrSmGamma -111;
+   pos GrSmLamda GrSmBeta -20;
+   pos GrSmLamda GrSmDelta -31;
+   pos GrSmLamda GrSmTheta -41;
+   pos GrSmLamda GrSmKappa -31;
+   pos GrSmLamda GrSmMu -31;
+   pos GrSmLamda GrSmNu -111;
+   pos GrSmLamda GrSmPi -20;
+   pos GrSmLamda GrSmRho -20;
+   pos GrSmLamda GrSmSigma -20;
+   pos GrSmLamda GrSmTau -80;
+   pos GrSmLamda GrSmChi -100;
+   pos GrSmLamda GrSmPsi -80;
+   pos GrSmLamda GrBetaSym -31;
+   pos GrSmLamda GrThetaSym -31;
+   pos GrSmLamda GrPhiSym -31;
+   pos GrSmLamda RtSglQuotMrk -240;
+   pos GrCapPsi GrCapOmega -31;
+   pos GrCapPsi GrCapOmicron -41;
+   pos GrSmZeta GrSmNu -121;
+   pos GrSmZeta GrSmTau -121;
+   pos GrSmZeta GrSmBeta 20;
+   pos GrSmZeta GrSmLamda 41;
+   pos GrSmZeta GrSmRho 20;
+   pos GrSmXi GrSmLamda 20;
+   pos GrCapLamda GrCapTau -121;
+   pos GrCapLamda GrCapPhi -59;
+   pos GrBetaSym GrSmGamma -20;
+   pos GrBetaSym GrSmLamda -20;
+   pos GrSmIotaWDialTonos GrSmLamda 121;
+   pos GrCapKappa GrSmNu -100;
+   pos GrCapKappa GrSmTau -100;
+   pos GrCapKappa GrCapPhi -100;
+   pos GrCapKappa GrCapOmicron -41;
+   pos GrCapKappa GrCapTheta -41;
+   pos GrPhiSym GrSmChi -49;
+   pos GrPhiSym GrSmTheta 31;
+   pos GrPhiSym GrSmGamma -31;
+   pos GrPhiSym GrSmFinSigma 31;
+   pos GrSmNu GrSmLamda -49;
+   pos GrSmNu GrSmRho -41;
+   pos GrSmNu GrSmSigma -31;
+   pos GrSmNu GrSmChi 10;
+   pos GrSmNu GrSmDelta -31;
+   pos GrSmNu GrSmPi -20;
+   pos GrSmNu GrSmTau -41;
+   pos GrSmNu GrSmPhi -31;
+   enum pos @_kGCAlpha GrSmGamma -121;
+   enum pos @_kGCAlpha GrSmNu -121;
+   enum pos @_kGCAlpha GrSmTau -90;
+   enum pos @_kGCAlpha GrSmChi -121;
+   enum pos @_kGCAlpha GrCapTheta -31;
+   enum pos @_kGCAlpha GrCapOmicron -31;
+   enum pos @_kGCAlpha GrCapTau -121;
+   enum pos @_kGCAlpha GrCapPsi -160;
+   enum pos @_kGCAlpha GrCapPhi -59;
+   enum pos @_kGCAlpha GrSmTheta -49;
+   enum pos @_kGCAlphaR GrSmGamma -121;
+   enum pos @_kGCAlphaR GrSmNu -121;
+   enum pos @_kGCAlphaR GrSmTau -90;
+   enum pos @_kGCAlphaR GrSmChi -121;
+   enum pos @_kGCAlphaR GrCapTheta -31;
+   enum pos @_kGCAlphaR GrCapOmicron -31;
+   enum pos @_kGCAlphaR GrCapTau -121;
+   enum pos @_kGCAlphaR GrCapPsi -160;
+   enum pos @_kGCAlphaR GrCapPhi -59;
+   enum pos @_kGCAlphaR GrSmTheta -49;
+   enum pos @_kGCOmegaR GrCapPsi -41;
+   enum pos @_kGCOmegaR GrCapChi -41;
+   enum pos @_kGCOmegaR GrCapSigma -41;
+   enum pos @_kGCOmegaR GrCapTau -20;
+   enum pos @_kGCOmicronBr GrCapLamda -49;
+   enum pos @_kGCOmicronBr GrCapSigma -49;
+   enum pos @_kGCOmicronBr GrCapChi -59;
+   enum pos @_kGCOmicronBr GrCapPsi -20;
+   enum pos @_kGCUpsilon GrSmBeta -31;
+   enum pos @_kGCUpsilon GrSmGamma -70;
+   enum pos @_kGCUpsilon GrSmDelta -31;
+   enum pos @_kGCUpsilon GrSmMu -49;
+   enum pos @_kGCUpsilon GrSmNu -49;
+   enum pos @_kGCUpsilon GrSmPi -59;
+   enum pos @_kGCUpsilon GrSmRho -139;
+   enum pos @_kGCUpsilon GrSmSigma -139;
+   enum pos @_kGCUpsilon GrSmTau -100;
+   enum pos @_kGCUpsilon GrSmPhi -139;
+   enum pos @_kGCUpsilon GrSmPsi -59;
+   enum pos @_kGCUpsilon GrCapDelta -121;
+   enum pos @_kGCUpsilon GrCapLamda -121;
+   enum pos @_kGCUpsilon GrCapOmicron -41;
+   enum pos @_kGCUpsilon GrCapPhi -80;
+   enum pos @_kGCUpsilon GrCapPsi 41;
+   enum pos @_kGCUpsilonR GrSmBeta -31;
+   enum pos @_kGCUpsilonR GrSmGamma -70;
+   enum pos @_kGCUpsilonR GrSmDelta -31;
+   enum pos @_kGCUpsilonR GrSmMu -49;
+   enum pos @_kGCUpsilonR GrSmNu -49;
+   enum pos @_kGCUpsilonR GrSmPi -59;
+   enum pos @_kGCUpsilonR GrSmRho -139;
+   enum pos @_kGCUpsilonR GrSmSigma -139;
+   enum pos @_kGCUpsilonR GrSmTau -100;
+   enum pos @_kGCUpsilonR GrSmPhi -139;
+   enum pos @_kGCUpsilonR GrSmPsi -59;
+   enum pos @_kGCUpsilonR GrCapDelta -121;
+   enum pos @_kGCUpsilonR GrCapLamda -121;
+   enum pos @_kGCUpsilonR GrCapOmicron -41;
+   enum pos @_kGCUpsilonR GrCapPhi -80;
+   enum pos @_kGCUpsilonR GrCapPsi 41;
+   enum pos @_kGSAlpha GrSmFinSigma -31;
+   enum pos @_kGSAlpha GrSmSigma -41;
+   enum pos @_kGSAlpha GrSmTau -31;
+   enum pos @_kGSAlpha GrSmChi -20;
+   enum pos @_kGSAlphaBr GrSmFinSigma -31;
+   enum pos @_kGSAlphaBr GrSmSigma -41;
+   enum pos @_kGSAlphaBr GrSmTau -31;
+   enum pos @_kGSAlphaBr GrSmChi -20;
+   enum pos @_kGSEpsilon GrSmRho -20;
+   enum pos @_kGSEpsilon GrSmSigma -20;
+   enum pos @_kGSEpsilon GrSmNu -20;
+   enum pos @_kGSEpsilon GrSmFinSigma -20;
+   enum pos @_kGSEpsilonBr GrSmRho -20;
+   enum pos @_kGSEpsilonBr GrSmSigma -20;
+   enum pos @_kGSEpsilonBr GrSmNu -20;
+   enum pos @_kGSEta GrSmTau -49;
+   enum pos @_kGSEta GrSmNu -31;
+   enum pos @_kGSEta GrSmFinSigma -31;
+   enum pos @_kGSEtaBr GrSmTau -49;
+   enum pos @_kGSEtaBr GrSmNu -31;
+   enum pos @_kGSEtaBr GrSmFinSigma -31;
+   enum pos @_kGSIota GrSmGamma -31;
+   enum pos @_kGSIota GrSmChi -49;
+   enum pos @_kGSIota GrSmNu -49;
+   enum pos @_kGSIotaBr GrSmGamma -31;
+   enum pos @_kGSIotaBr GrSmChi -49;
+   enum pos @_kGSIotaBr GrSmNu -49;
+   enum pos @_kGSIotaDial GrSmGamma -31;
+   enum pos @_kGSIotaDial GrSmChi -49;
+   enum pos @_kGSIotaDial GrSmNu -49;
+   enum pos @_kGSOmega GrSmGamma -49;
+   enum pos @_kGSOmega GrSmNu -41;
+   enum pos @_kGSOmega GrSmZeta 20;
+   enum pos @_kGSOmega GrSmTau -41;
+   enum pos @_kGSOmega GrSmChi -20;
+   enum pos @_kGSOmegaBr GrSmGamma -49;
+   enum pos @_kGSOmegaBr GrSmNu -41;
+   enum pos @_kGSOmegaBr GrSmZeta 20;
+   enum pos @_kGSOmegaBr GrSmTau -41;
+   enum pos @_kGSOmegaBr GrSmChi -20;
+   enum pos @_kGSOmicron GrSmGamma -20;
+   enum pos @_kGSOmicron GrSmNu -41;
+   enum pos @_kGSOmicron GrSmChi -49;
+   enum pos @_kGSOmicronBr GrSmGamma -20;
+   enum pos @_kGSOmicronBr GrSmNu -41;
+   enum pos @_kGSOmicronBr GrSmChi -49;
+   enum pos @_kGSUpsilon GrSmChi -20;
+   enum pos @_kGSUpsilonBr GrSmChi -20;
+   enum pos @_kGSUpsilonDial GrSmChi -20;
+   enum pos @_kGLftQuot LtnCapA -180;
+   subtable;
+   enum pos LtnCapA @_kGRtQuot -180;
+   enum pos LtnCapF @_kFullStop -180;
+   enum pos LtnCapL @_kGRtQuot -180;
+   enum pos LtnCapP @_kFullStop -180;
+   enum pos LtnCapT @_kFullStop -117;
+   enum pos LtnCapV @_kFullStop -233;
+   enum pos LtnCapW @_kFullStop -180;
+   enum pos LtnCapY @_kFullStop -180;
+   enum pos LtnSmF @_kGRtQuot 199;
+   enum pos LtnSmR @_kFullStop -180;
+   enum pos LtnSmV @_kFullStop -121;
+   enum pos LtnSmW @_kFullStop -41;
+   enum pos LtnSmY @_kFullStop -121;
+   enum pos GrCapBeta @_kGSIota -31;
+   enum pos GrCapBeta @_kGCUpsilon -121;
+   enum pos GrSmBeta @_kGSEta -31;
+   enum pos GrSmBeta @_kGSIota -31;
+   enum pos GrSmDelta @_kGSIota -20;
+   enum pos GrSmDelta @_kGSUpsilon -20;
+   enum pos GrCapDelta @_kGSIota -31;
+   enum pos GrCapDelta @_kGSUpsilon -49;
+   enum pos GrCapDelta @_kGSEta -31;
+   enum pos GrCapDelta @_kGCUpsilon -150;
+   enum pos GrCapGamma @_kGSOmega -121;
+   enum pos GrCapGamma @_kGSOmicron -121;
+   enum pos GrCapGamma @_kGSEpsilon -100;
+   enum pos GrCapGamma @_kGSAlpha -100;
+   enum pos GrCapGamma @_kGCAlpha -121;
+   enum pos GrCapOmicron @_kGCAlpha -49;
+   enum pos GrCapOmicron @_kGCUpsilon -59;
+   enum pos GrCapTheta @_kGCUpsilon -31;
+   enum pos GrCapTheta @_kGCAlpha -49;
+   enum pos GrCapOmega @_kGCUpsilon -80;
+   enum pos GrCapRho @_kGCAlpha -100;
+   enum pos GrCapPhi @_kGCAlpha -70;
+   enum pos GrCapPhi @_kGCUpsilon -100;
+   enum pos GrSmTau @_kGSOmicron -31;
+   enum pos GrSmTau @_kGSAlpha -59;
+   enum pos GrSmTau @_kGSOmega -41;
+   enum pos GrCapTau @_kGSAlpha -80;
+   enum pos GrCapTau @_kGSEpsilon -80;
+   enum pos GrCapTau @_kGSOmicron -121;
+   enum pos GrCapTau @_kGSOmega -121;
+   enum pos GrCapTau @_kGCAlpha -121;
+   enum pos GrSmGamma @_kGSEpsilon -31;
+   enum pos GrSmChi @_kGSEpsilon -31;
+   enum pos GrSmChi @_kGSOmicron -31;
+   enum pos GrSmChi @_kGSAlpha -31;
+   enum pos GrCapChi @_kGSAlpha -31;
+   enum pos GrCapChi @_kGSEpsilon -20;
+   enum pos GrCapChi @_kGSIota -31;
+   enum pos GrCapChi @_kGSOmicron -49;
+   enum pos GrSmLamda @_kGSEta -31;
+   enum pos GrSmLamda @_kGSIota -31;
+   enum pos GrSmLamda @_kGSOmicron -20;
+   enum pos GrSmLamda @_kGSUpsilon -41;
+   enum pos GrSmLamda @_kGSOmega -20;
+   enum pos GrCapPsi @_kGSAlpha -100;
+   enum pos GrCapPsi @_kGSEpsilon -100;
+   enum pos GrCapPsi @_kGSEta -41;
+   enum pos GrCapPsi @_kGSIota -41;
+   enum pos GrCapPsi @_kGSOmicron -121;
+   enum pos GrCapPsi @_kGSUpsilon -41;
+   enum pos GrCapPsi @_kGSOmega -121;
+   enum pos GrCapPsi @_kGCAlpha -180;
+   enum pos GrSmZeta @_kGSOmicron -31;
+   enum pos GrSmZeta @_kGSUpsilon -49;
+   enum pos GrSmZeta @_kGSIota -31;
+   enum pos GrSmZeta @_kGSOmega -41;
+   enum pos GrSmXi @_kGSUpsilon -20;
+   enum pos GrCapLamda @_kGSUpsilon -41;
+   enum pos GrCapLamda @_kGSIota -31;
+   enum pos GrCapLamda @_kGCUpsilon -180;
+   enum pos GrBetaSym @_kGSEta -31;
+   enum pos GrBetaSym @_kGSIota -31;
+   enum pos GrCapKappa @_kGSIota -31;
+   enum pos GrCapKappa @_kGSUpsilon -49;
+   enum pos GrPhiSym @_kGSEta -20;
+   enum pos GrSmNu @_kGSEpsilon -20;
+   enum pos GrSmNu @_kGSOmicron -20;
+   enum pos GrSmNu @_kGSOmega -31;
+   subtable;
+   pos @_kFullStop @_kGRtQuot -250;
+   pos @_kGCAlpha @_kGSUpsilon -31;
+   pos @_kGCAlpha @_kGCUpsilon -180;
+   pos @_kGCAlpha @_kGSUpsilonBr -31;
+   pos @_kGCAlpha @_kGSUpsilonDial -31;
+   pos @_kGCAlphaR @_kGSUpsilon -31;
+   pos @_kGCAlphaR @_kGCUpsilon -180;
+   pos @_kGCAlphaR @_kGSUpsilonBr -31;
+   pos @_kGCAlphaR @_kGSUpsilonDial -31;
+   pos @_kGCOmegaR @_kGCUpsilon -80;
+   pos @_kGCOmicronBr @_kGCAlpha -49;
+   pos @_kGCOmicronBr @_kGCUpsilon -59;
+   pos @_kGCUpsilon @_kGSAlpha -139;
+   pos @_kGCUpsilon @_kGSEpsilon -139;
+   pos @_kGCUpsilon @_kGSIota -49;
+   pos @_kGCUpsilon @_kGSOmicron -139;
+   pos @_kGCUpsilon @_kGCAlpha -121;
+   pos @_kGCUpsilon @_kGSIotaBr -20;
+   pos @_kGCUpsilonR @_kGSAlpha -139;
+   pos @_kGCUpsilonR @_kGSEpsilon -139;
+   pos @_kGCUpsilonR @_kGSIota -49;
+   pos @_kGCUpsilonR @_kGSOmicron -139;
+   pos @_kGCUpsilonR @_kGCAlpha -121;
+   pos @_kGCUpsilonR @_kGSIotaBr -20;
+} kern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

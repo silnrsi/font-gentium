@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmAeMacron" format="1">
+  <advance width="1417"/>
+  <unicode hex="01E3"/>
+  <outline>
+    <component base="LtnSmAe"/>
+    <component base="CombMacron" xOffset="1263"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0</real>
+          <key>y</key>
+          <real>900</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

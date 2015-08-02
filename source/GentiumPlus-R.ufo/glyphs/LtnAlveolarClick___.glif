@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnAlveolarClick" format="1">
+  <advance width="670"/>
+  <unicode hex="01C2"/>
+  <outline>
+    <contour>
+      <point x="405" y="-448" type="curve"/>
+      <point x="405" y="1528" type="line"/>
+      <point x="369" y="1550" type="line"/>
+      <point x="330" y="1540"/>
+      <point x="302" y="1523"/>
+      <point x="265" y="1501" type="curve"/>
+      <point x="265" y="-477" type="line"/>
+      <point x="300" y="-500" type="line"/>
+      <point x="333" y="-489"/>
+      <point x="381" y="-469"/>
+    </contour>
+    <contour>
+      <point x="652" y="455" type="line"/>
+      <point x="630" y="480" type="line"/>
+      <point x="40" y="480" type="line"/>
+      <point x="30" y="459"/>
+      <point x="24" y="433"/>
+      <point x="18" y="412" type="curve"/>
+      <point x="40" y="390" type="line"/>
+      <point x="630" y="390" type="line"/>
+    </contour>
+    <contour>
+      <point x="652" y="695" type="line"/>
+      <point x="630" y="720" type="line"/>
+      <point x="40" y="720" type="line"/>
+      <point x="30" y="699"/>
+      <point x="24" y="673"/>
+      <point x="18" y="652" type="curve"/>
+      <point x="40" y="630" type="line"/>
+      <point x="630" y="630" type="line"/>
+    </contour>
+    <contour>
+      <point x="335" y="1690" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="335" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

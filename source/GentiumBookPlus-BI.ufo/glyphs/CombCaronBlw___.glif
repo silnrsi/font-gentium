@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombCaronBlw" format="1">
+  <advance width="0"/>
+  <unicode hex="032C"/>
+  <outline>
+    <contour>
+      <point x="-220" y="-159" type="line"/>
+      <point x="-235" y="-135"/>
+      <point x="-266" y="-108"/>
+      <point x="-282" y="-94" type="curve"/>
+      <point x="-575" y="-308" type="line"/>
+      <point x="-804" y="-94" type="line"/>
+      <point x="-826" y="-109"/>
+      <point x="-858" y="-136"/>
+      <point x="-879" y="-159" type="curve"/>
+      <point x="-673" y="-540" type="line"/>
+      <point x="-521" y="-540" type="line"/>
+    </contour>
+    <contour>
+      <point x="-612" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-544" y="-100" type="move" name="_L"/>
+    </contour>
+  </outline>
+</glyph>

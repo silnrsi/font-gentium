@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmAlphaWTonos" format="1">
+  <advance width="1022"/>
+  <unicode hex="03AC"/>
+  <outline>
+    <component base="GrSmAlpha" xOffset="-79"/>
+    <component base="GrTonos" xOffset="476"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.704</real>
+        <real>1</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

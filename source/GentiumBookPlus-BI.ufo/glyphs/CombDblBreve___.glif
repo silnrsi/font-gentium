@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombDblBreve" format="1">
+  <advance width="0"/>
+  <unicode hex="035D"/>
+  <outline>
+    <contour>
+      <point x="928" y="1874" type="curve"/>
+      <point x="917" y="1898"/>
+      <point x="875" y="1935"/>
+      <point x="842" y="1945" type="curve"/>
+      <point x="629" y="1796"/>
+      <point x="338" y="1769"/>
+      <point x="138" y="1769" type="curve" smooth="yes"/>
+      <point x="-51" y="1769"/>
+      <point x="-333" y="1786"/>
+      <point x="-498" y="1945" type="curve"/>
+      <point x="-534" y="1935"/>
+      <point x="-571" y="1908"/>
+      <point x="-591" y="1874" type="curve"/>
+      <point x="-494" y="1683"/>
+      <point x="-201" y="1560"/>
+      <point x="127" y="1560" type="curve" smooth="yes"/>
+      <point x="436" y="1560"/>
+      <point x="773" y="1676"/>
+    </contour>
+    <contour>
+      <point x="177" y="1930" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

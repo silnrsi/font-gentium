@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CircumAccent" format="1">
+  <advance width="1008"/>
+  <unicode hex="005E"/>
+  <outline>
+    <contour>
+      <point x="907" y="635" type="curve"/>
+      <point x="555" y="1550" type="line"/>
+      <point x="518" y="1532"/>
+      <point x="455" y="1493"/>
+      <point x="422" y="1462" type="curve"/>
+      <point x="100" y="592" type="line"/>
+      <point x="123" y="565" type="line"/>
+      <point x="150" y="578"/>
+      <point x="203" y="608"/>
+      <point x="231" y="635" type="curve"/>
+      <point x="481" y="1315" type="line"/>
+      <point x="764" y="592" type="line"/>
+      <point x="801" y="565" type="line"/>
+      <point x="846" y="586"/>
+      <point x="874" y="604"/>
+    </contour>
+    <contour>
+      <point x="504" y="1690" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

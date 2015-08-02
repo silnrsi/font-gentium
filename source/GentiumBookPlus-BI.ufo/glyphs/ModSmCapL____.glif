@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModSmCapL" format="1">
+  <advance width="554"/>
+  <unicode hex="1DAB"/>
+  <outline>
+    <contour>
+      <point x="570" y="736" type="curve"/>
+      <point x="540" y="747" type="line"/>
+      <point x="496" y="678"/>
+      <point x="476" y="672"/>
+      <point x="406" y="672" type="curve" smooth="yes"/>
+      <point x="353" y="672" type="line" smooth="yes"/>
+      <point x="268" y="672"/>
+      <point x="253" y="683"/>
+      <point x="256" y="704" type="curve" smooth="yes"/>
+      <point x="319" y="1089" type="line" smooth="yes"/>
+      <point x="321" y="1097"/>
+      <point x="346" y="1108"/>
+      <point x="400" y="1116" type="curve"/>
+      <point x="405" y="1152" type="line"/>
+      <point x="131" y="1152" type="line"/>
+      <point x="126" y="1116" type="line"/>
+      <point x="180" y="1108"/>
+      <point x="200" y="1096"/>
+      <point x="199" y="1089" type="curve" smooth="yes"/>
+      <point x="130" y="670" type="line" smooth="yes"/>
+      <point x="130" y="662"/>
+      <point x="103" y="651"/>
+      <point x="49" y="643" type="curve"/>
+      <point x="45" y="608" type="line"/>
+      <point x="526" y="608" type="line"/>
+      <point x="534" y="625"/>
+      <point x="556" y="685"/>
+    </contour>
+    <contour>
+      <point x="376" y="1216" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="296" y="540" type="move" name="L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1</real>
+        <real>0.986</real>
+        <real>0.6</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

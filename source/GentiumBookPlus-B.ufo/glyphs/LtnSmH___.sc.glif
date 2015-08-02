@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmH.sc" format="1">
+  <advance width="1259"/>
+  <outline>
+    <contour>
+      <point x="1183" y="0" type="line"/>
+      <point x="1183" y="49" type="line"/>
+      <point x="1095" y="64"/>
+      <point x="1050" y="82"/>
+      <point x="1050" y="92" type="curve"/>
+      <point x="1050" y="948" type="line"/>
+      <point x="1050" y="959"/>
+      <point x="1101" y="976"/>
+      <point x="1183" y="992" type="curve"/>
+      <point x="1183" y="1041" type="line"/>
+      <point x="756" y="1041" type="line"/>
+      <point x="756" y="992" type="line"/>
+      <point x="844" y="976"/>
+      <point x="889" y="958"/>
+      <point x="889" y="948" type="curve"/>
+      <point x="889" y="92" type="line"/>
+      <point x="889" y="81"/>
+      <point x="838" y="64"/>
+      <point x="756" y="49" type="curve"/>
+      <point x="756" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="920" y="500" type="line"/>
+      <point x="920" y="588" type="line"/>
+      <point x="301" y="588" type="line"/>
+      <point x="301" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="474" y="0" type="line"/>
+      <point x="474" y="49" type="line"/>
+      <point x="384" y="64"/>
+      <point x="339" y="82"/>
+      <point x="339" y="92" type="curve"/>
+      <point x="339" y="948" type="line"/>
+      <point x="339" y="959"/>
+      <point x="390" y="976"/>
+      <point x="474" y="992" type="curve"/>
+      <point x="474" y="1041" type="line"/>
+      <point x="45" y="1041" type="line"/>
+      <point x="45" y="992" type="line"/>
+      <point x="134" y="976"/>
+      <point x="180" y="958"/>
+      <point x="180" y="948" type="curve"/>
+      <point x="180" y="92" type="line"/>
+      <point x="180" y="81"/>
+      <point x="129" y="64"/>
+      <point x="45" y="49" type="curve"/>
+      <point x="45" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="620" y="1145" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="620" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="254" y="7" type="move" name="H"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1</real>
+        <real>0.986</real>
+        <real>0.6</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

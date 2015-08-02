@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Diaer" format="1">
+  <advance width="801"/>
+  <unicode hex="00A8"/>
+  <outline>
+    <contour>
+      <point x="337" y="1270" type="curve" smooth="yes"/>
+      <point x="337" y="1357"/>
+      <point x="287" y="1400"/>
+      <point x="207" y="1400" type="curve" smooth="yes"/>
+      <point x="119" y="1400"/>
+      <point x="37" y="1316"/>
+      <point x="37" y="1210" type="curve" smooth="yes"/>
+      <point x="37" y="1125"/>
+      <point x="84" y="1080"/>
+      <point x="167" y="1080" type="curve" smooth="yes"/>
+      <point x="259" y="1080"/>
+      <point x="337" y="1165"/>
+    </contour>
+    <contour>
+      <point x="767" y="1270" type="curve" smooth="yes"/>
+      <point x="767" y="1357"/>
+      <point x="717" y="1400"/>
+      <point x="637" y="1400" type="curve" smooth="yes"/>
+      <point x="549" y="1400"/>
+      <point x="467" y="1316"/>
+      <point x="467" y="1210" type="curve" smooth="yes"/>
+      <point x="467" y="1125"/>
+      <point x="514" y="1080"/>
+      <point x="597" y="1080" type="curve" smooth="yes"/>
+      <point x="689" y="1080"/>
+      <point x="767" y="1165"/>
+    </contour>
+    <contour>
+      <point x="402" y="1410" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

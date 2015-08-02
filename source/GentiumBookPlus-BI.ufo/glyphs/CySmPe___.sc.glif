@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CySmPe.sc" format="1">
+  <advance width="1100"/>
+  <outline>
+    <contour>
+      <point x="389" y="0" type="line"/>
+      <point x="396" y="49" type="line"/>
+      <point x="321" y="63"/>
+      <point x="284" y="81"/>
+      <point x="282" y="91" type="curve"/>
+      <point x="415" y="953" type="line"/>
+      <point x="876" y="953" type="line"/>
+      <point x="833" y="671"/>
+      <point x="786" y="374"/>
+      <point x="743" y="93" type="curve"/>
+      <point x="740" y="81"/>
+      <point x="692" y="64"/>
+      <point x="614" y="49" type="curve"/>
+      <point x="608" y="0" type="line"/>
+      <point x="995" y="0" type="line"/>
+      <point x="1001" y="49" type="line"/>
+      <point x="927" y="63"/>
+      <point x="890" y="81"/>
+      <point x="888" y="91" type="curve"/>
+      <point x="1021" y="947" type="line"/>
+      <point x="1023" y="959"/>
+      <point x="1072" y="976"/>
+      <point x="1148" y="992" type="curve"/>
+      <point x="1155" y="1041" type="line"/>
+      <point x="164" y="1041" type="line"/>
+      <point x="156" y="992" type="line"/>
+      <point x="230" y="977"/>
+      <point x="268" y="959"/>
+      <point x="269" y="949" type="curve"/>
+      <point x="136" y="93" type="line"/>
+      <point x="133" y="81"/>
+      <point x="86" y="64"/>
+      <point x="8" y="49" type="curve"/>
+      <point x="3" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="672" y="1103" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="504" y="-76" type="move" name="L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1</real>
+        <real>0.986</real>
+        <real>0.6</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

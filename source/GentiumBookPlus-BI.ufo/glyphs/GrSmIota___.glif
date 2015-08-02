@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmIota" format="1">
+  <advance width="616"/>
+  <unicode hex="03B9"/>
+  <outline>
+    <contour>
+      <point x="586" y="229" type="curve"/>
+      <point x="529" y="282" type="line"/>
+      <point x="463" y="172"/>
+      <point x="433" y="136"/>
+      <point x="410" y="146" type="curve" smooth="yes"/>
+      <point x="388" y="156"/>
+      <point x="373" y="165"/>
+      <point x="405" y="349" type="curve" smooth="yes"/>
+      <point x="501" y="936" type="line"/>
+      <point x="440" y="936" type="line"/>
+      <point x="352" y="897"/>
+      <point x="162" y="870"/>
+      <point x="78" y="856" type="curve"/>
+      <point x="65" y="777" type="line"/>
+      <point x="212" y="777"/>
+      <point x="202" y="765"/>
+      <point x="176" y="609" type="curve"/>
+      <point x="108" y="220" type="line" smooth="yes"/>
+      <point x="75" y="33"/>
+      <point x="181" y="-41"/>
+      <point x="277" y="-41" type="curve" smooth="yes"/>
+      <point x="417" y="-41"/>
+      <point x="497" y="40"/>
+    </contour>
+    <contour>
+      <point x="373" y="1050" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

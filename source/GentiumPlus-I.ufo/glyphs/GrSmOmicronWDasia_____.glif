@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmOmicronWDasia" format="1">
+  <advance width="874"/>
+  <unicode hex="1F41"/>
+  <outline>
+    <component base="GrSmOmicron"/>
+    <component base="GrDasia" xOffset="330"/>
+  </outline>
+</glyph>

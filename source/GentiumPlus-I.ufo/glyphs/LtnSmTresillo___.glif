@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmTresillo" format="1">
+  <advance width="828"/>
+  <unicode hex="A72B"/>
+  <outline>
+    <contour>
+      <point x="257" y="604" type="line"/>
+      <point x="488" y="818" type="line"/>
+      <point x="606" y="818"/>
+      <point x="663" y="750"/>
+      <point x="678" y="696" type="curve"/>
+      <point x="709" y="686" type="line"/>
+      <point x="737" y="723"/>
+      <point x="783" y="815"/>
+      <point x="782" y="848" type="curve"/>
+      <point x="750" y="894"/>
+      <point x="664" y="936"/>
+      <point x="497" y="936" type="curve"/>
+      <point x="89" y="555" type="line"/>
+      <point x="359" y="300" type="line"/>
+      <point x="135" y="270"/>
+      <point x="-15" y="124"/>
+      <point x="-47" y="-105" type="curve" smooth="yes"/>
+      <point x="-83" y="-363"/>
+      <point x="69" y="-503"/>
+      <point x="267" y="-503" type="curve" smooth="yes"/>
+      <point x="453" y="-503"/>
+      <point x="681" y="-316"/>
+      <point x="687" y="-177" type="curve"/>
+      <point x="668" y="-148" type="line"/>
+      <point x="624" y="-151"/>
+      <point x="565" y="-174"/>
+      <point x="521" y="-195" type="curve"/>
+      <point x="541" y="-324"/>
+      <point x="415" y="-399"/>
+      <point x="309" y="-399" type="curve" smooth="yes"/>
+      <point x="186" y="-399"/>
+      <point x="60" y="-286"/>
+      <point x="93" y="-56" type="curve" smooth="yes"/>
+      <point x="116" y="111"/>
+      <point x="238" y="210"/>
+      <point x="389" y="210" type="curve" smooth="yes"/>
+      <point x="417" y="210"/>
+      <point x="444" y="202"/>
+      <point x="461" y="192" type="curve"/>
+      <point x="497" y="211"/>
+      <point x="550" y="265"/>
+      <point x="571" y="307" type="curve"/>
+    </contour>
+    <contour>
+      <point x="514" y="1000" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="268" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

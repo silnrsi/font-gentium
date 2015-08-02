@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnRetrClick" format="1">
+  <advance width="491"/>
+  <unicode hex="01C3"/>
+  <outline>
+    <contour>
+      <point x="485" y="1495" type="curve"/>
+      <point x="449" y="1520" type="line"/>
+      <point x="393" y="1505"/>
+      <point x="295" y="1452"/>
+      <point x="257" y="1425" type="curve"/>
+      <point x="250" y="1091"/>
+      <point x="212" y="737"/>
+      <point x="171" y="371" type="curve"/>
+      <point x="195" y="350" type="line"/>
+      <point x="228" y="360"/>
+      <point x="242" y="371"/>
+      <point x="269" y="389" type="curve"/>
+      <point x="332" y="766"/>
+      <point x="398" y="1134"/>
+    </contour>
+    <contour>
+      <point x="301" y="142" type="curve"/>
+      <point x="301" y="197"/>
+      <point x="268" y="236"/>
+      <point x="219" y="236" type="curve" smooth="yes"/>
+      <point x="135" y="236"/>
+      <point x="69" y="135"/>
+      <point x="69" y="58" type="curve" smooth="yes"/>
+      <point x="69" y="-2"/>
+      <point x="100" y="-41"/>
+      <point x="153" y="-41" type="curve" smooth="yes"/>
+      <point x="243" y="-41"/>
+      <point x="301" y="60"/>
+    </contour>
+    <contour>
+      <point x="395" y="1640" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="157" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

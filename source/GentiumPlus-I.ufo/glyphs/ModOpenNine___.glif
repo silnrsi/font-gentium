@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModOpenNine" format="1">
+  <advance width="599"/>
+  <unicode hex="A770"/>
+  <outline>
+    <contour>
+      <point x="104" y="353" type="curve"/>
+      <point x="102" y="343"/>
+      <point x="104" y="316"/>
+      <point x="107" y="308" type="curve"/>
+      <point x="413" y="386"/>
+      <point x="560" y="574"/>
+      <point x="604" y="777" type="curve" smooth="yes"/>
+      <point x="659" y="1029"/>
+      <point x="553" y="1170"/>
+      <point x="401" y="1170" type="curve" smooth="yes"/>
+      <point x="242" y="1170"/>
+      <point x="111" y="997"/>
+      <point x="78" y="856" type="curve" smooth="yes"/>
+      <point x="53" y="750"/>
+      <point x="92" y="584"/>
+      <point x="240" y="584" type="curve" smooth="yes"/>
+      <point x="277" y="584"/>
+      <point x="320" y="592"/>
+      <point x="371" y="615" type="curve"/>
+      <point x="381" y="628"/>
+      <point x="387" y="655"/>
+      <point x="391" y="670" type="curve"/>
+      <point x="370" y="665"/>
+      <point x="352" y="663"/>
+      <point x="334" y="663" type="curve" smooth="yes"/>
+      <point x="205" y="663"/>
+      <point x="183" y="802"/>
+      <point x="208" y="912" type="curve" smooth="yes"/>
+      <point x="228" y="1000"/>
+      <point x="287" y="1090"/>
+      <point x="354" y="1091" type="curve"/>
+      <point x="449" y="1091"/>
+      <point x="524" y="946"/>
+      <point x="479" y="739" type="curve" smooth="yes"/>
+      <point x="443" y="573"/>
+      <point x="345" y="435"/>
+    </contour>
+    <contour>
+      <point x="383" y="1286" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="282" y="548" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

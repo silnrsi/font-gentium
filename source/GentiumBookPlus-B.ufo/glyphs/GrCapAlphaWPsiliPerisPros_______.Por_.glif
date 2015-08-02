@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapAlphaWPsiliPerisPros.Por" format="1">
+  <advance width="1976"/>
+  <outline>
+    <component base="GrCapAlpha" xOffset="153"/>
+    <component base="GrPsiliPeris.Por" xOffset="-23" yOffset="-80"/>
+    <component base="GrPros" xOffset="1372"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.704</real>
+        <real>1</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

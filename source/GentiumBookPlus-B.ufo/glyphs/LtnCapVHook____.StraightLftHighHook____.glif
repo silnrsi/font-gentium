@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapVHook.StraightLftHighHook" format="1">
+  <advance width="1255"/>
+  <outline>
+    <contour>
+      <point x="545" y="1260" type="line"/>
+      <point x="10" y="1260" type="line"/>
+      <point x="10" y="1177" type="line"/>
+      <point x="94" y="1166"/>
+      <point x="129" y="1146"/>
+      <point x="142" y="1111" type="curve"/>
+      <point x="602" y="-30" type="line"/>
+      <point x="637" y="-22"/>
+      <point x="796" y="34"/>
+      <point x="817" y="93" type="curve"/>
+      <point x="1120" y="833" type="line" smooth="yes"/>
+      <point x="1236" y="1116"/>
+      <point x="1241" y="1207"/>
+      <point x="1240" y="1283" type="curve" smooth="yes"/>
+      <point x="1238" y="1391"/>
+      <point x="1174" y="1482"/>
+      <point x="1020" y="1482" type="curve" smooth="yes"/>
+      <point x="996" y="1482"/>
+      <point x="952" y="1477"/>
+      <point x="921" y="1471" type="curve"/>
+      <point x="869" y="1437"/>
+      <point x="730" y="1349"/>
+      <point x="690" y="1302" type="curve"/>
+      <point x="741" y="1232" type="line"/>
+      <point x="800" y="1251"/>
+      <point x="828" y="1260"/>
+      <point x="864" y="1260" type="curve" smooth="yes"/>
+      <point x="961" y="1260"/>
+      <point x="1006" y="1206"/>
+      <point x="1006" y="1115" type="curve" smooth="yes"/>
+      <point x="1006" y="1081"/>
+      <point x="1009" y="1030"/>
+      <point x="938" y="839" type="curve" smooth="yes"/>
+      <point x="742" y="313" type="line"/>
+      <point x="427" y="1113" type="line"/>
+      <point x="413" y="1151"/>
+      <point x="439" y="1169"/>
+      <point x="545" y="1177" type="curve"/>
+    </contour>
+    <contour>
+      <point x="672" y="1512" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="655" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="610" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="665" y="0" type="move" name="H"/>
+    </contour>
+  </outline>
+</glyph>

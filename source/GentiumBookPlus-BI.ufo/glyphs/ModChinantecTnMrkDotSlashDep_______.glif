@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModChinantecTnMrkDotSlashDep" format="1">
+  <advance width="517"/>
+  <unicode hex="F199"/>
+  <outline>
+    <contour>
+      <point x="80" y="1041" type="line"/>
+      <point x="587" y="1041" type="line"/>
+      <point x="587" y="1559" type="line"/>
+      <point x="80" y="1559" type="line"/>
+    </contour>
+    <contour>
+      <point x="262" y="1456" type="curve" smooth="yes"/>
+      <point x="257" y="1420"/>
+      <point x="223" y="1387"/>
+      <point x="190" y="1387" type="curve" smooth="yes"/>
+      <point x="156" y="1387"/>
+      <point x="133" y="1420"/>
+      <point x="138" y="1456" type="curve"/>
+      <point x="142" y="1493"/>
+      <point x="176" y="1525"/>
+      <point x="209" y="1525" type="curve" smooth="yes"/>
+      <point x="243" y="1525"/>
+      <point x="267" y="1493"/>
+    </contour>
+    <contour>
+      <point x="110" y="1149" type="line"/>
+      <point x="481" y="1529" type="line"/>
+      <point x="505" y="1520"/>
+      <point x="537" y="1503"/>
+      <point x="557" y="1488" type="curve"/>
+      <point x="556" y="1451" type="line"/>
+      <point x="185" y="1071" type="line"/>
+      <point x="165" y="1078"/>
+      <point x="130" y="1096"/>
+      <point x="110" y="1111" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1</real>
+        <real>0.986</real>
+        <real>0.6</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

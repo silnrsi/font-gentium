@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombGrave" format="1">
+  <advance width="0"/>
+  <unicode hex="0300"/>
+  <outline>
+    <contour>
+      <point x="-190" y="1056" type="curve"/>
+      <point x="-307" y="1478" type="line"/>
+      <point x="-341" y="1478"/>
+      <point x="-518" y="1453"/>
+      <point x="-550" y="1447" type="curve"/>
+      <point x="-593" y="1391" type="line"/>
+      <point x="-282" y="1016" type="line"/>
+      <point x="-258" y="1017"/>
+      <point x="-215" y="1036"/>
+    </contour>
+    <contour>
+      <point x="-225" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-275" y="1000" type="move" name="_U"/>
+    </contour>
+  </outline>
+</glyph>
