@@ -1,0 +1,22 @@
+/*
+	Font-specific stuff for Gentium
+	
+	This file gets copied to fontSpecific.gdh as part of the build process,
+	and thus is #included in main.gdh.
+	
+
+	This file is part of Gentium Plus font family 
+	(http://scripts.sil.org/Gentium) and is 
+	Copyright (c) 2003-2014 SIL International (http://www.sil.org/),
+	with Reserved Font Names "Gentium" and "SIL".
+
+	This Font Software is licensed under the SIL Open Font License,
+	Version 1.1.
+
+	You should have received a copy of the license along with this Font Software.
+	If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+	details including a FAQ.
+
+*/
+
+#define FONT GENTIUMfont

@@ -1,0 +1,82 @@
+/*
+	This file is part of Gentium Plus font family 
+	(http://scripts.sil.org/Gentium) and is 
+	Copyright (c) 2003-2014 SIL International (http://www.sil.org/),
+	with Reserved Font Names "Gentium" and "SIL".
+
+	This Font Software is licensed under the SIL Open Font License,
+	Version 1.1.
+
+	You should have received a copy of the license along with this Font Software.
+	If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+	details including a FAQ.
+
+*/
+/*
+    Glyph information for font Gentium Plus at Fri Oct 24 14:54:50 2014
+*/
+
+table(glyph) {MUnits = 2048};
+
+/* cTakesLPDiac class includes non-deprecated, Latin, upper case glyphs with U APs */
+
+/* Classes */
+cTakesLPDiac = (g__a, g__b, g__c, g__d, g__e, g__f, g__g, g__h,
+    g__i, g__j, g__k, g__l, g__m, g__n, g__o, g__p,
+    g__q, g__r, g__s, g__t, g__u, g__v, g__w, g__x,
+    g__y, g__z, g__adieresis, g__aring, g__ccedilla, g__eacute, g__ntilde, g__odieresis,
+    g__udieresis, g__a_e, g__oslash, g__agrave, g__atilde, g__otilde, g__o_e, g__ydieresis,
+    g__acircumflex, g__ecircumflex, g__aacute, g__edieresis, g__egrave, g__iacute, g__icircumflex, g__idieresis,
+    g__igrave, g__oacute, g__ocircumflex, g__ograve, g__uacute, g__ucircumflex, g__ugrave, g0200,
+    g1ea4, g1ea4_vN, g1ea6, g1ea6_vN, g1eaa, g1eaa_vN, g1ea8, g1ea8_vN,
+    g1eac, g0202, g__abreve, g1eae, g1eae_vN, g1eb0, g1eb0_vN, g1eb4,
+    g1eb4_vN, g1eb2, g1eb2_vN, g1eb6, g01cd, g__amacron, g01de, g0226,
+    g01e0, g__aringacute, g1ea2, g1ea0, g1e00, g__aogonek, g__aogonek_retro_hook, g023a,
+    g2c6f, ga734, ga732, ga736, ga738, ga73a, ga73c, g2c6d,
+    g2c70, g__a_eacute, g01e2, g1e02, g1e06, g1e04, g0243, g0181,
+    g0184, g0182, g0181_topBar, g1e9e, g__cacute, g__ccircumflex, g__ccaron, g__cdotaccent,
+    g1e08, ga792, g023b, g0187, g0186, g0186_topSerif, g2183, ga73e,
+    g__dcaron, g1e0a, g1e12, g1e0e, g1e0c, g1e10, g__eth, g__dcroat,
+    g0189, g018a, g018a_topBar, g018b, g01f1, g01c4, g0204, g1ebe,
+    g1ebe_vN, g1ec0, g1ec0_vN, g1ec4, g1ec4_vN, g1ec2, g1ec2_vN, g1ec6,
+    g0206, g__ebreve, g__ecaron, g1ebc, g__emacron, g1e16, g1e14, g__edotaccent,
+    g1eba, g1e18, g1e1a, g1eb8, g0228, g1e1c, g__eogonek, g__eogonek_retro_hook,
+    g0246, g018e, g018f, g0190, g1e1e, g0191, g01f4, g__gcircumflex,
+    g__gbreve, g__gcaron, g1e20, g__gdotaccent, g__gcommaaccent, g01e4, ga7a0, g0193,
+    ga77d, ga77e, g__hcircumflex, g021e, g1e26, g1e22, g1e2a, g1e24,
+    g1e28, g__hbar, g__hbar_vert_strk, ga7aa, ga726, g2c67, g01f6, g2c75,
+    ga78d, g0208, g020a, g__ibreve, g01cf, g__itilde, g__imacron, g1e2e,
+    g__idotaccent, g1ec8, g1e2c, g1eca, g__iogonek, g__iogonek_retro_hook, g0197, g__i_j,
+    g0196, g__jcircumflex, g0248, ga76c, g1e30, g01e8, g1e34, g1e32,
+    g__kcommaaccent, ga740, ga744, ga742, ga7a2, g0198, g2c69, g__lacute,
+    g1e3c, g1e3a, g1e36, g1e38, g__lcommaaccent, g__ldot, g__lcaron, g__lcaron_caron,
+    g023d, ga748, g2c60, g2c62, g__lslash, ga746, ga780, g01c7,
+    g1efa, g1e3e, g1e40, g1e42, g2c6e, g019c, g__nacute, g01f8,
+    g__ncaron, g1e44, g1e4a, g1e48, g1e46, g__ncommaaccent, ga7a4, g019d,
+    g__eng_u_c_style, ga790, g019d_lCStyle, g__eng_baseline_hook, g__eng, g0220, g__eng_kom, g01ca,
+    g__ohungarumlaut, g020c, g1ed0, g1ed0_vN, g1ed2, g1ed2_vN, g1ed6, g1ed6_vN,
+    g1ed4, g1ed4_vN, g1ed8, g020e, g__obreve, g01d1, g1e4c, g022c,
+    g1e4e, g__omacron, g1e52, g1e50, g022a, g022e, g0230, g1ece,
+    g1ecc, g01ea, g01ec, g01ea_retroHook, g01ec_retroHook, g019f, ga74a, g__oslashacute,
+    ga74c, ga779, g__ohorn, g1eda, g1edc, g1ee0, g1ede, g1ee2,
+    g01a2, ga74e, g0222, g0222_openTop, g1e54, g1e56, g2c63, ga750,
+    g01a4, ga754, ga752, g__thorn, ga764, ga766, g01f7, g024a,
+    ga756, ga758, g__racute, g0210, g0212, g__rcaron, g1e58, g1e5e,
+    g1e5a, g1e5c, g__rcommaaccent, g024c, ga7a6, g2c64, ga75a, ga75c,
+    ga782, ga784, ga77b, g2c64_lCStyle, g01a6, g__sacute, g1e64, g__scircumflex,
+    g__scaron, g1e66, g1e60, g1e62, g1e68, g0218, g__scedilla, ga7a8,
+    g2c7e, g01a7, g__tcaron, g1e6a, g1e70, g1e6e, g1e6c, g021a,
+    g0162, g__tbar, g023e, g01ac, g01ac_rtHook, g01ae, ga728, ga786,
+    g__uhungarumlaut, g0214, g0216, g__ubreve, g01d3, g__utilde, g1e78, g__umacron,
+    g1e7a, g01d7, g01db, g01d9, g01d5, g__uring, g1ee6, g1e76,
+    g1e74, g1e72, g1ee4, g__uogonek, g__uogonek_retro_hook, g0244, g__uhorn, g1ee8,
+    g1eea, g1eee, g1eec, g1ef0, g01b2, ga75e, ga760, ga768,
+    g01b1, g1e7c, g1e7e, g01b2_straightLft, g01b2_straightLftHighHook, g0245, g0194, g__wacute,
+    g__wgrave, g__wcircumflex, g__wdieresis, g1e86, g1e88, g2c72, g1e8c, g1e8a,
+    g__yacute, g__ygrave, g__ycircumflex, g1ef8, g0232, g1e8e, g1ef6, g1ef4,
+    g024e, g01b3_rtHook, g1efe, g__zacute, g1e90, g__zcaron, g__zdotaccent, g1e94,
+    g1e92, g01b5, g0224, g2c6b, g2c7f, ga762, g01a9, g01b7_revSigmaStyle,
+    g01b7, g01ee, g01b8, ga72a, g021c, ga76a, g0241, ga72c,
+    ga72e, g01bc, g1efc, ga76e, ga78b, ga78b_lrg, ga724, ga722);
+
+endtable;
