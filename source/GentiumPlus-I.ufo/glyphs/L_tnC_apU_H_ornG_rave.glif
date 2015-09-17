@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapUHornGrave" format="1">
+  <advance width="1365"/>
+  <unicode hex="1EEA"/>
+  <outline>
+    <component base="LtnCapU"/>
+    <component base="CombHorn" xOffset="1277" yOffset="380"/>
+    <component base="CombGrave.LP" xOffset="1032" yOffset="320"/>
+    <contour>
+      <point x="800" y="1640" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="563" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapEzhCaron" format="1">
+  <advance width="959"/>
+  <unicode hex="01EE"/>
+  <outline>
+    <component base="LtnCapEzh"/>
+    <component base="CombCaron.LP" xOffset="978" yOffset="320"/>
+    <contour>
+      <point x="670" y="1668" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="430" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

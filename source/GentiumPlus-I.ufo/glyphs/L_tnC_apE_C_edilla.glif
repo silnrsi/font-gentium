@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapECedilla" format="1">
+  <advance width="946"/>
+  <unicode hex="0228"/>
+  <outline>
+    <component base="LtnCapE"/>
+    <component base="CombCedilla" xOffset="898"/>
+    <contour>
+      <point x="972" y="1072" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="591" y="1320" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="329" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="621" y="0" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

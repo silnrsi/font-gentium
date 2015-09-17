@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CySmBarredODiaer" format="1">
+  <advance width="924"/>
+  <unicode hex="04EB"/>
+  <outline>
+    <component base="LtnSmBarredO"/>
+    <component base="CombDiaer" xOffset="923"/>
+    <contour>
+      <point x="950" y="870" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="587" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="384" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

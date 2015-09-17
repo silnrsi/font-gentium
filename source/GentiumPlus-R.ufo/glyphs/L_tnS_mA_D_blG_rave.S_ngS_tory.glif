@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmADblGrave.SngStory" format="1">
+  <advance width="1023"/>
+  <outline>
+    <component base="LtnSmAlpha"/>
+    <component base="CombDblGrave" xOffset="1084"/>
+    <contour>
+      <point x="532" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1023" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="544" y="1533" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="544" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="790" y="0" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

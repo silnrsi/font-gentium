@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmZDotBlw.SItal" format="1">
+  <advance width="869"/>
+  <outline>
+    <component base="LtnSmZ.SItal"/>
+    <component base="CombDotBlw" xOffset="1000"/>
+    <contour>
+      <point x="750" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="480" y="1050" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="452" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

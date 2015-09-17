@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="DotTnLtr5" format="1">
+  <advance width="745"/>
+  <unicode hex="A708"/>
+  <outline>
+    <component base="TnLtrSpcDotLeft"/>
+    <component base="TnLtrDot5" xOffset="200"/>
+    <component base="TnLtrSpcDotMiddle" xOffset="200"/>
+    <component base="TnLtrBar" xOffset="550"/>
+    <component base="TnLtrSpcFlatRight" xOffset="550"/>
+  </outline>
+</glyph>

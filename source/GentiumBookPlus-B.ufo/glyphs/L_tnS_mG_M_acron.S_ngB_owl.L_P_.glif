@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmGMacron.SngBowl.LP" format="1">
+  <advance width="1085"/>
+  <outline>
+    <component base="LtnSmG.SngBowl"/>
+    <component base="CombMacron.LP" xOffset="1156"/>
+    <contour>
+      <point x="533" y="-440" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1085" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="598" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="598" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

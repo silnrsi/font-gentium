@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmWDiaer" format="1">
+  <advance width="1446"/>
+  <unicode hex="1E85"/>
+  <outline>
+    <component base="LtnSmW"/>
+    <component base="CombDiaer" xOffset="1265"/>
+    <contour>
+      <point x="750" y="1410" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="730" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

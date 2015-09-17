@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmHCedilla.sc" format="1">
+  <advance width="1161"/>
+  <outline>
+    <component base="LtnSmH.sc"/>
+    <component base="CombCedilla" xOffset="721" yOffset="7"/>
+    <contour>
+      <point x="693" y="1103" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="121" y="-593" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

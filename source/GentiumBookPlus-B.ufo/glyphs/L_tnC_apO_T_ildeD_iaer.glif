@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapOTildeDiaer" format="1">
+  <advance width="1289"/>
+  <unicode hex="1E4E"/>
+  <outline>
+    <component base="LtnCapO"/>
+    <component base="CombTilde.LP" xOffset="1194" yOffset="320"/>
+    <component base="CombDiaer.LP" xOffset="1194" yOffset="640"/>
+    <contour>
+      <point x="613" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1256" y="1100" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="646" y="2010" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="646" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="712" y="0" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

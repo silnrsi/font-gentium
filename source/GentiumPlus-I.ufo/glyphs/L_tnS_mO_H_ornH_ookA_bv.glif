@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmOHornHookAbv" format="1">
+  <advance width="948"/>
+  <unicode hex="1EDF"/>
+  <outline>
+    <component base="LtnSmO"/>
+    <component base="CombHorn" xOffset="860"/>
+    <component base="CombHookAbv" xOffset="865"/>
+    <contour>
+      <point x="549" y="1320" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="354" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmUDiaerMacron" format="1">
+  <advance width="1127"/>
+  <unicode hex="01D6"/>
+  <outline>
+    <component base="LtnSmU"/>
+    <component base="CombDiaer" xOffset="1021"/>
+    <component base="CombMacron" xOffset="1083" yOffset="370"/>
+    <contour>
+      <point x="435" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1170" y="870" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="737" y="1740" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="482" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="849" y="0" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

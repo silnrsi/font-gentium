@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmOHornAcute.sc" format="1">
+  <advance width="1155"/>
+  <outline>
+    <component base="LtnSmOHorn.sc"/>
+    <component base="CombAcute" xOffset="1118" yOffset="95"/>
+    <contour>
+      <point x="488" y="1535" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="578" y="-76" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

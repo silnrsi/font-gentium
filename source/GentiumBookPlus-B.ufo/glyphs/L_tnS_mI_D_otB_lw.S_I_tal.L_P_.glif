@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmIDotBlw.SItal.LP" format="1">
+  <advance width="635"/>
+  <outline>
+    <component base="LtnSmI.SItal.LP"/>
+    <component base="CombDotBlw" xOffset="833"/>
+    <contour>
+      <point x="555" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="285" y="1050" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="285" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="335" y="0" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

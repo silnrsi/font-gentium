@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmIAcute.sc" format="1">
+  <advance width="573"/>
+  <outline>
+    <component base="LtnSmI.sc"/>
+    <component base="CombAcute" xOffset="820" yOffset="95"/>
+    <contour>
+      <point x="277" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="545" y="920" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="277" y="1505" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="277" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="324" y="7" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

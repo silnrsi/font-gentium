@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmScriptG" format="1">
+  <advance width="985"/>
+  <unicode hex="0261"/>
+  <outline>
+    <component base="LtnSmG.SngBowl"/>
+    <contour>
+      <point x="520" y="-470" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1060" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="540" y="1050" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="520" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

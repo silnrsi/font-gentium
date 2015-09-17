@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapWCircum" format="1">
+  <advance width="1603"/>
+  <unicode hex="0174"/>
+  <outline>
+    <component base="LtnCapW"/>
+    <component base="CombCircum.LP" xOffset="1325" yOffset="320"/>
+    <contour>
+      <point x="999" y="1735" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="750" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

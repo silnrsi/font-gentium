@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmRDotBlwMacron.sc" format="1">
+  <advance width="1012"/>
+  <outline>
+    <component base="LtnSmR.sc"/>
+    <component base="CombDotBlw" xOffset="963" yOffset="24"/>
+    <component base="CombMacron" xOffset="979" yOffset="103"/>
+    <contour>
+      <point x="188" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="633" y="1473" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="359" y="-576" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

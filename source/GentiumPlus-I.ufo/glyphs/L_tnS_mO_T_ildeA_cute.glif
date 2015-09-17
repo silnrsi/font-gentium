@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmOTildeAcute" format="1">
+  <advance width="864"/>
+  <unicode hex="1E4D"/>
+  <outline>
+    <component base="LtnSmO"/>
+    <component base="CombTilde" xOffset="860"/>
+    <component base="CombAcute" xOffset="907" yOffset="353"/>
+    <contour>
+      <point x="374" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="920" y="870" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="605" y="1723" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="354" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="429" y="0" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

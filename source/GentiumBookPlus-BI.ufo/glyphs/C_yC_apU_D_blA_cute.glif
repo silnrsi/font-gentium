@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CyCapUDblAcute" format="1">
+  <advance width="1116"/>
+  <unicode hex="04F2"/>
+  <outline>
+    <component base="CyCapU"/>
+    <component base="CombDblAcute" xOffset="1126" yOffset="320"/>
+    <contour>
+      <point x="877" y="1844" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="545" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

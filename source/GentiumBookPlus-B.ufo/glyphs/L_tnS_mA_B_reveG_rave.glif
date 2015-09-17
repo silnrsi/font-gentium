@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmABreveGrave" format="1">
+  <advance width="1050"/>
+  <unicode hex="1EB1"/>
+  <outline>
+    <component base="LtnSmA"/>
+    <component base="CombBreve" xOffset="1074"/>
+    <component base="CombGrave" xOffset="992" yOffset="320"/>
+    <contour>
+      <point x="409" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1050" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="526" y="1730" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="502" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="800" y="0" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

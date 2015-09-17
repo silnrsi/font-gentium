@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmWGrave.LP" format="1">
+  <advance width="1420"/>
+  <outline>
+    <component base="LtnSmW"/>
+    <component base="CombGrave.LP" xOffset="1126"/>
+    <contour>
+      <point x="861" y="1320" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="667" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

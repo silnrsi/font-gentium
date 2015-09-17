@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmTDotAbv.LP" format="1">
+  <advance width="775"/>
+  <outline>
+    <component base="LtnSmT"/>
+    <component base="CombDotAbv.LP" xOffset="926" yOffset="270"/>
+    <contour>
+      <point x="378" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="570" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="378" y="1640" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="378" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

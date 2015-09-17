@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CySmIMacron" format="1">
+  <advance width="1022"/>
+  <unicode hex="04E3"/>
+  <outline>
+    <component base="CySmI"/>
+    <component base="CombMacron" xOffset="946"/>
+    <contour>
+      <point x="633" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="430" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

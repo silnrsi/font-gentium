@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmIDblGrave.SItal" format="1">
+  <advance width="459"/>
+  <outline>
+    <component base="LtnSmDotlessI.SItal"/>
+    <component base="CombDblGrave" xOffset="652"/>
+    <contour>
+      <point x="180" y="-10" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="463" y="875" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="380" y="1496" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="184" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="234" y="-10" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

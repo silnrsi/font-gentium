@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapAOgonek" format="1">
+  <advance width="1219"/>
+  <unicode hex="0104"/>
+  <outline>
+    <component base="LtnCapA"/>
+    <component base="CombOgonek" xOffset="1424"/>
+    <contour>
+      <point x="599" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="599" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="910" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

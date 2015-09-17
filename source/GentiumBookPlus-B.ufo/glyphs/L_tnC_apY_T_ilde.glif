@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapYTilde" format="1">
+  <advance width="1267"/>
+  <unicode hex="1EF8"/>
+  <outline>
+    <component base="LtnCapY"/>
+    <component base="CombTilde.LP" xOffset="1182" yOffset="320"/>
+    <contour>
+      <point x="634" y="1690" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="634" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

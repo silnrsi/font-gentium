@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapEMacronAcute" format="1">
+  <advance width="1096"/>
+  <unicode hex="1E16"/>
+  <outline>
+    <component base="LtnCapE"/>
+    <component base="CombMacron.LP" xOffset="1105" yOffset="320"/>
+    <component base="CombAcute.LP" xOffset="1123" yOffset="640"/>
+    <contour>
+      <point x="547" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1096" y="1100" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="547" y="2010" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="547" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="825" y="0" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmRAcute" format="1">
+  <advance width="941"/>
+  <unicode hex="0155"/>
+  <outline>
+    <component base="LtnSmR"/>
+    <component base="CombAcute" xOffset="1060"/>
+    <contour>
+      <point x="303" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="430" y="1440" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="303" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

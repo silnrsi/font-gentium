@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmJCaron.LP" format="1">
+  <advance width="610"/>
+  <outline>
+    <component base="LtnSmJ.Dotless"/>
+    <component base="CombCaron.LP" xOffset="867"/>
+    <contour>
+      <point x="320" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="320" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

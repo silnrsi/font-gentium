@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmSCaronDotAbv.sc" format="1">
+  <advance width="845"/>
+  <outline>
+    <component base="LtnSmS.sc"/>
+    <component base="CombCaron" xOffset="897" yOffset="103"/>
+    <component base="CombDotAbv" xOffset="956" yOffset="525"/>
+    <contour>
+      <point x="370" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="649" y="1878" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="357" y="-76" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

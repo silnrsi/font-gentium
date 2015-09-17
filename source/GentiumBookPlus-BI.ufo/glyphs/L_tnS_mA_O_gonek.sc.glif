@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmAOgonek.sc" format="1">
+  <advance width="1078"/>
+  <outline>
+    <component base="LtnSmA.sc"/>
+    <component base="CombOgonek" xOffset="1284" yOffset="7"/>
+    <contour>
+      <point x="827" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="654" y="1103" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="663" y="-593" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

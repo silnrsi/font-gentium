@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmUHornTilde.LP" format="1">
+  <advance width="1255"/>
+  <outline>
+    <component base="LtnSmU"/>
+    <component base="CombHorn" xOffset="1185"/>
+    <component base="CombTilde.LP" xOffset="1060"/>
+    <contour>
+      <point x="545" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="545" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

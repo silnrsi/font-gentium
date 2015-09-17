@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CySmShortU" format="1">
+  <advance width="926"/>
+  <unicode hex="045E"/>
+  <outline>
+    <component base="CySmU"/>
+    <component base="CombBreve.CyShortMrkAlt" xOffset="1039"/>
+    <contour>
+      <point x="612" y="1320" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="620" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

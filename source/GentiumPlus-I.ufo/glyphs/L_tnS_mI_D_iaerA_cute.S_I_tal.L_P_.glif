@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmIDiaerAcute.SItal.LP" format="1">
+  <advance width="459"/>
+  <outline>
+    <component base="LtnSmDotlessI.SItal"/>
+    <component base="CombDiaer.LP" xOffset="649"/>
+    <component base="CombAcute.LP" xOffset="691" yOffset="320"/>
+    <contour>
+      <point x="180" y="-10" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="463" y="875" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="382" y="1640" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="184" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="234" y="-10" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapXDiaer" format="1">
+  <advance width="1171"/>
+  <unicode hex="1E8C"/>
+  <outline>
+    <component base="LtnCapX"/>
+    <component base="CombDiaer.LP" xOffset="1068" yOffset="320"/>
+    <contour>
+      <point x="757" y="1640" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="519" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

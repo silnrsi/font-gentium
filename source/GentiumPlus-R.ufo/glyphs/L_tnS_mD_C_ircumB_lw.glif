@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmDCircumBlw" format="1">
+  <advance width="1065"/>
+  <unicode hex="1E13"/>
+  <outline>
+    <component base="LtnSmD"/>
+    <component base="CombCircumBlw" xOffset="1039"/>
+    <contour>
+      <point x="558" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1065" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="335" y="1050" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="525" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

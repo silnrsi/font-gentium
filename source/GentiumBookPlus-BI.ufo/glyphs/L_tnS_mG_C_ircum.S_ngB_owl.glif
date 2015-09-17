@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmGCircum.SngBowl" format="1">
+  <advance width="977"/>
+  <outline>
+    <component base="LtnSmG.SngBowl"/>
+    <component base="CombCircum" xOffset="933"/>
+    <contour>
+      <point x="340" y="-450" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1096" y="870" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="621" y="1490" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="329" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

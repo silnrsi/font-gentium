@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmIHookAbv" format="1">
+  <advance width="635"/>
+  <unicode hex="1EC9"/>
+  <outline>
+    <component base="LtnSmDotlessI"/>
+    <component base="CombHookAbv" xOffset="876"/>
+    <contour>
+      <point x="325" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="635" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="325" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="325" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="386" y="0" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

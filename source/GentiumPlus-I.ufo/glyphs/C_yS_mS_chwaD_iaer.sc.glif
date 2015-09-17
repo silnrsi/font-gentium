@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CySmSchwaDiaer.sc" format="1">
+  <advance width="1009"/>
+  <outline>
+    <component base="LtnSmSchwa.sc"/>
+    <component base="CombDiaer" xOffset="960" yOffset="103"/>
+    <contour>
+      <point x="657" y="1473" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="423" y="-76" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

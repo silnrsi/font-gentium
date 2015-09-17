@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapARingAbvAcute" format="1">
+  <advance width="1219"/>
+  <unicode hex="01FA"/>
+  <outline>
+    <component base="LtnCapA"/>
+    <component base="CombRingAbv" xOffset="1114" yOffset="320"/>
+    <component base="CombAcute.LP" xOffset="1142" yOffset="760"/>
+    <contour>
+      <point x="599" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="599" y="2130" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="599" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="960" y="0" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

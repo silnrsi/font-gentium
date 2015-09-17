@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmODotBlw.sc" format="1">
+  <advance width="1049"/>
+  <outline>
+    <component base="LtnSmO.sc"/>
+    <component base="CombDotBlw" xOffset="977" yOffset="24"/>
+    <contour>
+      <point x="470" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1120" y="896" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="658" y="1103" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="406" y="-576" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="526" y="7" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CyCapUMacron" format="1">
+  <advance width="1240"/>
+  <unicode hex="04EE"/>
+  <outline>
+    <component base="CyCapU"/>
+    <component base="CombMacron.LP" xOffset="1208" yOffset="320"/>
+    <contour>
+      <point x="650" y="1690" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="650" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

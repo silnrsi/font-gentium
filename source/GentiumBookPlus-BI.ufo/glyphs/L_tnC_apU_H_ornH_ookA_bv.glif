@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapUHornHookAbv" format="1">
+  <advance width="1478"/>
+  <unicode hex="1EEC"/>
+  <outline>
+    <component base="LtnCapU"/>
+    <component base="CombHorn" xOffset="1310" yOffset="380"/>
+    <component base="CombHookAbv" xOffset="1167" yOffset="320"/>
+    <contour>
+      <point x="818" y="1640" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="590" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CyPalochka" format="1">
+  <advance width="573"/>
+  <unicode hex="04C0"/>
+  <outline>
+    <component base="LtnCapI"/>
+    <contour>
+      <point x="225" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="568" y="1072" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="406" y="1320" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="211" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="285" y="0" type="move" name="O"/>
+    </contour>
+  </outline>
+</glyph>
