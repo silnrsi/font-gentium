@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombMinusSgnBlw" format="1">
+  <advance width="0"/>
+  <unicode hex="0320"/>
+  <outline>
+    <contour>
+      <point x="-259" y="-247" type="curve"/>
+      <point x="-294" y="-213" type="line"/>
+      <point x="-776" y="-213" type="line"/>
+      <point x="-789" y="-240"/>
+      <point x="-830" y="-326"/>
+      <point x="-837" y="-353" type="curve"/>
+      <point x="-802" y="-387" type="line"/>
+      <point x="-320" y="-387" type="line"/>
+      <point x="-308" y="-361"/>
+      <point x="-266" y="-273"/>
+    </contour>
+    <contour>
+      <point x="-548" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-548" y="-100" type="move" name="_L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>-548</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

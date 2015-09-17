@@ -4,161 +4,10 @@
 <dict>
   <key>com.fontlab.v2.tth</key>
   <dict>
-    <key>zones</key>
-    <dict>
-      <key>b: 0</key>
-      <dict>
-        <key>position</key>
-        <integer>0</integer>
-        <key>width</key>
-        <integer>41</integer>
-        <key>top</key>
-        <false/>
-      </dict>
-      <key>b: 1</key>
-      <dict>
-        <key>position</key>
-        <integer>-480</integer>
-        <key>width</key>
-        <integer>20</integer>
-        <key>top</key>
-        <false/>
-      </dict>
-      <key>t: 0</key>
-      <dict>
-        <key>position</key>
-        <integer>930</integer>
-        <key>width</key>
-        <integer>36</integer>
-        <key>top</key>
-        <true/>
-      </dict>
-      <key>t: 1</key>
-      <dict>
-        <key>position</key>
-        <integer>1260</integer>
-        <key>width</key>
-        <integer>60</integer>
-        <key>top</key>
-        <true/>
-      </dict>
-    </dict>
     <key>stems</key>
     <dict>
-      <key>X: 43</key>
-      <dict>
-        <key>width</key>
-        <integer>43</integer>
-        <key>horizontal</key>
-        <true/>
-        <key>round</key>
-        <dict>
-          <key>0</key>
-          <integer>1</integer>
-          <key>72</key>
-          <integer>2</integer>
-          <key>120</key>
-          <integer>3</integer>
-          <key>167</key>
-          <integer>4</integer>
-          <key>215</key>
-          <integer>5</integer>
-          <key>262</key>
-          <integer>6</integer>
-        </dict>
-      </dict>
-      <key>X: 30</key>
-      <dict>
-        <key>width</key>
-        <integer>30</integer>
-        <key>horizontal</key>
-        <true/>
-        <key>round</key>
-        <dict>
-          <key>0</key>
-          <integer>1</integer>
-          <key>103</key>
-          <integer>2</integer>
-          <key>171</key>
-          <integer>3</integer>
-          <key>239</key>
-          <integer>4</integer>
-          <key>308</key>
-          <integer>5</integer>
-          <key>376</key>
-          <integer>6</integer>
-        </dict>
-      </dict>
-      <key>X: 49</key>
-      <dict>
-        <key>width</key>
-        <integer>49</integer>
-        <key>horizontal</key>
-        <true/>
-        <key>round</key>
-        <dict>
-          <key>0</key>
-          <integer>1</integer>
-          <key>63</key>
-          <integer>2</integer>
-          <key>105</key>
-          <integer>3</integer>
-          <key>147</key>
-          <integer>4</integer>
-          <key>189</key>
-          <integer>5</integer>
-          <key>230</key>
-          <integer>6</integer>
-        </dict>
-      </dict>
-      <key>X: 90</key>
-      <dict>
-        <key>width</key>
-        <integer>90</integer>
-        <key>horizontal</key>
-        <true/>
-        <key>round</key>
-        <dict>
-          <key>0</key>
-          <integer>1</integer>
-          <key>35</key>
-          <integer>2</integer>
-          <key>57</key>
-          <integer>3</integer>
-          <key>80</key>
-          <integer>4</integer>
-          <key>103</key>
-          <integer>5</integer>
-          <key>126</key>
-          <integer>6</integer>
-        </dict>
-      </dict>
-      <key>X: 96</key>
-      <dict>
-        <key>width</key>
-        <integer>96</integer>
-        <key>horizontal</key>
-        <true/>
-        <key>round</key>
-        <dict>
-          <key>0</key>
-          <integer>1</integer>
-          <key>32</key>
-          <integer>2</integer>
-          <key>54</key>
-          <integer>3</integer>
-          <key>75</key>
-          <integer>4</integer>
-          <key>96</key>
-          <integer>5</integer>
-          <key>118</key>
-          <integer>6</integer>
-        </dict>
-      </dict>
       <key>X: 276</key>
       <dict>
-        <key>width</key>
-        <integer>276</integer>
         <key>horizontal</key>
         <true/>
         <key>round</key>
@@ -176,33 +25,121 @@
           <key>41</key>
           <integer>6</integer>
         </dict>
-      </dict>
-      <key>Y: 56</key>
-      <dict>
         <key>width</key>
-        <integer>56</integer>
+        <integer>276</integer>
+      </dict>
+      <key>X: 30</key>
+      <dict>
         <key>horizontal</key>
-        <false/>
+        <true/>
         <key>round</key>
         <dict>
           <key>0</key>
           <integer>1</integer>
-          <key>55</key>
+          <key>103</key>
           <integer>2</integer>
-          <key>92</key>
+          <key>171</key>
           <integer>3</integer>
-          <key>128</key>
+          <key>239</key>
           <integer>4</integer>
-          <key>165</key>
+          <key>308</key>
           <integer>5</integer>
-          <key>202</key>
+          <key>376</key>
           <integer>6</integer>
         </dict>
+        <key>width</key>
+        <integer>30</integer>
+      </dict>
+      <key>X: 43</key>
+      <dict>
+        <key>horizontal</key>
+        <true/>
+        <key>round</key>
+        <dict>
+          <key>0</key>
+          <integer>1</integer>
+          <key>120</key>
+          <integer>3</integer>
+          <key>167</key>
+          <integer>4</integer>
+          <key>215</key>
+          <integer>5</integer>
+          <key>262</key>
+          <integer>6</integer>
+          <key>72</key>
+          <integer>2</integer>
+        </dict>
+        <key>width</key>
+        <integer>43</integer>
+      </dict>
+      <key>X: 49</key>
+      <dict>
+        <key>horizontal</key>
+        <true/>
+        <key>round</key>
+        <dict>
+          <key>0</key>
+          <integer>1</integer>
+          <key>105</key>
+          <integer>3</integer>
+          <key>147</key>
+          <integer>4</integer>
+          <key>189</key>
+          <integer>5</integer>
+          <key>230</key>
+          <integer>6</integer>
+          <key>63</key>
+          <integer>2</integer>
+        </dict>
+        <key>width</key>
+        <integer>49</integer>
+      </dict>
+      <key>X: 90</key>
+      <dict>
+        <key>horizontal</key>
+        <true/>
+        <key>round</key>
+        <dict>
+          <key>0</key>
+          <integer>1</integer>
+          <key>103</key>
+          <integer>5</integer>
+          <key>126</key>
+          <integer>6</integer>
+          <key>35</key>
+          <integer>2</integer>
+          <key>57</key>
+          <integer>3</integer>
+          <key>80</key>
+          <integer>4</integer>
+        </dict>
+        <key>width</key>
+        <integer>90</integer>
+      </dict>
+      <key>X: 96</key>
+      <dict>
+        <key>horizontal</key>
+        <true/>
+        <key>round</key>
+        <dict>
+          <key>0</key>
+          <integer>1</integer>
+          <key>118</key>
+          <integer>6</integer>
+          <key>32</key>
+          <integer>2</integer>
+          <key>54</key>
+          <integer>3</integer>
+          <key>75</key>
+          <integer>4</integer>
+          <key>96</key>
+          <integer>5</integer>
+        </dict>
+        <key>width</key>
+        <integer>96</integer>
       </dict>
       <key>Y: 115</key>
       <dict>
-        <key>width</key>
-        <integer>115</integer>
         <key>horizontal</key>
         <false/>
         <key>round</key>
@@ -220,11 +157,11 @@
           <key>98</key>
           <integer>6</integer>
         </dict>
+        <key>width</key>
+        <integer>115</integer>
       </dict>
       <key>Y: 150</key>
       <dict>
-        <key>width</key>
-        <integer>150</integer>
         <key>horizontal</key>
         <false/>
         <key>round</key>
@@ -242,11 +179,11 @@
           <key>76</key>
           <integer>6</integer>
         </dict>
+        <key>width</key>
+        <integer>150</integer>
       </dict>
       <key>Y: 160</key>
       <dict>
-        <key>width</key>
-        <integer>160</integer>
         <key>horizontal</key>
         <false/>
         <key>round</key>
@@ -264,11 +201,11 @@
           <key>71</key>
           <integer>6</integer>
         </dict>
+        <key>width</key>
+        <integer>160</integer>
       </dict>
       <key>Y: 164</key>
       <dict>
-        <key>width</key>
-        <integer>164</integer>
         <key>horizontal</key>
         <false/>
         <key>round</key>
@@ -286,6 +223,69 @@
           <key>69</key>
           <integer>6</integer>
         </dict>
+        <key>width</key>
+        <integer>164</integer>
+      </dict>
+      <key>Y: 56</key>
+      <dict>
+        <key>horizontal</key>
+        <false/>
+        <key>round</key>
+        <dict>
+          <key>0</key>
+          <integer>1</integer>
+          <key>128</key>
+          <integer>4</integer>
+          <key>165</key>
+          <integer>5</integer>
+          <key>202</key>
+          <integer>6</integer>
+          <key>55</key>
+          <integer>2</integer>
+          <key>92</key>
+          <integer>3</integer>
+        </dict>
+        <key>width</key>
+        <integer>56</integer>
+      </dict>
+    </dict>
+    <key>zones</key>
+    <dict>
+      <key>b: 0</key>
+      <dict>
+        <key>position</key>
+        <integer>0</integer>
+        <key>top</key>
+        <false/>
+        <key>width</key>
+        <integer>41</integer>
+      </dict>
+      <key>b: 1</key>
+      <dict>
+        <key>position</key>
+        <integer>-480</integer>
+        <key>top</key>
+        <false/>
+        <key>width</key>
+        <integer>20</integer>
+      </dict>
+      <key>t: 0</key>
+      <dict>
+        <key>position</key>
+        <integer>930</integer>
+        <key>top</key>
+        <true/>
+        <key>width</key>
+        <integer>36</integer>
+      </dict>
+      <key>t: 1</key>
+      <dict>
+        <key>position</key>
+        <integer>1260</integer>
+        <key>top</key>
+        <true/>
+        <key>width</key>
+        <integer>60</integer>
       </dict>
     </dict>
   </dict>
@@ -293,333 +293,333 @@
   <array>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>y</key>
-      <real>1050</real>
+      <integer>1050</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>y</key>
-      <real>-500</real>
+      <integer>-500</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>y</key>
-      <real>-100</real>
+      <integer>-100</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>20.</real>
+      <integer>20</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>y</key>
-      <real>-1038</real>
+      <integer>-1038</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>y</key>
-      <real>-600</real>
+      <integer>-600</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>1450</real>
       <key>name</key>
       <string>APsupC</string>
+      <key>x</key>
+      <integer>0</integer>
+      <key>y</key>
+      <integer>1450</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>y</key>
-      <real>900</real>
+      <integer>900</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>1620</real>
       <key>name</key>
       <string>Ap ascend</string>
+      <key>x</key>
+      <integer>0</integer>
+      <key>y</key>
+      <integer>1620</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>y</key>
-      <real>1690</real>
+      <integer>1690</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>1151</real>
       <key>name</key>
       <string>AP.SC</string>
+      <key>x</key>
+      <integer>0</integer>
+      <key>y</key>
+      <integer>1151</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>540</real>
       <key>name</key>
       <string>AP SupL</string>
+      <key>x</key>
+      <integer>0</integer>
+      <key>y</key>
+      <integer>540</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>1286</real>
       <key>name</key>
       <string>APsup</string>
+      <key>x</key>
+      <integer>0</integer>
+      <key>y</key>
+      <integer>1286</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>-260</real>
       <key>name</key>
       <string>APsubL</string>
+      <key>x</key>
+      <integer>0</integer>
+      <key>y</key>
+      <integer>-260</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>444</real>
       <key>name</key>
       <string>APsub</string>
+      <key>x</key>
+      <integer>0</integer>
+      <key>y</key>
+      <integer>444</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>258</real>
       <key>name</key>
       <string>APsupL2</string>
+      <key>x</key>
+      <integer>0</integer>
+      <key>y</key>
+      <integer>258</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>y</key>
-      <real>6229</real>
+      <integer>6229</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>y</key>
-      <real>3499</real>
+      <integer>3499</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>1370</real>
       <key>name</key>
       <string>AP Cap</string>
+      <key>x</key>
+      <integer>0</integer>
+      <key>y</key>
+      <integer>1370</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>y</key>
-      <real>2020</real>
+      <integer>2020</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>y</key>
-      <real>2020</real>
+      <integer>2020</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>0</real>
+      <integer>0</integer>
       <key>y</key>
-      <real>2022</real>
+      <integer>2022</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>90</real>
+      <integer>90</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>996</real>
+      <integer>996</integer>
       <key>y</key>
-      <real>0</real>
+      <integer>0</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>90</real>
+      <integer>90</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>616</real>
+      <integer>616</integer>
       <key>y</key>
-      <real>0</real>
+      <integer>0</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>90</real>
+      <integer>90</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>764</real>
+      <integer>764</integer>
       <key>y</key>
-      <real>0</real>
+      <integer>0</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>90</real>
+      <integer>90</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>1248</real>
+      <integer>1248</integer>
       <key>y</key>
-      <real>0</real>
+      <integer>0</integer>
     </dict>
     <dict>
       <key>angle</key>
-      <real>90</real>
+      <integer>90</integer>
       <key>isGlobal</key>
       <true/>
       <key>magnetic</key>
       <integer>5</integer>
       <key>x</key>
-      <real>100</real>
+      <integer>100</integer>
       <key>y</key>
-      <real>0</real>
+      <integer>0</integer>
     </dict>
   </array>
   <key>public.glyphOrder</key>

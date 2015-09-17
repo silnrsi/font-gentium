@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSubSmU" format="1">
+  <advance width="715"/>
+  <unicode hex="1D64"/>
+  <outline>
+    <component base="LtnSmU" xScale="0.7" yScale="0.6" xOffset="-55" yOffset="-198"/>
+    <contour>
+      <point x="246" y="-260" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="331" y="410" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

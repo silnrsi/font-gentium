@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TnContLft55" format="1">
+  <advance width="701"/>
+  <outline>
+    <component base="TnLtrSeg55"/>
+    <component base="TnLtrSpcPointRight" xOffset="465"/>
+    <contour>
+      <point x="198" y="1448" type="move" name="_TL"/>
+    </contour>
+    <contour>
+      <point x="662" y="1448" type="move" name="TL"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.807</real>
+        <integer>1</integer>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

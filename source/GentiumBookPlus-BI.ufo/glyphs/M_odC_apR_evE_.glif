@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModCapRevE" format="1">
+  <advance width="639"/>
+  <unicode hex="1D32"/>
+  <outline>
+    <contour>
+      <point x="199" y="1208" type="curve"/>
+      <point x="233" y="1195" type="line"/>
+      <point x="286" y="1293"/>
+      <point x="313" y="1300"/>
+      <point x="392" y="1300" type="curve" smooth="yes"/>
+      <point x="525" y="1300" type="line"/>
+      <point x="432" y="716" type="line" smooth="yes"/>
+      <point x="427" y="684"/>
+      <point x="407" y="672"/>
+      <point x="298" y="672" type="curve" smooth="yes"/>
+      <point x="197" y="672" type="line" smooth="yes"/>
+      <point x="167" y="672"/>
+      <point x="124" y="734"/>
+      <point x="133" y="808" type="curve"/>
+      <point x="94" y="808" type="line"/>
+      <point x="79" y="778"/>
+      <point x="74" y="668"/>
+      <point x="74" y="627" type="curve"/>
+      <point x="98" y="608" type="line"/>
+      <point x="618" y="608" type="line"/>
+      <point x="623" y="644" type="line"/>
+      <point x="564" y="655"/>
+      <point x="546" y="671"/>
+      <point x="547" y="681" type="curve" smooth="yes"/>
+      <point x="645" y="1292" type="line" smooth="yes"/>
+      <point x="647" y="1302"/>
+      <point x="674" y="1317"/>
+      <point x="733" y="1328" type="curve"/>
+      <point x="738" y="1364" type="line"/>
+      <point x="251" y="1364" type="line"/>
+      <point x="240" y="1341"/>
+      <point x="217" y="1277"/>
+    </contour>
+    <contour>
+      <point x="215" y="1003" type="curve"/>
+      <point x="231" y="984" type="line"/>
+      <point x="258" y="991"/>
+      <point x="314" y="996"/>
+      <point x="353" y="996" type="curve" smooth="yes"/>
+      <point x="514" y="996" type="line"/>
+      <point x="537" y="1054" type="line"/>
+      <point x="406" y="1054" type="line" smooth="yes"/>
+      <point x="335" y="1054"/>
+      <point x="307" y="1052"/>
+      <point x="285" y="1075" type="curve"/>
+      <point x="263" y="1058"/>
+      <point x="233" y="1026"/>
+    </contour>
+    <contour>
+      <point x="463" y="1422" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="342" y="540" type="move" name="L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

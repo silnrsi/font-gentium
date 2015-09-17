@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombOgonek.RetroHook" format="1">
+  <advance width="366"/>
+  <outline>
+    <component base="Ogonek.RetroHook"/>
+    <contour>
+      <point x="-132" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-148" y="-100" type="move" name="_L"/>
+    </contour>
+  </outline>
+</glyph>

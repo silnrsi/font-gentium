@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="RomNumEight" format="1">
+  <advance width="2933"/>
+  <unicode hex="2167"/>
+  <outline>
+    <component base="LtnCapV"/>
+    <component base="LtnCapI" xOffset="1214"/>
+    <component base="LtnCapI" xOffset="1787"/>
+    <component base="LtnCapI" xOffset="2360"/>
+    <contour>
+      <point x="1712" y="1320" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <integer>1</integer>
+        <real>0.732</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

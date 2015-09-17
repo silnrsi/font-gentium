@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmIotaWOxia" format="1">
+  <advance width="539"/>
+  <unicode hex="1F77"/>
+  <outline>
+    <component base="GrSmIota" xOffset="-42"/>
+    <component base="GrOxia" xOffset="227"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.704</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

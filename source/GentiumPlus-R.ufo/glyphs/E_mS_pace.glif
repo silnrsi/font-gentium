@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="EmSpace" format="1">
+  <advance width="1569"/>
+  <unicode hex="2003"/>
+  <outline>
+    <contour>
+      <point x="834" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="784" y="1435" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="1569" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="784" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="784" y="0" type="move" name="H"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>784</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

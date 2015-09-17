@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModAcuteAccentDep" format="1">
+  <advance width="400"/>
+  <unicode hex="F197"/>
+  <outline>
+    <contour>
+      <point x="120" y="996" type="line"/>
+      <point x="580" y="996" type="line"/>
+      <point x="580" y="1489" type="line"/>
+      <point x="120" y="1489" type="line"/>
+    </contour>
+    <contour>
+      <point x="550" y="1374" type="line"/>
+      <point x="195" y="1026" type="line"/>
+      <point x="174" y="1031"/>
+      <point x="169" y="1038"/>
+      <point x="150" y="1061" type="curve"/>
+      <point x="422" y="1459" type="line"/>
+      <point x="448" y="1452"/>
+      <point x="513" y="1432"/>
+      <point x="535" y="1419" type="curve"/>
+    </contour>
+    <contour>
+      <point x="256" y="1370" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

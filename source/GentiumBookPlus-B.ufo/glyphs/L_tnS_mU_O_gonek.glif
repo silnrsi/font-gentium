@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmUOgonek" format="1">
+  <advance width="1085"/>
+  <unicode hex="0173"/>
+  <outline>
+    <component base="LtnSmU"/>
+    <component base="CombOgonek" xOffset="1324"/>
+    <contour>
+      <point x="545" y="1050" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="810" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <integer>1</integer>
+        <real>0.732</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

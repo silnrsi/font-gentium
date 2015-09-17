@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapLSmJ" format="1">
+  <advance width="1505"/>
+  <unicode hex="01C8"/>
+  <outline>
+    <component base="LtnCapL"/>
+    <component base="LtnSmJ" xOffset="975"/>
+    <contour>
+      <point x="1256" y="1049" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="1255" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="496" y="0" type="move" name="H"/>
+    </contour>
+  </outline>
+</glyph>

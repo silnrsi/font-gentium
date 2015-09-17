@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmLigIj" format="1">
+  <advance width="1085"/>
+  <unicode hex="0133"/>
+  <outline>
+    <component base="LtnSmI"/>
+    <component base="LtnSmJ" xOffset="555"/>
+    <contour>
+      <point x="835" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="335" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="265" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="555" y="1410" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <integer>1</integer>
+        <real>0.732</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

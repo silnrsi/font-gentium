@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModRaisedUpArrwDep" format="1">
+  <advance width="536"/>
+  <unicode hex="F19C"/>
+  <outline>
+    <contour>
+      <point x="5" y="788" type="line"/>
+      <point x="521" y="788" type="line"/>
+      <point x="521" y="1466" type="line"/>
+      <point x="5" y="1466" type="line"/>
+    </contour>
+    <contour>
+      <point x="35" y="1258" type="line"/>
+      <point x="263" y="1436" type="line"/>
+      <point x="491" y="1258" type="line"/>
+      <point x="464" y="1200" type="line"/>
+      <point x="309" y="1292" type="line"/>
+      <point x="309" y="849" type="line"/>
+      <point x="282" y="832"/>
+      <point x="269" y="826"/>
+      <point x="242" y="818" type="curve"/>
+      <point x="217" y="838" type="line"/>
+      <point x="217" y="1292" type="line"/>
+      <point x="62" y="1200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

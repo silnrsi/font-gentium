@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnLigSmFSmFSmL.SItal" format="1">
+  <advance width="1829"/>
+  <outline>
+    <component base="LtnSmF.SItal"/>
+    <component base="LtnSmF.SItal" xOffset="636"/>
+    <component base="LtnSmL.SItal" xOffset="1274"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <integer>1</integer>
+        <real>0.732</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

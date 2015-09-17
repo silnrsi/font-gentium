@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombBridgeBlw" format="1">
+  <advance width="0"/>
+  <unicode hex="032A"/>
+  <outline>
+    <contour>
+      <point x="-881" y="-452" type="line"/>
+      <point x="-846" y="-496" type="line"/>
+      <point x="-822" y="-491"/>
+      <point x="-764" y="-457"/>
+      <point x="-740" y="-443" type="curve"/>
+      <point x="-716" y="-266" type="line"/>
+      <point x="-415" y="-267" type="line"/>
+      <point x="-441" y="-452" type="line"/>
+      <point x="-406" y="-496" type="line"/>
+      <point x="-382" y="-491"/>
+      <point x="-324" y="-457"/>
+      <point x="-300" y="-443" type="curve"/>
+      <point x="-263" y="-163" type="line"/>
+      <point x="-291" y="-131" type="line"/>
+      <point x="-772" y="-131" type="line"/>
+      <point x="-796" y="-148"/>
+      <point x="-838" y="-177"/>
+      <point x="-845" y="-190" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-609" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-541" y="-100" type="move" name="_L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>-887</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

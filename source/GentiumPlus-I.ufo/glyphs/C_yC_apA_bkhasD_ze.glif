@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CyCapAbkhasDze" format="1">
+  <advance width="959"/>
+  <unicode hex="04E0"/>
+  <outline>
+    <component base="LtnCapEzh"/>
+    <contour>
+      <point x="430" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="621" y="1320" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.807</real>
+        <integer>1</integer>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmIOgonek.RetroHook.LP" format="1">
+  <advance width="555"/>
+  <outline>
+    <component base="LtnSmI.LP"/>
+    <component base="CombOgonek.RetroHook" xOffset="369"/>
+    <contour>
+      <point x="555" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="335" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="285" y="1050" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="305" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <integer>1</integer>
+        <real>0.732</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmTurnedA.sc" format="1">
+  <advance width="1014"/>
+  <outline>
+    <contour>
+      <point x="122" y="1041" type="line"/>
+      <point x="115" y="992" type="line"/>
+      <point x="187" y="984"/>
+      <point x="211" y="968"/>
+      <point x="216" y="941" type="curve"/>
+      <point x="409" y="-27" type="line"/>
+      <point x="443" y="-11"/>
+      <point x="493" y="14"/>
+      <point x="525" y="43" type="curve"/>
+      <point x="965" y="940" type="line"/>
+      <point x="981" y="966"/>
+      <point x="1028" y="979"/>
+      <point x="1105" y="992" type="curve"/>
+      <point x="1112" y="1041" type="line"/>
+      <point x="755" y="1041" type="line"/>
+      <point x="747" y="992" type="line"/>
+      <point x="835" y="982"/>
+      <point x="873" y="972"/>
+      <point x="862" y="945" type="curve"/>
+      <point x="862" y="946" type="line"/>
+      <point x="504" y="222" type="line"/>
+      <point x="365" y="944" type="line"/>
+      <point x="358" y="973"/>
+      <point x="393" y="986"/>
+      <point x="478" y="991" type="curve"/>
+      <point x="485" y="1041" type="line"/>
+    </contour>
+    <contour>
+      <point x="305" y="701" type="line"/>
+      <point x="291" y="613" type="line"/>
+      <point x="803" y="613" type="line"/>
+      <point x="816" y="701" type="line"/>
+    </contour>
+    <contour>
+      <point x="629" y="1103" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="461" y="-76" type="move" name="L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

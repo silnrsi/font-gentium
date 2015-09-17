@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapNSmJ.LP" format="1">
+  <advance width="1741"/>
+  <outline>
+    <component base="LtnCapN"/>
+    <component base="LtnSmJ.LP" xOffset="1239"/>
+    <contour>
+      <point x="1347" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1566" y="1000" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <integer>1</integer>
+        <real>0.732</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmADotAbvMacron" format="1">
+  <advance width="922"/>
+  <unicode hex="01E1"/>
+  <outline>
+    <component base="LtnSmA"/>
+    <component base="DotAbv" xOffset="324"/>
+    <component base="CombMacron" xOffset="963" yOffset="353"/>
+    <contour>
+      <point x="1059" y="870" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="647" y="1706" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="400" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="680" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="723" y="0" type="move" name="O"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <integer>1</integer>
+        <real>0.732</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModLowUpArrwhd" format="1">
+  <advance width="466"/>
+  <unicode hex="02F0"/>
+  <outline>
+    <contour>
+      <point x="255" y="-186" type="line"/>
+      <point x="241" y="-192"/>
+      <point x="219" y="-206"/>
+      <point x="207" y="-217" type="curve"/>
+      <point x="60" y="-529" type="line"/>
+      <point x="68" y="-538" type="line"/>
+      <point x="78" y="-534"/>
+      <point x="107" y="-523"/>
+      <point x="117" y="-514" type="curve"/>
+      <point x="228" y="-274" type="line"/>
+      <point x="358" y="-530" type="line"/>
+      <point x="371" y="-539" type="line"/>
+      <point x="387" y="-533"/>
+      <point x="405" y="-523"/>
+      <point x="416" y="-515" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>-100</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

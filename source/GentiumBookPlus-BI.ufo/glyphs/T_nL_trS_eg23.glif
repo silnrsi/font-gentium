@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TnLtrSeg23" format="1">
+  <advance width="465"/>
+  <outline>
+    <contour>
+      <point x="96" y="335" type="curve" smooth="yes"/>
+      <point x="607" y="687" type="line" smooth="yes"/>
+      <point x="639" y="710"/>
+      <point x="648" y="755"/>
+      <point x="625" y="787" type="curve" smooth="yes"/>
+      <point x="602" y="819"/>
+      <point x="557" y="828"/>
+      <point x="525" y="805" type="curve" smooth="yes"/>
+      <point x="14" y="453" type="line" smooth="yes"/>
+      <point x="-18" y="430"/>
+      <point x="-27" y="385"/>
+      <point x="-4" y="353" type="curve" smooth="yes"/>
+      <point x="19" y="321"/>
+      <point x="64" y="312"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

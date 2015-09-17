@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapEtaWPsiliPeris.Por" format="1">
+  <advance width="1662"/>
+  <outline>
+    <component base="GrCapEta" xOffset="427"/>
+    <component base="GrPsiliPeris.Por" xOffset="-56" yOffset="-70"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.704</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

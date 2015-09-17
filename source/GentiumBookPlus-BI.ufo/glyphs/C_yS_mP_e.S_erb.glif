@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CySmPe.Serb" format="1">
+  <advance width="1022"/>
+  <outline>
+    <component base="CySmI"/>
+    <component base="CombMacron" xOffset="920"/>
+    <contour>
+      <point x="616" y="1366" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="413" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.6</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

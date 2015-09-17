@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmCapIStrkDep" format="1">
+  <advance width="504"/>
+  <unicode hex="F254"/>
+  <outline>
+    <contour>
+      <point x="-40" y="-30" type="line"/>
+      <point x="534" y="-30" type="line"/>
+      <point x="534" y="936" type="line"/>
+      <point x="-40" y="936" type="line"/>
+    </contour>
+    <contour>
+      <point x="449" y="434" type="line"/>
+      <point x="316" y="434" type="line"/>
+      <point x="271" y="102" type="line"/>
+      <point x="268" y="87"/>
+      <point x="303" y="60"/>
+      <point x="386" y="42" type="curve"/>
+      <point x="381" y="0" type="line"/>
+      <point x="-10" y="0" type="line"/>
+      <point x="-5" y="42" type="line"/>
+      <point x="78" y="60"/>
+      <point x="125" y="85"/>
+      <point x="128" y="102" type="curve"/>
+      <point x="173" y="434" type="line"/>
+      <point x="38" y="434" type="line"/>
+      <point x="22" y="459" type="line"/>
+      <point x="30" y="479"/>
+      <point x="40" y="504"/>
+      <point x="50" y="525" type="curve"/>
+      <point x="185" y="525" type="line"/>
+      <point x="223" y="804" type="line" smooth="yes"/>
+      <point x="225" y="819"/>
+      <point x="190" y="846"/>
+      <point x="107" y="864" type="curve"/>
+      <point x="113" y="906" type="line"/>
+      <point x="504" y="906" type="line"/>
+      <point x="498" y="864" type="line"/>
+      <point x="416" y="846"/>
+      <point x="368" y="821"/>
+      <point x="366" y="804" type="curve" smooth="yes"/>
+      <point x="328" y="525" type="line"/>
+      <point x="459" y="525" type="line"/>
+      <point x="478" y="502" type="line"/>
+    </contour>
+    <contour>
+      <point x="273" y="1000" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="273" y="-100" type="move" name="L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>
