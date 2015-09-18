@@ -67,4 +67,16 @@
       <point x="381" y="-260" type="move" name="L"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.sil.assocFeature</key>
+      <string>litr</string>
+      <key>org.sil.assocUIDs</key>
+      <array>
+        <string>2090</string>
+      </array>
+      <key>public.postscriptname</key>
+      <string>uni2090.SngStory</string>
+    </dict>
+  </lib>
 </glyph>

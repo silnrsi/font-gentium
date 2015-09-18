@@ -6,4 +6,10 @@
     <component base="Prime"/>
     <component base="Prime" xOffset="310"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.postscriptname</key>
+      <string>second</string>
+    </dict>
+  </lib>
 </glyph>

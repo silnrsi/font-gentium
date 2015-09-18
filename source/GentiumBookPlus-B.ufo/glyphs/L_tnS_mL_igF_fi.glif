@@ -7,4 +7,10 @@
     <component base="LtnSmF" xOffset="715"/>
     <component base="LtnSmI" xOffset="1430"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.postscriptname</key>
+      <string>ffi</string>
+    </dict>
+  </lib>
 </glyph>

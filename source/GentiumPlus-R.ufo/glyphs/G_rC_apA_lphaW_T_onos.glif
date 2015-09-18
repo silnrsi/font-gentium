@@ -6,4 +6,10 @@
     <component base="GrCapAlpha" xOffset="231"/>
     <component base="GrTonos" yOffset="-100"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.postscriptname</key>
+      <string>Alphatonos</string>
+    </dict>
+  </lib>
 </glyph>

@@ -6,4 +6,10 @@
     <component base="GrSmIota"/>
     <component base="CombDiaer.LP" xOffset="686" yOffset="50"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.postscriptname</key>
+      <string>iotadieresis</string>
+    </dict>
+  </lib>
 </glyph>

@@ -6,4 +6,10 @@
     <component base="GrSmIota"/>
     <component base="GrDialTonos" xOffset="-25"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.postscriptname</key>
+      <string>iotadieresistonos</string>
+    </dict>
+  </lib>
 </glyph>

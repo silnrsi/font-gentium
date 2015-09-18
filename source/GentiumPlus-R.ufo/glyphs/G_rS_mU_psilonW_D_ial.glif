@@ -6,4 +6,10 @@
     <component base="GrSmUpsilon"/>
     <component base="CombDiaer.LP" xOffset="1070"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.postscriptname</key>
+      <string>upsilondieresis</string>
+    </dict>
+  </lib>
 </glyph>

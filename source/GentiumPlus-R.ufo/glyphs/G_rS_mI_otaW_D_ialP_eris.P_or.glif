@@ -5,4 +5,16 @@
     <component base="GrSmIota"/>
     <component base="GrDialPeris.Por" xOffset="-104"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.sil.assocFeature</key>
+      <string>pcir</string>
+      <key>org.sil.assocUIDs</key>
+      <array>
+        <string>1FD7</string>
+      </array>
+      <key>public.postscriptname</key>
+      <string>uni1FD7.Por</string>
+    </dict>
+  </lib>
 </glyph>

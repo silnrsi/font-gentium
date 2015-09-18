@@ -6,4 +6,10 @@
     <component base="GrSmUpsilon"/>
     <component base="GrTonos" xOffset="482"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.postscriptname</key>
+      <string>upsilontonos</string>
+    </dict>
+  </lib>
 </glyph>

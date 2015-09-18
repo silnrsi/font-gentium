@@ -18,4 +18,16 @@
       <point x="1517" y="-100" type="move" name="L"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.sil.assocFeature</key>
+      <string>lopr</string>
+      <key>org.sil.assocUIDs</key>
+      <array>
+        <string>01C6</string>
+      </array>
+      <key>public.postscriptname</key>
+      <string>uni01C6.LP</string>
+    </dict>
+  </lib>
 </glyph>

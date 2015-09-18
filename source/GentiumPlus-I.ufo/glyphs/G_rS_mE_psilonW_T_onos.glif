@@ -6,4 +6,10 @@
     <component base="GrSmEpsilon" xOffset="67"/>
     <component base="GrTonos" xOffset="436"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.postscriptname</key>
+      <string>epsilontonos</string>
+    </dict>
+  </lib>
 </glyph>

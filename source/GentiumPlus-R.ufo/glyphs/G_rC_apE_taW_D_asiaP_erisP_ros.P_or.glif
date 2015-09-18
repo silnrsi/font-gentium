@@ -6,4 +6,16 @@
     <component base="GrDasiaPeris.Por" yOffset="-80"/>
     <component base="GrPros" xOffset="1852"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.sil.assocFeature</key>
+      <string>pcir</string>
+      <key>org.sil.assocUIDs</key>
+      <array>
+        <string>1F9F</string>
+      </array>
+      <key>public.postscriptname</key>
+      <string>uni1F9F.Por</string>
+    </dict>
+  </lib>
 </glyph>

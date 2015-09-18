@@ -6,4 +6,16 @@
     <component base="GrPsiliPeris.Por" xOffset="-40" yOffset="-70"/>
     <component base="GrPros" xOffset="1267"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.sil.assocFeature</key>
+      <string>pcir</string>
+      <key>org.sil.assocUIDs</key>
+      <array>
+        <string>1F8E</string>
+      </array>
+      <key>public.postscriptname</key>
+      <string>uni1F8E.Por</string>
+    </dict>
+  </lib>
 </glyph>

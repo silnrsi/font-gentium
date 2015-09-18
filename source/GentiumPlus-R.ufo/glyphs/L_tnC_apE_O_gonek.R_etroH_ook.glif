@@ -40,4 +40,16 @@
       <point x="560" y="-600" type="move" name="L"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.sil.assocFeature</key>
+      <string>ogon</string>
+      <key>org.sil.assocUIDs</key>
+      <array>
+        <string>0118</string>
+      </array>
+      <key>public.postscriptname</key>
+      <string>Eogonek.RetroHook</string>
+    </dict>
+  </lib>
 </glyph>

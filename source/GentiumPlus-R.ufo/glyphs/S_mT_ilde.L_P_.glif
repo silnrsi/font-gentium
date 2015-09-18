@@ -37,4 +37,16 @@
       <point x="411" y="1370" type="move" name="_L"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.sil.assocFeature</key>
+      <string>lopr</string>
+      <key>org.sil.assocUIDs</key>
+      <array>
+        <string>02DC</string>
+      </array>
+      <key>public.postscriptname</key>
+      <string>tilde.LP</string>
+    </dict>
+  </lib>
 </glyph>

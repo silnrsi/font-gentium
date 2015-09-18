@@ -6,4 +6,10 @@
     <component base="GrSmEta"/>
     <component base="GrTonos" xOffset="460"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.postscriptname</key>
+      <string>etatonos</string>
+    </dict>
+  </lib>
 </glyph>

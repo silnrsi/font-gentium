@@ -108,4 +108,16 @@
       <point x="1200" y="870" type="move" name="R"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.sil.assocFeature</key>
+      <string>lopr</string>
+      <key>org.sil.assocUIDs</key>
+      <array>
+        <string>FB01</string>
+      </array>
+      <key>public.postscriptname</key>
+      <string>fi.LP</string>
+    </dict>
+  </lib>
 </glyph>

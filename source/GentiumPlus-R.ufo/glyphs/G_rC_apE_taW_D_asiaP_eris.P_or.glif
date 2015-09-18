@@ -5,4 +5,16 @@
     <component base="GrCapEta" xOffset="513"/>
     <component base="GrDasiaPeris.Por" yOffset="-80"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.sil.assocFeature</key>
+      <string>pcir</string>
+      <key>org.sil.assocUIDs</key>
+      <array>
+        <string>1F2F</string>
+      </array>
+      <key>public.postscriptname</key>
+      <string>uni1F2F.Por</string>
+    </dict>
+  </lib>
 </glyph>
