@@ -1,6 +1,12 @@
-results
-$_temp.gdl
-font-raw.ttf
-font_gdl.gdx
-font_gdl.ttf
-gdlerr.txt
+# Directories to ignore
+/dist
+/local
+/results
+
+# Temp files
+*~
+*.log
+
+# smith
+.waf-*
+.lock-*
