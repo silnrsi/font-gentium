@@ -1,0 +1,4 @@
+include(GentiumPlus_gsub.fea);
+include(GentiumPlus-Italic_gpos_lkups.fea);
+include(GentiumPlus_gpos_feats.fea);
+include(GentiumPlus_gdef.fea);

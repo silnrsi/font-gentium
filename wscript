@@ -18,33 +18,36 @@ LICENSE='OFL.txt'
 
 DESC_SHORT = "Unicode font for Roman- and Cyrillic-based writing systems"
 DESC_LONG = """
-GentiumPlusSIL is a Unicode font etc etc
+GentiumPlusSIL is a Unicode font for Roman- and Cyrillic-based writing systems
+Font sources are published in the repository and a smith open workflow is
+used for building, testing and releasing.
 """
-DESC_NAME = "GentiumPlusSIL"
-DEBPKG = 'fonts-sil-GentiumPlus'
+DESC_NAME = "CharisSIL"
+DEBPKG = 'fonts-sil-charis'
+
+import os
+pysilfontscripts = os.path.abspath("../pysilfont/scripts/") # Currently requires pysilfont repo checked out in same directory as font project
 
 # set the build and test parameters
 
-#for style in ('-Regular','-Bold') :
-for style in ('-Regular',) :
+for style in ('-Regular','-Italic') :
     fname = FILENAMEBASE + style
-    font(target = fname + '.ttf',
-#        source = 'source/' + fname + '.ufo',
-        source = create(fname + '-not.sfd', cmd("../tools/FFRemoveOverlapAll.py ${SRC} ${TGT}", ['source/' + fname + '.ufo'])),
+    feabase = 'source/opentype/'+FILENAMEBASE
+    font( target = process(fname + '.ttf', name(FILENAMEBASE, lang='en-US', subfamily=(style[1:])),
+            cmd('${FFCHANGEGLYPHNAMES.PY} -i ../source/psnames ${DEP} ${TGT}')),
+        source = create(fname + '-not.sfd', cmd("${FFREMOVEOVERLAPALL.PY} ${SRC} ${TGT}", ['source/' + fname + '.ufo'])),
         version = VERSION,
         ap =  'source/' + fname +'_ap' + '.xml',
-        #classes = 'source/' + fname +'_classes' + '.xml',
-        #opentype = fea('source/' + fname + '.fea',
-         #   master = 'source/opentype/' + fname + '.fea',
-            #preinclude = 'font-source/padauk' + f + '_init.fea',
-          #  make_params="-o 'C L11 L12 L13 L21 L22 L23 L31 L32 L33 C11 C12 C13 C21 C22 C23 C31 C32 C33 U11 U12 U13 U21 U22 U23 U31 U32 U33'",
-           # depends = map(lambda x:"font-source/padauk-"+x+".fea",
-           #     ('mym2_features', 'mym2_GSUB', 'dflt_GSUB'))
-           #cd  ),
+        opentype = fea('source/' + fname + '.fea',
+            master = 'source/opentype/' + fname + '_bld.fea',
+            make_params="-o 'C L11 L12 L13 L21 L22 L23 L31 L32 L33 C11 C12 C13 C21 C22 C23 C31 C32 C33 U11 U12 U13 U21 U22 U23 U31 U32 U33'",
+           depends = (feabase + '_gsub.fea', feabase + style + '_gpos_lkups.fea', feabase + '_gpos_feats.fea', feabase + '_gdef.fea')
+            ),
         graphite = gdl('source/' + fname + '.gdl',
             master = 'source/graphite/main.gdh'),
         license = ofl('GentiumPlusSIL','SIL'),
         woff = woff()
         )
-#def configure(ctx) :
-#    ctx.env['MAKE_GDL'] = '/usr/bin/makeGdl'
+def configure(ctx) :
+    ctx.find_program('FFchangeGlyphNames.py', path_list = pysilfontscripts+'/tools/')
+    ctx.find_program('FFRemoveOverlapAll.py', path_list = pysilfontscripts+'/tools/')
