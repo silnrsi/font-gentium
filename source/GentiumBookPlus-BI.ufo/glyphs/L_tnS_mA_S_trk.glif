@@ -77,10 +77,13 @@
       <point x="57" y="-89" type="curve"/>
     </contour>
     <contour>
-      <point x="1020" y="870" type="move" name="R"/>
+      <point x="755" y="0" type="move" name="O"/>
     </contour>
     <contour>
-      <point x="755" y="0" type="move" name="O"/>
+      <point x="407" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1020" y="870" type="move" name="R"/>
     </contour>
     <contour>
       <point x="592" y="1000" type="move" name="U"/>
@@ -88,12 +91,11 @@
     <contour>
       <point x="442" y="-100" type="move" name="L"/>
     </contour>
-    <contour>
-      <point x="407" y="0" type="move" name="H"/>
-    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>public.postscriptname</key>
       <string>uni2C65</string>
     </dict>

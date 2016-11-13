@@ -93,13 +93,13 @@
       <point x="785" y="-308"/>
     </contour>
     <contour>
+      <point x="755" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
       <point x="1020" y="870" type="move" name="R"/>
     </contour>
     <contour>
       <point x="592" y="1000" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="755" y="0" type="move" name="O"/>
     </contour>
     <contour>
       <point x="422" y="-600" type="move" name="L"/>
@@ -107,6 +107,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>com.typemytype.robofont.guides</key>
       <array>
         <dict>
@@ -114,8 +116,6 @@
           <real>82.1</real>
           <key>isGlobal</key>
           <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
           <key>x</key>
           <integer>-280</integer>
           <key>y</key>

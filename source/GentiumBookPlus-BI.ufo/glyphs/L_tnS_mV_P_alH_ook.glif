@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmVPalHook" format="1">
   <advance width="998"/>
-  <unicode hex="1D8C"/>
   <outline>
     <contour>
       <point x="998" y="852" type="curve" smooth="yes"/>
@@ -87,6 +86,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>public.postscriptname</key>
       <string>uni1D8C</string>
     </dict>

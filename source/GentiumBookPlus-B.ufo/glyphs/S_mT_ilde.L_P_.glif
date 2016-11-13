@@ -25,20 +25,22 @@
       <point x="775" y="1229"/>
     </contour>
     <contour>
-      <point x="411" y="1370" type="move" name="U"/>
+      <point x="411" y="1370" type="move" name="_L"/>
     </contour>
     <contour>
-      <point x="411" y="1050" type="move" name="_U"/>
+      <point x="411" y="1370" type="move" name="U"/>
     </contour>
     <contour>
       <point x="411" y="1050" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="411" y="1370" type="move" name="_L"/>
+      <point x="411" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:03 +0000</string>
       <key>org.sil.assocFeature</key>
       <string>lopr</string>
       <key>org.sil.assocUIDs</key>

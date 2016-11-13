@@ -24,14 +24,16 @@
       <point x="361" y="-317"/>
     </contour>
     <contour>
-      <point x="-117" y="-100" type="move" name="_L"/>
+      <point x="-97" y="-600" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="-97" y="-600" type="move" name="L"/>
+      <point x="-117" y="-100" type="move" name="_L"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:02 +0000</string>
       <key>org.sil.assocFeature</key>
       <string>ogon</string>
       <key>org.sil.assocUIDs</key>

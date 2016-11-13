@@ -6,6 +6,9 @@
     <component base="CombCedilla" xOffset="904" yOffset="7"/>
     <component base="CombBreve" xOffset="943" yOffset="103"/>
     <contour>
+      <point x="584" y="7" type="move" name="O"/>
+    </contour>
+    <contour>
       <point x="893" y="896" type="move" name="R"/>
     </contour>
     <contour>
@@ -13,9 +16,6 @@
     </contour>
     <contour>
       <point x="304" y="-593" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="584" y="7" type="move" name="O"/>
     </contour>
   </outline>
   <lib>

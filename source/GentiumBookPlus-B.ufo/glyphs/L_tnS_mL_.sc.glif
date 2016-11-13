@@ -33,20 +33,22 @@
       <point x="882" y="205" type="curve"/>
     </contour>
     <contour>
-      <point x="439" y="1145" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="467" y="-76" type="move" name="L"/>
+      <point x="467" y="7" type="move" name="H"/>
     </contour>
     <contour>
       <point x="705" y="754" type="move" name="R"/>
     </contour>
     <contour>
-      <point x="467" y="7" type="move" name="H"/>
+      <point x="439" y="1145" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="467" y="-76" type="move" name="L"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:02 +0000</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <integer>1</integer>

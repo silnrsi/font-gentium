@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModTnYinQu" format="1">
   <advance width="492"/>
-  <unicode hex="A704"/>
   <outline>
     <contour>
       <point x="111" y="1118" type="line"/>
@@ -32,6 +31,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>public.postscriptname</key>
       <string>uniA704</string>
     </dict>

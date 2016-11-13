@@ -60,20 +60,22 @@
       <point x="743" y="555" type="line"/>
     </contour>
     <contour>
-      <point x="1067" y="1370" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="1067" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
       <point x="1740" y="0" type="move" name="O"/>
     </contour>
     <contour>
       <point x="1010" y="0" type="move" name="H"/>
     </contour>
+    <contour>
+      <point x="1067" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="1067" y="-100" type="move" name="L"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:02 +0000</string>
       <key>public.postscriptname</key>
       <string>uniA732</string>
     </dict>

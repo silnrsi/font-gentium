@@ -25,13 +25,13 @@
     </contour>
     <component base="LtnSmAlpha"/>
     <contour>
+      <point x="850" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
       <point x="1164" y="900" type="move" name="R"/>
     </contour>
     <contour>
       <point x="590" y="1050" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="850" y="0" type="move" name="O"/>
     </contour>
     <contour>
       <point x="592" y="-600" type="move" name="L"/>
@@ -39,6 +39,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:02 +0000</string>
       <key>org.sil.assocUIDs</key>
       <array>
         <string>0105</string>

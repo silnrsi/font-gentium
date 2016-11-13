@@ -28,14 +28,16 @@
       <point x="-249" y="1035"/>
     </contour>
     <contour>
-      <point x="-518" y="1050" type="move" name="_U"/>
+      <point x="-518" y="1451" type="move" name="U"/>
     </contour>
     <contour>
-      <point x="-518" y="1451" type="move" name="U"/>
+      <point x="-518" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:02 +0000</string>
       <key>public.postscriptname</key>
       <string>uni1DFE</string>
     </dict>

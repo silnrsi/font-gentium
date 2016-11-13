@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSubSmPhi" format="1">
   <advance width="858"/>
-  <unicode hex="1D69"/>
   <outline>
     <contour>
       <point x="755" y="140" type="curve" smooth="yes"/>
@@ -59,6 +58,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <integer>1</integer>

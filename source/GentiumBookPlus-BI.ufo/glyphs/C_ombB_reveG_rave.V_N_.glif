@@ -34,14 +34,16 @@
       <point x="-250" y="1312"/>
     </contour>
     <contour>
-      <point x="-387" y="1000" type="move" name="_U"/>
+      <point x="-282" y="1733" type="move" name="U"/>
     </contour>
     <contour>
-      <point x="-282" y="1733" type="move" name="U"/>
+      <point x="-387" y="1000" type="move" name="_U"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>org.sil.assocFeature</key>
       <string>viet</string>
       <key>org.sil.assocUIDs</key>

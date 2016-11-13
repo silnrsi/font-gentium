@@ -42,23 +42,25 @@
       <point x="995" y="847"/>
     </contour>
     <contour>
-      <point x="527" y="1050" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="527" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="1055" y="900" type="move" name="R"/>
-    </contour>
-    <contour>
       <point x="567" y="0" type="move" name="O"/>
     </contour>
     <contour>
       <point x="527" y="0" type="move" name="H"/>
     </contour>
+    <contour>
+      <point x="1055" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="527" y="1050" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="527" y="-100" type="move" name="L"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:02 +0000</string>
       <key>public.postscriptname</key>
       <string>uni028A</string>
     </dict>

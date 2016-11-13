@@ -40,20 +40,22 @@
       <point x="617" y="1177" type="curve"/>
     </contour>
     <contour>
-      <point x="733" y="1320" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="538" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
       <point x="560" y="0" type="move" name="H"/>
     </contour>
     <contour>
       <point x="515" y="0" type="move" name="O"/>
     </contour>
+    <contour>
+      <point x="733" y="1320" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="538" y="-100" type="move" name="L"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>org.sil.assocFeature</key>
       <string>v_hk</string>
       <key>org.sil.assocFeatureValue</key>

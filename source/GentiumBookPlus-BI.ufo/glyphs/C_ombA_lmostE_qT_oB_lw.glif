@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombAlmostEqToBlw" format="1">
   <advance width="0"/>
-  <unicode hex="1DFD"/>
+  <unicode hex="1D2B"/>
   <outline>
     <contour>
       <point x="-315" y="-405" type="curve"/>
@@ -56,6 +56,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>public.postscriptname</key>
       <string>uni1DFD</string>
     </dict>

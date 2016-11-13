@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmPMiddleTilde" format="1">
   <advance width="1165"/>
-  <unicode hex="1D71"/>
   <outline>
     <contour>
       <point x="733" y="-97" type="line"/>
@@ -84,6 +83,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:02 +0000</string>
       <key>public.postscriptname</key>
       <string>uni1D71</string>
     </dict>

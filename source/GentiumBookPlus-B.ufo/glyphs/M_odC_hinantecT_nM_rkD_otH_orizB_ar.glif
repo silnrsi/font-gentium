@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModChinantecTnMrkDotHorizBar" format="1">
   <advance width="781"/>
-  <unicode hex="A719"/>
   <outline>
     <contour>
       <point x="472" y="1500" type="curve" smooth="yes"/>
@@ -32,6 +31,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:02 +0000</string>
       <key>public.postscriptname</key>
       <string>uniA719</string>
     </dict>

@@ -4,12 +4,6 @@
   <unicode hex="2005"/>
   <outline>
     <contour>
-      <point x="200" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="200" y="1435" type="move" name="U"/>
-    </contour>
-    <contour>
       <point x="225" y="0" type="move" name="O"/>
     </contour>
     <contour>
@@ -17,6 +11,12 @@
     </contour>
     <contour>
       <point x="400" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="200" y="1435" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="200" y="-100" type="move" name="L"/>
     </contour>
   </outline>
   <lib>
@@ -28,8 +28,6 @@
           <integer>90</integer>
           <key>isGlobal</key>
           <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
           <key>x</key>
           <integer>200</integer>
           <key>y</key>

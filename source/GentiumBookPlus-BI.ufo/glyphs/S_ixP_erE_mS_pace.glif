@@ -10,13 +10,13 @@
       <point x="61" y="0" type="move" name="H"/>
     </contour>
     <contour>
-      <point x="47" y="-100" type="move" name="L"/>
+      <point x="250" y="870" type="move" name="R"/>
     </contour>
     <contour>
       <point x="258" y="1435" type="move" name="U"/>
     </contour>
     <contour>
-      <point x="250" y="870" type="move" name="R"/>
+      <point x="47" y="-100" type="move" name="L"/>
     </contour>
   </outline>
   <lib>
@@ -28,8 +28,6 @@
           <real>82.2</real>
           <key>isGlobal</key>
           <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
           <key>x</key>
           <integer>63</integer>
           <key>y</key>

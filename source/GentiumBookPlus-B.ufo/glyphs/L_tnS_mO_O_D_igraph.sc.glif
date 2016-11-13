@@ -57,23 +57,25 @@
       <point x="1676" y="740"/>
     </contour>
     <contour>
-      <point x="968" y="1145" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="968" y="-76" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="1960" y="920" type="move" name="R"/>
-    </contour>
-    <contour>
       <point x="1466" y="7" type="move" name="O"/>
     </contour>
     <contour>
       <point x="1370" y="7" type="move" name="H"/>
     </contour>
+    <contour>
+      <point x="1960" y="920" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="968" y="1145" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="968" y="-76" type="move" name="L"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:02 +0000</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <integer>1</integer>

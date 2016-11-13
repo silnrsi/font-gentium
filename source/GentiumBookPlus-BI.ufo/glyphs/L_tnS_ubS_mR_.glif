@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSubSmR" format="1">
   <advance width="524"/>
-  <unicode hex="1D63"/>
   <outline>
     <contour>
       <point x="499" y="312" type="curve"/>
@@ -55,6 +54,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <integer>1</integer>

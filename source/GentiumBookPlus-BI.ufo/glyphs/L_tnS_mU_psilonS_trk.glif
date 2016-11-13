@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmUpsilonStrk" format="1">
   <advance width="1022"/>
-  <unicode hex="1D7F"/>
   <outline>
     <contour>
       <point x="992" y="905" type="line"/>
@@ -60,6 +59,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>public.postscriptname</key>
       <string>uni1D7F</string>
     </dict>

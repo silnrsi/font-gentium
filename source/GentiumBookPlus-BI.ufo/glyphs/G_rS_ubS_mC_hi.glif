@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSubSmChi" format="1">
   <advance width="658"/>
-  <unicode hex="1D6A"/>
   <outline>
     <contour>
       <point x="620" y="345" type="curve"/>
@@ -66,6 +65,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <integer>1</integer>

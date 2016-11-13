@@ -4,19 +4,19 @@
   <unicode hex="2009"/>
   <outline>
     <contour>
-      <point x="300" y="900" type="move" name="R"/>
+      <point x="150" y="0" type="move" name="H"/>
     </contour>
     <contour>
-      <point x="150" y="0" type="move" name="H"/>
+      <point x="170" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="300" y="900" type="move" name="R"/>
     </contour>
     <contour>
       <point x="150" y="1435" type="move" name="U"/>
     </contour>
     <contour>
       <point x="150" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="170" y="0" type="move" name="O"/>
     </contour>
   </outline>
   <lib>
@@ -28,8 +28,6 @@
           <integer>90</integer>
           <key>isGlobal</key>
           <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
           <key>x</key>
           <integer>150</integer>
           <key>y</key>

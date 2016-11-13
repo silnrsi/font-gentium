@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapSSwashTail" format="1">
   <advance width="1000"/>
-  <unicode hex="2C7E"/>
   <outline>
     <contour>
       <point x="992" y="1198" type="curve"/>
@@ -76,6 +75,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>public.postscriptname</key>
       <string>uni2C7E</string>
     </dict>

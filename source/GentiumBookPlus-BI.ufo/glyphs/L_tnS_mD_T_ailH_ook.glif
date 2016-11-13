@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmDTailHook" format="1">
   <advance width="1017"/>
-  <unicode hex="1D91"/>
   <outline>
     <contour>
       <point x="1162" y="-143" type="curve"/>
@@ -93,6 +92,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>public.postscriptname</key>
       <string>uni1D91</string>
     </dict>

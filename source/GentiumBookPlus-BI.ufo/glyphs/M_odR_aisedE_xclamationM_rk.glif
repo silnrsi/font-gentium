@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModRaisedExclamationMrk" format="1">
   <advance width="356"/>
-  <unicode hex="A71D"/>
   <outline>
     <contour>
       <point x="436" y="1445" type="line"/>
@@ -32,6 +31,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>public.postscriptname</key>
       <string>uniA71D</string>
     </dict>

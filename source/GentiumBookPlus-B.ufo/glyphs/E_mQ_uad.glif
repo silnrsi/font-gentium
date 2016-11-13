@@ -7,16 +7,16 @@
       <point x="834" y="0" type="move" name="O"/>
     </contour>
     <contour>
-      <point x="784" y="1435" type="move" name="U"/>
+      <point x="784" y="0" type="move" name="H"/>
     </contour>
     <contour>
       <point x="1569" y="900" type="move" name="R"/>
     </contour>
     <contour>
-      <point x="784" y="-100" type="move" name="L"/>
+      <point x="784" y="1435" type="move" name="U"/>
     </contour>
     <contour>
-      <point x="784" y="0" type="move" name="H"/>
+      <point x="784" y="-100" type="move" name="L"/>
     </contour>
   </outline>
   <lib>
@@ -28,8 +28,6 @@
           <integer>90</integer>
           <key>isGlobal</key>
           <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
           <key>x</key>
           <integer>784</integer>
           <key>y</key>

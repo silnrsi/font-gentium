@@ -5,6 +5,9 @@
     <component base="LtnSmI.SItal.LP"/>
     <component base="CombDotBlw" xOffset="833"/>
     <contour>
+      <point x="335" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
       <point x="555" y="900" type="move" name="R"/>
     </contour>
     <contour>
@@ -12,9 +15,6 @@
     </contour>
     <contour>
       <point x="285" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="335" y="0" type="move" name="O"/>
     </contour>
   </outline>
   <lib>

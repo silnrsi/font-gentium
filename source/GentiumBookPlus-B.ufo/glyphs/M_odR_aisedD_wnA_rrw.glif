@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModRaisedDwnArrw" format="1">
   <advance width="529"/>
-  <unicode hex="A71C"/>
   <outline>
     <contour>
       <point x="198" y="1406" type="curve"/>
@@ -20,6 +19,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:02 +0000</string>
       <key>public.postscriptname</key>
       <string>uniA71C</string>
     </dict>

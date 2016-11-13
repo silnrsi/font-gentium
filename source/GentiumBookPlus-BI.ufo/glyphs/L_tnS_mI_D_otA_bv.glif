@@ -7,6 +7,9 @@
       <point x="250" y="0" type="move" name="H"/>
     </contour>
     <contour>
+      <point x="280" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
       <point x="771" y="870" type="move" name="R"/>
     </contour>
     <contour>
@@ -14,9 +17,6 @@
     </contour>
     <contour>
       <point x="248" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="280" y="0" type="move" name="O"/>
     </contour>
   </outline>
   <lib>

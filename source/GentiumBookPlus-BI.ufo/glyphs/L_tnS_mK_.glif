@@ -63,20 +63,22 @@
       <point x="951" y="54"/>
     </contour>
     <contour>
-      <point x="687" y="1580" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="453" y="-100" type="move" name="L"/>
+      <point x="190" y="0" type="move" name="H"/>
     </contour>
     <contour>
       <point x="1174" y="870" type="move" name="R"/>
     </contour>
     <contour>
-      <point x="190" y="0" type="move" name="H"/>
+      <point x="687" y="1580" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="453" y="-100" type="move" name="L"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>public.postscriptname</key>
       <string>k</string>
     </dict>

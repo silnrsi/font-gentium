@@ -19,14 +19,16 @@
       <point x="-243" y="-241" type="line"/>
     </contour>
     <contour>
-      <point x="-548" y="-100" type="move" name="_L"/>
+      <point x="-627" y="-600" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="-627" y="-600" type="move" name="L"/>
+      <point x="-548" y="-100" type="move" name="_L"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>public.postscriptname</key>
       <string>uni20EC</string>
     </dict>

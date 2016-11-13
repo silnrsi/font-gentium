@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmCapOmega" format="1">
   <advance width="971"/>
-  <unicode hex="AB65"/>
   <outline>
     <contour>
       <point x="956" y="596" type="curve" smooth="yes"/>
@@ -65,6 +64,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>public.postscriptname</key>
       <string>uniAB65</string>
     </dict>

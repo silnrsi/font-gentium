@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="R_Response" format="1">
   <advance width="1375"/>
-  <unicode hex="211F"/>
   <outline>
     <contour>
       <point x="1088" y="971" type="curve" smooth="yes"/>
@@ -87,6 +86,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:28 +0000</string>
       <key>public.postscriptname</key>
       <string>uni211F</string>
     </dict>

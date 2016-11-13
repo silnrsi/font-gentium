@@ -34,10 +34,13 @@
       <point x="94" y="261" type="curve"/>
     </contour>
     <contour>
-      <point x="945" y="900" type="move" name="R"/>
+      <point x="496" y="0" type="move" name="O"/>
     </contour>
     <contour>
-      <point x="496" y="0" type="move" name="O"/>
+      <point x="460" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="945" y="900" type="move" name="R"/>
     </contour>
     <contour>
       <point x="460" y="1050" type="move" name="U"/>
@@ -45,12 +48,11 @@
     <contour>
       <point x="460" y="-100" type="move" name="L"/>
     </contour>
-    <contour>
-      <point x="460" y="0" type="move" name="H"/>
-    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-13 20:27:02 +0000</string>
       <key>org.sil.assocFeature</key>
       <string>opnO</string>
       <key>org.sil.assocUIDs</key>
