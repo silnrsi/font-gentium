@@ -44,10 +44,10 @@
       <point x="775" y="275" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="478" y="1050" type="move" name="U"/>
+      <point x="478" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="478" y="-100" type="move" name="L"/>
+      <point x="478" y="1050" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

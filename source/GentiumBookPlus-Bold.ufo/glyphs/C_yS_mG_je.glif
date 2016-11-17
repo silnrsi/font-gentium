@@ -6,10 +6,10 @@
     <component base="CySmGhe"/>
     <component base="CombAcute" xOffset="981"/>
     <contour>
-      <point x="351" y="1440" type="move" name="U"/>
+      <point x="441" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="441" y="-100" type="move" name="L"/>
+      <point x="351" y="1440" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

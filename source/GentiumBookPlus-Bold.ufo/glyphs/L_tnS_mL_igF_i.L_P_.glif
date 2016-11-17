@@ -5,6 +5,9 @@
     <component base="LtnSmF"/>
     <component base="LtnSmI.LP" xOffset="715"/>
     <contour>
+      <point x="922" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
       <point x="972" y="0" type="move" name="O"/>
     </contour>
     <contour>
@@ -12,9 +15,6 @@
     </contour>
     <contour>
       <point x="922" y="1050" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="922" y="-100" type="move" name="L"/>
     </contour>
   </outline>
   <lib>

@@ -6,10 +6,10 @@
     <component base="LtnCapC"/>
     <component base="CombCedilla" xOffset="1158"/>
     <contour>
-      <point x="645" y="1370" type="move" name="U"/>
+      <point x="612" y="-600" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="612" y="-600" type="move" name="L"/>
+      <point x="645" y="1370" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

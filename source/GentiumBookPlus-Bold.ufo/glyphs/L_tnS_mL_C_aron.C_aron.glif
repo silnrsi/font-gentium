@@ -8,13 +8,13 @@
       <point x="325" y="0" type="move" name="H"/>
     </contour>
     <contour>
+      <point x="325" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
       <point x="615" y="900" type="move" name="R"/>
     </contour>
     <contour>
       <point x="325" y="2010" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="325" y="-100" type="move" name="L"/>
     </contour>
   </outline>
   <lib>

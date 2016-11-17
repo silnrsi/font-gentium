@@ -4,14 +4,16 @@
   <outline>
     <component base="LtnCapBTopbar"/>
     <contour>
-      <point x="558" y="1370" type="move" name="U"/>
+      <point x="624" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="624" y="-100" type="move" name="L"/>
+      <point x="558" y="1370" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-11-16 15:13:40 +0000</string>
       <key>org.sil.assocFeature</key>
       <string>B_hk</string>
       <key>org.sil.assocUIDs</key>

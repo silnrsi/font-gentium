@@ -43,16 +43,16 @@
       <point x="545" y="1177" type="curve"/>
     </contour>
     <contour>
-      <point x="610" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
       <point x="665" y="0" type="move" name="H"/>
     </contour>
     <contour>
-      <point x="672" y="1512" type="move" name="U"/>
+      <point x="655" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="655" y="-100" type="move" name="L"/>
+      <point x="610" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="672" y="1512" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

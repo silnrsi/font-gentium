@@ -6,10 +6,10 @@
     <component base="LtnCapD"/>
     <component base="LtnCapZ" xOffset="1334"/>
     <contour>
-      <point x="1921" y="1370" type="move" name="U"/>
+      <point x="1899" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="1899" y="-100" type="move" name="L"/>
+      <point x="1921" y="1370" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
