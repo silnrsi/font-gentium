@@ -79,16 +79,16 @@
       <point x="239" y="1020" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="480" y="-100" type="move" name="L"/>
+      <point x="520" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="480" y="1400" type="move" name="U"/>
+      <point x="520" y="1400" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-17 11:02:29 +0000</string>
+      <string>2016-11-18 15:35:58 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -1152,13 +1152,6 @@
           <integer>1451</integer>
         </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <integer>1</integer>
-        <real>0.6</real>
-        <real>0.6</real>
-        <integer>1</integer>
-      </array>
       <key>public.postscriptname</key>
       <string>uni0462</string>
     </dict>

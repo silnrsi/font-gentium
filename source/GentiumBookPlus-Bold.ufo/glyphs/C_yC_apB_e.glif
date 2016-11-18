@@ -68,25 +68,16 @@
       <point x="1008" y="890" type="line"/>
     </contour>
     <contour>
-      <point x="315" y="0" type="move" name="H"/>
+      <point x="600" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="532" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="376" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="588" y="1100" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="532" y="1370" type="move" name="U"/>
+      <point x="600" y="1370" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-15 13:30:46 +0000</string>
+      <string>2016-11-18 15:35:58 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -647,13 +638,6 @@
           <integer>1266</integer>
         </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <integer>1</integer>
-        <real>0.6</real>
-        <real>0.6</real>
-        <integer>1</integer>
-      </array>
       <key>public.postscriptname</key>
       <string>uni0411</string>
     </dict>
