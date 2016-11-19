@@ -6,13 +6,13 @@
     <component base="LtnSmY"/>
     <component base="CombDotAbv" xOffset="1022"/>
     <contour>
+      <point x="680" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
       <point x="1173" y="870" type="move" name="R"/>
     </contour>
     <contour>
       <point x="649" y="1353" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="680" y="-100" type="move" name="L"/>
     </contour>
   </outline>
   <lib>

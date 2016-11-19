@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmTHStrk" format="1">
   <advance width="1771"/>
+  <unicode hex="1D7A"/>
   <outline>
     <contour>
       <point x="750" y="867" type="curve"/>
@@ -121,10 +122,10 @@
       <point x="177" y="-89" type="curve"/>
     </contour>
     <contour>
-      <point x="960" y="1640" type="move" name="U"/>
+      <point x="789" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="789" y="-100" type="move" name="L"/>
+      <point x="960" y="1640" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

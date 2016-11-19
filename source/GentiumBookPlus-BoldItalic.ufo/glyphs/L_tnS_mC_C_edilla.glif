@@ -6,13 +6,13 @@
     <component base="LtnSmC"/>
     <component base="CombCedilla" xOffset="945"/>
     <contour>
+      <point x="345" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
       <point x="991" y="870" type="move" name="R"/>
     </contour>
     <contour>
       <point x="604" y="1000" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="345" y="-600" type="move" name="L"/>
     </contour>
   </outline>
   <lib>

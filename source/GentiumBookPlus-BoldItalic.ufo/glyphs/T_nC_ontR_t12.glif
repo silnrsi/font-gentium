@@ -5,10 +5,10 @@
     <component base="TnLtrSpcPointLeft"/>
     <component base="TnLtrSeg12" xOffset="76"/>
     <contour>
-      <point x="83" y="42" type="move" name="_TL"/>
+      <point x="595" y="394" type="move" name="TL"/>
     </contour>
     <contour>
-      <point x="595" y="394" type="move" name="TL"/>
+      <point x="83" y="42" type="move" name="_TL"/>
     </contour>
   </outline>
   <lib>

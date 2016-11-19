@@ -5,10 +5,10 @@
     <component base="LtnSmW"/>
     <component base="CombCircum.LP" xOffset="1203"/>
     <contour>
-      <point x="877" y="1415" type="move" name="U"/>
+      <point x="667" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="667" y="-100" type="move" name="L"/>
+      <point x="877" y="1415" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

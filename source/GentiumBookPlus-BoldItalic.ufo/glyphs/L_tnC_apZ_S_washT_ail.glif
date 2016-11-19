@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapZSwashTail" format="1">
   <advance width="1078"/>
+  <unicode hex="2C7F"/>
   <outline>
     <contour>
       <point x="1100" y="1207" type="line"/>
@@ -41,10 +42,10 @@
       <point x="347" y="141" type="curve"/>
     </contour>
     <contour>
-      <point x="684" y="1320" type="move" name="U"/>
+      <point x="438" y="-600" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="438" y="-600" type="move" name="L"/>
+      <point x="684" y="1320" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

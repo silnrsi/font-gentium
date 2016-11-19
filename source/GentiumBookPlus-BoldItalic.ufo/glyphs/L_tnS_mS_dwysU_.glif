@@ -72,10 +72,10 @@
       <point x="955" y="881"/>
     </contour>
     <contour>
-      <point x="655" y="1000" type="move" name="U"/>
+      <point x="500" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="500" y="-100" type="move" name="L"/>
+      <point x="655" y="1000" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSubSmChi" format="1">
   <advance width="658"/>
+  <unicode hex="1D6A"/>
   <outline>
     <contour>
       <point x="620" y="345" type="curve"/>
@@ -57,10 +58,10 @@
       <point x="205" y="-155"/>
     </contour>
     <contour>
-      <point x="329" y="410" type="move" name="U"/>
+      <point x="204" y="-500" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="204" y="-500" type="move" name="L"/>
+      <point x="329" y="410" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

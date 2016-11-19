@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmScriptGPalHook" format="1">
   <advance width="1331"/>
+  <unicode hex="1D83"/>
   <outline>
     <contour>
       <point x="901" y="812" type="curve"/>
@@ -100,10 +101,10 @@
       <point x="1291" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="548" y="1000" type="move" name="U"/>
+      <point x="328" y="-600" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="328" y="-600" type="move" name="L"/>
+      <point x="548" y="1000" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

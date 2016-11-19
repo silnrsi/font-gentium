@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmSchwaRetrHook" format="1">
   <advance width="989"/>
+  <unicode hex="1D95"/>
   <outline>
     <contour>
       <point x="850" y="592" type="curve" smooth="yes"/>
@@ -82,10 +83,10 @@
       <point x="1265" y="-298"/>
     </contour>
     <contour>
-      <point x="502" y="1000" type="move" name="U"/>
+      <point x="348" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="348" y="-100" type="move" name="L"/>
+      <point x="502" y="1000" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

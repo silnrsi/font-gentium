@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapSmTurnedAlpha" format="1">
   <advance width="1343"/>
+  <unicode hex="2C70"/>
   <outline>
     <contour>
       <point x="163" y="1260" type="line"/>
@@ -51,10 +52,10 @@
       <point x="745" y="1100"/>
     </contour>
     <contour>
-      <point x="789" y="1320" type="move" name="U"/>
+      <point x="610" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="610" y="-100" type="move" name="L"/>
+      <point x="789" y="1320" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

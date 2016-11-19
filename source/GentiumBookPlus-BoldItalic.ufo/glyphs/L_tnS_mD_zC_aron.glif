@@ -7,13 +7,13 @@
     <component base="LtnSmZ" xOffset="807"/>
     <component base="CombCaron" xOffset="1824"/>
     <contour>
+      <point x="1353" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
       <point x="1316" y="-100" type="move" name="L"/>
     </contour>
     <contour>
       <point x="1511" y="1320" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="1353" y="0" type="move" name="H"/>
     </contour>
   </outline>
   <lib>

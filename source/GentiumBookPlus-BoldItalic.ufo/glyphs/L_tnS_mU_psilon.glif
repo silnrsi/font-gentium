@@ -42,19 +42,19 @@
       <point x="950" y="824" type="curve"/>
     </contour>
     <contour>
-      <point x="510" y="0" type="move" name="O"/>
+      <point x="420" y="0" type="move" name="H"/>
     </contour>
     <contour>
-      <point x="420" y="0" type="move" name="H"/>
+      <point x="394" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="510" y="0" type="move" name="O"/>
     </contour>
     <contour>
       <point x="1124" y="870" type="move" name="R"/>
     </contour>
     <contour>
       <point x="545" y="1000" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="394" y="-100" type="move" name="L"/>
     </contour>
   </outline>
   <lib>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmRevOpnERetrHook" format="1">
   <advance width="841"/>
+  <unicode hex="1D94"/>
   <outline>
     <contour>
       <point x="14" y="174" type="line"/>
@@ -74,10 +75,10 @@
       <point x="473" y="-308"/>
     </contour>
     <contour>
-      <point x="478" y="1000" type="move" name="U"/>
+      <point x="220" y="-600" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="220" y="-600" type="move" name="L"/>
+      <point x="478" y="1000" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

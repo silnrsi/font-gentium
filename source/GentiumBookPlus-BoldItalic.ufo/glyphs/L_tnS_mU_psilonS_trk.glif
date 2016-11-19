@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmUpsilonStrk" format="1">
   <advance width="1022"/>
+  <unicode hex="1D7F"/>
   <outline>
     <contour>
       <point x="992" y="905" type="line"/>
@@ -51,10 +52,10 @@
       <point x="1001" y="405" type="line"/>
     </contour>
     <contour>
-      <point x="575" y="1000" type="move" name="U"/>
+      <point x="424" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="424" y="-100" type="move" name="L"/>
+      <point x="575" y="1000" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

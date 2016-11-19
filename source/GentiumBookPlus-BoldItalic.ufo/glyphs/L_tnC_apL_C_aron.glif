@@ -6,13 +6,13 @@
     <component base="LtnCapL"/>
     <component base="CombCommaAbvRt" xOffset="693"/>
     <contour>
-      <point x="557" y="1320" type="move" name="U"/>
-    </contour>
-    <contour>
       <point x="210" y="0" type="move" name="H"/>
     </contour>
     <contour>
       <point x="393" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="557" y="1320" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

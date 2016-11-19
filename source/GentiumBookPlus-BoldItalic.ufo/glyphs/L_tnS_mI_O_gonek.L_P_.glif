@@ -5,6 +5,9 @@
     <component base="LtnSmI.LP"/>
     <component base="CombOgonek" xOffset="734"/>
     <contour>
+      <point x="146" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
       <point x="278" y="0" type="move" name="O"/>
     </contour>
     <contour>
@@ -12,9 +15,6 @@
     </contour>
     <contour>
       <point x="357" y="1000" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="146" y="-600" type="move" name="L"/>
     </contour>
   </outline>
   <lib>

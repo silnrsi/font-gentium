@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmCapRho" format="1">
   <advance width="1042"/>
+  <unicode hex="1D29"/>
   <outline>
     <contour>
       <point x="517" y="0" type="line"/>
@@ -43,10 +44,10 @@
       <point x="0" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="526" y="1000" type="move" name="U"/>
+      <point x="375" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="375" y="-100" type="move" name="L"/>
+      <point x="526" y="1000" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

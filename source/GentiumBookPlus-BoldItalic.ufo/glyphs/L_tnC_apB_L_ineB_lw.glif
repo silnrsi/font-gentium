@@ -6,10 +6,10 @@
     <component base="LtnCapB"/>
     <component base="CombMacronBlw" xOffset="1006"/>
     <contour>
-      <point x="654" y="1320" type="move" name="U"/>
+      <point x="401" y="-600" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="401" y="-600" type="move" name="L"/>
+      <point x="654" y="1320" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
