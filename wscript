@@ -22,8 +22,8 @@ GentiumPlusSIL is a Unicode font for Roman- and Cyrillic-based writing systems
 Font sources are published in the repository and a smith open workflow is
 used for building, testing and releasing.
 """
-DESC_NAME = "CharisSIL"
-DEBPKG = 'fonts-sil-charis'
+DESC_NAME = "GentiumPlus"
+DEBPKG = 'fonts-sil-gentium'
 
 import os
 pysilfontscripts = os.path.abspath("../pysilfont/scripts/") # Currently requires pysilfont repo checked out in same directory as font project
