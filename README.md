@@ -3,4 +3,4 @@ font-gentium
 
 Font for Roman- and Cyrillic-based writing systems.
 
-Not yet ready for use or distribution.
+This UFO-based font project is not yet ready for use or distribution.
