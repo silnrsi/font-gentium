@@ -84,12 +84,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
   <string>http://scripts.sil.org/</string>
-  <key>openTypeNamePreferredFamilyName</key>
-  <string>Gentium Book Plus</string>
-  <key>openTypeNamePreferredSubfamilyName</key>
-  <string>Bold Italic</string>
-  <key>openTypeNameSampleText</key>
-  <string/>
   <key>openTypeNameUniqueID</key>
   <string>SILInternational: Gentium Book Plus Bold Italic: 2017</string>
   <key>openTypeNameVersion</key>
@@ -213,12 +207,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   </array>
   <key>postscriptFontName</key>
   <string>GentiumBookPlus-BoldItalic</string>
-  <key>postscriptForceBold</key>
-  <false/>
   <key>postscriptFullName</key>
   <string>Gentium Book Plus Bold Italic</string>
-  <key>postscriptIsFixedPitch</key>
-  <false/>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-500</integer>
@@ -240,7 +230,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>postscriptUnderlineThickness</key>
   <integer>100</integer>
   <key>postscriptUniqueID</key>
-  <integer>-1</integer>
+  <integer>40154069</integer>
+  <key>postscriptWeightName</key>
+  <string>Bold</string>
   <key>styleMapFamilyName</key>
   <string>Gentium Book Plus</string>
   <key>styleMapStyleName</key>
