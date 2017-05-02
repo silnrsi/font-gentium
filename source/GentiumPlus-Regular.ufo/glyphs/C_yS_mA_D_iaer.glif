@@ -6,10 +6,10 @@
     <component base="CySmA"/>
     <component base="CombDiaer" xOffset="1028"/>
     <contour>
-      <point x="513" y="1410" type="move" name="U"/>
+      <point x="513" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="513" y="-100" type="move" name="L"/>
+      <point x="513" y="1410" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

@@ -6,10 +6,10 @@
     <component base="CombHorn" xOffset="1185"/>
     <component base="CombGrave.LP" xOffset="978"/>
     <contour>
-      <point x="545" y="1370" type="move" name="U"/>
+      <point x="545" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="545" y="-100" type="move" name="L"/>
+      <point x="545" y="1370" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

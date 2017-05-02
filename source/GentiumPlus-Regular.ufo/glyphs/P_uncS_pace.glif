@@ -4,12 +4,6 @@
   <unicode hex="2008"/>
   <outline>
     <contour>
-      <point x="468" y="900" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="234" y="1435" type="move" name="U"/>
-    </contour>
-    <contour>
       <point x="234" y="0" type="move" name="H"/>
     </contour>
     <contour>
@@ -17,6 +11,12 @@
     </contour>
     <contour>
       <point x="259" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="468" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="234" y="1435" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

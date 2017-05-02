@@ -6,10 +6,10 @@
     <component base="LtnSmL"/>
     <component base="MiddleDot" xOffset="555"/>
     <contour>
-      <point x="285" y="-100" type="move" name="L"/>
+      <point x="285" y="0" type="move" name="H"/>
     </contour>
     <contour>
-      <point x="285" y="0" type="move" name="H"/>
+      <point x="285" y="-100" type="move" name="L"/>
     </contour>
     <contour>
       <point x="285" y="1620" type="move" name="U"/>

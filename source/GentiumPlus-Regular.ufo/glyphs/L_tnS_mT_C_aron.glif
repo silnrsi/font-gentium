@@ -6,10 +6,10 @@
     <component base="LtnSmT"/>
     <component base="CombCommaAbvRt" xOffset="500"/>
     <contour>
-      <point x="348" y="-100" type="move" name="L"/>
+      <point x="348" y="0" type="move" name="H"/>
     </contour>
     <contour>
-      <point x="348" y="0" type="move" name="H"/>
+      <point x="348" y="-100" type="move" name="L"/>
     </contour>
     <contour>
       <point x="348" y="1320" type="move" name="U"/>
