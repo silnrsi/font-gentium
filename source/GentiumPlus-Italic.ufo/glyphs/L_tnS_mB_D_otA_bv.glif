@@ -6,6 +6,9 @@
     <component base="LtnSmB"/>
     <component base="DotAbv" xOffset="415"/>
     <contour>
+      <point x="440" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
       <point x="430" y="-100" type="move" name="L"/>
     </contour>
     <contour>
@@ -13,9 +16,6 @@
     </contour>
     <contour>
       <point x="689" y="1353" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="440" y="0" type="move" name="H"/>
     </contour>
   </outline>
   <lib>

@@ -6,13 +6,13 @@
     <component base="LtnSmL"/>
     <component base="LtnSmJ" xOffset="481"/>
     <contour>
+      <point x="164" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
       <point x="589" y="-600" type="move" name="L"/>
     </contour>
     <contour>
       <point x="808" y="1000" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="164" y="0" type="move" name="H"/>
     </contour>
   </outline>
   <lib>

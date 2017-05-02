@@ -26,7 +26,7 @@
       <point x="638" y="1507" type="curve"/>
     </contour>
     <contour>
-      <point x="446" y="1610" type="move" name="U"/>
+      <point x="225" y="0" type="move" name="H"/>
     </contour>
     <contour>
       <point x="211" y="-100" type="move" name="L"/>
@@ -35,10 +35,10 @@
       <point x="285" y="0" type="move" name="O"/>
     </contour>
     <contour>
-      <point x="225" y="0" type="move" name="H"/>
+      <point x="550" y="1070" type="move" name="R"/>
     </contour>
     <contour>
-      <point x="550" y="1070" type="move" name="R"/>
+      <point x="446" y="1610" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

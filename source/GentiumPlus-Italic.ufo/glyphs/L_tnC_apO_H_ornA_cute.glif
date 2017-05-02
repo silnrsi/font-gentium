@@ -7,10 +7,10 @@
     <component base="CombHorn" xOffset="1086" yOffset="380"/>
     <component base="CombAcute.LP" xOffset="1053" yOffset="320"/>
     <contour>
-      <point x="744" y="1640" type="move" name="U"/>
+      <point x="507" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="507" y="-100" type="move" name="L"/>
+      <point x="744" y="1640" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

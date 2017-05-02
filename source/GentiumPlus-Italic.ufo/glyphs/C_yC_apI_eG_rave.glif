@@ -6,10 +6,10 @@
     <component base="CyCapIe"/>
     <component base="CombGrave.LP" xOffset="892" yOffset="320"/>
     <contour>
-      <point x="660" y="1640" type="move" name="U"/>
+      <point x="420" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="420" y="-100" type="move" name="L"/>
+      <point x="660" y="1640" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

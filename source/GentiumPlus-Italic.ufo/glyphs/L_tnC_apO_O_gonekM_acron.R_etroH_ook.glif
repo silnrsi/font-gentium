@@ -5,7 +5,7 @@
     <component base="LtnCapOOgonek.RetroHook"/>
     <component base="CombMacron.LP" xOffset="1065" yOffset="320"/>
     <contour>
-      <point x="744" y="1640" type="move" name="U"/>
+      <point x="500" y="0" type="move" name="H"/>
     </contour>
     <contour>
       <point x="434" y="-600" type="move" name="L"/>
@@ -14,10 +14,10 @@
       <point x="560" y="0" type="move" name="O"/>
     </contour>
     <contour>
-      <point x="500" y="0" type="move" name="H"/>
+      <point x="1030" y="1070" type="move" name="R"/>
     </contour>
     <contour>
-      <point x="1030" y="1070" type="move" name="R"/>
+      <point x="744" y="1640" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

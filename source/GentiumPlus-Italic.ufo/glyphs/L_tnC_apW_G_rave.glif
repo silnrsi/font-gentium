@@ -6,10 +6,10 @@
     <component base="LtnCapW"/>
     <component base="CombGrave.LP" xOffset="1186" yOffset="320"/>
     <contour>
-      <point x="954" y="1640" type="move" name="U"/>
+      <point x="716" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="716" y="-100" type="move" name="L"/>
+      <point x="954" y="1640" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

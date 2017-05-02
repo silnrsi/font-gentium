@@ -6,10 +6,10 @@
     <component base="LtnSmW"/>
     <component base="CombDotBlw" xOffset="1104"/>
     <contour>
-      <point x="753" y="1000" type="move" name="U"/>
+      <point x="533" y="-600" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="533" y="-600" type="move" name="L"/>
+      <point x="753" y="1000" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

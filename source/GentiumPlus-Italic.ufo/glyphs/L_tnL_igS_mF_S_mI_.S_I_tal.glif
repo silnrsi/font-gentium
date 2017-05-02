@@ -5,10 +5,10 @@
     <component base="LtnSmF.SItal" xOffset="37"/>
     <component base="LtnSmI.SItal" xOffset="581"/>
     <contour>
-      <point x="1116" y="900" type="move" name="R"/>
+      <point x="760" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="760" y="-100" type="move" name="L"/>
+      <point x="1116" y="900" type="move" name="R"/>
     </contour>
     <contour>
       <point x="884" y="1000" type="move" name="U"/>

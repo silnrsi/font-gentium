@@ -6,13 +6,13 @@
     <component base="LtnSmY"/>
     <component base="CombGrave" xOffset="840"/>
     <contour>
+      <point x="620" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
       <point x="988" y="870" type="move" name="R"/>
     </contour>
     <contour>
       <point x="615" y="1370" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="620" y="-100" type="move" name="L"/>
     </contour>
   </outline>
   <lib>

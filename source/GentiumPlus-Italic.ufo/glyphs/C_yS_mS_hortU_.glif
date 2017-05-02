@@ -6,10 +6,10 @@
     <component base="CySmU"/>
     <component base="CombBreve.CyShortMrkAlt" xOffset="1006"/>
     <contour>
-      <point x="612" y="1320" type="move" name="U"/>
+      <point x="620" y="-100" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="620" y="-100" type="move" name="L"/>
+      <point x="612" y="1320" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
