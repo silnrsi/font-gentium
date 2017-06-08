@@ -7,19 +7,15 @@
   <key>capHeight</key>
   <integer>1260</integer>
   <key>copyright</key>
-  <string>Copyright (c) SIL International, 2003-2017.</string>
+  <string>Copyright (c) SIL International, 2003-2017</string>
   <key>descender</key>
   <integer>-750</integer>
   <key>familyName</key>
   <string>Gentium Book Plus</string>
-  <key>macintoshFONDFamilyID</key>
-  <integer>4418</integer>
-  <key>macintoshFONDName</key>
-  <string>Gentium Book Plus</string>
+  <key>italicAngle</key>
+  <integer>0</integer>
   <key>openTypeHeadCreated</key>
-  <string>2014/10/31 06:31:15</string>
-  <key>openTypeHeadFlags</key>
-  <array/>
+  <string>2017/06/08 17:00:00</string>
   <key>openTypeHheaAscender</key>
   <integer>2250</integer>
   <key>openTypeHheaDescender</key>
@@ -27,7 +23,7 @@
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
-  <string/>
+  <string>Copyright (c) SIL International, 2003-2017</string>
   <key>openTypeNameDesigner</key>
   <string>Victor Gaultney, Annie Olsen, Iska Routamaa, Becca Hirsbrunner</string>
   <key>openTypeNameDesignerURL</key>
@@ -81,7 +77,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameManufacturer</key>
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>http://scripts.sil.org/</string>
+  <string>http://www.sil.org/</string>
+  <key>openTypeNamePreferredFamilyName</key>
+  <string>Gentium Book Plus</string>
+  <key>openTypeNamePreferredSubfamilyName</key>
+  <string>Bold</string>
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Gentium Book Plus Bold: 2017</string>
   <key>openTypeNameVersion</key>
@@ -179,7 +179,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>89</integer>
   </array>
   <key>openTypeOS2VendorID</key>
-  <string>SIL</string>
+  <string>SIL </string>
   <key>openTypeOS2WeightClass</key>
   <integer>700</integer>
   <key>openTypeOS2WidthClass</key>
@@ -191,7 +191,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>postscriptBlueFuzz</key>
   <integer>1</integer>
   <key>postscriptBlueScale</key>
-  <real>0.3562</real>
+  <real>0.356174</real>
   <key>postscriptBlueShift</key>
   <integer>7</integer>
   <key>postscriptBlueValues</key>
@@ -246,10 +246,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>-250</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>100</integer>
-  <key>postscriptUniqueID</key>
-  <integer>4015408</integer>
-  <key>postscriptWeightName</key>
-  <string>Bold</string>
   <key>styleMapFamilyName</key>
   <string>Gentium Book Plus</string>
   <key>styleMapStyleName</key>
