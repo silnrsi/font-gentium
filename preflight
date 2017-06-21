@@ -1,12 +1,6 @@
 #!/bin/sh
 
-# sync/copy meta data.  No need to normalize since UFOstripChangedTime will do that
-UFOsyncMeta source/GentiumPlus-Regular.ufo
-UFOcopyMeta source/GentiumPlus-Regular.ufo source/GentiumBookPlus-Bold.ufo
-UFOsyncMeta source/GentiumBookPlus-BoldItalic.ufo -m source/GentiumBookPlus-Bold.ufo -s
-
-# Strip Glyphs changed time since otherwise every glyph shows as modified to git.
-./tools/UFOstripChangedTime.py source/GentiumPlus-Regular.ufo
-./tools/UFOstripChangedTime.py source/GentiumPlus-Italic.ufo
-./tools/UFOstripChangedTime.py source/GentiumBookPlus-Bold.ufo
-./tools/UFOstripChangedTime.py source/GentiumBookPlus-BoldItalic.ufo
+psfsyncmeta source/GentiumPlus-Regular.ufo --normalize
+psfnormalize source/GentiumBookPlus-Bold.ufo
+psfcopymeta source/GentiumPlus-Regular.ufo source/GentiumBookPlus-Bold.ufo
+psfsyncmeta source/GentiumBookPlus-BoldItalic.ufo -m source/GentiumBookPlus-Bold.ufo -s --normalize
