@@ -7,27 +7,27 @@
 
 # Explicitly declare text files to always be normalized and converted
 # to native line endings on checkout.
-*.cfg text
-*.css text
-*.fea text
-*.ftml text
-*.gdl text
-*.gdh text
-*.html text
-*.htxt text
-*.md text
-*.sil text
-*.srctext text 
-*.tex text
-*.txt text
-*.TXT text
-*.vtp text
-*.xdvtxt text
-*.xsl text
-*.xml text
+*.cfg text eol=lf
+*.css text eol=lf
+*.fea text eol=lf
+*.ftml text eol=lf
+*.gdl text eol=lf
+*.gdh text eol=lf
+*.html text eol=lf
+*.htxt text eol=lf
+*.md text eol=lf
+*.sil text eol=lf
+*.srctext text eol=lf
+*.tex text eol=lf
+*.txt text eol=lf
+*.TXT text eol=lf
+*.vtp text eol=lf
+*.xdvtxt text eol=lf
+*.xsl text eol=lf
+*.xml text eol=lf
 
-preflight text
-wscript text
+preflight text eol=lf
+wscript text eol=lf
 
 # Declare text files that will stay in LF (i.e. not expected to be used on Windows)
 *.sh eol=lf
@@ -46,7 +46,7 @@ wscript text
 *.PDF binary
 
 # other document formats
-*.pdf  diff=astextplain
+*.pdf diff=astextplain
 *.PDF diff=astextplain
 *.doc diff=astextplain
 *.DOC diff=astextplain
