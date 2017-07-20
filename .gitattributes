@@ -5,18 +5,18 @@
 # Set the default behavior, in case people don't have core.autocrlf set.
 * text=auto
 
-# Set the default behavior, we expect Windows users to use a VM for now 
-[attr]text eol=lf
-
 # Explicitly declare text files to always be normalized and converted
 # to native line endings on checkout.
 *.cfg text
+*.css text
+*.fea text
 *.ftml text
 *.gdl text
 *.gdh text
+*.html text
 *.htxt text
 *.md text
-*.sile text
+*.sil text
 *.srctext text 
 *.tex text
 *.txt text
@@ -26,13 +26,14 @@
 *.xsl text
 *.xml text
 
+preflight text
 wscript text
 
 # Declare text files that will stay in LF (i.e. not expected to be used on Windows)
 *.sh eol=lf
 *.sfd text eol=lf
 
-# Keep these as Linux because vfb2ufo generates Linux line-endings, even on Windows:
+# Keep these as LF because vfb2ufo generates LF, even on Windows:
 *.glif text eol=lf
 *.plist text eol=lf
 
