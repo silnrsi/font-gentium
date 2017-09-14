@@ -77,7 +77,6 @@
       <point x="472" y="160"/>
     </contour>
     <contour>
-      <point x="1384" y="466" type="line"/>
       <point x="1425" y="546" type="line"/>
       <point x="1403" y="571" type="line"/>
       <point x="870" y="571" type="line"/>
@@ -85,6 +84,7 @@
       <point x="834" y="509"/>
       <point x="828" y="488" type="curve"/>
       <point x="851" y="466" type="line"/>
+      <point x="1384" y="466" type="line"/>
     </contour>
     <contour>
       <point x="750" y="-100" type="move" name="L"/>

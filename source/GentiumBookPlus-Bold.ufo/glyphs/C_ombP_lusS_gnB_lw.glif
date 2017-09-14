@@ -16,6 +16,8 @@
       <point x="-272" y="-317"/>
     </contour>
     <contour>
+      <point x="-489" y="-534" type="curve"/>
+      <point x="-489" y="-110" type="line"/>
       <point x="-513" y="-85" type="line"/>
       <point x="-542" y="-93"/>
       <point x="-596" y="-101"/>
@@ -24,8 +26,6 @@
       <point x="-594" y="-561" type="line"/>
       <point x="-565" y="-554"/>
       <point x="-515" y="-546"/>
-      <point x="-489" y="-534" type="curve"/>
-      <point x="-489" y="-110" type="line"/>
     </contour>
     <contour>
       <point x="-558" y="-600" type="move" name="L"/>

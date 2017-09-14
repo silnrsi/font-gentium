@@ -4,8 +4,16 @@
   <unicode hex="024F"/>
   <outline>
     <contour>
-      <point x="1039" y="847" type="curve"/>
-      <point x="1039" y="930" type="line"/>
+      <point x="1039" y="655" type="line"/>
+      <point x="1017" y="680" type="line"/>
+      <point x="50" y="680" type="line"/>
+      <point x="39" y="659"/>
+      <point x="16" y="593"/>
+      <point x="10" y="572" type="curve"/>
+      <point x="33" y="550" type="line"/>
+      <point x="1000" y="550" type="line"/>
+    </contour>
+    <contour>
       <point x="715" y="930" type="line"/>
       <point x="715" y="847" type="line"/>
       <point x="804" y="832"/>
@@ -42,16 +50,8 @@
       <point x="929" y="779" type="line" smooth="yes"/>
       <point x="944" y="818"/>
       <point x="959" y="828"/>
-    </contour>
-    <contour>
-      <point x="1039" y="655" type="line"/>
-      <point x="1017" y="680" type="line"/>
-      <point x="50" y="680" type="line"/>
-      <point x="39" y="659"/>
-      <point x="16" y="593"/>
-      <point x="10" y="572" type="curve"/>
-      <point x="33" y="550" type="line"/>
-      <point x="1000" y="550" type="line"/>
+      <point x="1039" y="847" type="curve"/>
+      <point x="1039" y="930" type="line"/>
     </contour>
     <contour>
       <point x="830" y="-100" type="move" name="L"/>

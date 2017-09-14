@@ -3,27 +3,6 @@
   <advance width="1175"/>
   <outline>
     <contour>
-      <point x="1006" y="-184" type="curve"/>
-      <point x="980" y="-130" type="line"/>
-      <point x="926" y="-122"/>
-      <point x="739" y="-210"/>
-      <point x="750" y="-224" type="curve" smooth="yes"/>
-      <point x="789" y="-273"/>
-      <point x="776" y="-365"/>
-      <point x="701" y="-365" type="curve" smooth="yes"/>
-      <point x="645" y="-365"/>
-      <point x="614" y="-319"/>
-      <point x="614" y="-166" type="curve" smooth="yes"/>
-      <point x="614" y="66" type="line"/>
-      <point x="484" y="66" type="line"/>
-      <point x="484" y="-247" type="line" smooth="yes"/>
-      <point x="484" y="-432"/>
-      <point x="585" y="-500"/>
-      <point x="707" y="-500" type="curve" smooth="yes"/>
-      <point x="857" y="-500"/>
-      <point x="1016" y="-317"/>
-    </contour>
-    <contour>
       <point x="1169" y="122" type="curve"/>
       <point x="1139" y="207" type="line"/>
       <point x="1071" y="178"/>
@@ -69,6 +48,27 @@
       <point x="860" y="-30" type="curve" smooth="yes"/>
       <point x="893" y="-30"/>
       <point x="1071" y="58"/>
+    </contour>
+    <contour>
+      <point x="1006" y="-184" type="curve"/>
+      <point x="980" y="-130" type="line"/>
+      <point x="926" y="-122"/>
+      <point x="739" y="-210"/>
+      <point x="750" y="-224" type="curve" smooth="yes"/>
+      <point x="789" y="-273"/>
+      <point x="776" y="-365"/>
+      <point x="701" y="-365" type="curve" smooth="yes"/>
+      <point x="645" y="-365"/>
+      <point x="614" y="-319"/>
+      <point x="614" y="-166" type="curve" smooth="yes"/>
+      <point x="614" y="66" type="line"/>
+      <point x="484" y="66" type="line"/>
+      <point x="484" y="-247" type="line" smooth="yes"/>
+      <point x="484" y="-432"/>
+      <point x="585" y="-500"/>
+      <point x="707" y="-500" type="curve" smooth="yes"/>
+      <point x="857" y="-500"/>
+      <point x="1016" y="-317"/>
     </contour>
     <contour>
       <point x="592" y="-600" type="move" name="L"/>
