@@ -4,6 +4,8 @@
   <unicode hex="0318"/>
   <outline>
     <contour>
+      <point x="-387" y="-291" type="curve"/>
+      <point x="-400" y="-254" type="line"/>
       <point x="-727" y="-254" type="line"/>
       <point x="-743" y="-277"/>
       <point x="-773" y="-332"/>
@@ -12,20 +14,18 @@
       <point x="-435" y="-390" type="line"/>
       <point x="-422" y="-369"/>
       <point x="-395" y="-314"/>
-      <point x="-387" y="-291" type="curve"/>
-      <point x="-400" y="-254" type="line"/>
     </contour>
     <contour>
-      <point x="-551" y="-528" type="line"/>
-      <point x="-520" y="-562" type="line"/>
-      <point x="-496" y="-557"/>
-      <point x="-437" y="-529"/>
       <point x="-413" y="-519" type="curve"/>
       <point x="-360" y="-116" type="line"/>
       <point x="-390" y="-84" type="line"/>
       <point x="-414" y="-90"/>
       <point x="-473" y="-113"/>
       <point x="-498" y="-127" type="curve"/>
+      <point x="-551" y="-528" type="line"/>
+      <point x="-520" y="-562" type="line"/>
+      <point x="-496" y="-557"/>
+      <point x="-437" y="-529"/>
     </contour>
     <contour>
       <point x="-608" y="-600" type="move" name="L"/>

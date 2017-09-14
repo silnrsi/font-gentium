@@ -52,6 +52,18 @@
       <point x="850" y="383"/>
     </contour>
     <contour>
+      <point x="718" y="418" type="line"/>
+      <point x="826" y="418"/>
+      <point x="862" y="363"/>
+      <point x="862" y="297" type="curve" smooth="yes"/>
+      <point x="862" y="107"/>
+      <point x="776" y="-130"/>
+      <point x="776" y="-309" type="curve" smooth="yes"/>
+      <point x="776" y="-448"/>
+      <point x="856" y="-500"/>
+      <point x="962" y="-500" type="curve" smooth="yes"/>
+      <point x="1109" y="-500"/>
+      <point x="1265" y="-298"/>
       <point x="1270" y="-177" type="curve"/>
       <point x="1256" y="-129" type="line"/>
       <point x="1209" y="-121"/>
@@ -69,18 +81,6 @@
       <point x="984" y="471"/>
       <point x="862" y="548"/>
       <point x="758" y="548" type="curve"/>
-      <point x="718" y="418" type="line"/>
-      <point x="826" y="418"/>
-      <point x="862" y="363"/>
-      <point x="862" y="297" type="curve" smooth="yes"/>
-      <point x="862" y="107"/>
-      <point x="776" y="-130"/>
-      <point x="776" y="-309" type="curve" smooth="yes"/>
-      <point x="776" y="-448"/>
-      <point x="856" y="-500"/>
-      <point x="962" y="-500" type="curve" smooth="yes"/>
-      <point x="1109" y="-500"/>
-      <point x="1265" y="-298"/>
     </contour>
     <contour>
       <point x="348" y="-100" type="move" name="L"/>

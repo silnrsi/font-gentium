@@ -38,13 +38,13 @@
     </contour>
     <contour>
       <point x="920" y="500" type="line"/>
-      <point x="149" y="500" type="line"/>
-      <point x="129" y="526" type="line"/>
-      <point x="136" y="542"/>
-      <point x="149" y="572"/>
-      <point x="158" y="588" type="curve"/>
-      <point x="928" y="588" type="line"/>
       <point x="951" y="564" type="line"/>
+      <point x="928" y="588" type="line"/>
+      <point x="158" y="588" type="line"/>
+      <point x="149" y="572"/>
+      <point x="136" y="542"/>
+      <point x="129" y="526" type="curve"/>
+      <point x="149" y="500" type="line"/>
     </contour>
   </outline>
   <lib>
