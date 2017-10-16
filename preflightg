@@ -1,0 +1,13 @@
+#!/bin/sh
+
+psfsetpsnames -i source/glyph_data.csv source/GentiumPlus-Regular.ufo
+psfsetpsnames -i source/glyph_data.csv source/GentiumPlus-Italic.ufo
+psfsetpsnames -i source/glyph_data.csv source/GentiumBookPlus-Bold.ufo
+psfsetpsnames -i source/glyph_data.csv source/GentiumBookPlus-BoldItalic.ufo
+psfsetglyphorder --header sort_final_cdg -i source/glyph_data.csv source/GentiumPlus-Regular.ufo
+psfsetglyphorder --header sort_final_cdg -i source/glyph_data.csv source/GentiumPlus-Italic.ufo
+psfsetglyphorder --header sort_final_cdg -i source/glyph_data.csv source/GentiumBookPlus-Bold.ufo
+psfsetglyphorder --header sort_final_cdg -i source/glyph_data.csv source/GentiumBookPlus-BoldItalic.ufo
+psfsyncmeta source/GentiumPlus-Regular.ufo
+psfcopymeta source/GentiumPlus-Regular.ufo source/GentiumBookPlus-Bold.ufo
+psfsyncmeta source/GentiumBookPlus-BoldItalic.ufo -m source/GentiumBookPlus-Bold.ufo -s
