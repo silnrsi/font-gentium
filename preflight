@@ -1,6 +1,6 @@
 #!/bin/sh
 
-psfsyncmeta source/GentiumPlus-Regular.ufo --normalize
-psfnormalize source/GentiumBookPlus-Bold.ufo
-psfcopymeta source/GentiumPlus-Regular.ufo source/GentiumBookPlus-Bold.ufo
-psfsyncmeta source/GentiumBookPlus-BoldItalic.ufo -m source/GentiumBookPlus-Bold.ufo -s --normalize
+psfsyncmeta source/GentiumPlus-Regular.ufo --normalize -l source/logs/sync_reg.log
+psfnormalize source/GentiumBookPlus-Bold.ufo -l source/logs/norm_book_plus.log
+psfcopymeta source/GentiumPlus-Regular.ufo source/GentiumBookPlus-Bold.ufo -l source/logs/copy.log
+psfsyncmeta source/GentiumBookPlus-BoldItalic.ufo -m source/GentiumBookPlus-Bold.ufo -s --normalize -l source/logs/sync_book.log
