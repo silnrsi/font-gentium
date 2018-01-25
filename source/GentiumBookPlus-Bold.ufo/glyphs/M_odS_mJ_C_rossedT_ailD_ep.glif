@@ -4,12 +4,13 @@
   <unicode hex="F1BD"/>
   <outline>
     <contour>
+      <point x="-209" y="1470" type="line"/>
       <point x="-209" y="278" type="line"/>
       <point x="376" y="278" type="line"/>
       <point x="376" y="1470" type="line"/>
-      <point x="-209" y="1470" type="line"/>
     </contour>
     <contour>
+      <point x="258" y="1196" type="line"/>
       <point x="258" y="679" type="line"/>
       <point x="258" y="586"/>
       <point x="241" y="523"/>
@@ -47,9 +48,9 @@
       <point x="123" y="1160"/>
       <point x="171" y="1175"/>
       <point x="230" y="1196" type="curve"/>
-      <point x="258" y="1196" type="line"/>
     </contour>
     <contour>
+      <point x="279" y="1415"/>
       <point x="279" y="1373" type="curve" smooth="yes"/>
       <point x="279" y="1323"/>
       <point x="239" y="1280"/>
@@ -61,9 +62,9 @@
       <point x="160" y="1440"/>
       <point x="210" y="1440" type="curve" smooth="yes"/>
       <point x="255" y="1440"/>
-      <point x="279" y="1415"/>
     </contour>
     <contour>
+      <point x="46" y="503"/>
       <point x="9" y="503" type="curve" smooth="yes"/>
       <point x="-36" y="503"/>
       <point x="-71" y="482"/>
@@ -75,7 +76,6 @@
       <point x="89" y="425"/>
       <point x="110" y="478" type="curve"/>
       <point x="78" y="495"/>
-      <point x="46" y="503"/>
     </contour>
     <contour>
       <point x="144" y="500" type="move" name="L"/>
@@ -84,4 +84,28 @@
       <point x="144" y="1625" type="move" name="U"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>x</key>
+          <integer>258</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
 </glyph>

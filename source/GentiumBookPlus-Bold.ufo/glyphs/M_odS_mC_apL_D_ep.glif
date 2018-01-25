@@ -4,12 +4,13 @@
   <unicode hex="F1BF"/>
   <outline>
     <contour>
+      <point x="8" y="1208" type="line"/>
       <point x="8" y="590" type="line"/>
       <point x="628" y="590" type="line"/>
       <point x="628" y="1208" type="line"/>
-      <point x="8" y="1208" type="line"/>
     </contour>
     <contour>
+      <point x="564" y="761" type="curve"/>
       <point x="598" y="752" type="line"/>
       <point x="591" y="700"/>
       <point x="576" y="637"/>
@@ -36,7 +37,6 @@
       <point x="427" y="683" type="line" smooth="yes"/>
       <point x="508" y="683"/>
       <point x="527" y="691"/>
-      <point x="564" y="761" type="curve"/>
     </contour>
     <contour>
       <point x="297" y="750" type="move" name="L"/>
@@ -45,4 +45,15 @@
       <point x="297" y="1400" type="move" name="U"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
 </glyph>

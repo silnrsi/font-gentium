@@ -4,6 +4,7 @@
   <unicode hex="02F0"/>
   <outline>
     <contour>
+      <point x="475" y="-518" type="curve"/>
       <point x="290" y="-144" type="line"/>
       <point x="273" y="-152"/>
       <point x="235" y="-169"/>
@@ -18,7 +19,23 @@
       <point x="407" y="-558" type="line"/>
       <point x="427" y="-551"/>
       <point x="461" y="-530"/>
-      <point x="475" y="-518" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>-70</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -3,6 +3,7 @@
   <advance width="1204"/>
   <outline>
     <contour>
+      <point x="726" y="0" type="line"/>
       <point x="1156" y="0" type="line"/>
       <point x="1156" y="49" type="line"/>
       <point x="1081" y="58"/>
@@ -60,9 +61,9 @@
       <point x="838" y="64"/>
       <point x="804" y="56"/>
       <point x="726" y="49" type="curve"/>
-      <point x="726" y="0" type="line"/>
     </contour>
     <contour>
+      <point x="934" y="500" type="line"/>
       <point x="961" y="565" type="line"/>
       <point x="932" y="588" type="line"/>
       <point x="234" y="588" type="line"/>
@@ -70,7 +71,6 @@
       <point x="216" y="543"/>
       <point x="210" y="527" type="curve"/>
       <point x="237" y="500" type="line"/>
-      <point x="934" y="500" type="line"/>
     </contour>
     <contour>
       <point x="602" y="-76" type="move" name="L"/>
@@ -79,4 +79,15 @@
       <point x="602" y="1145" type="move" name="U"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -4,6 +4,7 @@
   <unicode hex="1DCC"/>
   <outline>
     <contour>
+      <point x="-251" y="1065"/>
       <point x="-151" y="1280" type="curve"/>
       <point x="-167" y="1304"/>
       <point x="-211" y="1335"/>
@@ -24,7 +25,6 @@
       <point x="-620" y="1020"/>
       <point x="-514" y="1020" type="curve" smooth="yes"/>
       <point x="-394" y="1020"/>
-      <point x="-251" y="1065"/>
     </contour>
     <contour>
       <point x="-548" y="1370" type="move" name="U"/>
@@ -33,4 +33,21 @@
       <point x="-548" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>x</key>
+          <integer>-2560</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

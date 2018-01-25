@@ -4,12 +4,13 @@
   <unicode hex="F232"/>
   <outline>
     <contour>
+      <point x="-10" y="960" type="line"/>
       <point x="-10" y="-530" type="line"/>
       <point x="1046" y="-530" type="line"/>
       <point x="1046" y="960" type="line"/>
-      <point x="-10" y="960" type="line"/>
     </contour>
     <contour>
+      <point x="567" y="-400"/>
       <point x="579" y="-287" type="curve"/>
       <point x="602" y="-259"/>
       <point x="674" y="-210"/>
@@ -72,7 +73,6 @@
       <point x="875" y="-500"/>
       <point x="773" y="-500" type="curve" smooth="yes"/>
       <point x="658" y="-500"/>
-      <point x="567" y="-400"/>
     </contour>
     <contour>
       <point x="515" y="-600" type="move" name="L"/>
@@ -81,4 +81,15 @@
       <point x="515" y="1050" type="move" name="U"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
 </glyph>

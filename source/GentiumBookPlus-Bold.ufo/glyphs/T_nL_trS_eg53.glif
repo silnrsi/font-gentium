@@ -3,6 +3,7 @@
   <advance width="500"/>
   <outline>
     <contour>
+      <point x="-84" y="1466"/>
       <point x="-60" y="1432" type="curve" smooth="yes"/>
       <point x="438" y="722" type="line" smooth="yes"/>
       <point x="462" y="688"/>
@@ -16,7 +17,17 @@
       <point x="-8" y="1560"/>
       <point x="-42" y="1536" type="curve" smooth="yes"/>
       <point x="-76" y="1512"/>
-      <point x="-84" y="1466"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
 </glyph>
