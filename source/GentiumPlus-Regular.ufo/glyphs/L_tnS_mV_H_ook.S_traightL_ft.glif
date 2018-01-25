@@ -3,6 +3,7 @@
   <advance width="1010"/>
   <outline>
     <contour>
+      <point x="844" y="783"/>
       <point x="844" y="716" type="curve" smooth="yes"/>
       <point x="844" y="628"/>
       <point x="662" y="317"/>
@@ -38,7 +39,6 @@
       <point x="707" y="831"/>
       <point x="736" y="831" type="curve" smooth="yes"/>
       <point x="812" y="831"/>
-      <point x="844" y="783"/>
     </contour>
     <contour>
       <point x="499" y="0" type="move" name="H"/>
@@ -53,4 +53,10 @@
       <point x="560" y="1050" type="move" name="U"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.sil.assocFeatureValue</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
 </glyph>

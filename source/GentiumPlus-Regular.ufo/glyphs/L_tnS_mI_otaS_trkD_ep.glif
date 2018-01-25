@@ -4,12 +4,13 @@
   <unicode hex="F25D"/>
   <outline>
     <contour>
+      <point x="0" y="990" type="line"/>
       <point x="0" y="-60" type="line"/>
       <point x="628" y="-60" type="line"/>
       <point x="628" y="990" type="line"/>
-      <point x="0" y="990" type="line"/>
     </contour>
     <contour>
+      <point x="520" y="480" type="line"/>
       <point x="498" y="415" type="line"/>
       <point x="340" y="415" type="line"/>
       <point x="340" y="303" type="line" smooth="yes"/>
@@ -44,7 +45,6 @@
       <point x="340" y="960" type="line"/>
       <point x="340" y="505" type="line"/>
       <point x="498" y="505" type="line"/>
-      <point x="520" y="480" type="line"/>
     </contour>
     <contour>
       <point x="292" y="0" type="move" name="H"/>

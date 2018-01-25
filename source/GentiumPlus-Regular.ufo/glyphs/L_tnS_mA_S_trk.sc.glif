@@ -3,6 +3,7 @@
   <advance width="1166"/>
   <outline>
     <contour>
+      <point x="371" y="363" type="line"/>
       <point x="738" y="363" type="line"/>
       <point x="842" y="95" type="line"/>
       <point x="852" y="66"/>
@@ -28,16 +29,16 @@
       <point x="308" y="58"/>
       <point x="263" y="69"/>
       <point x="270" y="95" type="curve"/>
-      <point x="371" y="363" type="line"/>
     </contour>
     <contour>
+      <point x="705" y="450" type="curve"/>
       <point x="405" y="450" type="line"/>
       <point x="552" y="842" type="line"/>
       <point x="605" y="705"/>
       <point x="652" y="587"/>
-      <point x="705" y="450" type="curve"/>
     </contour>
     <contour>
+      <point x="1036" y="1137" type="line"/>
       <point x="1011" y="1172" type="line"/>
       <point x="971" y="1158"/>
       <point x="926" y="1135"/>
@@ -47,7 +48,6 @@
       <point x="190" y="-120"/>
       <point x="256" y="-85"/>
       <point x="279" y="-68" type="curve"/>
-      <point x="1036" y="1137" type="line"/>
     </contour>
     <contour>
       <point x="593" y="0" type="move" name="H"/>
@@ -62,4 +62,23 @@
       <point x="610" y="1145" type="move" name="U"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>1145</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

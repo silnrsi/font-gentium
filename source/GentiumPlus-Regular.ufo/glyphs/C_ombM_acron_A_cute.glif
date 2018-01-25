@@ -4,6 +4,7 @@
   <unicode hex="1DC4"/>
   <outline>
     <contour>
+      <point x="-171" y="1537" type="curve"/>
       <point x="-456" y="1217" type="line"/>
       <point x="-433" y="1178" type="line"/>
       <point x="-403" y="1169"/>
@@ -12,9 +13,9 @@
       <point x="-114" y="1509" type="line"/>
       <point x="-129" y="1521"/>
       <point x="-147" y="1533"/>
-      <point x="-171" y="1537" type="curve"/>
     </contour>
     <contour>
+      <point x="-265" y="1232"/>
       <point x="-259" y="1261" type="curve"/>
       <point x="-281" y="1285" type="line"/>
       <point x="-764" y="1285" type="line"/>
@@ -24,10 +25,28 @@
       <point x="-783" y="1155" type="line"/>
       <point x="-298" y="1155" type="line"/>
       <point x="-288" y="1180"/>
-      <point x="-265" y="1232"/>
     </contour>
     <contour>
       <point x="-514" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>-516</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>
