@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmLAcute" format="2">
-  <advance width="555.0"/>
+  <advance width="555"/>
   <unicode hex="013A"/>
-  <anchor x="285.0" y="0.0" name="H"/>
-  <anchor x="285.0" y="-100.0" name="L"/>
-  <anchor x="535.0" y="900.0" name="R"/>
-  <anchor x="285.0" y="2010.0" name="U"/>
+  <anchor x="285" y="0" name="H"/>
+  <anchor x="285" y="-100" name="L"/>
+  <anchor x="535" y="900" name="R"/>
+  <anchor x="285" y="2010" name="U"/>
   <outline>
     <component base="LtnSmL"/>
-    <component base="CombAcute.LP" xOffset="828.0" yOffset="640.0"/>
+    <component base="CombAcute.LP" xOffset="828" yOffset="640"/>
   </outline>
   <lib>
     <dict>

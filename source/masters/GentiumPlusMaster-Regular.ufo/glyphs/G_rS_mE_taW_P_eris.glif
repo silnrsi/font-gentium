@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmEtaWPeris" format="2">
-  <advance width="1094.0"/>
+  <advance width="1094"/>
   <unicode hex="1FC6"/>
   <outline>
     <component base="GrSmEta"/>
-    <component base="GrPeris" xOffset="190.0" yOffset="25.0"/>
+    <component base="GrPeris" xOffset="190" yOffset="25"/>
   </outline>
   <lib>
     <dict>

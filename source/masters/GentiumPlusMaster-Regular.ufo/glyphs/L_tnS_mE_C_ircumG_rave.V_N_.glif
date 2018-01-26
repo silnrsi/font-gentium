@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmECircumGrave.VN" format="2">
-  <advance width="946.0"/>
-  <anchor x="500.0" y="0.0" name="H"/>
-  <anchor x="500.0" y="-100.0" name="L"/>
-  <anchor x="558.0" y="0.0" name="O"/>
-  <anchor x="1020.0" y="900.0" name="R"/>
+  <advance width="946"/>
+  <anchor x="500" y="0" name="H"/>
+  <anchor x="500" y="-100" name="L"/>
+  <anchor x="558" y="0" name="O"/>
+  <anchor x="1020" y="900" name="R"/>
   <outline>
     <component base="LtnSmE"/>
-    <component base="CombCircumGrave.VN" xOffset="1024.0"/>
+    <component base="CombCircumGrave.VN" xOffset="1024"/>
   </outline>
   <lib>
     <dict>

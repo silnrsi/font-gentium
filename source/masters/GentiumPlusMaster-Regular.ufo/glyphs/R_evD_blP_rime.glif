@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="RevDblPrime" format="2">
-  <advance width="805.0"/>
+  <advance width="805"/>
   <unicode hex="2036"/>
   <outline>
     <component base="RevPrime"/>
-    <component base="RevPrime" xOffset="300.0"/>
+    <component base="RevPrime" xOffset="300"/>
   </outline>
   <lib>
     <dict>

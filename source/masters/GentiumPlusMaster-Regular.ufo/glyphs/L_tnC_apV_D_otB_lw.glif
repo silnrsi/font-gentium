@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapVDotBlw" format="2">
-  <advance width="1331.0"/>
+  <advance width="1331"/>
   <unicode hex="1E7E"/>
-  <anchor x="648.0" y="0.0" name="H"/>
-  <anchor x="655.0" y="-600.0" name="L"/>
-  <anchor x="616.0" y="0.0" name="O"/>
-  <anchor x="665.0" y="1370.0" name="U"/>
+  <anchor x="648" y="0" name="H"/>
+  <anchor x="655" y="-600" name="L"/>
+  <anchor x="616" y="0" name="O"/>
+  <anchor x="665" y="1370" name="U"/>
   <outline>
     <component base="LtnCapV"/>
-    <component base="CombDotBlw" xOffset="1170.0"/>
+    <component base="CombDotBlw" xOffset="1170"/>
   </outline>
   <lib>
     <dict>

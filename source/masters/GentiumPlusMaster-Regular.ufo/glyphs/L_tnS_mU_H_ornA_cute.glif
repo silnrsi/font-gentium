@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmUHornAcute" format="2">
-  <advance width="1255.0"/>
+  <advance width="1255"/>
   <unicode hex="1EE9"/>
-  <anchor x="545.0" y="-100.0" name="L"/>
-  <anchor x="545.0" y="1410.0" name="U"/>
+  <anchor x="545" y="-100" name="L"/>
+  <anchor x="545" y="1410" name="U"/>
   <outline>
     <component base="LtnSmU"/>
-    <component base="CombHorn" xOffset="1185.0"/>
-    <component base="CombAcute" xOffset="1088.0"/>
+    <component base="CombHorn" xOffset="1185"/>
+    <component base="CombAcute" xOffset="1088"/>
   </outline>
   <lib>
     <dict>

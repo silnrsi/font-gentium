@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CyCapYeruDiaer" format="2">
-  <advance width="1530.0"/>
+  <advance width="1530"/>
   <unicode hex="04F8"/>
-  <anchor x="770.0" y="-100.0" name="L"/>
-  <anchor x="770.0" y="1690.0" name="U"/>
+  <anchor x="770" y="-100" name="L"/>
+  <anchor x="770" y="1690" name="U"/>
   <outline>
     <component base="CyCapYeru"/>
-    <component base="CombDiaer.LP" xOffset="1285.0" yOffset="320.0"/>
+    <component base="CombDiaer.LP" xOffset="1285" yOffset="320"/>
   </outline>
   <lib>
     <dict>

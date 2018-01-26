@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="RevTriplePrime" format="2">
-  <advance width="1105.0"/>
+  <advance width="1105"/>
   <unicode hex="2037"/>
   <outline>
     <component base="RevPrime"/>
-    <component base="RevPrime" xOffset="300.0"/>
-    <component base="RevPrime" xOffset="600.0"/>
+    <component base="RevPrime" xOffset="300"/>
+    <component base="RevPrime" xOffset="600"/>
   </outline>
   <lib>
     <dict>

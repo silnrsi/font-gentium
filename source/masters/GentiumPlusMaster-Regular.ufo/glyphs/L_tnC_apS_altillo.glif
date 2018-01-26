@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapSaltillo" format="2">
-  <advance width="512.0"/>
+  <advance width="512"/>
   <unicode hex="A78B"/>
-  <anchor x="256.0" y="100.0" name="L"/>
-  <anchor x="256.0" y="1620.0" name="U"/>
+  <anchor x="256" y="100" name="L"/>
+  <anchor x="256" y="1620" name="U"/>
   <outline>
     <contour>
-      <point x="299.0" y="704.0" type="curve"/>
-      <point x="357.0" y="1554.0" type="line"/>
-      <point x="304.0" y="1580.0" type="line"/>
-      <point x="276.0" y="1574.0"/>
-      <point x="165.0" y="1538.0"/>
-      <point x="135.0" y="1521.0" type="curve"/>
-      <point x="203.0" y="683.0" type="line"/>
-      <point x="234.0" y="683.0"/>
-      <point x="279.0" y="693.0"/>
+      <point x="299" y="704" type="curve"/>
+      <point x="357" y="1554" type="line"/>
+      <point x="304" y="1580" type="line"/>
+      <point x="276" y="1574"/>
+      <point x="165" y="1538"/>
+      <point x="135" y="1521" type="curve"/>
+      <point x="203" y="683" type="line"/>
+      <point x="234" y="683"/>
+      <point x="279" y="693"/>
     </contour>
   </outline>
   <lib>

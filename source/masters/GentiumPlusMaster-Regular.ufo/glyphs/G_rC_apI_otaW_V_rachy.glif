@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrCapIotaWVrachy" format="2">
-  <advance width="650.0"/>
+  <advance width="650"/>
   <unicode hex="1FD8"/>
   <outline>
     <component base="GrCapIota"/>
-    <component base="CombBreve" xOffset="830.0" yOffset="320.0"/>
+    <component base="CombBreve" xOffset="830" yOffset="320"/>
   </outline>
   <lib>
     <dict>

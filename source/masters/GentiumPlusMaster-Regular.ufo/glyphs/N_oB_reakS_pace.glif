@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="NoBreakSpace" format="2">
-  <advance width="451.0"/>
+  <advance width="451"/>
   <unicode hex="00A0"/>
-  <anchor x="225.0" y="0.0" name="H"/>
-  <anchor x="225.0" y="-100.0" name="L"/>
-  <anchor x="275.0" y="0.0" name="O"/>
-  <anchor x="451.0" y="900.0" name="R"/>
-  <anchor x="225.0" y="1370.0" name="U"/>
-  <outline>
-  </outline>
+  <anchor x="225" y="0" name="H"/>
+  <anchor x="225" y="-100" name="L"/>
+  <anchor x="275" y="0" name="O"/>
+  <anchor x="451" y="900" name="R"/>
+  <anchor x="225" y="1370" name="U"/>
+  <outline/>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>

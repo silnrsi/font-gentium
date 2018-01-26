@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapAOgonek.RetroHook" format="2">
-  <advance width="1219.0"/>
-  <anchor x="1000.0" y="0.0" name="H"/>
-  <anchor x="636.0" y="-600.0" name="L"/>
-  <anchor x="960.0" y="0.0" name="O"/>
-  <anchor x="599.0" y="1370.0" name="U"/>
+  <advance width="1219"/>
+  <anchor x="1000" y="0" name="H"/>
+  <anchor x="636" y="-600" name="L"/>
+  <anchor x="960" y="0" name="O"/>
+  <anchor x="599" y="1370" name="U"/>
   <outline>
     <component base="LtnCapA"/>
-    <component base="Ogonek.RetroHook" xOffset="679.0"/>
+    <component base="Ogonek.RetroHook" xOffset="679"/>
   </outline>
   <lib>
     <dict>

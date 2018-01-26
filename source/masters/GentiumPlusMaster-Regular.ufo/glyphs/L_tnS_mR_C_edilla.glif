@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmRCedilla" format="2">
-  <advance width="811.0"/>
+  <advance width="811"/>
   <unicode hex="0157"/>
-  <anchor x="270.0" y="0.0" name="H"/>
-  <anchor x="270.0" y="-600.0" name="L"/>
-  <anchor x="450.0" y="1050.0" name="U"/>
+  <anchor x="270" y="0" name="H"/>
+  <anchor x="270" y="-600" name="L"/>
+  <anchor x="450" y="1050" name="U"/>
   <outline>
     <component base="LtnSmR"/>
-    <component base="CombCommaBlw" xOffset="790.0"/>
+    <component base="CombCommaBlw" xOffset="790"/>
   </outline>
   <lib>
     <dict>

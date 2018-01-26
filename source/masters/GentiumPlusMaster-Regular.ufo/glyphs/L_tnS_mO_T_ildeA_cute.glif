@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmOTildeAcute" format="2">
-  <advance width="1030.0"/>
+  <advance width="1030"/>
   <unicode hex="1E4D"/>
-  <anchor x="535.0" y="0.0" name="H"/>
-  <anchor x="535.0" y="-100.0" name="L"/>
-  <anchor x="575.0" y="0.0" name="O"/>
-  <anchor x="1044.0" y="900.0" name="R"/>
-  <anchor x="535.0" y="1770.0" name="U"/>
+  <anchor x="535" y="0" name="H"/>
+  <anchor x="535" y="-100" name="L"/>
+  <anchor x="575" y="0" name="O"/>
+  <anchor x="1044" y="900" name="R"/>
+  <anchor x="535" y="1770" name="U"/>
   <outline>
     <component base="LtnSmO"/>
-    <component base="CombTilde" xOffset="1050.0"/>
-    <component base="CombAcute" xOffset="1078.0" yOffset="360.0"/>
+    <component base="CombTilde" xOffset="1050"/>
+    <component base="CombAcute" xOffset="1078" yOffset="360"/>
   </outline>
   <lib>
     <dict>

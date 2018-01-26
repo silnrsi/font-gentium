@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapLSmJ.LP" format="2">
-  <advance width="1505.0"/>
-  <anchor x="1235.0" y="-600.0" name="L"/>
-  <anchor x="750.0" y="900.0" name="R"/>
-  <anchor x="1235.0" y="1050.0" name="U"/>
+  <advance width="1505"/>
+  <anchor x="1235" y="-600" name="L"/>
+  <anchor x="750" y="900" name="R"/>
+  <anchor x="1235" y="1050" name="U"/>
   <outline>
     <component base="LtnCapL"/>
-    <component base="LtnSmJ.LP" xOffset="975.0"/>
+    <component base="LtnSmJ.LP" xOffset="975"/>
   </outline>
   <lib>
     <dict>

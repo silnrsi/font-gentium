@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmUpsilonWDasiaOxia" format="2">
-  <advance width="1040.0"/>
+  <advance width="1040"/>
   <unicode hex="1F55"/>
   <outline>
     <component base="GrSmUpsilon"/>
-    <component base="GrDasiaOxia" xOffset="255.0"/>
+    <component base="GrDasiaOxia" xOffset="255"/>
   </outline>
   <lib>
     <dict>

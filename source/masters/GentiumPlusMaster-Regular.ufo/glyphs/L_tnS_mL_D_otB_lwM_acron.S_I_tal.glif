@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmLDotBlwMacron.SItal" format="2">
-  <advance width="555.0"/>
-  <anchor x="285.0" y="0.0" name="H"/>
-  <anchor x="285.0" y="-600.0" name="L"/>
-  <anchor x="556.0" y="900.0" name="R"/>
-  <anchor x="285.0" y="2010.0" name="U"/>
+  <advance width="555"/>
+  <anchor x="285" y="0" name="H"/>
+  <anchor x="285" y="-600" name="L"/>
+  <anchor x="556" y="900" name="R"/>
+  <anchor x="285" y="2010" name="U"/>
   <outline>
     <component base="LtnSmL.SItal"/>
-    <component base="CombDotBlw" xOffset="800.0"/>
-    <component base="CombMacron.LP" xOffset="810.0" yOffset="640.0"/>
+    <component base="CombDotBlw" xOffset="800"/>
+    <component base="CombMacron.LP" xOffset="810" yOffset="640"/>
   </outline>
   <lib>
     <dict>

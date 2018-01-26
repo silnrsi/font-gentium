@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapNCaron" format="2">
-  <advance width="1329.0"/>
+  <advance width="1329"/>
   <unicode hex="0147"/>
-  <anchor x="1047.0" y="0.0" name="H"/>
-  <anchor x="665.0" y="-100.0" name="L"/>
-  <anchor x="665.0" y="1690.0" name="U"/>
+  <anchor x="1047" y="0" name="H"/>
+  <anchor x="665" y="-100" name="L"/>
+  <anchor x="665" y="1690" name="U"/>
   <outline>
     <component base="LtnCapN"/>
-    <component base="CombCaron.LP" xOffset="1179.0" yOffset="320.0"/>
+    <component base="CombCaron.LP" xOffset="1179" yOffset="320"/>
   </outline>
   <lib>
     <dict>

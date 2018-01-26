@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrCapIotaWMacron" format="2">
-  <advance width="650.0"/>
+  <advance width="650"/>
   <unicode hex="1FD9"/>
   <outline>
     <component base="GrCapIota"/>
-    <component base="CombMacron.LP" xOffset="840.0" yOffset="320.0"/>
+    <component base="CombMacron.LP" xOffset="840" yOffset="320"/>
   </outline>
   <lib>
     <dict>

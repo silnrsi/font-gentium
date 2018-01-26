@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombLftHarpoonBarbDwnBlw" format="2">
   <unicode hex="20ED"/>
-  <anchor x="-532.0" y="-600.0" name="L"/>
-  <anchor x="-532.0" y="-100.0" name="_L"/>
+  <anchor x="-532" y="-600" name="L"/>
+  <anchor x="-532" y="-100" name="_L"/>
   <outline>
     <contour>
-      <point x="-248.0" y="-308.0"/>
-      <point x="-241.0" y="-282.0" type="curve"/>
-      <point x="-266.0" y="-255.0" type="line"/>
-      <point x="-820.0" y="-255.0" type="line"/>
-      <point x="-695.0" y="-345.0" type="line"/>
-      <point x="-268.0" y="-345.0" type="line"/>
-      <point x="-256.0" y="-323.0"/>
+      <point x="-248" y="-308"/>
+      <point x="-241" y="-282" type="curve"/>
+      <point x="-266" y="-255" type="line"/>
+      <point x="-820" y="-255" type="line"/>
+      <point x="-695" y="-345" type="line"/>
+      <point x="-268" y="-345" type="line"/>
+      <point x="-256" y="-323"/>
     </contour>
     <contour>
-      <point x="-682.0" y="-300.0" type="line"/>
-      <point x="-820.0" y="-255.0" type="line"/>
-      <point x="-631.0" y="-500.0" type="line"/>
-      <point x="-575.0" y="-475.0" type="line"/>
+      <point x="-682" y="-300" type="line"/>
+      <point x="-820" y="-255" type="line"/>
+      <point x="-631" y="-500" type="line"/>
+      <point x="-575" y="-475" type="line"/>
     </contour>
   </outline>
   <lib>

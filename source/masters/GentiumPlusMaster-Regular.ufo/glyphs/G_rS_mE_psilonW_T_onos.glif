@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmEpsilonWTonos" format="2">
-  <advance width="862.0"/>
+  <advance width="862"/>
   <unicode hex="03AD"/>
   <outline>
     <component base="GrSmEpsilon"/>
-    <component base="GrTonos" xOffset="355.0"/>
+    <component base="GrTonos" xOffset="355"/>
   </outline>
   <lib>
     <dict>

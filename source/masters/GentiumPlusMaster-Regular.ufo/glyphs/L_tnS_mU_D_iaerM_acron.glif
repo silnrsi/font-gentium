@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmUDiaerMacron" format="2">
-  <advance width="1085.0"/>
+  <advance width="1085"/>
   <unicode hex="01D6"/>
-  <anchor x="546.0" y="0.0" name="H"/>
-  <anchor x="545.0" y="-100.0" name="L"/>
-  <anchor x="860.0" y="0.0" name="O"/>
-  <anchor x="1084.0" y="900.0" name="R"/>
-  <anchor x="545.0" y="1770.0" name="U"/>
+  <anchor x="546" y="0" name="H"/>
+  <anchor x="545" y="-100" name="L"/>
+  <anchor x="860" y="0" name="O"/>
+  <anchor x="1084" y="900" name="R"/>
+  <anchor x="545" y="1770" name="U"/>
   <outline>
     <component base="LtnSmU"/>
-    <component base="CombDiaer" xOffset="1060.0"/>
-    <component base="CombMacron" xOffset="1070.0" yOffset="360.0"/>
+    <component base="CombDiaer" xOffset="1060"/>
+    <component base="CombMacron" xOffset="1070" yOffset="360"/>
   </outline>
   <lib>
     <dict>

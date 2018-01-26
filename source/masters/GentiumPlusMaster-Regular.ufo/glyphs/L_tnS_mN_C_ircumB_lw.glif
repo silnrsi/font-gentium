@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmNCircumBlw" format="2">
-  <advance width="1130.0"/>
+  <advance width="1130"/>
   <unicode hex="1E4B"/>
-  <anchor x="885.0" y="0.0" name="H"/>
-  <anchor x="577.0" y="-600.0" name="L"/>
-  <anchor x="577.0" y="1050.0" name="U"/>
+  <anchor x="885" y="0" name="H"/>
+  <anchor x="577" y="-600" name="L"/>
+  <anchor x="577" y="1050" name="U"/>
   <outline>
     <component base="LtnSmN"/>
-    <component base="CombCircumBlw" xOffset="1091.0"/>
+    <component base="CombCircumBlw" xOffset="1091"/>
   </outline>
   <lib>
     <dict>

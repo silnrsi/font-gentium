@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapAeMacron" format="2">
-  <advance width="1595.0"/>
+  <advance width="1595"/>
   <unicode hex="01E2"/>
-  <anchor x="854.0" y="-100.0" name="L"/>
-  <anchor x="924.0" y="1690.0" name="U"/>
+  <anchor x="854" y="-100" name="L"/>
+  <anchor x="924" y="1690" name="U"/>
   <outline>
     <component base="LtnCapAe"/>
-    <component base="CombMacron.LP" xOffset="1449.0" yOffset="320.0"/>
+    <component base="CombMacron.LP" xOffset="1449" yOffset="320"/>
   </outline>
   <lib>
     <dict>

@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnLateralClick" format="2">
-  <advance width="790.0"/>
+  <advance width="790"/>
   <unicode hex="01C1"/>
-  <anchor x="395.0" y="-600.0" name="L"/>
-  <anchor x="395.0" y="1690.0" name="U"/>
+  <anchor x="395" y="-600" name="L"/>
+  <anchor x="395" y="1690" name="U"/>
   <outline>
     <contour>
-      <point x="606.0" y="-469.0"/>
-      <point x="630.0" y="-448.0" type="curve"/>
-      <point x="630.0" y="1528.0" type="line"/>
-      <point x="594.0" y="1550.0" type="line"/>
-      <point x="555.0" y="1540.0"/>
-      <point x="527.0" y="1523.0"/>
-      <point x="490.0" y="1501.0" type="curve"/>
-      <point x="490.0" y="-477.0" type="line"/>
-      <point x="525.0" y="-500.0" type="line"/>
-      <point x="558.0" y="-489.0"/>
+      <point x="606" y="-469"/>
+      <point x="630" y="-448" type="curve"/>
+      <point x="630" y="1528" type="line"/>
+      <point x="594" y="1550" type="line"/>
+      <point x="555" y="1540"/>
+      <point x="527" y="1523"/>
+      <point x="490" y="1501" type="curve"/>
+      <point x="490" y="-477" type="line"/>
+      <point x="525" y="-500" type="line"/>
+      <point x="558" y="-489"/>
     </contour>
     <contour>
-      <point x="276.0" y="-469.0"/>
-      <point x="300.0" y="-448.0" type="curve"/>
-      <point x="300.0" y="1528.0" type="line"/>
-      <point x="264.0" y="1550.0" type="line"/>
-      <point x="225.0" y="1540.0"/>
-      <point x="197.0" y="1523.0"/>
-      <point x="160.0" y="1501.0" type="curve"/>
-      <point x="160.0" y="-477.0" type="line"/>
-      <point x="195.0" y="-500.0" type="line"/>
-      <point x="228.0" y="-489.0"/>
+      <point x="276" y="-469"/>
+      <point x="300" y="-448" type="curve"/>
+      <point x="300" y="1528" type="line"/>
+      <point x="264" y="1550" type="line"/>
+      <point x="225" y="1540"/>
+      <point x="197" y="1523"/>
+      <point x="160" y="1501" type="curve"/>
+      <point x="160" y="-477" type="line"/>
+      <point x="195" y="-500" type="line"/>
+      <point x="228" y="-489"/>
     </contour>
   </outline>
   <lib>

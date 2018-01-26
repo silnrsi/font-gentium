@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapNj" format="2">
-  <advance width="1954.0"/>
+  <advance width="1954"/>
   <unicode hex="01CA"/>
-  <anchor x="1047.0" y="0.0" name="H"/>
-  <anchor x="1659.0" y="-600.0" name="L"/>
-  <anchor x="1659.0" y="1370.0" name="U"/>
+  <anchor x="1047" y="0" name="H"/>
+  <anchor x="1659" y="-600" name="L"/>
+  <anchor x="1659" y="1370" name="U"/>
   <outline>
     <component base="LtnCapN"/>
-    <component base="LtnCapJ" xOffset="1329.0"/>
+    <component base="LtnCapJ" xOffset="1329"/>
   </outline>
   <lib>
     <dict>

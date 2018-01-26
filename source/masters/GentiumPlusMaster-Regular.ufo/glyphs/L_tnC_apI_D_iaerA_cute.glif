@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapIDiaerAcute" format="2">
-  <advance width="610.0"/>
+  <advance width="610"/>
   <unicode hex="1E2E"/>
-  <anchor x="295.0" y="0.0" name="H"/>
-  <anchor x="295.0" y="-100.0" name="L"/>
-  <anchor x="345.0" y="0.0" name="O"/>
-  <anchor x="580.0" y="1100.0" name="R"/>
-  <anchor x="295.0" y="2010.0" name="U"/>
+  <anchor x="295" y="0" name="H"/>
+  <anchor x="295" y="-100" name="L"/>
+  <anchor x="345" y="0" name="O"/>
+  <anchor x="580" y="1100" name="R"/>
+  <anchor x="295" y="2010" name="U"/>
   <outline>
     <component base="LtnCapI"/>
-    <component base="CombDiaer.LP" xOffset="810.0" yOffset="320.0"/>
-    <component base="CombAcute.LP" xOffset="838.0" yOffset="640.0"/>
+    <component base="CombDiaer.LP" xOffset="810" yOffset="320"/>
+    <component base="CombAcute.LP" xOffset="838" yOffset="640"/>
   </outline>
   <lib>
     <dict>

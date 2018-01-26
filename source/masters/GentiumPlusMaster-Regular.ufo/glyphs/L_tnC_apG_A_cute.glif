@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapGAcute" format="2">
-  <advance width="1194.0"/>
+  <advance width="1194"/>
   <unicode hex="01F4"/>
-  <anchor x="620.0" y="0.0" name="H"/>
-  <anchor x="640.0" y="-100.0" name="L"/>
-  <anchor x="640.0" y="1690.0" name="U"/>
+  <anchor x="620" y="0" name="H"/>
+  <anchor x="640" y="-100" name="L"/>
+  <anchor x="640" y="1690" name="U"/>
   <outline>
     <component base="LtnCapG"/>
-    <component base="CombAcute.LP" xOffset="1183.0" yOffset="320.0"/>
+    <component base="CombAcute.LP" xOffset="1183" yOffset="320"/>
   </outline>
   <lib>
     <dict>

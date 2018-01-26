@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CurlyBracExt" format="2">
-  <advance width="1200.0"/>
+  <advance width="1200"/>
   <unicode hex="23AA"/>
   <outline>
     <contour>
-      <point x="525.0" y="-950.0" type="line"/>
-      <point x="675.0" y="-950.0" type="line"/>
-      <point x="675.0" y="2500.0" type="line"/>
-      <point x="525.0" y="2500.0" type="line"/>
+      <point x="525" y="-950" type="line"/>
+      <point x="675" y="-950" type="line"/>
+      <point x="675" y="2500" type="line"/>
+      <point x="525" y="2500" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="EnSpace" format="2">
-  <advance width="961.0"/>
+  <advance width="961"/>
   <unicode hex="2002"/>
-  <anchor x="480.0" y="0.0" name="H"/>
-  <anchor x="480.0" y="-100.0" name="L"/>
-  <anchor x="530.0" y="0.0" name="O"/>
-  <anchor x="960.0" y="900.0" name="R"/>
-  <anchor x="480.0" y="1435.0" name="U"/>
-  <outline>
-  </outline>
+  <anchor x="480" y="0" name="H"/>
+  <anchor x="480" y="-100" name="L"/>
+  <anchor x="530" y="0" name="O"/>
+  <anchor x="960" y="900" name="R"/>
+  <anchor x="480" y="1435" name="U"/>
+  <outline/>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrCapIotaWPsiliVaria" format="2">
-  <advance width="1350.0"/>
+  <advance width="1350"/>
   <unicode hex="1F3A"/>
   <outline>
-    <component base="GrCapIota" xOffset="700.0"/>
-    <component base="GrPsiliVaria" yOffset="-100.0"/>
+    <component base="GrCapIota" xOffset="700"/>
+    <component base="GrPsiliVaria" yOffset="-100"/>
   </outline>
   <lib>
     <dict>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapURingAbv" format="2">
-  <advance width="1339.0"/>
+  <advance width="1339"/>
   <unicode hex="016E"/>
-  <anchor x="677.0" y="0.0" name="H"/>
-  <anchor x="677.0" y="-100.0" name="L"/>
-  <anchor x="760.0" y="0.0" name="O"/>
-  <anchor x="1330.0" y="1100.0" name="R"/>
-  <anchor x="677.0" y="1810.0" name="U"/>
+  <anchor x="677" y="0" name="H"/>
+  <anchor x="677" y="-100" name="L"/>
+  <anchor x="760" y="0" name="O"/>
+  <anchor x="1330" y="1100" name="R"/>
+  <anchor x="677" y="1810" name="U"/>
   <outline>
     <component base="LtnCapU"/>
-    <component base="CombRingAbv" xOffset="1192.0" yOffset="320.0"/>
+    <component base="CombRingAbv" xOffset="1192" yOffset="320"/>
   </outline>
   <lib>
     <dict>

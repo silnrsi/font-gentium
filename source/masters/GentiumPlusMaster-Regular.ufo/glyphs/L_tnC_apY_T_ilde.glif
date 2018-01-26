@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapYTilde" format="2">
-  <advance width="1217.0"/>
+  <advance width="1217"/>
   <unicode hex="1EF8"/>
-  <anchor x="604.0" y="-100.0" name="L"/>
-  <anchor x="604.0" y="1690.0" name="U"/>
+  <anchor x="604" y="-100" name="L"/>
+  <anchor x="604" y="1690" name="U"/>
   <outline>
     <component base="LtnCapY"/>
-    <component base="CombTilde.LP" xOffset="1119.0" yOffset="320.0"/>
+    <component base="CombTilde.LP" xOffset="1119" yOffset="320"/>
   </outline>
   <lib>
     <dict>

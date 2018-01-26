@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmUpsilonWDial" format="2">
-  <advance width="1040.0"/>
+  <advance width="1040"/>
   <unicode hex="03CB"/>
   <outline>
     <component base="GrSmUpsilon"/>
-    <component base="CombDiaer.LP" xOffset="1070.0"/>
+    <component base="CombDiaer.LP" xOffset="1070"/>
   </outline>
   <lib>
     <dict>

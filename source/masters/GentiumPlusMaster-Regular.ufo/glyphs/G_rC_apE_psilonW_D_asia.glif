@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrCapEpsilonWDasia" format="2">
-  <advance width="1399.0"/>
+  <advance width="1399"/>
   <unicode hex="1F19"/>
   <outline>
-    <component base="GrCapEpsilon" xOffset="383.0"/>
-    <component base="GrDasia" yOffset="-100.0"/>
+    <component base="GrCapEpsilon" xOffset="383"/>
+    <component base="GrDasia" yOffset="-100"/>
   </outline>
   <lib>
     <dict>

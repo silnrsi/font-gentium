@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="SixPerEmSpace" format="2">
-  <advance width="260.0"/>
+  <advance width="260"/>
   <unicode hex="2006"/>
-  <anchor x="130.0" y="0.0" name="H"/>
-  <anchor x="130.0" y="-100.0" name="L"/>
-  <anchor x="150.0" y="0.0" name="O"/>
-  <anchor x="260.0" y="900.0" name="R"/>
-  <anchor x="130.0" y="1435.0" name="U"/>
-  <outline>
-  </outline>
+  <anchor x="130" y="0" name="H"/>
+  <anchor x="130" y="-100" name="L"/>
+  <anchor x="150" y="0" name="O"/>
+  <anchor x="260" y="900" name="R"/>
+  <anchor x="130" y="1435" name="U"/>
+  <outline/>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>

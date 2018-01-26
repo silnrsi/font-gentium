@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmAlphaWPerisYpo.Por" format="2">
-  <advance width="1076.0"/>
+  <advance width="1076"/>
   <outline>
     <component base="GrSmAlpha"/>
-    <component base="GrPeris.Por" xOffset="150.0" yOffset="25.0"/>
-    <component base="GrYpo" xOffset="1000.0"/>
+    <component base="GrPeris.Por" xOffset="150" yOffset="25"/>
+    <component base="GrYpo" xOffset="1000"/>
   </outline>
   <lib>
     <dict>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapEDotBlw" format="2">
-  <advance width="1016.0"/>
+  <advance width="1016"/>
   <unicode hex="1EB8"/>
-  <anchor x="502.0" y="0.0" name="H"/>
-  <anchor x="502.0" y="-600.0" name="L"/>
-  <anchor x="750.0" y="0.0" name="O"/>
-  <anchor x="1016.0" y="1100.0" name="R"/>
-  <anchor x="502.0" y="1370.0" name="U"/>
+  <anchor x="502" y="0" name="H"/>
+  <anchor x="502" y="-600" name="L"/>
+  <anchor x="750" y="0" name="O"/>
+  <anchor x="1016" y="1100" name="R"/>
+  <anchor x="502" y="1370" name="U"/>
   <outline>
     <component base="LtnCapE"/>
-    <component base="CombDotBlw" xOffset="1017.0"/>
+    <component base="CombDotBlw" xOffset="1017"/>
   </outline>
   <lib>
     <dict>

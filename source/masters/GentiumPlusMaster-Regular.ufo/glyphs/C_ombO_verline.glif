@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombOverline" format="2">
   <unicode hex="0305"/>
-  <anchor x="-482.0" y="1410.0" name="U"/>
-  <anchor x="-482.0" y="1050.0" name="_U"/>
+  <anchor x="-482" y="1410" name="U"/>
+  <anchor x="-482" y="1050" name="_U"/>
   <outline>
     <contour>
-      <point x="58.0" y="1252.0"/>
-      <point x="64.0" y="1281.0" type="curve"/>
-      <point x="42.0" y="1305.0" type="line"/>
-      <point x="-987.0" y="1305.0" type="line"/>
-      <point x="-1000.0" y="1279.0"/>
-      <point x="-1022.0" y="1229.0"/>
-      <point x="-1028.0" y="1200.0" type="curve"/>
-      <point x="-1006.0" y="1175.0" type="line"/>
-      <point x="25.0" y="1175.0" type="line"/>
-      <point x="35.0" y="1200.0"/>
+      <point x="58" y="1252"/>
+      <point x="64" y="1281" type="curve"/>
+      <point x="42" y="1305" type="line"/>
+      <point x="-987" y="1305" type="line"/>
+      <point x="-1000" y="1279"/>
+      <point x="-1022" y="1229"/>
+      <point x="-1028" y="1200" type="curve"/>
+      <point x="-1006" y="1175" type="line"/>
+      <point x="25" y="1175" type="line"/>
+      <point x="35" y="1200"/>
     </contour>
   </outline>
   <lib>

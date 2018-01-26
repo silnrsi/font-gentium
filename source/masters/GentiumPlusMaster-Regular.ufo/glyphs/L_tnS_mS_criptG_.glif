@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmScriptG" format="2">
-  <advance width="985.0"/>
+  <advance width="985"/>
   <unicode hex="0261"/>
-  <anchor x="520.0" y="-470.0" name="H"/>
-  <anchor x="520.0" y="-600.0" name="L"/>
-  <anchor x="1060.0" y="900.0" name="R"/>
-  <anchor x="540.0" y="1050.0" name="U"/>
+  <anchor x="520" y="-470" name="H"/>
+  <anchor x="520" y="-600" name="L"/>
+  <anchor x="1060" y="900" name="R"/>
+  <anchor x="540" y="1050" name="U"/>
   <outline>
     <component base="LtnSmG.SngBowl"/>
   </outline>

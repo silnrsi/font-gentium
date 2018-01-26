@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapKLineBlw" format="2">
-  <advance width="1184.0"/>
+  <advance width="1184"/>
   <unicode hex="1E34"/>
-  <anchor x="275.0" y="0.0" name="H"/>
-  <anchor x="612.0" y="-600.0" name="L"/>
-  <anchor x="590.0" y="1370.0" name="U"/>
+  <anchor x="275" y="0" name="H"/>
+  <anchor x="612" y="-600" name="L"/>
+  <anchor x="590" y="1370" name="U"/>
   <outline>
     <component base="LtnCapK"/>
-    <component base="CombMacronBlw" xOffset="1127.0"/>
+    <component base="CombMacronBlw" xOffset="1127"/>
   </outline>
   <lib>
     <dict>

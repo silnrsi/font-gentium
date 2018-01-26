@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmLigFi" format="2">
-  <advance width="1192.0"/>
+  <advance width="1192"/>
   <unicode hex="FB01"/>
-  <anchor x="922.0" y="-100.0" name="L"/>
-  <anchor x="1180.0" y="900.0" name="R"/>
-  <anchor x="922.0" y="1620.0" name="U"/>
+  <anchor x="922" y="-100" name="L"/>
+  <anchor x="1180" y="900" name="R"/>
+  <anchor x="922" y="1620" name="U"/>
   <outline>
     <component base="LtnSmF"/>
-    <component base="LtnSmI" xOffset="637.0"/>
+    <component base="LtnSmI" xOffset="637"/>
   </outline>
   <lib>
     <dict>

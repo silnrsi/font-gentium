@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombFermata" format="2">
   <unicode hex="0352"/>
-  <anchor x="-515.0" y="1620.0" name="U"/>
-  <anchor x="-515.0" y="1050.0" name="_U"/>
+  <anchor x="-515" y="1620" name="U"/>
+  <anchor x="-515" y="1050" name="_U"/>
   <outline>
     <contour>
-      <point x="-755.0" y="1440.0"/>
-      <point x="-835.0" y="1225.0" type="curve"/>
-      <point x="-816.0" y="1205.0"/>
-      <point x="-800.0" y="1196.0"/>
-      <point x="-778.0" y="1189.0" type="curve"/>
-      <point x="-720.0" y="1327.0"/>
-      <point x="-610.0" y="1383.0"/>
-      <point x="-516.0" y="1383.0" type="curve" smooth="yes"/>
-      <point x="-427.0" y="1383.0"/>
-      <point x="-302.0" y="1327.0"/>
-      <point x="-242.0" y="1189.0" type="curve"/>
-      <point x="-220.0" y="1197.0"/>
-      <point x="-205.0" y="1205.0"/>
-      <point x="-185.0" y="1225.0" type="curve"/>
-      <point x="-265.0" y="1440.0"/>
-      <point x="-374.0" y="1515.0"/>
-      <point x="-505.0" y="1515.0" type="curve" smooth="yes"/>
-      <point x="-625.0" y="1515.0"/>
+      <point x="-755" y="1440"/>
+      <point x="-835" y="1225" type="curve"/>
+      <point x="-816" y="1205"/>
+      <point x="-800" y="1196"/>
+      <point x="-778" y="1189" type="curve"/>
+      <point x="-720" y="1327"/>
+      <point x="-610" y="1383"/>
+      <point x="-516" y="1383" type="curve" smooth="yes"/>
+      <point x="-427" y="1383"/>
+      <point x="-302" y="1327"/>
+      <point x="-242" y="1189" type="curve"/>
+      <point x="-220" y="1197"/>
+      <point x="-205" y="1205"/>
+      <point x="-185" y="1225" type="curve"/>
+      <point x="-265" y="1440"/>
+      <point x="-374" y="1515"/>
+      <point x="-505" y="1515" type="curve" smooth="yes"/>
+      <point x="-625" y="1515"/>
     </contour>
     <contour>
-      <point x="-428.0" y="1118.0"/>
-      <point x="-428.0" y="1183.0" type="curve" smooth="yes"/>
-      <point x="-428.0" y="1237.0"/>
-      <point x="-452.0" y="1266.0"/>
-      <point x="-502.0" y="1266.0" type="curve" smooth="yes"/>
-      <point x="-557.0" y="1266.0"/>
-      <point x="-602.0" y="1214.0"/>
-      <point x="-602.0" y="1148.0" type="curve" smooth="yes"/>
-      <point x="-602.0" y="1094.0"/>
-      <point x="-580.0" y="1064.0"/>
-      <point x="-529.0" y="1064.0" type="curve" smooth="yes"/>
-      <point x="-471.0" y="1064.0"/>
+      <point x="-428" y="1118"/>
+      <point x="-428" y="1183" type="curve" smooth="yes"/>
+      <point x="-428" y="1237"/>
+      <point x="-452" y="1266"/>
+      <point x="-502" y="1266" type="curve" smooth="yes"/>
+      <point x="-557" y="1266"/>
+      <point x="-602" y="1214"/>
+      <point x="-602" y="1148" type="curve" smooth="yes"/>
+      <point x="-602" y="1094"/>
+      <point x="-580" y="1064"/>
+      <point x="-529" y="1064" type="curve" smooth="yes"/>
+      <point x="-471" y="1064"/>
     </contour>
   </outline>
   <lib>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="FourPerEmSpace" format="2">
-  <advance width="400.0"/>
+  <advance width="400"/>
   <unicode hex="2005"/>
-  <anchor x="200.0" y="0.0" name="H"/>
-  <anchor x="200.0" y="-100.0" name="L"/>
-  <anchor x="225.0" y="0.0" name="O"/>
-  <anchor x="400.0" y="900.0" name="R"/>
-  <anchor x="200.0" y="1435.0" name="U"/>
-  <outline>
-  </outline>
+  <anchor x="200" y="0" name="H"/>
+  <anchor x="200" y="-100" name="L"/>
+  <anchor x="225" y="0" name="O"/>
+  <anchor x="400" y="900" name="R"/>
+  <anchor x="200" y="1435" name="U"/>
+  <outline/>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>

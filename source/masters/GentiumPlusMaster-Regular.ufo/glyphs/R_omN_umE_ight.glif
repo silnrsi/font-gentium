@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="RomNumEight" format="2">
-  <advance width="3161.0"/>
+  <advance width="3161"/>
   <unicode hex="2167"/>
-  <anchor x="1629.0" y="1370.0" name="U"/>
+  <anchor x="1629" y="1370" name="U"/>
   <outline>
     <component base="LtnCapV"/>
-    <component base="LtnCapI" xOffset="1331.0"/>
-    <component base="LtnCapI" xOffset="1941.0"/>
-    <component base="LtnCapI" xOffset="2551.0"/>
+    <component base="LtnCapI" xOffset="1331"/>
+    <component base="LtnCapI" xOffset="1941"/>
+    <component base="LtnCapI" xOffset="2551"/>
   </outline>
   <lib>
     <dict>

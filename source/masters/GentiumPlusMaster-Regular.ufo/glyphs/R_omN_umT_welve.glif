@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="RomNumTwelve" format="2">
-  <advance width="2480.0"/>
+  <advance width="2480"/>
   <unicode hex="216B"/>
-  <anchor x="1267.0" y="1370.0" name="U"/>
+  <anchor x="1267" y="1370" name="U"/>
   <outline>
     <component base="LtnCapX"/>
-    <component base="LtnCapI" xOffset="1260.0"/>
-    <component base="LtnCapI" xOffset="1870.0"/>
+    <component base="LtnCapI" xOffset="1260"/>
+    <component base="LtnCapI" xOffset="1870"/>
   </outline>
   <lib>
     <dict>

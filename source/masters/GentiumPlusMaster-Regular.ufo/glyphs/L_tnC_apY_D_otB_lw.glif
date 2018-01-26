@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapYDotBlw" format="2">
-  <advance width="1217.0"/>
+  <advance width="1217"/>
   <unicode hex="1EF4"/>
-  <anchor x="604.0" y="-600.0" name="L"/>
-  <anchor x="604.0" y="1370.0" name="U"/>
+  <anchor x="604" y="-600" name="L"/>
+  <anchor x="604" y="1370" name="U"/>
   <outline>
     <component base="LtnCapY"/>
-    <component base="CombDotBlw" xOffset="1119.0"/>
+    <component base="CombDotBlw" xOffset="1119"/>
   </outline>
   <lib>
     <dict>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmLMiddleDot" format="2">
-  <advance width="855.0"/>
+  <advance width="855"/>
   <unicode hex="0140"/>
-  <anchor x="285.0" y="0.0" name="H"/>
-  <anchor x="285.0" y="-100.0" name="L"/>
-  <anchor x="285.0" y="1620.0" name="U"/>
+  <anchor x="285" y="0" name="H"/>
+  <anchor x="285" y="-100" name="L"/>
+  <anchor x="285" y="1620" name="U"/>
   <outline>
     <component base="LtnSmL"/>
-    <component base="MiddleDot" xOffset="555.0"/>
+    <component base="MiddleDot" xOffset="555"/>
   </outline>
   <lib>
     <dict>

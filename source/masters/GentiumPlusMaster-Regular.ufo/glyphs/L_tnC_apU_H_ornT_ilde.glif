@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapUHornTilde" format="2">
-  <advance width="1400.0"/>
+  <advance width="1400"/>
   <unicode hex="1EEE"/>
-  <anchor x="677.0" y="-100.0" name="L"/>
-  <anchor x="677.0" y="1690.0" name="U"/>
+  <anchor x="677" y="-100" name="L"/>
+  <anchor x="677" y="1690" name="U"/>
   <outline>
     <component base="LtnCapU"/>
-    <component base="CombHorn" xOffset="1330.0" yOffset="350.0"/>
-    <component base="CombTilde.LP" xOffset="1192.0" yOffset="320.0"/>
+    <component base="CombHorn" xOffset="1330" yOffset="350"/>
+    <component base="CombTilde.LP" xOffset="1192" yOffset="320"/>
   </outline>
   <lib>
     <dict>

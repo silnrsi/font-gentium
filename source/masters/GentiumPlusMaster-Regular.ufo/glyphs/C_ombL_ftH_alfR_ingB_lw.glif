@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombLftHalfRingBlw" format="2">
   <unicode hex="031C"/>
-  <anchor x="-515.0" y="-600.0" name="L"/>
-  <anchor x="-515.0" y="-100.0" name="_L"/>
+  <anchor x="-515" y="-600" name="L"/>
+  <anchor x="-515" y="-100" name="_L"/>
   <outline>
     <contour>
-      <point x="-427.0" y="-498.0" type="curve"/>
-      <point x="-423.0" y="-418.0" type="line"/>
-      <point x="-519.0" y="-424.0"/>
-      <point x="-568.0" y="-377.0"/>
-      <point x="-568.0" y="-305.0" type="curve" smooth="yes"/>
-      <point x="-568.0" y="-234.0"/>
-      <point x="-516.0" y="-185.0"/>
-      <point x="-429.0" y="-192.0" type="curve"/>
-      <point x="-423.0" y="-108.0" type="line"/>
-      <point x="-549.0" y="-97.0"/>
-      <point x="-650.0" y="-187.0"/>
-      <point x="-650.0" y="-305.0" type="curve" smooth="yes"/>
-      <point x="-650.0" y="-421.0"/>
-      <point x="-554.0" y="-513.0"/>
+      <point x="-427" y="-498" type="curve"/>
+      <point x="-423" y="-418" type="line"/>
+      <point x="-519" y="-424"/>
+      <point x="-568" y="-377"/>
+      <point x="-568" y="-305" type="curve" smooth="yes"/>
+      <point x="-568" y="-234"/>
+      <point x="-516" y="-185"/>
+      <point x="-429" y="-192" type="curve"/>
+      <point x="-423" y="-108" type="line"/>
+      <point x="-549" y="-97"/>
+      <point x="-650" y="-187"/>
+      <point x="-650" y="-305" type="curve" smooth="yes"/>
+      <point x="-650" y="-421"/>
+      <point x="-554" y="-513"/>
     </contour>
   </outline>
   <lib>

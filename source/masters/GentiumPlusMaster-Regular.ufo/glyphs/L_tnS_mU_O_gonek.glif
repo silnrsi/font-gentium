@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmUOgonek" format="2">
-  <advance width="1085.0"/>
+  <advance width="1085"/>
   <unicode hex="0173"/>
-  <anchor x="810.0" y="-600.0" name="L"/>
-  <anchor x="545.0" y="1050.0" name="U"/>
+  <anchor x="810" y="-600" name="L"/>
+  <anchor x="545" y="1050" name="U"/>
   <outline>
     <component base="LtnSmU"/>
-    <component base="CombOgonek" xOffset="1324.0"/>
+    <component base="CombOgonek" xOffset="1324"/>
   </outline>
   <lib>
     <dict>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapCDotAbv" format="2">
-  <advance width="1098.0"/>
+  <advance width="1098"/>
   <unicode hex="010A"/>
-  <anchor x="584.0" y="0.0" name="H"/>
-  <anchor x="614.0" y="-100.0" name="L"/>
-  <anchor x="614.0" y="1690.0" name="U"/>
+  <anchor x="584" y="0" name="H"/>
+  <anchor x="614" y="-100" name="L"/>
+  <anchor x="614" y="1690" name="U"/>
   <outline>
     <component base="LtnCapC"/>
-    <component base="CombDotAbv.LP" xOffset="1129.0" yOffset="320.0"/>
+    <component base="CombDotAbv.LP" xOffset="1129" yOffset="320"/>
   </outline>
   <lib>
     <dict>

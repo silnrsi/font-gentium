@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrCapAlphaWTonos" format="2">
-  <advance width="1450.0"/>
+  <advance width="1450"/>
   <unicode hex="0386"/>
   <outline>
-    <component base="GrCapAlpha" xOffset="231.0"/>
-    <component base="GrTonos" yOffset="-100.0"/>
+    <component base="GrCapAlpha" xOffset="231"/>
+    <component base="GrTonos" yOffset="-100"/>
   </outline>
   <lib>
     <dict>

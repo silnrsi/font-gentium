@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmSCommaBlw" format="2">
-  <advance width="791.0"/>
+  <advance width="791"/>
   <unicode hex="0219"/>
-  <anchor x="385.0" y="0.0" name="H"/>
-  <anchor x="397.0" y="-600.0" name="L"/>
-  <anchor x="397.0" y="1050.0" name="U"/>
+  <anchor x="385" y="0" name="H"/>
+  <anchor x="397" y="-600" name="L"/>
+  <anchor x="397" y="1050" name="U"/>
   <outline>
     <component base="LtnSmS"/>
-    <component base="CombCommaBlw" xOffset="917.0"/>
+    <component base="CombCommaBlw" xOffset="917"/>
   </outline>
   <lib>
     <dict>

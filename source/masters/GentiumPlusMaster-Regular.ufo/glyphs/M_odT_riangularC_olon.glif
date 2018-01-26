@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModTriangularColon" format="2">
-  <advance width="532.0"/>
+  <advance width="532"/>
   <unicode hex="02D0"/>
-  <anchor x="266.0" y="-100.0" name="L"/>
-  <anchor x="266.0" y="1050.0" name="U"/>
+  <anchor x="266" y="-100" name="L"/>
+  <anchor x="266" y="1050" name="U"/>
   <outline>
     <contour>
-      <point x="266.0" y="619.0" type="line"/>
-      <point x="422.0" y="930.0" type="line"/>
-      <point x="110.0" y="930.0" type="line"/>
+      <point x="266" y="619" type="line"/>
+      <point x="422" y="930" type="line"/>
+      <point x="110" y="930" type="line"/>
     </contour>
     <contour>
-      <point x="266.0" y="311.0" type="line"/>
-      <point x="110.0" y="0.0" type="line"/>
-      <point x="422.0" y="0.0" type="line"/>
+      <point x="266" y="311" type="line"/>
+      <point x="110" y="0" type="line"/>
+      <point x="422" y="0" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapACircumHookAbv" format="2">
-  <advance width="1219.0"/>
+  <advance width="1219"/>
   <unicode hex="1EA8"/>
-  <anchor x="599.0" y="0.0" name="H"/>
-  <anchor x="599.0" y="-100.0" name="L"/>
-  <anchor x="960.0" y="0.0" name="O"/>
-  <anchor x="599.0" y="2090.0" name="U"/>
+  <anchor x="599" y="0" name="H"/>
+  <anchor x="599" y="-100" name="L"/>
+  <anchor x="960" y="0" name="O"/>
+  <anchor x="599" y="2090" name="U"/>
   <outline>
     <component base="LtnCapA"/>
-    <component base="CombCircum.LP" xOffset="1113.0" yOffset="320.0"/>
-    <component base="CombHookAbv" xOffset="1117.0" yOffset="720.0"/>
+    <component base="CombCircum.LP" xOffset="1113" yOffset="320"/>
+    <component base="CombHookAbv" xOffset="1117" yOffset="720"/>
   </outline>
   <lib>
     <dict>

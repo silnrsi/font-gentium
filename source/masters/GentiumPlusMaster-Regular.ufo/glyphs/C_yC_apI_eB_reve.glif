@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CyCapIeBreve" format="2">
-  <advance width="1016.0"/>
+  <advance width="1016"/>
   <unicode hex="04D6"/>
-  <anchor x="502.0" y="-100.0" name="L"/>
-  <anchor x="502.0" y="1805.0" name="U"/>
+  <anchor x="502" y="-100" name="L"/>
+  <anchor x="502" y="1805" name="U"/>
   <outline>
     <component base="CyCapIe"/>
-    <component base="CombBreve.CyShortMrkAlt.UCHt" xOffset="1099.0"/>
+    <component base="CombBreve.CyShortMrkAlt.UCHt" xOffset="1099"/>
   </outline>
   <lib>
     <dict>

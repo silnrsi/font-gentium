@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ThreePerEmSpace" format="2">
-  <advance width="525.0"/>
+  <advance width="525"/>
   <unicode hex="2004"/>
-  <anchor x="262.0" y="0.0" name="H"/>
-  <anchor x="262.0" y="-100.0" name="L"/>
-  <anchor x="287.0" y="0.0" name="O"/>
-  <anchor x="524.0" y="900.0" name="R"/>
-  <anchor x="262.0" y="1435.0" name="U"/>
-  <outline>
-  </outline>
+  <anchor x="262" y="0" name="H"/>
+  <anchor x="262" y="-100" name="L"/>
+  <anchor x="287" y="0" name="O"/>
+  <anchor x="524" y="900" name="R"/>
+  <anchor x="262" y="1435" name="U"/>
+  <outline/>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>

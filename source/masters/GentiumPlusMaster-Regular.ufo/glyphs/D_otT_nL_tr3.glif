@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="DotTnLtr3" format="2">
-  <advance width="651.0"/>
+  <advance width="651"/>
   <unicode hex="A70A"/>
   <outline>
     <component base="TnLtrSpcDotLeft"/>
-    <component base="TnLtrDot3" xOffset="171.0"/>
-    <component base="TnLtrSpcDotMiddle" xOffset="171.0"/>
-    <component base="TnLtrBar" xOffset="459.0"/>
-    <component base="TnLtrSpcFlatRight" xOffset="459.0"/>
+    <component base="TnLtrDot3" xOffset="171"/>
+    <component base="TnLtrSpcDotMiddle" xOffset="171"/>
+    <component base="TnLtrBar" xOffset="459"/>
+    <component base="TnLtrSpcFlatRight" xOffset="459"/>
   </outline>
   <lib>
     <dict>

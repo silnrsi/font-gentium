@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LftStemTnLtr2" format="2">
-  <advance width="743.0"/>
+  <advance width="743"/>
   <unicode hex="A715"/>
   <outline>
     <component base="TnLtrSpcFlatLeft"/>
-    <component base="TnLtrBar" xOffset="152.0"/>
-    <component base="TnLtrSeg22" xOffset="152.0"/>
-    <component base="TnLtrSpcPointRight" xOffset="577.0"/>
+    <component base="TnLtrBar" xOffset="152"/>
+    <component base="TnLtrSeg22" xOffset="152"/>
+    <component base="TnLtrSpcPointRight" xOffset="577"/>
   </outline>
   <lib>
     <dict>

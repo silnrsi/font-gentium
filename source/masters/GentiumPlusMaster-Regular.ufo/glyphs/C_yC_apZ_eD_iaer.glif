@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CyCapZeDiaer" format="2">
-  <advance width="1029.0"/>
+  <advance width="1029"/>
   <unicode hex="04DE"/>
-  <anchor x="477.0" y="-100.0" name="L"/>
-  <anchor x="480.0" y="1690.0" name="U"/>
+  <anchor x="477" y="-100" name="L"/>
+  <anchor x="480" y="1690" name="U"/>
   <outline>
     <component base="CyCapZe"/>
-    <component base="CombDiaer.LP" xOffset="995.0" yOffset="320.0"/>
+    <component base="CombDiaer.LP" xOffset="995" yOffset="320"/>
   </outline>
   <lib>
     <dict>

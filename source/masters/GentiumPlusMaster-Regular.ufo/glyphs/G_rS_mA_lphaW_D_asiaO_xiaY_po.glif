@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmAlphaWDasiaOxiaYpo" format="2">
-  <advance width="1076.0"/>
+  <advance width="1076"/>
   <unicode hex="1F85"/>
   <outline>
     <component base="GrSmAlpha"/>
-    <component base="GrDasiaOxia" xOffset="250.0"/>
-    <component base="GrYpo" xOffset="1000.0"/>
+    <component base="GrDasiaOxia" xOffset="250"/>
+    <component base="GrYpo" xOffset="1000"/>
   </outline>
   <lib>
     <dict>

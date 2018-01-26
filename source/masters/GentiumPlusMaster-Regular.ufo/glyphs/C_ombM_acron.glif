@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombMacron" format="2">
   <unicode hex="0304"/>
-  <anchor x="-525.0" y="1410.0" name="U"/>
-  <anchor x="-525.0" y="1050.0" name="_U"/>
+  <anchor x="-525" y="1410" name="U"/>
+  <anchor x="-525" y="1050" name="_U"/>
   <outline>
     <contour>
-      <point x="-183.0" y="1252.0"/>
-      <point x="-177.0" y="1281.0" type="curve"/>
-      <point x="-199.0" y="1305.0" type="line"/>
-      <point x="-812.0" y="1305.0" type="line"/>
-      <point x="-825.0" y="1279.0"/>
-      <point x="-847.0" y="1229.0"/>
-      <point x="-853.0" y="1200.0" type="curve"/>
-      <point x="-831.0" y="1175.0" type="line"/>
-      <point x="-216.0" y="1175.0" type="line"/>
-      <point x="-206.0" y="1200.0"/>
+      <point x="-183" y="1252"/>
+      <point x="-177" y="1281" type="curve"/>
+      <point x="-199" y="1305" type="line"/>
+      <point x="-812" y="1305" type="line"/>
+      <point x="-825" y="1279"/>
+      <point x="-847" y="1229"/>
+      <point x="-853" y="1200" type="curve"/>
+      <point x="-831" y="1175" type="line"/>
+      <point x="-216" y="1175" type="line"/>
+      <point x="-206" y="1200"/>
     </contour>
   </outline>
   <lib>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CyCapIGrave" format="2">
-  <advance width="1360.0"/>
+  <advance width="1360"/>
   <unicode hex="040D"/>
-  <anchor x="670.0" y="-100.0" name="L"/>
-  <anchor x="670.0" y="1690.0" name="U"/>
+  <anchor x="670" y="-100" name="L"/>
+  <anchor x="670" y="1690" name="U"/>
   <outline>
     <component base="CyCapI"/>
-    <component base="CombGrave.LP" xOffset="1103.0" yOffset="320.0"/>
+    <component base="CombGrave.LP" xOffset="1103" yOffset="320"/>
   </outline>
   <lib>
     <dict>

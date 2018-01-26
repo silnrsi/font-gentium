@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmEMacronGrave" format="2">
-  <advance width="946.0"/>
+  <advance width="946"/>
   <unicode hex="1E15"/>
-  <anchor x="500.0" y="0.0" name="H"/>
-  <anchor x="500.0" y="-100.0" name="L"/>
-  <anchor x="558.0" y="0.0" name="O"/>
-  <anchor x="1020.0" y="900.0" name="R"/>
-  <anchor x="510.0" y="1770.0" name="U"/>
+  <anchor x="500" y="0" name="H"/>
+  <anchor x="500" y="-100" name="L"/>
+  <anchor x="558" y="0" name="O"/>
+  <anchor x="1020" y="900" name="R"/>
+  <anchor x="510" y="1770" name="U"/>
   <outline>
     <component base="LtnSmE"/>
-    <component base="CombMacron" xOffset="1035.0"/>
-    <component base="CombGrave" xOffset="943.0" yOffset="360.0"/>
+    <component base="CombMacron" xOffset="1035"/>
+    <component base="CombGrave" xOffset="943" yOffset="360"/>
   </outline>
   <lib>
     <dict>

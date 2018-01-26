@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapRInvBreve" format="2">
-  <advance width="1149.0"/>
+  <advance width="1149"/>
   <unicode hex="0212"/>
-  <anchor x="275.0" y="0.0" name="H"/>
-  <anchor x="520.0" y="-100.0" name="L"/>
-  <anchor x="520.0" y="1690.0" name="U"/>
+  <anchor x="275" y="0" name="H"/>
+  <anchor x="520" y="-100" name="L"/>
+  <anchor x="520" y="1690" name="U"/>
   <outline>
     <component base="LtnCapR"/>
-    <component base="CombInvBreve" xOffset="1035.0" yOffset="320.0"/>
+    <component base="CombInvBreve" xOffset="1035" yOffset="320"/>
   </outline>
   <lib>
     <dict>

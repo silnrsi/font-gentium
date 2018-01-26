@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapPAcute" format="2">
-  <advance width="1071.0"/>
+  <advance width="1071"/>
   <unicode hex="1E54"/>
-  <anchor x="511.0" y="-100.0" name="L"/>
-  <anchor x="511.0" y="1690.0" name="U"/>
+  <anchor x="511" y="-100" name="L"/>
+  <anchor x="511" y="1690" name="U"/>
   <outline>
     <component base="LtnCapP"/>
-    <component base="CombAcute.LP" xOffset="1054.0" yOffset="320.0"/>
+    <component base="CombAcute.LP" xOffset="1054" yOffset="320"/>
   </outline>
   <lib>
     <dict>

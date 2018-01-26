@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombMacron.Short" format="2">
-  <anchor x="-525.0" y="1410.0" name="U"/>
-  <anchor x="-525.0" y="1050.0" name="_U"/>
+  <anchor x="-525" y="1410" name="U"/>
+  <anchor x="-525" y="1050" name="_U"/>
   <outline>
     <contour>
-      <point x="-263.0" y="1252.0"/>
-      <point x="-257.0" y="1281.0" type="curve"/>
-      <point x="-279.0" y="1305.0" type="line"/>
-      <point x="-732.0" y="1305.0" type="line"/>
-      <point x="-745.0" y="1279.0"/>
-      <point x="-767.0" y="1229.0"/>
-      <point x="-773.0" y="1200.0" type="curve"/>
-      <point x="-751.0" y="1175.0" type="line"/>
-      <point x="-296.0" y="1175.0" type="line"/>
-      <point x="-286.0" y="1200.0"/>
+      <point x="-263" y="1252"/>
+      <point x="-257" y="1281" type="curve"/>
+      <point x="-279" y="1305" type="line"/>
+      <point x="-732" y="1305" type="line"/>
+      <point x="-745" y="1279"/>
+      <point x="-767" y="1229"/>
+      <point x="-773" y="1200" type="curve"/>
+      <point x="-751" y="1175" type="line"/>
+      <point x="-296" y="1175" type="line"/>
+      <point x="-286" y="1200"/>
     </contour>
   </outline>
   <lib>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ThinSpace" format="2">
-  <advance width="300.0"/>
+  <advance width="300"/>
   <unicode hex="2009"/>
-  <anchor x="150.0" y="0.0" name="H"/>
-  <anchor x="150.0" y="-100.0" name="L"/>
-  <anchor x="170.0" y="0.0" name="O"/>
-  <anchor x="300.0" y="900.0" name="R"/>
-  <anchor x="150.0" y="1435.0" name="U"/>
-  <outline>
-  </outline>
+  <anchor x="150" y="0" name="H"/>
+  <anchor x="150" y="-100" name="L"/>
+  <anchor x="170" y="0" name="O"/>
+  <anchor x="300" y="900" name="R"/>
+  <anchor x="150" y="1435" name="U"/>
+  <outline/>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>

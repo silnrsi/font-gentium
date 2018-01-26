@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapEOgonek.RetroHook" format="2">
-  <advance width="1016.0"/>
-  <anchor x="502.0" y="0.0" name="H"/>
-  <anchor x="560.0" y="-600.0" name="L"/>
-  <anchor x="750.0" y="0.0" name="O"/>
-  <anchor x="990.0" y="1100.0" name="R"/>
-  <anchor x="502.0" y="1370.0" name="U"/>
+  <advance width="1016"/>
+  <anchor x="502" y="0" name="H"/>
+  <anchor x="560" y="-600" name="L"/>
+  <anchor x="750" y="0" name="O"/>
+  <anchor x="990" y="1100" name="R"/>
+  <anchor x="502" y="1370" name="U"/>
   <outline>
     <contour>
-      <point x="857.0" y="-336.0"/>
-      <point x="849.0" y="-235.0" type="curve"/>
-      <point x="830.0" y="-196.0" type="line"/>
-      <point x="789.0" y="-190.0"/>
-      <point x="655.0" y="-253.0"/>
-      <point x="664.0" y="-264.0" type="curve" smooth="yes"/>
-      <point x="704.0" y="-312.0"/>
-      <point x="686.0" y="-405.0"/>
-      <point x="608.0" y="-405.0" type="curve" smooth="yes"/>
-      <point x="542.0" y="-405.0"/>
-      <point x="511.0" y="-359.0"/>
-      <point x="511.0" y="-196.0" type="curve" smooth="yes"/>
-      <point x="511.0" y="64.0" type="line"/>
-      <point x="421.0" y="64.0" type="line"/>
-      <point x="421.0" y="-247.0" type="line" smooth="yes"/>
-      <point x="421.0" y="-422.0"/>
-      <point x="492.0" y="-500.0"/>
-      <point x="604.0" y="-500.0" type="curve" smooth="yes"/>
-      <point x="759.0" y="-500.0"/>
+      <point x="857" y="-336"/>
+      <point x="849" y="-235" type="curve"/>
+      <point x="830" y="-196" type="line"/>
+      <point x="789" y="-190"/>
+      <point x="655" y="-253"/>
+      <point x="664" y="-264" type="curve" smooth="yes"/>
+      <point x="704" y="-312"/>
+      <point x="686" y="-405"/>
+      <point x="608" y="-405" type="curve" smooth="yes"/>
+      <point x="542" y="-405"/>
+      <point x="511" y="-359"/>
+      <point x="511" y="-196" type="curve" smooth="yes"/>
+      <point x="511" y="64" type="line"/>
+      <point x="421" y="64" type="line"/>
+      <point x="421" y="-247" type="line" smooth="yes"/>
+      <point x="421" y="-422"/>
+      <point x="492" y="-500"/>
+      <point x="604" y="-500" type="curve" smooth="yes"/>
+      <point x="759" y="-500"/>
     </contour>
     <component base="LtnCapE"/>
   </outline>

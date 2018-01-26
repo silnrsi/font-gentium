@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapEth" format="2">
-  <advance width="1214.0"/>
+  <advance width="1214"/>
   <unicode hex="00D0"/>
-  <anchor x="575.0" y="-100.0" name="L"/>
-  <anchor x="575.0" y="1370.0" name="U"/>
+  <anchor x="575" y="-100" name="L"/>
+  <anchor x="575" y="1370" name="U"/>
   <outline>
     <contour>
-      <point x="614.0" y="615.0" type="line"/>
-      <point x="639.0" y="682.0" type="line"/>
-      <point x="614.0" y="705.0" type="line"/>
-      <point x="49.0" y="705.0" type="line"/>
-      <point x="41.0" y="684.0"/>
-      <point x="33.0" y="660.0"/>
-      <point x="27.0" y="640.0" type="curve"/>
-      <point x="49.0" y="615.0" type="line"/>
+      <point x="614" y="615" type="line"/>
+      <point x="639" y="682" type="line"/>
+      <point x="614" y="705" type="line"/>
+      <point x="49" y="705" type="line"/>
+      <point x="41" y="684"/>
+      <point x="33" y="660"/>
+      <point x="27" y="640" type="curve"/>
+      <point x="49" y="615" type="line"/>
     </contour>
     <component base="LtnCapD"/>
   </outline>

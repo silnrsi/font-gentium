@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmRCaron" format="2">
-  <advance width="811.0"/>
+  <advance width="811"/>
   <unicode hex="0159"/>
-  <anchor x="270.0" y="0.0" name="H"/>
-  <anchor x="270.0" y="-100.0" name="L"/>
-  <anchor x="450.0" y="1450.0" name="U"/>
+  <anchor x="270" y="0" name="H"/>
+  <anchor x="270" y="-100" name="L"/>
+  <anchor x="450" y="1450" name="U"/>
   <outline>
     <component base="LtnSmR"/>
-    <component base="CombCaron" xOffset="964.0"/>
+    <component base="CombCaron" xOffset="964"/>
   </outline>
   <lib>
     <dict>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModCircumAccent.LP" format="2">
-  <advance width="733.0"/>
-  <anchor x="365.0" y="1370.0" name="U"/>
-  <anchor x="365.0" y="1050.0" name="_U"/>
+  <advance width="733"/>
+  <anchor x="365" y="1370" name="U"/>
+  <anchor x="365" y="1050" name="_U"/>
   <outline>
     <contour>
-      <point x="666.0" y="1067.0"/>
-      <point x="682.0" y="1092.0" type="curve"/>
-      <point x="420.0" y="1401.0" type="line"/>
-      <point x="313.0" y="1401.0" type="line"/>
-      <point x="49.0" y="1092.0" type="line"/>
-      <point x="68.0" y="1067.0"/>
-      <point x="72.0" y="1057.0"/>
-      <point x="94.0" y="1047.0" type="curve"/>
-      <point x="365.0" y="1255.0" type="line"/>
-      <point x="639.0" y="1047.0" type="line"/>
-      <point x="662.0" y="1057.0"/>
+      <point x="666" y="1067"/>
+      <point x="682" y="1092" type="curve"/>
+      <point x="420" y="1401" type="line"/>
+      <point x="313" y="1401" type="line"/>
+      <point x="49" y="1092" type="line"/>
+      <point x="68" y="1067"/>
+      <point x="72" y="1057"/>
+      <point x="94" y="1047" type="curve"/>
+      <point x="365" y="1255" type="line"/>
+      <point x="639" y="1047" type="line"/>
+      <point x="662" y="1057"/>
     </contour>
   </outline>
   <lib>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="TnLtr1no" format="2">
-  <advance width="743.0"/>
-  <anchor x="127.0" y="32.0" name="_TL"/>
+  <advance width="743"/>
+  <anchor x="127" y="32" name="_TL"/>
   <outline>
     <component base="TnLtrSpcPointLeft"/>
-    <component base="TnLtrSeg11" xOffset="126.0"/>
-    <component base="TnLtrSpcFlatRight" xOffset="551.0"/>
+    <component base="TnLtrSeg11" xOffset="126"/>
+    <component base="TnLtrSpcFlatRight" xOffset="551"/>
   </outline>
   <lib>
     <dict>

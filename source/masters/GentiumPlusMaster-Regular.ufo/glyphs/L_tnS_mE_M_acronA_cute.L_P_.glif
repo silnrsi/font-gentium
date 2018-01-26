@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmEMacronAcute.LP" format="2">
-  <advance width="946.0"/>
-  <anchor x="500.0" y="0.0" name="H"/>
-  <anchor x="500.0" y="-100.0" name="L"/>
-  <anchor x="558.0" y="0.0" name="O"/>
-  <anchor x="1020.0" y="900.0" name="R"/>
-  <anchor x="510.0" y="1690.0" name="U"/>
+  <advance width="946"/>
+  <anchor x="500" y="0" name="H"/>
+  <anchor x="500" y="-100" name="L"/>
+  <anchor x="558" y="0" name="O"/>
+  <anchor x="1020" y="900" name="R"/>
+  <anchor x="510" y="1690" name="U"/>
   <outline>
     <component base="LtnSmE"/>
-    <component base="CombMacron.LP" xOffset="1035.0"/>
-    <component base="CombAcute.LP" xOffset="1053.0" yOffset="320.0"/>
+    <component base="CombMacron.LP" xOffset="1035"/>
+    <component base="CombAcute.LP" xOffset="1053" yOffset="320"/>
   </outline>
   <lib>
     <dict>

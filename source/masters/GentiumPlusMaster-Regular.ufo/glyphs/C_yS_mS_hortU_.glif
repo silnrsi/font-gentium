@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CySmShortU" format="2">
-  <advance width="1030.0"/>
+  <advance width="1030"/>
   <unicode hex="045E"/>
-  <anchor x="770.0" y="-100.0" name="L"/>
-  <anchor x="550.0" y="1370.0" name="U"/>
+  <anchor x="770" y="-100" name="L"/>
+  <anchor x="550" y="1370" name="U"/>
   <outline>
     <component base="CySmU"/>
-    <component base="CombBreve.CyShortMrkAlt" xOffset="1147.0"/>
+    <component base="CombBreve.CyShortMrkAlt" xOffset="1147"/>
   </outline>
   <lib>
     <dict>
