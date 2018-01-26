@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapAYDigraph" format="1">
+<glyph name="LtnCapAYDigraph" format="2">
   <advance width="1713"/>
   <unicode hex="A73C"/>
+  <anchor x="816" y="-600" name="L"/>
+  <anchor x="955" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1055" y="-251"/>
@@ -52,12 +54,6 @@
       <point x="582" y="1003" type="line"/>
       <point x="743" y="555" type="line"/>
       <point x="439" y="555" type="line"/>
-    </contour>
-    <contour>
-      <point x="816" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="955" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

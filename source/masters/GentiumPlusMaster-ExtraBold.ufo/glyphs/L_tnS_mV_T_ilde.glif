@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmVTilde" format="1">
+<glyph name="LtnSmVTilde" format="2">
   <advance width="1050"/>
   <unicode hex="1E7D"/>
+  <anchor x="514" y="0" name="H"/>
+  <anchor x="536" y="-100" name="L"/>
+  <anchor x="477" y="0" name="O"/>
+  <anchor x="557" y="1410" name="U"/>
   <outline>
     <component base="LtnSmV"/>
     <component base="CombTilde" xOffset="1105"/>
-    <contour>
-      <point x="514" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="536" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="477" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="557" y="1410" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

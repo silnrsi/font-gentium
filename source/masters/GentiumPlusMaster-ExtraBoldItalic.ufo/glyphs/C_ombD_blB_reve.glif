@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombDblBreve" format="1">
+<glyph name="CombDblBreve" format="2">
   <advance width="0"/>
   <unicode hex="035D"/>
+  <anchor x="177" y="1930" name="U"/>
   <outline>
     <contour>
       <point x="928" y="1874" type="curve"/>
@@ -22,9 +23,6 @@
       <point x="127" y="1560" type="curve" smooth="yes"/>
       <point x="436" y="1560"/>
       <point x="773" y="1676"/>
-    </contour>
-    <contour>
-      <point x="177" y="1930" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

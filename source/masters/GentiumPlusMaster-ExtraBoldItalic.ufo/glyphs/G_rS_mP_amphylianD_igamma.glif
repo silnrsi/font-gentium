@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmPamphylianDigamma" format="1">
+<glyph name="GrSmPamphylianDigamma" format="2">
   <advance width="1199"/>
   <unicode hex="0377"/>
+  <anchor x="514" y="-108" name="L"/>
+  <anchor x="666" y="970" name="U"/>
   <outline>
     <contour>
       <point x="436" y="374" type="curve"/>
@@ -49,12 +51,6 @@
       <point x="914" y="936" type="line"/>
       <point x="749" y="718"/>
       <point x="611" y="564"/>
-    </contour>
-    <contour>
-      <point x="514" y="-108" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="666" y="970" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="SmRomNumNine" format="1">
+<glyph name="SmRomNumNine" format="2">
   <advance width="1405"/>
   <unicode hex="2178"/>
+  <anchor x="859" y="1320" name="U"/>
   <outline>
     <component base="LtnSmI"/>
     <component base="LtnSmX" xOffset="504"/>
-    <contour>
-      <point x="859" y="1320" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="SupThree" format="1">
+<glyph name="SupThree" format="2">
   <advance width="576"/>
   <unicode hex="00B3"/>
+  <anchor x="285" y="550" name="L"/>
+  <anchor x="403" y="1400" name="U"/>
   <outline>
     <contour>
       <point x="568" y="1209" type="curve"/>
@@ -49,12 +51,6 @@
       <point x="413" y="1027" type="curve"/>
       <point x="503" y="1059"/>
       <point x="568" y="1122"/>
-    </contour>
-    <contour>
-      <point x="285" y="550" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="403" y="1400" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

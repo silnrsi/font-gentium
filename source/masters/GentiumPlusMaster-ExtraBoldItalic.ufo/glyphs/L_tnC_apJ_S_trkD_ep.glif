@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapJStrkDep" format="1">
+<glyph name="LtnCapJStrkDep" format="2">
   <advance width="625"/>
   <unicode hex="F261"/>
+  <anchor x="413" y="-100" name="L"/>
+  <anchor x="473" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="-294" y="-411" type="line"/>
@@ -51,12 +53,6 @@
       <point x="419" y="705" type="line"/>
       <point x="559" y="705" type="line"/>
       <point x="578" y="680" type="line"/>
-    </contour>
-    <contour>
-      <point x="413" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="473" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

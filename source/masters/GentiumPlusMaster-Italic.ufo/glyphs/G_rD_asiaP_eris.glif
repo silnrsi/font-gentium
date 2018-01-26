@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrDasiaPeris" format="1">
+<glyph name="GrDasiaPeris" format="2">
   <advance width="340"/>
   <unicode hex="1FDF"/>
+  <anchor x="200" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="137" y="1283" type="curve"/>
@@ -43,9 +44,6 @@
       <point x="371" y="1474" type="curve" smooth="yes"/>
       <point x="475" y="1474"/>
       <point x="559" y="1569"/>
-    </contour>
-    <contour>
-      <point x="200" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

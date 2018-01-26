@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapDStrkHook" format="1">
+<glyph name="LtnCapDStrkHook" format="2">
   <advance width="1518"/>
   <unicode hex="F20D"/>
+  <anchor x="723" y="-100" name="L"/>
+  <anchor x="920" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="279" y="83" type="curve"/>
@@ -64,12 +66,6 @@
       <point x="676" y="149"/>
       <point x="737" y="595" type="curve"/>
       <point x="965" y="595" type="line"/>
-    </contour>
-    <contour>
-      <point x="723" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="920" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

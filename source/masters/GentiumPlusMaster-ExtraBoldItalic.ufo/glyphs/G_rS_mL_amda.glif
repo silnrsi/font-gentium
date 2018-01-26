@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmLamda" format="1">
+<glyph name="GrSmLamda" format="2">
   <advance width="1057"/>
   <unicode hex="03BB"/>
+  <anchor x="363" y="-100" name="L"/>
+  <anchor x="601" y="1640" name="U"/>
   <outline>
     <contour>
       <point x="1042" y="298" type="curve"/>
@@ -45,12 +47,6 @@
       <point x="229" y="-10" type="curve"/>
       <point x="367" y="320"/>
       <point x="429" y="596"/>
-    </contour>
-    <contour>
-      <point x="363" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="601" y="1640" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

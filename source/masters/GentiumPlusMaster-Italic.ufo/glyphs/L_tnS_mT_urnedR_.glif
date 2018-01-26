@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTurnedR" format="1">
+<glyph name="LtnSmTurnedR" format="2">
   <advance width="814"/>
   <unicode hex="0279"/>
+  <anchor x="372" y="-100" name="L"/>
+  <anchor x="523" y="1000" name="U"/>
   <outline>
     <contour>
       <point x="10" y="15" type="curve" smooth="yes"/>
@@ -56,12 +58,6 @@
       <point x="545" y="-41" type="curve" smooth="yes"/>
       <point x="595" y="-41"/>
       <point x="670" y="-4"/>
-    </contour>
-    <contour>
-      <point x="372" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="523" y="1000" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

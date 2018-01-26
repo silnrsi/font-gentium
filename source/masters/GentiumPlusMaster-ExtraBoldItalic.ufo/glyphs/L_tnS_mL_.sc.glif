@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmL.sc" format="1">
+<glyph name="LtnSmL.sc" format="2">
   <advance width="863"/>
+  <anchor x="197" y="7" name="H"/>
+  <anchor x="369" y="-76" name="L"/>
+  <anchor x="705" y="730" name="R"/>
+  <anchor x="524" y="1103" name="U"/>
   <outline>
     <contour>
       <point x="789" y="212" type="line"/>
@@ -33,18 +37,6 @@
       <point x="738" y="34"/>
       <point x="767" y="110"/>
       <point x="792" y="204" type="curve"/>
-    </contour>
-    <contour>
-      <point x="197" y="7" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="369" y="-76" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="705" y="730" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="524" y="1103" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

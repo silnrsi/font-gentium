@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmZDotAbv.SItal" format="1">
+<glyph name="LtnSmZDotAbv.SItal" format="2">
   <advance width="772"/>
+  <anchor x="590" y="0" name="H"/>
+  <anchor x="323" y="-100" name="L"/>
+  <anchor x="521" y="1353" name="U"/>
   <outline>
     <component base="LtnSmZ.SItal"/>
     <component base="CombDotAbv" xOffset="828"/>
-    <contour>
-      <point x="590" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="323" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="521" y="1353" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

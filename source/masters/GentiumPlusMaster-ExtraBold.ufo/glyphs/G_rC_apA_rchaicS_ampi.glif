@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapArchaicSampi" format="1">
+<glyph name="GrCapArchaicSampi" format="2">
   <advance width="1185"/>
   <unicode hex="0372"/>
+  <anchor x="612" y="-100" name="L"/>
+  <anchor x="612" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1147" y="1157"/>
@@ -49,12 +51,6 @@
       <point x="462" y="136"/>
       <point x="431" y="108"/>
       <point x="308" y="83" type="curve"/>
-    </contour>
-    <contour>
-      <point x="612" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="612" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

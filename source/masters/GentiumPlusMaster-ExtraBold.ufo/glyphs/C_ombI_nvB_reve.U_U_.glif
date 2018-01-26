@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombInvBreve.UU" format="1">
+<glyph name="CombInvBreve.UU" format="2">
   <advance width="730"/>
+  <anchor x="365" y="1370" name="U"/>
+  <anchor x="-267" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="80" y="1310"/>
@@ -21,12 +23,6 @@
       <point x="514" y="1405"/>
       <point x="363" y="1405" type="curve" smooth="yes"/>
       <point x="223" y="1405"/>
-    </contour>
-    <contour>
-      <point x="365" y="1370" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="-267" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

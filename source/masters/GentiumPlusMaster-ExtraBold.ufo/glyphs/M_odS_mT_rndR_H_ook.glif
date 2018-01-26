@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmTrndRHook" format="1">
+<glyph name="ModSmTrndRHook" format="2">
   <advance width="522"/>
   <unicode hex="02B5"/>
+  <anchor x="420" y="258" name="L"/>
+  <anchor x="396" y="1286" name="U"/>
   <outline>
     <contour>
       <point x="456" y="530" type="curve" smooth="yes"/>
@@ -47,12 +49,6 @@
       <point x="539" y="385" type="curve" smooth="yes"/>
       <point x="472" y="385"/>
       <point x="456" y="436"/>
-    </contour>
-    <contour>
-      <point x="420" y="258" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="396" y="1286" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

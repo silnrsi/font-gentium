@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="SmRomNumOneHundred" format="1">
+<glyph name="SmRomNumOneHundred" format="2">
   <advance width="899"/>
   <unicode hex="217D"/>
+  <anchor x="583" y="1000" name="U"/>
   <outline>
     <component base="LtnSmC"/>
-    <contour>
-      <point x="583" y="1000" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmCapUBarDep" format="1">
+<glyph name="LtnSmCapUBarDep" format="2">
   <advance width="995"/>
   <unicode hex="F23F"/>
+  <anchor x="588" y="-100" name="L"/>
+  <anchor x="588" y="1000" name="U"/>
   <outline>
     <contour>
       <point x="-42" y="-71" type="line"/>
@@ -62,12 +64,6 @@
       <point x="248" y="338" type="line" smooth="yes"/>
       <point x="223" y="153"/>
       <point x="289" y="63"/>
-    </contour>
-    <contour>
-      <point x="588" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="588" y="1000" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

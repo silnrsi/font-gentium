@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapLigTeTse" format="1">
+<glyph name="CyCapLigTeTse" format="2">
   <advance width="1323"/>
   <unicode hex="04B4"/>
+  <anchor x="631" y="-100" name="L"/>
+  <anchor x="829" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="1042" y="0" type="line"/>
@@ -66,12 +68,6 @@
       <point x="207" y="1101"/>
       <point x="256" y="1170"/>
       <point x="293" y="1170" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="631" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="829" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

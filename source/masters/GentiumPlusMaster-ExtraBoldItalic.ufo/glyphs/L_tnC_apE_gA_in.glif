@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapEgAin" format="1">
+<glyph name="LtnCapEgAin" format="2">
   <advance width="576"/>
   <unicode hex="A724"/>
+  <anchor x="250" y="-100" name="L"/>
+  <anchor x="435" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="365" y="1290" type="curve"/>
@@ -21,12 +23,6 @@
       <point x="633" y="1185" type="line"/>
       <point x="612" y="1203"/>
       <point x="406" y="1288"/>
-    </contour>
-    <contour>
-      <point x="250" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="435" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

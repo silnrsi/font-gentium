@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapHaHook" format="1">
+<glyph name="CyCapHaHook" format="2">
   <advance width="1300"/>
   <unicode hex="04FC"/>
+  <anchor x="655" y="-600" name="L"/>
+  <anchor x="650" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1133" y="1166"/>
@@ -67,12 +69,6 @@
       <point x="471" y="83" type="line"/>
       <point x="348" y="91"/>
       <point x="343" y="109"/>
-    </contour>
-    <contour>
-      <point x="655" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="650" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

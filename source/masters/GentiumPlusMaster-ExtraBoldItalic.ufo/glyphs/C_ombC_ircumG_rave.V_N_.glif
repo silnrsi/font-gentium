@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombCircumGrave.VN" format="1">
+<glyph name="CombCircumGrave.VN" format="2">
   <advance width="0"/>
+  <anchor x="-385" y="1000" name="_U"/>
   <outline>
     <contour>
       <point x="-42" y="1081" type="curve"/>
@@ -25,9 +26,6 @@
       <point x="-574" y="1337" type="line"/>
       <point x="-557" y="1337"/>
       <point x="-498" y="1371"/>
-    </contour>
-    <contour>
-      <point x="-385" y="1000" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapElHook" format="1">
+<glyph name="CyCapElHook" format="2">
   <advance width="1130"/>
   <unicode hex="0512"/>
+  <anchor x="535" y="-600" name="L"/>
+  <anchor x="811" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="650" y="1199" type="curve"/>
@@ -61,12 +63,6 @@
       <point x="802" y="1170"/>
       <point x="933" y="1170"/>
       <point x="933" y="1170" type="curve"/>
-    </contour>
-    <contour>
-      <point x="535" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="811" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

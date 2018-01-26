@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmDotlessI.SItal" format="1">
+<glyph name="LtnSmDotlessI.SItal" format="2">
   <advance width="459"/>
+  <anchor x="180" y="-10" name="H"/>
+  <anchor x="184" y="-100" name="L"/>
+  <anchor x="234" y="-10" name="O"/>
+  <anchor x="463" y="875" name="R"/>
+  <anchor x="294" y="1000" name="U"/>
   <outline>
     <contour>
       <point x="371" y="-10" type="line"/>
@@ -22,21 +27,6 @@
       <point x="78" y="50"/>
       <point x="-4" y="32" type="curve"/>
       <point x="-10" y="-10" type="line"/>
-    </contour>
-    <contour>
-      <point x="180" y="-10" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="184" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="234" y="-10" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="463" y="875" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="294" y="1000" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmOTildeMacron.LP" format="1">
+<glyph name="LtnSmOTildeMacron.LP" format="2">
   <advance width="864"/>
+  <anchor x="374" y="0" name="H"/>
+  <anchor x="354" y="-100" name="L"/>
+  <anchor x="429" y="0" name="O"/>
+  <anchor x="920" y="870" name="R"/>
+  <anchor x="593" y="1640" name="U"/>
   <outline>
     <component base="LtnSmO"/>
     <component base="CombTilde.LP" xOffset="860"/>
     <component base="CombMacron.LP" xOffset="914" yOffset="320"/>
-    <contour>
-      <point x="374" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="354" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="429" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="920" y="870" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="593" y="1640" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

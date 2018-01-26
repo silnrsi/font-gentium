@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmLPalHookDep" format="1">
+<glyph name="ModSmLPalHookDep" format="2">
   <advance width="336"/>
   <unicode hex="F1BE"/>
+  <anchor x="211" y="500" name="L"/>
+  <anchor x="211" y="1625" name="U"/>
   <outline>
     <contour>
       <point x="6" y="278" type="line"/>
@@ -68,12 +70,6 @@
       <point x="335" y="635"/>
       <point x="329" y="611"/>
       <point x="324" y="574" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="211" y="500" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="211" y="1625" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapTRetrHook" format="1">
+<glyph name="LtnCapTRetrHook" format="2">
   <advance width="1123"/>
   <unicode hex="01AE"/>
+  <anchor x="434" y="-600" name="L"/>
+  <anchor x="698" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="1218" y="1225" type="curve"/>
@@ -56,12 +58,6 @@
       <point x="675" y="-217"/>
       <point x="624" y="-157"/>
       <point x="641" y="-29" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="434" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="698" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

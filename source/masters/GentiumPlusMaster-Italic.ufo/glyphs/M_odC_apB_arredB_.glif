@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModCapBarredB" format="1">
+<glyph name="ModCapBarredB" format="2">
   <advance width="740"/>
   <unicode hex="1D2F"/>
+  <anchor x="332" y="540" name="L"/>
+  <anchor x="444" y="1422" name="U"/>
   <outline>
     <contour>
       <point x="676" y="814" type="curve" smooth="yes"/>
@@ -70,12 +72,6 @@
       <point x="66" y="1002" type="curve"/>
       <point x="83" y="977" type="line"/>
       <point x="708" y="977" type="line"/>
-    </contour>
-    <contour>
-      <point x="332" y="540" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="444" y="1422" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

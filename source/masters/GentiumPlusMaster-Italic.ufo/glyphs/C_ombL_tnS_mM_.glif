@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombLtnSmM" format="1">
+<glyph name="CombLtnSmM" format="2">
   <advance width="0"/>
   <unicode hex="036B"/>
+  <anchor x="-279" y="1490" name="U"/>
+  <anchor x="-352" y="1000" name="_U"/>
   <outline>
     <contour>
       <point x="-471" y="1394" type="curve"/>
@@ -86,12 +88,6 @@
       <point x="-312" y="1475" type="curve" smooth="yes"/>
       <point x="-361" y="1475"/>
       <point x="-410" y="1452"/>
-    </contour>
-    <contour>
-      <point x="-279" y="1490" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="-352" y="1000" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

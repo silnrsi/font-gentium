@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="DigitFive" format="1">
+<glyph name="DigitFive" format="2">
   <advance width="823"/>
   <unicode hex="0035"/>
+  <anchor x="320" y="-100" name="L"/>
+  <anchor x="520" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="799" y="1194" type="curve"/>
@@ -45,12 +47,6 @@
       <point x="686" y="1079" type="line"/>
       <point x="717" y="1102"/>
       <point x="766" y="1151"/>
-    </contour>
-    <contour>
-      <point x="320" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="520" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

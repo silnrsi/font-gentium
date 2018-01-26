@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnLigSmFSmL" format="1">
+<glyph name="LtnLigSmFSmL" format="2">
   <advance width="1350"/>
+  <anchor x="922" y="-100" name="L"/>
+  <anchor x="1192" y="900" name="R"/>
+  <anchor x="922" y="1620" name="U"/>
   <outline>
     <component base="LtnSmF"/>
     <component base="LtnSmL" xOffset="715"/>
-    <contour>
-      <point x="922" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="1192" y="900" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="922" y="1620" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

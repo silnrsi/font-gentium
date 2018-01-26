@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmLDotBlwMacron.sc" format="1">
+<glyph name="LtnSmLDotBlwMacron.sc" format="2">
   <advance width="916"/>
+  <anchor x="467" y="7" name="H"/>
+  <anchor x="467" y="-576" name="L"/>
+  <anchor x="705" y="754" name="R"/>
+  <anchor x="439" y="1505" name="U"/>
   <outline>
     <component base="LtnSmL.sc"/>
     <component base="CombDotBlw" xOffset="1015" yOffset="24"/>
     <component base="CombMacron" xOffset="997" yOffset="95"/>
-    <contour>
-      <point x="467" y="7" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="467" y="-576" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="705" y="754" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="439" y="1505" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

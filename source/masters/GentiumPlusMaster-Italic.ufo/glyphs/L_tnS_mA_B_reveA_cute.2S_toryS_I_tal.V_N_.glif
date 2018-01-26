@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmABreveAcute.2StorySItal.VN" format="1">
+<glyph name="LtnSmABreveAcute.2StorySItal.VN" format="2">
   <advance width="860"/>
+  <anchor x="374" y="0" name="H"/>
+  <anchor x="376" y="-100" name="L"/>
+  <anchor x="688" y="0" name="O"/>
+  <anchor x="904" y="870" name="R"/>
+  <anchor x="609" y="1733" name="U"/>
   <outline>
     <component base="LtnSmA.2StorySItal"/>
     <component base="CombBreveAcute.VN" xOffset="858"/>
-    <contour>
-      <point x="374" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="376" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="688" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="904" y="870" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="609" y="1733" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

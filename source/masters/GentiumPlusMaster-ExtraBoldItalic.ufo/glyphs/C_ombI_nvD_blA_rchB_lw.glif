@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombInvDblArchBlw" format="1">
+<glyph name="CombInvDblArchBlw" format="2">
   <advance width="0"/>
   <unicode hex="032B"/>
+  <anchor x="-612" y="-600" name="L"/>
+  <anchor x="-544" y="-100" name="_L"/>
   <outline>
     <contour>
       <point x="-225" y="-179" type="curve"/>
@@ -37,12 +39,6 @@
       <point x="-469" y="-471" type="curve" smooth="yes"/>
       <point x="-374" y="-471"/>
       <point x="-285" y="-354"/>
-    </contour>
-    <contour>
-      <point x="-612" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="-544" y="-100" type="move" name="_L"/>
     </contour>
   </outline>
 </glyph>

@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmACircumDotBlw.2StorySItal.LP" format="1">
+<glyph name="LtnSmACircumDotBlw.2StorySItal.LP" format="2">
   <advance width="1050"/>
+  <anchor x="409" y="0" name="H"/>
+  <anchor x="502" y="-600" name="L"/>
+  <anchor x="800" y="0" name="O"/>
+  <anchor x="1050" y="900" name="R"/>
+  <anchor x="526" y="1450" name="U"/>
   <outline>
     <component base="LtnSmA.2StorySItal"/>
     <component base="CombDotBlw" xOffset="1050"/>
     <component base="CombCircum.LP" xOffset="1073"/>
-    <contour>
-      <point x="409" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="502" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="800" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="1050" y="900" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="526" y="1450" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

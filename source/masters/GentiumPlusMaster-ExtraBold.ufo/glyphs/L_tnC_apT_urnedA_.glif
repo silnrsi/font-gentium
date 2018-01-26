@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapTurnedA" format="1">
+<glyph name="LtnCapTurnedA" format="2">
   <advance width="1309"/>
   <unicode hex="2C6F"/>
+  <anchor x="589" y="-100" name="L"/>
+  <anchor x="589" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="886" y="835" type="line"/>
@@ -35,12 +37,6 @@
       <point x="568" y="705" type="line"/>
       <point x="843" y="705" type="line"/>
       <point x="707" y="284" type="line"/>
-    </contour>
-    <contour>
-      <point x="589" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="589" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapYHook.RtHook" format="1">
+<glyph name="LtnCapYHook.RtHook" format="2">
   <advance width="1358"/>
   <unicode hex="01B3"/>
+  <anchor x="536" y="-100" name="L"/>
+  <anchor x="731" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="829" y="0" type="line"/>
@@ -55,12 +57,6 @@
       <point x="407" y="108"/>
       <point x="291" y="83" type="curve"/>
       <point x="280" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="536" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="731" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

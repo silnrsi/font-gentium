@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapIGrave" format="1">
+<glyph name="LtnCapIGrave" format="2">
   <advance width="573"/>
   <unicode hex="00CC"/>
+  <anchor x="225" y="0" name="H"/>
+  <anchor x="211" y="-100" name="L"/>
+  <anchor x="285" y="0" name="O"/>
+  <anchor x="568" y="1072" name="R"/>
+  <anchor x="449" y="1640" name="U"/>
   <outline>
     <component base="LtnCapI"/>
     <component base="CombGrave.LP" xOffset="681" yOffset="320"/>
-    <contour>
-      <point x="225" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="211" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="285" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="568" y="1072" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="449" y="1640" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

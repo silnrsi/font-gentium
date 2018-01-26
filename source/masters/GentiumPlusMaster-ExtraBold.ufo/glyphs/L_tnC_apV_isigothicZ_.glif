@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapVisigothicZ" format="1">
+<glyph name="LtnCapVisigothicZ" format="2">
   <advance width="1014"/>
   <unicode hex="A762"/>
+  <anchor x="502" y="-211" name="L"/>
+  <anchor x="515" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="349" y="711" type="curve" smooth="yes"/>
@@ -78,12 +80,6 @@
       <point x="666" y="-70" type="curve"/>
       <point x="871" y="26"/>
       <point x="968" y="129"/>
-    </contour>
-    <contour>
-      <point x="502" y="-211" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="515" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapOpenSix" format="1">
+<glyph name="LtnCapOpenSix" format="2">
   <advance width="1012"/>
   <unicode hex="1EFC"/>
+  <anchor x="445" y="-100" name="L"/>
+  <anchor x="666" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="802" y="1248" type="curve"/>
@@ -34,12 +36,6 @@
       <point x="249" y="477" type="curve" smooth="yes"/>
       <point x="249" y="825"/>
       <point x="468" y="1102"/>
-    </contour>
-    <contour>
-      <point x="445" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="666" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

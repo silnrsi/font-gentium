@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmNAcute.sc" format="1">
+<glyph name="LtnSmNAcute.sc" format="2">
   <advance width="1165"/>
+  <anchor x="884" y="7" name="H"/>
+  <anchor x="509" y="-76" name="L"/>
+  <anchor x="744" y="1473" name="U"/>
   <outline>
     <component base="LtnSmN.sc"/>
     <component base="CombAcute" xOffset="1046" yOffset="103"/>
-    <contour>
-      <point x="884" y="7" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="509" y="-76" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="744" y="1473" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

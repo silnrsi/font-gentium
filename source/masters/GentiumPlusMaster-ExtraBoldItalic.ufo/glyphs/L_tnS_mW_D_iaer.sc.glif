@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmWDiaer.sc" format="1">
+<glyph name="LtnSmWDiaer.sc" format="2">
   <advance width="1477"/>
+  <anchor x="673" y="-76" name="L"/>
+  <anchor x="908" y="1473" name="U"/>
   <outline>
     <component base="LtnSmW.sc"/>
     <component base="CombDiaer" xOffset="1244" yOffset="103"/>
-    <contour>
-      <point x="673" y="-76" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="908" y="1473" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

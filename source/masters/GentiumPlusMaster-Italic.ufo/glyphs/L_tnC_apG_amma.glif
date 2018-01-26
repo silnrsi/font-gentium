@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapGamma" format="1">
+<glyph name="LtnCapGamma" format="2">
   <advance width="1107"/>
   <unicode hex="0194"/>
+  <anchor x="490" y="-100" name="L"/>
+  <anchor x="685" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="1199" y="1217" type="curve"/>
@@ -50,12 +52,6 @@
       <point x="1054" y="1113" type="line" smooth="yes"/>
       <point x="1110" y="1195"/>
       <point x="1118" y="1202"/>
-    </contour>
-    <contour>
-      <point x="490" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="685" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

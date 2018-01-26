@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="TnStaffRt3" format="1">
+<glyph name="TnStaffRt3" format="2">
   <advance width="195"/>
+  <anchor x="-20" y="765" name="_TL"/>
   <outline>
     <component base="TnLtrBar"/>
     <component base="TnLtrSpcFlatRight"/>
-    <contour>
-      <point x="-20" y="765" type="move" name="_TL"/>
-    </contour>
   </outline>
   <lib>
     <dict>

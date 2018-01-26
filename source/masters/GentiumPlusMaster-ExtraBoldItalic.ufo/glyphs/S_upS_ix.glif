@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="SupSix" format="1">
+<glyph name="SupSix" format="2">
   <advance width="576"/>
   <unicode hex="2076"/>
+  <anchor x="296" y="540" name="L"/>
+  <anchor x="418" y="1422" name="U"/>
   <outline>
     <contour>
       <point x="604" y="1322" type="curve"/>
@@ -36,12 +38,6 @@
       <point x="205" y="832" type="curve" smooth="yes"/>
       <point x="205" y="1053"/>
       <point x="342" y="1273"/>
-    </contour>
-    <contour>
-      <point x="296" y="540" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="418" y="1422" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

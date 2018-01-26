@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrDialTonos" format="1">
+<glyph name="GrDialTonos" format="2">
   <advance width="771"/>
   <unicode hex="0385"/>
+  <anchor x="356" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="739" y="1229" type="curve"/>
@@ -41,9 +42,6 @@
       <point x="277" y="1073"/>
       <point x="283" y="1067"/>
       <point x="303" y="1061" type="curve"/>
-    </contour>
-    <contour>
-      <point x="356" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmZCircum.LP" format="1">
+<glyph name="LtnSmZCircum.LP" format="2">
   <advance width="976"/>
+  <anchor x="486" y="0" name="H"/>
+  <anchor x="486" y="-100" name="L"/>
+  <anchor x="517" y="1450" name="U"/>
   <outline>
     <component base="LtnSmZ"/>
     <component base="CombCircum.LP" xOffset="1064"/>
-    <contour>
-      <point x="486" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="486" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="517" y="1450" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

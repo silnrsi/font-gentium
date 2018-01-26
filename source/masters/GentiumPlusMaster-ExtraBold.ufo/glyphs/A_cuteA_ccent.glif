@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="AcuteAccent" format="1">
+<glyph name="AcuteAccent" format="2">
   <advance width="653"/>
   <unicode hex="00B4"/>
+  <anchor x="327" y="1410" name="U"/>
   <outline>
     <contour>
       <point x="294" y="1037" type="curve"/>
@@ -13,9 +14,6 @@
       <point x="197" y="1085" type="line"/>
       <point x="212" y="1073"/>
       <point x="270" y="1041"/>
-    </contour>
-    <contour>
-      <point x="327" y="1410" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

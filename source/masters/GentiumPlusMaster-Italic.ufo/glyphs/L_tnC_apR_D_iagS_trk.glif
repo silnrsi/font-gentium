@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapRDiagStrk" format="1">
+<glyph name="LtnCapRDiagStrk" format="2">
   <advance width="1077"/>
   <unicode hex="A7A6"/>
+  <anchor x="423" y="-100" name="L"/>
+  <anchor x="618" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="948" y="971" type="curve" smooth="yes"/>
@@ -71,12 +73,6 @@
       <point x="1059" y="986" type="line"/>
       <point x="1086" y="1004"/>
       <point x="1136" y="1043"/>
-    </contour>
-    <contour>
-      <point x="423" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="618" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

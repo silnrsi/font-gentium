@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmCapTurnedE" format="1">
+<glyph name="LtnSmCapTurnedE" format="2">
   <advance width="926"/>
   <unicode hex="2C7B"/>
+  <anchor x="418" y="-100" name="L"/>
+  <anchor x="478" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="55" y="685" type="curve"/>
@@ -57,12 +59,6 @@
       <point x="203" y="288" type="curve"/>
       <point x="124" y="288" type="line"/>
       <point x="111" y="250"/>
-    </contour>
-    <contour>
-      <point x="418" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="478" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

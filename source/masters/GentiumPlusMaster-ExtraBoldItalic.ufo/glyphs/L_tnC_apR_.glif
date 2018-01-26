@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapR" format="1">
+<glyph name="LtnCapR" format="2">
   <advance width="1167"/>
   <unicode hex="0052"/>
+  <anchor x="250" y="0" name="H"/>
+  <anchor x="473" y="-100" name="L"/>
+  <anchor x="658" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="1088" y="971" type="curve" smooth="yes"/>
@@ -59,15 +62,6 @@
       <point x="437" y="101"/>
       <point x="394" y="128"/>
       <point x="398" y="144" type="curve"/>
-    </contour>
-    <contour>
-      <point x="250" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="473" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="658" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

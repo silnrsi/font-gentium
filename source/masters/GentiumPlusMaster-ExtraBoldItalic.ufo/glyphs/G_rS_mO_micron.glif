@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmOmicron" format="1">
+<glyph name="GrSmOmicron" format="2">
   <advance width="924"/>
   <unicode hex="03BF"/>
+  <anchor x="550" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="891" y="559" type="curve" smooth="yes"/>
@@ -36,9 +37,6 @@
       <point x="488" y="789" type="curve" smooth="yes"/>
       <point x="555" y="789"/>
       <point x="628" y="676"/>
-    </contour>
-    <contour>
-      <point x="550" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

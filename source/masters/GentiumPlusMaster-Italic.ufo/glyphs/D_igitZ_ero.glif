@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="DigitZero" format="1">
+<glyph name="DigitZero" format="2">
   <advance width="823"/>
   <unicode hex="0030"/>
+  <anchor x="320" y="-100" name="L"/>
+  <anchor x="520" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="803" y="784" type="curve"/>
@@ -36,12 +38,6 @@
       <point x="477" y="1120" type="curve" smooth="yes"/>
       <point x="571" y="1120"/>
       <point x="649" y="1006"/>
-    </contour>
-    <contour>
-      <point x="320" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="520" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

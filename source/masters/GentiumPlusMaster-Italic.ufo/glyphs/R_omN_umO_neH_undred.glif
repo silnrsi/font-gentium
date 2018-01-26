@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="RomNumOneHundred" format="1">
+<glyph name="RomNumOneHundred" format="2">
   <advance width="995"/>
   <unicode hex="216D"/>
+  <anchor x="686" y="1320" name="U"/>
   <outline>
     <component base="LtnCapC"/>
-    <contour>
-      <point x="686" y="1320" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

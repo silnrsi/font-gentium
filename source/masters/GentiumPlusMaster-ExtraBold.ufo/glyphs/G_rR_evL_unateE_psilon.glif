@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrRevLunateEpsilon" format="1">
+<glyph name="GrRevLunateEpsilon" format="2">
   <advance width="959"/>
   <unicode hex="03F6"/>
+  <anchor x="481" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="275" y="-30"/>
@@ -49,9 +50,6 @@
       <point x="356" y="368" type="curve" smooth="yes"/>
       <point x="502" y="368"/>
       <point x="573" y="363"/>
-    </contour>
-    <contour>
-      <point x="481" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

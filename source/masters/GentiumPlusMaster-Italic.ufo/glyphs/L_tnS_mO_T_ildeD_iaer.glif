@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmOTildeDiaer" format="1">
+<glyph name="LtnSmOTildeDiaer" format="2">
   <advance width="864"/>
   <unicode hex="1E4F"/>
+  <anchor x="374" y="0" name="H"/>
+  <anchor x="354" y="-100" name="L"/>
+  <anchor x="429" y="0" name="O"/>
+  <anchor x="920" y="870" name="R"/>
+  <anchor x="606" y="1723" name="U"/>
   <outline>
     <component base="LtnSmO"/>
     <component base="CombTilde" xOffset="860"/>
     <component base="CombDiaer" xOffset="909" yOffset="353"/>
-    <contour>
-      <point x="374" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="354" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="429" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="920" y="870" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="606" y="1723" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="DigitEight" format="1">
+<glyph name="DigitEight" format="2">
   <advance width="968"/>
   <unicode hex="0038"/>
+  <anchor x="385" y="-100" name="L"/>
+  <anchor x="585" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="933" y="1001" type="curve" smooth="yes"/>
@@ -48,12 +50,6 @@
       <point x="627" y="666" type="line"/>
       <point x="750" y="741"/>
       <point x="933" y="840"/>
-    </contour>
-    <contour>
-      <point x="385" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="585" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapAVDigraphStrk" format="1">
+<glyph name="LtnCapAVDigraphStrk" format="2">
   <advance width="1535"/>
   <unicode hex="A73A"/>
+  <anchor x="716" y="-100" name="L"/>
+  <anchor x="884" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="1458" y="555" type="line"/>
@@ -51,12 +53,6 @@
       <point x="1045" y="425" type="line"/>
       <point x="996" y="313" type="line"/>
       <point x="976" y="425" type="line"/>
-    </contour>
-    <contour>
-      <point x="716" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="884" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

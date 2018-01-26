@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrDigamma" format="1">
+<glyph name="GrDigamma" format="2">
   <advance width="891"/>
   <unicode hex="03DC"/>
+  <anchor x="386" y="-100" name="L"/>
+  <anchor x="386" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="944" y="1235" type="curve"/>
@@ -49,12 +51,6 @@
       <point x="442" y="1194"/>
       <point x="494" y="1198"/>
       <point x="578" y="1217" type="curve"/>
-    </contour>
-    <contour>
-      <point x="386" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="386" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

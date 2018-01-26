@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmJCircum" format="1">
+<glyph name="LtnSmJCircum" format="2">
   <advance width="502"/>
   <unicode hex="0135"/>
+  <anchor x="108" y="-600" name="L"/>
+  <anchor x="400" y="1490" name="U"/>
   <outline>
     <component base="LtnSmJ.Dotless"/>
     <component base="CombCircum" xOffset="679"/>
-    <contour>
-      <point x="108" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="400" y="1490" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

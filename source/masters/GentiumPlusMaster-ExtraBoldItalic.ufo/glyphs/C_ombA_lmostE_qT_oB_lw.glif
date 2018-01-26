@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombAlmostEqToBlw" format="1">
+<glyph name="CombAlmostEqToBlw" format="2">
   <advance width="0"/>
   <unicode hex="1DFD"/>
+  <anchor x="-608" y="-600" name="L"/>
+  <anchor x="-539" y="-100" name="_L"/>
   <outline>
     <contour>
       <point x="-315" y="-405" type="curve"/>
@@ -46,12 +48,6 @@
       <point x="-514" y="-346" type="curve" smooth="yes"/>
       <point x="-449" y="-346"/>
       <point x="-354" y="-282"/>
-    </contour>
-    <contour>
-      <point x="-608" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="-539" y="-100" type="move" name="_L"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmEgAin" format="1">
+<glyph name="LtnSmEgAin" format="2">
   <advance width="467"/>
   <unicode hex="A725"/>
+  <anchor x="160" y="-100" name="L"/>
+  <anchor x="330" y="1000" name="U"/>
   <outline>
     <contour>
       <point x="247" y="931" type="curve"/>
@@ -21,12 +23,6 @@
       <point x="420" y="873" type="line"/>
       <point x="400" y="887"/>
       <point x="283" y="930"/>
-    </contour>
-    <contour>
-      <point x="160" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="330" y="1000" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapGheUpturn" format="1">
+<glyph name="CyCapGheUpturn" format="2">
   <advance width="973"/>
   <unicode hex="0490"/>
+  <anchor x="488" y="-100" name="L"/>
+  <anchor x="488" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="50" y="0" type="line"/>
@@ -37,12 +39,6 @@
       <point x="894" y="1545" type="line"/>
       <point x="837" y="1364"/>
       <point x="774" y="1260"/>
-    </contour>
-    <contour>
-      <point x="488" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="488" y="1370" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

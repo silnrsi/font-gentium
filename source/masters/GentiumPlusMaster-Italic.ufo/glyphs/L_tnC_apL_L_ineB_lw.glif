@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapLLineBlw" format="1">
+<glyph name="LtnCapLLineBlw" format="2">
   <advance width="918"/>
   <unicode hex="1E3A"/>
+  <anchor x="415" y="0" name="H"/>
+  <anchor x="325" y="-600" name="L"/>
+  <anchor x="750" y="870" name="R"/>
+  <anchor x="557" y="1320" name="U"/>
   <outline>
     <component base="LtnCapL"/>
     <component base="CombMacronBlw" xOffset="897"/>
-    <contour>
-      <point x="415" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="325" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="750" y="870" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="557" y="1320" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

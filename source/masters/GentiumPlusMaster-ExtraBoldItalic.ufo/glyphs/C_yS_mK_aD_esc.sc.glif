@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmKaDesc.sc" format="1">
+<glyph name="CySmKaDesc.sc" format="2">
   <advance width="1087"/>
+  <anchor x="496" y="-76" name="L"/>
+  <anchor x="659" y="1103" name="U"/>
   <outline>
     <contour>
       <point x="647" y="557" type="line"/>
@@ -117,12 +119,6 @@
       <point x="869" y="94"/>
       <point x="855" y="124" type="curve"/>
       <point x="855" y="123" type="line"/>
-    </contour>
-    <contour>
-      <point x="496" y="-76" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="659" y="1103" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

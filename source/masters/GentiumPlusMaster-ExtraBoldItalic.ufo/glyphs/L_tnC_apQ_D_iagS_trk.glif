@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapQDiagStrk" format="1">
+<glyph name="LtnCapQDiagStrk" format="2">
   <advance width="1737"/>
   <unicode hex="A758"/>
+  <anchor x="505" y="-270" name="L"/>
+  <anchor x="660" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="1180" y="774" type="curve" smooth="yes"/>
@@ -75,12 +77,6 @@
       <point x="948" y="-98" type="line" smooth="yes"/>
       <point x="1448" y="163"/>
       <point x="1659" y="320"/>
-    </contour>
-    <contour>
-      <point x="505" y="-270" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="660" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

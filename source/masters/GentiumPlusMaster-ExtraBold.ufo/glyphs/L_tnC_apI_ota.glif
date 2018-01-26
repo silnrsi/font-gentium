@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapIota" format="1">
+<glyph name="LtnCapIota" format="2">
   <advance width="713"/>
   <unicode hex="0196"/>
+  <anchor x="361" y="-100" name="L"/>
+  <anchor x="361" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="565" y="36"/>
@@ -27,12 +29,6 @@
       <point x="243" y="-30"/>
       <point x="373" y="-30" type="curve" smooth="yes"/>
       <point x="465" y="-30"/>
-    </contour>
-    <contour>
-      <point x="361" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="361" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

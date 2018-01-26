@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmYHook.sc" format="1">
+<glyph name="LtnSmYHook.sc" format="2">
   <advance width="1255"/>
+  <anchor x="644" y="-76" name="L"/>
+  <anchor x="784" y="1103" name="U"/>
   <outline>
     <contour>
       <point x="870" y="49" type="line"/>
@@ -58,12 +60,6 @@
       <point x="446" y="49" type="curve"/>
       <point x="439" y="0" type="line"/>
       <point x="863" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="644" y="-76" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="784" y="1103" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

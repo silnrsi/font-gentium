@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnVcdLrynglSpirant" format="1">
+<glyph name="LtnVcdLrynglSpirant" format="2">
   <advance width="895"/>
   <unicode hex="1D24"/>
+  <anchor x="385" y="-100" name="L"/>
+  <anchor x="584" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="791" y="365" type="line"/>
@@ -66,12 +68,6 @@
       <point x="812" y="310"/>
       <point x="813" y="320"/>
       <point x="813" y="335" type="curve"/>
-    </contour>
-    <contour>
-      <point x="385" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="584" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

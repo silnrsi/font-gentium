@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmAe.2StorySItal" format="1">
+<glyph name="LtnSmAe.2StorySItal" format="2">
   <advance width="1266"/>
+  <anchor x="598" y="-5" name="H"/>
+  <anchor x="570" y="-100" name="L"/>
+  <anchor x="872" y="-3" name="O"/>
+  <anchor x="1348" y="870" name="R"/>
+  <anchor x="726" y="1000" name="U"/>
   <outline>
     <contour>
       <point x="1209" y="539" type="curve"/>
@@ -86,21 +91,6 @@
       <point x="551" y="359" type="line" smooth="yes"/>
       <point x="526" y="186"/>
       <point x="659" y="204"/>
-    </contour>
-    <contour>
-      <point x="598" y="-5" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="570" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="872" y="-3" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="1348" y="870" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="726" y="1000" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

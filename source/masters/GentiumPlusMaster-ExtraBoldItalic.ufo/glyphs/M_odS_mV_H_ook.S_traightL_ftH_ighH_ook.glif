@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmVHook.StraightLftHighHook" format="1">
+<glyph name="ModSmVHook.StraightLftHighHook" format="2">
   <advance width="686"/>
-  <outline>
-    <contour>
-      <point x="329" y="548" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="425" y="1208" type="move" name="U"/>
-    </contour>
-  </outline>
+  <anchor x="329" y="548" name="L"/>
+  <anchor x="425" y="1208" name="U"/>
+  <outline/>
 </glyph>

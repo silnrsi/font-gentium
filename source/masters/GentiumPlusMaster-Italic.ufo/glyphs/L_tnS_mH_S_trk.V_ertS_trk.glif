@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmHStrk.VertStrk" format="1">
+<glyph name="LtnSmHStrk.VertStrk" format="2">
   <advance width="1012"/>
+  <anchor x="424" y="-100" name="L"/>
+  <anchor x="663" y="1640" name="U"/>
   <outline>
     <component base="LtnSmHStrk"/>
-    <contour>
-      <point x="424" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="663" y="1640" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

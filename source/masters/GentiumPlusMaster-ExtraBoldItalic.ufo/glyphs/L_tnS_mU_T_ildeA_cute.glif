@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmUTildeAcute" format="1">
+<glyph name="LtnSmUTildeAcute" format="2">
   <advance width="1127"/>
   <unicode hex="1E79"/>
+  <anchor x="435" y="0" name="H"/>
+  <anchor x="482" y="-100" name="L"/>
+  <anchor x="849" y="0" name="O"/>
+  <anchor x="1170" y="870" name="R"/>
+  <anchor x="733" y="1723" name="U"/>
   <outline>
     <component base="LtnSmU"/>
     <component base="CombTilde" xOffset="1021"/>
     <component base="CombAcute" xOffset="1068" yOffset="353"/>
-    <contour>
-      <point x="435" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="482" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="849" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="1170" y="870" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="733" y="1723" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmDLineBlw" format="1">
+<glyph name="LtnSmDLineBlw" format="2">
   <advance width="969"/>
   <unicode hex="1E0F"/>
+  <anchor x="388" y="0" name="H"/>
+  <anchor x="306" y="-600" name="L"/>
+  <anchor x="962" y="870" name="R"/>
+  <anchor x="354" y="1000" name="U"/>
   <outline>
     <component base="LtnSmD"/>
     <component base="CombMacronBlw" xOffset="878"/>
-    <contour>
-      <point x="388" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="306" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="962" y="870" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="354" y="1000" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

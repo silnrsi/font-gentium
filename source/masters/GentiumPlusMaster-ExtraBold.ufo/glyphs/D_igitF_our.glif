@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="DigitFour" format="1">
+<glyph name="DigitFour" format="2">
   <advance width="1061"/>
   <unicode hex="0034"/>
+  <anchor x="530" y="-100" name="L"/>
+  <anchor x="530" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="956" y="407"/>
@@ -34,12 +36,6 @@
       <point x="565" y="960" type="line"/>
       <point x="565" y="480" type="line"/>
       <point x="263" y="480" type="line"/>
-    </contour>
-    <contour>
-      <point x="530" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="530" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

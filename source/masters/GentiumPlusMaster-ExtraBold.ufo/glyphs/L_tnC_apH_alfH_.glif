@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapHalfH" format="1">
+<glyph name="LtnCapHalfH" format="2">
   <advance width="973"/>
   <unicode hex="2C75"/>
+  <anchor x="330" y="0" name="H"/>
+  <anchor x="378" y="-100" name="L"/>
+  <anchor x="406" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="913" y="647"/>
@@ -36,15 +39,6 @@
       <point x="640" y="83" type="line"/>
       <point x="514" y="109"/>
       <point x="465" y="128"/>
-    </contour>
-    <contour>
-      <point x="330" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="378" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="406" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

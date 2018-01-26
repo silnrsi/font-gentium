@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapOTildeMacron" format="1">
+<glyph name="LtnCapOTildeMacron" format="2">
   <advance width="1191"/>
   <unicode hex="022C"/>
+  <anchor x="540" y="0" name="H"/>
+  <anchor x="545" y="-100" name="L"/>
+  <anchor x="616" y="0" name="O"/>
+  <anchor x="1248" y="1072" name="R"/>
+  <anchor x="817" y="1960" name="U"/>
   <outline>
     <component base="LtnCapO"/>
     <component base="CombTilde.LP" xOffset="1084" yOffset="320"/>
     <component base="CombMacron.LP" xOffset="1171" yOffset="640"/>
-    <contour>
-      <point x="540" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="545" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="616" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="1248" y="1072" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="817" y="1960" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

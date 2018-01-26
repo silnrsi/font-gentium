@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapTresillo" format="1">
+<glyph name="LtnCapTresillo" format="2">
   <advance width="862"/>
   <unicode hex="A72A"/>
+  <anchor x="397" y="-100" name="L"/>
+  <anchor x="592" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="375" y="986" type="line"/>
@@ -46,12 +48,6 @@
       <point x="621" y="620"/>
       <point x="681" y="677"/>
       <point x="701" y="717" type="curve"/>
-    </contour>
-    <contour>
-      <point x="397" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="592" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

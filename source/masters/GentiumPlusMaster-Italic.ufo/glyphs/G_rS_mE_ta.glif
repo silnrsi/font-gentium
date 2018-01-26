@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmEta" format="1">
+<glyph name="GrSmEta" format="2">
   <advance width="1006"/>
   <unicode hex="03B7"/>
+  <anchor x="158" y="-100" name="L"/>
+  <anchor x="600" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="895" y="762" type="curve"/>
@@ -58,12 +60,6 @@
       <point x="792" y="39" type="curve" smooth="yes"/>
       <point x="835" y="307"/>
       <point x="895" y="682"/>
-    </contour>
-    <contour>
-      <point x="158" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="600" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

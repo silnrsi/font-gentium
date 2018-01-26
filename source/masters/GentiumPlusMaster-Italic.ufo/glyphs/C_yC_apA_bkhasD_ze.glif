@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapAbkhasDze" format="1">
+<glyph name="CyCapAbkhasDze" format="2">
   <advance width="959"/>
   <unicode hex="04E0"/>
+  <anchor x="430" y="-100" name="L"/>
+  <anchor x="621" y="1320" name="U"/>
   <outline>
     <component base="LtnCapEzh"/>
-    <contour>
-      <point x="430" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="621" y="1320" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

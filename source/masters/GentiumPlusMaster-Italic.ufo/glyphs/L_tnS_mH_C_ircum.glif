@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmHCircum" format="1">
+<glyph name="LtnSmHCircum" format="2">
   <advance width="1012"/>
   <unicode hex="0125"/>
+  <anchor x="167" y="0" name="H"/>
+  <anchor x="424" y="-100" name="L"/>
+  <anchor x="452" y="1995" name="U"/>
   <outline>
     <contour>
       <point x="969" y="72" type="curve"/>
@@ -77,15 +80,6 @@
       <point x="641" y="1606" type="line"/>
       <point x="662" y="1616"/>
       <point x="668" y="1624"/>
-    </contour>
-    <contour>
-      <point x="167" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="424" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="452" y="1995" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapHaStrk" format="1">
+<glyph name="CyCapHaStrk" format="2">
   <advance width="1171"/>
   <unicode hex="04FE"/>
+  <anchor x="519" y="-100" name="L"/>
+  <anchor x="713" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="1092" y="43" type="line"/>
@@ -58,12 +60,6 @@
       <point x="200" y="637" type="curve"/>
       <point x="219" y="615" type="line"/>
       <point x="993" y="615" type="line"/>
-    </contour>
-    <contour>
-      <point x="519" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="713" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

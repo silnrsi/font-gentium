@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmUHornGrave.LP" format="1">
+<glyph name="LtnSmUHornGrave.LP" format="2">
   <advance width="1108"/>
+  <anchor x="430" y="-100" name="L"/>
+  <anchor x="624" y="1320" name="U"/>
   <outline>
     <component base="LtnSmU"/>
     <component base="CombHorn" xOffset="1020"/>
     <component base="CombGrave.LP" xOffset="856"/>
-    <contour>
-      <point x="430" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="624" y="1320" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

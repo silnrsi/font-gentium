@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapYeru" format="1">
+<glyph name="CyCapYeru" format="2">
   <advance width="1377"/>
   <unicode hex="042B"/>
+  <anchor x="626" y="-100" name="L"/>
+  <anchor x="830" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="886" y="356" type="curve"/>
@@ -74,12 +76,6 @@
       <point x="978" y="61"/>
       <point x="894" y="43" type="curve"/>
       <point x="889" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="626" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="830" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

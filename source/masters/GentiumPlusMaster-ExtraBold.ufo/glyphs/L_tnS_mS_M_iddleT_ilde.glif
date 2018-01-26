@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmSMiddleTilde" format="1">
+<glyph name="LtnSmSMiddleTilde" format="2">
   <advance width="921"/>
   <unicode hex="1D74"/>
+  <anchor x="463" y="-100" name="L"/>
+  <anchor x="463" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="836" y="0"/>
@@ -68,12 +70,6 @@
       <point x="330" y="-30"/>
       <point x="423" y="-30" type="curve" smooth="yes"/>
       <point x="551" y="-30"/>
-    </contour>
-    <contour>
-      <point x="463" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="463" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

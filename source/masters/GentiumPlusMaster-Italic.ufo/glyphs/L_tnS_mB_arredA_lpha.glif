@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmBarredAlpha" format="1">
+<glyph name="LtnSmBarredAlpha" format="2">
   <advance width="942"/>
   <unicode hex="AB30"/>
+  <anchor x="420" y="-100" name="L"/>
+  <anchor x="570" y="1000" name="U"/>
   <outline>
     <contour>
       <point x="921" y="68" type="curve"/>
@@ -73,12 +75,6 @@
       <point x="-26" y="442" type="curve"/>
       <point x="-7" y="420" type="line"/>
       <point x="867" y="420" type="line"/>
-    </contour>
-    <contour>
-      <point x="420" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="570" y="1000" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

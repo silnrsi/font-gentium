@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmGhe.Serb" format="1">
+<glyph name="CySmGhe.Serb" format="2">
   <advance width="848"/>
+  <anchor x="441" y="-100" name="L"/>
+  <anchor x="441" y="1050" name="U"/>
   <outline>
     <component base="CySmGhe"/>
-    <contour>
-      <point x="441" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="441" y="1050" type="move" name="U"/>
-    </contour>
   </outline>
   <lib>
     <dict>

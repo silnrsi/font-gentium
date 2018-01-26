@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapHBreveBlw" format="1">
+<glyph name="LtnCapHBreveBlw" format="2">
   <advance width="1419"/>
   <unicode hex="1E2A"/>
+  <anchor x="320" y="0" name="H"/>
+  <anchor x="700" y="-600" name="L"/>
+  <anchor x="700" y="1370" name="U"/>
   <outline>
     <component base="LtnCapH"/>
     <component base="CombBreveBlw" xOffset="1248"/>
-    <contour>
-      <point x="320" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="700" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="700" y="1370" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

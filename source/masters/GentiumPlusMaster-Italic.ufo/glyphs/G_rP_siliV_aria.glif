@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrPsiliVaria" format="1">
+<glyph name="GrPsiliVaria" format="2">
   <advance width="631"/>
   <unicode hex="1FCD"/>
+  <anchor x="378" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="383" y="1331" type="curve"/>
@@ -32,9 +33,6 @@
       <point x="594" y="1063" type="line"/>
       <point x="616" y="1062"/>
       <point x="626" y="1067"/>
-    </contour>
-    <contour>
-      <point x="378" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

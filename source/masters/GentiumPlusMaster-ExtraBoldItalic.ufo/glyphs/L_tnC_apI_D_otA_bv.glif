@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapIDotAbv" format="1">
+<glyph name="LtnCapIDotAbv" format="2">
   <advance width="652"/>
   <unicode hex="0130"/>
+  <anchor x="269" y="0" name="H"/>
+  <anchor x="250" y="-100" name="L"/>
+  <anchor x="324" y="0" name="O"/>
+  <anchor x="648" y="1072" name="R"/>
+  <anchor x="479" y="1640" name="U"/>
   <outline>
     <component base="LtnCapI"/>
     <component base="CombDotAbv.LP" xOffset="824" yOffset="320"/>
-    <contour>
-      <point x="269" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="250" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="324" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="648" y="1072" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="479" y="1640" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmGheUpturn.sc" format="1">
+<glyph name="CySmGheUpturn.sc" format="2">
   <advance width="823"/>
+  <anchor x="375" y="-76" name="L"/>
+  <anchor x="532" y="1103" name="U"/>
   <outline>
     <contour>
       <point x="431" y="0" type="line"/>
@@ -36,12 +38,6 @@
       <point x="831" y="1125"/>
       <point x="766" y="1041"/>
       <point x="734" y="1041" type="curve"/>
-    </contour>
-    <contour>
-      <point x="375" y="-76" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="532" y="1103" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

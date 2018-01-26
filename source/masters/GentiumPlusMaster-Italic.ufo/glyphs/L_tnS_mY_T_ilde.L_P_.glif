@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmYTilde.LP" format="1">
+<glyph name="LtnSmYTilde.LP" format="2">
   <advance width="926"/>
+  <anchor x="620" y="-100" name="L"/>
+  <anchor x="988" y="870" name="R"/>
+  <anchor x="609" y="1320" name="U"/>
   <outline>
     <component base="LtnSmY"/>
     <component base="CombTilde.LP" xOffset="920"/>
-    <contour>
-      <point x="620" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="988" y="870" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="609" y="1320" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

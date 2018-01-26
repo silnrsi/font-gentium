@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTurnedRLngLegHook" format="1">
+<glyph name="LtnSmTurnedRLngLegHook" format="2">
   <advance width="925"/>
   <unicode hex="F269"/>
+  <anchor x="467" y="-600" name="L"/>
+  <anchor x="777" y="1640" name="U"/>
   <outline>
     <contour>
       <point x="1078" y="-143" type="curve"/>
@@ -57,12 +59,6 @@
       <point x="587" y="-500" type="curve" smooth="yes"/>
       <point x="779" y="-500"/>
       <point x="1062" y="-334"/>
-    </contour>
-    <contour>
-      <point x="467" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="777" y="1640" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

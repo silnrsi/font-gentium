@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmInsularS.sc" format="1">
+<glyph name="LtnSmInsularS.sc" format="2">
   <advance width="943"/>
+  <anchor x="293" y="-491" name="L"/>
+  <anchor x="530" y="1103" name="U"/>
   <outline>
     <contour>
       <point x="989" y="979" type="line"/>
@@ -60,12 +62,6 @@
       <point x="962" y="928"/>
       <point x="980" y="958"/>
       <point x="991" y="968" type="curve"/>
-    </contour>
-    <contour>
-      <point x="293" y="-491" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="530" y="1103" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

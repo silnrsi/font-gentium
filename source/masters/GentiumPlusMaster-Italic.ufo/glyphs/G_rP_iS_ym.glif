@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrPiSym" format="1">
+<glyph name="GrPiSym" format="2">
   <advance width="1370"/>
   <unicode hex="03D6"/>
+  <anchor x="620" y="-100" name="L"/>
+  <anchor x="810" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="1297" y="451" type="curve" smooth="yes"/>
@@ -76,12 +78,6 @@
       <point x="887" y="-41" type="curve" smooth="yes"/>
       <point x="1076" y="-41"/>
       <point x="1255" y="151"/>
-    </contour>
-    <contour>
-      <point x="620" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="810" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

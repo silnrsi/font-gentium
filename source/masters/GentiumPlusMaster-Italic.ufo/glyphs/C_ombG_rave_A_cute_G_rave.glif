@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombGrave_Acute_Grave" format="1">
+<glyph name="CombGrave_Acute_Grave" format="2">
   <advance width="0"/>
   <unicode hex="1DC8"/>
+  <anchor x="-354" y="1000" name="_U"/>
   <outline>
     <contour>
       <point x="-245" y="1216" type="line"/>
@@ -18,9 +19,6 @@
       <point x="-648" y="1313" type="curve"/>
       <point x="-501" y="1041" type="line"/>
       <point x="-415" y="1041" type="line"/>
-    </contour>
-    <contour>
-      <point x="-354" y="1000" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

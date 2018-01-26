@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapVYDigraph" format="1">
+<glyph name="LtnCapVYDigraph" format="2">
   <advance width="1741"/>
   <unicode hex="A760"/>
+  <anchor x="881" y="-600" name="L"/>
+  <anchor x="881" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1289" y="-266"/>
@@ -49,12 +51,6 @@
       <point x="791" y="-430"/>
       <point x="893" y="-430" type="curve" smooth="yes"/>
       <point x="1109" y="-430"/>
-    </contour>
-    <contour>
-      <point x="881" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="881" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

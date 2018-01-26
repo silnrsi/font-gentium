@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapZPalHook" format="1">
+<glyph name="LtnCapZPalHook" format="2">
   <advance width="1078"/>
   <unicode hex="F234"/>
+  <anchor x="452" y="-600" name="L"/>
+  <anchor x="670" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="1100" y="1207" type="line"/>
@@ -50,12 +52,6 @@
       <point x="588" y="-155" type="curve"/>
       <point x="530" y="-166"/>
       <point x="415" y="-239"/>
-    </contour>
-    <contour>
-      <point x="452" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="670" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

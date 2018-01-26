@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapTCommaBlw" format="1">
+<glyph name="LtnCapTCommaBlw" format="2">
   <advance width="1067"/>
   <unicode hex="021A"/>
+  <anchor x="461" y="0" name="H"/>
+  <anchor x="379" y="-600" name="L"/>
+  <anchor x="641" y="1320" name="U"/>
   <outline>
     <component base="LtnCapT"/>
     <component base="CombCommaBlw" xOffset="954"/>
-    <contour>
-      <point x="461" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="379" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="641" y="1320" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

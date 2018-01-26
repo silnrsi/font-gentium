@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapVend" format="1">
+<glyph name="LtnCapVend" format="2">
   <advance width="999"/>
   <unicode hex="A768"/>
+  <anchor x="127" y="-600" name="L"/>
+  <anchor x="612" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="1084" y="1217" type="curve"/>
@@ -35,12 +37,6 @@
       <point x="936" y="1151" type="line"/>
       <point x="953" y="1188"/>
       <point x="1001" y="1200"/>
-    </contour>
-    <contour>
-      <point x="127" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="612" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

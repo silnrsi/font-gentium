@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapZSwashTail" format="1">
+<glyph name="LtnCapZSwashTail" format="2">
   <advance width="1022"/>
   <unicode hex="2C7F"/>
+  <anchor x="367" y="-600" name="L"/>
+  <anchor x="639" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="1024" y="1214" type="line"/>
@@ -40,12 +42,6 @@
       <point x="307" y="110"/>
       <point x="281" y="114"/>
       <point x="252" y="114" type="curve"/>
-    </contour>
-    <contour>
-      <point x="367" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="639" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapAfricanD" format="1">
+<glyph name="LtnCapAfricanD" format="2">
   <advance width="1238"/>
   <unicode hex="0189"/>
+  <anchor x="464" y="-100" name="L"/>
+  <anchor x="659" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="742" y="690" type="line"/>
@@ -46,12 +48,6 @@
       <point x="534" y="1171" type="line"/>
       <point x="554" y="1172"/>
       <point x="574" y="1176"/>
-    </contour>
-    <contour>
-      <point x="464" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="659" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

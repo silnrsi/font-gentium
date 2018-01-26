@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrPeris.Por" format="1">
+<glyph name="GrPeris.Por" format="2">
   <advance width="635"/>
+  <anchor x="411" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="89" y="1110" type="curve"/>
@@ -21,9 +22,6 @@
       <point x="432" y="1355" type="curve" smooth="yes"/>
       <point x="308" y="1355"/>
       <point x="189" y="1262"/>
-    </contour>
-    <contour>
-      <point x="411" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

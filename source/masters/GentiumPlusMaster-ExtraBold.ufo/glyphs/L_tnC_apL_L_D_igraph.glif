@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapLLDigraph" format="1">
+<glyph name="LtnCapLLDigraph" format="2">
   <advance width="1555"/>
   <unicode hex="1EFA"/>
+  <anchor x="811" y="0" name="H"/>
+  <anchor x="811" y="-100" name="L"/>
+  <anchor x="1236" y="900" name="R"/>
+  <anchor x="805" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1524" y="209"/>
@@ -47,18 +51,6 @@
       <point x="507" y="1150"/>
       <point x="571" y="1167" type="curve"/>
       <point x="637" y="1150"/>
-    </contour>
-    <contour>
-      <point x="811" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="811" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="1236" y="900" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="805" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

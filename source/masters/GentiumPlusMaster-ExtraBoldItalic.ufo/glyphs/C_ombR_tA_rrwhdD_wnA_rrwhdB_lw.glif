@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombRtArrwhdDwnArrwhdBlw" format="1">
+<glyph name="CombRtArrwhdDwnArrwhdBlw" format="2">
   <advance width="0"/>
   <unicode hex="1DFF"/>
+  <anchor x="-612" y="-600" name="L"/>
+  <anchor x="-544" y="-100" name="_L"/>
   <outline>
     <contour>
       <point x="-502" y="-303" type="line"/>
@@ -43,12 +45,6 @@
       <point x="-513" y="-442" type="line"/>
       <point x="-501" y="-420"/>
       <point x="-475" y="-359"/>
-    </contour>
-    <contour>
-      <point x="-612" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="-544" y="-100" type="move" name="_L"/>
     </contour>
   </outline>
 </glyph>

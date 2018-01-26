@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapHDesc" format="1">
+<glyph name="LtnCapHDesc" format="2">
   <advance width="1220"/>
   <unicode hex="2C67"/>
+  <anchor x="536" y="-100" name="L"/>
+  <anchor x="734" y="1320" name="U"/>
   <outline>
     <component base="CyCapEnDesc"/>
-    <contour>
-      <point x="536" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="734" y="1320" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

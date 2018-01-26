@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmRRotunda" format="1">
+<glyph name="LtnSmRRotunda" format="2">
   <advance width="825"/>
   <unicode hex="A75B"/>
+  <anchor x="414" y="-100" name="L"/>
+  <anchor x="418" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="776" y="430"/>
@@ -46,12 +48,6 @@
       <point x="691" y="115"/>
       <point x="660" y="126"/>
       <point x="615" y="161" type="curve"/>
-    </contour>
-    <contour>
-      <point x="414" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="418" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

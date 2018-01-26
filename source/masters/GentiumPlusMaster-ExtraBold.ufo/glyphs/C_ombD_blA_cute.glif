@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombDblAcute" format="1">
+<glyph name="CombDblAcute" format="2">
   <advance width="0"/>
   <unicode hex="030B"/>
+  <anchor x="-533" y="1588" name="U"/>
+  <anchor x="-533" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="-364" y="1037" type="curve"/>
@@ -24,12 +26,6 @@
       <point x="-791" y="1084" type="line"/>
       <point x="-765" y="1068"/>
       <point x="-716" y="1042"/>
-    </contour>
-    <contour>
-      <point x="-533" y="1588" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="-533" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

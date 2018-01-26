@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrDialPeris" format="1">
+<glyph name="GrDialPeris" format="2">
   <advance width="772"/>
   <unicode hex="1FC1"/>
+  <anchor x="269" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="795" y="1272" type="curve" smooth="yes"/>
@@ -52,9 +53,6 @@
       <point x="622" y="1441" type="curve" smooth="yes"/>
       <point x="756" y="1441"/>
       <point x="856" y="1598"/>
-    </contour>
-    <contour>
-      <point x="269" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

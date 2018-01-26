@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapBLftMidHook" format="1">
+<glyph name="LtnCapBLftMidHook" format="2">
   <advance width="1406"/>
   <unicode hex="A796"/>
+  <anchor x="736" y="-100" name="L"/>
+  <anchor x="736" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1306" y="129"/>
@@ -78,12 +80,6 @@
       <point x="154" y="482" type="curve" smooth="yes"/>
       <point x="154" y="579"/>
       <point x="246" y="620"/>
-    </contour>
-    <contour>
-      <point x="736" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="736" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

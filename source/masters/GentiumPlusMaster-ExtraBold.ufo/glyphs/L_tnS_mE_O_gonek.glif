@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmEOgonek" format="1">
+<glyph name="LtnSmEOgonek" format="2">
   <advance width="1006"/>
   <unicode hex="0119"/>
+  <anchor x="508" y="-600" name="L"/>
+  <anchor x="510" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="817" y="-369"/>
@@ -64,12 +66,6 @@
       <point x="644" y="580" type="curve" smooth="yes"/>
       <point x="342" y="580" type="line"/>
       <point x="353" y="739"/>
-    </contour>
-    <contour>
-      <point x="508" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="510" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmAOgonek.SngStory.sc" format="1">
+<glyph name="LtnSmAOgonek.SngStory.sc" format="2">
   <advance width="1146"/>
+  <anchor x="940" y="7" name="H"/>
+  <anchor x="852" y="-593" name="L"/>
+  <anchor x="563" y="1145" name="U"/>
   <outline>
     <component base="LtnSmA.sc"/>
     <component base="CombOgonek" xOffset="1399" yOffset="7"/>
-    <contour>
-      <point x="940" y="7" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="852" y="-593" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="563" y="1145" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

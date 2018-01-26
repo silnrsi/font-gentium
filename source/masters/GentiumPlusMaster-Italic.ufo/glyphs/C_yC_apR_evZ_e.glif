@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapRevZe" format="1">
+<glyph name="CyCapRevZe" format="2">
   <advance width="903"/>
   <unicode hex="0510"/>
+  <anchor x="416" y="-100" name="L"/>
+  <anchor x="614" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="755" y="88" type="curve"/>
@@ -58,12 +60,6 @@
       <point x="396" y="-30" type="curve" smooth="yes"/>
       <point x="535" y="-30"/>
       <point x="665" y="21"/>
-    </contour>
-    <contour>
-      <point x="416" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="614" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

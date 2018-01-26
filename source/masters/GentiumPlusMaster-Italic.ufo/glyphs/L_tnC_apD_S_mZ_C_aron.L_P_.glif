@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapDSmZCaron.LP" format="1">
+<glyph name="LtnCapDSmZCaron.LP" format="2">
   <advance width="1894"/>
+  <anchor x="1465" y="-100" name="L"/>
+  <anchor x="1660" y="1320" name="U"/>
   <outline>
     <component base="LtnCapD"/>
     <component base="LtnSmZ" xOffset="1118"/>
     <component base="CombCaron.LP" xOffset="1973"/>
-    <contour>
-      <point x="1465" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="1660" y="1320" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

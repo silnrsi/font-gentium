@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapBe" format="1">
+<glyph name="CyCapBe" format="2">
   <advance width="1266"/>
   <unicode hex="0411"/>
+  <anchor x="600" y="-100" name="L"/>
+  <anchor x="600" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1166" y="129"/>
@@ -66,12 +68,6 @@
       <point x="911" y="890" type="curve"/>
       <point x="1008" y="890" type="line"/>
       <point x="1024" y="941"/>
-    </contour>
-    <contour>
-      <point x="600" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="600" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

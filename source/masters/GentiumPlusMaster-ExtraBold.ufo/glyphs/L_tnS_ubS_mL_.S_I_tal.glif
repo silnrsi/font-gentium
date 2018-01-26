@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSubSmL.SItal" format="1">
+<glyph name="LtnSubSmL.SItal" format="2">
   <advance width="654"/>
+  <anchor x="229" y="-260" name="L"/>
+  <anchor x="229" y="814" name="U"/>
   <outline>
     <contour>
       <point x="50" y="-200" type="line"/>
@@ -22,12 +24,6 @@
       <point x="131" y="-117"/>
       <point x="125" y="-128"/>
       <point x="50" y="-140" type="curve"/>
-    </contour>
-    <contour>
-      <point x="229" y="-260" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="229" y="814" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

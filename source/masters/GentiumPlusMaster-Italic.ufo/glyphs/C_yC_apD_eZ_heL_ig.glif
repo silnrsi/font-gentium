@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapDeZheLig" format="1">
+<glyph name="CyCapDeZheLig" format="2">
   <advance width="2054"/>
   <unicode hex="052A"/>
+  <anchor x="1025" y="-100" name="L"/>
+  <anchor x="1209" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="646" y="1170" type="curve"/>
@@ -121,12 +123,6 @@
       <point x="1805" y="-14" type="curve" smooth="yes"/>
       <point x="1852" y="-14"/>
       <point x="1944" y="30"/>
-    </contour>
-    <contour>
-      <point x="1025" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="1209" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

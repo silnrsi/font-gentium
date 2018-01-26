@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModAcuteAccent.LP" format="1">
+<glyph name="ModAcuteAccent.LP" format="2">
   <advance width="606"/>
+  <anchor x="399" y="1320" name="U"/>
+  <anchor x="355" y="1000" name="_U"/>
   <outline>
     <component base="AcuteAccent.LP" xOffset="-12"/>
-    <contour>
-      <point x="399" y="1320" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="355" y="1000" type="move" name="_U"/>
-    </contour>
   </outline>
 </glyph>

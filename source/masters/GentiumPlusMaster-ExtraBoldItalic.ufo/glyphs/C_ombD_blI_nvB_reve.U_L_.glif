@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombDblInvBreve.UL" format="1">
+<glyph name="CombDblInvBreve.UL" format="2">
   <advance width="646"/>
+  <anchor x="440" y="1320" name="U"/>
+  <anchor x="-49" y="1000" name="_U"/>
   <outline>
     <component base="CombInvBreve.UL"/>
-    <contour>
-      <point x="440" y="1320" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="-49" y="1000" type="move" name="_U"/>
-    </contour>
   </outline>
 </glyph>

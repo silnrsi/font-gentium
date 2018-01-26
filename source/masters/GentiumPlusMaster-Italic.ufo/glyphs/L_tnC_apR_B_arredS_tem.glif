@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapRBarredStem" format="1">
+<glyph name="LtnCapRBarredStem" format="2">
   <advance width="1077"/>
   <unicode hex="024C"/>
+  <anchor x="416" y="-100" name="L"/>
+  <anchor x="614" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="948" y="971" type="curve" smooth="yes"/>
@@ -65,12 +67,6 @@
       <point x="38" y="610" type="curve"/>
       <point x="57" y="588" type="line"/>
       <point x="291" y="588" type="line"/>
-    </contour>
-    <contour>
-      <point x="416" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="614" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

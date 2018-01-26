@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombDwnTackBlw" format="1">
+<glyph name="CombDwnTackBlw" format="2">
   <advance width="0"/>
   <unicode hex="031E"/>
+  <anchor x="-608" y="-600" name="L"/>
+  <anchor x="-539" y="-100" name="_L"/>
   <outline>
     <contour>
       <point x="-311" y="-160" type="curve"/>
@@ -26,12 +28,6 @@
       <point x="-638" y="-550" type="line"/>
       <point x="-614" y="-544"/>
       <point x="-554" y="-514"/>
-    </contour>
-    <contour>
-      <point x="-608" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="-539" y="-100" type="move" name="_L"/>
     </contour>
   </outline>
 </glyph>

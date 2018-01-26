@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmDe.Serb" format="1">
+<glyph name="CySmDe.Serb" format="2">
   <advance width="977"/>
+  <anchor x="328" y="-600" name="L"/>
+  <anchor x="540" y="1000" name="U"/>
   <outline>
     <component base="LtnSmG"/>
-    <contour>
-      <point x="328" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="540" y="1000" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

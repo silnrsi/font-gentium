@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmCapSmRHookTail" format="1">
+<glyph name="LtnSmCapSmRHookTail" format="2">
   <advance width="741"/>
+  <anchor x="253" y="-491" name="L"/>
+  <anchor x="477" y="1103" name="U"/>
   <outline>
     <contour>
       <point x="217" y="-87" type="curve" smooth="yes"/>
@@ -71,12 +73,6 @@
       <point x="319" y="-217" type="curve" smooth="yes"/>
       <point x="256" y="-217"/>
       <point x="217" y="-182"/>
-    </contour>
-    <contour>
-      <point x="253" y="-491" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="477" y="1103" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

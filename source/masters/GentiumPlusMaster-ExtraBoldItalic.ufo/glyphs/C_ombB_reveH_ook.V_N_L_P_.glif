@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombBreveHook.VNLP" format="1">
+<glyph name="CombBreveHook.VNLP" format="2">
   <advance width="0"/>
+  <anchor x="-281" y="1733" name="U"/>
+  <anchor x="-387" y="1000" name="_U"/>
   <outline>
     <contour>
       <point x="-4" y="1335" type="curve"/>
@@ -54,12 +56,6 @@
       <point x="-291" y="1388" type="curve" smooth="yes"/>
       <point x="-291" y="1455"/>
       <point x="-107" y="1485"/>
-    </contour>
-    <contour>
-      <point x="-281" y="1733" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="-387" y="1000" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

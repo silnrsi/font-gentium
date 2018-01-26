@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnLigSmFSmL.SItal" format="1">
+<glyph name="LtnLigSmFSmL.SItal" format="2">
   <advance width="990"/>
+  <anchor x="618" y="-90" name="L"/>
+  <anchor x="1065" y="910" name="R"/>
+  <anchor x="794" y="1650" name="U"/>
   <outline>
     <contour>
       <point x="947" y="1454" type="curve" smooth="yes"/>
@@ -67,15 +70,6 @@
       <point x="652" y="103"/>
       <point x="543" y="83" type="curve"/>
       <point x="531" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="618" y="-90" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="1065" y="910" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="794" y="1650" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

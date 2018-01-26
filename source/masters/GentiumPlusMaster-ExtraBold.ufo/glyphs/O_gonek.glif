@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ogonek" format="1">
+<glyph name="Ogonek" format="2">
   <advance width="530"/>
   <unicode hex="02DB"/>
+  <anchor x="289" y="-600" name="L"/>
   <outline>
     <contour>
       <point x="487" y="-369"/>
@@ -24,9 +25,6 @@
       <point x="159" y="-444"/>
       <point x="232" y="-444" type="curve" smooth="yes"/>
       <point x="359" y="-444"/>
-    </contour>
-    <contour>
-      <point x="289" y="-600" type="move" name="L"/>
     </contour>
   </outline>
 </glyph>

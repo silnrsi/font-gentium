@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapURingAbv" format="1">
+<glyph name="LtnCapURingAbv" format="2">
   <advance width="1379"/>
   <unicode hex="016E"/>
+  <anchor x="697" y="0" name="H"/>
+  <anchor x="697" y="-100" name="L"/>
+  <anchor x="784" y="0" name="O"/>
+  <anchor x="1380" y="1100" name="R"/>
+  <anchor x="697" y="1810" name="U"/>
   <outline>
     <component base="LtnCapU"/>
     <component base="CombRingAbv" xOffset="1245" yOffset="320"/>
-    <contour>
-      <point x="697" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="697" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="784" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="1380" y="1100" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="697" y="1810" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmSquatRevEsh" format="1">
+<glyph name="LtnSmSquatRevEsh" format="2">
   <advance width="864"/>
   <unicode hex="0285"/>
+  <anchor x="642" y="-600" name="L"/>
+  <anchor x="450" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="710" y="-299"/>
@@ -42,12 +44,6 @@
       <point x="891" y="-375"/>
       <point x="817" y="-375" type="curve" smooth="yes"/>
       <point x="741" y="-375"/>
-    </contour>
-    <contour>
-      <point x="642" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="450" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

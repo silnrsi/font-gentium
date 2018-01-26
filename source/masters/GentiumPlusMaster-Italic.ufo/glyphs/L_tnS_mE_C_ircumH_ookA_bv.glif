@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmECircumHookAbv" format="1">
+<glyph name="LtnSmECircumHookAbv" format="2">
   <advance width="805"/>
   <unicode hex="1EC3"/>
+  <anchor x="358" y="0" name="H"/>
+  <anchor x="344" y="-100" name="L"/>
+  <anchor x="408" y="0" name="O"/>
+  <anchor x="884" y="870" name="R"/>
+  <anchor x="627" y="1810" name="U"/>
   <outline>
     <component base="LtnSmE"/>
     <component base="CombCircum" xOffset="862"/>
     <component base="CombHookAbv" xOffset="943" yOffset="490"/>
-    <contour>
-      <point x="358" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="344" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="408" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="884" y="870" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="627" y="1810" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

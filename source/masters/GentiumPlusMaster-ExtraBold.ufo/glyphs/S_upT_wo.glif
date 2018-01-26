@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="SupTwo" format="1">
+<glyph name="SupTwo" format="2">
   <advance width="723"/>
   <unicode hex="00B2"/>
+  <anchor x="373" y="550" name="L"/>
+  <anchor x="373" y="1410" name="U"/>
   <outline>
     <contour>
       <point x="659" y="620" type="line"/>
@@ -34,12 +36,6 @@
       <point x="381" y="993"/>
       <point x="55" y="664" type="curve"/>
       <point x="75" y="620" type="line"/>
-    </contour>
-    <contour>
-      <point x="373" y="550" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="373" y="1410" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

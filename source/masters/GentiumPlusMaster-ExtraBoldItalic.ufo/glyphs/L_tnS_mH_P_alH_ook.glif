@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmHPalHook" format="1">
+<glyph name="LtnSmHPalHook" format="2">
   <advance width="1097"/>
   <unicode hex="A795"/>
+  <anchor x="165" y="0" name="H"/>
+  <anchor x="406" y="-600" name="L"/>
+  <anchor x="700" y="1580" name="U"/>
   <outline>
     <contour>
       <point x="1074" y="122" type="curve"/>
@@ -100,15 +103,6 @@
       <point x="685" y="-155" type="curve"/>
       <point x="627" y="-166"/>
       <point x="512" y="-239"/>
-    </contour>
-    <contour>
-      <point x="165" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="406" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="700" y="1580" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmPHook" format="1">
+<glyph name="LtnSmPHook" format="2">
   <advance width="1071"/>
   <unicode hex="01A5"/>
+  <anchor x="341" y="-600" name="L"/>
+  <anchor x="657" y="1640" name="U"/>
   <outline>
     <contour>
       <point x="1011" y="1393" type="curve"/>
@@ -69,12 +71,6 @@
       <point x="846" y="158" type="curve" smooth="yes"/>
       <point x="916" y="269"/>
       <point x="985" y="463"/>
-    </contour>
-    <contour>
-      <point x="341" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="657" y="1640" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

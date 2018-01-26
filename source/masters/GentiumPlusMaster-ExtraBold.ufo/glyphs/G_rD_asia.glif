@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrDasia" format="1">
+<glyph name="GrDasia" format="2">
   <advance width="448"/>
   <unicode hex="1FFE"/>
+  <anchor x="229" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="34" y="1442"/>
@@ -21,9 +22,6 @@
       <point x="193" y="1594"/>
       <point x="147" y="1591" type="curve"/>
       <point x="64" y="1533"/>
-    </contour>
-    <contour>
-      <point x="229" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

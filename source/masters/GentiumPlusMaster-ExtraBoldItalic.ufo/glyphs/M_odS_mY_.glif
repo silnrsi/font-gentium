@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmY" format="1">
+<glyph name="ModSmY" format="2">
   <advance width="642"/>
   <unicode hex="02B8"/>
+  <anchor x="278" y="258" name="L"/>
+  <anchor x="732" y="1060" name="R"/>
+  <anchor x="411" y="1216" name="U"/>
   <outline>
     <contour>
       <point x="422" y="649" type="line"/>
@@ -61,15 +64,6 @@
       <point x="446" y="657" type="curve" smooth="yes"/>
       <point x="628" y="964"/>
       <point x="692" y="1070"/>
-    </contour>
-    <contour>
-      <point x="278" y="258" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="732" y="1060" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="411" y="1216" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

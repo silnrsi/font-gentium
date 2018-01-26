@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmUAcute.LP" format="1">
+<glyph name="LtnSmUAcute.LP" format="2">
   <advance width="1175"/>
+  <anchor x="532" y="0" name="H"/>
+  <anchor x="588" y="-100" name="L"/>
+  <anchor x="886" y="0" name="O"/>
+  <anchor x="1275" y="900" name="R"/>
+  <anchor x="588" y="1370" name="U"/>
   <outline>
     <component base="LtnSmU"/>
     <component base="CombAcute.LP" xOffset="1164"/>
-    <contour>
-      <point x="532" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="588" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="886" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="1275" y="900" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="588" y="1370" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

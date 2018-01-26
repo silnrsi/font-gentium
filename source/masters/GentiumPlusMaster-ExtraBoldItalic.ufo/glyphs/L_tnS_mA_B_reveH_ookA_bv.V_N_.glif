@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmABreveHookAbv.VN" format="1">
+<glyph name="LtnSmABreveHookAbv.VN" format="2">
   <advance width="1007"/>
+  <anchor x="385" y="0" name="H"/>
+  <anchor x="442" y="-100" name="L"/>
+  <anchor x="755" y="0" name="O"/>
+  <anchor x="1184" y="870" name="R"/>
+  <anchor x="698" y="1733" name="U"/>
   <outline>
     <component base="LtnSmA"/>
     <component base="CombBreveHook.VN" xOffset="979"/>
-    <contour>
-      <point x="385" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="442" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="755" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="1184" y="870" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="698" y="1733" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

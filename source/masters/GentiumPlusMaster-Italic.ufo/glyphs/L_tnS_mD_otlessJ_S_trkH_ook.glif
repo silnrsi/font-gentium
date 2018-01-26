@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmDotlessJStrkHook" format="1">
+<glyph name="LtnSmDotlessJStrkHook" format="2">
   <advance width="622"/>
   <unicode hex="0284"/>
+  <anchor x="196" y="-600" name="L"/>
+  <anchor x="532" y="1640" name="U"/>
   <outline>
     <contour>
       <point x="206" y="0" type="curve" smooth="yes"/>
@@ -62,12 +64,6 @@
       <point x="64" y="602" type="curve"/>
       <point x="83" y="580" type="line"/>
       <point x="617" y="580" type="line"/>
-    </contour>
-    <contour>
-      <point x="196" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="532" y="1640" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

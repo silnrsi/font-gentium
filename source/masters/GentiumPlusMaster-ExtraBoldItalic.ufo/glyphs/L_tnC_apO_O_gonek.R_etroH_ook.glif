@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapOOgonek.RetroHook" format="1">
+<glyph name="LtnCapOOgonek.RetroHook" format="2">
   <advance width="1191"/>
+  <anchor x="540" y="0" name="H"/>
+  <anchor x="512" y="-600" name="L"/>
+  <anchor x="616" y="0" name="O"/>
+  <anchor x="1248" y="1072" name="R"/>
+  <anchor x="729" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="1180" y="774" type="curve" smooth="yes"/>
@@ -64,21 +69,6 @@
       <point x="597" y="-500" type="curve" smooth="yes"/>
       <point x="744" y="-500"/>
       <point x="905" y="-298"/>
-    </contour>
-    <contour>
-      <point x="540" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="512" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="616" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="1248" y="1072" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="729" y="1320" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapGheStrkHook" format="1">
+<glyph name="CyCapGheStrkHook" format="2">
   <advance width="973"/>
   <unicode hex="04FA"/>
+  <anchor x="488" y="-600" name="L"/>
+  <anchor x="488" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="924" y="1167"/>
@@ -73,12 +75,6 @@
       <point x="256" y="-200"/>
       <point x="251" y="-194" type="curve"/>
       <point x="209" y="-210"/>
-    </contour>
-    <contour>
-      <point x="488" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="488" y="1370" type="move" name="U"/>
     </contour>
   </outline>
   <lib>

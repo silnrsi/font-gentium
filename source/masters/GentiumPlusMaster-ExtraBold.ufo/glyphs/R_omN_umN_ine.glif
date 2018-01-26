@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="RomNumNine" format="1">
+<glyph name="RomNumNine" format="2">
   <advance width="1870"/>
   <unicode hex="2168"/>
+  <anchor x="950" y="1370" name="U"/>
   <outline>
     <component base="LtnCapI"/>
     <component base="LtnCapX" xOffset="610"/>
-    <contour>
-      <point x="950" y="1370" type="move" name="U"/>
-    </contour>
   </outline>
   <lib>
     <dict>

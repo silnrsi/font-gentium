@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmKhakasChe" format="1">
+<glyph name="CySmKhakasChe" format="2">
   <advance width="961"/>
   <unicode hex="04CC"/>
+  <anchor x="304" y="-600" name="L"/>
+  <anchor x="529" y="1000" name="U"/>
   <outline>
     <contour>
       <point x="598" y="143" type="curve" smooth="yes"/>
@@ -74,12 +76,6 @@
       <point x="473" y="-98"/>
       <point x="549" y="0"/>
       <point x="642" y="31" type="curve"/>
-    </contour>
-    <contour>
-      <point x="304" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="529" y="1000" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

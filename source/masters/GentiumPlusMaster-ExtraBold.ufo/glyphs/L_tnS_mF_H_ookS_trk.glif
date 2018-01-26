@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmFHookStrk" format="1">
+<glyph name="LtnSmFHookStrk" format="2">
   <advance width="715"/>
   <unicode hex="A799"/>
+  <anchor x="325" y="0" name="H"/>
+  <anchor x="325" y="-100" name="L"/>
+  <anchor x="500" y="1620" name="U"/>
   <outline>
     <contour>
       <point x="641" y="790" type="line"/>
@@ -53,15 +56,6 @@
       <point x="675" y="1349"/>
       <point x="738" y="1263" type="curve"/>
       <point x="777" y="1282"/>
-    </contour>
-    <contour>
-      <point x="325" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="325" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="500" y="1620" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

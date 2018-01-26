@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapFita" format="1">
+<glyph name="CyCapFita" format="2">
   <advance width="1228"/>
   <unicode hex="0472"/>
+  <anchor x="604" y="-100" name="L"/>
+  <anchor x="604" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1138" y="285"/>
@@ -34,12 +36,6 @@
       <point x="979" y="705" type="curve"/>
       <point x="227" y="705" type="line"/>
       <point x="244" y="994"/>
-    </contour>
-    <contour>
-      <point x="604" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="604" y="1370" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
