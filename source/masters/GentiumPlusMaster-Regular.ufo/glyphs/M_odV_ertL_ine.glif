@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModVertLine" format="2">
+  <advance width="420.0"/>
+  <unicode hex="02C8"/>
+  <outline>
+    <contour>
+      <point x="243.0" y="1028.0"/>
+      <point x="270.0" y="1041.0" type="curve"/>
+      <point x="270.0" y="1626.0" type="line"/>
+      <point x="243.0" y="1650.0" type="line"/>
+      <point x="217.0" y="1644.0"/>
+      <point x="173.0" y="1630.0"/>
+      <point x="150.0" y="1620.0" type="curve"/>
+      <point x="150.0" y="1032.0" type="line"/>
+      <point x="175.0" y="1010.0" type="line"/>
+      <point x="201.0" y="1016.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

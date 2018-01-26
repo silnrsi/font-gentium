@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapOCircumAcute.VN" format="1">
+  <advance width="1116"/>
+  <outline>
+    <component base="LtnCapO"/>
+    <component base="CombCircumAcute.VNLP" xOffset="1052" yOffset="320"/>
+    <contour>
+      <point x="500" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="505" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="560" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="1202" y="1072" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="744" y="1640" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

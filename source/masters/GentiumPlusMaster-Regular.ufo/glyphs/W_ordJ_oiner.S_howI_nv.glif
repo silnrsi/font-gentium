@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="WordJoiner.ShowInv" format="2">
+  <advance width="3536.0"/>
+  <anchor x="1200.0" y="900.0" name="C11"/>
+  <anchor x="650.0" y="900.0" name="C13"/>
+  <anchor x="1200.0" y="900.0" name="C23"/>
+  <anchor x="1750.0" y="900.0" name="C33"/>
+  <anchor x="1200.0" y="526.0" name="L11"/>
+  <anchor x="826.0" y="526.0" name="L12"/>
+  <anchor x="650.0" y="526.0" name="L13"/>
+  <anchor x="1552.0" y="526.0" name="L22"/>
+  <anchor x="1200.0" y="526.0" name="L23"/>
+  <anchor x="1750.0" y="526.0" name="L33"/>
+  <anchor x="1200.0" y="1252.0" name="U11"/>
+  <anchor x="826.0" y="1252.0" name="U12"/>
+  <anchor x="650.0" y="1252.0" name="U13"/>
+  <anchor x="1552.0" y="1252.0" name="U22"/>
+  <anchor x="1200.0" y="1252.0" name="U23"/>
+  <anchor x="1750.0" y="1252.0" name="U33"/>
+  <outline>
+    <component base="BoxDotted"/>
+    <component base="LtnCapW.Sophia" xOffset="468.0" yOffset="634.0"/>
+    <component base="LtnCapJ.Sophia" xOffset="1350.0" yOffset="639.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

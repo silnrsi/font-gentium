@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapSDotAbv" format="2">
+  <advance width="975.0"/>
+  <unicode hex="1E60"/>
+  <anchor x="480.0" y="0.0" name="H"/>
+  <anchor x="500.0" y="-100.0" name="L"/>
+  <anchor x="500.0" y="1690.0" name="U"/>
+  <outline>
+    <component base="LtnCapS"/>
+    <component base="CombDotAbv.LP" xOffset="1015.0" yOffset="320.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

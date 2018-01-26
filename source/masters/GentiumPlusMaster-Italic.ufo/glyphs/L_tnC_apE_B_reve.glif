@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapEBreve" format="1">
+  <advance width="946"/>
+  <unicode hex="0114"/>
+  <outline>
+    <component base="LtnCapE"/>
+    <component base="CombBreve" xOffset="945" yOffset="320"/>
+    <contour>
+      <point x="411" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="397" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="621" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="972" y="1072" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="635" y="1640" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

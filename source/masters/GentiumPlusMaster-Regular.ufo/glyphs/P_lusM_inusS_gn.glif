@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="PlusMinusSgn" format="2">
+  <advance width="840.0"/>
+  <unicode hex="00B1"/>
+  <outline>
+    <contour>
+      <point x="772.0" y="666.0"/>
+      <point x="778.0" y="693.0" type="curve"/>
+      <point x="754.0" y="717.0" type="line"/>
+      <point x="92.0" y="717.0" type="line"/>
+      <point x="80.0" y="691.0"/>
+      <point x="68.0" y="658.0"/>
+      <point x="61.0" y="631.0" type="curve"/>
+      <point x="86.0" y="607.0" type="line"/>
+      <point x="748.0" y="607.0" type="line"/>
+      <point x="758.0" y="629.0"/>
+    </contour>
+    <contour>
+      <point x="451.0" y="328.0"/>
+      <point x="477.0" y="341.0" type="curve"/>
+      <point x="477.0" y="992.0" type="line"/>
+      <point x="453.0" y="1015.0" type="line"/>
+      <point x="424.0" y="1008.0"/>
+      <point x="387.0" y="994.0"/>
+      <point x="362.0" y="986.0" type="curve"/>
+      <point x="362.0" y="332.0" type="line"/>
+      <point x="387.0" y="310.0" type="line"/>
+      <point x="416.0" y="316.0"/>
+    </contour>
+    <contour>
+      <point x="772.0" y="194.0"/>
+      <point x="778.0" y="221.0" type="curve"/>
+      <point x="754.0" y="245.0" type="line"/>
+      <point x="92.0" y="245.0" type="line"/>
+      <point x="80.0" y="219.0"/>
+      <point x="68.0" y="186.0"/>
+      <point x="61.0" y="159.0" type="curve"/>
+      <point x="86.0" y="135.0" type="line"/>
+      <point x="748.0" y="135.0" type="line"/>
+      <point x="758.0" y="157.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

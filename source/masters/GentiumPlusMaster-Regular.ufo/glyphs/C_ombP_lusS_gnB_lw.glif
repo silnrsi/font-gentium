@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombPlusSgnBlw" format="2">
+  <unicode hex="031F"/>
+  <anchor x="-525.0" y="-600.0" name="L"/>
+  <anchor x="-525.0" y="-100.0" name="_L"/>
+  <outline>
+    <contour>
+      <point x="-278.0" y="-293.0"/>
+      <point x="-273.0" y="-277.0" type="curve"/>
+      <point x="-290.0" y="-262.0" type="line"/>
+      <point x="-754.0" y="-262.0" type="line"/>
+      <point x="-762.0" y="-278.0"/>
+      <point x="-770.0" y="-319.0"/>
+      <point x="-775.0" y="-335.0" type="curve"/>
+      <point x="-758.0" y="-349.0" type="line"/>
+      <point x="-294.0" y="-349.0" type="line"/>
+      <point x="-287.0" y="-336.0"/>
+    </contour>
+    <contour>
+      <point x="-492.0" y="-509.0"/>
+      <point x="-474.0" y="-501.0" type="curve"/>
+      <point x="-474.0" y="-105.0" type="line"/>
+      <point x="-491.0" y="-91.0" type="line"/>
+      <point x="-511.0" y="-95.0"/>
+      <point x="-557.0" y="-104.0"/>
+      <point x="-575.0" y="-108.0" type="curve"/>
+      <point x="-575.0" y="-507.0" type="line"/>
+      <point x="-557.0" y="-520.0" type="line"/>
+      <point x="-537.0" y="-516.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombCaronBlw" format="2">
+  <unicode hex="032C"/>
+  <anchor x="-514.0" y="-600.0" name="L"/>
+  <anchor x="-514.0" y="-100.0" name="_L"/>
+  <outline>
+    <contour>
+      <point x="-460.0" y="-480.0" type="line"/>
+      <point x="-198.0" y="-173.0" type="line"/>
+      <point x="-214.0" y="-146.0"/>
+      <point x="-218.0" y="-138.0"/>
+      <point x="-241.0" y="-126.0" type="curve"/>
+      <point x="-511.0" y="-337.0" type="line"/>
+      <point x="-786.0" y="-126.0" type="line"/>
+      <point x="-808.0" y="-138.0"/>
+      <point x="-812.0" y="-146.0"/>
+      <point x="-831.0" y="-173.0" type="curve"/>
+      <point x="-567.0" y="-480.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

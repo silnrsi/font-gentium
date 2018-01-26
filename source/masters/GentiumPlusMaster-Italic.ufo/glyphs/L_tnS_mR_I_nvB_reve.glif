@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmRInvBreve" format="1">
+  <advance width="727"/>
+  <unicode hex="0213"/>
+  <outline>
+    <component base="LtnSmR"/>
+    <component base="CombInvBreve" xOffset="814"/>
+    <contour>
+      <point x="175" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="164" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="504" y="1320" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

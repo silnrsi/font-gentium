@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SupEqSgn" format="2">
+  <advance width="629.0"/>
+  <unicode hex="207C"/>
+  <outline>
+    <contour>
+      <point x="582.0" y="1060.0"/>
+      <point x="587.0" y="1076.0" type="curve"/>
+      <point x="569.0" y="1091.0" type="line"/>
+      <point x="64.0" y="1091.0" type="line"/>
+      <point x="56.0" y="1076.0"/>
+      <point x="48.0" y="1034.0"/>
+      <point x="43.0" y="1018.0" type="curve"/>
+      <point x="60.0" y="1003.0" type="line"/>
+      <point x="566.0" y="1003.0" type="line"/>
+      <point x="572.0" y="1017.0"/>
+    </contour>
+    <contour>
+      <point x="582.0" y="880.0"/>
+      <point x="587.0" y="896.0" type="curve"/>
+      <point x="569.0" y="911.0" type="line"/>
+      <point x="64.0" y="911.0" type="line"/>
+      <point x="56.0" y="895.0"/>
+      <point x="48.0" y="855.0"/>
+      <point x="43.0" y="839.0" type="curve"/>
+      <point x="60.0" y="822.0" type="line"/>
+      <point x="566.0" y="822.0" type="line"/>
+      <point x="572.0" y="837.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

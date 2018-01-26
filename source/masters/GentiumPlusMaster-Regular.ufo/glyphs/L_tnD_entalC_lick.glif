@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnDentalClick" format="2">
+  <advance width="450.0"/>
+  <unicode hex="01C0"/>
+  <anchor x="225.0" y="-600.0" name="L"/>
+  <anchor x="225.0" y="1690.0" name="U"/>
+  <outline>
+    <contour>
+      <point x="271.0" y="-469.0"/>
+      <point x="295.0" y="-448.0" type="curve"/>
+      <point x="295.0" y="1528.0" type="line"/>
+      <point x="259.0" y="1550.0" type="line"/>
+      <point x="220.0" y="1540.0"/>
+      <point x="192.0" y="1523.0"/>
+      <point x="155.0" y="1501.0" type="curve"/>
+      <point x="155.0" y="-477.0" type="line"/>
+      <point x="190.0" y="-500.0" type="line"/>
+      <point x="223.0" y="-489.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

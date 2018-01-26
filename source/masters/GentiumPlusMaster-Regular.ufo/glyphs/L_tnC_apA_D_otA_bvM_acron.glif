@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapADotAbvMacron" format="2">
+  <advance width="1219.0"/>
+  <unicode hex="01E0"/>
+  <anchor x="1000.0" y="0.0" name="H"/>
+  <anchor x="599.0" y="-100.0" name="L"/>
+  <anchor x="960.0" y="0.0" name="O"/>
+  <anchor x="599.0" y="2090.0" name="U"/>
+  <outline>
+    <component base="LtnCapA"/>
+    <component base="DotAbv" xOffset="399.0" yOffset="320.0"/>
+    <component base="CombMacron" xOffset="1124.0" yOffset="320.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:44</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModShortEqSgn" format="2">
+  <advance width="677.0"/>
+  <unicode hex="A78A"/>
+  <outline>
+    <contour>
+      <point x="610.0" y="597.0"/>
+      <point x="617.0" y="623.0" type="curve"/>
+      <point x="592.0" y="648.0" type="line"/>
+      <point x="91.0" y="648.0" type="line"/>
+      <point x="79.0" y="623.0"/>
+      <point x="67.0" y="587.0"/>
+      <point x="60.0" y="560.0" type="curve"/>
+      <point x="85.0" y="535.0" type="line"/>
+      <point x="588.0" y="535.0" type="line"/>
+      <point x="596.0" y="558.0"/>
+    </contour>
+    <contour>
+      <point x="610.0" y="336.0"/>
+      <point x="617.0" y="364.0" type="curve"/>
+      <point x="592.0" y="389.0" type="line"/>
+      <point x="91.0" y="389.0" type="line"/>
+      <point x="79.0" y="362.0"/>
+      <point x="67.0" y="328.0"/>
+      <point x="60.0" y="301.0" type="curve"/>
+      <point x="85.0" y="274.0" type="line"/>
+      <point x="588.0" y="274.0" type="line"/>
+      <point x="596.0" y="299.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

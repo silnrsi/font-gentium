@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombMacronBlw" format="2">
+  <unicode hex="0331"/>
+  <anchor x="-515.0" y="-600.0" name="L"/>
+  <anchor x="-515.0" y="-100.0" name="_L"/>
+  <outline>
+    <contour>
+      <point x="-183.0" y="-258.0"/>
+      <point x="-177.0" y="-229.0" type="curve"/>
+      <point x="-199.0" y="-205.0" type="line"/>
+      <point x="-812.0" y="-205.0" type="line"/>
+      <point x="-825.0" y="-231.0"/>
+      <point x="-847.0" y="-281.0"/>
+      <point x="-853.0" y="-310.0" type="curve"/>
+      <point x="-831.0" y="-335.0" type="line"/>
+      <point x="-216.0" y="-335.0" type="line"/>
+      <point x="-206.0" y="-310.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

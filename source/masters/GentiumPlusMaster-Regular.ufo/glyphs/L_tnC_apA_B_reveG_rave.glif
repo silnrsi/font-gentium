@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapABreveGrave" format="2">
+  <advance width="1219.0"/>
+  <unicode hex="1EB0"/>
+  <anchor x="599.0" y="0.0" name="H"/>
+  <anchor x="599.0" y="-100.0" name="L"/>
+  <anchor x="960.0" y="0.0" name="O"/>
+  <anchor x="599.0" y="2010.0" name="U"/>
+  <outline>
+    <component base="LtnCapA"/>
+    <component base="CombBreve" xOffset="1114.0" yOffset="320.0"/>
+    <component base="CombGrave.LP" xOffset="1032.0" yOffset="640.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

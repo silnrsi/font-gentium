@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmACircumTilde.2StorySItal" format="1">
+  <advance width="860"/>
+  <outline>
+    <component base="LtnSmA.2StorySItal"/>
+    <component base="CombCircum" xOffset="856"/>
+    <component base="CombTilde" xOffset="932" yOffset="490"/>
+    <contour>
+      <point x="374" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="376" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="688" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="904" y="870" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="626" y="1843" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

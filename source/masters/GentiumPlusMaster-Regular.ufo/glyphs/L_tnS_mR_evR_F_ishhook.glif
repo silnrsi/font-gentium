@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmRevRFishhook" format="2">
+  <advance width="680.0"/>
+  <unicode hex="027F"/>
+  <anchor x="500.0" y="-600.0" name="L"/>
+  <anchor x="364.0" y="1050.0" name="U"/>
+  <outline>
+    <contour>
+      <point x="149.0" y="904.0"/>
+      <point x="65.0" y="803.0" type="curve"/>
+      <point x="40.0" y="788.0"/>
+      <point x="75.0" y="678.0"/>
+      <point x="108.0" y="606.0" type="curve"/>
+      <point x="151.0" y="606.0" type="line"/>
+      <point x="164.0" y="701.0"/>
+      <point x="206.0" y="840.0"/>
+      <point x="306.0" y="840.0" type="curve" smooth="yes"/>
+      <point x="375.0" y="840.0"/>
+      <point x="440.0" y="802.0"/>
+      <point x="440.0" y="666.0" type="curve" smooth="yes"/>
+      <point x="440.0" y="-376.0" type="line" smooth="yes"/>
+      <point x="440.0" y="-396.0"/>
+      <point x="396.0" y="-419.0"/>
+      <point x="271.0" y="-437.0" type="curve"/>
+      <point x="271.0" y="-480.0" type="line"/>
+      <point x="730.0" y="-480.0" type="line"/>
+      <point x="730.0" y="-437.0" type="line"/>
+      <point x="642.0" y="-417.0"/>
+      <point x="590.0" y="-398.0"/>
+      <point x="590.0" y="-376.0" type="curve" smooth="yes"/>
+      <point x="590.0" y="726.0" type="line" smooth="yes"/>
+      <point x="590.0" y="945.0"/>
+      <point x="450.0" y="960.0"/>
+      <point x="378.0" y="960.0" type="curve" smooth="yes"/>
+      <point x="285.0" y="960.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

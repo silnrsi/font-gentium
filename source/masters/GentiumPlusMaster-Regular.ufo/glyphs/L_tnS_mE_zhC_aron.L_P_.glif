@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmEzhCaron.LP" format="2">
+  <advance width="920.0"/>
+  <anchor x="424.0" y="-600.0" name="L"/>
+  <anchor x="460.0" y="1370.0" name="U"/>
+  <outline>
+    <component base="LtnSmEzh"/>
+    <component base="CombCaron.LP" xOffset="974.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

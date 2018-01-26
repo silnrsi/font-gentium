@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapOmegaWDasiaVariaPros" format="2">
+  <advance width="2575.0"/>
+  <unicode hex="1FAB"/>
+  <outline>
+    <component base="GrCapOmega" xOffset="675.0"/>
+    <component base="GrDasiaVaria" yOffset="-100.0"/>
+    <component base="GrPros" xOffset="1971.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="RtMidCurlyBrac" format="2">
+  <advance width="1200.0"/>
+  <unicode hex="23AC"/>
+  <outline>
+    <contour>
+      <point x="675.0" y="-950.0" type="line"/>
+      <point x="675.0" y="-360.0" type="line"/>
+      <point x="675.0" y="390.0"/>
+      <point x="730.0" y="700.0"/>
+      <point x="1060.0" y="700.0" type="curve" smooth="yes"/>
+      <point x="1150.0" y="700.0" type="line"/>
+      <point x="1150.0" y="800.0" type="line"/>
+      <point x="1060.0" y="800.0" type="line" smooth="yes"/>
+      <point x="570.0" y="800.0"/>
+      <point x="525.0" y="400.0"/>
+      <point x="525.0" y="-350.0" type="curve" smooth="yes"/>
+      <point x="525.0" y="-950.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="675.0" y="1860.0" type="curve" smooth="yes"/>
+      <point x="675.0" y="2600.0" type="line"/>
+      <point x="525.0" y="2600.0" type="line"/>
+      <point x="525.0" y="1850.0" type="line" smooth="yes"/>
+      <point x="525.0" y="1100.0"/>
+      <point x="570.0" y="700.0"/>
+      <point x="1060.0" y="700.0" type="curve" smooth="yes"/>
+      <point x="1150.0" y="700.0" type="line"/>
+      <point x="1150.0" y="800.0" type="line"/>
+      <point x="1060.0" y="800.0" type="line" smooth="yes"/>
+      <point x="730.0" y="800.0"/>
+      <point x="675.0" y="1110.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

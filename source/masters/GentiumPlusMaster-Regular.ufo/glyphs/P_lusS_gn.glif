@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="PlusSgn" format="2">
+  <advance width="840.0"/>
+  <unicode hex="002B"/>
+  <outline>
+    <contour>
+      <point x="772.0" y="566.0"/>
+      <point x="778.0" y="593.0" type="curve"/>
+      <point x="754.0" y="617.0" type="line"/>
+      <point x="92.0" y="617.0" type="line"/>
+      <point x="80.0" y="591.0"/>
+      <point x="68.0" y="558.0"/>
+      <point x="61.0" y="531.0" type="curve"/>
+      <point x="86.0" y="507.0" type="line"/>
+      <point x="748.0" y="507.0" type="line"/>
+      <point x="758.0" y="529.0"/>
+    </contour>
+    <contour>
+      <point x="451.0" y="223.0"/>
+      <point x="477.0" y="236.0" type="curve"/>
+      <point x="477.0" y="897.0" type="line"/>
+      <point x="453.0" y="920.0" type="line"/>
+      <point x="424.0" y="913.0"/>
+      <point x="387.0" y="899.0"/>
+      <point x="362.0" y="891.0" type="curve"/>
+      <point x="362.0" y="227.0" type="line"/>
+      <point x="387.0" y="205.0" type="line"/>
+      <point x="416.0" y="211.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

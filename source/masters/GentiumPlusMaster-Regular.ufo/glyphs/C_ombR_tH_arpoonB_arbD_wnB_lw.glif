@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombRtHarpoonBarbDwnBlw" format="2">
+  <unicode hex="20EC"/>
+  <anchor x="-516.0" y="-600.0" name="L"/>
+  <anchor x="-516.0" y="-100.0" name="_L"/>
+  <outline>
+    <contour>
+      <point x="-219.0" y="-255.0" type="line"/>
+      <point x="-769.0" y="-255.0" type="line"/>
+      <point x="-783.0" y="-282.0"/>
+      <point x="-790.0" y="-294.0"/>
+      <point x="-798.0" y="-321.0" type="curve"/>
+      <point x="-775.0" y="-345.0" type="line"/>
+      <point x="-358.0" y="-345.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-219.0" y="-255.0" type="line"/>
+      <point x="-357.0" y="-300.0" type="line"/>
+      <point x="-464.0" y="-475.0" type="line"/>
+      <point x="-408.0" y="-500.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

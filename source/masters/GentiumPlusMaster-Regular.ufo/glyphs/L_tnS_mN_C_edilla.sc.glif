@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmNCedilla.sc" format="2">
+  <advance width="1249.0"/>
+  <anchor x="981.0" y="7.0" name="H"/>
+  <anchor x="625.0" y="-576.0" name="L"/>
+  <anchor x="625.0" y="1145.0" name="U"/>
+  <outline>
+    <component base="LtnSmN.sc"/>
+    <component base="CombCommaBlw" xOffset="1145.0" yOffset="24.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

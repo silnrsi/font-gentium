@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapHBreveBlw" format="1">
+  <advance width="1235"/>
+  <unicode hex="1E2A"/>
+  <outline>
+    <component base="LtnCapH"/>
+    <component base="CombBreveBlw" xOffset="1055"/>
+    <contour>
+      <point x="216" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="473" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="737" y="1320" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

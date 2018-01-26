@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmDCaron" format="2">
+  <advance width="1282.0"/>
+  <unicode hex="010F"/>
+  <anchor x="820.0" y="0.0" name="H"/>
+  <anchor x="525.0" y="-100.0" name="L"/>
+  <anchor x="495.0" y="1050.0" name="U"/>
+  <outline>
+    <component base="LtnSmD"/>
+    <component base="CombCommaAbvRt" xOffset="1065.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

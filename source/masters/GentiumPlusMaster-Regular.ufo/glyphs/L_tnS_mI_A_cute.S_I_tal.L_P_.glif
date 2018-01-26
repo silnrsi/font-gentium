@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmIAcute.SItal.LP" format="2">
+  <advance width="555.0"/>
+  <anchor x="285.0" y="0.0" name="H"/>
+  <anchor x="285.0" y="-100.0" name="L"/>
+  <anchor x="335.0" y="0.0" name="O"/>
+  <anchor x="555.0" y="900.0" name="R"/>
+  <anchor x="285.0" y="1370.0" name="U"/>
+  <outline>
+    <component base="LtnSmDotlessI.SItal"/>
+    <component base="CombAcute.LP" xOffset="828.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

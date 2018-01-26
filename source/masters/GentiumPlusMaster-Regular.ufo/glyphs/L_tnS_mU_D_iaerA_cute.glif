@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmUDiaerAcute" format="2">
+  <advance width="1085.0"/>
+  <unicode hex="01D8"/>
+  <anchor x="546.0" y="0.0" name="H"/>
+  <anchor x="545.0" y="-100.0" name="L"/>
+  <anchor x="860.0" y="0.0" name="O"/>
+  <anchor x="1084.0" y="900.0" name="R"/>
+  <anchor x="545.0" y="1770.0" name="U"/>
+  <outline>
+    <component base="LtnSmU"/>
+    <component base="CombDiaer" xOffset="1060.0"/>
+    <component base="CombAcute" xOffset="1088.0" yOffset="360.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

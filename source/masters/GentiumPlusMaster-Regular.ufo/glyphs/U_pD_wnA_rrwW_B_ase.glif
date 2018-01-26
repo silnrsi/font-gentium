@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="UpDwnArrwWBase" format="2">
+  <advance width="1000.0"/>
+  <unicode hex="21A8"/>
+  <outline>
+    <contour>
+      <point x="26.0" y="-437.0" type="line"/>
+      <point x="973.0" y="-437.0" type="line"/>
+      <point x="973.0" y="-315.0" type="line"/>
+      <point x="26.0" y="-315.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="568.0" y="-205.0" type="line"/>
+      <point x="816.0" y="371.0" type="line"/>
+      <point x="725.0" y="406.0" type="line"/>
+      <point x="561.0" y="0.0" type="line"/>
+      <point x="561.0" y="1205.0" type="line"/>
+      <point x="725.0" y="799.0" type="line"/>
+      <point x="816.0" y="835.0" type="line"/>
+      <point x="568.0" y="1410.0" type="line"/>
+      <point x="433.0" y="1410.0" type="line"/>
+      <point x="185.0" y="835.0" type="line"/>
+      <point x="277.0" y="799.0" type="line"/>
+      <point x="440.0" y="1205.0" type="line"/>
+      <point x="440.0" y="0.0" type="line"/>
+      <point x="277.0" y="406.0" type="line"/>
+      <point x="185.0" y="371.0" type="line"/>
+      <point x="433.0" y="-205.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

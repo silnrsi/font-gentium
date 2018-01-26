@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmAeMacron" format="2">
+  <advance width="1417.0"/>
+  <unicode hex="01E3"/>
+  <anchor x="738.0" y="0.0" name="H"/>
+  <anchor x="738.0" y="-100.0" name="L"/>
+  <anchor x="1020.0" y="0.0" name="O"/>
+  <anchor x="1417.0" y="900.0" name="R"/>
+  <anchor x="738.0" y="1410.0" name="U"/>
+  <outline>
+    <component base="LtnSmAe"/>
+    <component base="CombMacron" xOffset="1263.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

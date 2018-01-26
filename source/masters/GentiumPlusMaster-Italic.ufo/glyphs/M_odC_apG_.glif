@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModCapG" format="1">
+  <advance width="743"/>
+  <unicode hex="1D33"/>
+  <outline>
+    <contour>
+      <point x="781" y="957" type="line"/>
+      <point x="458" y="957" type="line"/>
+      <point x="453" y="921" type="line"/>
+      <point x="594" y="903"/>
+      <point x="594" y="889"/>
+      <point x="591" y="872" type="curve" smooth="yes"/>
+      <point x="565" y="709" type="line"/>
+      <point x="532" y="688"/>
+      <point x="491" y="677"/>
+      <point x="443" y="677" type="curve" smooth="yes"/>
+      <point x="338" y="677"/>
+      <point x="214" y="756"/>
+      <point x="214" y="918" type="curve" smooth="yes"/>
+      <point x="214" y="1132"/>
+      <point x="367" y="1301"/>
+      <point x="493" y="1301" type="curve" smooth="yes"/>
+      <point x="570" y="1301"/>
+      <point x="631" y="1282"/>
+      <point x="672" y="1234" type="curve"/>
+      <point x="697" y="1229" type="line"/>
+      <point x="722" y="1247"/>
+      <point x="787" y="1312"/>
+      <point x="775" y="1321" type="curve" smooth="yes"/>
+      <point x="727" y="1359"/>
+      <point x="647" y="1382"/>
+      <point x="592" y="1382" type="curve" smooth="yes"/>
+      <point x="481" y="1382"/>
+      <point x="381" y="1349"/>
+      <point x="303" y="1296" type="curve" smooth="yes"/>
+      <point x="176" y="1210"/>
+      <point x="90" y="1044"/>
+      <point x="90" y="892" type="curve" smooth="yes"/>
+      <point x="90" y="699"/>
+      <point x="234" y="589"/>
+      <point x="388" y="589" type="curve" smooth="yes"/>
+      <point x="464" y="589"/>
+      <point x="532" y="603"/>
+      <point x="673" y="700" type="curve"/>
+      <point x="701" y="872" type="line" smooth="yes"/>
+      <point x="704" y="890"/>
+      <point x="725" y="909"/>
+      <point x="776" y="921" type="curve"/>
+    </contour>
+    <contour>
+      <point x="405" y="540" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="538" y="1422" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombRtTackBlw" format="2">
+  <unicode hex="0319"/>
+  <anchor x="-514.0" y="-600.0" name="L"/>
+  <anchor x="-514.0" y="-100.0" name="_L"/>
+  <outline>
+    <contour>
+      <point x="-351.0" y="-308.0"/>
+      <point x="-344.0" y="-282.0" type="curve"/>
+      <point x="-369.0" y="-255.0" type="line"/>
+      <point x="-620.0" y="-255.0" type="line"/>
+      <point x="-634.0" y="-282.0"/>
+      <point x="-641.0" y="-294.0"/>
+      <point x="-649.0" y="-321.0" type="curve"/>
+      <point x="-626.0" y="-345.0" type="line"/>
+      <point x="-371.0" y="-345.0" type="line"/>
+      <point x="-359.0" y="-323.0"/>
+    </contour>
+    <contour>
+      <point x="-622.0" y="-485.0"/>
+      <point x="-595.0" y="-469.0" type="curve"/>
+      <point x="-595.0" y="-124.0" type="line"/>
+      <point x="-622.0" y="-100.0" type="line"/>
+      <point x="-648.0" y="-108.0"/>
+      <point x="-662.0" y="-117.0"/>
+      <point x="-685.0" y="-130.0" type="curve"/>
+      <point x="-685.0" y="-478.0" type="line"/>
+      <point x="-660.0" y="-500.0" type="line"/>
+      <point x="-634.0" y="-492.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

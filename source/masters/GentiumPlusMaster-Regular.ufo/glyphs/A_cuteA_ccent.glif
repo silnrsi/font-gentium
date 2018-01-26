@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AcuteAccent" format="2">
+  <advance width="653.0"/>
+  <unicode hex="00B4"/>
+  <anchor x="327.0" y="1410.0" name="U"/>
+  <outline>
+    <contour>
+      <point x="274.0" y="1047.0" type="curve"/>
+      <point x="619.0" y="1427.0" type="line"/>
+      <point x="596.0" y="1466.0" type="line"/>
+      <point x="566.0" y="1474.0"/>
+      <point x="483.0" y="1487.0"/>
+      <point x="451.0" y="1489.0" type="curve"/>
+      <point x="217.0" y="1075.0" type="line"/>
+      <point x="233.0" y="1063.0"/>
+      <point x="250.0" y="1052.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

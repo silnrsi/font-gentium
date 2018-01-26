@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapTCaron" format="2">
+  <advance width="1128.0"/>
+  <unicode hex="0164"/>
+  <anchor x="551.0" y="0.0" name="H"/>
+  <anchor x="546.0" y="-100.0" name="L"/>
+  <anchor x="546.0" y="1690.0" name="U"/>
+  <outline>
+    <component base="LtnCapT"/>
+    <component base="CombCaron.LP" xOffset="1060.0" yOffset="320.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

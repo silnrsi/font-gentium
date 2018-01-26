@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LftPtngAngBrac" format="2">
+  <advance width="1134.0"/>
+  <unicode hex="2329"/>
+  <outline>
+    <contour>
+      <point x="1070.0" y="1585.0" type="curve"/>
+      <point x="1070.0" y="1584.0" type="line"/>
+      <point x="1029.0" y="1599.0" type="line"/>
+      <point x="100.0" y="671.0" type="line"/>
+      <point x="100.0" y="645.0"/>
+      <point x="106.0" y="596.0"/>
+      <point x="112.0" y="573.0" type="curve"/>
+      <point x="169.0" y="541.0" type="line"/>
+      <point x="1087.0" y="1459.0" type="line"/>
+      <point x="1085.0" y="1492.0"/>
+      <point x="1077.0" y="1549.0"/>
+    </contour>
+    <contour>
+      <point x="112.0" y="573.0" type="line"/>
+      <point x="968.0" y="-284.0" type="line"/>
+      <point x="1027.0" y="-277.0"/>
+      <point x="1043.0" y="-269.0"/>
+      <point x="1088.0" y="-255.0" type="curve"/>
+      <point x="1089.0" y="-207.0" type="line"/>
+      <point x="195.0" y="688.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

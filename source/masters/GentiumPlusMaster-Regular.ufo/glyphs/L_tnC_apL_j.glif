@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapLj" format="2">
+  <advance width="1600.0"/>
+  <unicode hex="01C7"/>
+  <anchor x="496.0" y="0.0" name="H"/>
+  <anchor x="1304.0" y="-600.0" name="L"/>
+  <anchor x="1305.0" y="1370.0" name="U"/>
+  <outline>
+    <component base="LtnCapL"/>
+    <component base="LtnCapJ" xOffset="975.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

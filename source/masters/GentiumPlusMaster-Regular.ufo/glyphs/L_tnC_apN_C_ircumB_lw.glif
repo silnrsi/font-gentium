@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapNCircumBlw" format="2">
+  <advance width="1329.0"/>
+  <unicode hex="1E4A"/>
+  <anchor x="1047.0" y="0.0" name="H"/>
+  <anchor x="665.0" y="-600.0" name="L"/>
+  <anchor x="665.0" y="1370.0" name="U"/>
+  <outline>
+    <component base="LtnCapN"/>
+    <component base="CombCircumBlw" xOffset="1179.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

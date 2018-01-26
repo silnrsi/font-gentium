@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmTCaron.Caron.sc" format="2">
+  <advance width="1080.0"/>
+  <anchor x="528.0" y="7.0" name="H"/>
+  <anchor x="523.0" y="-76.0" name="L"/>
+  <anchor x="523.0" y="1410.0" name="U"/>
+  <outline>
+    <contour>
+      <point x="1020.0" y="1013.0" type="curve"/>
+      <point x="1018.0" y="1018.0" type="line"/>
+      <point x="987.0" y="1041.0" type="line"/>
+      <point x="515.0" y="1041.0" type="line"/>
+      <point x="483.0" y="953.0" type="line"/>
+      <point x="859.0" y="953.0" type="line"/>
+      <point x="906.0" y="953.0"/>
+      <point x="915.0" y="915.0"/>
+      <point x="939.0" y="814.0" type="curve"/>
+      <point x="991.0" y="814.0" type="line"/>
+      <point x="1006.0" y="885.0"/>
+      <point x="1019.0" y="955.0"/>
+    </contour>
+    <contour>
+      <point x="174.0" y="953.0" type="curve"/>
+      <point x="669.0" y="953.0" type="line"/>
+      <point x="637.0" y="1041.0" type="line"/>
+      <point x="49.0" y="1041.0" type="line"/>
+      <point x="35.0" y="980.0"/>
+      <point x="23.0" y="896.0"/>
+      <point x="17.0" y="828.0" type="curve"/>
+      <point x="67.0" y="808.0" type="line"/>
+      <point x="124.0" y="937.0"/>
+      <point x="140.0" y="953.0"/>
+    </contour>
+    <contour>
+      <point x="291.0" y="0.0" type="line"/>
+      <point x="754.0" y="0.0" type="line"/>
+      <point x="754.0" y="49.0" type="line"/>
+      <point x="641.0" y="69.0"/>
+      <point x="603.0" y="90.0"/>
+      <point x="603.0" y="101.0" type="curve"/>
+      <point x="603.0" y="965.0" type="line"/>
+      <point x="603.0" y="969.0"/>
+      <point x="629.0" y="974.0"/>
+      <point x="670.0" y="980.0" type="curve" smooth="yes"/>
+      <point x="687.0" y="983.0"/>
+      <point x="713.0" y="988.0"/>
+      <point x="735.0" y="992.0" type="curve"/>
+      <point x="735.0" y="1041.0" type="line"/>
+      <point x="309.0" y="1041.0" type="line"/>
+      <point x="309.0" y="992.0" type="line"/>
+      <point x="363.0" y="983.0" type="line"/>
+      <point x="413.0" y="974.0"/>
+      <point x="442.0" y="969.0"/>
+      <point x="442.0" y="965.0" type="curve"/>
+      <point x="442.0" y="101.0" type="line"/>
+      <point x="442.0" y="89.0"/>
+      <point x="405.0" y="69.0"/>
+      <point x="291.0" y="49.0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="570.0" y="1133.0" type="line"/>
+      <point x="818.0" y="1389.0" type="line"/>
+      <point x="800.0" y="1417.0"/>
+      <point x="795.0" y="1425.0"/>
+      <point x="770.0" y="1437.0" type="curve"/>
+      <point x="521.0" y="1265.0" type="line"/>
+      <point x="268.0" y="1437.0" type="line"/>
+      <point x="245.0" y="1426.0"/>
+      <point x="240.0" y="1419.0"/>
+      <point x="225.0" y="1400.0" type="curve"/>
+      <point x="226.0" y="1401.0" type="line"/>
+      <point x="226.0" y="1401.0"/>
+      <point x="220.0" y="1394.0"/>
+      <point x="217.0" y="1389.0" type="curve"/>
+      <point x="468.0" y="1133.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

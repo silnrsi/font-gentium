@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombSqrBlw" format="1">
+  <advance width="0"/>
+  <unicode hex="033B"/>
+  <outline>
+    <contour>
+      <point x="-264" y="-173" type="line"/>
+      <point x="-281" y="-150" type="line"/>
+      <point x="-716" y="-150" type="line"/>
+      <point x="-741" y="-164"/>
+      <point x="-760" y="-181"/>
+      <point x="-778" y="-199" type="curve"/>
+      <point x="-813" y="-457" type="line"/>
+      <point x="-796" y="-480" type="line"/>
+      <point x="-361" y="-480" type="line"/>
+      <point x="-336" y="-466"/>
+      <point x="-317" y="-449"/>
+      <point x="-299" y="-431" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-357" y="-230" type="line"/>
+      <point x="-380" y="-400" type="line"/>
+      <point x="-720" y="-400" type="line"/>
+      <point x="-697" y="-230" type="line"/>
+    </contour>
+    <contour>
+      <point x="-577" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-508" y="-100" type="move" name="_L"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapRAcute" format="2">
+  <advance width="1149.0"/>
+  <unicode hex="0154"/>
+  <anchor x="275.0" y="0.0" name="H"/>
+  <anchor x="520.0" y="-100.0" name="L"/>
+  <anchor x="520.0" y="1690.0" name="U"/>
+  <outline>
+    <component base="LtnCapR"/>
+    <component base="CombAcute.LP" xOffset="1063.0" yOffset="320.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

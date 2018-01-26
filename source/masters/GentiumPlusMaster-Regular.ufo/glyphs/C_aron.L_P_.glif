@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Caron.LP" format="2">
+  <advance width="733.0"/>
+  <anchor x="366.0" y="1396.0" name="U"/>
+  <anchor x="366.0" y="1050.0" name="_U"/>
+  <outline>
+    <contour>
+      <point x="421.0" y="1071.0" type="line"/>
+      <point x="683.0" y="1378.0" type="line"/>
+      <point x="667.0" y="1405.0"/>
+      <point x="663.0" y="1413.0"/>
+      <point x="640.0" y="1425.0" type="curve"/>
+      <point x="370.0" y="1214.0" type="line"/>
+      <point x="95.0" y="1425.0" type="line"/>
+      <point x="73.0" y="1413.0"/>
+      <point x="69.0" y="1405.0"/>
+      <point x="50.0" y="1378.0" type="curve"/>
+      <point x="314.0" y="1071.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

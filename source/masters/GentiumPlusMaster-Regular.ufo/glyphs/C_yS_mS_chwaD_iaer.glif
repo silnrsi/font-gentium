@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CySmSchwaDiaer" format="2">
+  <advance width="930.0"/>
+  <unicode hex="04DB"/>
+  <anchor x="460.0" y="0.0" name="H"/>
+  <anchor x="460.0" y="-100.0" name="L"/>
+  <anchor x="490.0" y="0.0" name="O"/>
+  <anchor x="460.0" y="1410.0" name="U"/>
+  <outline>
+    <component base="LtnSmSchwa"/>
+    <component base="CombDiaer" xOffset="975.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

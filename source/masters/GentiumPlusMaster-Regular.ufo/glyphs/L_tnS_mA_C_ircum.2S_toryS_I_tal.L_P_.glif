@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmACircum.2StorySItal.LP" format="2">
+  <advance width="940.0"/>
+  <anchor x="426.0" y="0.0" name="H"/>
+  <anchor x="460.0" y="-100.0" name="L"/>
+  <anchor x="715.0" y="0.0" name="O"/>
+  <anchor x="940.0" y="900.0" name="R"/>
+  <anchor x="480.0" y="1450.0" name="U"/>
+  <outline>
+    <component base="LtnSmA.2StorySItal"/>
+    <component base="CombCircum.LP" xOffset="994.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

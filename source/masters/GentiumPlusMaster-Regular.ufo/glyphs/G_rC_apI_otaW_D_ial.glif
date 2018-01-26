@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapIotaWDial" format="2">
+  <advance width="650.0"/>
+  <unicode hex="03AA"/>
+  <outline>
+    <component base="GrCapIota"/>
+    <component base="CombDiaer.LP" xOffset="830.0" yOffset="320.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

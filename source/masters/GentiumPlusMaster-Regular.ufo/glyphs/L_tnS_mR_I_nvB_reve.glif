@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmRInvBreve" format="2">
+  <advance width="811.0"/>
+  <unicode hex="0213"/>
+  <anchor x="270.0" y="0.0" name="H"/>
+  <anchor x="270.0" y="-100.0" name="L"/>
+  <anchor x="450.0" y="1370.0" name="U"/>
+  <outline>
+    <component base="LtnSmR"/>
+    <component base="CombInvBreve" xOffset="965.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapOCircumHookAbv" format="2">
+  <advance width="1229.0"/>
+  <unicode hex="1ED4"/>
+  <anchor x="587.0" y="0.0" name="H"/>
+  <anchor x="617.0" y="-100.0" name="L"/>
+  <anchor x="678.0" y="0.0" name="O"/>
+  <anchor x="1258.0" y="1100.0" name="R"/>
+  <anchor x="617.0" y="2090.0" name="U"/>
+  <outline>
+    <component base="LtnCapO"/>
+    <component base="CombCircum.LP" xOffset="1131.0" yOffset="320.0"/>
+    <component base="CombHookAbv" xOffset="1135.0" yOffset="720.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

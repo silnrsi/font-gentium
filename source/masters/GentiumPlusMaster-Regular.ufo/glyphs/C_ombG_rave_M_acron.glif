@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombGrave_Macron" format="2">
+  <unicode hex="1DC5"/>
+  <anchor x="-514.0" y="1050.0" name="_U"/>
+  <outline>
+    <contour>
+      <point x="-918.0" y="1522.0"/>
+      <point x="-935.0" y="1506.0" type="curve"/>
+      <point x="-745.0" y="1155.0" type="line"/>
+      <point x="-712.0" y="1157.0"/>
+      <point x="-635.0" y="1172.0"/>
+      <point x="-609.0" y="1179.0" type="curve"/>
+      <point x="-587.0" y="1220.0" type="line"/>
+      <point x="-879.0" y="1537.0" type="line"/>
+      <point x="-902.0" y="1530.0"/>
+    </contour>
+    <contour>
+      <point x="-227.0" y="1232.0"/>
+      <point x="-221.0" y="1261.0" type="curve"/>
+      <point x="-243.0" y="1285.0" type="line"/>
+      <point x="-726.0" y="1285.0" type="line"/>
+      <point x="-739.0" y="1259.0"/>
+      <point x="-761.0" y="1209.0"/>
+      <point x="-745.0" y="1155.0" type="curve"/>
+      <point x="-260.0" y="1155.0" type="line"/>
+      <point x="-250.0" y="1180.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

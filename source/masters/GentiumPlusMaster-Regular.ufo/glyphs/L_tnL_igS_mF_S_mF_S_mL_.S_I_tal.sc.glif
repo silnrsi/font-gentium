@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnLigSmFSmFSmL.SItal.sc" format="2">
+  <advance width="2756.0"/>
+  <anchor x="2307.0" y="7.0" name="H"/>
+  <anchor x="2307.0" y="-76.0" name="L"/>
+  <anchor x="2545.0" y="754.0" name="R"/>
+  <anchor x="2279.0" y="1145.0" name="U"/>
+  <outline>
+    <component base="LtnSmF.sc"/>
+    <component base="LtnSmF.sc" xOffset="920.0"/>
+    <component base="LtnSmL.sc" xOffset="1840.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="DotTnLtr5" format="2">
+  <advance width="651.0"/>
+  <unicode hex="A708"/>
+  <outline>
+    <component base="TnLtrSpcDotLeft"/>
+    <component base="TnLtrDot5" xOffset="171.0"/>
+    <component base="TnLtrSpcDotMiddle" xOffset="171.0"/>
+    <component base="TnLtrBar" xOffset="459.0"/>
+    <component base="TnLtrSpcFlatRight" xOffset="459.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

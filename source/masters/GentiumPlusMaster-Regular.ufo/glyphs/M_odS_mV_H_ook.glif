@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModSmVHook" format="2">
+  <advance width="696.0"/>
+  <unicode hex="1DB9"/>
+  <anchor x="350.0" y="540.0" name="L"/>
+  <anchor x="350.0" y="1286.0" name="U"/>
+  <outline>
+    <contour>
+      <point x="640.0" y="755.0"/>
+      <point x="640.0" y="922.0" type="curve" smooth="yes"/>
+      <point x="640.0" y="1082.0"/>
+      <point x="563.0" y="1173.0"/>
+      <point x="483.0" y="1196.0" type="curve"/>
+      <point x="451.0" y="1188.0"/>
+      <point x="357.0" y="1166.0"/>
+      <point x="327.0" y="1154.0" type="curve"/>
+      <point x="341.0" y="1120.0" type="line"/>
+      <point x="466.0" y="1119.0"/>
+      <point x="522.0" y="1024.0"/>
+      <point x="522.0" y="891.0" type="curve" smooth="yes"/>
+      <point x="522.0" y="792.0"/>
+      <point x="476.0" y="684.0"/>
+      <point x="353.0" y="684.0" type="curve" smooth="yes"/>
+      <point x="294.0" y="684.0"/>
+      <point x="233.0" y="720.0"/>
+      <point x="233.0" y="825.0" type="curve" smooth="yes"/>
+      <point x="233.0" y="1173.0" type="line"/>
+      <point x="213.0" y="1196.0" type="line"/>
+      <point x="152.0" y="1175.0"/>
+      <point x="96.0" y="1164.0"/>
+      <point x="29.0" y="1156.0" type="curve"/>
+      <point x="29.0" y="1122.0" type="line"/>
+      <point x="115.0" y="1115.0"/>
+      <point x="109.0" y="1113.0"/>
+      <point x="109.0" y="1037.0" type="curve" smooth="yes"/>
+      <point x="109.0" y="793.0" type="line" smooth="yes"/>
+      <point x="109.0" y="643.0"/>
+      <point x="213.0" y="602.0"/>
+      <point x="320.0" y="602.0" type="curve" smooth="yes"/>
+      <point x="483.0" y="602.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

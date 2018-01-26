@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModRtHalfRing" format="2">
+  <advance width="540.0"/>
+  <unicode hex="02BE"/>
+  <anchor x="250.0" y="-100.0" name="L"/>
+  <anchor x="250.0" y="1620.0" name="U"/>
+  <outline>
+    <component base="ModCntrdRtHalfRing" xOffset="-10.0" yOffset="700.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

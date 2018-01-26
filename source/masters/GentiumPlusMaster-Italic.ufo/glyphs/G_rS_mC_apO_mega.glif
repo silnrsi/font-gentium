@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmCapOmega" format="1">
+  <advance width="838"/>
+  <unicode hex="AB65"/>
+  <outline>
+    <contour>
+      <point x="779" y="602" type="curve" smooth="yes"/>
+      <point x="779" y="795"/>
+      <point x="683" y="936"/>
+      <point x="475" y="936" type="curve" smooth="yes"/>
+      <point x="241" y="936"/>
+      <point x="43" y="662"/>
+      <point x="43" y="414" type="curve" smooth="yes"/>
+      <point x="43" y="264"/>
+      <point x="94" y="126"/>
+      <point x="270" y="84" type="curve"/>
+      <point x="304" y="110" type="line"/>
+      <point x="208" y="191"/>
+      <point x="171" y="331"/>
+      <point x="171" y="459" type="curve" smooth="yes"/>
+      <point x="171" y="663"/>
+      <point x="286" y="828"/>
+      <point x="418" y="828" type="curve" smooth="yes"/>
+      <point x="555" y="828"/>
+      <point x="639" y="690"/>
+      <point x="639" y="539" type="curve" smooth="yes"/>
+      <point x="639" y="327"/>
+      <point x="530" y="197"/>
+      <point x="387" y="110" type="curve"/>
+      <point x="422" y="59" type="line"/>
+      <point x="647" y="190"/>
+      <point x="779" y="356"/>
+    </contour>
+    <contour>
+      <point x="751" y="224" type="curve"/>
+      <point x="715" y="238" type="line"/>
+      <point x="671" y="145"/>
+      <point x="650" y="110"/>
+      <point x="613" y="110" type="curve" smooth="yes"/>
+      <point x="387" y="110" type="line"/>
+      <point x="373" y="10" type="line"/>
+      <point x="700" y="10" type="line"/>
+      <point x="717" y="61"/>
+      <point x="740" y="167"/>
+    </contour>
+    <contour>
+      <point x="290" y="10" type="line"/>
+      <point x="304" y="110" type="line"/>
+      <point x="81" y="110" type="line" smooth="yes"/>
+      <point x="44" y="110"/>
+      <point x="30" y="152"/>
+      <point x="27" y="235" type="curve"/>
+      <point x="-11" y="235" type="line"/>
+      <point x="-33" y="174"/>
+      <point x="-51" y="97"/>
+      <point x="-58" y="49" type="curve"/>
+      <point x="-43" y="10" type="line"/>
+    </contour>
+    <contour>
+      <point x="317" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="482" y="1000" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

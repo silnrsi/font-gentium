@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmHDotAbv" format="2">
+  <advance width="1130.0"/>
+  <unicode hex="1E23"/>
+  <anchor x="257.0" y="0.0" name="H"/>
+  <anchor x="577.0" y="-100.0" name="L"/>
+  <anchor x="577.0" y="1940.0" name="U"/>
+  <outline>
+    <component base="LtnSmH"/>
+    <component base="CombDotAbv.LP" xOffset="1092.0" yOffset="570.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

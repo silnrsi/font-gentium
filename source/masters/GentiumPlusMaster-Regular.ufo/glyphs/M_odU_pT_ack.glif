@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModUpTack" format="2">
+  <advance width="560.0"/>
+  <unicode hex="02D4"/>
+  <outline>
+    <contour>
+      <point x="483.0" y="-143.0"/>
+      <point x="490.0" y="-117.0" type="curve"/>
+      <point x="465.0" y="-90.0" type="line"/>
+      <point x="99.0" y="-90.0" type="line"/>
+      <point x="85.0" y="-117.0"/>
+      <point x="78.0" y="-129.0"/>
+      <point x="70.0" y="-156.0" type="curve"/>
+      <point x="93.0" y="-180.0" type="line"/>
+      <point x="463.0" y="-180.0" type="line"/>
+      <point x="475.0" y="-158.0"/>
+    </contour>
+    <contour>
+      <point x="298.0" y="-145.0"/>
+      <point x="325.0" y="-129.0" type="curve"/>
+      <point x="325.0" y="146.0" type="line"/>
+      <point x="298.0" y="170.0" type="line"/>
+      <point x="272.0" y="162.0"/>
+      <point x="258.0" y="153.0"/>
+      <point x="235.0" y="140.0" type="curve"/>
+      <point x="235.0" y="-138.0" type="line"/>
+      <point x="260.0" y="-160.0" type="line"/>
+      <point x="286.0" y="-152.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

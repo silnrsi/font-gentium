@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmYTilde" format="1">
+  <advance width="926"/>
+  <unicode hex="1EF9"/>
+  <outline>
+    <component base="LtnSmY"/>
+    <component base="CombTilde" xOffset="920"/>
+    <contour>
+      <point x="620" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="988" y="870" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="614" y="1353" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

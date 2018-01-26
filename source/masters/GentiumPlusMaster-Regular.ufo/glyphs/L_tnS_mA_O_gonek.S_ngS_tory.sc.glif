@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmAOgonek.SngStory.sc" format="2">
+  <advance width="1146.0"/>
+  <anchor x="563.0" y="0.0" name="H"/>
+  <anchor x="852.0" y="-593.0" name="L"/>
+  <anchor x="563.0" y="1145.0" name="U"/>
+  <outline>
+    <component base="LtnSmA.sc"/>
+    <component base="CombOgonek" xOffset="1366.0" yOffset="7.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

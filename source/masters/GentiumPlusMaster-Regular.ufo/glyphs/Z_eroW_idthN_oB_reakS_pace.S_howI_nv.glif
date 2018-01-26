@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ZeroWidthNoBreakSpace.ShowInv" format="2">
+  <advance width="5547.0"/>
+  <anchor x="1200.0" y="900.0" name="C11"/>
+  <anchor x="826.0" y="900.0" name="C12"/>
+  <anchor x="650.0" y="900.0" name="C13"/>
+  <anchor x="1552.0" y="900.0" name="C22"/>
+  <anchor x="1200.0" y="900.0" name="C23"/>
+  <anchor x="1750.0" y="900.0" name="C33"/>
+  <anchor x="1200.0" y="526.0" name="L11"/>
+  <anchor x="826.0" y="526.0" name="L12"/>
+  <anchor x="1552.0" y="526.0" name="L22"/>
+  <anchor x="1200.0" y="1252.0" name="U11"/>
+  <anchor x="826.0" y="1252.0" name="U12"/>
+  <anchor x="1552.0" y="1252.0" name="U22"/>
+  <outline>
+    <component base="BoxDotted"/>
+    <component base="LtnCapZ.Sophia" xOffset="424.0" yOffset="986.0"/>
+    <component base="LtnCapW.Sophia" xOffset="842.0" yOffset="986.0"/>
+    <component base="LtnCapN.Sophia" xOffset="1484.0" yOffset="986.0"/>
+    <component base="LtnCapB.Sophia" xOffset="395.0" yOffset="260.0"/>
+    <component base="LtnCapS.Sophia" xOffset="956.0" yOffset="260.0"/>
+    <component base="LtnCapP.Sophia" xOffset="1513.0" yOffset="260.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

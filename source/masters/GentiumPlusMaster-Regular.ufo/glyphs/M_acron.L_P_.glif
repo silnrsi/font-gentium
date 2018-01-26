@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Macron.LP" format="2">
+  <advance width="1010.0"/>
+  <anchor x="495.0" y="1370.0" name="U"/>
+  <anchor x="495.0" y="1050.0" name="_U"/>
+  <outline>
+    <contour>
+      <point x="837.0" y="1212.0"/>
+      <point x="843.0" y="1241.0" type="curve"/>
+      <point x="821.0" y="1265.0" type="line"/>
+      <point x="208.0" y="1265.0" type="line"/>
+      <point x="195.0" y="1239.0"/>
+      <point x="173.0" y="1189.0"/>
+      <point x="167.0" y="1160.0" type="curve"/>
+      <point x="189.0" y="1135.0" type="line"/>
+      <point x="804.0" y="1135.0" type="line"/>
+      <point x="814.0" y="1160.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

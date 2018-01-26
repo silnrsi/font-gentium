@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmACircumHookAbv.SngStory" format="1">
+  <advance width="922"/>
+  <outline>
+    <component base="LtnSmAlpha"/>
+    <component base="CombCircum" xOffset="902"/>
+    <component base="CombHookAbv" xOffset="983" yOffset="490"/>
+    <contour>
+      <point x="363" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="400" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="723" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="956" y="870" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="667" y="1810" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

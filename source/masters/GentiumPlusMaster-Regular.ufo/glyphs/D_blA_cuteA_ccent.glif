@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="DblAcuteAccent" format="2">
+  <advance width="768.0"/>
+  <unicode hex="02DD"/>
+  <outline>
+    <contour>
+      <point x="428.0" y="1047.0" type="curve"/>
+      <point x="688.0" y="1423.0" type="line"/>
+      <point x="666.0" y="1464.0" type="line"/>
+      <point x="637.0" y="1474.0"/>
+      <point x="580.0" y="1485.0"/>
+      <point x="547.0" y="1489.0" type="curve"/>
+      <point x="371.0" y="1074.0" type="line"/>
+      <point x="395.0" y="1058.0"/>
+      <point x="403.0" y="1052.0"/>
+    </contour>
+    <contour>
+      <point x="137.0" y="1047.0" type="curve"/>
+      <point x="397.0" y="1423.0" type="line"/>
+      <point x="375.0" y="1464.0" type="line"/>
+      <point x="348.0" y="1474.0"/>
+      <point x="289.0" y="1485.0"/>
+      <point x="256.0" y="1489.0" type="curve"/>
+      <point x="80.0" y="1074.0" type="line"/>
+      <point x="106.0" y="1058.0"/>
+      <point x="115.0" y="1052.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

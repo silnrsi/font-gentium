@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CircumAccent" format="2">
+  <advance width="1008.0"/>
+  <unicode hex="005E"/>
+  <anchor x="504.0" y="1690.0" name="U"/>
+  <outline>
+    <contour>
+      <point x="874.0" y="604.0"/>
+      <point x="907.0" y="635.0" type="curve"/>
+      <point x="555.0" y="1550.0" type="line"/>
+      <point x="518.0" y="1532.0"/>
+      <point x="455.0" y="1493.0"/>
+      <point x="422.0" y="1462.0" type="curve"/>
+      <point x="100.0" y="592.0" type="line"/>
+      <point x="123.0" y="565.0" type="line"/>
+      <point x="150.0" y="578.0"/>
+      <point x="203.0" y="608.0"/>
+      <point x="231.0" y="635.0" type="curve"/>
+      <point x="481.0" y="1315.0" type="line"/>
+      <point x="764.0" y="592.0" type="line"/>
+      <point x="801.0" y="565.0" type="line"/>
+      <point x="846.0" y="586.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

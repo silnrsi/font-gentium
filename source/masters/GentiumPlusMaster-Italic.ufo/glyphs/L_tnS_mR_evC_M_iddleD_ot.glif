@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmRevCMiddleDot" format="1">
+  <advance width="795"/>
+  <unicode hex="A73F"/>
+  <outline>
+    <contour>
+      <point x="91" y="815" type="curve"/>
+      <point x="138" y="774"/>
+      <point x="194" y="721"/>
+      <point x="229" y="721" type="curve" smooth="yes"/>
+      <point x="257" y="721"/>
+      <point x="345" y="831"/>
+      <point x="431" y="831" type="curve" smooth="yes"/>
+      <point x="613" y="831"/>
+      <point x="631" y="545"/>
+      <point x="581" y="358" type="curve"/>
+      <point x="533" y="186"/>
+      <point x="421" y="76"/>
+      <point x="307" y="76" type="curve" smooth="yes"/>
+      <point x="258" y="76"/>
+      <point x="167" y="104"/>
+      <point x="56" y="221" type="curve"/>
+      <point x="42" y="207"/>
+      <point x="23" y="190"/>
+      <point x="13" y="180" type="curve"/>
+      <point x="170" y="-10"/>
+      <point x="277" y="-41"/>
+      <point x="373" y="-41" type="curve" smooth="yes"/>
+      <point x="463" y="-41"/>
+      <point x="639" y="41"/>
+      <point x="717" y="322" type="curve"/>
+      <point x="764" y="502"/>
+      <point x="753" y="711"/>
+      <point x="593" y="842" type="curve" smooth="yes"/>
+      <point x="533" y="891"/>
+      <point x="430" y="936"/>
+      <point x="348" y="936" type="curve" smooth="yes"/>
+      <point x="231" y="936"/>
+      <point x="136" y="829"/>
+    </contour>
+    <contour>
+      <point x="417" y="481" type="curve" smooth="yes"/>
+      <point x="425" y="543"/>
+      <point x="405" y="576"/>
+      <point x="353" y="576" type="curve" smooth="yes"/>
+      <point x="297" y="576"/>
+      <point x="242" y="516"/>
+      <point x="231" y="440" type="curve" smooth="yes"/>
+      <point x="223" y="379"/>
+      <point x="240" y="344"/>
+      <point x="294" y="344" type="curve" smooth="yes"/>
+      <point x="353" y="344"/>
+      <point x="407" y="406"/>
+    </contour>
+    <contour>
+      <point x="304" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="412" y="1000" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

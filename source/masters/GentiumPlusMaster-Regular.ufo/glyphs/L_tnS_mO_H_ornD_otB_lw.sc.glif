@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmOHornDotBlw.sc" format="2">
+  <advance width="1155.0"/>
+  <anchor x="578.0" y="-576.0" name="L"/>
+  <anchor x="578.0" y="1145.0" name="U"/>
+  <outline>
+    <component base="LtnSmOHorn.sc"/>
+    <component base="CombDotBlw" xOffset="1093.0" yOffset="24.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

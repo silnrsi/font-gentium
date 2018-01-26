@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombDblTilde" format="2">
+  <unicode hex="0360"/>
+  <anchor x="0.0" y="1930.0" name="U"/>
+  <outline>
+    <contour>
+      <point x="687.0" y="1680.0"/>
+      <point x="770.0" y="1798.0" type="curve"/>
+      <point x="705.0" y="1841.0" type="line"/>
+      <point x="625.0" y="1743.0"/>
+      <point x="499.0" y="1698.0"/>
+      <point x="349.0" y="1698.0" type="curve" smooth="yes"/>
+      <point x="206.0" y="1698.0"/>
+      <point x="-60.0" y="1841.0"/>
+      <point x="-268.0" y="1841.0" type="curve" smooth="yes"/>
+      <point x="-502.0" y="1841.0"/>
+      <point x="-687.0" y="1732.0"/>
+      <point x="-770.0" y="1613.0" type="curve"/>
+      <point x="-707.0" y="1573.0" type="line"/>
+      <point x="-620.0" y="1667.0"/>
+      <point x="-508.0" y="1716.0"/>
+      <point x="-354.0" y="1716.0" type="curve" smooth="yes"/>
+      <point x="-187.0" y="1716.0"/>
+      <point x="74.0" y="1573.0"/>
+      <point x="267.0" y="1573.0" type="curve" smooth="yes"/>
+      <point x="500.0" y="1573.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

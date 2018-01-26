@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmYTilde.sc" format="2">
+  <advance width="1144.0"/>
+  <anchor x="568.0" y="-76.0" name="L"/>
+  <anchor x="568.0" y="1505.0" name="U"/>
+  <outline>
+    <component base="LtnSmY.sc"/>
+    <component base="CombTilde" xOffset="1083.0" yOffset="95.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

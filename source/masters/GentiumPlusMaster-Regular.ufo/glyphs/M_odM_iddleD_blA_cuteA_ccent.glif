@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModMiddleDblAcuteAccent" format="2">
+  <advance width="748.0"/>
+  <unicode hex="02F6"/>
+  <outline>
+    <contour>
+      <point x="408.0" y="498.0" type="curve"/>
+      <point x="668.0" y="874.0" type="line"/>
+      <point x="646.0" y="915.0" type="line"/>
+      <point x="617.0" y="925.0"/>
+      <point x="560.0" y="936.0"/>
+      <point x="527.0" y="940.0" type="curve"/>
+      <point x="351.0" y="525.0" type="line"/>
+      <point x="375.0" y="509.0"/>
+      <point x="383.0" y="503.0"/>
+    </contour>
+    <contour>
+      <point x="117.0" y="498.0" type="curve"/>
+      <point x="377.0" y="874.0" type="line"/>
+      <point x="355.0" y="915.0" type="line"/>
+      <point x="328.0" y="925.0"/>
+      <point x="269.0" y="936.0"/>
+      <point x="236.0" y="940.0" type="curve"/>
+      <point x="60.0" y="525.0" type="line"/>
+      <point x="86.0" y="509.0"/>
+      <point x="95.0" y="503.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

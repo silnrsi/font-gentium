@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ogonek" format="2">
+  <advance width="530.0"/>
+  <unicode hex="02DB"/>
+  <anchor x="289.0" y="-600.0" name="L"/>
+  <outline>
+    <contour>
+      <point x="422.0" y="-371.0"/>
+      <point x="479.0" y="-299.0" type="curve"/>
+      <point x="455.0" y="-262.0" type="line"/>
+      <point x="399.0" y="-313.0"/>
+      <point x="348.0" y="-336.0"/>
+      <point x="315.0" y="-336.0" type="curve" smooth="yes"/>
+      <point x="264.0" y="-336.0"/>
+      <point x="229.0" y="-313.0"/>
+      <point x="229.0" y="-264.0" type="curve" smooth="yes"/>
+      <point x="229.0" y="-201.0"/>
+      <point x="261.0" y="-94.0"/>
+      <point x="453.0" y="24.0" type="curve"/>
+      <point x="408.0" y="43.0" type="line"/>
+      <point x="208.0" y="-65.0"/>
+      <point x="100.0" y="-180.0"/>
+      <point x="100.0" y="-299.0" type="curve" smooth="yes"/>
+      <point x="100.0" y="-418.0"/>
+      <point x="178.0" y="-444.0"/>
+      <point x="256.0" y="-444.0" type="curve" smooth="yes"/>
+      <point x="322.0" y="-444.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

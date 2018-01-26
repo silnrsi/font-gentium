@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModChinantecTnMrkDotHorizBar" format="2">
+  <advance width="731.0"/>
+  <unicode hex="A719"/>
+  <outline>
+    <contour>
+      <point x="434.0" y="1443.0"/>
+      <point x="434.0" y="1480.0" type="curve" smooth="yes"/>
+      <point x="434.0" y="1517.0"/>
+      <point x="403.0" y="1549.0"/>
+      <point x="366.0" y="1549.0" type="curve" smooth="yes"/>
+      <point x="328.0" y="1549.0"/>
+      <point x="296.0" y="1517.0"/>
+      <point x="296.0" y="1480.0" type="curve" smooth="yes"/>
+      <point x="296.0" y="1443.0"/>
+      <point x="328.0" y="1411.0"/>
+      <point x="366.0" y="1411.0" type="curve" smooth="yes"/>
+      <point x="403.0" y="1411.0"/>
+    </contour>
+    <contour>
+      <point x="673.0" y="1265.0"/>
+      <point x="681.0" y="1294.0" type="curve"/>
+      <point x="656.0" y="1316.0" type="line"/>
+      <point x="70.0" y="1316.0" type="line"/>
+      <point x="59.0" y="1292.0"/>
+      <point x="47.0" y="1256.0"/>
+      <point x="40.0" y="1227.0" type="curve"/>
+      <point x="65.0" y="1205.0" type="line"/>
+      <point x="650.0" y="1205.0" type="line"/>
+      <point x="660.0" y="1225.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/25 22:26:39</string>
+    </dict>
+  </lib>
+</glyph>

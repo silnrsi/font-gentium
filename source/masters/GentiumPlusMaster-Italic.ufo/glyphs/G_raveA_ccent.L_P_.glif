@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GraveAccent.LP" format="1">
+  <advance width="606"/>
+  <outline>
+    <contour>
+      <point x="639" y="1073" type="curve"/>
+      <point x="326" y="1388" type="line"/>
+      <point x="295" y="1372"/>
+      <point x="228" y="1337"/>
+      <point x="203" y="1317" type="curve"/>
+      <point x="191" y="1270" type="line"/>
+      <point x="592" y="1026" type="line"/>
+      <point x="613" y="1038"/>
+      <point x="621" y="1046"/>
+    </contour>
+    <contour>
+      <point x="525" y="1320" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="486" y="1000" type="move" name="_U"/>
+    </contour>
+  </outline>
+</glyph>
