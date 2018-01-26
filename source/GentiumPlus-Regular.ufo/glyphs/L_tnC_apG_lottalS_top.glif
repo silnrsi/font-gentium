@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapGlottalStop" format="1">
+  <advance width="950"/>
+  <unicode hex="0241"/>
+  <outline>
+    <contour>
+      <point x="230" y="0" type="line"/>
+      <point x="720" y="0" type="line"/>
+      <point x="720" y="43" type="line"/>
+      <point x="611" y="61"/>
+      <point x="555" y="84"/>
+      <point x="555" y="104" type="curve" smooth="yes"/>
+      <point x="555" y="455" type="line" smooth="yes"/>
+      <point x="555" y="690"/>
+      <point x="890" y="688"/>
+      <point x="890" y="985" type="curve" smooth="yes"/>
+      <point x="890" y="1172"/>
+      <point x="758" y="1290"/>
+      <point x="522" y="1290" type="curve" smooth="yes"/>
+      <point x="259" y="1290"/>
+      <point x="40" y="1131"/>
+      <point x="40" y="943" type="curve" smooth="yes"/>
+      <point x="40" y="923"/>
+      <point x="45" y="900"/>
+      <point x="47" y="890" type="curve"/>
+      <point x="74" y="860" type="line"/>
+      <point x="133" y="866"/>
+      <point x="188" y="876"/>
+      <point x="231" y="898" type="curve"/>
+      <point x="218" y="922"/>
+      <point x="214" y="946"/>
+      <point x="214" y="976" type="curve" smooth="yes"/>
+      <point x="214" y="1080"/>
+      <point x="308" y="1190"/>
+      <point x="444" y="1190" type="curve" smooth="yes"/>
+      <point x="623" y="1190"/>
+      <point x="730" y="1104"/>
+      <point x="730" y="940" type="curve" smooth="yes"/>
+      <point x="730" y="740"/>
+      <point x="395" y="685"/>
+      <point x="395" y="396" type="curve" smooth="yes"/>
+      <point x="395" y="104" type="line" smooth="yes"/>
+      <point x="395" y="82"/>
+      <point x="345" y="63"/>
+      <point x="230" y="43" type="curve"/>
+    </contour>
+    <contour>
+      <point x="475" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="475" y="1370" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

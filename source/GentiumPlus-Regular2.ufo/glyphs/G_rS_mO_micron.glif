@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmOmicron" format="1">
+  <advance width="1020"/>
+  <unicode hex="03BF"/>
+  <outline>
+    <contour>
+      <point x="935" y="219"/>
+      <point x="935" y="485" type="curve"/>
+      <point x="935" y="758"/>
+      <point x="774" y="960"/>
+      <point x="530" y="960" type="curve" smooth="yes"/>
+      <point x="287" y="960"/>
+      <point x="85" y="709"/>
+      <point x="85" y="444" type="curve" smooth="yes"/>
+      <point x="85" y="172"/>
+      <point x="250" y="-30"/>
+      <point x="491" y="-30" type="curve" smooth="yes"/>
+      <point x="727" y="-30"/>
+    </contour>
+    <contour>
+      <point x="780" y="666"/>
+      <point x="780" y="455" type="curve"/>
+      <point x="780" y="227"/>
+      <point x="698" y="80"/>
+      <point x="529" y="80" type="curve" smooth="yes"/>
+      <point x="390" y="80"/>
+      <point x="240" y="262"/>
+      <point x="240" y="473" type="curve" smooth="yes"/>
+      <point x="240" y="686"/>
+      <point x="317" y="850"/>
+      <point x="501" y="850" type="curve" smooth="yes"/>
+      <point x="638" y="850"/>
+    </contour>
+    <contour>
+      <point x="536" y="1050" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

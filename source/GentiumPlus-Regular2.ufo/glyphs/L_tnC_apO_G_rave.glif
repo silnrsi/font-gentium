@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapOGrave" format="1">
+  <advance width="1229"/>
+  <unicode hex="00D2"/>
+  <outline>
+    <component base="LtnCapO"/>
+    <component base="CombGrave.LP" xOffset="1050" yOffset="320"/>
+    <contour>
+      <point x="587" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="617" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="678" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="1258" y="1100" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="617" y="1690" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

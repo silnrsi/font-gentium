@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModLowRtArrwhd" format="1">
+  <advance width="518"/>
+  <unicode hex="02F2"/>
+  <outline>
+    <contour>
+      <point x="466" y="-355"/>
+      <point x="468" y="-342" type="curve"/>
+      <point x="458" y="-331" type="line"/>
+      <point x="107" y="-200" type="line"/>
+      <point x="96" y="-209"/>
+      <point x="83" y="-218"/>
+      <point x="70" y="-228" type="curve"/>
+      <point x="77" y="-246" type="line"/>
+      <point x="455" y="-386" type="line"/>
+      <point x="460" y="-374"/>
+      <point x="466" y="-355"/>
+      <point x="468" y="-342" type="curve"/>
+      <point x="458" y="-331" type="line"/>
+      <point x="83" y="-471" type="line"/>
+      <point x="79" y="-481"/>
+      <point x="74" y="-503"/>
+      <point x="70" y="-514" type="curve"/>
+      <point x="81" y="-525" type="line"/>
+      <point x="455" y="-386" type="line"/>
+      <point x="460" y="-374"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>-100</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

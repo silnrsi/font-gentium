@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmTHook.sc" format="1">
+  <advance width="1146"/>
+  <outline>
+    <contour>
+      <point x="26" y="970"/>
+      <point x="26" y="824" type="curve" smooth="yes"/>
+      <point x="26" y="761"/>
+      <point x="63" y="715"/>
+      <point x="112" y="697" type="curve"/>
+      <point x="164" y="706"/>
+      <point x="249" y="752"/>
+      <point x="258" y="769" type="curve"/>
+      <point x="217" y="785"/>
+      <point x="191" y="815"/>
+      <point x="191" y="851" type="curve" smooth="yes"/>
+      <point x="191" y="934"/>
+      <point x="272" y="953"/>
+      <point x="368" y="953" type="curve"/>
+      <point x="517" y="953" type="line"/>
+      <point x="517" y="101" type="line"/>
+      <point x="517" y="89"/>
+      <point x="479" y="69"/>
+      <point x="366" y="49" type="curve"/>
+      <point x="366" y="0" type="line"/>
+      <point x="829" y="0" type="line"/>
+      <point x="829" y="49" type="line"/>
+      <point x="715" y="69"/>
+      <point x="678" y="90"/>
+      <point x="678" y="101" type="curve"/>
+      <point x="678" y="953" type="line"/>
+      <point x="933" y="953" type="line"/>
+      <point x="979" y="953"/>
+      <point x="989" y="913"/>
+      <point x="1008" y="838" type="curve"/>
+      <point x="1013" y="814" type="line"/>
+      <point x="1066" y="814" type="line"/>
+      <point x="1081" y="884"/>
+      <point x="1092" y="955"/>
+      <point x="1094" y="1016" type="curve"/>
+      <point x="1061" y="1041" type="line"/>
+      <point x="337" y="1041" type="line"/>
+      <point x="170" y="1041"/>
+    </contour>
+    <contour>
+      <point x="566" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="566" y="1145" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

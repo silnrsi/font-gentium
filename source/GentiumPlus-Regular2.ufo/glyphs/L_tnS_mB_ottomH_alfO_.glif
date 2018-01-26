@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmBottomHalfO" format="1">
+  <advance width="1031"/>
+  <unicode hex="1D17"/>
+  <outline>
+    <contour>
+      <point x="241" y="256"/>
+      <point x="235" y="464" type="curve"/>
+      <point x="80" y="464" type="line"/>
+      <point x="73" y="173"/>
+      <point x="245" y="-30"/>
+      <point x="497" y="-30" type="curve" smooth="yes"/>
+      <point x="740" y="-30"/>
+      <point x="939" y="211"/>
+      <point x="950" y="464" type="curve"/>
+      <point x="800" y="464" type="line"/>
+      <point x="802" y="225"/>
+      <point x="714" y="80"/>
+      <point x="525" y="80" type="curve" smooth="yes"/>
+      <point x="402" y="80"/>
+    </contour>
+    <contour>
+      <point x="520" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="520" y="1050" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

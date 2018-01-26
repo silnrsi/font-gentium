@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ShadowedWhiteCirc" format="1">
+  <advance width="1625"/>
+  <unicode hex="274D"/>
+  <outline>
+    <contour>
+      <point x="903" y="1277" type="curve" smooth="yes"/>
+      <point x="728" y="1277" type="line"/>
+      <point x="368" y="1277"/>
+      <point x="80" y="987"/>
+      <point x="80" y="631" type="curve" smooth="yes"/>
+      <point x="80" y="274"/>
+      <point x="368" y="-15"/>
+      <point x="728" y="-15" type="curve" smooth="yes"/>
+      <point x="902" y="-15" type="line" smooth="yes"/>
+      <point x="1257" y="-15"/>
+      <point x="1545" y="274"/>
+      <point x="1545" y="631" type="curve" smooth="yes"/>
+      <point x="1545" y="987"/>
+      <point x="1259" y="1277"/>
+    </contour>
+    <contour>
+      <point x="1289" y="948"/>
+      <point x="1289" y="631" type="curve" smooth="yes"/>
+      <point x="1289" y="316"/>
+      <point x="1044" y="67"/>
+      <point x="728" y="67" type="curve" smooth="yes"/>
+      <point x="411" y="67"/>
+      <point x="170" y="316"/>
+      <point x="170" y="631" type="curve" smooth="yes"/>
+      <point x="170" y="948"/>
+      <point x="411" y="1193"/>
+      <point x="728" y="1193" type="curve" smooth="yes"/>
+      <point x="1044" y="1193"/>
+    </contour>
+  </outline>
+</glyph>

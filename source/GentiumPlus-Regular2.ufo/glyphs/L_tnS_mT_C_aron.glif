@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmTCaron" format="1">
+  <advance width="705"/>
+  <unicode hex="0165"/>
+  <outline>
+    <component base="LtnSmT"/>
+    <component base="CombCommaAbvRt" xOffset="500"/>
+    <contour>
+      <point x="348" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="348" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="348" y="1320" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

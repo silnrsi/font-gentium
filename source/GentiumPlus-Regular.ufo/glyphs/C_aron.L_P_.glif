@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Caron.LP" format="1">
+  <advance width="733"/>
+  <outline>
+    <contour>
+      <point x="421" y="1071" type="line"/>
+      <point x="683" y="1378" type="line"/>
+      <point x="667" y="1405"/>
+      <point x="663" y="1413"/>
+      <point x="640" y="1425" type="curve"/>
+      <point x="370" y="1214" type="line"/>
+      <point x="95" y="1425" type="line"/>
+      <point x="73" y="1413"/>
+      <point x="69" y="1405"/>
+      <point x="50" y="1378" type="curve"/>
+      <point x="314" y="1071" type="line"/>
+    </contour>
+    <contour>
+      <point x="366" y="1396" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="366" y="1050" type="move" name="_U"/>
+    </contour>
+  </outline>
+</glyph>

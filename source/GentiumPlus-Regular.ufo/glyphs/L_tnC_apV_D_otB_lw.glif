@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapVDotBlw" format="1">
+  <advance width="1331"/>
+  <unicode hex="1E7E"/>
+  <outline>
+    <component base="LtnCapV"/>
+    <component base="CombDotBlw" xOffset="1170"/>
+    <contour>
+      <point x="648" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="655" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="616" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="665" y="1370" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

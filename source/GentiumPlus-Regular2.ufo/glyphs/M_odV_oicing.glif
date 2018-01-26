@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModVoicing" format="1">
+  <advance width="633"/>
+  <unicode hex="02EC"/>
+  <outline>
+    <contour>
+      <point x="371" y="-480" type="line"/>
+      <point x="633" y="-173" type="line"/>
+      <point x="617" y="-146"/>
+      <point x="613" y="-138"/>
+      <point x="590" y="-126" type="curve"/>
+      <point x="320" y="-337" type="line"/>
+      <point x="45" y="-126" type="line"/>
+      <point x="23" y="-138"/>
+      <point x="19" y="-146"/>
+      <point x="0" y="-173" type="curve"/>
+      <point x="264" y="-480" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="-600" type="move" name="L"/>
+    </contour>
+  </outline>
+</glyph>

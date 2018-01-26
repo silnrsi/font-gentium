@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombBridgeAbv" format="1">
+  <advance width="0"/>
+  <unicode hex="0346"/>
+  <outline>
+    <contour>
+      <point x="-715" y="1104"/>
+      <point x="-698" y="1121" type="curve"/>
+      <point x="-698" y="1255" type="line"/>
+      <point x="-347" y="1255" type="line"/>
+      <point x="-347" y="1092" type="line"/>
+      <point x="-322" y="1070" type="line"/>
+      <point x="-295" y="1078"/>
+      <point x="-275" y="1101"/>
+      <point x="-257" y="1121" type="curve"/>
+      <point x="-257" y="1321" type="line"/>
+      <point x="-279" y="1345" type="line"/>
+      <point x="-725" y="1345" type="line"/>
+      <point x="-751" y="1331"/>
+      <point x="-770" y="1313"/>
+      <point x="-788" y="1295" type="curve"/>
+      <point x="-788" y="1092" type="line"/>
+      <point x="-763" y="1070" type="line"/>
+      <point x="-738" y="1083"/>
+    </contour>
+    <contour>
+      <point x="-522" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-522" y="1050" type="move" name="_U"/>
+    </contour>
+  </outline>
+</glyph>

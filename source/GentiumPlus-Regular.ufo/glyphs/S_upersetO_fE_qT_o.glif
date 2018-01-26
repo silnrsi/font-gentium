@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SupersetOfEqTo" format="1">
+  <advance width="899"/>
+  <unicode hex="2287"/>
+  <outline>
+    <contour>
+      <point x="823" y="257"/>
+      <point x="830" y="285" type="curve"/>
+      <point x="805" y="310" type="line"/>
+      <point x="95" y="310" type="line"/>
+      <point x="83" y="283"/>
+      <point x="71" y="254"/>
+      <point x="64" y="227" type="curve"/>
+      <point x="89" y="200" type="line"/>
+      <point x="801" y="200" type="line"/>
+      <point x="809" y="225"/>
+    </contour>
+    <contour>
+      <point x="830" y="561"/>
+      <point x="830" y="765" type="curve" smooth="yes"/>
+      <point x="830" y="969"/>
+      <point x="696" y="1140"/>
+      <point x="415" y="1140" type="curve" smooth="yes"/>
+      <point x="97" y="1140" type="line"/>
+      <point x="89" y="1115"/>
+      <point x="75" y="1083"/>
+      <point x="68" y="1055" type="curve"/>
+      <point x="93" y="1030" type="line"/>
+      <point x="404" y="1030" type="line" smooth="yes"/>
+      <point x="601" y="1030"/>
+      <point x="704" y="943"/>
+      <point x="704" y="765" type="curve" smooth="yes"/>
+      <point x="704" y="595"/>
+      <point x="601" y="499"/>
+      <point x="404" y="499" type="curve" smooth="yes"/>
+      <point x="97" y="499" type="line"/>
+      <point x="89" y="474"/>
+      <point x="75" y="443"/>
+      <point x="68" y="415" type="curve"/>
+      <point x="93" y="390" type="line"/>
+      <point x="415" y="390" type="line" smooth="yes"/>
+      <point x="696" y="390"/>
+    </contour>
+  </outline>
+</glyph>

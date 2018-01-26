@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapOmicronWPsiliVaria" format="1">
+  <advance width="1899"/>
+  <unicode hex="1F4A"/>
+  <outline>
+    <component base="GrCapOmicron" xOffset="670"/>
+    <component base="GrPsiliVaria" yOffset="-100"/>
+  </outline>
+</glyph>

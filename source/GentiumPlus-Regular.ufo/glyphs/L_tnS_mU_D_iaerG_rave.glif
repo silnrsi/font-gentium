@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmUDiaerGrave" format="1">
+  <advance width="1085"/>
+  <unicode hex="01DC"/>
+  <outline>
+    <component base="LtnSmU"/>
+    <component base="CombDiaer" xOffset="1060"/>
+    <component base="CombGrave" xOffset="978" yOffset="360"/>
+    <contour>
+      <point x="546" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="545" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="860" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="1084" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="545" y="1770" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

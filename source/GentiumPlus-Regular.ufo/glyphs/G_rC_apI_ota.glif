@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapIota" format="1">
+  <advance width="650"/>
+  <unicode hex="0399"/>
+  <outline>
+    <contour>
+      <point x="90" y="0" type="line"/>
+      <point x="540" y="0" type="line"/>
+      <point x="540" y="43" type="line"/>
+      <point x="444" y="61"/>
+      <point x="395" y="88"/>
+      <point x="395" y="104" type="curve" smooth="yes"/>
+      <point x="395" y="1155" type="line" smooth="yes"/>
+      <point x="395" y="1174"/>
+      <point x="450" y="1198"/>
+      <point x="540" y="1217" type="curve"/>
+      <point x="540" y="1260" type="line"/>
+      <point x="90" y="1260" type="line"/>
+      <point x="90" y="1217" type="line"/>
+      <point x="186" y="1198"/>
+      <point x="235" y="1171"/>
+      <point x="235" y="1155" type="curve" smooth="yes"/>
+      <point x="235" y="104" type="line" smooth="yes"/>
+      <point x="235" y="86"/>
+      <point x="180" y="61"/>
+      <point x="90" y="43" type="curve"/>
+    </contour>
+    <contour>
+      <point x="315" y="1370" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

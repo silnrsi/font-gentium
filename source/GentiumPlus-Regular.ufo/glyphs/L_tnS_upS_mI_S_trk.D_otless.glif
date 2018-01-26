@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSupSmIStrk.Dotless" format="1">
+  <advance width="388"/>
+  <outline>
+    <contour>
+      <point x="49" y="620" type="line"/>
+      <point x="350" y="620" type="line"/>
+      <point x="350" y="656" type="line"/>
+      <point x="282" y="667"/>
+      <point x="262" y="683"/>
+      <point x="262" y="692" type="curve" smooth="yes"/>
+      <point x="262" y="1196" type="line"/>
+      <point x="231" y="1196" type="line"/>
+      <point x="184" y="1176"/>
+      <point x="108" y="1158"/>
+      <point x="49" y="1148" type="curve"/>
+      <point x="49" y="1114" type="line"/>
+      <point x="136" y="1109"/>
+      <point x="137" y="1104"/>
+      <point x="137" y="1012" type="curve" smooth="yes"/>
+      <point x="137" y="692" type="line" smooth="yes"/>
+      <point x="137" y="682"/>
+      <point x="112" y="667"/>
+      <point x="49" y="656" type="curve"/>
+    </contour>
+    <contour>
+      <point x="51" y="864" type="line"/>
+      <point x="349" y="864" type="line"/>
+      <point x="366" y="909" type="line"/>
+      <point x="348" y="928" type="line"/>
+      <point x="51" y="928" type="line"/>
+      <point x="43" y="915"/>
+      <point x="36" y="894"/>
+      <point x="32" y="881" type="curve"/>
+    </contour>
+    <contour>
+      <point x="200" y="540" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="200" y="1286" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

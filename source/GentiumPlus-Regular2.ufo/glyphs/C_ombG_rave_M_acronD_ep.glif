@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombGrave_MacronDep" format="1">
+  <advance width="0"/>
+  <unicode hex="F172"/>
+  <outline>
+    <contour>
+      <point x="-935" y="1567" type="line"/>
+      <point x="-935" y="1125" type="line"/>
+      <point x="-161" y="1125" type="line"/>
+      <point x="-161" y="1567" type="line"/>
+    </contour>
+    <contour>
+      <point x="-213" y="1285" type="line"/>
+      <point x="-191" y="1261" type="line"/>
+      <point x="-197" y="1232"/>
+      <point x="-220" y="1180"/>
+      <point x="-230" y="1155" type="curve"/>
+      <point x="-715" y="1155" type="line"/>
+      <point x="-905" y="1506" type="line"/>
+      <point x="-888" y="1522"/>
+      <point x="-872" y="1530"/>
+      <point x="-849" y="1537" type="curve"/>
+      <point x="-617" y="1285" type="line"/>
+    </contour>
+    <contour>
+      <point x="-514" y="1050" type="move" name="_U"/>
+    </contour>
+  </outline>
+</glyph>

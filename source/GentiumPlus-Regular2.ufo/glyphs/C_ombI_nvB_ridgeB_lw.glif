@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombInvBridgeBlw" format="1">
+  <advance width="0"/>
+  <unicode hex="033A"/>
+  <outline>
+    <contour>
+      <point x="-329" y="-193"/>
+      <point x="-346" y="-210" type="curve"/>
+      <point x="-346" y="-344" type="line"/>
+      <point x="-697" y="-344" type="line"/>
+      <point x="-697" y="-181" type="line"/>
+      <point x="-722" y="-159" type="line"/>
+      <point x="-749" y="-167"/>
+      <point x="-769" y="-190"/>
+      <point x="-787" y="-210" type="curve"/>
+      <point x="-787" y="-410" type="line"/>
+      <point x="-765" y="-434" type="line"/>
+      <point x="-319" y="-434" type="line"/>
+      <point x="-293" y="-420"/>
+      <point x="-274" y="-402"/>
+      <point x="-256" y="-384" type="curve"/>
+      <point x="-256" y="-181" type="line"/>
+      <point x="-281" y="-159" type="line"/>
+      <point x="-306" y="-172"/>
+    </contour>
+    <contour>
+      <point x="-521" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-521" y="-100" type="move" name="_L"/>
+    </contour>
+  </outline>
+</glyph>

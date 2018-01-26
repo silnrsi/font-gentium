@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModPlusSgn" format="1">
+  <advance width="602"/>
+  <unicode hex="02D6"/>
+  <outline>
+    <contour>
+      <point x="557" y="525"/>
+      <point x="562" y="541" type="curve"/>
+      <point x="545" y="556" type="line"/>
+      <point x="61" y="556" type="line"/>
+      <point x="53" y="540"/>
+      <point x="45" y="499"/>
+      <point x="40" y="483" type="curve"/>
+      <point x="57" y="469" type="line"/>
+      <point x="541" y="469" type="line"/>
+      <point x="548" y="482"/>
+    </contour>
+    <contour>
+      <point x="333" y="289"/>
+      <point x="351" y="297" type="curve"/>
+      <point x="351" y="733" type="line"/>
+      <point x="334" y="747" type="line"/>
+      <point x="314" y="743"/>
+      <point x="268" y="734"/>
+      <point x="250" y="730" type="curve"/>
+      <point x="250" y="291" type="line"/>
+      <point x="268" y="278" type="line"/>
+      <point x="288" y="282"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmGCaron.SngBowl" format="1">
+  <advance width="985"/>
+  <outline>
+    <component base="LtnSmG.SngBowl"/>
+    <component base="CombCaron" xOffset="1054"/>
+    <contour>
+      <point x="520" y="-470" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="520" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1060" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="540" y="1450" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

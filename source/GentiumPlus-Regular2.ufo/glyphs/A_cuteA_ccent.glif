@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AcuteAccent" format="1">
+  <advance width="653"/>
+  <unicode hex="00B4"/>
+  <outline>
+    <contour>
+      <point x="274" y="1047" type="curve"/>
+      <point x="619" y="1427" type="line"/>
+      <point x="596" y="1466" type="line"/>
+      <point x="566" y="1474"/>
+      <point x="483" y="1487"/>
+      <point x="451" y="1489" type="curve"/>
+      <point x="217" y="1075" type="line"/>
+      <point x="233" y="1063"/>
+      <point x="250" y="1052"/>
+    </contour>
+    <contour>
+      <point x="327" y="1410" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CySmPe" format="1">
+  <advance width="1135"/>
+  <unicode hex="043F"/>
+  <outline>
+    <contour>
+      <point x="650" y="0" type="line"/>
+      <point x="1080" y="0" type="line"/>
+      <point x="1080" y="43" type="line"/>
+      <point x="983" y="61"/>
+      <point x="940" y="88"/>
+      <point x="940" y="104" type="curve" smooth="yes"/>
+      <point x="940" y="826" type="line" smooth="yes"/>
+      <point x="940" y="844"/>
+      <point x="990" y="869"/>
+      <point x="1080" y="887" type="curve"/>
+      <point x="1080" y="930" type="line"/>
+      <point x="55" y="930" type="line"/>
+      <point x="55" y="887" type="line"/>
+      <point x="149" y="869"/>
+      <point x="193" y="843"/>
+      <point x="195" y="827" type="curve"/>
+      <point x="195" y="104" type="line" smooth="yes"/>
+      <point x="195" y="86"/>
+      <point x="145" y="61"/>
+      <point x="55" y="43" type="curve"/>
+      <point x="55" y="0" type="line"/>
+      <point x="485" y="0" type="line"/>
+      <point x="485" y="43" type="line"/>
+      <point x="388" y="61"/>
+      <point x="345" y="88"/>
+      <point x="345" y="104" type="curve" smooth="yes"/>
+      <point x="345" y="840" type="line"/>
+      <point x="790" y="840" type="line"/>
+      <point x="790" y="102" type="line"/>
+      <point x="787" y="84"/>
+      <point x="737" y="60"/>
+      <point x="650" y="43" type="curve"/>
+    </contour>
+    <contour>
+      <point x="567" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="567" y="1050" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

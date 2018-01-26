@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmACaron.2StorySItal.LP" format="1">
+  <advance width="940"/>
+  <outline>
+    <component base="LtnSmA.2StorySItal"/>
+    <component base="CombCaron.LP" xOffset="994"/>
+    <contour>
+      <point x="426" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="460" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="715" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="940" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="480" y="1370" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>
