@@ -7,13 +7,13 @@
   <key>capHeight</key>
   <integer>1260</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2003-2017 SIL International</string>
+  <string>Copyright (c) 2003-2018 SIL International</string>
   <key>descender</key>
   <integer>-750</integer>
   <key>familyName</key>
-  <string>Gentium Book Plus</string>
+  <string>Gentium Plus Master</string>
   <key>openTypeHeadCreated</key>
-  <string>2017/12/12 14:22:55</string>
+  <string>2018/01/25 21:46:48</string>
   <key>openTypeHheaAscender</key>
   <integer>2250</integer>
   <key>openTypeHheaDescender</key>
@@ -21,13 +21,13 @@
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
-  <string>Copyright (c) 2003-2017 SIL International</string>
+  <string>Copyright (c) 2003-2018 SIL International</string>
   <key>openTypeNameDesigner</key>
   <string>Victor Gaultney, Annie Olsen, Iska Routamaa, Becca Hirsbrunner</string>
   <key>openTypeNameDesignerURL</key>
   <string>http://scripts.sil.org/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2003-2017 SIL International (http://www.sil.org/) with Reserved Font Names "Gentium" and "SIL".
+  <string>Copyright (c) 2003-2018 SIL International (http://www.sil.org/) with Reserved Font Names "Gentium" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
@@ -77,11 +77,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameManufacturerURL</key>
   <string>http://www.sil.org/</string>
   <key>openTypeNamePreferredFamilyName</key>
-  <string>Gentium Book Plus</string>
+  <string>Gentium Plus Master</string>
   <key>openTypeNamePreferredSubfamilyName</key>
-  <string>Bold</string>
+  <string>Extra Bold</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Gentium Book Plus Bold: 2017</string>
+  <string>SIL International: Gentium Plus Master Extra Bold: 2018</string>
   <key>openTypeNameVersion</key>
   <string>Version 5.950</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -112,8 +112,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>0</integer>
     <integer>4</integer>
   </array>
-  <key>openTypeOS2Selection</key>
-  <array/>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>500</integer>
   <key>openTypeOS2StrikeoutSize</key>
@@ -134,8 +132,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>1200</integer>
   <key>openTypeOS2SuperscriptYSize</key>
   <integer>856</integer>
-  <key>openTypeOS2Type</key>
-  <array/>
   <key>openTypeOS2TypoAscender</key>
   <integer>2250</integer>
   <key>openTypeOS2TypoDescender</key>
@@ -201,9 +197,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>1320</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>GentiumBookPlus-Bold</string>
+  <string>GentiumPlusMaster-ExtraBold</string>
   <key>postscriptFullName</key>
-  <string>Gentium Book Plus Bold</string>
+  <string>Gentium Plus Master Extra Bold</string>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-500</integer>
@@ -248,7 +244,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>styleMapStyleName</key>
   <string>bold</string>
   <key>styleName</key>
-  <string>Bold</string>
+  <string>Extra Bold</string>
   <key>trademark</key>
   <string>Gentium is a trademark of SIL International.</string>
   <key>unitsPerEm</key>
