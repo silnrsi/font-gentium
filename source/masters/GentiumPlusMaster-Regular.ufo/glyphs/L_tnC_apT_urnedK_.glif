@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapTurnedK" format="1">
+<glyph name="LtnCapTurnedK" format="2">
   <advance width="1184"/>
   <unicode hex="A7B0"/>
+  <anchor x="602" y="-100" name="L"/>
+  <anchor x="580" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="170" y="54"/>
@@ -53,12 +55,6 @@
       <point x="999" y="1174"/>
       <point x="1054" y="1199"/>
       <point x="1144" y="1217" type="curve"/>
-    </contour>
-    <contour>
-      <point x="602" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="580" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

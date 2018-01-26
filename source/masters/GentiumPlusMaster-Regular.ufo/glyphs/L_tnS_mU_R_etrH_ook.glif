@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmURetrHook" format="1">
+<glyph name="LtnSmURetrHook" format="2">
   <advance width="1103"/>
   <unicode hex="1D99"/>
+  <anchor x="544" y="-100" name="L"/>
+  <anchor x="544" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="284" y="-30"/>
@@ -70,12 +72,6 @@
       <point x="1040" y="-500"/>
       <point x="1152" y="-500" type="curve" smooth="yes"/>
       <point x="1307" y="-500"/>
-    </contour>
-    <contour>
-      <point x="544" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="544" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

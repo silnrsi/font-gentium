@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmEpsilon" format="1">
+<glyph name="GrSmEpsilon" format="2">
   <advance width="862"/>
   <unicode hex="03B5"/>
+  <anchor x="485" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="761" y="810"/>
@@ -58,9 +59,6 @@
       <point x="653" y="760"/>
       <point x="681" y="760" type="curve" smooth="yes"/>
       <point x="700" y="760"/>
-    </contour>
-    <contour>
-      <point x="485" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

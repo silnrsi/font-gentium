@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapIota" format="1">
+<glyph name="GrCapIota" format="2">
   <advance width="650"/>
   <unicode hex="0399"/>
+  <anchor x="315" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="90" y="0" type="line"/>
@@ -24,9 +25,6 @@
       <point x="235" y="86"/>
       <point x="180" y="61"/>
       <point x="90" y="43" type="curve"/>
-    </contour>
-    <contour>
-      <point x="315" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

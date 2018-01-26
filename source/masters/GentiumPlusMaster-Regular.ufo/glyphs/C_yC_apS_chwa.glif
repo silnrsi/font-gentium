@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapSchwa" format="1">
+<glyph name="CyCapSchwa" format="2">
   <advance width="1122"/>
   <unicode hex="04D8"/>
+  <anchor x="561" y="-100" name="L"/>
+  <anchor x="561" y="1370" name="U"/>
   <outline>
     <component base="LtnCapSchwa"/>
-    <contour>
-      <point x="561" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="561" y="1370" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

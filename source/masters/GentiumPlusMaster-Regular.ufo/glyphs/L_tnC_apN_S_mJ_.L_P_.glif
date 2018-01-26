@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapNSmJ.LP" format="1">
+<glyph name="LtnCapNSmJ.LP" format="2">
   <advance width="1859"/>
+  <anchor x="1589" y="-600" name="L"/>
+  <anchor x="1589" y="1050" name="U"/>
   <outline>
     <component base="LtnCapN"/>
     <component base="LtnSmJ.LP" xOffset="1329"/>
-    <contour>
-      <point x="1589" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="1589" y="1050" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

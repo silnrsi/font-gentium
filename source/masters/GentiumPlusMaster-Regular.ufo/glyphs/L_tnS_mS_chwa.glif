@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmSchwa" format="1">
+<glyph name="LtnSmSchwa" format="2">
   <advance width="930"/>
   <unicode hex="0259"/>
+  <anchor x="460" y="0" name="H"/>
+  <anchor x="460" y="-100" name="L"/>
+  <anchor x="490" y="0" name="O"/>
+  <anchor x="460" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="850" y="328"/>
@@ -46,18 +50,6 @@
       <point x="627" y="8"/>
       <point x="702" y="90" type="curve" smooth="yes"/>
       <point x="793" y="188"/>
-    </contour>
-    <contour>
-      <point x="460" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="460" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="490" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="460" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

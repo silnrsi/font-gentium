@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnRevEshLoop" format="1">
+<glyph name="LtnRevEshLoop" format="2">
   <advance width="706"/>
   <unicode hex="01AA"/>
+  <anchor x="504" y="-600" name="L"/>
+  <anchor x="504" y="1690" name="U"/>
   <outline>
     <contour>
       <point x="30" y="1399"/>
@@ -51,12 +53,6 @@
       <point x="499" y="1550"/>
       <point x="337" y="1550" type="curve" smooth="yes"/>
       <point x="162" y="1550"/>
-    </contour>
-    <contour>
-      <point x="504" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="504" y="1690" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

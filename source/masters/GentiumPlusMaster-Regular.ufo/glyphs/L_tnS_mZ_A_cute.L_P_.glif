@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmZAcute.LP" format="1">
+<glyph name="LtnSmZAcute.LP" format="2">
   <advance width="869"/>
+  <anchor x="452" y="0" name="H"/>
+  <anchor x="452" y="-100" name="L"/>
+  <anchor x="480" y="1370" name="U"/>
   <outline>
     <component base="LtnSmZ"/>
     <component base="CombAcute.LP" xOffset="1023"/>
-    <contour>
-      <point x="452" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="452" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="480" y="1370" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

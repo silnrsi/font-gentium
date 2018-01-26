@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmS" format="1">
+<glyph name="ModSmS" format="2">
   <advance width="554"/>
   <unicode hex="02E2"/>
+  <anchor x="268" y="540" name="L"/>
+  <anchor x="274" y="1286" name="U"/>
   <outline>
     <contour>
       <point x="490" y="620"/>
@@ -48,12 +50,6 @@
       <point x="205" y="602"/>
       <point x="249" y="602" type="curve" smooth="yes"/>
       <point x="304" y="602"/>
-    </contour>
-    <contour>
-      <point x="268" y="540" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="274" y="1286" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

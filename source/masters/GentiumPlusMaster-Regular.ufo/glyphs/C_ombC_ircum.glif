@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombCircum" format="1">
+<glyph name="CombCircum" format="2">
   <advance width="0"/>
   <unicode hex="0302"/>
+  <anchor x="-514" y="1500" name="U"/>
+  <anchor x="-514" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="-214" y="1067"/>
@@ -15,12 +17,6 @@
       <point x="-515" y="1315" type="line"/>
       <point x="-241" y="1047" type="line"/>
       <point x="-218" y="1057"/>
-    </contour>
-    <contour>
-      <point x="-514" y="1500" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="-514" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

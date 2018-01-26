@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapECedilla" format="1">
+<glyph name="LtnCapECedilla" format="2">
   <advance width="1016"/>
   <unicode hex="0228"/>
+  <anchor x="502" y="-600" name="L"/>
+  <anchor x="750" y="0" name="O"/>
+  <anchor x="1016" y="1100" name="R"/>
+  <anchor x="502" y="1370" name="U"/>
   <outline>
     <component base="LtnCapE"/>
     <component base="CombCedilla" xOffset="1015"/>
-    <contour>
-      <point x="502" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="750" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="1016" y="1100" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="502" y="1370" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

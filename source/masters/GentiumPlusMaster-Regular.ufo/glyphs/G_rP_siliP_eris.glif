@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrPsiliPeris" format="1">
+<glyph name="GrPsiliPeris" format="2">
   <advance width="383"/>
   <unicode hex="1FCF"/>
+  <anchor x="191" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="480" y="1605"/>
@@ -43,9 +44,6 @@
       <point x="115" y="1111" type="curve"/>
       <point x="150" y="1074" type="line"/>
       <point x="258" y="1124"/>
-    </contour>
-    <contour>
-      <point x="191" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

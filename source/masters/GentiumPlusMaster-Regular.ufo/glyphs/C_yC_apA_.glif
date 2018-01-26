@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapA" format="1">
+<glyph name="CyCapA" format="2">
   <advance width="1219"/>
   <unicode hex="0410"/>
+  <anchor x="599" y="-100" name="L"/>
+  <anchor x="599" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="381" y="445" type="line"/>
@@ -35,12 +37,6 @@
       <point x="758" y="535" type="line"/>
       <point x="411" y="535" type="line"/>
       <point x="582" y="1049" type="line"/>
-    </contour>
-    <contour>
-      <point x="599" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="599" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

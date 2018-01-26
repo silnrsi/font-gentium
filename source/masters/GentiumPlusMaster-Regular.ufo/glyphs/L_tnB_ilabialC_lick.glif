@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnBilabialClick" format="1">
+<glyph name="LtnBilabialClick" format="2">
   <advance width="1269"/>
   <unicode hex="0298"/>
+  <anchor x="616" y="-100" name="L"/>
+  <anchor x="616" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1178" y="285"/>
@@ -44,12 +46,6 @@
       <point x="536" y="487"/>
       <point x="606" y="487" type="curve" smooth="yes"/>
       <point x="684" y="487"/>
-    </contour>
-    <contour>
-      <point x="616" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="616" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

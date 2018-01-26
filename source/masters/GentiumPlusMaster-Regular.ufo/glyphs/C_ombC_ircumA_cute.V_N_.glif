@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombCircumAcute.VN" format="1">
+<glyph name="CombCircumAcute.VN" format="2">
   <advance width="0"/>
+  <anchor x="-514" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="-214" y="1067"/>
@@ -25,9 +26,6 @@
       <point x="-90" y="1624" type="line"/>
       <point x="-124" y="1629"/>
       <point x="-159" y="1634"/>
-    </contour>
-    <contour>
-      <point x="-514" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

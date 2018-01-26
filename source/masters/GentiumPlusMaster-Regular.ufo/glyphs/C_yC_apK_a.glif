@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapKa" format="1">
+<glyph name="CyCapKa" format="2">
   <advance width="1220"/>
   <unicode hex="041A"/>
+  <anchor x="640" y="-100" name="L"/>
+  <anchor x="640" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="50" y="0" type="line"/>
@@ -70,12 +72,6 @@
       <point x="934" y="1127" type="curve" smooth="yes"/>
       <point x="975" y="1127"/>
       <point x="999" y="1098"/>
-    </contour>
-    <contour>
-      <point x="640" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="640" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

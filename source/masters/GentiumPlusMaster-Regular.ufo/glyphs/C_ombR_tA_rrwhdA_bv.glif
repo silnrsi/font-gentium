@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombRtArrwhdAbv" format="1">
+<glyph name="CombRtArrwhdAbv" format="2">
   <advance width="0"/>
   <unicode hex="0350"/>
+  <anchor x="-518" y="1450" name="U"/>
+  <anchor x="-518" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="-213" y="1286"/>
@@ -26,12 +28,6 @@
       <point x="-809" y="1014" type="line"/>
       <point x="-233" y="1229" type="line"/>
       <point x="-223" y="1250"/>
-    </contour>
-    <contour>
-      <point x="-518" y="1450" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="-518" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

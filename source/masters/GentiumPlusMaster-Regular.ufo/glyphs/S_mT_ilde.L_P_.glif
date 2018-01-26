@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="SmTilde.LP" format="1">
+<glyph name="SmTilde.LP" format="2">
   <advance width="822"/>
+  <anchor x="411" y="1050" name="L"/>
+  <anchor x="411" y="1370" name="U"/>
+  <anchor x="411" y="1370" name="_L"/>
+  <anchor x="411" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="705" y="1198"/>
@@ -23,18 +27,6 @@
       <point x="420" y="1081"/>
       <point x="512" y="1081" type="curve" smooth="yes"/>
       <point x="616" y="1081"/>
-    </contour>
-    <contour>
-      <point x="411" y="1050" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="411" y="1370" type="move" name="U"/>
-    </contour>
-    <contour>
-      <point x="411" y="1370" type="move" name="_L"/>
-    </contour>
-    <contour>
-      <point x="411" y="1050" type="move" name="_U"/>
     </contour>
   </outline>
 </glyph>

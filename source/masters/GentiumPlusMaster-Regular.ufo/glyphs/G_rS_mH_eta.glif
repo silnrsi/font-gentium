@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmHeta" format="1">
+<glyph name="GrSmHeta" format="2">
   <advance width="763"/>
   <unicode hex="0371"/>
+  <anchor x="408" y="-84" name="L"/>
+  <anchor x="404" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="698" y="470"/>
@@ -45,12 +47,6 @@
       <point x="351" y="144"/>
       <point x="352" y="236" type="curve"/>
       <point x="352" y="237"/>
-    </contour>
-    <contour>
-      <point x="408" y="-84" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="404" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapPLowCurl" format="1">
+<glyph name="LtnCapPLowCurl" format="2">
   <advance width="1251"/>
   <unicode hex="A752"/>
+  <anchor x="691" y="-100" name="L"/>
+  <anchor x="691" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1162" y="659"/>
@@ -58,12 +60,6 @@
       <point x="375" y="86"/>
       <point x="320" y="61"/>
       <point x="230" y="43" type="curve"/>
-    </contour>
-    <contour>
-      <point x="691" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="691" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

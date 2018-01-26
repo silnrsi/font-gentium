@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="MathFrktCapM" format="1">
+<glyph name="MathFrktCapM" format="2">
   <advance width="1997"/>
   <unicode hex="1D510"/>
+  <anchor x="1006" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1634" y="-8" type="curve"/>
@@ -103,9 +104,6 @@
       <point x="1566" y="1026" type="curve" smooth="yes"/>
       <point x="1574" y="1026"/>
       <point x="1597" y="1035"/>
-    </contour>
-    <contour>
-      <point x="1006" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

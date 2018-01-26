@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombVertLineBlw" format="1">
+<glyph name="CombVertLineBlw" format="2">
   <advance width="0"/>
   <unicode hex="0329"/>
+  <anchor x="-525" y="-600" name="L"/>
+  <anchor x="-525" y="-100" name="_L"/>
   <outline>
     <contour>
       <point x="-497" y="-482"/>
@@ -14,12 +16,6 @@
       <point x="-580" y="-478" type="line"/>
       <point x="-555" y="-500" type="line"/>
       <point x="-529" y="-494"/>
-    </contour>
-    <contour>
-      <point x="-525" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="-525" y="-100" type="move" name="_L"/>
     </contour>
   </outline>
 </glyph>

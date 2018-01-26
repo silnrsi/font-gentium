@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmO" format="1">
+<glyph name="CySmO" format="2">
   <advance width="1030"/>
   <unicode hex="043E"/>
+  <anchor x="516" y="-100" name="L"/>
+  <anchor x="516" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="950" y="219"/>
@@ -30,12 +32,6 @@
       <point x="303" y="850"/>
       <point x="506" y="850" type="curve" smooth="yes"/>
       <point x="643" y="850"/>
-    </contour>
-    <contour>
-      <point x="516" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="516" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

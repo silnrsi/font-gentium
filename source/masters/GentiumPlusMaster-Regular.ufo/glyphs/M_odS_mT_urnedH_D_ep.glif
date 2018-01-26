@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmTurnedHDep" format="1">
+<glyph name="ModSmTurnedHDep" format="2">
   <advance width="759"/>
   <unicode hex="F1BB"/>
+  <anchor x="368" y="500" name="L"/>
+  <anchor x="368" y="1400" name="U"/>
   <outline>
     <contour>
       <point x="-3" y="1226" type="line"/>
@@ -51,12 +53,6 @@
       <point x="647" y="490" type="line" smooth="yes"/>
       <point x="647" y="418"/>
       <point x="647" y="407"/>
-    </contour>
-    <contour>
-      <point x="368" y="500" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="368" y="1400" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

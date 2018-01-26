@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapSmQHookTailDep" format="1">
+<glyph name="LtnCapSmQHookTailDep" format="2">
   <advance width="1229"/>
   <unicode hex="F212"/>
+  <anchor x="604" y="-600" name="L"/>
+  <anchor x="604" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="36" y="1320" type="line"/>
@@ -68,12 +70,6 @@
       <point x="894" y="332" type="curve"/>
       <point x="894" y="991" type="line"/>
       <point x="842" y="1094"/>
-    </contour>
-    <contour>
-      <point x="604" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="604" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

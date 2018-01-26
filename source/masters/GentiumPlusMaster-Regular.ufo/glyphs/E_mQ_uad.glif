@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="EmQuad" format="1">
+<glyph name="EmQuad" format="2">
   <advance width="1569"/>
   <unicode hex="2001"/>
-  <outline>
-    <contour>
-      <point x="784" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="784" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="834" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="1569" y="900" type="move" name="R"/>
-    </contour>
-    <contour>
-      <point x="784" y="1435" type="move" name="U"/>
-    </contour>
-  </outline>
+  <anchor x="784" y="0" name="H"/>
+  <anchor x="784" y="-100" name="L"/>
+  <anchor x="834" y="0" name="O"/>
+  <anchor x="1569" y="900" name="R"/>
+  <anchor x="784" y="1435" name="U"/>
+  <outline/>
   <lib>
     <dict>
       <key>com.typemytype.robofont.guides</key>

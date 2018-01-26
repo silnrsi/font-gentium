@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrRhoSym" format="1">
+<glyph name="GrRhoSym" format="2">
   <advance width="969"/>
   <unicode hex="03F1"/>
+  <anchor x="516" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="289" y="-50"/>
@@ -52,9 +53,6 @@
       <point x="788" y="-196"/>
       <point x="535" y="-152" type="curve" smooth="yes"/>
       <point x="303" y="-112"/>
-    </contour>
-    <contour>
-      <point x="516" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

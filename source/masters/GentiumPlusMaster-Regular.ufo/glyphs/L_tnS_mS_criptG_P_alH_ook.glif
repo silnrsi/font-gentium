@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmScriptGPalHook" format="1">
+<glyph name="LtnSmScriptGPalHook" format="2">
   <advance width="1340"/>
   <unicode hex="1D83"/>
+  <anchor x="520" y="-600" name="L"/>
+  <anchor x="540" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="268" y="-30"/>
@@ -92,12 +94,6 @@
       <point x="1310" y="48" type="line"/>
       <point x="1303" y="59"/>
       <point x="1288" y="74"/>
-    </contour>
-    <contour>
-      <point x="520" y="-600" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="540" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

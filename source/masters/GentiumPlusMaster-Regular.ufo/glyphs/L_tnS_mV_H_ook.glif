@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmVHook" format="1">
+<glyph name="LtnSmVHook" format="2">
   <advance width="995"/>
   <unicode hex="028B"/>
+  <anchor x="476" y="0" name="H"/>
+  <anchor x="478" y="-100" name="L"/>
+  <anchor x="536" y="0" name="O"/>
+  <anchor x="478" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="915" y="225"/>
@@ -36,18 +40,6 @@
       <point x="305" y="-30"/>
       <point x="457" y="-30" type="curve" smooth="yes"/>
       <point x="690" y="-30"/>
-    </contour>
-    <contour>
-      <point x="476" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="478" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="536" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="478" y="1050" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

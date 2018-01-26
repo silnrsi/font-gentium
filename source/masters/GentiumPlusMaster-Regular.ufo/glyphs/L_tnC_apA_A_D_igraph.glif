@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapAADigraph" format="1">
+<glyph name="LtnCapAADigraph" format="2">
   <advance width="1999"/>
   <unicode hex="A732"/>
+  <anchor x="994" y="0" name="H"/>
+  <anchor x="990" y="-100" name="L"/>
+  <anchor x="1740" y="0" name="O"/>
+  <anchor x="990" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1161" y="445" type="line"/>
@@ -58,18 +62,6 @@
       <point x="758" y="535" type="line"/>
       <point x="411" y="535" type="line"/>
       <point x="582" y="1049" type="line"/>
-    </contour>
-    <contour>
-      <point x="994" y="0" type="move" name="H"/>
-    </contour>
-    <contour>
-      <point x="990" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="1740" y="0" type="move" name="O"/>
-    </contour>
-    <contour>
-      <point x="990" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>

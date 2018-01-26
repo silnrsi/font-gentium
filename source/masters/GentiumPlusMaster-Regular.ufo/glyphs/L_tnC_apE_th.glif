@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapEth" format="1">
+<glyph name="LtnCapEth" format="2">
   <advance width="1214"/>
   <unicode hex="00D0"/>
+  <anchor x="575" y="-100" name="L"/>
+  <anchor x="575" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="614" y="615" type="line"/>
@@ -14,11 +16,5 @@
       <point x="49" y="615" type="line"/>
     </contour>
     <component base="LtnCapD"/>
-    <contour>
-      <point x="575" y="-100" type="move" name="L"/>
-    </contour>
-    <contour>
-      <point x="575" y="1370" type="move" name="U"/>
-    </contour>
   </outline>
 </glyph>

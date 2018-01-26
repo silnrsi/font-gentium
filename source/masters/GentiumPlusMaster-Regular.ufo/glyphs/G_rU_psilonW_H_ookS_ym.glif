@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrUpsilonWHookSym" format="1">
+<glyph name="GrUpsilonWHookSym" format="2">
   <advance width="1277"/>
   <unicode hex="03D2"/>
+  <anchor x="604" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1211" y="997"/>
@@ -53,9 +54,6 @@
       <point x="1072" y="973" type="curve"/>
       <point x="1092" y="943" type="line"/>
       <point x="1156" y="973"/>
-    </contour>
-    <contour>
-      <point x="604" y="1370" type="move" name="U"/>
     </contour>
   </outline>
 </glyph>
