@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapYGrave" format="1">
+  <advance width="1178"/>
+  <unicode hex="1EF2"/>
+  <outline>
+    <component base="LtnCapY"/>
+    <component base="CombGrave.LP" xOffset="1033" yOffset="320"/>
+    <contour>
+      <point x="541" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="768" y="1640" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

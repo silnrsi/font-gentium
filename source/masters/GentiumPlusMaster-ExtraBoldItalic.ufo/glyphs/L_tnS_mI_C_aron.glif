@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmICaron" format="1">
+  <advance width="589"/>
+  <unicode hex="01D0"/>
+  <outline>
+    <component base="LtnSmDotlessI"/>
+    <component base="CombCaron" xOffset="789"/>
+    <contour>
+      <point x="248" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="248" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="288" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="616" y="870" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="459" y="1422" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

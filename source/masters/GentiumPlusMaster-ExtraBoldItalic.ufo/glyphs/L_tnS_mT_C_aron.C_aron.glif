@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmTCaron.Caron" format="1">
+  <advance width="714"/>
+  <outline>
+    <component base="LtnSmT"/>
+    <component base="CombCaron" xOffset="856" yOffset="230"/>
+    <contour>
+      <point x="295" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="281" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="659" y="870" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="526" y="1652" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

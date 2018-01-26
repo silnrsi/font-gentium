@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombDblTilde" format="1">
+  <advance width="0"/>
+  <unicode hex="0360"/>
+  <outline>
+    <contour>
+      <point x="861" y="1761" type="curve"/>
+      <point x="775" y="1828" type="line"/>
+      <point x="692" y="1732"/>
+      <point x="574" y="1698"/>
+      <point x="436" y="1698" type="curve" smooth="yes"/>
+      <point x="306" y="1698"/>
+      <point x="104" y="1838"/>
+      <point x="-83" y="1838" type="curve" smooth="yes"/>
+      <point x="-294" y="1838"/>
+      <point x="-493" y="1720"/>
+      <point x="-596" y="1574" type="curve"/>
+      <point x="-513" y="1507" type="line"/>
+      <point x="-424" y="1599"/>
+      <point x="-325" y="1637"/>
+      <point x="-184" y="1637" type="curve" smooth="yes"/>
+      <point x="-33" y="1637"/>
+      <point x="164" y="1497"/>
+      <point x="337" y="1497" type="curve" smooth="yes"/>
+      <point x="569" y="1497"/>
+      <point x="761" y="1625"/>
+    </contour>
+    <contour>
+      <point x="177" y="1930" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

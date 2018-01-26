@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapZ" format="1">
+  <advance width="1078"/>
+  <unicode hex="005A"/>
+  <outline>
+    <contour>
+      <point x="1100" y="1207" type="line"/>
+      <point x="1075" y="1260" type="line"/>
+      <point x="437" y="1260" type="line" smooth="yes"/>
+      <point x="364" y="1260"/>
+      <point x="328" y="1260"/>
+      <point x="262" y="1276" type="curve"/>
+      <point x="174" y="895" type="line"/>
+      <point x="261" y="873" type="line"/>
+      <point x="307" y="1012"/>
+      <point x="388" y="1120"/>
+      <point x="428" y="1120" type="curve" smooth="yes"/>
+      <point x="771" y="1120" type="line"/>
+      <point x="11" y="55" type="line"/>
+      <point x="40" y="0" type="line"/>
+      <point x="934" y="0" type="line"/>
+      <point x="945" y="78"/>
+      <point x="980" y="287"/>
+      <point x="996" y="373" type="curve"/>
+      <point x="910" y="397" type="line"/>
+      <point x="840" y="233"/>
+      <point x="801" y="140"/>
+      <point x="748" y="140" type="curve" smooth="yes"/>
+      <point x="345" y="140" type="line"/>
+    </contour>
+    <contour>
+      <point x="493" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="657" y="1320" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

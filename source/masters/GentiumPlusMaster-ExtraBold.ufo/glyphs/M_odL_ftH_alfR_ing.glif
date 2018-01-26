@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModLftHalfRing" format="1">
+  <advance width="574"/>
+  <unicode hex="02BF"/>
+  <outline>
+    <component base="ModCntrdLftHalfRing" yOffset="700"/>
+    <contour>
+      <point x="295" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="295" y="1620" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

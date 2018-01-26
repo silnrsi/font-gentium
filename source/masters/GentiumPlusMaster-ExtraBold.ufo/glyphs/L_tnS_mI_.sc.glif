@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmI.sc" format="1">
+  <advance width="573"/>
+  <outline>
+    <contour>
+      <point x="61" y="0" type="line"/>
+      <point x="489" y="0" type="line"/>
+      <point x="489" y="49" type="line"/>
+      <point x="400" y="64"/>
+      <point x="355" y="82"/>
+      <point x="355" y="92" type="curve"/>
+      <point x="355" y="948" type="line"/>
+      <point x="355" y="959"/>
+      <point x="406" y="976"/>
+      <point x="489" y="992" type="curve"/>
+      <point x="489" y="1041" type="line"/>
+      <point x="61" y="1041" type="line"/>
+      <point x="61" y="992" type="line"/>
+      <point x="149" y="976"/>
+      <point x="195" y="958"/>
+      <point x="195" y="948" type="curve"/>
+      <point x="195" y="92" type="line"/>
+      <point x="195" y="81"/>
+      <point x="144" y="64"/>
+      <point x="61" y="49" type="curve"/>
+    </contour>
+    <contour>
+      <point x="277" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="277" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="324" y="7" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="545" y="920" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="277" y="1145" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

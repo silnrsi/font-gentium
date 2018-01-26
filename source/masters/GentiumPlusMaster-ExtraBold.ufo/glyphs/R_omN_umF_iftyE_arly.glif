@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="RomNumFiftyEarly" format="1">
+  <advance width="1261"/>
+  <unicode hex="2186"/>
+  <outline>
+    <contour>
+      <point x="750" y="475" type="line"/>
+      <point x="750" y="1260" type="line"/>
+      <point x="490" y="1260" type="line"/>
+      <point x="490" y="475" type="line"/>
+      <point x="270" y="824" type="line"/>
+      <point x="10" y="824" type="line"/>
+      <point x="580" y="-30" type="line"/>
+      <point x="660" y="-30" type="line"/>
+      <point x="1230" y="824" type="line"/>
+      <point x="970" y="824" type="line"/>
+    </contour>
+    <contour>
+      <point x="619" y="1370" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

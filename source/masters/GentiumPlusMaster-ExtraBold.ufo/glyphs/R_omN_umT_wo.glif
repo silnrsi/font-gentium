@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="RomNumTwo" format="1">
+  <advance width="1220"/>
+  <unicode hex="2161"/>
+  <outline>
+    <component base="LtnCapI"/>
+    <component base="LtnCapI" xOffset="610"/>
+    <contour>
+      <point x="642" y="1370" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <integer>1</integer>
+        <real>0.732</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

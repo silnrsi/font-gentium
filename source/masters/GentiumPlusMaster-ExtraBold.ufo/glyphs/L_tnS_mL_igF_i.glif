@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmLigFi" format="1">
+  <advance width="1350"/>
+  <unicode hex="FB01"/>
+  <outline>
+    <component base="LtnSmF"/>
+    <component base="LtnSmI" xOffset="715"/>
+    <contour>
+      <point x="922" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1180" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="922" y="1620" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

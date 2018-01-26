@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombAcute.LP" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-729" y="1035" type="curve"/>
+      <point x="-206" y="1275" type="line"/>
+      <point x="-217" y="1342" type="line"/>
+      <point x="-241" y="1361"/>
+      <point x="-412" y="1449"/>
+      <point x="-440" y="1461" type="curve"/>
+      <point x="-803" y="1113" type="line"/>
+      <point x="-793" y="1097"/>
+      <point x="-750" y="1046"/>
+    </contour>
+    <contour>
+      <point x="-576" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-576" y="1050" type="move" name="_U"/>
+    </contour>
+  </outline>
+</glyph>

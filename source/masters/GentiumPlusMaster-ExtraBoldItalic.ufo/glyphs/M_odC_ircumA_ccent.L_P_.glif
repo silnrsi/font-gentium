@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModCircumAccent.LP" format="1">
+  <advance width="635"/>
+  <outline>
+    <contour>
+      <point x="749" y="1081" type="curve"/>
+      <point x="546" y="1402" type="line"/>
+      <point x="394" y="1402" type="line"/>
+      <point x="90" y="1081" type="line"/>
+      <point x="103" y="1054"/>
+      <point x="140" y="1024"/>
+      <point x="152" y="1016" type="curve"/>
+      <point x="444" y="1171" type="line"/>
+      <point x="673" y="1016" type="line"/>
+      <point x="694" y="1026"/>
+      <point x="731" y="1054"/>
+    </contour>
+    <contour>
+      <point x="459" y="1320" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="416" y="1000" type="move" name="_U"/>
+    </contour>
+  </outline>
+</glyph>

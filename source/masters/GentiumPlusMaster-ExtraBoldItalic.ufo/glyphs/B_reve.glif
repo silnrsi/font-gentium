@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Breve" format="1">
+  <advance width="624"/>
+  <unicode hex="02D8"/>
+  <outline>
+    <contour>
+      <point x="761" y="1335" type="curve"/>
+      <point x="748" y="1360"/>
+      <point x="706" y="1405"/>
+      <point x="688" y="1418" type="curve"/>
+      <point x="615" y="1291"/>
+      <point x="481" y="1249"/>
+      <point x="397" y="1249" type="curve" smooth="yes"/>
+      <point x="321" y="1249"/>
+      <point x="208" y="1291"/>
+      <point x="168" y="1418" type="curve"/>
+      <point x="148" y="1405"/>
+      <point x="101" y="1358"/>
+      <point x="83" y="1335" type="curve"/>
+      <point x="128" y="1122"/>
+      <point x="268" y="1040"/>
+      <point x="385" y="1040" type="curve" smooth="yes"/>
+      <point x="491" y="1040"/>
+      <point x="662" y="1120"/>
+    </contour>
+    <contour>
+      <point x="417" y="1320" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

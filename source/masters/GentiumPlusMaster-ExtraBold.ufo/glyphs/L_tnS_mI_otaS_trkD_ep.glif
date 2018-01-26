@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmIotaStrkDep" format="1">
+  <advance width="578"/>
+  <unicode hex="F25D"/>
+  <outline>
+    <contour>
+      <point x="0" y="990" type="line"/>
+      <point x="0" y="-60" type="line"/>
+      <point x="628" y="-60" type="line"/>
+      <point x="628" y="990" type="line"/>
+    </contour>
+    <contour>
+      <point x="520" y="480" type="line"/>
+      <point x="498" y="415" type="line"/>
+      <point x="340" y="415" type="line"/>
+      <point x="340" y="303" type="line" smooth="yes"/>
+      <point x="340" y="123"/>
+      <point x="354" y="106"/>
+      <point x="414" y="106" type="curve" smooth="yes"/>
+      <point x="428" y="106"/>
+      <point x="496" y="125"/>
+      <point x="582" y="186" type="curve"/>
+      <point x="598" y="135" type="line"/>
+      <point x="463" y="6"/>
+      <point x="365" y="-30"/>
+      <point x="313" y="-30" type="curve" smooth="yes"/>
+      <point x="213" y="-30"/>
+      <point x="190" y="43"/>
+      <point x="190" y="203" type="curve" smooth="yes"/>
+      <point x="190" y="415" type="line"/>
+      <point x="52" y="415" type="line"/>
+      <point x="30" y="437" type="line"/>
+      <point x="36" y="458"/>
+      <point x="42" y="484"/>
+      <point x="52" y="505" type="curve"/>
+      <point x="190" y="505" type="line"/>
+      <point x="190" y="670" type="line" smooth="yes"/>
+      <point x="190" y="807"/>
+      <point x="193" y="827"/>
+      <point x="49" y="840" type="curve"/>
+      <point x="49" y="880" type="line"/>
+      <point x="133" y="896"/>
+      <point x="240" y="927"/>
+      <point x="305" y="960" type="curve"/>
+      <point x="340" y="960" type="line"/>
+      <point x="340" y="505" type="line"/>
+      <point x="498" y="505" type="line"/>
+    </contour>
+    <contour>
+      <point x="292" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="292" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="342" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="591" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="292" y="1050" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

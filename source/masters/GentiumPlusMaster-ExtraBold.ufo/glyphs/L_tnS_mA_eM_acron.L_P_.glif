@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmAeMacron.LP" format="1">
+  <advance width="1417"/>
+  <outline>
+    <component base="LtnSmAe"/>
+    <component base="CombMacron.LP" xOffset="1263"/>
+    <contour>
+      <point x="738" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1417" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="738" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="738" y="1050" type="move" name="_U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <integer>1</integer>
+        <real>0.732</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmV.SItal" format="1">
+  <advance width="1010"/>
+  <outline>
+    <contour>
+      <point x="909" y="868"/>
+      <point x="989" y="887" type="curve"/>
+      <point x="989" y="930" type="line"/>
+      <point x="666" y="930" type="line"/>
+      <point x="666" y="887" type="line"/>
+      <point x="764" y="872"/>
+      <point x="784" y="860"/>
+      <point x="770" y="819" type="curve"/>
+      <point x="539" y="178" type="line"/>
+      <point x="293" y="819" type="line" smooth="yes"/>
+      <point x="276" y="862"/>
+      <point x="303" y="874"/>
+      <point x="406" y="887" type="curve"/>
+      <point x="406" y="930" type="line"/>
+      <point x="20" y="930" type="line"/>
+      <point x="20" y="887" type="line"/>
+      <point x="86" y="872"/>
+      <point x="119" y="856"/>
+      <point x="131" y="819" type="curve"/>
+      <point x="461" y="-30" type="line"/>
+      <point x="496" y="-22"/>
+      <point x="573" y="0"/>
+      <point x="596" y="59" type="curve"/>
+      <point x="879" y="819" type="line" smooth="yes"/>
+      <point x="893" y="858"/>
+    </contour>
+    <contour>
+      <point x="516" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="516" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="465" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="536" y="1050" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

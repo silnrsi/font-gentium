@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombDblInvBreveRt" format="1">
+  <advance width="0"/>
+  <unicode hex="FE21"/>
+  <outline>
+    <contour>
+      <point x="-843" y="1910" type="curve"/>
+      <point x="-843" y="1708" type="line"/>
+      <point x="-579" y="1705"/>
+      <point x="-274" y="1647"/>
+      <point x="-111" y="1515" type="curve"/>
+      <point x="-73" y="1525"/>
+      <point x="-27" y="1556"/>
+      <point x="0" y="1580" type="curve"/>
+      <point x="-177" y="1795"/>
+      <point x="-473" y="1910"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>x</key>
+          <integer>-843</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

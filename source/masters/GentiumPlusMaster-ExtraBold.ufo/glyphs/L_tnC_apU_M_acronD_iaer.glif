@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapUMacronDiaer" format="1">
+  <advance width="1379"/>
+  <unicode hex="1E7A"/>
+  <outline>
+    <component base="LtnCapU"/>
+    <component base="CombMacron.LP" xOffset="1255" yOffset="320"/>
+    <component base="CombDiaer.LP" xOffset="1245" yOffset="640"/>
+    <contour>
+      <point x="697" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="697" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="784" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="1380" y="1100" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="697" y="2010" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

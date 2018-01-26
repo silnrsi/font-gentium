@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapEng.BaselineHook" format="1">
+  <advance width="1345"/>
+  <outline>
+    <contour>
+      <point x="1225" y="587" type="curve" smooth="yes"/>
+      <point x="1225" y="981" type="line" smooth="yes"/>
+      <point x="1225" y="1231"/>
+      <point x="1080" y="1290"/>
+      <point x="965" y="1290" type="curve" smooth="yes"/>
+      <point x="822" y="1290"/>
+      <point x="679" y="1242"/>
+      <point x="455" y="1058" type="curve"/>
+      <point x="455" y="1245" type="line"/>
+      <point x="410" y="1290" type="line"/>
+      <point x="311" y="1253"/>
+      <point x="141" y="1219"/>
+      <point x="45" y="1210" type="curve"/>
+      <point x="45" y="1127" type="line"/>
+      <point x="180" y="1113"/>
+      <point x="175" y="1095"/>
+      <point x="175" y="990" type="curve" smooth="yes"/>
+      <point x="175" y="144" type="line" smooth="yes"/>
+      <point x="175" y="126"/>
+      <point x="129" y="101"/>
+      <point x="39" y="83" type="curve"/>
+      <point x="39" y="0" type="line"/>
+      <point x="560" y="0" type="line"/>
+      <point x="560" y="83" type="line"/>
+      <point x="463" y="101"/>
+      <point x="455" y="128"/>
+      <point x="455" y="144" type="curve" smooth="yes"/>
+      <point x="455" y="868" type="line"/>
+      <point x="632" y="1039"/>
+      <point x="748" y="1080"/>
+      <point x="817" y="1080" type="curve" smooth="yes"/>
+      <point x="917" y="1080"/>
+      <point x="945" y="1050"/>
+      <point x="945" y="872" type="curve" smooth="yes"/>
+      <point x="945" y="534" type="line" smooth="yes"/>
+      <point x="945" y="204"/>
+      <point x="928" y="146"/>
+      <point x="894" y="146" type="curve" smooth="yes"/>
+      <point x="865" y="146"/>
+      <point x="823" y="189"/>
+      <point x="807" y="299" type="curve"/>
+      <point x="768" y="283"/>
+      <point x="590" y="181"/>
+      <point x="590" y="158" type="curve" smooth="yes"/>
+      <point x="590" y="63"/>
+      <point x="692" y="-30"/>
+      <point x="838" y="-30" type="curve" smooth="yes"/>
+      <point x="929" y="-30"/>
+      <point x="1023" y="40"/>
+      <point x="1086" y="112" type="curve" smooth="yes"/>
+      <point x="1190" y="230"/>
+      <point x="1225" y="371"/>
+    </contour>
+    <contour>
+      <point x="718" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="718" y="1370" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.sil.assocFeatureValue</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

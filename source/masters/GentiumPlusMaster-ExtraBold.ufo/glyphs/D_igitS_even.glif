@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="DigitSeven" format="1">
+  <advance width="1061"/>
+  <unicode hex="0037"/>
+  <outline>
+    <contour>
+      <point x="800" y="737"/>
+      <point x="985" y="1167" type="curve"/>
+      <point x="952" y="1205" type="line"/>
+      <point x="147" y="1205" type="line"/>
+      <point x="131" y="1146"/>
+      <point x="103" y="930"/>
+      <point x="94" y="868" type="curve"/>
+      <point x="170" y="840" type="line"/>
+      <point x="227" y="995"/>
+      <point x="280" y="1005"/>
+      <point x="319" y="1005" type="curve" smooth="yes"/>
+      <point x="763" y="1005" type="line"/>
+      <point x="616" y="665"/>
+      <point x="501" y="421"/>
+      <point x="269" y="13" type="curve"/>
+      <point x="320" y="-30" type="line"/>
+      <point x="386" y="-13"/>
+      <point x="515" y="21"/>
+      <point x="562" y="54" type="curve"/>
+      <point x="632" y="267"/>
+    </contour>
+    <contour>
+      <point x="530" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="530" y="1370" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

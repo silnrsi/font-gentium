@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombCircumBlw" format="1">
+  <advance width="0"/>
+  <unicode hex="032D"/>
+  <outline>
+    <contour>
+      <point x="-264" y="-528" type="curve"/>
+      <point x="-467" y="-147" type="line"/>
+      <point x="-619" y="-147" type="line"/>
+      <point x="-923" y="-528" type="line"/>
+      <point x="-910" y="-555"/>
+      <point x="-873" y="-585"/>
+      <point x="-861" y="-593" type="curve"/>
+      <point x="-569" y="-378" type="line"/>
+      <point x="-340" y="-593" type="line"/>
+      <point x="-319" y="-583"/>
+      <point x="-282" y="-555"/>
+    </contour>
+    <contour>
+      <point x="-607" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-539" y="-100" type="move" name="_L"/>
+    </contour>
+  </outline>
+</glyph>

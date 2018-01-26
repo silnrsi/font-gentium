@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="HairSpace" format="1">
+  <advance width="100"/>
+  <unicode hex="200A"/>
+  <outline>
+    <contour>
+      <point x="50" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="50" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="60" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="100" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="50" y="1435" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>x</key>
+          <integer>50</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

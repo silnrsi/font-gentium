@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapHalfH" format="1">
+  <advance width="973"/>
+  <unicode hex="2C75"/>
+  <outline>
+    <contour>
+      <point x="965" y="694" type="curve"/>
+      <point x="932" y="736" type="line"/>
+      <point x="426" y="736" type="line"/>
+      <point x="284" y="612" type="line"/>
+      <point x="663" y="612" type="line" smooth="yes"/>
+      <point x="774" y="612"/>
+      <point x="818" y="596"/>
+      <point x="852" y="557" type="curve"/>
+      <point x="883" y="578"/>
+      <point x="933" y="647"/>
+    </contour>
+    <contour>
+      <point x="551" y="1115" type="line" smooth="yes"/>
+      <point x="553" y="1131"/>
+      <point x="600" y="1151"/>
+      <point x="735" y="1177" type="curve"/>
+      <point x="747" y="1260" type="line"/>
+      <point x="167" y="1260" type="line"/>
+      <point x="155" y="1177" type="line"/>
+      <point x="248" y="1158"/>
+      <point x="293" y="1131"/>
+      <point x="291" y="1115" type="curve" smooth="yes"/>
+      <point x="155" y="144" type="line" smooth="yes"/>
+      <point x="152" y="126"/>
+      <point x="94" y="101"/>
+      <point x="1" y="83" type="curve"/>
+      <point x="-10" y="0" type="line"/>
+      <point x="570" y="0" type="line"/>
+      <point x="581" y="83" type="line"/>
+      <point x="459" y="109"/>
+      <point x="412" y="128"/>
+      <point x="415" y="144" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="250" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="238" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="414" y="1320" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

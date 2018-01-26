@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SixPerEmSpace" format="1">
+  <advance width="250"/>
+  <unicode hex="2006"/>
+  <outline>
+    <contour>
+      <point x="61" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="47" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="81" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="250" y="870" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="258" y="1435" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

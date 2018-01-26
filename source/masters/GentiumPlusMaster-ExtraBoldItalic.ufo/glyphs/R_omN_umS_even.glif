@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="RomNumSeven" format="1">
+  <advance width="2360"/>
+  <unicode hex="2166"/>
+  <outline>
+    <component base="LtnCapV"/>
+    <component base="LtnCapI" xOffset="1214"/>
+    <component base="LtnCapI" xOffset="1787"/>
+    <contour>
+      <point x="1366" y="1320" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

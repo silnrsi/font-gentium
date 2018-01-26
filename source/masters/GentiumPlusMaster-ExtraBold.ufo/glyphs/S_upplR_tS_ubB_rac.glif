@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SupplRtSubBrac" format="1">
+  <advance width="500"/>
+  <unicode hex="2E03"/>
+  <outline>
+    <contour>
+      <point x="439" y="593"/>
+      <point x="465" y="606" type="curve"/>
+      <point x="465" y="1041" type="line"/>
+      <point x="412" y="1060"/>
+      <point x="336" y="1040"/>
+      <point x="314" y="1030" type="curve"/>
+      <point x="314" y="587" type="line"/>
+      <point x="348" y="554" type="line"/>
+      <point x="375" y="561"/>
+    </contour>
+    <contour>
+      <point x="351" y="938" type="line"/>
+      <point x="465" y="1041" type="line"/>
+      <point x="187" y="1300" type="line"/>
+      <point x="152" y="1290"/>
+      <point x="91" y="1268"/>
+      <point x="67" y="1251" type="curve"/>
+      <point x="65" y="1207" type="line"/>
+    </contour>
+  </outline>
+</glyph>

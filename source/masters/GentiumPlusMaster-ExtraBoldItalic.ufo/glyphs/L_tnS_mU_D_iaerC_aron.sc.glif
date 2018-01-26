@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmUDiaerCaron.sc" format="1">
+  <advance width="1153"/>
+  <outline>
+    <component base="LtnSmU.sc"/>
+    <component base="CombDiaer" xOffset="1100" yOffset="103"/>
+    <component base="CombCaron" xOffset="1154" yOffset="473"/>
+    <contour>
+      <point x="528" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="508" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="621" y="7" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="1168" y="896" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="824" y="1895" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombAcute_MacronDep" format="1">
+  <advance width="0"/>
+  <unicode hex="F174"/>
+  <outline>
+    <contour>
+      <point x="-678" y="971" type="line"/>
+      <point x="37" y="971" type="line"/>
+      <point x="37" y="1408" type="line"/>
+      <point x="-678" y="1408" type="line"/>
+    </contour>
+    <contour>
+      <point x="7" y="1354" type="line"/>
+      <point x="-2" y="1325"/>
+      <point x="-29" y="1274"/>
+      <point x="-42" y="1250" type="curve"/>
+      <point x="-366" y="1250" type="line"/>
+      <point x="-601" y="1001" type="line"/>
+      <point x="-622" y="1005"/>
+      <point x="-636" y="1017"/>
+      <point x="-648" y="1029" type="curve"/>
+      <point x="-439" y="1372" type="line"/>
+      <point x="-436" y="1378" type="line"/>
+      <point x="-434" y="1378" type="line"/>
+      <point x="-9" y="1378" type="line"/>
+    </contour>
+    <contour>
+      <point x="-354" y="1000" type="move" name="_U"/>
+    </contour>
+  </outline>
+</glyph>

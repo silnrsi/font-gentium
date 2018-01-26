@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombRtArrwhdUpArrwhdBlw" format="1">
+  <advance width="0"/>
+  <unicode hex="0356"/>
+  <outline>
+    <contour>
+      <point x="-439" y="-370"/>
+      <point x="-435" y="-337" type="curve"/>
+      <point x="-458" y="-308" type="line"/>
+      <point x="-1004" y="-103" type="line"/>
+      <point x="-1023" y="-119"/>
+      <point x="-1073" y="-157"/>
+      <point x="-1097" y="-176" type="curve"/>
+      <point x="-1082" y="-214" type="line"/>
+      <point x="-474" y="-441" type="line"/>
+      <point x="-464" y="-420"/>
+    </contour>
+    <contour>
+      <point x="-440" y="-360"/>
+      <point x="-435" y="-337" type="curve"/>
+      <point x="-485" y="-313" type="line"/>
+      <point x="-1073" y="-533" type="line"/>
+      <point x="-1081" y="-552"/>
+      <point x="-1097" y="-608"/>
+      <point x="-1104" y="-629" type="curve"/>
+      <point x="-1070" y="-664" type="line"/>
+      <point x="-474" y="-441" type="line"/>
+      <point x="-460" y="-422"/>
+    </contour>
+    <contour>
+      <point x="32" y="-637" type="curve"/>
+      <point x="-232" y="-102" type="line"/>
+      <point x="-256" y="-113"/>
+      <point x="-311" y="-138"/>
+      <point x="-333" y="-158" type="curve"/>
+      <point x="-575" y="-670" type="line"/>
+      <point x="-554" y="-692" type="line"/>
+      <point x="-537" y="-685"/>
+      <point x="-458" y="-654"/>
+      <point x="-440" y="-637" type="curve"/>
+      <point x="-285" y="-302" type="line"/>
+      <point x="-94" y="-675" type="line"/>
+      <point x="-65" y="-694" type="line"/>
+      <point x="-36" y="-683"/>
+      <point x="12" y="-653"/>
+    </contour>
+    <contour>
+      <point x="-548" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-548" y="-100" type="move" name="_L"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>x</key>
+          <integer>-1120</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

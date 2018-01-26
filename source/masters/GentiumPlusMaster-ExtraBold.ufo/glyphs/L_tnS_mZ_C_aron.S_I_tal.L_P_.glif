@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmZCaron.SItal.LP" format="1">
+  <advance width="869"/>
+  <outline>
+    <component base="LtnSmZ.SItal"/>
+    <component base="CombCaron.LP" xOffset="1027"/>
+    <contour>
+      <point x="750" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="452" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="480" y="1370" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

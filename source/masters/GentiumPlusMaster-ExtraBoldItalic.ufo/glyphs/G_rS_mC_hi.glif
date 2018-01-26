@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmChi" format="1">
+  <advance width="1065"/>
+  <unicode hex="03C7"/>
+  <outline>
+    <contour>
+      <point x="1092" y="895" type="curve"/>
+      <point x="1060" y="938" type="line"/>
+      <point x="1011" y="924"/>
+      <point x="853" y="913"/>
+      <point x="804" y="907" type="curve"/>
+      <point x="728" y="735"/>
+      <point x="659" y="568"/>
+      <point x="572" y="400" type="curve"/>
+      <point x="624" y="250" type="line"/>
+      <point x="765" y="483"/>
+      <point x="924" y="684"/>
+    </contour>
+    <contour>
+      <point x="1030" y="-97" type="curve"/>
+      <point x="975" y="-31" type="line"/>
+      <point x="918" y="-96"/>
+      <point x="877" y="-133"/>
+      <point x="844" y="-133" type="curve" smooth="yes"/>
+      <point x="797" y="-133"/>
+      <point x="736" y="-41"/>
+      <point x="654" y="348" type="curve" smooth="yes"/>
+      <point x="545" y="862"/>
+      <point x="512" y="936"/>
+      <point x="443" y="936" type="curve" smooth="yes"/>
+      <point x="374" y="936"/>
+      <point x="179" y="877"/>
+      <point x="66" y="834" type="curve"/>
+      <point x="97" y="751" type="line"/>
+      <point x="97" y="751"/>
+      <point x="159" y="763"/>
+      <point x="202" y="763" type="curve" smooth="yes"/>
+      <point x="271" y="763"/>
+      <point x="325" y="662"/>
+      <point x="417" y="238" type="curve"/>
+      <point x="517" y="-209"/>
+      <point x="562" y="-385"/>
+      <point x="687" y="-385" type="curve" smooth="yes"/>
+      <point x="798" y="-385"/>
+      <point x="881" y="-289"/>
+    </contour>
+    <contour>
+      <point x="544" y="209" type="curve"/>
+      <point x="465" y="297" type="line"/>
+      <point x="336" y="80"/>
+      <point x="153" y="-135"/>
+      <point x="-36" y="-342" type="curve"/>
+      <point x="-3" y="-385" type="line"/>
+      <point x="46" y="-371"/>
+      <point x="203" y="-360"/>
+      <point x="253" y="-354" type="curve"/>
+      <point x="353" y="-178"/>
+      <point x="483" y="88"/>
+    </contour>
+    <contour>
+      <point x="451" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="673" y="1000" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

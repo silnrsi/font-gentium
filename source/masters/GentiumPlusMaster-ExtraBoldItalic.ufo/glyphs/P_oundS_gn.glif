@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="PoundSgn" format="1">
+  <advance width="968"/>
+  <unicode hex="00A3"/>
+  <outline>
+    <contour>
+      <point x="961" y="1165" type="curve"/>
+      <point x="855" y="1228"/>
+      <point x="742" y="1235"/>
+      <point x="677" y="1235" type="curve" smooth="yes"/>
+      <point x="382" y="1235"/>
+      <point x="157" y="955"/>
+      <point x="134" y="578" type="curve"/>
+      <point x="110" y="211"/>
+      <point x="71" y="154"/>
+      <point x="-63" y="49" type="curve"/>
+      <point x="-34" y="-30" type="line"/>
+      <point x="166" y="95"/>
+      <point x="609" y="-99"/>
+      <point x="789" y="0" type="curve"/>
+      <point x="804" y="39"/>
+      <point x="855" y="209"/>
+      <point x="881" y="324" type="curve"/>
+      <point x="808" y="352" type="line"/>
+      <point x="733" y="196"/>
+      <point x="685" y="154"/>
+      <point x="569" y="151" type="curve" smooth="yes"/>
+      <point x="432" y="147"/>
+      <point x="433" y="166"/>
+      <point x="262" y="151" type="curve"/>
+      <point x="360" y="275"/>
+      <point x="408" y="408"/>
+      <point x="416" y="595" type="curve"/>
+      <point x="435" y="1083"/>
+      <point x="576" y="1106"/>
+      <point x="645" y="1106" type="curve" smooth="yes"/>
+      <point x="753" y="1106"/>
+      <point x="803" y="995"/>
+      <point x="798" y="830" type="curve"/>
+      <point x="879" y="830" type="line"/>
+      <point x="901" y="881"/>
+      <point x="950" y="1097"/>
+    </contour>
+    <contour>
+      <point x="718" y="614" type="line"/>
+      <point x="689" y="647" type="line"/>
+      <point x="49" y="647" type="line"/>
+      <point x="38" y="626"/>
+      <point x="5" y="571"/>
+      <point x="-3" y="551" type="curve"/>
+      <point x="21" y="516" type="line"/>
+      <point x="662" y="516" type="line"/>
+    </contour>
+  </outline>
+</glyph>

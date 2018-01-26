@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombDblCircum" format="1">
+  <advance width="0"/>
+  <unicode hex="1DCD"/>
+  <outline>
+    <contour>
+      <point x="861" y="1577"/>
+      <point x="877" y="1602" type="curve"/>
+      <point x="75" y="1991" type="line"/>
+      <point x="-72" y="1991" type="line"/>
+      <point x="-883" y="1602" type="line"/>
+      <point x="-864" y="1577"/>
+      <point x="-830" y="1537"/>
+      <point x="-808" y="1527" type="curve"/>
+      <point x="0" y="1765" type="line"/>
+      <point x="784" y="1527" type="line"/>
+      <point x="816" y="1535"/>
+    </contour>
+    <contour>
+      <point x="0" y="1600" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

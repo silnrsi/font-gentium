@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmNj" format="1">
+  <advance width="1660"/>
+  <unicode hex="01CC"/>
+  <outline>
+    <component base="LtnSmN"/>
+    <component base="LtnSmJ" xOffset="1130"/>
+    <contour>
+      <point x="865" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1410" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1411" y="1049" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <integer>1</integer>
+        <real>0.732</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

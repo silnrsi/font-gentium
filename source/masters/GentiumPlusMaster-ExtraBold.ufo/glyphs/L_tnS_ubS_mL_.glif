@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSubSmL" format="1">
+  <advance width="433"/>
+  <unicode hex="2097"/>
+  <outline>
+    <contour>
+      <point x="50" y="-200" type="line"/>
+      <point x="408" y="-200" type="line"/>
+      <point x="408" y="-140" type="line"/>
+      <point x="337" y="-129"/>
+      <point x="327" y="-116"/>
+      <point x="327" y="-104" type="curve" smooth="yes"/>
+      <point x="327" y="694" type="line"/>
+      <point x="287" y="730" type="line"/>
+      <point x="214" y="704"/>
+      <point x="152" y="693"/>
+      <point x="57" y="682" type="curve"/>
+      <point x="57" y="624" type="line"/>
+      <point x="130" y="616"/>
+      <point x="131" y="596"/>
+      <point x="131" y="544" type="curve" smooth="yes"/>
+      <point x="131" y="-104" type="line" smooth="yes"/>
+      <point x="131" y="-117"/>
+      <point x="125" y="-128"/>
+      <point x="50" y="-140" type="curve"/>
+    </contour>
+    <contour>
+      <point x="229" y="-260" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="229" y="814" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

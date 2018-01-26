@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CySmDe.sc" format="1">
+  <advance width="1073"/>
+  <outline>
+    <contour>
+      <point x="834" y="953" type="line"/>
+      <point x="699" y="88" type="line"/>
+      <point x="268" y="88" type="line"/>
+      <point x="422" y="369"/>
+      <point x="515" y="618"/>
+      <point x="605" y="953" type="curve"/>
+    </contour>
+    <contour>
+      <point x="607" y="959" type="line"/>
+      <point x="605" y="953" type="line"/>
+      <point x="601" y="953" type="line"/>
+    </contour>
+    <contour>
+      <point x="791" y="0" type="line"/>
+      <point x="808" y="0"/>
+      <point x="817" y="-37"/>
+      <point x="817" y="-95" type="curve" smooth="yes"/>
+      <point x="817" y="-149"/>
+      <point x="808" y="-225"/>
+      <point x="793" y="-310" type="curve"/>
+      <point x="847" y="-310" type="line"/>
+      <point x="893" y="-209"/>
+      <point x="956" y="-42"/>
+      <point x="978" y="63" type="curve"/>
+      <point x="950" y="88" type="line"/>
+      <point x="845" y="88" type="line"/>
+      <point x="979" y="947" type="line"/>
+      <point x="980" y="959"/>
+      <point x="1029" y="976"/>
+      <point x="1106" y="992" type="curve"/>
+      <point x="1113" y="1041" type="line"/>
+      <point x="353" y="1041" type="line"/>
+      <point x="346" y="992" type="line"/>
+      <point x="417" y="977"/>
+      <point x="477" y="959"/>
+      <point x="492" y="947" type="curve"/>
+      <point x="405" y="632"/>
+      <point x="309" y="378"/>
+      <point x="128" y="88" type="curve"/>
+      <point x="16" y="88" type="line"/>
+      <point x="-32" y="-27"/>
+      <point x="-71" y="-212"/>
+      <point x="-87" y="-310" type="curve"/>
+      <point x="-34" y="-310" type="line"/>
+      <point x="57" y="-75"/>
+      <point x="129" y="-11"/>
+      <point x="164" y="0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="478" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="468" y="1103" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

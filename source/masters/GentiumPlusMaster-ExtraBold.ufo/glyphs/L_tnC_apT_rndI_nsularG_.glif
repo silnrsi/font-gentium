@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapTrndInsularG" format="1">
+  <advance width="1096"/>
+  <unicode hex="A77E"/>
+  <outline>
+    <contour>
+      <point x="137" y="180" type="line"/>
+      <point x="76" y="23" type="line"/>
+      <point x="101" y="0" type="line"/>
+      <point x="946" y="0" type="line"/>
+      <point x="953" y="10"/>
+      <point x="1000" y="135"/>
+      <point x="1006" y="156" type="curve"/>
+      <point x="984" y="180" type="line"/>
+    </contour>
+    <contour>
+      <point x="1036" y="774"/>
+      <point x="1036" y="945" type="curve" smooth="yes"/>
+      <point x="1036" y="1166"/>
+      <point x="813" y="1289"/>
+      <point x="599" y="1289" type="curve" smooth="yes"/>
+      <point x="325" y="1289"/>
+      <point x="60" y="1087"/>
+      <point x="60" y="865" type="curve" smooth="yes"/>
+      <point x="60" y="505"/>
+      <point x="584" y="531"/>
+      <point x="584" y="349" type="curve" smooth="yes"/>
+      <point x="584" y="247"/>
+      <point x="382" y="173"/>
+      <point x="155" y="180" type="curve"/>
+      <point x="157" y="165"/>
+      <point x="283" y="124"/>
+      <point x="375" y="124" type="curve" smooth="yes"/>
+      <point x="483" y="124"/>
+      <point x="825" y="182"/>
+      <point x="825" y="403" type="curve" smooth="yes"/>
+      <point x="825" y="704"/>
+      <point x="285" y="633"/>
+      <point x="285" y="929" type="curve" smooth="yes"/>
+      <point x="285" y="1071"/>
+      <point x="453" y="1135"/>
+      <point x="554" y="1136" type="curve" smooth="yes"/>
+      <point x="723" y="1138"/>
+      <point x="789" y="1020"/>
+      <point x="789" y="907" type="curve" smooth="yes"/>
+      <point x="789" y="820"/>
+      <point x="747" y="722"/>
+      <point x="449" y="625" type="curve"/>
+      <point x="541" y="542" type="line"/>
+      <point x="875" y="657"/>
+    </contour>
+    <contour>
+      <point x="526" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="552" y="1370" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

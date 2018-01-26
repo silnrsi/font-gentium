@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModSmVHook.StraightLft" format="1">
+  <advance width="995"/>
+  <outline>
+    <contour>
+      <point x="365" y="560" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="368" y="1264" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+      <key>org.sil.assocFeatureValue</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

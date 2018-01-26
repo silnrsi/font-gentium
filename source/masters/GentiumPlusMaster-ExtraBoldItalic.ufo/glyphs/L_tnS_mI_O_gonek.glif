@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmIOgonek" format="1">
+  <advance width="589"/>
+  <unicode hex="012F"/>
+  <outline>
+    <component base="LtnSmI"/>
+    <component base="CombOgonek" xOffset="769"/>
+    <contour>
+      <point x="250" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="148" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="771" y="870" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="399" y="1000" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

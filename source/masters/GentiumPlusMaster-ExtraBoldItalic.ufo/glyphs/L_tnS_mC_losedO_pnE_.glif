@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmClosedOpnE" format="1">
+  <advance width="987"/>
+  <unicode hex="029A"/>
+  <outline>
+    <contour>
+      <point x="663" y="410" type="curve" smooth="yes"/>
+      <point x="635" y="215"/>
+      <point x="530" y="125"/>
+      <point x="418" y="125" type="curve" smooth="yes"/>
+      <point x="331" y="125"/>
+      <point x="272" y="168"/>
+      <point x="284" y="251" type="curve" smooth="yes"/>
+      <point x="299" y="352"/>
+      <point x="403" y="410"/>
+      <point x="589" y="424" type="curve"/>
+      <point x="586" y="516" type="line"/>
+      <point x="374" y="532"/>
+      <point x="342" y="608"/>
+      <point x="353" y="688" type="curve"/>
+      <point x="363" y="765"/>
+      <point x="420" y="796"/>
+      <point x="476" y="796" type="curve" smooth="yes"/>
+      <point x="603" y="796"/>
+      <point x="708" y="723"/>
+    </contour>
+    <contour>
+      <point x="568" y="936" type="curve" smooth="yes"/>
+      <point x="439" y="936"/>
+      <point x="344" y="892"/>
+      <point x="282" y="852" type="curve"/>
+      <point x="206" y="800"/>
+      <point x="113" y="720"/>
+      <point x="103" y="637" type="curve" smooth="yes"/>
+      <point x="91" y="537"/>
+      <point x="168" y="479"/>
+      <point x="244" y="451" type="curve"/>
+      <point x="157" y="413"/>
+      <point x="32" y="319"/>
+      <point x="16" y="205" type="curve" smooth="yes"/>
+      <point x="-3" y="64"/>
+      <point x="94" y="-41"/>
+      <point x="330" y="-41" type="curve" smooth="yes"/>
+      <point x="596" y="-41"/>
+      <point x="890" y="127"/>
+      <point x="937" y="479" type="curve" smooth="yes"/>
+      <point x="972" y="738"/>
+      <point x="861" y="936"/>
+    </contour>
+    <contour>
+      <point x="368" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="519" y="1000" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModLowLftArrwhd" format="1">
+  <advance width="569"/>
+  <unicode hex="02F1"/>
+  <outline>
+    <contour>
+      <point x="509" y="-204"/>
+      <point x="514" y="-190" type="curve"/>
+      <point x="490" y="-165" type="line"/>
+      <point x="73" y="-321" type="line"/>
+      <point x="63" y="-335"/>
+      <point x="49" y="-378"/>
+      <point x="45" y="-394" type="curve"/>
+      <point x="80" y="-411" type="line"/>
+      <point x="492" y="-257" type="line"/>
+      <point x="497" y="-244"/>
+    </contour>
+    <contour>
+      <point x="492" y="-520"/>
+      <point x="509" y="-507" type="curve"/>
+      <point x="498" y="-480" type="line"/>
+      <point x="73" y="-321" type="line"/>
+      <point x="66" y="-336"/>
+      <point x="48" y="-371"/>
+      <point x="45" y="-394" type="curve"/>
+      <point x="61" y="-414" type="line"/>
+      <point x="444" y="-558" type="line"/>
+      <point x="457" y="-547"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>-70</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

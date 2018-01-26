@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapEtaWDasiaPerisPros" format="1">
+  <advance width="2081"/>
+  <unicode hex="1F9F"/>
+  <outline>
+    <component base="GrCapEta" xOffset="307"/>
+    <component base="GrDasiaPeris" xOffset="-29" yOffset="-100"/>
+    <component base="GrPros" xOffset="1542"/>
+  </outline>
+</glyph>

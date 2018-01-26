@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrPros" format="1">
+  <advance width="679"/>
+  <unicode hex="1FBE"/>
+  <outline>
+    <contour>
+      <point x="538" y="34"/>
+      <point x="680" y="149" type="curve"/>
+      <point x="664" y="228" type="line"/>
+      <point x="586" y="185"/>
+      <point x="541" y="167"/>
+      <point x="511" y="167" type="curve" smooth="yes"/>
+      <point x="485" y="167"/>
+      <point x="463" y="182"/>
+      <point x="466" y="367" type="curve" smooth="yes"/>
+      <point x="476" y="910" type="line"/>
+      <point x="434" y="960" type="line"/>
+      <point x="347" y="921"/>
+      <point x="146" y="893"/>
+      <point x="60" y="879" type="curve"/>
+      <point x="60" y="799" type="line"/>
+      <point x="208" y="799"/>
+      <point x="203" y="768"/>
+      <point x="201" y="629" type="curve" smooth="yes"/>
+      <point x="193" y="203" type="line" smooth="yes"/>
+      <point x="190" y="42"/>
+      <point x="226" y="-30"/>
+      <point x="338" y="-30" type="curve" smooth="yes"/>
+      <point x="422" y="-30"/>
+    </contour>
+    <contour>
+      <point x="296" y="1050" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

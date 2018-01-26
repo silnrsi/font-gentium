@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModRaisedColon" format="1">
+  <advance width="469"/>
+  <unicode hex="02F8"/>
+  <outline>
+    <component base="FullStop" yOffset="329"/>
+    <component base="FullStop" yOffset="1054"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>1550</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>1290</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

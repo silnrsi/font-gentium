@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModSmBottomHalfO" format="1">
+  <advance width="721"/>
+  <unicode hex="1D55"/>
+  <outline>
+    <contour>
+      <point x="189" y="779"/>
+      <point x="184" y="898" type="curve"/>
+      <point x="56" y="898" type="line"/>
+      <point x="51" y="724"/>
+      <point x="171" y="602"/>
+      <point x="348" y="602" type="curve" smooth="yes"/>
+      <point x="518" y="602"/>
+      <point x="657" y="747"/>
+      <point x="665" y="898" type="curve"/>
+      <point x="540" y="898" type="line"/>
+      <point x="541" y="760"/>
+      <point x="480" y="678"/>
+      <point x="367" y="678" type="curve" smooth="yes"/>
+      <point x="296" y="678"/>
+    </contour>
+    <contour>
+      <point x="358" y="540" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="358" y="1286" type="move" name="U"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.986</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>
