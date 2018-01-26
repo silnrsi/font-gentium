@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmWHook.sc" format="2">
+<glyph name="LtnSmWHook.sc" format="1">
   <advance width="1846"/>
-  <anchor x="808" y="-100" name="L"/>
-  <anchor x="836" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="1201" y="1"/>
@@ -54,11 +52,11 @@
       <point x="1077" y="-26" type="line"/>
       <point x="1112" y="-19"/>
     </contour>
+    <contour>
+      <point x="808" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="836" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmVHookDep" format="2">
+<glyph name="ModSmVHookDep" format="1">
   <advance width="696"/>
   <unicode hex="F1C6"/>
-  <anchor x="329" y="750" name="L"/>
-  <anchor x="329" y="1400" name="U"/>
   <outline>
     <contour>
       <point x="-1" y="1226" type="line"/>
@@ -45,11 +43,11 @@
       <point x="483" y="1196" type="curve"/>
       <point x="563" y="1173"/>
     </contour>
+    <contour>
+      <point x="329" y="750" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="329" y="1400" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

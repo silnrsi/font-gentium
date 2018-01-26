@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapECircumDotBlw" format="2">
+<glyph name="LtnCapECircumDotBlw" format="1">
   <advance width="1016"/>
   <unicode hex="1EC6"/>
-  <anchor x="502" y="0" name="H"/>
-  <anchor x="502" y="-600" name="L"/>
-  <anchor x="750" y="0" name="O"/>
-  <anchor x="1016" y="1100" name="R"/>
-  <anchor x="502" y="1770" name="U"/>
   <outline>
     <component base="LtnCapE"/>
     <component base="CombDotBlw" xOffset="1017"/>
     <component base="CombCircum.LP" xOffset="1016" yOffset="320"/>
+    <contour>
+      <point x="502" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="502" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="750" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="1016" y="1100" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="502" y="1770" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

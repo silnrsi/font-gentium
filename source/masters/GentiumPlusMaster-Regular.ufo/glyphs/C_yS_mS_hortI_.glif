@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmShortI" format="2">
+<glyph name="CySmShortI" format="1">
   <advance width="1195"/>
   <unicode hex="0439"/>
-  <anchor x="597" y="-100" name="L"/>
-  <anchor x="597" y="1370" name="U"/>
   <outline>
     <component base="CySmI"/>
     <component base="CombBreve.CyShortMrkAlt" xOffset="1194"/>
+    <contour>
+      <point x="597" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="597" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

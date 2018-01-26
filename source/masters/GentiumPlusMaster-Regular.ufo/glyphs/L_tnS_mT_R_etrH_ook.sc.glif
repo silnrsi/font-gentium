@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTRetrHook.sc" format="2">
+<glyph name="LtnSmTRetrHook.sc" format="1">
   <advance width="1060"/>
-  <anchor x="513" y="-491" name="L"/>
-  <anchor x="513" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="1006" y="-85" type="curve"/>
@@ -47,11 +45,11 @@
       <point x="846" y="-310"/>
       <point x="1012" y="-171"/>
     </contour>
+    <contour>
+      <point x="513" y="-491" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="513" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

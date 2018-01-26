@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapACircumGrave" format="2">
+<glyph name="LtnCapACircumGrave" format="1">
   <advance width="1219"/>
   <unicode hex="1EA6"/>
-  <anchor x="599" y="0" name="H"/>
-  <anchor x="599" y="-100" name="L"/>
-  <anchor x="960" y="0" name="O"/>
-  <anchor x="599" y="2090" name="U"/>
   <outline>
     <component base="LtnCapA"/>
     <component base="CombCircum.LP" xOffset="1113" yOffset="320"/>
     <component base="CombGrave.LP" xOffset="1032" yOffset="720"/>
+    <contour>
+      <point x="599" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="599" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="960" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="599" y="2090" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

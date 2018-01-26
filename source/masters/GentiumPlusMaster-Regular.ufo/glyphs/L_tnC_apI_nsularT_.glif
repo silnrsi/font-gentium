@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapInsularT" format="2">
+<glyph name="LtnCapInsularT" format="1">
   <advance width="1098"/>
   <unicode hex="A786"/>
-  <anchor x="525" y="-100" name="L"/>
-  <anchor x="531" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="871" y="42"/>
@@ -41,11 +39,11 @@
       <point x="996" y="1145" type="line"/>
       <point x="1008" y="1171"/>
     </contour>
+    <contour>
+      <point x="525" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="531" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

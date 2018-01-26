@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmRevZeDep" format="2">
+<glyph name="CySmRevZeDep" format="1">
   <advance width="861"/>
   <unicode hex="F32B"/>
-  <anchor x="425" y="0" name="H"/>
-  <anchor x="445" y="-100" name="L"/>
-  <anchor x="500" y="0" name="O"/>
-  <anchor x="884" y="900" name="R"/>
-  <anchor x="448" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="50" y="990" type="line"/>
@@ -68,11 +63,20 @@
       <point x="752" y="63" type="curve"/>
       <point x="685" y="17"/>
     </contour>
+    <contour>
+      <point x="425" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="445" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="500" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="884" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="448" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

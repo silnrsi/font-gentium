@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTurnedA.2StorySItal" format="2">
+<glyph name="LtnSmTurnedA.2StorySItal" format="1">
   <advance width="968"/>
-  <anchor x="498" y="-100" name="L"/>
-  <anchor x="1056" y="900" name="R"/>
-  <anchor x="516" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="140" y="898"/>
@@ -62,11 +59,14 @@
       <point x="724" y="592"/>
       <point x="646" y="497"/>
     </contour>
+    <contour>
+      <point x="498" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1056" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="516" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

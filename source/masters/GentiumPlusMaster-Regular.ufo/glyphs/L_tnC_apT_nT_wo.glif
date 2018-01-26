@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapTnTwo" format="2">
+<glyph name="LtnCapTnTwo" format="1">
   <advance width="975"/>
   <unicode hex="01A7"/>
-  <anchor x="499" y="-100" name="L"/>
-  <anchor x="499" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="115" y="792"/>
@@ -45,11 +43,11 @@
       <point x="746" y="1014" type="curve" smooth="yes"/>
       <point x="746" y="762"/>
     </contour>
+    <contour>
+      <point x="499" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="499" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

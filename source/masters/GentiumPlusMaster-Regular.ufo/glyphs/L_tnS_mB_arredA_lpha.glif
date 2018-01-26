@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmBarredAlpha" format="2">
+<glyph name="LtnSmBarredAlpha" format="1">
   <advance width="1043"/>
   <unicode hex="AB30"/>
-  <anchor x="564" y="-100" name="L"/>
-  <anchor x="564" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="1029" y="84" type="curve"/>
@@ -74,11 +72,11 @@
       <point x="12" y="415" type="line"/>
       <point x="988" y="415" type="line"/>
     </contour>
+    <contour>
+      <point x="564" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="564" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

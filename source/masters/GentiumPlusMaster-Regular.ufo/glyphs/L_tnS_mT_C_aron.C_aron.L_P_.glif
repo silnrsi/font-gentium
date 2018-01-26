@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTCaron.Caron.LP" format="2">
+<glyph name="LtnSmTCaron.Caron.LP" format="1">
   <advance width="705"/>
-  <anchor x="348" y="0" name="H"/>
-  <anchor x="348" y="-100" name="L"/>
-  <anchor x="500" y="900" name="R"/>
-  <anchor x="348" y="1640" name="U"/>
   <outline>
     <component base="LtnSmT"/>
     <component base="CombCaron.LP" xOffset="862" yOffset="270"/>
+    <contour>
+      <point x="348" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="348" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="500" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="348" y="1640" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

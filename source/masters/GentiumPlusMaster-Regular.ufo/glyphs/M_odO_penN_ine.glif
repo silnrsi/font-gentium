@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModOpenNine" format="2">
+<glyph name="ModOpenNine" format="1">
   <advance width="663"/>
   <unicode hex="A770"/>
-  <anchor x="300" y="560" name="L"/>
-  <anchor x="300" y="1286" name="U"/>
   <outline>
     <contour>
       <point x="41" y="1018"/>
@@ -43,11 +41,11 @@
       <point x="324" y="1196" type="curve" smooth="yes"/>
       <point x="152" y="1196"/>
     </contour>
+    <contour>
+      <point x="300" y="560" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="300" y="1286" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

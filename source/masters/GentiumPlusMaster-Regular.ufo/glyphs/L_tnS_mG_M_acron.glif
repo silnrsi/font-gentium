@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmGMacron" format="2">
+<glyph name="LtnSmGMacron" format="1">
   <advance width="999"/>
   <unicode hex="1E21"/>
-  <anchor x="500" y="-470" name="H"/>
-  <anchor x="500" y="-600" name="L"/>
-  <anchor x="999" y="900" name="R"/>
-  <anchor x="500" y="1410" name="U"/>
   <outline>
     <component base="LtnSmG"/>
     <component base="CombMacron" xOffset="1025"/>
+    <contour>
+      <point x="500" y="-470" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="500" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="999" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="500" y="1410" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

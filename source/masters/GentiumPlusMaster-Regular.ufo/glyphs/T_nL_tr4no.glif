@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="TnLtr4no" format="2">
+<glyph name="TnLtr4no" format="1">
   <advance width="743"/>
-  <anchor x="127" y="1131" name="_TL"/>
   <outline>
     <component base="TnLtrSpcPointLeft"/>
     <component base="TnLtrSeg44" xOffset="126"/>
     <component base="TnLtrSpcFlatRight" xOffset="551"/>
+    <contour>
+      <point x="127" y="1131" type="move" name="_TL"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

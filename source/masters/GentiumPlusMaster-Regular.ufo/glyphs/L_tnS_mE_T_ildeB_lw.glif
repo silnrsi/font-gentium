@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmETildeBlw" format="2">
+<glyph name="LtnSmETildeBlw" format="1">
   <advance width="946"/>
   <unicode hex="1E1B"/>
-  <anchor x="500" y="0" name="H"/>
-  <anchor x="500" y="-600" name="L"/>
-  <anchor x="558" y="0" name="O"/>
-  <anchor x="1020" y="900" name="R"/>
-  <anchor x="510" y="1050" name="U"/>
   <outline>
     <component base="LtnSmE"/>
     <component base="CombTildeBlw" xOffset="1015"/>
+    <contour>
+      <point x="500" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="500" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="558" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="1020" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="510" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

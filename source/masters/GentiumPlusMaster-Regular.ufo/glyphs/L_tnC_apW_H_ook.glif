@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapWHook" format="2">
+<glyph name="LtnCapWHook" format="1">
   <advance width="1964"/>
   <unicode hex="2C72"/>
-  <anchor x="861" y="-100" name="L"/>
-  <anchor x="912" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1288" y="0"/>
@@ -53,11 +51,11 @@
       <point x="1163" y="-30" type="line"/>
       <point x="1198" y="-22"/>
     </contour>
+    <contour>
+      <point x="861" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="912" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModCircumAccent.LP" format="2">
+<glyph name="ModCircumAccent.LP" format="1">
   <advance width="733"/>
-  <anchor x="365" y="1370" name="U"/>
-  <anchor x="365" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="666" y="1067"/>
@@ -17,11 +15,11 @@
       <point x="639" y="1047" type="line"/>
       <point x="662" y="1057"/>
     </contour>
+    <contour>
+      <point x="365" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="365" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

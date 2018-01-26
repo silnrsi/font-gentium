@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmArchaicKoppa" format="2">
+<glyph name="GrSmArchaicKoppa" format="1">
   <advance width="1020"/>
   <unicode hex="03D9"/>
-  <anchor x="525" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="935" y="219"/>
@@ -48,11 +47,8 @@
       <point x="574" y="-143"/>
     </contour>
     <component base="LtnSmO" xOffset="2"/>
+    <contour>
+      <point x="525" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

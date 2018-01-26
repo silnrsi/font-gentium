@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombCedilla" format="2">
+<glyph name="CombCedilla" format="1">
+  <advance width="0"/>
   <unicode hex="0327"/>
-  <anchor x="-513" y="-600" name="L"/>
-  <anchor x="-513" y="0" name="_H"/>
   <outline>
     <contour>
       <point x="-348" y="-328"/>
@@ -24,11 +23,11 @@
       <point x="-656" y="-444" type="line"/>
       <point x="-437" y="-412"/>
     </contour>
+    <contour>
+      <point x="-513" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-513" y="0" type="move" name="_H"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmLRetrHookBelt" format="2">
+<glyph name="LtnSmLRetrHookBelt" format="1">
   <advance width="682"/>
   <unicode hex="A78E"/>
-  <anchor x="468" y="-600" name="L"/>
-  <anchor x="364" y="1690" name="U"/>
   <outline>
     <contour>
       <point x="870" y="-336"/>
@@ -63,11 +61,11 @@
       <point x="371" y="846" type="line" smooth="yes"/>
       <point x="371" y="990"/>
     </contour>
+    <contour>
+      <point x="468" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="364" y="1690" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Cedilla" format="2">
+<glyph name="Cedilla" format="1">
   <advance width="469"/>
   <unicode hex="00B8"/>
-  <anchor x="243" y="-600" name="L"/>
   <outline>
     <contour>
       <point x="408" y="-328"/>
@@ -24,11 +23,8 @@
       <point x="100" y="-444" type="line"/>
       <point x="319" y="-412"/>
     </contour>
+    <contour>
+      <point x="243" y="-600" type="move" name="L"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

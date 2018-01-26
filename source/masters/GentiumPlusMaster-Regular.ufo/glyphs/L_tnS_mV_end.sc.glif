@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmVend.sc" format="2">
+<glyph name="LtnSmVend.sc" format="1">
   <advance width="1040"/>
-  <anchor x="500" y="-491" name="L"/>
-  <anchor x="502" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="988" y="991" type="curve"/>
@@ -39,11 +37,11 @@
       <point x="861" y="968"/>
       <point x="908" y="977"/>
     </contour>
+    <contour>
+      <point x="500" y="-491" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="502" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

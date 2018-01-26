@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTurnedRLngLegHook" format="2">
+<glyph name="LtnSmTurnedRLngLegHook" format="1">
   <advance width="776"/>
   <unicode hex="F269"/>
-  <anchor x="572" y="-600" name="L"/>
-  <anchor x="552" y="1690" name="U"/>
   <outline>
     <contour>
       <point x="640" y="1516" type="line"/>
@@ -50,11 +48,11 @@
       <point x="640" y="-319"/>
       <point x="640" y="-166" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="572" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="552" y="1690" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

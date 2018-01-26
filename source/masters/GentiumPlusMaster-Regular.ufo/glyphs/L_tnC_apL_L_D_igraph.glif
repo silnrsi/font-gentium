@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapLLDigraph" format="2">
+<glyph name="LtnCapLLDigraph" format="1">
   <advance width="1315"/>
   <unicode hex="1EFA"/>
-  <anchor x="667" y="0" name="H"/>
-  <anchor x="667" y="-100" name="L"/>
-  <anchor x="990" y="900" name="R"/>
-  <anchor x="637" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1274" y="129"/>
@@ -52,11 +48,17 @@
       <point x="446" y="1204" type="curve"/>
       <point x="505" y="1187"/>
     </contour>
+    <contour>
+      <point x="667" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="667" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="990" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="637" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

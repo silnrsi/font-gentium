@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombBreveAcute.VNLP" format="2">
-  <anchor x="-515" y="1370" name="U"/>
-  <anchor x="-515" y="1050" name="_U"/>
+<glyph name="CombBreveAcute.VNLP" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-270" y="1145"/>
@@ -34,11 +33,30 @@
       <point x="-321" y="1549"/>
       <point x="-352" y="1567"/>
     </contour>
+    <contour>
+      <point x="-515" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-515" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>2109</integer>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

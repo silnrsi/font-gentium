@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="TnStaffLft5" format="2">
+<glyph name="TnStaffLft5" format="1">
   <advance width="152"/>
-  <anchor x="172" y="1498" name="TL"/>
   <outline>
     <component base="TnLtrSpcFlatLeft"/>
     <component base="TnLtrBar" xOffset="152"/>
+    <contour>
+      <point x="172" y="1498" type="move" name="TL"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombAcute_Grave_AcuteDep" format="2">
+<glyph name="CombAcute_Grave_AcuteDep" format="1">
+  <advance width="0"/>
   <unicode hex="F179"/>
-  <anchor x="-514" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="-852" y="1415" type="line"/>
@@ -25,11 +25,8 @@
       <point x="-109" y="1343" type="curve"/>
       <point x="-318" y="1067" type="line"/>
     </contour>
+    <contour>
+      <point x="-514" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

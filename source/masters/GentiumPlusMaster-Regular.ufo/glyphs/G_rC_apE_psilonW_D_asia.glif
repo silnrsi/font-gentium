@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapEpsilonWDasia" format="2">
+<glyph name="GrCapEpsilonWDasia" format="1">
   <advance width="1399"/>
   <unicode hex="1F19"/>
   <outline>
     <component base="GrCapEpsilon" xOffset="383"/>
     <component base="GrDasia" yOffset="-100"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

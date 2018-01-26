@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapEOgonek.RetroHook" format="2">
+<glyph name="LtnCapEOgonek.RetroHook" format="1">
   <advance width="1016"/>
-  <anchor x="502" y="0" name="H"/>
-  <anchor x="560" y="-600" name="L"/>
-  <anchor x="750" y="0" name="O"/>
-  <anchor x="990" y="1100" name="R"/>
-  <anchor x="502" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="857" y="-336"/>
@@ -29,11 +24,20 @@
       <point x="759" y="-500"/>
     </contour>
     <component base="LtnCapE"/>
+    <contour>
+      <point x="502" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="560" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="750" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="990" y="1100" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="502" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

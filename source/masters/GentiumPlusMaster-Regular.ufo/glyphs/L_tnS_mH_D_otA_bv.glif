@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmHDotAbv" format="2">
+<glyph name="LtnSmHDotAbv" format="1">
   <advance width="1130"/>
   <unicode hex="1E23"/>
-  <anchor x="257" y="0" name="H"/>
-  <anchor x="577" y="-100" name="L"/>
-  <anchor x="577" y="1940" name="U"/>
   <outline>
     <component base="LtnSmH"/>
     <component base="CombDotAbv.LP" xOffset="1092" yOffset="570"/>
+    <contour>
+      <point x="257" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="577" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="577" y="1940" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

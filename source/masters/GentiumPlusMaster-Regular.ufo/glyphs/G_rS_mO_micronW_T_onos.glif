@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmOmicronWTonos" format="2">
+<glyph name="GrSmOmicronWTonos" format="1">
   <advance width="1020"/>
   <unicode hex="03CC"/>
   <outline>
     <component base="GrSmOmicron"/>
     <component base="GrTonos" xOffset="395"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

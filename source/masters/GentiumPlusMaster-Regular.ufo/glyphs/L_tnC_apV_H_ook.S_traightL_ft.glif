@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapVHook.StraightLft" format="2">
+<glyph name="LtnCapVHook.StraightLft" format="1">
   <advance width="1262"/>
-  <anchor x="665" y="0" name="H"/>
-  <anchor x="655" y="-100" name="L"/>
-  <anchor x="610" y="0" name="O"/>
-  <anchor x="665" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="455" y="1217" type="curve"/>
@@ -46,11 +42,23 @@
       <point x="313" y="1191"/>
       <point x="349" y="1209"/>
     </contour>
+    <contour>
+      <point x="665" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="655" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="610" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="665" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
+      <key>org.sil.assocFeatureValue</key>
+      <integer>1</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmYHook" format="2">
+<glyph name="LtnSmYHook" format="1">
   <advance width="1141"/>
-  <anchor x="770" y="-100" name="L"/>
-  <anchor x="552" y="1050" name="U"/>
   <outline>
     <component base="LtnSmYHook.RtHook"/>
+    <contour>
+      <point x="770" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="552" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

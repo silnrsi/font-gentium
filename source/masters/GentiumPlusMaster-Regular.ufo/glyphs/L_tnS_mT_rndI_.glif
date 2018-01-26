@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTrndI" format="2">
+<glyph name="LtnSmTrndI" format="1">
   <advance width="565"/>
   <unicode hex="1D09"/>
-  <anchor x="280" y="-100" name="L"/>
-  <anchor x="280" y="1435" name="U"/>
   <outline>
     <contour>
       <point x="165" y="140"/>
@@ -40,11 +38,11 @@
       <point x="395" y="1265"/>
       <point x="485" y="1283" type="curve"/>
     </contour>
+    <contour>
+      <point x="280" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="280" y="1435" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

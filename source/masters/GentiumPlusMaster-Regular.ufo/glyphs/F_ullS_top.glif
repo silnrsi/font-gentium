@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="FullStop" format="2">
+<glyph name="FullStop" format="1">
   <advance width="469"/>
   <unicode hex="002E"/>
   <outline>
@@ -18,10 +18,4 @@
       <point x="309" y="-40"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

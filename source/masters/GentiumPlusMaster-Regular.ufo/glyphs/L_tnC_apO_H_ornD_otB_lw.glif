@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapOHornDotBlw" format="2">
+<glyph name="LtnCapOHornDotBlw" format="1">
   <advance width="1229"/>
   <unicode hex="1EE2"/>
-  <anchor x="615" y="-600" name="L"/>
-  <anchor x="615" y="1370" name="U"/>
   <outline>
     <component base="LtnCapO" xOffset="-2"/>
     <component base="CombHorn" xOffset="1150" yOffset="350"/>
     <component base="CombDotBlw" xOffset="1130"/>
+    <contour>
+      <point x="615" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="615" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

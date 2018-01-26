@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnBidentalPercussive" format="2">
+<glyph name="LtnBidentalPercussive" format="1">
   <advance width="1074"/>
   <unicode hex="02AD"/>
-  <anchor x="548" y="-100" name="L"/>
-  <anchor x="548" y="1260" name="U"/>
   <outline>
     <contour>
       <point x="264" y="18"/>
@@ -45,11 +43,11 @@
       <point x="196" y="709" type="line"/>
       <point x="231" y="727"/>
     </contour>
+    <contour>
+      <point x="548" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="548" y="1260" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

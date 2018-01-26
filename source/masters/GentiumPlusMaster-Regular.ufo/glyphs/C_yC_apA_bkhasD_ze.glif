@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapAbkhasDze" format="2">
+<glyph name="CyCapAbkhasDze" format="1">
   <advance width="1066"/>
   <unicode hex="04E0"/>
-  <anchor x="520" y="-100" name="L"/>
-  <anchor x="535" y="1370" name="U"/>
   <outline>
     <component base="LtnCapEzh"/>
+    <contour>
+      <point x="520" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="535" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.807</real>
+        <integer>1</integer>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

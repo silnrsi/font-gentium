@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmEt" format="2">
+<glyph name="LtnSmEt" format="1">
   <advance width="477"/>
   <unicode hex="A76B"/>
-  <anchor x="25" y="-270" name="L"/>
-  <anchor x="29" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="343" y="516"/>
@@ -48,11 +46,11 @@
       <point x="221" y="-18"/>
       <point x="144" y="-143"/>
     </contour>
+    <contour>
+      <point x="25" y="-270" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="29" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

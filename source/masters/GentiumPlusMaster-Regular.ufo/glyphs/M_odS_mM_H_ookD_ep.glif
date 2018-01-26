@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmMHookDep" format="2">
+<glyph name="ModSmMHookDep" format="1">
   <advance width="1143"/>
   <unicode hex="F1C0"/>
-  <anchor x="526" y="500" name="L"/>
-  <anchor x="526" y="1400" name="U"/>
   <outline>
     <contour>
       <point x="8" y="1226" type="line"/>
@@ -88,11 +86,11 @@
       <point x="966" y="1196"/>
       <point x="1041" y="1155"/>
     </contour>
+    <contour>
+      <point x="526" y="500" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="526" y="1400" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

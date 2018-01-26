@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapEnDesc" format="2">
+<glyph name="CyCapEnDesc" format="1">
   <advance width="1340"/>
   <unicode hex="04A2"/>
-  <anchor x="660" y="-100" name="L"/>
-  <anchor x="660" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="820" y="0" type="line"/>
@@ -67,11 +65,11 @@
       <point x="1293" y="-62"/>
       <point x="1301" y="65" type="curve"/>
     </contour>
+    <contour>
+      <point x="660" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="660" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

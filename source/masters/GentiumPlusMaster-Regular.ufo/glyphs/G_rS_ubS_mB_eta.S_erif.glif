@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSubSmBeta.Serif" format="2">
+<glyph name="GrSubSmBeta.Serif" format="1">
   <advance width="714"/>
-  <anchor x="372" y="-600" name="L"/>
-  <anchor x="372" y="794" name="U"/>
   <outline>
     <contour>
       <point x="93" y="248" type="curve" smooth="yes"/>
@@ -56,11 +54,11 @@
       <point x="131" y="730"/>
       <point x="93" y="466"/>
     </contour>
+    <contour>
+      <point x="372" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="372" y="794" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

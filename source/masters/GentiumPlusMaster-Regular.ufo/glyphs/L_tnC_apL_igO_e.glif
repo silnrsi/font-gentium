@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapLigOe" format="2">
+<glyph name="LtnCapLigOe" format="1">
   <advance width="1634"/>
   <unicode hex="0152"/>
-  <anchor x="822" y="-100" name="L"/>
-  <anchor x="822" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1503" y="1167"/>
@@ -92,11 +90,11 @@
       <point x="604" y="1176" type="curve" smooth="yes"/>
       <point x="727" y="1176"/>
     </contour>
+    <contour>
+      <point x="822" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="822" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

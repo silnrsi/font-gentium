@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapHDesc" format="2">
-  <advance width="1340"/>
+<glyph name="LtnCapHDesc" format="1">
+  <advance width="1371"/>
   <unicode hex="2C67"/>
-  <anchor x="661" y="-100" name="L"/>
-  <anchor x="661" y="1370" name="U"/>
   <outline>
     <component base="CyCapEnDesc"/>
+    <contour>
+      <point x="661" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="661" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:41</string>
-    </dict>
-  </lib>
 </glyph>

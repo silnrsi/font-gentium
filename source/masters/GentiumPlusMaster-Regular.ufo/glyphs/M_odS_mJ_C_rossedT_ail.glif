@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmJCrossedTail" format="2">
+<glyph name="ModSmJCrossedTail" format="1">
   <advance width="371"/>
   <unicode hex="1DA8"/>
-  <anchor x="135" y="258" name="L"/>
-  <anchor x="189" y="1286" name="U"/>
   <outline>
     <contour>
       <point x="258" y="679" type="curve" smooth="yes"/>
@@ -59,11 +57,30 @@
       <point x="188" y="1280" type="curve" smooth="yes"/>
       <point x="239" y="1280"/>
     </contour>
+    <contour>
+      <point x="135" y="258" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="189" y="1286" type="move" name="U"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>258</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

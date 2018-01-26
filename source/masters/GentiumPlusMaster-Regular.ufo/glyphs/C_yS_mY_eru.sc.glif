@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmYeru.sc" format="2">
+<glyph name="CySmYeru.sc" format="1">
   <advance width="1438"/>
-  <anchor x="724" y="-76" name="L"/>
-  <anchor x="724" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="914" y="107"/>
@@ -78,11 +76,11 @@
       <point x="1014" y="64"/>
       <point x="932" y="49" type="curve"/>
     </contour>
+    <contour>
+      <point x="724" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="724" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

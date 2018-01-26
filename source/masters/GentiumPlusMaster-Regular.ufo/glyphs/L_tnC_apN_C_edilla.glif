@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapNCedilla" format="2">
+<glyph name="LtnCapNCedilla" format="1">
   <advance width="1329"/>
   <unicode hex="0145"/>
-  <anchor x="1047" y="0" name="H"/>
-  <anchor x="665" y="-600" name="L"/>
-  <anchor x="665" y="1370" name="U"/>
   <outline>
     <component base="LtnCapN"/>
     <component base="CombCommaBlw" xOffset="1185"/>
+    <contour>
+      <point x="1047" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="665" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="665" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

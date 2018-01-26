@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmAUDigraph" format="2">
+<glyph name="LtnSmAUDigraph" format="1">
   <advance width="1508"/>
   <unicode hex="A737"/>
-  <anchor x="754" y="-100" name="L"/>
-  <anchor x="754" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="1394" y="18"/>
@@ -90,11 +88,11 @@
       <point x="345" y="417"/>
       <point x="400" y="450"/>
     </contour>
+    <contour>
+      <point x="754" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="754" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

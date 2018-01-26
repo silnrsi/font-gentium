@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmI" format="2">
+<glyph name="CySmI" format="1">
   <advance width="1195"/>
   <unicode hex="0438"/>
-  <anchor x="597" y="-100" name="L"/>
-  <anchor x="597" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="292" y="63" type="line"/>
@@ -55,11 +53,11 @@
       <point x="800" y="61"/>
       <point x="710" y="43" type="curve"/>
     </contour>
+    <contour>
+      <point x="597" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="597" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

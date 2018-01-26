@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmZRetrHookDep" format="2">
+<glyph name="ModSmZRetrHookDep" format="1">
   <advance width="633"/>
   <unicode hex="F1C7"/>
-  <anchor x="444" y="500" name="L"/>
-  <anchor x="444" y="1400" name="U"/>
   <outline>
     <contour>
       <point x="19" y="1218" type="line"/>
@@ -54,11 +52,11 @@
       <point x="659" y="473"/>
       <point x="760" y="515"/>
     </contour>
+    <contour>
+      <point x="444" y="500" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="444" y="1400" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

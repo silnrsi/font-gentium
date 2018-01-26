@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapAlphaWOxia" format="2">
+<glyph name="GrCapAlphaWOxia" format="1">
   <advance width="1450"/>
   <unicode hex="1FBB"/>
   <outline>
     <component base="GrCapAlpha" xOffset="231"/>
     <component base="GrOxia" yOffset="-100"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

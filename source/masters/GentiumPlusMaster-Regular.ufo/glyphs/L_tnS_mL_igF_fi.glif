@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmLigFfi" format="2">
+<glyph name="LtnSmLigFfi" format="1">
   <advance width="1829"/>
   <unicode hex="FB03"/>
   <outline>
@@ -7,10 +7,4 @@
     <component base="LtnSmF" xOffset="637"/>
     <component base="LtnSmI" xOffset="1274"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Space" format="2">
+<glyph name="Space" format="1">
   <advance width="451"/>
   <unicode hex="0020"/>
-  <anchor x="225" y="0" name="H"/>
-  <anchor x="225" y="-100" name="L"/>
-  <anchor x="275" y="0" name="O"/>
-  <anchor x="451" y="900" name="R"/>
-  <anchor x="225" y="1370" name="U"/>
-  <outline/>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
+  <outline>
+    <contour>
+      <point x="225" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="225" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="275" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="451" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="225" y="1370" type="move" name="U"/>
+    </contour>
+  </outline>
 </glyph>

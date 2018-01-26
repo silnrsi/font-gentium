@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTHook" format="2">
+<glyph name="LtnSmTHook" format="1">
   <advance width="705"/>
   <unicode hex="01AD"/>
-  <anchor x="396" y="-100" name="L"/>
-  <anchor x="416" y="1690" name="U"/>
   <outline>
     <contour>
       <point x="717" y="1401"/>
@@ -55,11 +53,11 @@
       <point x="590" y="1315" type="curve"/>
       <point x="629" y="1333"/>
     </contour>
+    <contour>
+      <point x="396" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="416" y="1690" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

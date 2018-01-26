@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapBBarredLowStem" format="2">
+<glyph name="LtnCapBBarredLowStem" format="1">
   <advance width="1126"/>
   <unicode hex="0243"/>
-  <anchor x="528" y="-100" name="L"/>
-  <anchor x="528" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1016" y="129"/>
@@ -74,11 +72,11 @@
       <point x="27" y="372" type="curve"/>
       <point x="49" y="347" type="line"/>
     </contour>
+    <contour>
+      <point x="528" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="528" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmCapL" format="2">
+<glyph name="ModSmCapL" format="1">
   <advance width="621"/>
   <unicode hex="1DAB"/>
-  <anchor x="307" y="540" name="L"/>
-  <anchor x="296" y="1286" name="U"/>
   <outline>
     <contour>
       <point x="591" y="700"/>
@@ -34,11 +32,11 @@
       <point x="570" y="620" type="line"/>
       <point x="576" y="637"/>
     </contour>
+    <contour>
+      <point x="307" y="540" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="296" y="1286" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

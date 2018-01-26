@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmZCircum.sc" format="2">
+<glyph name="LtnSmZCircum.sc" format="1">
   <advance width="1007"/>
-  <anchor x="503" y="-76" name="L"/>
-  <anchor x="522" y="1595" name="U"/>
   <outline>
     <component base="LtnSmZ.sc"/>
     <component base="CombCircum" xOffset="1036" yOffset="95"/>
+    <contour>
+      <point x="503" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="522" y="1595" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

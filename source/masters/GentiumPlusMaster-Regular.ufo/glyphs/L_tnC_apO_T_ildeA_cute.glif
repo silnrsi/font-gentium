@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapOTildeAcute" format="2">
+<glyph name="LtnCapOTildeAcute" format="1">
   <advance width="1229"/>
   <unicode hex="1E4C"/>
-  <anchor x="587" y="0" name="H"/>
-  <anchor x="617" y="-100" name="L"/>
-  <anchor x="678" y="0" name="O"/>
-  <anchor x="1258" y="1100" name="R"/>
-  <anchor x="617" y="2010" name="U"/>
   <outline>
     <component base="LtnCapO"/>
     <component base="CombTilde.LP" xOffset="1132" yOffset="320"/>
     <component base="CombAcute.LP" xOffset="1160" yOffset="640"/>
+    <contour>
+      <point x="587" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="617" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="678" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="1258" y="1100" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="617" y="2010" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

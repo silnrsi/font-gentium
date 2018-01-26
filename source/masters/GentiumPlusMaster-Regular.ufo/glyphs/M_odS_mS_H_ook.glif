@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmSHook" format="2">
+<glyph name="ModSmSHook" format="1">
   <advance width="553"/>
   <unicode hex="1DB3"/>
-  <anchor x="277" y="258" name="L"/>
-  <anchor x="277" y="1286" name="U"/>
   <outline>
     <contour>
       <point x="490" y="620"/>
@@ -74,11 +72,11 @@
       <point x="201" y="320" type="curve" smooth="yes"/>
       <point x="310" y="320"/>
     </contour>
+    <contour>
+      <point x="277" y="258" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="277" y="1286" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

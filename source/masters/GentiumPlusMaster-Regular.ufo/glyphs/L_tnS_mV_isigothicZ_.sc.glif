@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmVisigothicZ.sc" format="2">
+<glyph name="LtnSmVisigothicZ.sc" format="1">
   <advance width="760"/>
-  <anchor x="369" y="-491" name="L"/>
-  <anchor x="399" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="660" y="625" type="curve"/>
@@ -84,11 +82,11 @@
       <point x="305" y="110"/>
       <point x="160" y="80"/>
     </contour>
+    <contour>
+      <point x="369" y="-491" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="399" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

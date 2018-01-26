@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrOxia" format="2">
+<glyph name="GrOxia" format="1">
   <advance width="461"/>
   <unicode hex="1FFD"/>
-  <anchor x="130" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="93" y="1084" type="curve"/>
@@ -15,11 +14,8 @@
       <point x="63" y="1097"/>
       <point x="71" y="1089"/>
     </contour>
+    <contour>
+      <point x="130" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

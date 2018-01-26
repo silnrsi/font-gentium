@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTHStrk" format="2">
+<glyph name="LtnSmTHStrk" format="1">
   <advance width="1780"/>
   <unicode hex="1D7A"/>
-  <anchor x="820" y="-100" name="L"/>
-  <anchor x="820" y="1690" name="U"/>
   <outline>
     <contour>
       <point x="1320" y="0" type="line"/>
@@ -96,11 +94,11 @@
       <point x="257" y="-116"/>
       <point x="284" y="-98" type="curve"/>
     </contour>
+    <contour>
+      <point x="820" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="820" y="1690" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

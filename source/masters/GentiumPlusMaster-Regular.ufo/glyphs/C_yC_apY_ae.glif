@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapYae" format="2">
+<glyph name="CyCapYae" format="1">
   <advance width="1645"/>
   <unicode hex="0518"/>
-  <anchor x="900" y="-100" name="L"/>
-  <anchor x="900" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="11" y="80" type="curve"/>
@@ -83,11 +81,11 @@
       <point x="715" y="710" type="line" smooth="yes"/>
       <point x="495" y="710"/>
     </contour>
+    <contour>
+      <point x="900" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="900" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

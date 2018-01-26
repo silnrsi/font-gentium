@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapEng.BaselineHook" format="2">
+<glyph name="LtnCapEng.BaselineHook" format="1">
   <advance width="1224"/>
-  <anchor x="665" y="-100" name="L"/>
-  <anchor x="665" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1125" y="587" type="curve" smooth="yes"/>
@@ -58,11 +56,17 @@
       <point x="1102" y="209"/>
       <point x="1125" y="311"/>
     </contour>
+    <contour>
+      <point x="665" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="665" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
+      <key>org.sil.assocFeatureValue</key>
+      <integer>1</integer>
     </dict>
   </lib>
 </glyph>

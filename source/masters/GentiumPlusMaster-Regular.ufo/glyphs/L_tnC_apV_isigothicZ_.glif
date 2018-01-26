@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapVisigothicZ" format="2">
+<glyph name="LtnCapVisigothicZ" format="1">
   <advance width="968"/>
   <unicode hex="A762"/>
-  <anchor x="475" y="-187" name="L"/>
-  <anchor x="475" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="325" y="751" type="curve" smooth="yes"/>
@@ -81,11 +79,11 @@
       <point x="847" y="26"/>
       <point x="914" y="109"/>
     </contour>
+    <contour>
+      <point x="475" y="-187" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="475" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

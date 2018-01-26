@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmLPalHook" format="2">
+<glyph name="ModSmLPalHook" format="1">
   <advance width="388"/>
   <unicode hex="1DAA"/>
-  <anchor x="200" y="258" name="L"/>
-  <anchor x="200" y="1620" name="U"/>
   <outline>
     <contour>
       <point x="42" y="620" type="line"/>
@@ -51,11 +49,42 @@
       <point x="156" y="511" type="curve"/>
       <point x="124" y="501"/>
     </contour>
+    <contour>
+      <point x="200" y="258" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="200" y="1620" type="move" name="U"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>-471</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>-176</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

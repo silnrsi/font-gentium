@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmIDiaerAcute" format="2">
+<glyph name="LtnSmIDiaerAcute" format="1">
   <advance width="555"/>
   <unicode hex="1E2F"/>
-  <anchor x="285" y="0" name="H"/>
-  <anchor x="285" y="-100" name="L"/>
-  <anchor x="335" y="0" name="O"/>
-  <anchor x="555" y="900" name="R"/>
-  <anchor x="285" y="1770" name="U"/>
   <outline>
     <component base="LtnSmDotlessI"/>
     <component base="CombDiaer" xOffset="800"/>
     <component base="CombAcute" xOffset="828" yOffset="360"/>
+    <contour>
+      <point x="285" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="285" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="335" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="555" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="285" y="1770" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

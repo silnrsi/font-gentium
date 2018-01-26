@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmL" format="2">
+<glyph name="LtnSmL" format="1">
   <advance width="555"/>
   <unicode hex="006C"/>
-  <anchor x="285" y="0" name="H"/>
-  <anchor x="285" y="-100" name="L"/>
-  <anchor x="535" y="900" name="R"/>
-  <anchor x="285" y="1690" name="U"/>
   <outline>
     <contour>
       <point x="60" y="0" type="line"/>
@@ -28,11 +24,17 @@
       <point x="175" y="63"/>
       <point x="60" y="43" type="curve"/>
     </contour>
+    <contour>
+      <point x="285" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="285" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="535" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="285" y="1690" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

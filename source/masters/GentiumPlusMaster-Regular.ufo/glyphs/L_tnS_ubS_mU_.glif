@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSubSmU" format="2">
+<glyph name="LtnSubSmU" format="1">
   <advance width="759"/>
   <unicode hex="1D64"/>
-  <anchor x="384" y="-260" name="L"/>
-  <anchor x="384" y="444" name="U"/>
   <outline>
     <contour>
       <point x="680" y="-189"/>
@@ -52,11 +50,11 @@
       <point x="595" y="-218" type="curve" smooth="yes"/>
       <point x="618" y="-218"/>
     </contour>
+    <contour>
+      <point x="384" y="-260" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="384" y="444" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

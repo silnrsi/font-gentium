@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmEm.sc" format="2">
+<glyph name="CySmEm.sc" format="1">
   <advance width="1476"/>
-  <anchor x="728" y="-76" name="L"/>
-  <anchor x="728" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="955" y="0" type="line"/>
@@ -77,11 +75,11 @@
       <point x="140" y="64"/>
       <point x="55" y="49" type="curve"/>
     </contour>
+    <contour>
+      <point x="728" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="728" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

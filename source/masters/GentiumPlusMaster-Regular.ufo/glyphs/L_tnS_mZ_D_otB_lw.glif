@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmZDotBlw" format="2">
+<glyph name="LtnSmZDotBlw" format="1">
   <advance width="869"/>
   <unicode hex="1E93"/>
-  <anchor x="452" y="0" name="H"/>
-  <anchor x="452" y="-600" name="L"/>
-  <anchor x="480" y="1050" name="U"/>
   <outline>
     <component base="LtnSmZ"/>
     <component base="CombDotBlw" xOffset="967"/>
+    <contour>
+      <point x="452" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="452" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="480" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

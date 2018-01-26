@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmGlottalStop" format="2">
+<glyph name="LtnSmGlottalStop" format="1">
   <advance width="820"/>
   <unicode hex="0242"/>
-  <anchor x="395" y="-100" name="L"/>
-  <anchor x="395" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="150" y="0" type="line"/>
@@ -46,11 +44,11 @@
       <point x="265" y="63"/>
       <point x="150" y="43" type="curve"/>
     </contour>
+    <contour>
+      <point x="395" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="395" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

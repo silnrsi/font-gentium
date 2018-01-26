@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombMacron_GraveDep" format="2">
+<glyph name="CombMacron_GraveDep" format="1">
+  <advance width="0"/>
   <unicode hex="F173"/>
-  <anchor x="-514" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="-891" y="1459" type="line"/>
@@ -22,11 +22,8 @@
       <point x="-833" y="1403"/>
       <point x="-820" y="1429" type="curve"/>
     </contour>
+    <contour>
+      <point x="-514" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

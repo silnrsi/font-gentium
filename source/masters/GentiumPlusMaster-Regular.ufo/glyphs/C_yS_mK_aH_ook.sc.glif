@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmKaHook.sc" format="2">
+<glyph name="CySmKaHook.sc" format="1">
   <advance width="1167"/>
-  <anchor x="612" y="-491" name="L"/>
-  <anchor x="612" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="55" y="0" type="line"/>
@@ -90,11 +88,11 @@
       <point x="1043" y="41"/>
       <point x="997" y="108"/>
     </contour>
+    <contour>
+      <point x="612" y="-491" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="612" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

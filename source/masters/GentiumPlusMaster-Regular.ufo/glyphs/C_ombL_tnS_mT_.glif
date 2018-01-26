@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombLtnSmT" format="2">
+<glyph name="CombLtnSmT" format="1">
+  <advance width="0"/>
   <unicode hex="036D"/>
-  <anchor x="-496" y="1690" name="U"/>
-  <anchor x="-495" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="-323" y="1130" type="curve"/>
@@ -38,11 +37,11 @@
       <point x="-457" y="1056"/>
       <point x="-386" y="1088"/>
     </contour>
+    <contour>
+      <point x="-496" y="1690" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-495" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

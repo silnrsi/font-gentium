@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="TnLtrBar" format="2">
+<glyph name="TnLtrBar" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="52" y="3"/>
@@ -18,10 +19,4 @@
       <point x="29" y="-20"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

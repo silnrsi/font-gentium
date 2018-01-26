@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmHCedilla" format="2">
+<glyph name="LtnSmHCedilla" format="1">
   <advance width="1130"/>
   <unicode hex="1E29"/>
-  <anchor x="257" y="-600" name="L"/>
-  <anchor x="577" y="1620" name="U"/>
   <outline>
     <component base="LtnSmH"/>
     <component base="CombCedilla" xOffset="770"/>
+    <contour>
+      <point x="257" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="577" y="1620" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

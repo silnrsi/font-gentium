@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombVertLineAbv" format="2">
+<glyph name="CombVertLineAbv" format="1">
+  <advance width="0"/>
   <unicode hex="030D"/>
-  <anchor x="-525" y="1370" name="U"/>
-  <anchor x="-525" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="-497" y="1078"/>
@@ -16,11 +15,11 @@
       <point x="-555" y="1060" type="line"/>
       <point x="-529" y="1066"/>
     </contour>
+    <contour>
+      <point x="-525" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-525" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

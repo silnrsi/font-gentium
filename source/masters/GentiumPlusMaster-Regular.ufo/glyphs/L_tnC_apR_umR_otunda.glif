@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapRumRotunda" format="2">
+<glyph name="LtnCapRumRotunda" format="1">
   <advance width="1003"/>
   <unicode hex="A75C"/>
-  <anchor x="480" y="-270" name="L"/>
-  <anchor x="480" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="616" y="1286"/>
@@ -65,11 +63,11 @@
       <point x="752" y="328"/>
       <point x="613" y="-28"/>
     </contour>
+    <contour>
+      <point x="480" y="-270" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="480" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

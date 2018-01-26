@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="SmRomNumFifty" format="2">
+<glyph name="SmRomNumFifty" format="1">
   <advance width="555"/>
   <unicode hex="217C"/>
-  <anchor x="285" y="1620" name="U"/>
   <outline>
     <component base="LtnSmL"/>
+    <contour>
+      <point x="285" y="1620" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

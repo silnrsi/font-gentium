@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmC" format="2">
+<glyph name="ModSmC" format="1">
   <advance width="626"/>
   <unicode hex="1D9C"/>
-  <anchor x="372" y="540" name="L"/>
-  <anchor x="372" y="1286" name="U"/>
   <outline>
     <contour>
       <point x="588" y="734" type="curve"/>
@@ -36,11 +34,11 @@
       <point x="413" y="602"/>
       <point x="463" y="610"/>
     </contour>
+    <contour>
+      <point x="372" y="540" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="372" y="1286" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

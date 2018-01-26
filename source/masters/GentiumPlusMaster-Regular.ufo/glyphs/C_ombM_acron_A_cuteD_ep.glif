@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombMacron_AcuteDep" format="2">
+<glyph name="CombMacron_AcuteDep" format="1">
+  <advance width="0"/>
   <unicode hex="F171"/>
-  <anchor x="-514" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="-875" y="1567" type="line"/>
@@ -22,11 +22,8 @@
       <point x="-817" y="1259"/>
       <point x="-804" y="1285" type="curve"/>
     </contour>
+    <contour>
+      <point x="-514" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

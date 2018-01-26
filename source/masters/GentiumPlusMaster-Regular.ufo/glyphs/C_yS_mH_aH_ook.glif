@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmHaHook" format="2">
+<glyph name="CySmHaHook" format="1">
   <advance width="1030"/>
   <unicode hex="04FD"/>
-  <anchor x="518" y="-600" name="L"/>
-  <anchor x="518" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="887" y="879"/>
@@ -61,11 +59,11 @@
       <point x="336" y="49"/>
       <point x="250" y="59"/>
     </contour>
+    <contour>
+      <point x="518" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="518" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmIotaStrk" format="2">
+<glyph name="LtnSmIotaStrk" format="1">
   <advance width="578"/>
   <unicode hex="1D7C"/>
-  <anchor x="292" y="0" name="H"/>
-  <anchor x="292" y="-100" name="L"/>
-  <anchor x="342" y="0" name="O"/>
-  <anchor x="544" y="900" name="R"/>
-  <anchor x="292" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="463" y="6"/>
@@ -43,11 +38,20 @@
       <point x="30" y="437" type="curve"/>
       <point x="52" y="415" type="line"/>
     </contour>
+    <contour>
+      <point x="292" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="292" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="342" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="544" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="292" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

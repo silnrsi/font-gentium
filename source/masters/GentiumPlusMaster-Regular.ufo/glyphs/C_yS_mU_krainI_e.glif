@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmUkrainIe" format="2">
+<glyph name="CySmUkrainIe" format="1">
   <advance width="893"/>
   <unicode hex="0454"/>
-  <anchor x="477" y="-100" name="L"/>
-  <anchor x="477" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="230" y="238"/>
@@ -55,11 +53,11 @@
       <point x="553" y="530"/>
       <point x="464" y="530" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="477" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="477" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

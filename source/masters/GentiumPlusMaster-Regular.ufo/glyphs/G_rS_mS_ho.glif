@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmSho" format="2">
+<glyph name="GrSmSho" format="1">
   <advance width="979"/>
   <unicode hex="03F8"/>
-  <anchor x="516" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="889" y="237"/>
@@ -68,11 +67,8 @@
       <point x="140" y="772"/>
       <point x="140" y="430"/>
     </contour>
+    <contour>
+      <point x="516" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

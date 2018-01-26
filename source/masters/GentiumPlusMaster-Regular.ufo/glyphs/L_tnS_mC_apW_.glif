@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmCapW" format="2">
+<glyph name="LtnSmCapW" format="1">
   <advance width="1438"/>
   <unicode hex="1D21"/>
-  <anchor x="712" y="-84" name="L"/>
-  <anchor x="712" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="1428" y="887" type="curve"/>
@@ -40,11 +38,11 @@
       <point x="1302" y="870"/>
       <point x="1359" y="873"/>
     </contour>
+    <contour>
+      <point x="712" y="-84" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="712" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

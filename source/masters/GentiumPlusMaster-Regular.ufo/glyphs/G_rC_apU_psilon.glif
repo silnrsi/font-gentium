@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapUpsilon" format="2">
+<glyph name="GrCapUpsilon" format="1">
   <advance width="1194"/>
   <unicode hex="03A5"/>
-  <anchor x="604" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1098" y="1116" type="curve"/>
@@ -47,11 +46,8 @@
       <point x="948" y="1108"/>
       <point x="1024" y="1126"/>
     </contour>
+    <contour>
+      <point x="604" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

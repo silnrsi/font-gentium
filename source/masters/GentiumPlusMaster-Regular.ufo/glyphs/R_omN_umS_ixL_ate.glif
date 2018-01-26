@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="RomNumSixLate" format="2">
+<glyph name="RomNumSixLate" format="1">
   <advance width="1098"/>
   <unicode hex="2185"/>
-  <anchor x="608" y="-600" name="L"/>
-  <anchor x="614" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="848" y="29"/>
@@ -53,11 +51,11 @@
       <point x="1018" y="-195"/>
       <point x="1018" y="49" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="608" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="614" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

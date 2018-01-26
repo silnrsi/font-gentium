@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrDasiaOxia" format="2">
+<glyph name="GrDasiaOxia" format="1">
   <advance width="660"/>
   <unicode hex="1FDE"/>
-  <anchor x="300" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="399" y="1084" type="curve"/>
@@ -34,11 +33,8 @@
       <point x="119" y="1528" type="curve"/>
       <point x="50" y="1480"/>
     </contour>
+    <contour>
+      <point x="300" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

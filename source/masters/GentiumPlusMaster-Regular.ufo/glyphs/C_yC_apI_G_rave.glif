@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapIGrave" format="2">
+<glyph name="CyCapIGrave" format="1">
   <advance width="1360"/>
   <unicode hex="040D"/>
-  <anchor x="670" y="-100" name="L"/>
-  <anchor x="670" y="1690" name="U"/>
   <outline>
     <component base="CyCapI"/>
     <component base="CombGrave.LP" xOffset="1103" yOffset="320"/>
+    <contour>
+      <point x="670" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="670" y="1690" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

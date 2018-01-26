@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="RtParen.Sophia" format="2">
+<glyph name="RtParen.Sophia" format="1">
   <advance width="266"/>
-  <anchor x="133" y="222" name="_C"/>
   <outline>
     <contour>
       <point x="198" y="110"/>
@@ -19,11 +18,8 @@
       <point x="115" y="-98" type="line"/>
       <point x="169" y="1"/>
     </contour>
+    <contour>
+      <point x="133" y="222" type="move" name="_C"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

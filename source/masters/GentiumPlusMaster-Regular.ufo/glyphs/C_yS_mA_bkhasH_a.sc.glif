@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmAbkhasHa.sc" format="2">
+<glyph name="CySmAbkhasHa.sc" format="1">
   <advance width="1399"/>
-  <anchor x="670" y="-76" name="L"/>
-  <anchor x="672" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="1279" y="196" type="curve"/>
@@ -75,11 +73,11 @@
       <point x="874" y="149" type="curve"/>
       <point x="770" y="220"/>
     </contour>
+    <contour>
+      <point x="670" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="672" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapYogh" format="2">
+<glyph name="LtnCapYogh" format="1">
   <advance width="1032"/>
   <unicode hex="021C"/>
-  <anchor x="527" y="-600" name="L"/>
-  <anchor x="527" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="915" y="842"/>
@@ -55,11 +53,11 @@
       <point x="167" y="-254" type="curve"/>
       <point x="898" y="-10"/>
     </contour>
+    <contour>
+      <point x="527" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="527" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModGraveAccentDep" format="2">
+<glyph name="ModGraveAccentDep" format="1">
   <advance width="408"/>
   <unicode hex="F195"/>
-  <anchor x="294" y="1410" name="U"/>
   <outline>
     <contour>
       <point x="-30" y="1519" type="line"/>
@@ -21,11 +20,8 @@
       <point x="48" y="1472"/>
       <point x="135" y="1487"/>
     </contour>
+    <contour>
+      <point x="294" y="1410" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

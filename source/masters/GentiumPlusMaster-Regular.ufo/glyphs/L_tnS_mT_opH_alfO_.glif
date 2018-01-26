@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTopHalfO" format="2">
+<glyph name="LtnSmTopHalfO" format="1">
   <advance width="1031"/>
   <unicode hex="1D16"/>
-  <anchor x="535" y="-100" name="L"/>
-  <anchor x="535" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="795" y="464" type="curve"/>
@@ -21,11 +19,11 @@
       <point x="641" y="850"/>
       <point x="791" y="671"/>
     </contour>
+    <contour>
+      <point x="535" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="535" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

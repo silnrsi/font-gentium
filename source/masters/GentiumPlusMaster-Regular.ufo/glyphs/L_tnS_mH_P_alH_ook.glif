@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmHPalHook" format="2">
+<glyph name="LtnSmHPalHook" format="1">
   <advance width="1130"/>
   <unicode hex="A795"/>
-  <anchor x="577" y="-600" name="L"/>
-  <anchor x="577" y="1620" name="U"/>
   <outline>
     <contour>
       <point x="670" y="0" type="line"/>
@@ -73,11 +71,11 @@
       <point x="800" y="-194" type="curve"/>
       <point x="758" y="-210"/>
     </contour>
+    <contour>
+      <point x="577" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="577" y="1620" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

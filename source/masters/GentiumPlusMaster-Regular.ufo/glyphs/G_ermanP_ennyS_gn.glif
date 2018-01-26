@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GermanPennySgn" format="2">
+<glyph name="GermanPennySgn" format="1">
   <advance width="910"/>
   <unicode hex="20B0"/>
   <outline>
@@ -56,10 +56,4 @@
       <point x="506" y="1323"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

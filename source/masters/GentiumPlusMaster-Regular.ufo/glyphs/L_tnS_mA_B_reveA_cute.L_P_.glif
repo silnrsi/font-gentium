@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmABreveAcute.LP" format="2">
+<glyph name="LtnSmABreveAcute.LP" format="1">
   <advance width="940"/>
-  <anchor x="446" y="0" name="H"/>
-  <anchor x="460" y="-100" name="L"/>
-  <anchor x="715" y="0" name="O"/>
-  <anchor x="940" y="900" name="R"/>
-  <anchor x="480" y="1690" name="U"/>
   <outline>
     <component base="LtnSmA"/>
     <component base="CombBreve" xOffset="995"/>
     <component base="CombAcute.LP" xOffset="1023" yOffset="320"/>
+    <contour>
+      <point x="446" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="460" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="715" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="940" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="480" y="1690" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

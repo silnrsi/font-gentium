@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapElMiddleHook" format="2">
+<glyph name="CyCapElMiddleHook" format="1">
   <advance width="1781"/>
   <unicode hex="0520"/>
-  <anchor x="613" y="-100" name="L"/>
-  <anchor x="724" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="572" y="1170"/>
@@ -79,11 +77,11 @@
       <point x="1193" y="-380" type="curve"/>
       <point x="1398" y="-347"/>
     </contour>
+    <contour>
+      <point x="613" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="724" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

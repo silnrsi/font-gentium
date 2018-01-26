@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModVoicing" format="2">
+<glyph name="ModVoicing" format="1">
   <advance width="633"/>
   <unicode hex="02EC"/>
-  <anchor x="320" y="-600" name="L"/>
   <outline>
     <contour>
       <point x="371" y="-480" type="line"/>
@@ -17,11 +16,8 @@
       <point x="0" y="-173" type="curve"/>
       <point x="264" y="-480" type="line"/>
     </contour>
+    <contour>
+      <point x="320" y="-600" type="move" name="L"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

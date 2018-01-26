@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="SubEqSgn" format="2">
+<glyph name="SubEqSgn" format="1">
   <advance width="629"/>
   <unicode hex="208C"/>
   <outline>
     <component base="SupEqSgn" yOffset="-830"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

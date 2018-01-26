@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapOmegaWDasiaVaria" format="2">
+<glyph name="GrCapOmegaWDasiaVaria" format="1">
   <advance width="1971"/>
   <unicode hex="1F6B"/>
   <outline>
     <component base="GrCapOmega" xOffset="675"/>
     <component base="GrDasiaVaria" yOffset="-100"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

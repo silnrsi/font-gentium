@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapIotaWMacron" format="2">
+<glyph name="GrCapIotaWMacron" format="1">
   <advance width="650"/>
   <unicode hex="1FD9"/>
   <outline>
     <component base="GrCapIota"/>
     <component base="CombMacron.LP" xOffset="840" yOffset="320"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

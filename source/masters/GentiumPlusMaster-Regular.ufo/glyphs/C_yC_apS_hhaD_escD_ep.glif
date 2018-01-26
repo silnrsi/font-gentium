@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapShhaDescDep" format="2">
+<glyph name="CyCapShhaDescDep" format="1">
   <advance width="1224"/>
   <unicode hex="F32C"/>
-  <anchor x="607" y="-100" name="L"/>
-  <anchor x="607" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="20" y="1290" type="line"/>
@@ -71,11 +69,11 @@
       <point x="1068" y="61"/>
       <point x="1164" y="43" type="curve"/>
     </contour>
+    <contour>
+      <point x="607" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="607" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmAYDigraph" format="2">
+<glyph name="LtnSmAYDigraph" format="1">
   <advance width="1400"/>
   <unicode hex="A73D"/>
-  <anchor x="710" y="-600" name="L"/>
-  <anchor x="710" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="813" y="4"/>
@@ -94,11 +92,11 @@
       <point x="1269" y="819" type="line"/>
       <point x="1283" y="858"/>
     </contour>
+    <contour>
+      <point x="710" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="710" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -2,500 +2,500 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>public.kern1.FullStop</key>
+  <key>@MMK_L_FullStop</key>
   <array>
-    <string>FullStop</string>
     <string>Comma</string>
+    <string>FullStop</string>
   </array>
-  <key>public.kern1.GrCapAlpha</key>
+  <key>@MMK_L_GrCapAlpha</key>
   <array>
     <string>GrCapAlpha</string>
-    <string>GrCapAlphaWVrachy</string>
     <string>GrCapAlphaWMacron</string>
+    <string>GrCapAlphaWVrachy</string>
   </array>
-  <key>public.kern1.GrCapAlphaWTonos</key>
+  <key>@MMK_L_GrCapAlphaWTonos</key>
   <array>
     <string>GrCapAlphaWTonos</string>
-    <string>GrCapAlphaWPsili</string>
-    <string>GrCapAlphaWDasia</string>
-    <string>GrCapAlphaWPsiliVaria</string>
-    <string>GrCapAlphaWDasiaVaria</string>
-    <string>GrCapAlphaWPsiliOxia</string>
-    <string>GrCapAlphaWDasiaOxia</string>
-    <string>GrCapAlphaWPsiliPeris</string>
-    <string>GrCapAlphaWDasiaPeris</string>
-    <string>GrCapAlphaWVaria</string>
     <string>GrCapAlphaWOxia</string>
+    <string>GrCapAlphaWVaria</string>
+    <string>GrCapAlphaWDasia</string>
+    <string>GrCapAlphaWDasiaOxia</string>
+    <string>GrCapAlphaWDasiaVaria</string>
+    <string>GrCapAlphaWDasiaPeris</string>
     <string>GrCapAlphaWDasiaPeris.Por</string>
+    <string>GrCapAlphaWPsili</string>
+    <string>GrCapAlphaWPsiliOxia</string>
+    <string>GrCapAlphaWPsiliVaria</string>
+    <string>GrCapAlphaWPsiliPeris</string>
     <string>GrCapAlphaWPsiliPeris.Por</string>
   </array>
-  <key>public.kern1.GrCapOmegaWTonos</key>
+  <key>@MMK_L_GrCapOmegaWTonos</key>
   <array>
     <string>GrCapOmegaWTonos</string>
-    <string>GrCapOmegaWPsili</string>
-    <string>GrCapOmegaWDasia</string>
-    <string>GrCapOmegaWPsiliVaria</string>
-    <string>GrCapOmegaWDasiaVaria</string>
-    <string>GrCapOmegaWPsiliOxia</string>
-    <string>GrCapOmegaWDasiaOxia</string>
-    <string>GrCapOmegaWPsiliPeris</string>
-    <string>GrCapOmegaWDasiaPeris</string>
-    <string>GrCapOmegaWVaria</string>
     <string>GrCapOmegaWOxia</string>
+    <string>GrCapOmegaWVaria</string>
+    <string>GrCapOmegaWDasia</string>
+    <string>GrCapOmegaWDasiaOxia</string>
+    <string>GrCapOmegaWDasiaVaria</string>
+    <string>GrCapOmegaWDasiaPeris</string>
     <string>GrCapOmegaWDasiaPeris.Por</string>
+    <string>GrCapOmegaWPsili</string>
+    <string>GrCapOmegaWPsiliOxia</string>
+    <string>GrCapOmegaWPsiliVaria</string>
+    <string>GrCapOmegaWPsiliPeris</string>
     <string>GrCapOmegaWPsiliPeris.Por</string>
   </array>
-  <key>public.kern1.GrCapOmicronWTonos</key>
+  <key>@MMK_L_GrCapOmicronWTonos</key>
   <array>
     <string>GrCapOmicronWTonos</string>
-    <string>GrCapOmicronWPsili</string>
-    <string>GrCapOmicronWDasia</string>
-    <string>GrCapOmicronWPsiliVaria</string>
-    <string>GrCapOmicronWDasiaVaria</string>
-    <string>GrCapOmicronWPsiliOxia</string>
-    <string>GrCapOmicronWDasiaOxia</string>
-    <string>GrCapOmicronWVaria</string>
     <string>GrCapOmicronWOxia</string>
+    <string>GrCapOmicronWVaria</string>
+    <string>GrCapOmicronWDasia</string>
+    <string>GrCapOmicronWDasiaOxia</string>
+    <string>GrCapOmicronWDasiaVaria</string>
+    <string>GrCapOmicronWPsili</string>
+    <string>GrCapOmicronWPsiliOxia</string>
+    <string>GrCapOmicronWPsiliVaria</string>
   </array>
-  <key>public.kern1.GrCapUpsilon</key>
+  <key>@MMK_L_GrCapUpsilon</key>
   <array>
     <string>GrCapUpsilon</string>
-    <string>GrCapUpsilonWDial</string>
-    <string>GrCapUpsilonWVrachy</string>
     <string>GrCapUpsilonWMacron</string>
+    <string>GrCapUpsilonWVrachy</string>
+    <string>GrCapUpsilonWDial</string>
   </array>
-  <key>public.kern1.GrCapUpsilonWTonos</key>
+  <key>@MMK_L_GrCapUpsilonWTonos</key>
   <array>
     <string>GrCapUpsilonWTonos</string>
-    <string>GrCapUpsilonWDasia</string>
-    <string>GrCapUpsilonWDasiaVaria</string>
-    <string>GrCapUpsilonWDasiaOxia</string>
-    <string>GrCapUpsilonWDasiaPeris</string>
-    <string>GrCapUpsilonWVaria</string>
     <string>GrCapUpsilonWOxia</string>
+    <string>GrCapUpsilonWVaria</string>
+    <string>GrCapUpsilonWDasia</string>
+    <string>GrCapUpsilonWDasiaOxia</string>
+    <string>GrCapUpsilonWDasiaVaria</string>
+    <string>GrCapUpsilonWDasiaPeris</string>
     <string>GrCapUpsilonWDasiaPeris.Por</string>
   </array>
-  <key>public.kern1.GrSmAlpha</key>
+  <key>@MMK_L_GrSmAlpha</key>
   <array>
     <string>GrSmAlpha</string>
     <string>GrSmAlphaWTonos</string>
-    <string>GrSmAlphaWVaria</string>
     <string>GrSmAlphaWOxia</string>
-    <string>GrSmAlphaWPeris</string>
-    <string>GrSmAlphaWVrachy</string>
-    <string>GrSmAlphaWMacron</string>
-    <string>GrSmAlphaWYpo</string>
-    <string>GrSmAlphaWVariaYpo</string>
     <string>GrSmAlphaWOxiaYpo</string>
-    <string>GrSmAlphaWPerisYpo</string>
+    <string>GrSmAlphaWVaria</string>
+    <string>GrSmAlphaWVariaYpo</string>
+    <string>GrSmAlphaWPeris</string>
     <string>GrSmAlphaWPeris.Por</string>
+    <string>GrSmAlphaWPerisYpo</string>
     <string>GrSmAlphaWPerisYpo.Por</string>
+    <string>GrSmAlphaWMacron</string>
+    <string>GrSmAlphaWVrachy</string>
+    <string>GrSmAlphaWYpo</string>
   </array>
-  <key>public.kern1.GrSmAlphaWPsili</key>
+  <key>@MMK_L_GrSmAlphaWPsili</key>
   <array>
-    <string>GrSmAlphaWPsili</string>
     <string>GrSmAlphaWDasia</string>
-    <string>GrSmAlphaWPsiliVaria</string>
-    <string>GrSmAlphaWDasiaVaria</string>
-    <string>GrSmAlphaWPsiliOxia</string>
     <string>GrSmAlphaWDasiaOxia</string>
-    <string>GrSmAlphaWPsiliPeris</string>
-    <string>GrSmAlphaWDasiaPeris</string>
-    <string>GrSmAlphaWPsiliYpo</string>
-    <string>GrSmAlphaWDasiaYpo</string>
-    <string>GrSmAlphaWPsiliVariaYpo</string>
-    <string>GrSmAlphaWDasiaVariaYpo</string>
-    <string>GrSmAlphaWPsiliOxiaYpo</string>
     <string>GrSmAlphaWDasiaOxiaYpo</string>
-    <string>GrSmAlphaWPsiliPerisYpo</string>
-    <string>GrSmAlphaWDasiaPerisYpo</string>
+    <string>GrSmAlphaWDasiaVaria</string>
+    <string>GrSmAlphaWDasiaVariaYpo</string>
+    <string>GrSmAlphaWDasiaPeris</string>
     <string>GrSmAlphaWDasiaPeris.Por</string>
+    <string>GrSmAlphaWDasiaPerisYpo</string>
     <string>GrSmAlphaWDasiaPerisYpo.Por</string>
+    <string>GrSmAlphaWDasiaYpo</string>
+    <string>GrSmAlphaWPsili</string>
+    <string>GrSmAlphaWPsiliOxia</string>
+    <string>GrSmAlphaWPsiliOxiaYpo</string>
+    <string>GrSmAlphaWPsiliVaria</string>
+    <string>GrSmAlphaWPsiliVariaYpo</string>
+    <string>GrSmAlphaWPsiliPeris</string>
     <string>GrSmAlphaWPsiliPeris.Por</string>
+    <string>GrSmAlphaWPsiliPerisYpo</string>
     <string>GrSmAlphaWPsiliPerisYpo.Por</string>
+    <string>GrSmAlphaWPsiliYpo</string>
   </array>
-  <key>public.kern1.GrSmEpsilon</key>
+  <key>@MMK_L_GrSmEpsilon</key>
   <array>
     <string>GrSmEpsilon</string>
     <string>GrSmEpsilonWTonos</string>
-    <string>GrSmEpsilonWVaria</string>
     <string>GrSmEpsilonWOxia</string>
+    <string>GrSmEpsilonWVaria</string>
   </array>
-  <key>public.kern1.GrSmEpsilonWPsili</key>
+  <key>@MMK_L_GrSmEpsilonWPsili</key>
   <array>
-    <string>GrSmEpsilonWPsili</string>
     <string>GrSmEpsilonWDasia</string>
-    <string>GrSmEpsilonWPsiliVaria</string>
-    <string>GrSmEpsilonWDasiaVaria</string>
-    <string>GrSmEpsilonWPsiliOxia</string>
     <string>GrSmEpsilonWDasiaOxia</string>
+    <string>GrSmEpsilonWDasiaVaria</string>
+    <string>GrSmEpsilonWPsili</string>
+    <string>GrSmEpsilonWPsiliOxia</string>
+    <string>GrSmEpsilonWPsiliVaria</string>
   </array>
-  <key>public.kern1.GrSmEta</key>
+  <key>@MMK_L_GrSmEta</key>
   <array>
     <string>GrSmEta</string>
     <string>GrSmEtaWTonos</string>
-    <string>GrSmEtaWVaria</string>
     <string>GrSmEtaWOxia</string>
-    <string>GrSmEtaWPeris</string>
-    <string>GrSmEtaWYpo</string>
-    <string>GrSmEtaWVariaYpo</string>
     <string>GrSmEtaWOxiaYpo</string>
-    <string>GrSmEtaWPerisYpo</string>
+    <string>GrSmEtaWVaria</string>
+    <string>GrSmEtaWVariaYpo</string>
+    <string>GrSmEtaWPeris</string>
     <string>GrSmEtaWPeris.Por</string>
+    <string>GrSmEtaWPerisYpo</string>
     <string>GrSmEtaWPerisYpo.Por</string>
+    <string>GrSmEtaWYpo</string>
   </array>
-  <key>public.kern1.GrSmEtaWPsili</key>
+  <key>@MMK_L_GrSmEtaWPsili</key>
   <array>
-    <string>GrSmEtaWPsili</string>
     <string>GrSmEtaWDasia</string>
-    <string>GrSmEtaWPsiliVaria</string>
-    <string>GrSmEtaWDasiaVaria</string>
-    <string>GrSmEtaWPsiliOxia</string>
     <string>GrSmEtaWDasiaOxia</string>
-    <string>GrSmEtaWPsiliPeris</string>
-    <string>GrSmEtaWDasiaPeris</string>
-    <string>GrSmEtaWPsiliYpo</string>
-    <string>GrSmEtaWDasiaYpo</string>
-    <string>GrSmEtaWPsiliVariaYpo</string>
-    <string>GrSmEtaWDasiaVariaYpo</string>
-    <string>GrSmEtaWPsiliOxiaYpo</string>
     <string>GrSmEtaWDasiaOxiaYpo</string>
-    <string>GrSmEtaWPsiliPerisYpo</string>
-    <string>GrSmEtaWDasiaPerisYpo</string>
+    <string>GrSmEtaWDasiaVaria</string>
+    <string>GrSmEtaWDasiaVariaYpo</string>
+    <string>GrSmEtaWDasiaPeris</string>
     <string>GrSmEtaWDasiaPeris.Por</string>
+    <string>GrSmEtaWDasiaPerisYpo</string>
     <string>GrSmEtaWDasiaPerisYpo.Por</string>
+    <string>GrSmEtaWDasiaYpo</string>
+    <string>GrSmEtaWPsili</string>
+    <string>GrSmEtaWPsiliOxia</string>
+    <string>GrSmEtaWPsiliOxiaYpo</string>
+    <string>GrSmEtaWPsiliVaria</string>
+    <string>GrSmEtaWPsiliVariaYpo</string>
+    <string>GrSmEtaWPsiliPeris</string>
     <string>GrSmEtaWPsiliPeris.Por</string>
+    <string>GrSmEtaWPsiliPerisYpo</string>
     <string>GrSmEtaWPsiliPerisYpo.Por</string>
+    <string>GrSmEtaWPsiliYpo</string>
   </array>
-  <key>public.kern1.GrSmIota</key>
+  <key>@MMK_L_GrSmIota</key>
   <array>
     <string>GrSmIota</string>
     <string>GrSmIotaWTonos</string>
-    <string>GrSmIotaWVaria</string>
     <string>GrSmIotaWOxia</string>
+    <string>GrSmIotaWVaria</string>
     <string>GrSmIotaWPeris</string>
-    <string>GrSmIotaWVrachy</string>
-    <string>GrSmIotaWMacron</string>
-    <string>GrPros</string>
     <string>GrSmIotaWPeris.Por</string>
+    <string>GrSmIotaWMacron</string>
+    <string>GrSmIotaWVrachy</string>
+    <string>GrPros</string>
   </array>
-  <key>public.kern1.GrSmIotaWDial</key>
+  <key>@MMK_L_GrSmIotaWDial</key>
   <array>
     <string>GrSmIotaWDial</string>
     <string>GrSmIotaWDialTonos</string>
-    <string>GrSmIotaWDialVaria</string>
     <string>GrSmIotaWDialOxia</string>
+    <string>GrSmIotaWDialVaria</string>
     <string>GrSmIotaWDialPeris</string>
     <string>GrSmIotaWDialPeris.Por</string>
   </array>
-  <key>public.kern1.GrSmIotaWPsili</key>
+  <key>@MMK_L_GrSmIotaWPsili</key>
   <array>
-    <string>GrSmIotaWPsili</string>
     <string>GrSmIotaWDasia</string>
-    <string>GrSmIotaWPsiliVaria</string>
-    <string>GrSmIotaWDasiaVaria</string>
-    <string>GrSmIotaWPsiliOxia</string>
     <string>GrSmIotaWDasiaOxia</string>
-    <string>GrSmIotaWPsiliPeris</string>
+    <string>GrSmIotaWDasiaVaria</string>
     <string>GrSmIotaWDasiaPeris</string>
     <string>GrSmIotaWDasiaPeris.Por</string>
+    <string>GrSmIotaWPsili</string>
+    <string>GrSmIotaWPsiliOxia</string>
+    <string>GrSmIotaWPsiliVaria</string>
+    <string>GrSmIotaWPsiliPeris</string>
     <string>GrSmIotaWPsiliPeris.Por</string>
   </array>
-  <key>public.kern1.GrSmOmega</key>
+  <key>@MMK_L_GrSmOmega</key>
   <array>
     <string>GrSmOmega</string>
     <string>GrSmOmegaWTonos</string>
-    <string>GrSmOmegaWVaria</string>
     <string>GrSmOmegaWOxia</string>
-    <string>GrSmOmegaWPeris</string>
-    <string>GrSmOmegaWYpo</string>
-    <string>GrSmOmegaWVariaYpo</string>
     <string>GrSmOmegaWOxiaYpo</string>
-    <string>GrSmOmegaWPerisYpo</string>
+    <string>GrSmOmegaWVaria</string>
+    <string>GrSmOmegaWVariaYpo</string>
+    <string>GrSmOmegaWPeris</string>
     <string>GrSmOmegaWPeris.Por</string>
+    <string>GrSmOmegaWPerisYpo</string>
     <string>GrSmOmegaWPerisYpo.Por</string>
+    <string>GrSmOmegaWYpo</string>
   </array>
-  <key>public.kern1.GrSmOmegaWPsili</key>
+  <key>@MMK_L_GrSmOmegaWPsili</key>
   <array>
-    <string>GrSmOmegaWPsili</string>
     <string>GrSmOmegaWDasia</string>
-    <string>GrSmOmegaWPsiliVaria</string>
-    <string>GrSmOmegaWDasiaVaria</string>
-    <string>GrSmOmegaWPsiliOxia</string>
     <string>GrSmOmegaWDasiaOxia</string>
-    <string>GrSmOmegaWPsiliPeris</string>
-    <string>GrSmOmegaWDasiaPeris</string>
-    <string>GrSmOmegaWPsiliYpo</string>
-    <string>GrSmOmegaWDasiaYpo</string>
-    <string>GrSmOmegaWPsiliVariaYpo</string>
-    <string>GrSmOmegaWDasiaVariaYpo</string>
-    <string>GrSmOmegaWPsiliOxiaYpo</string>
     <string>GrSmOmegaWDasiaOxiaYpo</string>
-    <string>GrSmOmegaWPsiliPerisYpo</string>
-    <string>GrSmOmegaWDasiaPerisYpo</string>
+    <string>GrSmOmegaWDasiaVaria</string>
+    <string>GrSmOmegaWDasiaVariaYpo</string>
+    <string>GrSmOmegaWDasiaPeris</string>
     <string>GrSmOmegaWDasiaPeris.Por</string>
+    <string>GrSmOmegaWDasiaPerisYpo</string>
     <string>GrSmOmegaWDasiaPerisYpo.Por</string>
+    <string>GrSmOmegaWDasiaYpo</string>
+    <string>GrSmOmegaWPsili</string>
+    <string>GrSmOmegaWPsiliOxia</string>
+    <string>GrSmOmegaWPsiliOxiaYpo</string>
+    <string>GrSmOmegaWPsiliVaria</string>
+    <string>GrSmOmegaWPsiliVariaYpo</string>
+    <string>GrSmOmegaWPsiliPeris</string>
     <string>GrSmOmegaWPsiliPeris.Por</string>
+    <string>GrSmOmegaWPsiliPerisYpo</string>
     <string>GrSmOmegaWPsiliPerisYpo.Por</string>
+    <string>GrSmOmegaWPsiliYpo</string>
   </array>
-  <key>public.kern1.GrSmOmicron</key>
+  <key>@MMK_L_GrSmOmicron</key>
   <array>
     <string>GrSmOmicron</string>
     <string>GrSmOmicronWTonos</string>
-    <string>GrSmOmicronWVaria</string>
     <string>GrSmOmicronWOxia</string>
+    <string>GrSmOmicronWVaria</string>
   </array>
-  <key>public.kern1.GrSmOmicronWPsili</key>
+  <key>@MMK_L_GrSmOmicronWPsili</key>
   <array>
-    <string>GrSmOmicronWPsili</string>
     <string>GrSmOmicronWDasia</string>
-    <string>GrSmOmicronWPsiliVaria</string>
-    <string>GrSmOmicronWDasiaVaria</string>
-    <string>GrSmOmicronWPsiliOxia</string>
     <string>GrSmOmicronWDasiaOxia</string>
+    <string>GrSmOmicronWDasiaVaria</string>
+    <string>GrSmOmicronWPsili</string>
+    <string>GrSmOmicronWPsiliOxia</string>
+    <string>GrSmOmicronWPsiliVaria</string>
   </array>
-  <key>public.kern1.GrSmUpsilon</key>
+  <key>@MMK_L_GrSmUpsilon</key>
   <array>
     <string>GrSmUpsilon</string>
     <string>GrSmUpsilonWTonos</string>
-    <string>GrSmUpsilonWVaria</string>
     <string>GrSmUpsilonWOxia</string>
+    <string>GrSmUpsilonWVaria</string>
     <string>GrSmUpsilonWPeris</string>
-    <string>GrSmUpsilonWVrachy</string>
-    <string>GrSmUpsilonWMacron</string>
     <string>GrSmUpsilonWPeris.Por</string>
+    <string>GrSmUpsilonWMacron</string>
+    <string>GrSmUpsilonWVrachy</string>
   </array>
-  <key>public.kern1.GrSmUpsilonWDial</key>
+  <key>@MMK_L_GrSmUpsilonWDial</key>
   <array>
     <string>GrSmUpsilonWDial</string>
     <string>GrSmUpsilonWDialTonos</string>
-    <string>GrSmUpsilonWDialVaria</string>
     <string>GrSmUpsilonWDialOxia</string>
+    <string>GrSmUpsilonWDialVaria</string>
     <string>GrSmUpsilonWDialPeris</string>
     <string>GrSmUpsilonWDialPeris.Por</string>
   </array>
-  <key>public.kern1.GrSmUpsilonWPsili</key>
+  <key>@MMK_L_GrSmUpsilonWPsili</key>
   <array>
-    <string>GrSmUpsilonWPsili</string>
     <string>GrSmUpsilonWDasia</string>
-    <string>GrSmUpsilonWPsiliVaria</string>
-    <string>GrSmUpsilonWDasiaVaria</string>
-    <string>GrSmUpsilonWPsiliOxia</string>
     <string>GrSmUpsilonWDasiaOxia</string>
-    <string>GrSmUpsilonWPsiliPeris</string>
+    <string>GrSmUpsilonWDasiaVaria</string>
     <string>GrSmUpsilonWDasiaPeris</string>
     <string>GrSmUpsilonWDasiaPeris.Por</string>
+    <string>GrSmUpsilonWPsili</string>
+    <string>GrSmUpsilonWPsiliOxia</string>
+    <string>GrSmUpsilonWPsiliVaria</string>
+    <string>GrSmUpsilonWPsiliPeris</string>
     <string>GrSmUpsilonWPsiliPeris.Por</string>
   </array>
-  <key>public.kern1.LftDblQuotMrk</key>
+  <key>@MMK_L_LftDblQuotMrk</key>
   <array>
     <string>LftDblQuotMrk</string>
     <string>LftSglQuotMrk</string>
   </array>
-  <key>public.kern1.RtDblQuotMrk</key>
+  <key>@MMK_L_RtDblQuotMrk</key>
   <array>
     <string>RtDblQuotMrk</string>
     <string>RtSglQuotMrk</string>
   </array>
-  <key>public.kern2.FullStop</key>
+  <key>@MMK_R_FullStop</key>
   <array>
-    <string>FullStop</string>
     <string>Comma</string>
+    <string>FullStop</string>
   </array>
-  <key>public.kern2.GrCapAlpha</key>
+  <key>@MMK_R_GrCapAlpha</key>
   <array>
     <string>GrCapAlpha</string>
-    <string>GrCapAlphaWVrachy</string>
     <string>GrCapAlphaWMacron</string>
+    <string>GrCapAlphaWVrachy</string>
   </array>
-  <key>public.kern2.GrCapUpsilon</key>
+  <key>@MMK_R_GrCapUpsilon</key>
   <array>
     <string>GrCapUpsilon</string>
-    <string>GrCapUpsilonWDial</string>
-    <string>GrCapUpsilonWVrachy</string>
     <string>GrCapUpsilonWMacron</string>
+    <string>GrCapUpsilonWVrachy</string>
+    <string>GrCapUpsilonWDial</string>
   </array>
-  <key>public.kern2.GrSmAlpha</key>
+  <key>@MMK_R_GrSmAlpha</key>
   <array>
     <string>GrSmAlpha</string>
     <string>GrSmAlphaWTonos</string>
-    <string>GrSmAlphaWVaria</string>
     <string>GrSmAlphaWOxia</string>
-    <string>GrSmAlphaWPeris</string>
-    <string>GrSmAlphaWVrachy</string>
-    <string>GrSmAlphaWMacron</string>
-    <string>GrSmAlphaWYpo</string>
-    <string>GrSmAlphaWVariaYpo</string>
     <string>GrSmAlphaWOxiaYpo</string>
-    <string>GrSmAlphaWPerisYpo</string>
+    <string>GrSmAlphaWVaria</string>
+    <string>GrSmAlphaWVariaYpo</string>
+    <string>GrSmAlphaWPeris</string>
     <string>GrSmAlphaWPeris.Por</string>
+    <string>GrSmAlphaWPerisYpo</string>
     <string>GrSmAlphaWPerisYpo.Por</string>
+    <string>GrSmAlphaWMacron</string>
+    <string>GrSmAlphaWVrachy</string>
+    <string>GrSmAlphaWYpo</string>
   </array>
-  <key>public.kern2.GrSmAlphaWPsili</key>
+  <key>@MMK_R_GrSmAlphaWPsili</key>
   <array>
-    <string>GrSmAlphaWPsili</string>
     <string>GrSmAlphaWDasia</string>
-    <string>GrSmAlphaWPsiliVaria</string>
-    <string>GrSmAlphaWDasiaVaria</string>
-    <string>GrSmAlphaWPsiliOxia</string>
     <string>GrSmAlphaWDasiaOxia</string>
-    <string>GrSmAlphaWPsiliPeris</string>
-    <string>GrSmAlphaWDasiaPeris</string>
-    <string>GrSmAlphaWPsiliYpo</string>
-    <string>GrSmAlphaWDasiaYpo</string>
-    <string>GrSmAlphaWPsiliVariaYpo</string>
-    <string>GrSmAlphaWDasiaVariaYpo</string>
-    <string>GrSmAlphaWPsiliOxiaYpo</string>
     <string>GrSmAlphaWDasiaOxiaYpo</string>
-    <string>GrSmAlphaWPsiliPerisYpo</string>
-    <string>GrSmAlphaWDasiaPerisYpo</string>
+    <string>GrSmAlphaWDasiaVaria</string>
+    <string>GrSmAlphaWDasiaVariaYpo</string>
+    <string>GrSmAlphaWDasiaPeris</string>
     <string>GrSmAlphaWDasiaPeris.Por</string>
+    <string>GrSmAlphaWDasiaPerisYpo</string>
     <string>GrSmAlphaWDasiaPerisYpo.Por</string>
+    <string>GrSmAlphaWDasiaYpo</string>
+    <string>GrSmAlphaWPsili</string>
+    <string>GrSmAlphaWPsiliOxia</string>
+    <string>GrSmAlphaWPsiliOxiaYpo</string>
+    <string>GrSmAlphaWPsiliVaria</string>
+    <string>GrSmAlphaWPsiliVariaYpo</string>
+    <string>GrSmAlphaWPsiliPeris</string>
     <string>GrSmAlphaWPsiliPeris.Por</string>
+    <string>GrSmAlphaWPsiliPerisYpo</string>
     <string>GrSmAlphaWPsiliPerisYpo.Por</string>
+    <string>GrSmAlphaWPsiliYpo</string>
   </array>
-  <key>public.kern2.GrSmEpsilon</key>
+  <key>@MMK_R_GrSmEpsilon</key>
   <array>
     <string>GrSmEpsilon</string>
     <string>GrSmEpsilonWTonos</string>
-    <string>GrSmEpsilonWVaria</string>
     <string>GrSmEpsilonWOxia</string>
+    <string>GrSmEpsilonWVaria</string>
   </array>
-  <key>public.kern2.GrSmEpsilonWPsili</key>
+  <key>@MMK_R_GrSmEpsilonWPsili</key>
   <array>
-    <string>GrSmEpsilonWPsili</string>
     <string>GrSmEpsilonWDasia</string>
-    <string>GrSmEpsilonWPsiliVaria</string>
-    <string>GrSmEpsilonWDasiaVaria</string>
-    <string>GrSmEpsilonWPsiliOxia</string>
     <string>GrSmEpsilonWDasiaOxia</string>
+    <string>GrSmEpsilonWDasiaVaria</string>
+    <string>GrSmEpsilonWPsili</string>
+    <string>GrSmEpsilonWPsiliOxia</string>
+    <string>GrSmEpsilonWPsiliVaria</string>
   </array>
-  <key>public.kern2.GrSmEta</key>
+  <key>@MMK_R_GrSmEta</key>
   <array>
     <string>GrSmEta</string>
     <string>GrSmEtaWTonos</string>
-    <string>GrSmEtaWVaria</string>
     <string>GrSmEtaWOxia</string>
-    <string>GrSmEtaWPeris</string>
-    <string>GrSmEtaWYpo</string>
-    <string>GrSmEtaWVariaYpo</string>
     <string>GrSmEtaWOxiaYpo</string>
-    <string>GrSmEtaWPerisYpo</string>
+    <string>GrSmEtaWVaria</string>
+    <string>GrSmEtaWVariaYpo</string>
+    <string>GrSmEtaWPeris</string>
     <string>GrSmEtaWPeris.Por</string>
+    <string>GrSmEtaWPerisYpo</string>
     <string>GrSmEtaWPerisYpo.Por</string>
+    <string>GrSmEtaWYpo</string>
   </array>
-  <key>public.kern2.GrSmIota</key>
+  <key>@MMK_R_GrSmIota</key>
   <array>
     <string>GrSmIota</string>
     <string>GrSmIotaWTonos</string>
-    <string>GrSmIotaWVaria</string>
     <string>GrSmIotaWOxia</string>
+    <string>GrSmIotaWVaria</string>
     <string>GrSmIotaWPeris</string>
-    <string>GrSmIotaWVrachy</string>
-    <string>GrSmIotaWMacron</string>
-    <string>GrPros</string>
     <string>GrSmIotaWPeris.Por</string>
+    <string>GrSmIotaWMacron</string>
+    <string>GrSmIotaWVrachy</string>
+    <string>GrPros</string>
   </array>
-  <key>public.kern2.GrSmIotaWDial</key>
+  <key>@MMK_R_GrSmIotaWDial</key>
   <array>
     <string>GrSmIotaWDial</string>
     <string>GrSmIotaWDialTonos</string>
-    <string>GrSmIotaWDialVaria</string>
     <string>GrSmIotaWDialOxia</string>
+    <string>GrSmIotaWDialVaria</string>
     <string>GrSmIotaWDialPeris</string>
     <string>GrSmIotaWDialPeris.Por</string>
   </array>
-  <key>public.kern2.GrSmIotaWPsili</key>
+  <key>@MMK_R_GrSmIotaWPsili</key>
   <array>
-    <string>GrSmIotaWPsili</string>
     <string>GrSmIotaWDasia</string>
-    <string>GrSmIotaWPsiliVaria</string>
-    <string>GrSmIotaWDasiaVaria</string>
-    <string>GrSmIotaWPsiliOxia</string>
     <string>GrSmIotaWDasiaOxia</string>
-    <string>GrSmIotaWPsiliPeris</string>
+    <string>GrSmIotaWDasiaVaria</string>
     <string>GrSmIotaWDasiaPeris</string>
     <string>GrSmIotaWDasiaPeris.Por</string>
+    <string>GrSmIotaWPsili</string>
+    <string>GrSmIotaWPsiliOxia</string>
+    <string>GrSmIotaWPsiliVaria</string>
+    <string>GrSmIotaWPsiliPeris</string>
     <string>GrSmIotaWPsiliPeris.Por</string>
   </array>
-  <key>public.kern2.GrSmOmega</key>
+  <key>@MMK_R_GrSmOmega</key>
   <array>
     <string>GrSmOmega</string>
     <string>GrSmOmegaWTonos</string>
-    <string>GrSmOmegaWVaria</string>
     <string>GrSmOmegaWOxia</string>
-    <string>GrSmOmegaWPeris</string>
-    <string>GrSmOmegaWYpo</string>
-    <string>GrSmOmegaWVariaYpo</string>
     <string>GrSmOmegaWOxiaYpo</string>
-    <string>GrSmOmegaWPerisYpo</string>
+    <string>GrSmOmegaWVaria</string>
+    <string>GrSmOmegaWVariaYpo</string>
+    <string>GrSmOmegaWPeris</string>
     <string>GrSmOmegaWPeris.Por</string>
+    <string>GrSmOmegaWPerisYpo</string>
     <string>GrSmOmegaWPerisYpo.Por</string>
+    <string>GrSmOmegaWYpo</string>
   </array>
-  <key>public.kern2.GrSmOmegaWPsili</key>
+  <key>@MMK_R_GrSmOmegaWPsili</key>
   <array>
-    <string>GrSmOmegaWPsili</string>
     <string>GrSmOmegaWDasia</string>
-    <string>GrSmOmegaWPsiliVaria</string>
-    <string>GrSmOmegaWDasiaVaria</string>
-    <string>GrSmOmegaWPsiliOxia</string>
     <string>GrSmOmegaWDasiaOxia</string>
-    <string>GrSmOmegaWPsiliPeris</string>
-    <string>GrSmOmegaWDasiaPeris</string>
-    <string>GrSmOmegaWPsiliYpo</string>
-    <string>GrSmOmegaWDasiaYpo</string>
-    <string>GrSmOmegaWPsiliVariaYpo</string>
-    <string>GrSmOmegaWDasiaVariaYpo</string>
-    <string>GrSmOmegaWPsiliOxiaYpo</string>
     <string>GrSmOmegaWDasiaOxiaYpo</string>
-    <string>GrSmOmegaWPsiliPerisYpo</string>
-    <string>GrSmOmegaWDasiaPerisYpo</string>
+    <string>GrSmOmegaWDasiaVaria</string>
+    <string>GrSmOmegaWDasiaVariaYpo</string>
+    <string>GrSmOmegaWDasiaPeris</string>
     <string>GrSmOmegaWDasiaPeris.Por</string>
+    <string>GrSmOmegaWDasiaPerisYpo</string>
     <string>GrSmOmegaWDasiaPerisYpo.Por</string>
+    <string>GrSmOmegaWDasiaYpo</string>
+    <string>GrSmOmegaWPsili</string>
+    <string>GrSmOmegaWPsiliOxia</string>
+    <string>GrSmOmegaWPsiliOxiaYpo</string>
+    <string>GrSmOmegaWPsiliVaria</string>
+    <string>GrSmOmegaWPsiliVariaYpo</string>
+    <string>GrSmOmegaWPsiliPeris</string>
     <string>GrSmOmegaWPsiliPeris.Por</string>
+    <string>GrSmOmegaWPsiliPerisYpo</string>
     <string>GrSmOmegaWPsiliPerisYpo.Por</string>
+    <string>GrSmOmegaWPsiliYpo</string>
   </array>
-  <key>public.kern2.GrSmOmicron</key>
+  <key>@MMK_R_GrSmOmicron</key>
   <array>
     <string>GrSmOmicron</string>
     <string>GrSmOmicronWTonos</string>
-    <string>GrSmOmicronWVaria</string>
     <string>GrSmOmicronWOxia</string>
+    <string>GrSmOmicronWVaria</string>
   </array>
-  <key>public.kern2.GrSmUpsilon</key>
+  <key>@MMK_R_GrSmUpsilon</key>
   <array>
     <string>GrSmUpsilon</string>
     <string>GrSmUpsilonWTonos</string>
-    <string>GrSmUpsilonWVaria</string>
     <string>GrSmUpsilonWOxia</string>
+    <string>GrSmUpsilonWVaria</string>
     <string>GrSmUpsilonWPeris</string>
-    <string>GrSmUpsilonWVrachy</string>
-    <string>GrSmUpsilonWMacron</string>
     <string>GrSmUpsilonWPeris.Por</string>
+    <string>GrSmUpsilonWMacron</string>
+    <string>GrSmUpsilonWVrachy</string>
   </array>
-  <key>public.kern2.GrSmUpsilonWDial</key>
+  <key>@MMK_R_GrSmUpsilonWDial</key>
   <array>
     <string>GrSmUpsilonWDial</string>
     <string>GrSmUpsilonWDialTonos</string>
-    <string>GrSmUpsilonWDialVaria</string>
     <string>GrSmUpsilonWDialOxia</string>
+    <string>GrSmUpsilonWDialVaria</string>
     <string>GrSmUpsilonWDialPeris</string>
     <string>GrSmUpsilonWDialPeris.Por</string>
   </array>
-  <key>public.kern2.GrSmUpsilonWPsili</key>
+  <key>@MMK_R_GrSmUpsilonWPsili</key>
   <array>
-    <string>GrSmUpsilonWPsili</string>
     <string>GrSmUpsilonWDasia</string>
-    <string>GrSmUpsilonWPsiliVaria</string>
-    <string>GrSmUpsilonWDasiaVaria</string>
-    <string>GrSmUpsilonWPsiliOxia</string>
     <string>GrSmUpsilonWDasiaOxia</string>
-    <string>GrSmUpsilonWPsiliPeris</string>
+    <string>GrSmUpsilonWDasiaVaria</string>
     <string>GrSmUpsilonWDasiaPeris</string>
     <string>GrSmUpsilonWDasiaPeris.Por</string>
+    <string>GrSmUpsilonWPsili</string>
+    <string>GrSmUpsilonWPsiliOxia</string>
+    <string>GrSmUpsilonWPsiliVaria</string>
+    <string>GrSmUpsilonWPsiliPeris</string>
     <string>GrSmUpsilonWPsiliPeris.Por</string>
   </array>
-  <key>public.kern2.RtDblQuotMrk</key>
+  <key>@MMK_R_RtDblQuotMrk</key>
   <array>
     <string>RtDblQuotMrk</string>
     <string>RtSglQuotMrk</string>

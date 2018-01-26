@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmInsularD.sc" format="2">
+<glyph name="LtnSmInsularD.sc" format="1">
   <advance width="1155"/>
-  <anchor x="578" y="-76" name="L"/>
-  <anchor x="578" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="1089" y="260"/>
@@ -52,11 +50,11 @@
       <point x="499" y="940" type="curve"/>
       <point x="513" y="940"/>
     </contour>
+    <contour>
+      <point x="578" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="578" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

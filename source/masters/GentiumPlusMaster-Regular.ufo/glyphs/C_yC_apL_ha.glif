@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapLha" format="2">
+<glyph name="CyCapLha" format="1">
   <advance width="1830"/>
   <unicode hex="0514"/>
-  <anchor x="901" y="-100" name="L"/>
-  <anchor x="1007" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="903" y="1170" type="curve"/>
@@ -91,11 +89,11 @@
       <point x="928" y="51"/>
       <point x="885" y="68"/>
     </contour>
+    <contour>
+      <point x="901" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1007" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

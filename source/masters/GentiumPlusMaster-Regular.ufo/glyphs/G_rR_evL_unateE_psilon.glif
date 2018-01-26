@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrRevLunateEpsilon" format="2">
+<glyph name="GrRevLunateEpsilon" format="1">
   <advance width="895"/>
   <unicode hex="03F6"/>
-  <anchor x="505" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="286" y="-30"/>
@@ -51,11 +50,8 @@
       <point x="512" y="435"/>
       <point x="583" y="430"/>
     </contour>
+    <contour>
+      <point x="505" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

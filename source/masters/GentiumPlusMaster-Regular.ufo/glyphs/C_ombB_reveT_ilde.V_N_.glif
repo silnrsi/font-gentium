@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombBreveTilde.VN" format="2">
-  <anchor x="-515" y="1750" name="U"/>
-  <anchor x="-515" y="1050" name="_U"/>
+<glyph name="CombBreveTilde.VN" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-270" y="1145"/>
@@ -45,11 +44,11 @@
       <point x="-414" y="1451" type="curve" smooth="yes"/>
       <point x="-310" y="1451"/>
     </contour>
+    <contour>
+      <point x="-515" y="1750" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-515" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

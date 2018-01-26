@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmUHornGrave" format="2">
+<glyph name="LtnSmUHornGrave" format="1">
   <advance width="1255"/>
   <unicode hex="1EEB"/>
-  <anchor x="545" y="-100" name="L"/>
-  <anchor x="545" y="1410" name="U"/>
   <outline>
     <component base="LtnSmU"/>
     <component base="CombHorn" xOffset="1185"/>
     <component base="CombGrave" xOffset="978"/>
+    <contour>
+      <point x="545" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="545" y="1410" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

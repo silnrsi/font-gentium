@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmCuatrillo" format="2">
+<glyph name="LtnSmCuatrillo" format="1">
   <advance width="904"/>
   <unicode hex="A72D"/>
-  <anchor x="444" y="-600" name="L"/>
-  <anchor x="516" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="725" y="0" type="curve"/>
@@ -45,11 +43,11 @@
       <point x="585" y="90" type="line"/>
       <point x="171" y="90" type="line"/>
     </contour>
+    <contour>
+      <point x="444" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="516" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

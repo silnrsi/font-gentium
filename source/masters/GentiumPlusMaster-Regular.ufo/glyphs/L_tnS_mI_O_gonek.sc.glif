@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmIOgonek.sc" format="2">
+<glyph name="LtnSmIOgonek.sc" format="1">
   <advance width="573"/>
-  <anchor x="277" y="7" name="H"/>
-  <anchor x="274" y="-593" name="L"/>
-  <anchor x="545" y="920" name="R"/>
-  <anchor x="277" y="1145" name="U"/>
   <outline>
     <component base="LtnSmI.sc"/>
     <component base="CombOgonek" xOffset="788" yOffset="7"/>
+    <contour>
+      <point x="277" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="274" y="-593" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="545" y="920" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="277" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

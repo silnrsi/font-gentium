@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmFDotAbv.SItal" format="2">
+<glyph name="LtnSmFDotAbv.SItal" format="1">
   <advance width="637"/>
-  <anchor x="275" y="0" name="H"/>
-  <anchor x="325" y="-100" name="L"/>
-  <anchor x="420" y="1940" name="U"/>
   <outline>
     <component base="LtnSmF.SItal"/>
     <component base="CombDotAbv.LP" xOffset="935" yOffset="570"/>
+    <contour>
+      <point x="275" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="325" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="420" y="1940" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

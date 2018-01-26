@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSupSmNLftHook" format="2">
+<glyph name="LtnSupSmNLftHook" format="1">
   <advance width="784"/>
   <unicode hex="1DAE"/>
-  <anchor x="389" y="258" name="L"/>
-  <anchor x="389" y="1286" name="U"/>
   <outline>
     <contour>
       <point x="122" y="1037" type="curve" smooth="yes"/>
@@ -59,11 +57,11 @@
       <point x="121" y="1105"/>
       <point x="122" y="1099"/>
     </contour>
+    <contour>
+      <point x="389" y="258" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="389" y="1286" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

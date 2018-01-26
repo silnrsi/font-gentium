@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapKomiNje" format="2">
+<glyph name="CyCapKomiNje" format="1">
   <advance width="1840"/>
   <unicode hex="050A"/>
-  <anchor x="965" y="-100" name="L"/>
-  <anchor x="965" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="327" y="615" type="line"/>
@@ -69,11 +67,11 @@
       <point x="965" y="354" type="line" smooth="yes"/>
       <point x="965" y="84"/>
     </contour>
+    <contour>
+      <point x="965" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="965" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

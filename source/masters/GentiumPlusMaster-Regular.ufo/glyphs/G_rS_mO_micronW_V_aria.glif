@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmOmicronWVaria" format="2">
+<glyph name="GrSmOmicronWVaria" format="1">
   <advance width="1020"/>
   <unicode hex="1F78"/>
   <outline>
     <component base="GrSmOmicron"/>
     <component base="GrVaria" xOffset="205"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

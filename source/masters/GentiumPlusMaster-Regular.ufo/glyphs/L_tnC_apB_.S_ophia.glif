@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapB.Sophia" format="2">
+<glyph name="LtnCapB.Sophia" format="1">
   <advance width="496"/>
-  <anchor x="255" y="266" name="_C"/>
   <outline>
     <contour>
       <point x="452" y="62"/>
@@ -42,11 +41,8 @@
       <point x="246" y="249" type="line" smooth="yes"/>
       <point x="334" y="249"/>
     </contour>
+    <contour>
+      <point x="255" y="266" type="move" name="_C"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

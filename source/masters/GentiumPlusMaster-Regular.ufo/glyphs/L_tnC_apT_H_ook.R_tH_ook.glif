@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapTHook.RtHook" format="2">
+<glyph name="LtnCapTHook.RtHook" format="1">
   <advance width="1203"/>
-  <anchor x="560" y="-100" name="L"/>
-  <anchor x="580" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="873" y="1260" type="curve"/>
@@ -58,11 +56,11 @@
       <point x="430" y="68"/>
       <point x="307" y="43" type="curve"/>
     </contour>
+    <contour>
+      <point x="560" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="580" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

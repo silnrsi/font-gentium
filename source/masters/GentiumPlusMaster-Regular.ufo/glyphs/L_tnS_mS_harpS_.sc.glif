@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmSharpS.sc" format="2">
+<glyph name="LtnSmSharpS.sc" format="1">
   <advance width="1832"/>
-  <anchor x="1367" y="7" name="H"/>
-  <anchor x="1386" y="-76" name="L"/>
-  <anchor x="1386" y="1145" name="U"/>
   <outline>
     <component base="LtnSmS.sc"/>
     <component base="LtnSmS.sc" xOffset="916"/>
+    <contour>
+      <point x="1367" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1386" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1386" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

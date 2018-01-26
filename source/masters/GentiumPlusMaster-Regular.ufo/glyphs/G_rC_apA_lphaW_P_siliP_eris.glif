@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapAlphaWPsiliPeris" format="2">
+<glyph name="GrCapAlphaWPsiliPeris" format="1">
   <advance width="1372"/>
   <unicode hex="1F0E"/>
   <outline>
     <component base="GrCapAlpha" xOffset="153"/>
     <component base="GrPsiliPeris" yOffset="-100"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

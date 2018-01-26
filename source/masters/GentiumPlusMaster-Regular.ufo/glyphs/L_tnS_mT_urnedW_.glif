@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTurnedW" format="2">
+<glyph name="LtnSmTurnedW" format="1">
   <advance width="1446"/>
   <unicode hex="028D"/>
-  <anchor x="722" y="-100" name="L"/>
-  <anchor x="722" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="102" y="62"/>
@@ -49,11 +47,11 @@
       <point x="1019" y="952"/>
       <point x="941" y="932"/>
     </contour>
+    <contour>
+      <point x="722" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="722" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

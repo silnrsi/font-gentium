@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="SmRomNumEight" format="2">
+<glyph name="SmRomNumEight" format="1">
   <advance width="2675"/>
   <unicode hex="2177"/>
-  <anchor x="1372" y="1370" name="U"/>
   <outline>
     <component base="LtnSmV"/>
     <component base="LtnSmI" xOffset="1010"/>
     <component base="LtnSmI" xOffset="1565"/>
     <component base="LtnSmI" xOffset="2120"/>
+    <contour>
+      <point x="1372" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

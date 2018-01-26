@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmAin" format="2">
+<glyph name="ModSmAin" format="1">
   <advance width="899"/>
   <unicode hex="1D5C"/>
-  <anchor x="450" y="750" name="L"/>
-  <anchor x="450" y="1400" name="U"/>
   <outline>
     <contour>
       <point x="562" y="1345"/>
@@ -49,11 +47,11 @@
       <point x="727" y="1166" type="curve" smooth="yes"/>
       <point x="727" y="1244"/>
     </contour>
+    <contour>
+      <point x="450" y="750" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="450" y="1400" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

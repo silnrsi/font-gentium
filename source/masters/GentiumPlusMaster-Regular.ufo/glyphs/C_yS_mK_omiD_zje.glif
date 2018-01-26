@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmKomiDzje" format="2">
+<glyph name="CySmKomiDzje" format="1">
   <advance width="975"/>
   <unicode hex="0507"/>
-  <anchor x="410" y="-100" name="L"/>
-  <anchor x="410" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="936" y="-71"/>
@@ -55,11 +53,11 @@
       <point x="862" y="-380" type="line"/>
       <point x="889" y="-301"/>
     </contour>
+    <contour>
+      <point x="410" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="410" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

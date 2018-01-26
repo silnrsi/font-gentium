@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmGDotAbv.SngBowl.LP" format="2">
+<glyph name="LtnSmGDotAbv.SngBowl.LP" format="1">
   <advance width="985"/>
-  <anchor x="520" y="-470" name="H"/>
-  <anchor x="520" y="-600" name="L"/>
-  <anchor x="1060" y="900" name="R"/>
-  <anchor x="540" y="1370" name="U"/>
   <outline>
     <component base="LtnSmG.SngBowl"/>
     <component base="CombDotAbv.LP" xOffset="1055"/>
+    <contour>
+      <point x="520" y="-470" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="520" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1060" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="540" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

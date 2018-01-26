@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmVDiagStrk.SItal" format="2">
+<glyph name="LtnSmVDiagStrk.SItal" format="1">
   <advance width="1010"/>
-  <anchor x="516" y="-100" name="L"/>
-  <anchor x="536" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="909" y="868"/>
@@ -43,11 +41,11 @@
       <point x="230" y="-127"/>
       <point x="252" y="-112" type="curve"/>
     </contour>
+    <contour>
+      <point x="516" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="536" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

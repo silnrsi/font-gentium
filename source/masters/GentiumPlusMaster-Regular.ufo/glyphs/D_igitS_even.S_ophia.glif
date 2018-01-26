@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="DigitSeven.Sophia" format="2">
+<glyph name="DigitSeven.Sophia" format="1">
   <advance width="412"/>
-  <anchor x="206" y="266" name="_C"/>
   <outline>
     <contour>
       <point x="197" y="0" type="line"/>
@@ -12,11 +11,8 @@
       <point x="304" y="474" type="line"/>
       <point x="116" y="0" type="line"/>
     </contour>
+    <contour>
+      <point x="206" y="266" type="move" name="_C"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

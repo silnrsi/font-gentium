@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombCircumHook.VN" format="2">
-  <anchor x="-514" y="1050" name="_U"/>
+<glyph name="CombCircumHook.VN" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-124" y="1487"/>
@@ -48,11 +48,8 @@
       <point x="-241" y="1047" type="line"/>
       <point x="-218" y="1057"/>
     </contour>
+    <contour>
+      <point x="-514" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

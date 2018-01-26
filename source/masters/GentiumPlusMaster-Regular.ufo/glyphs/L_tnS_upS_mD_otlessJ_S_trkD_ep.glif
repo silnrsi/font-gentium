@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSupSmDotlessJStrkDep" format="2">
+<glyph name="LtnSupSmDotlessJStrkDep" format="1">
   <advance width="416"/>
   <unicode hex="F1A9"/>
-  <anchor x="91" y="500" name="L"/>
-  <anchor x="215" y="1400" name="U"/>
   <outline>
     <contour>
       <point x="-153" y="1226" type="line"/>
@@ -53,11 +51,11 @@
       <point x="113" y="411"/>
       <point x="158" y="456"/>
     </contour>
+    <contour>
+      <point x="91" y="500" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="215" y="1400" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

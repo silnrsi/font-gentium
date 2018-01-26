@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmHBreveBlw.sc" format="2">
+<glyph name="LtnSmHBreveBlw.sc" format="1">
   <advance width="1259"/>
-  <anchor x="254" y="7" name="H"/>
-  <anchor x="620" y="-576" name="L"/>
-  <anchor x="620" y="1145" name="U"/>
   <outline>
     <component base="LtnSmH.sc"/>
     <component base="CombBreveBlw" xOffset="1135" yOffset="24"/>
+    <contour>
+      <point x="254" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="620" y="-576" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="620" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

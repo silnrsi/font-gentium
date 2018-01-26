@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmEmTail" format="2">
+<glyph name="CySmEmTail" format="1">
   <advance width="1450"/>
   <unicode hex="04CE"/>
-  <anchor x="717" y="-400" name="L"/>
-  <anchor x="717" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="977" y="0" type="line"/>
@@ -80,11 +78,11 @@
       <point x="1399" y="14"/>
       <point x="1417" y="43" type="curve"/>
     </contour>
+    <contour>
+      <point x="717" y="-400" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="717" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

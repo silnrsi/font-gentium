@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmAeMacron.2StorySItal" format="2">
+<glyph name="LtnSmAeMacron.2StorySItal" format="1">
   <advance width="1417"/>
-  <anchor x="738" y="0" name="H"/>
-  <anchor x="738" y="-100" name="L"/>
-  <anchor x="1020" y="0" name="O"/>
-  <anchor x="1485" y="900" name="R"/>
-  <anchor x="738" y="1410" name="U"/>
   <outline>
     <component base="LtnSmAe.2StorySItal"/>
     <component base="CombMacron" xOffset="1263"/>
+    <contour>
+      <point x="738" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="738" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1020" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="1485" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="738" y="1410" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

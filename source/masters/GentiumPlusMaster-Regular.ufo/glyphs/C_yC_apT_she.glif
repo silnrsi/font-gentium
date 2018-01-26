@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapTshe" format="2">
+<glyph name="CyCapTshe" format="1">
   <advance width="1480"/>
   <unicode hex="040B"/>
-  <anchor x="860" y="-100" name="L"/>
-  <anchor x="526" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1111" y="1167"/>
@@ -78,11 +76,11 @@
       <point x="1060" y="61"/>
       <point x="970" y="43" type="curve"/>
     </contour>
+    <contour>
+      <point x="860" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="526" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

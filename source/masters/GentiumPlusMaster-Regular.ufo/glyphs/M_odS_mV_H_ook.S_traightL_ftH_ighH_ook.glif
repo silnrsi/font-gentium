@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmVHook.StraightLftHighHook" format="2">
+<glyph name="ModSmVHook.StraightLftHighHook" format="1">
   <advance width="769"/>
-  <anchor x="336" y="560" name="L"/>
-  <anchor x="340" y="1264" name="U"/>
   <outline>
     <contour>
       <point x="304" y="1178" type="line"/>
@@ -44,11 +42,17 @@
       <point x="232" y="1134"/>
       <point x="304" y="1142" type="curve"/>
     </contour>
+    <contour>
+      <point x="336" y="560" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="340" y="1264" type="move" name="U"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
+      <key>org.sil.assocFeatureValue</key>
+      <integer>2</integer>
     </dict>
   </lib>
 </glyph>

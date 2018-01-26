@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapSaltillo.Lrg" format="2">
+<glyph name="LtnCapSaltillo.Lrg" format="1">
   <advance width="542"/>
-  <anchor x="271" y="100" name="L"/>
-  <anchor x="271" y="1620" name="U"/>
   <outline>
     <contour>
       <point x="314" y="504" type="curve"/>
@@ -15,11 +13,11 @@
       <point x="249" y="483"/>
       <point x="294" y="493"/>
     </contour>
+    <contour>
+      <point x="271" y="100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="271" y="1620" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

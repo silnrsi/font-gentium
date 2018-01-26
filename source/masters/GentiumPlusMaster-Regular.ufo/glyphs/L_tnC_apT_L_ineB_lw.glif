@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapTLineBlw" format="2">
+<glyph name="LtnCapTLineBlw" format="1">
   <advance width="1128"/>
   <unicode hex="1E6E"/>
-  <anchor x="551" y="0" name="H"/>
-  <anchor x="546" y="-600" name="L"/>
-  <anchor x="546" y="1370" name="U"/>
   <outline>
     <component base="LtnCapT"/>
     <component base="CombMacronBlw" xOffset="1061"/>
+    <contour>
+      <point x="551" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="546" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="546" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

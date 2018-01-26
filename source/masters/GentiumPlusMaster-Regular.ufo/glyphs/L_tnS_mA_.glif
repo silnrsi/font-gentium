@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmA" format="2">
+<glyph name="LtnSmA" format="1">
   <advance width="940"/>
   <unicode hex="0061"/>
-  <anchor x="446" y="0" name="H"/>
-  <anchor x="460" y="-100" name="L"/>
-  <anchor x="715" y="0" name="O"/>
-  <anchor x="940" y="900" name="R"/>
-  <anchor x="480" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="813" y="4"/>
@@ -69,11 +64,20 @@
       <point x="346" y="418"/>
       <point x="402" y="451"/>
     </contour>
+    <contour>
+      <point x="446" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="460" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="715" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="940" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="480" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

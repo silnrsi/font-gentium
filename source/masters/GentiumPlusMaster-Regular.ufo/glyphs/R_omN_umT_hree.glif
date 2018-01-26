@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="RomNumThree" format="2">
+<glyph name="RomNumThree" format="1">
   <advance width="1830"/>
   <unicode hex="2162"/>
-  <anchor x="902" y="1370" name="U"/>
   <outline>
     <component base="LtnCapI"/>
     <component base="LtnCapI" xOffset="610"/>
     <component base="LtnCapI" xOffset="1220"/>
+    <contour>
+      <point x="902" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="MathFrktCapP" format="2">
+<glyph name="MathFrktCapP" format="1">
   <advance width="1611"/>
   <unicode hex="1D513"/>
-  <anchor x="838" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1519" y="177"/>
@@ -81,11 +80,8 @@
       <point x="899" y="1098" type="curve" smooth="yes"/>
       <point x="1078" y="1098"/>
     </contour>
+    <contour>
+      <point x="838" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

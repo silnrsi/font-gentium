@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombTrndCommaAbv" format="2">
+<glyph name="CombTrndCommaAbv" format="1">
+  <advance width="0"/>
   <unicode hex="0312"/>
-  <anchor x="-491" y="1370" name="U"/>
-  <anchor x="-491" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="-630" y="1331"/>
@@ -23,11 +22,11 @@
       <point x="-446" y="1507" type="line"/>
       <point x="-575" y="1426"/>
     </contour>
+    <contour>
+      <point x="-491" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-491" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

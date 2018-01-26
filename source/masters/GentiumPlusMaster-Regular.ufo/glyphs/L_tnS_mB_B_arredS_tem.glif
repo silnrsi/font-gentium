@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmBBarredStem" format="2">
+<glyph name="LtnSmBBarredStem" format="1">
   <advance width="1040"/>
   <unicode hex="0180"/>
-  <anchor x="480" y="-100" name="L"/>
-  <anchor x="520" y="1620" name="U"/>
   <outline>
     <contour>
       <point x="950" y="260"/>
@@ -56,11 +54,11 @@
       <point x="-10" y="1162" type="curve"/>
       <point x="12" y="1140" type="line"/>
     </contour>
+    <contour>
+      <point x="480" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="520" y="1620" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

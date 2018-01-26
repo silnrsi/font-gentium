@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapElHookDep" format="2">
+<glyph name="CyCapElHookDep" format="1">
   <advance width="1258"/>
   <unicode hex="F322"/>
-  <anchor x="700" y="-600" name="L"/>
-  <anchor x="739" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="15" y="1290" type="line"/>
@@ -59,11 +57,11 @@
       <point x="808" y="-264"/>
       <point x="903" y="-105"/>
     </contour>
+    <contour>
+      <point x="700" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="739" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

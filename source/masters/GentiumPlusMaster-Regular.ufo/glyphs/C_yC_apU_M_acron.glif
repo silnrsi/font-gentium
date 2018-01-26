@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapUMacron" format="2">
+<glyph name="CyCapUMacron" format="1">
   <advance width="1240"/>
   <unicode hex="04EE"/>
-  <anchor x="650" y="-100" name="L"/>
-  <anchor x="650" y="1690" name="U"/>
   <outline>
     <component base="CyCapU"/>
     <component base="CombMacron.LP" xOffset="1175" yOffset="320"/>
+    <contour>
+      <point x="650" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="650" y="1690" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

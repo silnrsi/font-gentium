@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ogonek" format="2">
+<glyph name="Ogonek" format="1">
   <advance width="530"/>
   <unicode hex="02DB"/>
-  <anchor x="289" y="-600" name="L"/>
   <outline>
     <contour>
       <point x="422" y="-371"/>
@@ -26,11 +25,8 @@
       <point x="256" y="-444" type="curve" smooth="yes"/>
       <point x="322" y="-444"/>
     </contour>
+    <contour>
+      <point x="289" y="-600" type="move" name="L"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

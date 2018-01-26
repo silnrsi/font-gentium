@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Hyphen_Soft" format="2">
+<glyph name="Hyphen_Soft" format="1">
   <advance width="690"/>
   <unicode hex="00AD"/>
-  <anchor x="345" y="1050" name="U"/>
   <outline>
     <component base="HyphenMinus"/>
+    <contour>
+      <point x="345" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

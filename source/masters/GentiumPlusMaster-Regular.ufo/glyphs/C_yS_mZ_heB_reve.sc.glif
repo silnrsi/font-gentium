@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmZheBreve.sc" format="2">
+<glyph name="CySmZheBreve.sc" format="1">
   <advance width="1654"/>
-  <anchor x="816" y="-76" name="L"/>
-  <anchor x="816" y="1580" name="U"/>
   <outline>
     <component base="CySmZhe.sc"/>
     <component base="CombBreve.CyShortMrkAlt.UCHt" xOffset="1413" yOffset="-225"/>
+    <contour>
+      <point x="816" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="816" y="1580" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

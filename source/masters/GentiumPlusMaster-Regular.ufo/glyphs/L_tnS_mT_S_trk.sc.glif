@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTStrk.sc" format="2">
+<glyph name="LtnSmTStrk.sc" format="1">
   <advance width="1060"/>
-  <anchor x="512" y="-76" name="L"/>
-  <anchor x="512" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="1009" y="1013" type="curve"/>
@@ -67,11 +65,11 @@
       <point x="153" y="527" type="curve"/>
       <point x="180" y="500" type="line"/>
     </contour>
+    <contour>
+      <point x="512" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="512" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

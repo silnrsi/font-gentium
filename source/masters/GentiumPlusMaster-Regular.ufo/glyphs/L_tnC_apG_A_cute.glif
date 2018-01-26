@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapGAcute" format="2">
+<glyph name="LtnCapGAcute" format="1">
   <advance width="1194"/>
   <unicode hex="01F4"/>
-  <anchor x="620" y="0" name="H"/>
-  <anchor x="640" y="-100" name="L"/>
-  <anchor x="640" y="1690" name="U"/>
   <outline>
     <component base="LtnCapG"/>
     <component base="CombAcute.LP" xOffset="1183" yOffset="320"/>
+    <contour>
+      <point x="620" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="640" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="640" y="1690" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

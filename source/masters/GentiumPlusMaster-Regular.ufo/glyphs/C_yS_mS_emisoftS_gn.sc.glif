@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmSemisoftSgn.sc" format="2">
+<glyph name="CySmSemisoftSgn.sc" format="1">
   <advance width="1078"/>
-  <anchor x="510" y="-76" name="L"/>
-  <anchor x="510" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="958" y="107"/>
@@ -58,11 +56,11 @@
       <point x="48" y="979" type="curve"/>
       <point x="75" y="953" type="line"/>
     </contour>
+    <contour>
+      <point x="510" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="510" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

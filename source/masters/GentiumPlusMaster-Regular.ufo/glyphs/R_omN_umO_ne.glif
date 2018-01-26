@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="RomNumOne" format="2">
+<glyph name="RomNumOne" format="1">
   <advance width="610"/>
   <unicode hex="2160"/>
-  <anchor x="295" y="1370" name="U"/>
   <outline>
     <component base="LtnCapI"/>
+    <contour>
+      <point x="295" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

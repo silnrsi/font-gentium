@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmIzhitsa.sc" format="2">
+<glyph name="CySmIzhitsa.sc" format="1">
   <advance width="1357"/>
-  <anchor x="618" y="7" name="H"/>
-  <anchor x="616" y="-76" name="L"/>
-  <anchor x="579" y="7" name="O"/>
-  <anchor x="668" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="629" y="203" type="curve"/>
@@ -47,11 +43,17 @@
       <point x="760" y="674"/>
       <point x="697" y="468"/>
     </contour>
+    <contour>
+      <point x="618" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="616" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="579" y="7" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="668" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

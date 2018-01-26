@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="RomNumRevOneHundred" format="2">
+<glyph name="RomNumRevOneHundred" format="1">
   <advance width="1098"/>
   <unicode hex="2183"/>
-  <anchor x="542" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="68" y="219"/>
@@ -37,11 +36,8 @@
       <point x="97" y="256" type="curve"/>
       <point x="83" y="250"/>
     </contour>
+    <contour>
+      <point x="542" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

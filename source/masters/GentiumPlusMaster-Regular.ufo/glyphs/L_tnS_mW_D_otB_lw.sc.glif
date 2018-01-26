@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmWDotBlw.sc" format="2">
+<glyph name="LtnSmWDotBlw.sc" format="1">
   <advance width="1637"/>
-  <anchor x="809" y="-576" name="L"/>
-  <anchor x="809" y="1145" name="U"/>
   <outline>
     <component base="LtnSmW.sc"/>
     <component base="CombDotBlw" xOffset="1324" yOffset="24"/>
+    <contour>
+      <point x="809" y="-576" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="809" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

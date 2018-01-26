@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ogonek.RetroHook" format="2">
+<glyph name="Ogonek.RetroHook" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="305" y="-336"/>
@@ -23,10 +24,4 @@
       <point x="207" y="-500"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

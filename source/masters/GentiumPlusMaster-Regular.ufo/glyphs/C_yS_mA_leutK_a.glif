@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmAleutKa" format="2">
+<glyph name="CySmAleutKa" format="1">
   <advance width="1037"/>
   <unicode hex="051F"/>
-  <anchor x="539" y="-100" name="L"/>
-  <anchor x="539" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="455" y="930" type="line"/>
@@ -73,11 +71,11 @@
       <point x="878" y="488"/>
       <point x="903" y="498"/>
     </contour>
+    <contour>
+      <point x="539" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="539" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

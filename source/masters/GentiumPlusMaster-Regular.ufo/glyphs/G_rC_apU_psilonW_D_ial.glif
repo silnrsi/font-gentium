@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapUpsilonWDial" format="2">
+<glyph name="GrCapUpsilonWDial" format="1">
   <advance width="1194"/>
   <unicode hex="03AB"/>
   <outline>
     <component base="GrCapUpsilon"/>
     <component base="CombDiaer.LP" xOffset="1119" yOffset="320"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

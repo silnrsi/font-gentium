@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombCaron.LP" format="2">
-  <anchor x="-514" y="1370" name="U"/>
-  <anchor x="-514" y="1050" name="_U"/>
+<glyph name="CombCaron.LP" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-460" y="1071" type="line"/>
@@ -16,11 +15,11 @@
       <point x="-831" y="1378" type="curve"/>
       <point x="-567" y="1071" type="line"/>
     </contour>
+    <contour>
+      <point x="-514" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-514" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

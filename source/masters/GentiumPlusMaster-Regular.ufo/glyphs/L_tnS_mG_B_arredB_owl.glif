@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmGBarredBowl" format="2">
+<glyph name="LtnSmGBarredBowl" format="1">
   <advance width="1019"/>
-  <anchor x="515" y="-600" name="L"/>
-  <anchor x="515" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="990" y="-339"/>
@@ -97,11 +95,11 @@
       <point x="20" y="607" type="curve"/>
       <point x="42" y="585" type="line"/>
     </contour>
+    <contour>
+      <point x="515" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="515" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

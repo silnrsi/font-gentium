@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmUDiaerMacron" format="2">
+<glyph name="LtnSmUDiaerMacron" format="1">
   <advance width="1085"/>
   <unicode hex="01D6"/>
-  <anchor x="546" y="0" name="H"/>
-  <anchor x="545" y="-100" name="L"/>
-  <anchor x="860" y="0" name="O"/>
-  <anchor x="1084" y="900" name="R"/>
-  <anchor x="545" y="1770" name="U"/>
   <outline>
     <component base="LtnSmU"/>
     <component base="CombDiaer" xOffset="1060"/>
     <component base="CombMacron" xOffset="1070" yOffset="360"/>
+    <contour>
+      <point x="546" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="545" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="860" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="1084" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="545" y="1770" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapSdwysI" format="2">
+<glyph name="LtnCapSdwysI" format="1">
   <advance width="1420"/>
   <unicode hex="A7F7"/>
-  <anchor x="700" y="327" name="L"/>
-  <anchor x="700" y="974" name="U"/>
   <outline>
     <contour>
       <point x="1330" y="405" type="line"/>
@@ -27,11 +25,11 @@
       <point x="1269" y="495"/>
       <point x="1287" y="405" type="curve"/>
     </contour>
+    <contour>
+      <point x="700" y="327" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="700" y="974" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

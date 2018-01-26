@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="SupOne" format="2">
+<glyph name="SupOne" format="1">
   <advance width="673"/>
   <unicode hex="00B9"/>
-  <anchor x="360" y="550" name="L"/>
-  <anchor x="360" y="1410" name="U"/>
   <outline>
     <contour>
       <point x="119" y="620" type="line"/>
@@ -29,11 +27,11 @@
       <point x="265" y="677"/>
       <point x="119" y="662" type="curve"/>
     </contour>
+    <contour>
+      <point x="360" y="550" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="360" y="1410" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

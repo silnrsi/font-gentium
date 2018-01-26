@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapArchaicM" format="2">
+<glyph name="LtnCapArchaicM" format="1">
   <advance width="2393"/>
   <unicode hex="A7FF"/>
-  <anchor x="973" y="0" name="H"/>
-  <anchor x="1200" y="-100" name="L"/>
-  <anchor x="1090" y="0" name="O"/>
-  <anchor x="1200" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1800" y="238" type="line"/>
@@ -56,11 +52,17 @@
       <point x="2114" y="1190"/>
       <point x="2102" y="1149" type="curve"/>
     </contour>
+    <contour>
+      <point x="973" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1200" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1090" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="1200" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="RomNumTenThousand" format="2">
+<glyph name="RomNumTenThousand" format="1">
   <advance width="1857"/>
   <unicode hex="2182"/>
-  <anchor x="918" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="634" y="0" type="curve" smooth="yes"/>
@@ -78,11 +77,8 @@
       <point x="998" y="906" type="line"/>
       <point x="1127" y="902"/>
     </contour>
+    <contour>
+      <point x="918" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

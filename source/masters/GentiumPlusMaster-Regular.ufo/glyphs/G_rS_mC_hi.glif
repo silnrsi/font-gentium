@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmChi" format="2">
+<glyph name="GrSmChi" format="1">
   <advance width="996"/>
   <unicode hex="03C7"/>
-  <anchor x="504" y="-600" name="L"/>
-  <anchor x="524" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="802" y="713"/>
@@ -59,11 +57,11 @@
       <point x="261" y="-334" type="curve"/>
       <point x="339" y="-156"/>
     </contour>
+    <contour>
+      <point x="504" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="524" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

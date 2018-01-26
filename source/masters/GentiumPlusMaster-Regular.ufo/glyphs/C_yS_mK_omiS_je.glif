@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmKomiSje" format="2">
+<glyph name="CySmKomiSje" format="1">
   <advance width="1073"/>
   <unicode hex="050D"/>
-  <anchor x="546" y="-100" name="L"/>
-  <anchor x="549" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="704" y="78"/>
@@ -46,11 +44,11 @@
       <point x="768" y="264" type="line" smooth="yes"/>
       <point x="768" y="143"/>
     </contour>
+    <contour>
+      <point x="546" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="549" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

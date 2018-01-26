@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapHeng" format="2">
+<glyph name="LtnCapHeng" format="1">
   <advance width="1339"/>
   <unicode hex="A726"/>
-  <anchor x="660" y="-600" name="L"/>
-  <anchor x="660" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1180" y="1198"/>
@@ -64,11 +62,11 @@
       <point x="140" y="61"/>
       <point x="50" y="43" type="curve"/>
     </contour>
+    <contour>
+      <point x="660" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="660" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

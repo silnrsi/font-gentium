@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="MathFrktCapA" format="2">
+<glyph name="MathFrktCapA" format="1">
   <advance width="1409"/>
   <unicode hex="1D504"/>
-  <anchor x="712" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1331" y="244" type="line"/>
@@ -52,11 +51,8 @@
       <point x="996" y="-8"/>
       <point x="1105" y="-8" type="curve"/>
     </contour>
+    <contour>
+      <point x="712" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

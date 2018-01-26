@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModCapN" format="2">
+<glyph name="ModCapN" format="1">
   <advance width="930"/>
   <unicode hex="1D3A"/>
-  <anchor x="461" y="540" name="L"/>
-  <anchor x="461" y="1450" name="U"/>
   <outline>
     <contour>
       <point x="829" y="1332"/>
@@ -49,11 +47,11 @@
       <point x="104" y="663"/>
       <point x="35" y="656" type="curve"/>
     </contour>
+    <contour>
+      <point x="461" y="540" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="461" y="1450" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

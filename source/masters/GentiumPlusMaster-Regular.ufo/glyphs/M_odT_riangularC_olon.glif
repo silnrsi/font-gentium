@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModTriangularColon" format="2">
+<glyph name="ModTriangularColon" format="1">
   <advance width="532"/>
   <unicode hex="02D0"/>
-  <anchor x="266" y="-100" name="L"/>
-  <anchor x="266" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="266" y="619" type="line"/>
@@ -15,11 +13,11 @@
       <point x="110" y="0" type="line"/>
       <point x="422" y="0" type="line"/>
     </contour>
+    <contour>
+      <point x="266" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="266" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

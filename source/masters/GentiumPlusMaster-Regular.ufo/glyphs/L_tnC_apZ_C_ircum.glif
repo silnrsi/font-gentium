@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapZCircum" format="2">
+<glyph name="LtnCapZCircum" format="1">
   <advance width="1071"/>
   <unicode hex="1E90"/>
-  <anchor x="535" y="-100" name="L"/>
-  <anchor x="555" y="1770" name="U"/>
   <outline>
     <component base="LtnCapZ"/>
     <component base="CombCircum.LP" xOffset="1069" yOffset="320"/>
+    <contour>
+      <point x="535" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="555" y="1770" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmElHook.sc" format="2">
+<glyph name="CySmElHook.sc" format="1">
   <advance width="1203"/>
-  <anchor x="668" y="-491" name="L"/>
-  <anchor x="705" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="562" y="984" type="curve"/>
@@ -70,11 +68,11 @@
       <point x="716" y="953"/>
       <point x="845" y="956"/>
     </contour>
+    <contour>
+      <point x="668" y="-491" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="705" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

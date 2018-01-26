@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmBDotBlw" format="2">
+<glyph name="LtnSmBDotBlw" format="1">
   <advance width="1040"/>
   <unicode hex="1E05"/>
-  <anchor x="479" y="0" name="H"/>
-  <anchor x="479" y="-600" name="L"/>
-  <anchor x="1068" y="900" name="R"/>
-  <anchor x="520" y="1620" name="U"/>
   <outline>
     <component base="LtnSmB"/>
     <component base="CombDotBlw" xOffset="994"/>
+    <contour>
+      <point x="479" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="479" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1068" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="520" y="1620" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

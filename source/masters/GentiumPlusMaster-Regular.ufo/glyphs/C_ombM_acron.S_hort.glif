@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombMacron.Short" format="2">
-  <anchor x="-525" y="1410" name="U"/>
-  <anchor x="-525" y="1050" name="_U"/>
+<glyph name="CombMacron.Short" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-263" y="1252"/>
@@ -15,11 +14,11 @@
       <point x="-296" y="1175" type="line"/>
       <point x="-286" y="1200"/>
     </contour>
+    <contour>
+      <point x="-525" y="1410" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-525" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

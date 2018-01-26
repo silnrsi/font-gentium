@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapEta" format="2">
+<glyph name="GrCapEta" format="1">
   <advance width="1339"/>
   <unicode hex="0397"/>
-  <anchor x="660" y="-100" name="L"/>
   <outline>
     <contour>
       <point x="819" y="0" type="line"/>
@@ -54,11 +53,8 @@
       <point x="139" y="61"/>
       <point x="49" y="43" type="curve"/>
     </contour>
+    <contour>
+      <point x="660" y="-100" type="move" name="L"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

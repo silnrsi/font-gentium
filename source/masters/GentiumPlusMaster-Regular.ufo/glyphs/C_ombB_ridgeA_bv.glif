@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombBridgeAbv" format="2">
+<glyph name="CombBridgeAbv" format="1">
+  <advance width="0"/>
   <unicode hex="0346"/>
-  <anchor x="-522" y="1370" name="U"/>
-  <anchor x="-522" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="-715" y="1104"/>
@@ -24,11 +23,11 @@
       <point x="-763" y="1070" type="line"/>
       <point x="-738" y="1083"/>
     </contour>
+    <contour>
+      <point x="-522" y="1370" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-522" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

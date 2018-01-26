@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombSqrBlw" format="2">
+<glyph name="CombSqrBlw" format="1">
+  <advance width="0"/>
   <unicode hex="033B"/>
-  <anchor x="-515" y="-600" name="L"/>
-  <anchor x="-515" y="-100" name="_L"/>
   <outline>
     <contour>
       <point x="-765" y="-200" type="curve"/>
@@ -24,11 +23,11 @@
       <point x="-345" y="-400" type="line"/>
       <point x="-685" y="-400" type="line"/>
     </contour>
+    <contour>
+      <point x="-515" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-515" y="-100" type="move" name="_L"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

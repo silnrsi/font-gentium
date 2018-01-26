@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombLftArrwBlw" format="2">
+<glyph name="CombLftArrwBlw" format="1">
+  <advance width="0"/>
   <unicode hex="20EE"/>
-  <anchor x="-532" y="-600" name="L"/>
-  <anchor x="-532" y="-100" name="_L"/>
   <outline>
     <contour>
       <point x="-255" y="-308"/>
@@ -18,11 +17,11 @@
       <point x="-275" y="-345" type="line"/>
       <point x="-263" y="-323"/>
     </contour>
+    <contour>
+      <point x="-532" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-532" y="-100" type="move" name="_L"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

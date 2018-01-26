@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="TnContLft43" format="2">
+<glyph name="TnContLft43" format="1">
   <advance width="591"/>
-  <anchor x="424" y="766" name="TL"/>
-  <anchor x="0" y="1131" name="_TL"/>
   <outline>
     <component base="TnLtrSeg43"/>
     <component base="TnLtrSpcPointRight" xOffset="425"/>
+    <contour>
+      <point x="424" y="766" type="move" name="TL"/>
+    </contour>
+    <contour>
+      <point x="0" y="1131" type="move" name="_TL"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

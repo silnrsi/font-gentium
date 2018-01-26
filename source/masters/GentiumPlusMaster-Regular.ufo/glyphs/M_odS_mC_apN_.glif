@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmCapN" format="2">
+<glyph name="ModSmCapN" format="1">
   <advance width="802"/>
   <unicode hex="1DB0"/>
-  <anchor x="403" y="540" name="L"/>
-  <anchor x="403" y="1286" name="U"/>
   <outline>
     <contour>
       <point x="719" y="1133"/>
@@ -49,11 +47,30 @@
       <point x="95" y="665"/>
       <point x="38" y="656" type="curve"/>
     </contour>
+    <contour>
+      <point x="403" y="540" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="403" y="1286" type="move" name="U"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>133.33</real>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>1179</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

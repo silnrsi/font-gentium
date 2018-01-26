@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmCapTurnedE" format="2">
+<glyph name="LtnSmCapTurnedE" format="1">
   <advance width="884"/>
   <unicode hex="2C7B"/>
-  <anchor x="432" y="-100" name="L"/>
-  <anchor x="448" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="55" y="725" type="curve"/>
@@ -60,11 +58,11 @@
       <point x="144" y="208" type="line"/>
       <point x="131" y="170"/>
     </contour>
+    <contour>
+      <point x="432" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="448" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

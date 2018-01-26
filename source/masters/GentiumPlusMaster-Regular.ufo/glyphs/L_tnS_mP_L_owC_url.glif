@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmPLowCurl" format="2">
+<glyph name="LtnSmPLowCurl" format="1">
   <advance width="1242"/>
   <unicode hex="A753"/>
-  <anchor x="686" y="-600" name="L"/>
-  <anchor x="686" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="1162" y="260"/>
@@ -66,11 +64,11 @@
       <point x="780" y="-30" type="curve"/>
       <point x="975" y="-30"/>
     </contour>
+    <contour>
+      <point x="686" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="686" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

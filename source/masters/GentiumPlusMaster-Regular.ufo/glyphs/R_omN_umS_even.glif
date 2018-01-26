@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="RomNumSeven" format="2">
+<glyph name="RomNumSeven" format="1">
   <advance width="2551"/>
   <unicode hex="2166"/>
-  <anchor x="1323" y="1370" name="U"/>
   <outline>
     <component base="LtnCapV"/>
     <component base="LtnCapI" xOffset="1331"/>
     <component base="LtnCapI" xOffset="1941"/>
+    <contour>
+      <point x="1323" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

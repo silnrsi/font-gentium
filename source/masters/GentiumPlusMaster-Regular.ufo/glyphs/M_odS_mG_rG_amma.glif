@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmGrGamma" format="2">
+<glyph name="ModSmGrGamma" format="1">
   <advance width="688"/>
   <unicode hex="1D5E"/>
-  <anchor x="344" y="258" name="L"/>
-  <anchor x="358" y="1286" name="U"/>
   <outline>
     <contour>
       <point x="575" y="993"/>
@@ -47,11 +45,11 @@
       <point x="415" y="357" type="curve"/>
       <point x="421" y="434"/>
     </contour>
+    <contour>
+      <point x="344" y="258" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="358" y="1286" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

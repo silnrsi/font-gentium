@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModLowGraveAccent" format="2">
+<glyph name="ModLowGraveAccent" format="1">
   <advance width="514"/>
   <unicode hex="02CE"/>
-  <anchor x="257" y="-600" name="L"/>
   <outline>
     <contour>
       <point x="495" y="-393"/>
@@ -15,11 +14,8 @@
       <point x="469" y="-413" type="line"/>
       <point x="491" y="-403"/>
     </contour>
+    <contour>
+      <point x="257" y="-600" type="move" name="L"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

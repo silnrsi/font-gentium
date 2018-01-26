@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombHorn" format="2">
+<glyph name="CombHorn" format="1">
   <advance width="75"/>
   <unicode hex="031B"/>
-  <anchor x="0" y="900" name="_R"/>
   <outline>
     <contour>
       <point x="75" y="965"/>
@@ -20,11 +19,8 @@
       <point x="-281" y="718" type="line"/>
       <point x="-6" y="822"/>
     </contour>
+    <contour>
+      <point x="0" y="900" type="move" name="_R"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

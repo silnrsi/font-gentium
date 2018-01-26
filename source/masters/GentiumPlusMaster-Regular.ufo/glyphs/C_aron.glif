@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Caron" format="2">
+<glyph name="Caron" format="1">
   <advance width="733"/>
   <unicode hex="02C7"/>
-  <anchor x="367" y="1410" name="U"/>
   <outline>
     <contour>
       <point x="421" y="1071" type="line"/>
@@ -17,11 +16,8 @@
       <point x="50" y="1428" type="curve"/>
       <point x="314" y="1071" type="line"/>
     </contour>
+    <contour>
+      <point x="367" y="1410" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

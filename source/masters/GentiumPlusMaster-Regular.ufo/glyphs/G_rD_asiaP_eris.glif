@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrDasiaPeris" format="2">
+<glyph name="GrDasiaPeris" format="1">
   <advance width="383"/>
   <unicode hex="1FDF"/>
-  <anchor x="191" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="480" y="1605"/>
@@ -45,11 +44,8 @@
       <point x="127" y="1423" type="curve"/>
       <point x="64" y="1374"/>
     </contour>
+    <contour>
+      <point x="191" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

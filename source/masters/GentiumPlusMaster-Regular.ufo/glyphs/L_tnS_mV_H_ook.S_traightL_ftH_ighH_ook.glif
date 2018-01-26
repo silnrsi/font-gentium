@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmVHook.StraightLftHighHook" format="2">
+<glyph name="LtnSmVHook.StraightLftHighHook" format="1">
   <advance width="1028"/>
-  <anchor x="499" y="0" name="H"/>
-  <anchor x="516" y="-100" name="L"/>
-  <anchor x="460" y="0" name="O"/>
-  <anchor x="536" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="406" y="930" type="line"/>
@@ -46,11 +42,23 @@
       <point x="303" y="874"/>
       <point x="406" y="887" type="curve"/>
     </contour>
+    <contour>
+      <point x="499" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="516" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="460" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="536" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
+      <key>org.sil.assocFeatureValue</key>
+      <integer>2</integer>
     </dict>
   </lib>
 </glyph>

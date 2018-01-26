@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapInvM" format="2">
+<glyph name="LtnCapInvM" format="1">
   <advance width="1651"/>
   <unicode hex="A7FD"/>
-  <anchor x="815" y="-100" name="L"/>
-  <anchor x="815" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="70" y="43" type="curve"/>
@@ -65,11 +63,11 @@
       <point x="205" y="1174"/>
       <point x="205" y="1156" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="815" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="815" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

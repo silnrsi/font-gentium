@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmLigIj.sc" format="2">
+<glyph name="LtnSmLigIj.sc" format="1">
   <advance width="1160"/>
-  <anchor x="277" y="7" name="H"/>
-  <anchor x="883" y="-491" name="L"/>
-  <anchor x="324" y="7" name="O"/>
-  <anchor x="545" y="920" name="R"/>
-  <anchor x="883" y="1145" name="U"/>
   <outline>
     <component base="LtnSmI.sc"/>
     <component base="LtnSmJ.sc" xOffset="573"/>
+    <contour>
+      <point x="277" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="883" y="-491" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="324" y="7" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="545" y="920" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="883" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModLowLftArrwhd" format="2">
+<glyph name="ModLowLftArrwhd" format="1">
   <advance width="518"/>
   <unicode hex="02F1"/>
   <outline>
@@ -30,8 +30,21 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>-100</integer>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

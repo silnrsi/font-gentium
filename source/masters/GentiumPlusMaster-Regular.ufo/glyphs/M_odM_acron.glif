@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModMacron" format="2">
+<glyph name="ModMacron" format="1">
   <advance width="1010"/>
   <unicode hex="02C9"/>
-  <anchor x="495" y="1410" name="U"/>
   <outline>
     <contour>
       <point x="837" y="1252"/>
@@ -16,11 +15,8 @@
       <point x="804" y="1175" type="line"/>
       <point x="814" y="1200"/>
     </contour>
+    <contour>
+      <point x="495" y="1410" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

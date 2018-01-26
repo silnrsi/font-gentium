@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmADotAbvMacron.SngStory.sc" format="2">
+<glyph name="LtnSmADotAbvMacron.SngStory.sc" format="1">
   <advance width="1146"/>
-  <anchor x="563" y="0" name="H"/>
-  <anchor x="563" y="-76" name="L"/>
-  <anchor x="902" y="7" name="O"/>
-  <anchor x="563" y="1865" name="U"/>
   <outline>
     <component base="LtnSmA.sc"/>
     <component base="CombDotAbv" xOffset="1078" yOffset="95"/>
     <component base="CombMacron" xOffset="1088" yOffset="455"/>
+    <contour>
+      <point x="563" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="563" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="902" y="7" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="563" y="1865" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

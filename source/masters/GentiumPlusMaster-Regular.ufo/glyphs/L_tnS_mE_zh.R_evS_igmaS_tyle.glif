@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmEzh.RevSigmaStyle" format="2">
+<glyph name="LtnSmEzh.RevSigmaStyle" format="1">
   <advance width="920"/>
-  <anchor x="424" y="-600" name="L"/>
-  <anchor x="460" y="1050" name="U"/>
   <outline>
     <component base="LtnSmEzh"/>
+    <contour>
+      <point x="424" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="460" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

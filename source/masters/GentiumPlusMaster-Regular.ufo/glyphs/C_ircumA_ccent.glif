@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CircumAccent" format="2">
+<glyph name="CircumAccent" format="1">
   <advance width="1008"/>
   <unicode hex="005E"/>
-  <anchor x="504" y="1690" name="U"/>
   <outline>
     <contour>
       <point x="874" y="604"/>
@@ -21,11 +20,8 @@
       <point x="801" y="565" type="line"/>
       <point x="846" y="586"/>
     </contour>
+    <contour>
+      <point x="504" y="1690" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

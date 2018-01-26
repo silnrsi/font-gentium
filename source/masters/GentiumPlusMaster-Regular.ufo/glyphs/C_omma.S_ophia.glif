@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Comma.Sophia" format="2">
+<glyph name="Comma.Sophia" format="1">
   <advance width="203"/>
-  <anchor x="102" y="-2" name="_C"/>
   <outline>
     <contour>
       <point x="87" y="-94" type="line"/>
@@ -9,11 +8,8 @@
       <point x="79" y="90" type="line"/>
       <point x="35" y="-94" type="line"/>
     </contour>
+    <contour>
+      <point x="102" y="-2" type="move" name="_C"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

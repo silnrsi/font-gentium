@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapAtDep" format="2">
+<glyph name="LtnCapAtDep" format="1">
   <advance width="1789"/>
   <unicode hex="F248"/>
-  <anchor x="948" y="-600" name="L"/>
-  <anchor x="948" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="50" y="1385" type="line"/>
@@ -74,11 +72,11 @@
       <point x="1051" y="475" type="line"/>
       <point x="903" y="901" type="line"/>
     </contour>
+    <contour>
+      <point x="948" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="948" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

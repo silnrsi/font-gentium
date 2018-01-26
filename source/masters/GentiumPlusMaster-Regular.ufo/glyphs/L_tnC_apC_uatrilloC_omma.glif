@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapCuatrilloComma" format="2">
+<glyph name="LtnCapCuatrilloComma" format="1">
   <advance width="1104"/>
   <unicode hex="A72E"/>
-  <anchor x="484" y="-100" name="L"/>
-  <anchor x="616" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1094" y="152"/>
@@ -64,11 +62,11 @@
       <point x="646" y="522" type="line"/>
       <point x="230" y="522" type="line"/>
     </contour>
+    <contour>
+      <point x="484" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="616" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

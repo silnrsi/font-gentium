@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapAbkhasChe" format="2">
+<glyph name="CyCapAbkhasChe" format="1">
   <advance width="1372"/>
   <unicode hex="04BC"/>
-  <anchor x="846" y="-100" name="L"/>
-  <anchor x="948" y="0" name="O"/>
-  <anchor x="856" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="250" y="670" type="curve" smooth="yes"/>
@@ -61,11 +58,14 @@
       <point x="0" y="800"/>
       <point x="51" y="670"/>
     </contour>
+    <contour>
+      <point x="846" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="948" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="856" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapZhe" format="2">
+<glyph name="CyCapZhe" format="1">
   <advance width="1760"/>
   <unicode hex="0416"/>
-  <anchor x="868" y="-100" name="L"/>
-  <anchor x="868" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="653" y="0" type="line"/>
@@ -119,11 +117,11 @@
       <point x="131" y="81"/>
       <point x="101" y="72"/>
     </contour>
+    <contour>
+      <point x="868" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="868" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

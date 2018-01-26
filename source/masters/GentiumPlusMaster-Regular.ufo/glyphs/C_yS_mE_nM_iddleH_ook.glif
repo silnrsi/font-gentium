@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmEnMiddleHook" format="2">
+<glyph name="CySmEnMiddleHook" format="1">
   <advance width="1548"/>
   <unicode hex="0523"/>
-  <anchor x="582" y="-100" name="L"/>
-  <anchor x="582" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="269" y="430" type="line"/>
@@ -79,11 +77,11 @@
       <point x="993" y="-500" type="curve"/>
       <point x="1198" y="-467"/>
     </contour>
+    <contour>
+      <point x="582" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="582" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

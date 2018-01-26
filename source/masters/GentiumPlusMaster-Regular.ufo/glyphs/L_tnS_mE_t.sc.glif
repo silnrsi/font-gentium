@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmEt.sc" format="2">
+<glyph name="LtnSmEt.sc" format="1">
   <advance width="820"/>
-  <anchor x="342" y="-217" name="L"/>
-  <anchor x="368" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="51" y="-117" type="curve"/>
@@ -53,11 +51,11 @@
       <point x="108" y="358" type="line"/>
       <point x="563" y="525"/>
     </contour>
+    <contour>
+      <point x="342" y="-217" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="368" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombRtHalfRingBlw" format="2">
+<glyph name="CombRtHalfRingBlw" format="1">
+  <advance width="0"/>
   <unicode hex="0339"/>
-  <anchor x="-515" y="-600" name="L"/>
-  <anchor x="-515" y="-100" name="_L"/>
   <outline>
     <contour>
       <point x="-575" y="-112" type="curve"/>
@@ -20,11 +19,11 @@
       <point x="-352" y="-189"/>
       <point x="-448" y="-97"/>
     </contour>
+    <contour>
+      <point x="-515" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="-515" y="-100" type="move" name="_L"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

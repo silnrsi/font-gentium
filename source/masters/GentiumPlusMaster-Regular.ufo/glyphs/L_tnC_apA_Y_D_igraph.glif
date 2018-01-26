@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapAYDigraph" format="2">
+<glyph name="LtnCapAYDigraph" format="1">
   <advance width="1666"/>
   <unicode hex="A73C"/>
-  <anchor x="866" y="-600" name="L"/>
-  <anchor x="866" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="998" y="-272"/>
@@ -55,11 +53,11 @@
       <point x="758" y="535" type="line"/>
       <point x="411" y="535" type="line"/>
     </contour>
+    <contour>
+      <point x="866" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="866" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmNj" format="2">
+<glyph name="LtnSmNj" format="1">
   <advance width="1660"/>
   <unicode hex="01CC"/>
-  <anchor x="865" y="0" name="H"/>
-  <anchor x="1410" y="-600" name="L"/>
-  <anchor x="1411" y="1049" name="U"/>
   <outline>
     <component base="LtnSmN" xOffset="-64"/>
     <component base="LtnSmJ" xOffset="1130"/>
+    <contour>
+      <point x="865" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="1410" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1411" y="1049" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

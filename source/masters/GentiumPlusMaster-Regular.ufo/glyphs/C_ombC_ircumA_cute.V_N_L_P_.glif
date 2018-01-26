@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombCircumAcute.VNLP" format="2">
-  <anchor x="-514" y="1450" name="U"/>
-  <anchor x="-514" y="1050" name="_U"/>
+<glyph name="CombCircumAcute.VNLP" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-214" y="1067"/>
@@ -27,11 +26,11 @@
       <point x="-51" y="1529"/>
       <point x="-82" y="1547"/>
     </contour>
+    <contour>
+      <point x="-514" y="1450" type="move" name="U"/>
+    </contour>
+    <contour>
+      <point x="-514" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

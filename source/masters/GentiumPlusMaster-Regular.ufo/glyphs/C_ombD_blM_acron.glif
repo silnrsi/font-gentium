@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombDblMacron" format="2">
+<glyph name="CombDblMacron" format="1">
+  <advance width="0"/>
   <unicode hex="035E"/>
-  <anchor x="0" y="1800" name="U"/>
   <outline>
     <contour>
       <point x="747" y="1722"/>
@@ -15,11 +15,8 @@
       <point x="714" y="1645" type="line"/>
       <point x="724" y="1670"/>
     </contour>
+    <contour>
+      <point x="0" y="1800" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="DotLftStemTnLtr4" format="2">
+<glyph name="DotLftStemTnLtr4" format="1">
   <advance width="651"/>
   <unicode hex="A70E"/>
   <outline>
@@ -9,10 +9,4 @@
     <component base="TnLtrDot4" xOffset="440"/>
     <component base="TnLtrSpcDotRight" xOffset="440"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

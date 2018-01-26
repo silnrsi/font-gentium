@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapYat" format="2">
+<glyph name="CyCapYat" format="1">
   <advance width="1311"/>
   <unicode hex="0462"/>
-  <anchor x="480" y="-100" name="L"/>
-  <anchor x="480" y="1400" name="U"/>
   <outline>
     <contour>
       <point x="1221" y="109"/>
@@ -80,11 +78,11 @@
       <point x="123" y="971"/>
       <point x="152" y="1030"/>
     </contour>
+    <contour>
+      <point x="480" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="480" y="1400" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSupSmUBarDep" format="2">
+<glyph name="LtnSupSmUBarDep" format="1">
   <advance width="759"/>
   <unicode hex="F1B0"/>
-  <anchor x="370" y="750" name="L"/>
-  <anchor x="370" y="1400" name="U"/>
   <outline>
     <contour>
       <point x="-1" y="1226" type="line"/>
@@ -76,11 +74,11 @@
       <point x="234" y="830" type="line" smooth="yes"/>
       <point x="234" y="723"/>
     </contour>
+    <contour>
+      <point x="370" y="750" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="370" y="1400" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

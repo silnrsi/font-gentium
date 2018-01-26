@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapPHighCurl" format="2">
+<glyph name="LtnCapPHighCurl" format="1">
   <advance width="1337"/>
   <unicode hex="A754"/>
-  <anchor x="777" y="-100" name="L"/>
-  <anchor x="777" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1248" y="632"/>
@@ -60,11 +58,11 @@
       <point x="406" y="61"/>
       <point x="316" y="43" type="curve"/>
     </contour>
+    <contour>
+      <point x="777" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="777" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

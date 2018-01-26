@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombDblBreveBlwDep" format="2">
+<glyph name="CombDblBreveBlwDep" format="1">
+  <advance width="0"/>
   <unicode hex="F176"/>
-  <anchor x="0" y="-840" name="L"/>
   <outline>
     <contour>
       <point x="-848" y="-460" type="line"/>
@@ -29,11 +29,8 @@
       <point x="737" y="-490" type="curve"/>
       <point x="776" y="-500"/>
     </contour>
+    <contour>
+      <point x="0" y="-840" type="move" name="L"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

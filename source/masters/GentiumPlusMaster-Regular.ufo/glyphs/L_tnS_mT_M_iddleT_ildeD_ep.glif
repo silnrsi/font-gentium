@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTMiddleTildeDep" format="2">
+<glyph name="LtnSmTMiddleTildeDep" format="1">
   <advance width="705"/>
   <unicode hex="F252"/>
-  <anchor x="371" y="-100" name="L"/>
-  <anchor x="371" y="1320" name="U"/>
   <outline>
     <contour>
       <point x="-35" y="1310" type="line"/>
@@ -67,11 +65,11 @@
       <point x="469" y="507"/>
       <point x="518" y="552"/>
     </contour>
+    <contour>
+      <point x="371" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="371" y="1320" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

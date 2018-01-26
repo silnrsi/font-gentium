@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmPAcute" format="2">
+<glyph name="LtnSmPAcute" format="1">
   <advance width="1085"/>
   <unicode hex="1E55"/>
-  <anchor x="268" y="-481" name="H"/>
-  <anchor x="529" y="-600" name="L"/>
-  <anchor x="1124" y="900" name="R"/>
-  <anchor x="529" y="1410" name="U"/>
   <outline>
     <component base="LtnSmP"/>
     <component base="CombAcute" xOffset="1072"/>
+    <contour>
+      <point x="268" y="-481" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="529" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1124" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="529" y="1410" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapAUDigraph" format="2">
+<glyph name="LtnCapAUDigraph" format="1">
   <advance width="1835"/>
   <unicode hex="A736"/>
-  <anchor x="950" y="-100" name="L"/>
-  <anchor x="1043" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="983" y="-30"/>
@@ -52,11 +50,11 @@
       <point x="411" y="535" type="line"/>
       <point x="582" y="1049" type="line"/>
     </contour>
+    <contour>
+      <point x="950" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1043" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

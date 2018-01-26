@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmEshHook" format="2">
+<glyph name="LtnSmEshHook" format="1">
   <advance width="504"/>
   <unicode hex="1D98"/>
-  <anchor x="120" y="-920" name="L"/>
-  <anchor x="232" y="1690" name="U"/>
   <outline>
     <contour>
       <point x="390" y="-192"/>
@@ -75,11 +73,30 @@
       <point x="68" y="-891"/>
       <point x="169" y="-759"/>
     </contour>
+    <contour>
+      <point x="120" y="-920" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="232" y="1690" type="move" name="U"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>82.1</real>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>-1217</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

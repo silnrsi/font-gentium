@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmOMiddleTilde.sc" format="2">
+<glyph name="LtnSmOMiddleTilde.sc" format="1">
   <advance width="1155"/>
-  <anchor x="568" y="-76" name="L"/>
-  <anchor x="568" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="1061" y="236"/>
@@ -36,11 +34,11 @@
       <point x="221" y="588" type="line"/>
       <point x="238" y="818"/>
     </contour>
+    <contour>
+      <point x="568" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="568" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

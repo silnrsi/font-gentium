@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmCapOmega" format="2">
+<glyph name="GrSmCapOmega" format="1">
   <advance width="946"/>
   <unicode hex="AB65"/>
-  <anchor x="469" y="-100" name="L"/>
-  <anchor x="474" y="1000" name="U"/>
   <outline>
     <contour>
       <point x="891" y="337"/>
@@ -58,11 +56,11 @@
       <point x="31" y="88"/>
       <point x="30" y="40" type="curve"/>
     </contour>
+    <contour>
+      <point x="469" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="474" y="1000" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

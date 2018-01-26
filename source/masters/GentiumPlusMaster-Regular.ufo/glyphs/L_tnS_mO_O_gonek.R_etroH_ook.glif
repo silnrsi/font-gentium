@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmOOgonek.RetroHook" format="2">
+<glyph name="LtnSmOOgonek.RetroHook" format="1">
   <advance width="1030"/>
-  <anchor x="535" y="0" name="H"/>
-  <anchor x="540" y="-600" name="L"/>
-  <anchor x="575" y="0" name="O"/>
-  <anchor x="1044" y="900" name="R"/>
-  <anchor x="535" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="895" y="-336"/>
@@ -56,11 +51,20 @@
       <point x="506" y="850" type="curve" smooth="yes"/>
       <point x="643" y="850"/>
     </contour>
+    <contour>
+      <point x="535" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="540" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="575" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="1044" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="535" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

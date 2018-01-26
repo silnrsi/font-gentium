@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="SmRomNumFour" format="2">
+<glyph name="SmRomNumFour" format="1">
   <advance width="1565"/>
   <unicode hex="2173"/>
-  <anchor x="781" y="1370" name="U"/>
   <outline>
     <component base="LtnSmI"/>
     <component base="LtnSmV" xOffset="555"/>
+    <contour>
+      <point x="781" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

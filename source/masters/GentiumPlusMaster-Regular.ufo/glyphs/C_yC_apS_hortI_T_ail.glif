@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapShortITail" format="2">
+<glyph name="CyCapShortITail" format="1">
   <advance width="1355"/>
   <unicode hex="048A"/>
-  <anchor x="660" y="-400" name="L"/>
-  <anchor x="660" y="1805" name="U"/>
   <outline>
     <contour>
       <point x="840" y="0" type="line"/>
@@ -92,11 +90,11 @@
       <point x="1309" y="14"/>
       <point x="1327" y="43" type="curve"/>
     </contour>
+    <contour>
+      <point x="660" y="-400" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="660" y="1805" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

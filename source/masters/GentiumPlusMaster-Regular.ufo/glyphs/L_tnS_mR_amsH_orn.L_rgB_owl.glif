@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmRamsHorn.LrgBowl" format="2">
+<glyph name="LtnSmRamsHorn.LrgBowl" format="1">
   <advance width="1072"/>
-  <anchor x="548" y="-100" name="L"/>
-  <anchor x="1184" y="900" name="R"/>
-  <anchor x="548" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="1004" y="960"/>
@@ -45,11 +42,20 @@
       <point x="1027" y="699" type="line"/>
       <point x="1014" y="812"/>
     </contour>
+    <contour>
+      <point x="548" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1184" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="548" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
+      <key>org.sil.assocFeatureValue</key>
+      <integer>1</integer>
     </dict>
   </lib>
 </glyph>

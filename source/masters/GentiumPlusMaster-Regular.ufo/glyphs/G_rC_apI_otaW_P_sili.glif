@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapIotaWPsili" format="2">
+<glyph name="GrCapIotaWPsili" format="1">
   <advance width="1013"/>
   <unicode hex="1F38"/>
   <outline>
     <component base="GrCapIota" xOffset="363"/>
     <component base="GrPsili" yOffset="-100"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

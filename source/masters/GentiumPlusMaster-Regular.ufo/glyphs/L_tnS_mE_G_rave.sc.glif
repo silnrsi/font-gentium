@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmEGrave.sc" format="2">
+<glyph name="LtnSmEGrave.sc" format="1">
   <advance width="955"/>
-  <anchor x="472" y="7" name="H"/>
-  <anchor x="472" y="-76" name="L"/>
-  <anchor x="705" y="7" name="O"/>
-  <anchor x="931" y="920" name="R"/>
-  <anchor x="472" y="1505" name="U"/>
   <outline>
     <component base="LtnSmE.sc"/>
     <component base="CombGrave" xOffset="905" yOffset="95"/>
+    <contour>
+      <point x="472" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="472" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="705" y="7" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="931" y="920" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="472" y="1505" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

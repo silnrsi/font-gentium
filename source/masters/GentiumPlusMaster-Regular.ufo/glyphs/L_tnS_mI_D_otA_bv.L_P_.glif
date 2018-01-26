@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmIDotAbv.LP" format="2">
+<glyph name="LtnSmIDotAbv.LP" format="1">
   <advance width="555"/>
-  <anchor x="285" y="-100" name="L"/>
-  <anchor x="335" y="0" name="O"/>
-  <anchor x="555" y="900" name="R"/>
-  <anchor x="285" y="1050" name="U"/>
   <outline>
     <component base="LtnSmI.LP"/>
+    <contour>
+      <point x="285" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="335" y="0" type="move" name="O"/>
+    </contour>
+    <contour>
+      <point x="555" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="285" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

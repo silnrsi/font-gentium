@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSupSmI.Dotless" format="2">
+<glyph name="LtnSupSmI.Dotless" format="1">
   <advance width="388"/>
-  <anchor x="202" y="540" name="L"/>
-  <anchor x="439" y="1145" name="R"/>
-  <anchor x="202" y="1286" name="U"/>
   <outline>
     <contour>
       <point x="49" y="620" type="line"/>
@@ -26,11 +23,14 @@
       <point x="112" y="667"/>
       <point x="49" y="656" type="curve"/>
     </contour>
+    <contour>
+      <point x="202" y="540" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="439" y="1145" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="202" y="1286" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

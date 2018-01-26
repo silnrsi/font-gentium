@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmDLineBlw" format="2">
+<glyph name="LtnSmDLineBlw" format="1">
   <advance width="1065"/>
   <unicode hex="1E0F"/>
-  <anchor x="558" y="0" name="H"/>
-  <anchor x="525" y="-600" name="L"/>
-  <anchor x="1065" y="900" name="R"/>
-  <anchor x="335" y="1050" name="U"/>
   <outline>
     <component base="LtnSmD"/>
     <component base="CombMacronBlw" xOffset="1040"/>
+    <contour>
+      <point x="558" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="525" y="-600" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="1065" y="900" type="move" name="R"/>
+    </contour>
+    <contour>
+      <point x="335" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

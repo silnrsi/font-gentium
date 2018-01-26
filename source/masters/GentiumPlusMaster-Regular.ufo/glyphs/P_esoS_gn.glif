@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="PesoSgn" format="2">
+<glyph name="PesoSgn" format="1">
   <advance width="961"/>
   <unicode hex="20B1"/>
   <outline>
@@ -66,10 +66,4 @@
       <point x="59" y="917" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

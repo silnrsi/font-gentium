@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmCCedillaAcute.sc" format="2">
+<glyph name="LtnSmCCedillaAcute.sc" format="1">
   <advance width="1032"/>
-  <anchor x="549" y="-593" name="L"/>
-  <anchor x="577" y="1505" name="U"/>
   <outline>
     <component base="LtnSmC.sc"/>
     <component base="CombCedilla" xOffset="1062" yOffset="7"/>
     <component base="CombAcute" xOffset="1120" yOffset="95"/>
+    <contour>
+      <point x="549" y="-593" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="577" y="1505" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

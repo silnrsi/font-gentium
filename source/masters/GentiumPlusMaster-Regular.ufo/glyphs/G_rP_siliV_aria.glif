@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrPsiliVaria" format="2">
+<glyph name="GrPsiliVaria" format="1">
   <advance width="720"/>
   <unicode hex="1FCD"/>
-  <anchor x="360" y="1050" name="_U"/>
   <outline>
     <contour>
       <point x="318" y="1268"/>
@@ -34,11 +33,8 @@
       <point x="619" y="1084" type="line"/>
       <point x="643" y="1082"/>
     </contour>
+    <contour>
+      <point x="360" y="1050" type="move" name="_U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmNAcute.sc" format="2">
+<glyph name="LtnSmNAcute.sc" format="1">
   <advance width="1249"/>
-  <anchor x="981" y="7" name="H"/>
-  <anchor x="625" y="-76" name="L"/>
-  <anchor x="625" y="1505" name="U"/>
   <outline>
     <component base="LtnSmN.sc"/>
     <component base="CombAcute" xOffset="1168" yOffset="95"/>
+    <contour>
+      <point x="981" y="7" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="625" y="-76" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="625" y="1505" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

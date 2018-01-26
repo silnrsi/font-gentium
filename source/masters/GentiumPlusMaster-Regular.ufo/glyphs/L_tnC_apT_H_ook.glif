@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnCapTHook" format="2">
+<glyph name="LtnCapTHook" format="1">
   <advance width="1219"/>
   <unicode hex="01AC"/>
-  <anchor x="632" y="-100" name="L"/>
-  <anchor x="632" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="30" y="1177"/>
@@ -44,11 +42,11 @@
       <point x="359" y="1260" type="line" smooth="yes"/>
       <point x="183" y="1260"/>
     </contour>
+    <contour>
+      <point x="632" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="632" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

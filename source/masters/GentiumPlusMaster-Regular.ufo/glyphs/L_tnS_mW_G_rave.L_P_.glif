@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmWGrave.LP" format="2">
+<glyph name="LtnSmWGrave.LP" format="1">
   <advance width="1446"/>
-  <anchor x="730" y="-100" name="L"/>
-  <anchor x="750" y="1370" name="U"/>
   <outline>
     <component base="LtnSmW"/>
     <component base="CombGrave.LP" xOffset="1183"/>
+    <contour>
+      <point x="730" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="750" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

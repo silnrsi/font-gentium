@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Gentium Plus Master</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/01/25 21:46:02</string>
+  <string>2017/12/12 14:22:04</string>
   <key>openTypeHheaAscender</key>
   <integer>2250</integer>
   <key>openTypeHheaDescender</key>
@@ -181,6 +181,12 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>2250</integer>
   <key>openTypeOS2WinDescent</key>
   <integer>750</integer>
+  <key>postscriptBlueFuzz</key>
+  <integer>1</integer>
+  <key>postscriptBlueScale</key>
+  <real>0.3562</real>
+  <key>postscriptBlueShift</key>
+  <integer>7</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-41</integer>

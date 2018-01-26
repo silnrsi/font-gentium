@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="AcuteAccent" format="2">
+<glyph name="AcuteAccent" format="1">
   <advance width="653"/>
   <unicode hex="00B4"/>
-  <anchor x="327" y="1410" name="U"/>
   <outline>
     <contour>
       <point x="274" y="1047" type="curve"/>
@@ -15,11 +14,8 @@
       <point x="233" y="1063"/>
       <point x="250" y="1052"/>
     </contour>
+    <contour>
+      <point x="327" y="1410" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

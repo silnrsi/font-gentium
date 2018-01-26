@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmKaDesc" format="2">
+<glyph name="CySmKaDesc" format="1">
   <advance width="1052"/>
   <unicode hex="049B"/>
-  <anchor x="539" y="-100" name="L"/>
-  <anchor x="539" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="515" y="432" type="curve"/>
@@ -67,11 +65,11 @@
       <point x="494" y="430"/>
       <point x="505" y="431"/>
     </contour>
+    <contour>
+      <point x="539" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="539" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

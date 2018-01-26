@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmKaVertStrk" format="2">
+<glyph name="CySmKaVertStrk" format="1">
   <advance width="1087"/>
   <unicode hex="049D"/>
-  <anchor x="559" y="-100" name="L"/>
-  <anchor x="559" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="455" y="930" type="line"/>
@@ -71,11 +69,11 @@
       <point x="555" y="140" type="curve"/>
       <point x="555" y="785" type="line"/>
     </contour>
+    <contour>
+      <point x="559" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="559" y="1050" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

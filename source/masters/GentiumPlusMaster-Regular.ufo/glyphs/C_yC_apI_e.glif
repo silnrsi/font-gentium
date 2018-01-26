@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapIe" format="2">
+<glyph name="CyCapIe" format="1">
   <advance width="1016"/>
   <unicode hex="0415"/>
-  <anchor x="502" y="-100" name="L"/>
-  <anchor x="502" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="885" y="1167"/>
@@ -60,11 +58,11 @@
       <point x="913" y="0" type="line"/>
       <point x="924" y="39"/>
     </contour>
+    <contour>
+      <point x="502" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="502" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

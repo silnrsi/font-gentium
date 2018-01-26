@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CyCapFita" format="2">
+<glyph name="CyCapFita" format="1">
   <advance width="1228"/>
   <unicode hex="0472"/>
-  <anchor x="604" y="-100" name="L"/>
-  <anchor x="604" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1138" y="285"/>
@@ -37,11 +35,11 @@
       <point x="227" y="705" type="line"/>
       <point x="244" y="994"/>
     </contour>
+    <contour>
+      <point x="604" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="604" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

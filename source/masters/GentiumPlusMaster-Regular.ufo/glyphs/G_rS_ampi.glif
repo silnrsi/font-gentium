@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSampi" format="2">
+<glyph name="GrSampi" format="1">
   <advance width="1263"/>
   <unicode hex="03E0"/>
-  <anchor x="517" y="-100" name="L"/>
-  <anchor x="517" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1147" y="721"/>
@@ -63,11 +61,11 @@
       <point x="317" y="-30" type="line"/>
       <point x="448" y="127"/>
     </contour>
+    <contour>
+      <point x="517" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="517" y="1370" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>

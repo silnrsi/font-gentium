@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ModSmCapIStrk" format="2">
+<glyph name="ModSmCapIStrk" format="1">
   <advance width="395"/>
   <unicode hex="1DA7"/>
-  <anchor x="205" y="540" name="L"/>
-  <anchor x="205" y="1286" name="U"/>
   <outline>
     <contour>
       <point x="345" y="947" type="line"/>
@@ -37,11 +35,42 @@
       <point x="115" y="667"/>
       <point x="52" y="656" type="curve"/>
     </contour>
+    <contour>
+      <point x="205" y="540" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="205" y="1286" type="move" name="U"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>1560</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>620</integer>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

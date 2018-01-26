@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CySmAbkhasCheDesc.sc" format="2">
+<glyph name="CySmAbkhasCheDesc.sc" format="1">
   <advance width="1310"/>
-  <anchor x="763" y="-500" name="L"/>
-  <anchor x="815" y="1145" name="U"/>
   <outline>
     <contour>
       <point x="916" y="0" type="curve"/>
@@ -81,11 +79,11 @@
       <point x="473" y="633" type="line"/>
       <point x="508" y="872"/>
     </contour>
+    <contour>
+      <point x="763" y="-500" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="815" y="1145" type="move" name="U"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/01/25 22:26:39</string>
-    </dict>
-  </lib>
 </glyph>
