@@ -16,7 +16,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Gentium Plus Master" filename="GentiumPlusMaster-Italic.ufo" name="Gentium Plus Italic" stylename="Italic">
+        <source familyname="Gentium Plus Master" filename="masters/GentiumPlusMaster-Italic.ufo" name="Gentium Plus Italic" stylename="Italic">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -27,11 +27,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Gentium Plus Master" filename="GentiumPlusMaster-ExtraBoldItalic.ufo" name="Gentium Plus Extra Bold Italic" stylename="Extra Bold Italic">
-            <lib />
-            <groups />
-            <features />
-            <info />
+        <source familyname="Gentium Plus Master" filename="masters/GentiumPlusMaster-ExtraBoldItalic.ufo" name="Gentium Plus Extra Bold Italic" stylename="Extra Bold Italic">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -40,7 +36,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Gentium Plus" filename="GentiumPlus-Italic.ufo" name="Gentium Plus Italic" stylemapfamilyname="Gentium Plus" stylemapstylename="italic" stylename="Italic">
+        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-Italic.ufo" name="Gentium Plus Italic" stylemapfamilyname="Gentium Plus" stylemapstylename="italic" stylename="Italic">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -49,7 +45,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Book Plus" filename="GentiumBookPlus-Italic.ufo" name="Gentium Book Plus Italic" stylemapfamilyname="Gentium Book Plus" stylemapstylename="italic" stylename="Italic">
+        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-Italic.ufo" name="Gentium Book Plus Italic" stylemapfamilyname="Gentium Book Plus" stylemapstylename="italic" stylename="Italic">
             <location>
                 <dimension name="weight" xvalue="500.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -58,7 +54,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Plus" filename="GentiumPlus-BoldItalic.ufo" name="Gentium Plus Bold Italic" stylemapfamilyname="Gentium Plus" stylemapstylename="bold italic" stylename="Bold Italic">
+        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-BoldItalic.ufo" name="Gentium Plus Bold Italic" stylemapfamilyname="Gentium Plus" stylemapstylename="bold italic" stylename="Bold Italic">
             <location>
                 <dimension name="weight" xvalue="700.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -67,7 +63,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Book Plus" filename="GentiumBookPlus-BoldItalic.ufo" name="Gentium Book Plus Bold Italic" stylemapfamilyname="Gentium Book Plus" stylemapstylename="bold italic" stylename="Bold Italic">
+        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-BoldItalic.ufo" name="Gentium Book Plus Bold Italic" stylemapfamilyname="Gentium Book Plus" stylemapstylename="bold italic" stylename="Bold Italic">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
