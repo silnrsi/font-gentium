@@ -1,6 +1,13 @@
 #!/bin/sh
 
-psfsyncmeta source/GentiumPlus-Regular.ufo --normalize -l source/logs/sync_reg.log
-psfnormalize source/GentiumBookPlus-Bold.ufo -l source/logs/norm_book_plus.log
-psfcopymeta source/GentiumPlus-Regular.ufo source/GentiumBookPlus-Bold.ufo -l source/logs/copy.log
-psfsyncmeta source/GentiumBookPlus-BoldItalic.ufo -m source/GentiumBookPlus-Bold.ufo -s --normalize -l source/logs/sync_book.log
+# update psnames and sort order in Regular, which also normalizes it
+psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/GentiumPlusMaster-Regular.ufo -l source/logs/psnames.log
+psfsetglyphorder --header sort_final_cdg -i source/glyph_data.csv source/masters/GentiumPlusMaster-Regular.ufo -l source/logs/sortorder.log
+
+# normalize other family members
+psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-ExtraBold.ufo -l source/logs/normXB.log
+psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-Italic.ufo -l source/logs/normI.log
+psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo -l source/logs/normXBI.log
+
+# copy psnames and glyphorder and any other updates to all fonts
+psfsyncmasters source/GentiumPlusRoman.designspace source/GentiumPlusItalic.designspace -l source/logs/sync.log
