@@ -1,13 +1,18 @@
 #!/bin/sh
 
-psfsetpsnames -i source/glyph_data.csv source/GentiumPlus-Regular.ufo
-psfsetpsnames -i source/glyph_data.csv source/GentiumPlus-Italic.ufo
-psfsetpsnames -i source/glyph_data.csv source/GentiumBookPlus-Bold.ufo
-psfsetpsnames -i source/glyph_data.csv source/GentiumBookPlus-BoldItalic.ufo
-psfsetglyphorder --header sort_final_cdg -i source/glyph_data.csv source/GentiumPlus-Regular.ufo
-psfsetglyphorder --header sort_final_cdg -i source/glyph_data.csv source/GentiumPlus-Italic.ufo
-psfsetglyphorder --header sort_final_cdg -i source/glyph_data.csv source/GentiumBookPlus-Bold.ufo
-psfsetglyphorder --header sort_final_cdg -i source/glyph_data.csv source/GentiumBookPlus-BoldItalic.ufo
-psfsyncmeta source/GentiumPlus-Regular.ufo
-psfcopymeta source/GentiumPlus-Regular.ufo source/GentiumBookPlus-Bold.ufo
-psfsyncmeta source/GentiumBookPlus-BoldItalic.ufo -m source/GentiumBookPlus-Bold.ufo -s
+# Produce individual UFOs from Glyphs files
+psfglyphs2ufo source/masters/GentiumPlusRoman.glyphs source/masters
+psfglyphs2ufo source/masters/GentiumPlusItalic.glyphs source/masters
+
+# update psnames and sort order in Regular, which also normalizes it
+psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/GentiumPlusMaster-Regular.ufo -l source/logs/psnames.log
+psfsetglyphorder --header sort_final_cdg -i source/glyph_data.csv source/masters/GentiumPlusMaster-Regular.ufo -l source/logs/sortorder.log
+
+# normalize other family members
+psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-Regular.ufo -l source/logs/normXB.log
+psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-ExtraBold.ufo -l source/logs/normXB.log
+psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-Italic.ufo -l source/logs/normI.log
+psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo -l source/logs/normXBI.log
+
+# copy psnames and glyphorder and any other updates to all fonts
+psfsyncmasters source/GentiumPlusRoman.designspace source/GentiumPlusItalic.designspace -l source/logs/sync.log
