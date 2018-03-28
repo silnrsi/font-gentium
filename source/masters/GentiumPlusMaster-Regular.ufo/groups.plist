@@ -2,18 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>@MMK_L_FullStop</key>
+  <key>public.kern1.FullStop</key>
   <array>
     <string>Comma</string>
     <string>FullStop</string>
   </array>
-  <key>@MMK_L_GrCapAlpha</key>
+  <key>public.kern1.GrCapAlpha</key>
   <array>
     <string>GrCapAlpha</string>
     <string>GrCapAlphaWMacron</string>
     <string>GrCapAlphaWVrachy</string>
   </array>
-  <key>@MMK_L_GrCapAlphaWTonos</key>
+  <key>public.kern1.GrCapAlphaWTonos</key>
   <array>
     <string>GrCapAlphaWTonos</string>
     <string>GrCapAlphaWOxia</string>
@@ -29,7 +29,7 @@
     <string>GrCapAlphaWPsiliPeris</string>
     <string>GrCapAlphaWPsiliPeris.Por</string>
   </array>
-  <key>@MMK_L_GrCapOmegaWTonos</key>
+  <key>public.kern1.GrCapOmegaWTonos</key>
   <array>
     <string>GrCapOmegaWTonos</string>
     <string>GrCapOmegaWOxia</string>
@@ -45,7 +45,7 @@
     <string>GrCapOmegaWPsiliPeris</string>
     <string>GrCapOmegaWPsiliPeris.Por</string>
   </array>
-  <key>@MMK_L_GrCapOmicronWTonos</key>
+  <key>public.kern1.GrCapOmicronWTonos</key>
   <array>
     <string>GrCapOmicronWTonos</string>
     <string>GrCapOmicronWOxia</string>
@@ -57,14 +57,14 @@
     <string>GrCapOmicronWPsiliOxia</string>
     <string>GrCapOmicronWPsiliVaria</string>
   </array>
-  <key>@MMK_L_GrCapUpsilon</key>
+  <key>public.kern1.GrCapUpsilon</key>
   <array>
     <string>GrCapUpsilon</string>
     <string>GrCapUpsilonWMacron</string>
     <string>GrCapUpsilonWVrachy</string>
     <string>GrCapUpsilonWDial</string>
   </array>
-  <key>@MMK_L_GrCapUpsilonWTonos</key>
+  <key>public.kern1.GrCapUpsilonWTonos</key>
   <array>
     <string>GrCapUpsilonWTonos</string>
     <string>GrCapUpsilonWOxia</string>
@@ -75,7 +75,7 @@
     <string>GrCapUpsilonWDasiaPeris</string>
     <string>GrCapUpsilonWDasiaPeris.Por</string>
   </array>
-  <key>@MMK_L_GrSmAlpha</key>
+  <key>public.kern1.GrSmAlpha</key>
   <array>
     <string>GrSmAlpha</string>
     <string>GrSmAlphaWTonos</string>
@@ -91,7 +91,7 @@
     <string>GrSmAlphaWVrachy</string>
     <string>GrSmAlphaWYpo</string>
   </array>
-  <key>@MMK_L_GrSmAlphaWPsili</key>
+  <key>public.kern1.GrSmAlphaWPsili</key>
   <array>
     <string>GrSmAlphaWDasia</string>
     <string>GrSmAlphaWDasiaOxia</string>
@@ -114,14 +114,14 @@
     <string>GrSmAlphaWPsiliPerisYpo.Por</string>
     <string>GrSmAlphaWPsiliYpo</string>
   </array>
-  <key>@MMK_L_GrSmEpsilon</key>
+  <key>public.kern1.GrSmEpsilon</key>
   <array>
     <string>GrSmEpsilon</string>
     <string>GrSmEpsilonWTonos</string>
     <string>GrSmEpsilonWOxia</string>
     <string>GrSmEpsilonWVaria</string>
   </array>
-  <key>@MMK_L_GrSmEpsilonWPsili</key>
+  <key>public.kern1.GrSmEpsilonWPsili</key>
   <array>
     <string>GrSmEpsilonWDasia</string>
     <string>GrSmEpsilonWDasiaOxia</string>
@@ -130,7 +130,7 @@
     <string>GrSmEpsilonWPsiliOxia</string>
     <string>GrSmEpsilonWPsiliVaria</string>
   </array>
-  <key>@MMK_L_GrSmEta</key>
+  <key>public.kern1.GrSmEta</key>
   <array>
     <string>GrSmEta</string>
     <string>GrSmEtaWTonos</string>
@@ -144,7 +144,7 @@
     <string>GrSmEtaWPerisYpo.Por</string>
     <string>GrSmEtaWYpo</string>
   </array>
-  <key>@MMK_L_GrSmEtaWPsili</key>
+  <key>public.kern1.GrSmEtaWPsili</key>
   <array>
     <string>GrSmEtaWDasia</string>
     <string>GrSmEtaWDasiaOxia</string>
@@ -167,7 +167,7 @@
     <string>GrSmEtaWPsiliPerisYpo.Por</string>
     <string>GrSmEtaWPsiliYpo</string>
   </array>
-  <key>@MMK_L_GrSmIota</key>
+  <key>public.kern1.GrSmIota</key>
   <array>
     <string>GrSmIota</string>
     <string>GrSmIotaWTonos</string>
@@ -179,7 +179,7 @@
     <string>GrSmIotaWVrachy</string>
     <string>GrPros</string>
   </array>
-  <key>@MMK_L_GrSmIotaWDial</key>
+  <key>public.kern1.GrSmIotaWDial</key>
   <array>
     <string>GrSmIotaWDial</string>
     <string>GrSmIotaWDialTonos</string>
@@ -188,7 +188,7 @@
     <string>GrSmIotaWDialPeris</string>
     <string>GrSmIotaWDialPeris.Por</string>
   </array>
-  <key>@MMK_L_GrSmIotaWPsili</key>
+  <key>public.kern1.GrSmIotaWPsili</key>
   <array>
     <string>GrSmIotaWDasia</string>
     <string>GrSmIotaWDasiaOxia</string>
@@ -201,7 +201,7 @@
     <string>GrSmIotaWPsiliPeris</string>
     <string>GrSmIotaWPsiliPeris.Por</string>
   </array>
-  <key>@MMK_L_GrSmOmega</key>
+  <key>public.kern1.GrSmOmega</key>
   <array>
     <string>GrSmOmega</string>
     <string>GrSmOmegaWTonos</string>
@@ -215,7 +215,7 @@
     <string>GrSmOmegaWPerisYpo.Por</string>
     <string>GrSmOmegaWYpo</string>
   </array>
-  <key>@MMK_L_GrSmOmegaWPsili</key>
+  <key>public.kern1.GrSmOmegaWPsili</key>
   <array>
     <string>GrSmOmegaWDasia</string>
     <string>GrSmOmegaWDasiaOxia</string>
@@ -238,14 +238,14 @@
     <string>GrSmOmegaWPsiliPerisYpo.Por</string>
     <string>GrSmOmegaWPsiliYpo</string>
   </array>
-  <key>@MMK_L_GrSmOmicron</key>
+  <key>public.kern1.GrSmOmicron</key>
   <array>
     <string>GrSmOmicron</string>
     <string>GrSmOmicronWTonos</string>
     <string>GrSmOmicronWOxia</string>
     <string>GrSmOmicronWVaria</string>
   </array>
-  <key>@MMK_L_GrSmOmicronWPsili</key>
+  <key>public.kern1.GrSmOmicronWPsili</key>
   <array>
     <string>GrSmOmicronWDasia</string>
     <string>GrSmOmicronWDasiaOxia</string>
@@ -254,7 +254,7 @@
     <string>GrSmOmicronWPsiliOxia</string>
     <string>GrSmOmicronWPsiliVaria</string>
   </array>
-  <key>@MMK_L_GrSmUpsilon</key>
+  <key>public.kern1.GrSmUpsilon</key>
   <array>
     <string>GrSmUpsilon</string>
     <string>GrSmUpsilonWTonos</string>
@@ -265,7 +265,7 @@
     <string>GrSmUpsilonWMacron</string>
     <string>GrSmUpsilonWVrachy</string>
   </array>
-  <key>@MMK_L_GrSmUpsilonWDial</key>
+  <key>public.kern1.GrSmUpsilonWDial</key>
   <array>
     <string>GrSmUpsilonWDial</string>
     <string>GrSmUpsilonWDialTonos</string>
@@ -274,7 +274,7 @@
     <string>GrSmUpsilonWDialPeris</string>
     <string>GrSmUpsilonWDialPeris.Por</string>
   </array>
-  <key>@MMK_L_GrSmUpsilonWPsili</key>
+  <key>public.kern1.GrSmUpsilonWPsili</key>
   <array>
     <string>GrSmUpsilonWDasia</string>
     <string>GrSmUpsilonWDasiaOxia</string>
@@ -287,35 +287,35 @@
     <string>GrSmUpsilonWPsiliPeris</string>
     <string>GrSmUpsilonWPsiliPeris.Por</string>
   </array>
-  <key>@MMK_L_LftDblQuotMrk</key>
+  <key>public.kern1.LftDblQuotMrk</key>
   <array>
     <string>LftDblQuotMrk</string>
     <string>LftSglQuotMrk</string>
   </array>
-  <key>@MMK_L_RtDblQuotMrk</key>
+  <key>public.kern1.RtDblQuotMrk</key>
   <array>
     <string>RtDblQuotMrk</string>
     <string>RtSglQuotMrk</string>
   </array>
-  <key>@MMK_R_FullStop</key>
+  <key>public.kern2.FullStop</key>
   <array>
     <string>Comma</string>
     <string>FullStop</string>
   </array>
-  <key>@MMK_R_GrCapAlpha</key>
+  <key>public.kern2.GrCapAlpha</key>
   <array>
     <string>GrCapAlpha</string>
     <string>GrCapAlphaWMacron</string>
     <string>GrCapAlphaWVrachy</string>
   </array>
-  <key>@MMK_R_GrCapUpsilon</key>
+  <key>public.kern2.GrCapUpsilon</key>
   <array>
     <string>GrCapUpsilon</string>
     <string>GrCapUpsilonWMacron</string>
     <string>GrCapUpsilonWVrachy</string>
     <string>GrCapUpsilonWDial</string>
   </array>
-  <key>@MMK_R_GrSmAlpha</key>
+  <key>public.kern2.GrSmAlpha</key>
   <array>
     <string>GrSmAlpha</string>
     <string>GrSmAlphaWTonos</string>
@@ -331,7 +331,7 @@
     <string>GrSmAlphaWVrachy</string>
     <string>GrSmAlphaWYpo</string>
   </array>
-  <key>@MMK_R_GrSmAlphaWPsili</key>
+  <key>public.kern2.GrSmAlphaWPsili</key>
   <array>
     <string>GrSmAlphaWDasia</string>
     <string>GrSmAlphaWDasiaOxia</string>
@@ -354,14 +354,14 @@
     <string>GrSmAlphaWPsiliPerisYpo.Por</string>
     <string>GrSmAlphaWPsiliYpo</string>
   </array>
-  <key>@MMK_R_GrSmEpsilon</key>
+  <key>public.kern2.GrSmEpsilon</key>
   <array>
     <string>GrSmEpsilon</string>
     <string>GrSmEpsilonWTonos</string>
     <string>GrSmEpsilonWOxia</string>
     <string>GrSmEpsilonWVaria</string>
   </array>
-  <key>@MMK_R_GrSmEpsilonWPsili</key>
+  <key>public.kern2.GrSmEpsilonWPsili</key>
   <array>
     <string>GrSmEpsilonWDasia</string>
     <string>GrSmEpsilonWDasiaOxia</string>
@@ -370,7 +370,7 @@
     <string>GrSmEpsilonWPsiliOxia</string>
     <string>GrSmEpsilonWPsiliVaria</string>
   </array>
-  <key>@MMK_R_GrSmEta</key>
+  <key>public.kern2.GrSmEta</key>
   <array>
     <string>GrSmEta</string>
     <string>GrSmEtaWTonos</string>
@@ -384,7 +384,7 @@
     <string>GrSmEtaWPerisYpo.Por</string>
     <string>GrSmEtaWYpo</string>
   </array>
-  <key>@MMK_R_GrSmIota</key>
+  <key>public.kern2.GrSmIota</key>
   <array>
     <string>GrSmIota</string>
     <string>GrSmIotaWTonos</string>
@@ -396,7 +396,7 @@
     <string>GrSmIotaWVrachy</string>
     <string>GrPros</string>
   </array>
-  <key>@MMK_R_GrSmIotaWDial</key>
+  <key>public.kern2.GrSmIotaWDial</key>
   <array>
     <string>GrSmIotaWDial</string>
     <string>GrSmIotaWDialTonos</string>
@@ -405,7 +405,7 @@
     <string>GrSmIotaWDialPeris</string>
     <string>GrSmIotaWDialPeris.Por</string>
   </array>
-  <key>@MMK_R_GrSmIotaWPsili</key>
+  <key>public.kern2.GrSmIotaWPsili</key>
   <array>
     <string>GrSmIotaWDasia</string>
     <string>GrSmIotaWDasiaOxia</string>
@@ -418,7 +418,7 @@
     <string>GrSmIotaWPsiliPeris</string>
     <string>GrSmIotaWPsiliPeris.Por</string>
   </array>
-  <key>@MMK_R_GrSmOmega</key>
+  <key>public.kern2.GrSmOmega</key>
   <array>
     <string>GrSmOmega</string>
     <string>GrSmOmegaWTonos</string>
@@ -432,7 +432,7 @@
     <string>GrSmOmegaWPerisYpo.Por</string>
     <string>GrSmOmegaWYpo</string>
   </array>
-  <key>@MMK_R_GrSmOmegaWPsili</key>
+  <key>public.kern2.GrSmOmegaWPsili</key>
   <array>
     <string>GrSmOmegaWDasia</string>
     <string>GrSmOmegaWDasiaOxia</string>
@@ -455,14 +455,14 @@
     <string>GrSmOmegaWPsiliPerisYpo.Por</string>
     <string>GrSmOmegaWPsiliYpo</string>
   </array>
-  <key>@MMK_R_GrSmOmicron</key>
+  <key>public.kern2.GrSmOmicron</key>
   <array>
     <string>GrSmOmicron</string>
     <string>GrSmOmicronWTonos</string>
     <string>GrSmOmicronWOxia</string>
     <string>GrSmOmicronWVaria</string>
   </array>
-  <key>@MMK_R_GrSmUpsilon</key>
+  <key>public.kern2.GrSmUpsilon</key>
   <array>
     <string>GrSmUpsilon</string>
     <string>GrSmUpsilonWTonos</string>
@@ -473,7 +473,7 @@
     <string>GrSmUpsilonWMacron</string>
     <string>GrSmUpsilonWVrachy</string>
   </array>
-  <key>@MMK_R_GrSmUpsilonWDial</key>
+  <key>public.kern2.GrSmUpsilonWDial</key>
   <array>
     <string>GrSmUpsilonWDial</string>
     <string>GrSmUpsilonWDialTonos</string>
@@ -482,7 +482,7 @@
     <string>GrSmUpsilonWDialPeris</string>
     <string>GrSmUpsilonWDialPeris.Por</string>
   </array>
-  <key>@MMK_R_GrSmUpsilonWPsili</key>
+  <key>public.kern2.GrSmUpsilonWPsili</key>
   <array>
     <string>GrSmUpsilonWDasia</string>
     <string>GrSmUpsilonWDasiaOxia</string>
@@ -495,7 +495,7 @@
     <string>GrSmUpsilonWPsiliPeris</string>
     <string>GrSmUpsilonWPsiliPeris.Por</string>
   </array>
-  <key>@MMK_R_RtDblQuotMrk</key>
+  <key>public.kern2.RtDblQuotMrk</key>
   <array>
     <string>RtDblQuotMrk</string>
     <string>RtSglQuotMrk</string>

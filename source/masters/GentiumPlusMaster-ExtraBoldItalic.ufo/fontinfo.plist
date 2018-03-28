@@ -15,7 +15,7 @@
   <key>italicAngle</key>
   <integer>-8</integer>
   <key>openTypeHeadCreated</key>
-  <string>2018/01/30 22:37:52</string>
+  <string>2018/03/28 21:28:18</string>
   <key>openTypeHheaAscender</key>
   <integer>2250</integer>
   <key>openTypeHheaDescender</key>
@@ -134,6 +134,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>1200</integer>
   <key>openTypeOS2SuperscriptYSize</key>
   <integer>856</integer>
+  <key>openTypeOS2Type</key>
+  <array/>
   <key>openTypeOS2TypoAscender</key>
   <integer>2250</integer>
   <key>openTypeOS2TypoDescender</key>
@@ -176,19 +178,13 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2VendorID</key>
   <string>SIL </string>
   <key>openTypeOS2WeightClass</key>
-  <integer>700</integer>
+  <integer>800</integer>
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
   <integer>2250</integer>
   <key>openTypeOS2WinDescent</key>
   <integer>750</integer>
-  <key>postscriptBlueFuzz</key>
-  <integer>1</integer>
-  <key>postscriptBlueScale</key>
-  <real>0.3562</real>
-  <key>postscriptBlueShift</key>
-  <integer>7</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-41</integer>

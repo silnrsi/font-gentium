@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombDblBreveBlwDep" format="2">
-  <advance width="0"/>
   <unicode hex="F176"/>
   <anchor x="0" y="-840" name="L"/>
   <outline>
@@ -31,15 +30,4 @@
       <point x="776" y="-500"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <integer>1</integer>
-        <real>0.986</real>
-        <real>0.6</real>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombAcute_Grave_AcuteDep" format="2">
-  <advance width="0"/>
   <unicode hex="F179"/>
   <anchor x="-514" y="1050" name="_U"/>
   <outline>
@@ -27,15 +26,4 @@
       <point x="-318" y="1067" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <integer>1</integer>
-        <real>0.986</real>
-        <real>0.6</real>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>
