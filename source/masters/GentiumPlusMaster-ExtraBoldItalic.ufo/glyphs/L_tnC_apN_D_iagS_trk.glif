@@ -2,11 +2,15 @@
 <glyph name="LtnCapNDiagStrk" format="2">
   <advance width="1308"/>
   <unicode hex="A7A4"/>
-  <anchor x="990" y="0" name="H"/>
   <anchor x="578" y="-100" name="L"/>
   <anchor x="763" y="1320" name="U"/>
   <outline>
     <contour>
+      <point x="1066" y="-30" type="curve"/>
+      <point x="1223" y="1115" type="line" smooth="yes"/>
+      <point x="1226" y="1134"/>
+      <point x="1267" y="1164"/>
+      <point x="1358" y="1177" type="curve"/>
       <point x="1369" y="1260" type="line"/>
       <point x="969" y="1260" type="line"/>
       <point x="958" y="1177" type="line"/>
@@ -37,23 +41,18 @@
       <point x="824" y="91" type="line" smooth="yes"/>
       <point x="855" y="33"/>
       <point x="932" y="-19"/>
-      <point x="1066" y="-30" type="curve"/>
-      <point x="1223" y="1115" type="line" smooth="yes"/>
-      <point x="1226" y="1134"/>
-      <point x="1267" y="1164"/>
-      <point x="1358" y="1177" type="curve"/>
     </contour>
     <contour>
+      <point x="-14" y="438" type="line"/>
+      <point x="1326" y="696" type="line"/>
+      <point x="1338" y="707"/>
+      <point x="1392" y="790"/>
       <point x="1408" y="812" type="curve"/>
       <point x="1390" y="841" type="line"/>
       <point x="59" y="585" type="line"/>
       <point x="40" y="565"/>
       <point x="-11" y="487"/>
       <point x="-31" y="459" type="curve"/>
-      <point x="-14" y="438" type="line"/>
-      <point x="1326" y="696" type="line"/>
-      <point x="1338" y="707"/>
-      <point x="1392" y="790"/>
     </contour>
   </outline>
 </glyph>

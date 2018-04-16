@@ -3,18 +3,19 @@
   <advance width="1102"/>
   <unicode hex="A77E"/>
   <anchor x="491" y="-100" name="L"/>
-  <anchor x="1014" y="870" name="R"/>
   <anchor x="646" y="1370" name="U"/>
   <outline>
     <contour>
-      <point x="60" y="35" type="line"/>
+      <point x="60" y="35" type="curve"/>
       <point x="89" y="0" type="line"/>
       <point x="909" y="0" type="line"/>
-      <point x="916" y="10"/>
-      <point x="985" y="127"/>
+      <point x="931" y="24"/>
+      <point x="979" y="104"/>
       <point x="991" y="148" type="curve"/>
       <point x="962" y="180" type="line"/>
       <point x="138" y="180" type="line"/>
+      <point x="102" y="135"/>
+      <point x="77" y="86"/>
     </contour>
     <contour>
       <point x="1099" y="938" type="curve" smooth="yes"/>

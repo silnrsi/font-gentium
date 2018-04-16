@@ -15,13 +15,15 @@
       <point x="-29" y="1016"/>
     </contour>
     <contour>
-      <point x="-130" y="1378" type="line"/>
+      <point x="-130" y="1378" type="curve"/>
       <point x="-559" y="1378" type="line"/>
       <point x="-574" y="1352"/>
       <point x="-600" y="1303"/>
       <point x="-609" y="1274" type="curve"/>
       <point x="-593" y="1250" type="line"/>
       <point x="-164" y="1250" type="line"/>
+      <point x="-153" y="1293"/>
+      <point x="-141" y="1335"/>
     </contour>
   </outline>
 </glyph>

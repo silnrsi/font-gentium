@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmNDiagStrk.sc" format="2">
   <advance width="1165"/>
+  <anchor x="881.801" y="7" name="H"/>
   <anchor x="509" y="-76" name="L"/>
   <anchor x="693" y="1103" name="U"/>
   <outline>
@@ -12,7 +13,9 @@
       <point x="963" y="959"/>
       <point x="964" y="949" type="curve"/>
       <point x="854" y="236" type="line"/>
-      <point x="417" y="973" type="line"/>
+      <point x="708" y="482"/>
+      <point x="563" y="727"/>
+      <point x="417" y="973" type="curve"/>
       <point x="385" y="1027"/>
       <point x="374" y="1041"/>
       <point x="321" y="1041" type="curve"/>
@@ -36,13 +39,15 @@
       <point x="833" y="-11"/>
       <point x="865" y="-19"/>
       <point x="923" y="-26" type="curve"/>
-      <point x="1075" y="947" type="line"/>
+      <point x="974" y="298"/>
+      <point x="1024" y="623"/>
+      <point x="1075" y="947" type="curve"/>
       <point x="1077" y="963"/>
       <point x="1118" y="981"/>
       <point x="1199" y="992" type="curve"/>
     </contour>
     <contour>
-      <point x="1218" y="662" type="line"/>
+      <point x="1218" y="662" type="curve"/>
       <point x="1192" y="688" type="line"/>
       <point x="100" y="494" type="line"/>
       <point x="63" y="470"/>
@@ -50,9 +55,8 @@
       <point x="5" y="419" type="curve"/>
       <point x="36" y="387" type="line"/>
       <point x="1125" y="580" type="line"/>
-      <point x="1152" y="596"/>
-      <point x="1200" y="629"/>
-      <point x="1219" y="653" type="curve"/>
+      <point x="1180" y="613"/>
+      <point x="1200" y="628"/>
     </contour>
   </outline>
 </glyph>
