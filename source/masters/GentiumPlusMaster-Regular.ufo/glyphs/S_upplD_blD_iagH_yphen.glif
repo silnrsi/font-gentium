@@ -2,9 +2,10 @@
 <glyph name="SupplDblDiagHyphen" format="2">
   <advance width="848"/>
   <unicode hex="2E17"/>
-  <guideline x="91" y="387" angle="270"/>
   <outline>
     <contour>
+      <point x="767" y="806" type="line"/>
+      <point x="764" y="830"/>
       <point x="757" y="868"/>
       <point x="750" y="894" type="curve"/>
       <point x="715" y="903" type="line"/>
@@ -13,10 +14,10 @@
       <point x="99" y="481"/>
       <point x="107" y="454" type="curve"/>
       <point x="141" y="445" type="line"/>
-      <point x="767" y="806" type="line"/>
-      <point x="762" y="830"/>
     </contour>
     <contour>
+      <point x="767" y="538" type="line"/>
+      <point x="764" y="564"/>
       <point x="758" y="599"/>
       <point x="750" y="626" type="curve"/>
       <point x="715" y="635" type="line"/>
@@ -25,8 +26,6 @@
       <point x="98" y="215"/>
       <point x="106" y="188" type="curve"/>
       <point x="141" y="177" type="line"/>
-      <point x="767" y="538" type="line"/>
-      <point x="761" y="564"/>
     </contour>
   </outline>
 </glyph>
