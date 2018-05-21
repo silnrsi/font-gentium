@@ -4,6 +4,57 @@
   <anchor x="-575" y="-600" name="L"/>
   <anchor x="-506" y="-100" name="_L"/>
   <outline>
-    <component base="CombXBlw"/>
+    <contour>
+      <point x="-608" y="-462" type="curve"/>
+      <point x="-798" y="-286" type="line"/>
+      <point x="-893" y="-286" type="line"/>
+      <point x="-1134" y="-462" type="line"/>
+      <point x="-1125" y="-483"/>
+      <point x="-1116" y="-502"/>
+      <point x="-1102" y="-516" type="curve"/>
+      <point x="-861" y="-390" type="line"/>
+      <point x="-655" y="-516" type="line"/>
+      <point x="-634" y="-501"/>
+      <point x="-621" y="-484"/>
+    </contour>
+    <contour>
+      <point x="-575" y="-193" type="line"/>
+      <point x="-581" y="-171"/>
+      <point x="-590" y="-150"/>
+      <point x="-604" y="-137" type="curve"/>
+      <point x="-844" y="-266" type="line"/>
+      <point x="-1052" y="-137" type="line"/>
+      <point x="-1068" y="-151"/>
+      <point x="-1088" y="-174"/>
+      <point x="-1100" y="-193" type="curve"/>
+      <point x="-909" y="-368" type="line"/>
+      <point x="-814" y="-368" type="line"/>
+    </contour>
+    <contour>
+      <point x="22" y="-462" type="curve"/>
+      <point x="-168" y="-286" type="line"/>
+      <point x="-263" y="-286" type="line"/>
+      <point x="-504" y="-462" type="line"/>
+      <point x="-495" y="-483"/>
+      <point x="-486" y="-502"/>
+      <point x="-472" y="-516" type="curve"/>
+      <point x="-231" y="-390" type="line"/>
+      <point x="-25" y="-516" type="line"/>
+      <point x="-4" y="-501"/>
+      <point x="9" y="-484"/>
+    </contour>
+    <contour>
+      <point x="55" y="-193" type="line"/>
+      <point x="49" y="-171"/>
+      <point x="40" y="-150"/>
+      <point x="26" y="-137" type="curve"/>
+      <point x="-214" y="-266" type="line"/>
+      <point x="-422" y="-137" type="line"/>
+      <point x="-438" y="-151"/>
+      <point x="-458" y="-174"/>
+      <point x="-470" y="-193" type="curve"/>
+      <point x="-279" y="-368" type="line"/>
+      <point x="-184" y="-368" type="line"/>
+    </contour>
   </outline>
 </glyph>

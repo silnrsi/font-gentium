@@ -4,6 +4,31 @@
   <anchor x="-543" y="-600" name="L"/>
   <anchor x="-467" y="-100" name="_L"/>
   <outline>
-    <component base="CombAcuteBlw"/>
+    <contour>
+      <point x="-564" y="65" type="line"/>
+      <point x="-600" y="93" type="line"/>
+      <point x="-624" y="91"/>
+      <point x="-659" y="81"/>
+      <point x="-681" y="69" type="curve"/>
+      <point x="-1064" y="-497" type="line"/>
+      <point x="-1027" y="-524" type="line"/>
+      <point x="-1003" y="-517"/>
+      <point x="-954" y="-497"/>
+      <point x="-930" y="-473" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-910" y="-478" type="curve"/>
+      <point x="-910" y="-423"/>
+      <point x="-943" y="-384"/>
+      <point x="-992" y="-384" type="curve" smooth="yes"/>
+      <point x="-1076" y="-384"/>
+      <point x="-1142" y="-485"/>
+      <point x="-1142" y="-562" type="curve" smooth="yes"/>
+      <point x="-1142" y="-622"/>
+      <point x="-1111" y="-661"/>
+      <point x="-1058" y="-661" type="curve" smooth="yes"/>
+      <point x="-968" y="-661"/>
+      <point x="-910" y="-560"/>
+    </contour>
   </outline>
 </glyph>
