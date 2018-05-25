@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="SupplDownwardsAncora" format="2">
-  <advance width="1975"/>
+  <advance width="1105"/>
   <unicode hex="2E14"/>
   <outline>
-    <component base="SWArrw"/>
+    <contour>
+      <point x="217" y="91" type="line"/>
+      <point x="1082" y="956" type="line"/>
+      <point x="1052" y="996" type="line"/>
+      <point x="1012" y="995"/>
+      <point x="977" y="992"/>
+      <point x="951" y="980" type="curve"/>
+      <point x="139" y="169" type="line"/>
+      <point x="103" y="345" type="line"/>
+      <point x="43" y="323" type="line"/>
+      <point x="43" y="0" type="line"/>
+      <point x="365" y="0" type="line"/>
+      <point x="388" y="60" type="line"/>
+    </contour>
   </outline>
 </glyph>
