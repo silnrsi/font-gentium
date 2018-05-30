@@ -3,6 +3,16 @@
   <advance width="800"/>
   <unicode hex="2E23"/>
   <outline>
-    <component base="SqrTxtBracHighRt"/>
+    <contour>
+      <point x="489" y="465" type="line"/>
+      <point x="749" y="465" type="line"/>
+      <point x="749" y="1600" type="line"/>
+      <point x="223" y="1600" type="line"/>
+      <point x="180" y="1564" type="line"/>
+      <point x="186" y="1531"/>
+      <point x="209" y="1461"/>
+      <point x="217" y="1445" type="curve"/>
+      <point x="489" y="1445" type="line"/>
+    </contour>
   </outline>
 </glyph>
