@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombKayanGraveAcute" format="2">
-  <advance width="0"/>
   <unicode hex="0300"/>
-  <anchor x="-433" y="1050" name="_U"/>
   <anchor x="-433" y="1410" name="U"/>
+  <anchor x="-433" y="1050" name="_U"/>
   <outline>
     <component base="CombGrave"/>
   </outline>
