@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrQstnMrk" format="2">
-  <advance width="410"/>
+  <advance width="500"/>
   <unicode hex="037E"/>
-  <outline/>
+  <outline>
+    <component base="Semicolon"/>
+  </outline>
 </glyph>
