@@ -3,6 +3,27 @@
   <anchor x="-225" y="1370" name="U"/>
   <anchor x="-275" y="1000" name="_U"/>
   <outline>
-    <component base="CombGrave"/>
+    <contour>
+      <point x="-385" y="1047" type="curve"/>
+      <point x="-524" y="1459" type="line"/>
+      <point x="-558" y="1459"/>
+      <point x="-633" y="1454"/>
+      <point x="-665" y="1448" type="curve"/>
+      <point x="-697" y="1412" type="line"/>
+      <point x="-447" y="1026" type="line"/>
+      <point x="-423" y="1027"/>
+      <point x="-412" y="1031"/>
+    </contour>
+    <contour>
+      <point x="157" y="1419" type="line"/>
+      <point x="135" y="1432"/>
+      <point x="70" y="1452"/>
+      <point x="44" y="1459" type="curve"/>
+      <point x="-228" y="1061" type="line"/>
+      <point x="-210" y="1038"/>
+      <point x="-204" y="1031"/>
+      <point x="-183" y="1026" type="curve"/>
+      <point x="172" y="1374" type="line"/>
+    </contour>
   </outline>
 </glyph>
