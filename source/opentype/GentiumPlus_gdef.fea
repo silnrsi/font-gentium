@@ -1069,6 +1069,7 @@
 	\CombGrave_Acute_GraveDep \CombAlmostEqToBlwDep \CombSnakeBlwDep ];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+  #GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+  GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
 
 } GDEF;

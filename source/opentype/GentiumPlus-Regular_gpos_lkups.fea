@@ -1,15 +1,3 @@
-# The authoritative source for attachment points is the UFO.
-# These APs were extracted from make_fea output (which is generated during a build)
-# 	but may be out of sync with the current UFO.
-#
-# If the matching *_edit.fea file is merged in FontForge, these APs will be included.
-#
-# During a build, this file is not used. 
-#  Rather AP lookups are generated from the UFO and the *_bld.fea file is included after them.
-#  This file is not included by the *_bld.fea files
-# This file may be updated by copying lookups from the matching ../../results/source/*.fea file
-#  after a successful build has updated that file.
-
 lookup markMarkPositioninglookup0 {
   lookupflag IgnoreBaseGlyphs;
     pos \CombRtDotAbv <0 0 200 0>;
