@@ -139,7 +139,10 @@ table(glyph);
 //			{ dir = DIR_WHITESPACE };
 
 
+// Temp additions by David Raymond
+
 cBarBowl = (g__ltn_sm_b_barred_bowl, g__ltn_sm_d_barred_bowl, g__ltn_sm_g_barred_bowl);
+
 cno_BarBowl = (g__ltn_sm_b_barred_stem, g__ltn_sm_d_barred_stem, g__ltn_sm_g_strk);
 
 
@@ -231,7 +234,7 @@ c_sc = csc;
 
 
 // Classes of double-diacritics above and below:
-cUDblDia = (g__comb_dbl_breve  g__comb_dbl_macron  g__comb_dbl_tilde  g__comb_dbl_inv_breve  g__comb_dbl_diaer	g__comb_dbl_circum);
+cUDblDia = (g__comb_dbl_breve  g__comb_dbl_macron  g__comb_dbl_tilde  g__comb_dbl_inv_breve  g__comb_dbl_diaer  g__comb_dbl_circum);
 cLDblDia = (g__comb_dbl_macron_blw  g__comb_dbl_rt_arrw_blw  g__comb_dbl_breve_blw);
 
 
@@ -396,8 +399,8 @@ cno_Dotless += (g__ltn_sm_i_s_ital);     // g_i_tail_i;
 
 // Same with tail-i and j-serif.
 #if (ANDIKAfamily)
-cDotless    += (g__ltn_sm_dotless_i_tail_i	g__ltn_sm_dotless_j_toplftserif);
-cno_Dotless += (g__ltn_sm_i_tail_i			g__ltn_sm_j_toplftserif);
+cDotless    += (g__ltn_sm_dotless_i_tail_i	g__ltn_sm_dotless_j_top_lft_serif);
+cno_Dotless += (g__ltn_sm_i_tail_i			g__ltn_sm_j_top_lft_serif);
 #endif
 
 // Same with the low-profile i and j.
@@ -413,7 +416,7 @@ c_sc	+= (g__ltn_sm_i_sc		g__ltn_sm_j_sc);
 #if (ANDIKAfamily)
 // makegdl can't figure out that 'g_q_diag_tail_sc' needs to be in the cDiagTail class.
 cno_DiagTail += (g__ltn_sm_q_sc);
-cDiagTail    += (g__ltn_sm_q_diagtail_sc);
+cDiagTail    += (g__ltn_sm_q_diag_tail_sc);
 #endif
 
 cno_BrInvBreve = (g__comb_inv_breve    g__comb_dbl_inv_breve);
