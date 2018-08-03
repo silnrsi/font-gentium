@@ -29,11 +29,10 @@ DESC_SHORT = "Unicode font for Roman- and Cyrillic-based writing systems"
 # TESTSTRING = u'\u0E07\u0331 \u0E0D\u0331 \u0E19\u0331 \u0E21\u0331'
 
 FONTNAMEBASE="GentiumPlus"
-#for dspace in ('Roman', 'Italic'):
-for dspace in ['Roman']:
+for dspace in ('Roman', 'Italic'):
+#for dspace in ['Roman']:
     designspace('source/' + FONTNAMEBASE + dspace + '.designspace',
                 target = process('${DS:FILENAME_BASE}.ttf', 
-                    name(FONTNAMEBASE, lang='en-US', subfamily='${DS:STYLENAME}'),
                     cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${DS:FILE}'])),
                 # version = VERSION,
                 # copyright = COPYRIGHT;
@@ -45,7 +44,7 @@ for dspace in ['Roman']:
                     ),
                 graphite = gdl('source/${DS:FILENAME_BASE}.gdl',
                     master = 'source/graphite/main.gdh', 
-                    params = '-e gdlerr-${DS:STYLENAME}.txt',
+                    params = '-e gdlerr-${DS:FILENAME_BASE}.txt',
 					),
 				woff = woff()
 				)

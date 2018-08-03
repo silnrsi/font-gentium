@@ -36,7 +36,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-Regular.ufo" name="Gentium Plus Regular" stylemapfamilyname="Gentium Plus" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-Regular.ufo" name="Gentium Plus Regular" stylemapfamilyname="Gentium Plus" stylemapstylename="regular" stylename="Regular" postscriptfontname="GentiumPlus-Regular">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -45,7 +45,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-Regular.ufo" name="Gentium Book Plus Regular" stylemapfamilyname="Gentium Book Plus" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-Regular.ufo" name="Gentium Book Plus Regular" stylemapfamilyname="Gentium Book Plus" stylemapstylename="regular" stylename="Regular" postscriptfontname="GentiumBookPlus-Regular">
             <location>
                 <dimension name="weight" xvalue="500.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -54,7 +54,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-Bold.ufo" name="Gentium Plus Bold" stylemapfamilyname="Gentium Plus" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-Bold.ufo" name="Gentium Plus Bold" stylemapfamilyname="Gentium Plus" stylemapstylename="bold" stylename="Bold" postscriptfontname="GentiumPlus-Bold">
             <location>
                 <dimension name="weight" xvalue="700.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -63,7 +63,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-Bold.ufo" name="Gentium Book Plus Bold" stylemapfamilyname="Gentium Book Plus" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-Bold.ufo" name="Gentium Book Plus Bold" stylemapfamilyname="Gentium Book Plus" stylemapstylename="bold" stylename="Bold"  postscriptfontname="GentiumBookPlus-Bold">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
