@@ -9,6 +9,7 @@ VCS = 'git'
 
 # set the font name, version, licensing and description
 APPNAME="GentiumPlus"
+FAMILYNAME = APPNAME
 DESC_SHORT = "Unicode font for Roman- and Cyrillic-based writing systems"
 DESC_LONG = """
 GentiumPlus is a Unicode font for Roman- and Cyrillic-based writing systems
@@ -19,6 +20,10 @@ used for building, testing and releasing.
 # packaging
 DESC_NAME = "GentiumPlus"
 DEBPKG = 'fonts-sil-gentium'
+
+# Get version and autorship information from Regular UFO; must be first function call:
+getufoinfo('source/masters/' + FAMILYNAME + 'Master' + '-Regular' + '.ufo')
+BUILDLABEL = "alpha"
 
 fontfamily="GentiumPlus"
 for dspace in ('Roman', 'Italic'):
