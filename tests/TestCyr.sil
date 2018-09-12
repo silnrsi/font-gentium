@@ -1,0 +1,102 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[size="14pt"]
+
+%%%%% GROUPS
+
+% Basic Cyr
+\patterngroup[name="cyrbasiccaps"]{АБВГЃҐДЂЕЀЁЄЖЗЅИЍЙІЇЈКЌЛЉМНЊОПРСТЋУЎФХЦЏШЩЪЫЬѢЭЮЯѲѴ№}
+\patterngroup[name="cyrbasiclc"]{абвгѓґдђеѐёєжзѕиѝйіїјкќлљмнњопрстћуўфхцџчшщъыьѣэюяѳѵ}
+
+% Ext Cyr
+\patterngroup[name="cyrextcaps"]{ҊҌҎҐҒҔҖҘҚҜҞҠҢҤҦҨҪҬҮҰҲҴҶҸҺҼҾӀӁӃӅӇӉӋӍӐӒӔӖӘӚӜӞӠӢӤӦӨӪӬӮӰӲӴӶӸӺӼӾԀԂԄԆԈԊԌԎԐԒ}
+\patterngroup[name="cyrextlc"]{ҋҍҏґғҕҗҙқҝҟҡңҥҧҩҫҭүұҳҵҷҹһҽҿӂӄӆӈӊӌӎӏӑӓӕӗәӛӝӟӡӣӥӧөӫӭӯӱӳӵӷӹӻӽӿԁԃԅԇԉԋԍԏԑ}
+
+% General
+\patterngroup[name="numerals"]{1234567890}
+\patterngroup[name="punctuation"]{.,:;!-}
+
+%%%%% TESTS
+
+\section{ALL LETTERS}
+
+\proof[size="28pt"]{АБВГЃҐДЂЕЀЁЄЖЗЅИЍЙІЇЈКЌЛЉМ}
+\proof[size="28pt"]{НЊОПРСТЋУЎФХЦЏШЩЪЫЬѢЭЮЯѲѴ№}
+\proof[size="28pt"]{ҊҌҎҐҒҔҖҘҚҜҞҠҢҤҦҨҪҬҮҰҲҴҶҸҺ}
+\proof[size="28pt"]{ҼҾӀӁӃӅӇӉӋӍӐӒӔӖӘӚӜӞӠӢӤӦ}
+\proof[size="28pt"]{ӨӪӬӮӰӲӴӶӸӺӼӾԀԂԄԆԈԊԌԎԐԒ}
+\proof[size="28pt"]{абвгѓґдђеѐёєжзѕиѝйіїјкќлљм}
+\proof[size="28pt"]{нњопрстћуўфхцџчшщъыьѣэюяѳѵ}
+\proof[size="28pt"]{ҋҍҏґғҕҗҙқҝҟҡңҥҧҩҫҭүұҳҵҷҹһ}
+\proof[size="28pt"]{ҽҿӂӄӆӈӊӌӎӏӑӓӕӗәӛӝӟӡӣӥӧ}
+\proof[size="28pt"]{өӫӭӯӱӳӵӷӹӻӽӿԁԃԅԇԉԋԍԏԑ}
+
+\section{FRAMES}
+
+\subsection{CAP FRAMES}
+\pattern[chars="@",reps="group_cyrbasiccaps",format="list"]{Н@Н@Н@О@Н@О@О}
+\pattern[chars="@",reps="group_cyrextcaps",format="list"]{Н@Н@Н@О@Н@О@О}
+
+\subsection{LC FRAMES}
+\pattern[chars="@",reps="group_cyrbasiclc",format="list"]{н@н@н@о@н@о@о}
+\pattern[chars="@",reps="group_cyrextlc",format="list"]{н@н@н@о@н@о@о}
+
+\subsection{CAP SENTENCE FRAMES - UDHR}
+\pattern[chars="@",reps="group_cyrbasiccaps",format="list"]{ВСЕ ЛЮ@И РОЖ@ДАЮТСЯ СВОБОДНЫ@И И РАВНЫМИ В СВО@ЕМ ДОСТОИ@СТВЕ}
+\pattern[chars="@",reps="group_cyrextcaps",format="list"]{ВСЕ ЛЮ@И РОЖ@ДАЮТСЯ СВОБОДНЫ@И И РАВНЫМИ В СВО@ЕМ ДОСТОИ@СТВЕ}
+
+\subsection{LC SENTENCE FRAMES - UDHR}
+\pattern[chars="@",reps="group_cyrbasiclc",format="list"]{Все лю@и рож@даются свободны@и и равными в сво@ем достои@стве и правах}
+\pattern[chars="@",reps="group_cyrextlc",format="list"]{Все лю@и рож@даются свободны@и и равными в сво@ем достои@стве и правах}
+
+\section{DESIGN GROUPS}
+
+\subsection{BOWLS - check for height and width, and for compensation with overhanging bits}
+\proof[size="28pt"]{ЯРҎҦҔЂБВЬЫЪЉЊѢҌԀԂ яҧҕвьыъљњѣҍ}
+
+\subsection{ROUNDS - check proportions, stroke weights, counters, curve style}
+\proof[size="28pt"]{ФЮОӨѲҨԌСҼӘЄЭԐЅЗԆԄ бԁрҏфюоөѳҩԍсҽеәєэԑѕзԇԅ}
+
+\subsection{WAISTLINES - check for consistency and for generally balance between top and bottom, esp. in lowercase}
+\proof[size="28pt"]{ЖКЯВЕЄЭЗНЮѲ жкявеєэзнюѳ}
+
+\subsection{LINES THROUGH - check weight, length, style, positioning, relationship with diagonals}
+\proof[size="28pt"]{АӔЕҼӘЄЭѲӨЮНԊЊҢҤӇӉӾҰҒӺҸҜҞҌҎ}
+\proof[size="28pt"]{аӕеҽҿәєэѳөюнԋњңҥӈӊӿұғӻҹҝҟђћѣҍ}
+\proof[size="28pt"]{МӍИҊ№ мӎиҋ}
+
+\subsection{VERTICAL PROPORTIONS - space between stems should reduce from left to right}
+\proof[size="28pt"]{МИНПЏЦШЩ минпџцшщ}
+
+\subsection{CAPS VS. LC PROPORTIONS - width difference between round/flat, wide/narrow should be less in lowercase}
+\proof[size="28pt"]{ВОЗН возн}
+
+\subsection{OVERHANGS - check size/length of terminals and appropriate lack of symmetry}
+\proof[size="28pt"]{ТЋЂБГҐЕЪѢ тћђгґъѣ}
+\proof[size="28pt"]{ҐГҒЕҤҠТҴԎЋЂҔБЪѢҌ ґгғҥҡтҵԏҕъѣҍ}
+
+\subsection{DESCENDERS - check size and shape}
+\proof[size="28pt"]{ТЏДЦЩҢҲҖҚԆӶҬҴҶӋ ӅӉӍҊ ҦҔӃӼӇԒӺ}
+\proof[size="28pt"]{тџдцщңҳҗқԇӷҭҵҷӌ ӆӊӎҋ ҧҕӄӽӈԓӻ}
+\proof[size="28pt"]{ҘҪҾӠУ ҙҫҿӡјуүұр}
+
+\subsection{SPECIAL COMBOS - DE/EL, YA/ZHE/KA with roman, ES/IE, 3/ZE}
+\proof[size="28pt"]{ДЛЉ RЯЖКK CЄ 3ЗЅ}
+\proof[size="28pt"]{длљ rяжкk cє 3зѕ}
+
+\subsection{DIACRITICS - check weight, consistency, positioning, esp. the i vs. idieresis}
+\proof[size="28pt"]{ЌЃЀЍ ӒЁӞӸӦӪӬӚӜӤӴЇӰӲ ӐӖӁЙҊЎ ӢӮ}
+\proof[size="28pt"]{ќѓѐѝ ӓёӟӹӧӫӭӛӝӥӵіїјӱӳ ӑӗӂйҋў ӣӯ}
+
+\subsection{TERMINALS - check consistency, weight, style, endings}
+\proof[size="28pt"]{ЛӅЉԈЯЖҖКҚҜҞҠӃ ԒӇӼӺѴЎӠ ӘҼҾԌCҪЄЭЗҘЅԐЕԄԆ}
+\proof[size="28pt"]{лӆљԉяжҗкқҝҟҡӄ ԓӈӽӻѵўӡ әҽҿеԍcҫєэзҙѕԑԅԇ}
+
+\subsection{KOMI TAILS - check consistency, height, space from stem}
+\proof[size="28pt"]{ԂԄԈԊԎԌ ԃԅԉԋԏԍ}
+
+\section{CAPS WITH LC}
+\proof[size="28pt"]{Алина Борис Виктор Галина Дарья Елизавета Жанна Зинаида Иван Кристина Любовь Максим Наталья Оксана Пётр Раиса София Татьяна Ульяна Фёдор Шура Эмма Юрий Ярослав Ђи Єи Ѕи Іи Ји Љи Њи Ћи Хи Ци Џи Щи Ъи Ыи Ьи}
+
+
+\end{document}
