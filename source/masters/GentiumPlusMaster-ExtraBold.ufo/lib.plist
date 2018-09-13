@@ -5,7 +5,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1158</string>
+  <string>1161</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -30,8 +30,6 @@
   <integer>800</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
   <integer>100</integer>
-  <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
-  <true/>
   <key>com.schriftgestaltung.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.fontMasterOrder</key>
@@ -4478,7 +4476,7 @@
     </dict>
   </dict>
   <key>org.sil.glyphsappversion</key>
-  <string>1158</string>
+  <string>1161</string>
   <key>org.sil.lcg.toneLetters</key>
   <dict>
     <key>contourWidth</key>
