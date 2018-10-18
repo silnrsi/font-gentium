@@ -9,7 +9,6 @@ psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/GentiumPlu
 psfsetglyphorder --header sort_final_cdg -i source/glyph_data.csv source/masters/GentiumPlusMaster-Regular.ufo -l source/logs/sortorder.log
 
 # normalize other family members
-psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-Regular.ufo -l source/logs/normR.log
 psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-ExtraBold.ufo -l source/logs/normXB.log
 psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-Italic.ufo -l source/logs/normI.log
 psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo -l source/logs/normXBI.log
