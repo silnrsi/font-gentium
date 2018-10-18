@@ -42,12 +42,12 @@
 \pattern[chars="@",reps="group_cyrextlc",format="list"]{н@н@н@о@н@о@о}
 
 \subsection{CAP SENTENCE FRAMES - UDHR}
-\pattern[chars="@",reps="group_cyrbasiccaps",format="list"]{ВСЕ ЛЮ@И РОЖ@ДАЮТСЯ СВОБОДНЫ@И И РАВНЫМИ В СВО@ЕМ ДОСТОИ@СТВЕ}
-\pattern[chars="@",reps="group_cyrextcaps",format="list"]{ВСЕ ЛЮ@И РОЖ@ДАЮТСЯ СВОБОДНЫ@И И РАВНЫМИ В СВО@ЕМ ДОСТОИ@СТВЕ}
+\pattern[chars="@",reps="group_cyrbasiccaps",format="list"]{ЛЮ@И РОЖ@ДАЮТСЯ СВОБОДНЫ@И И РАВНЫМИ В СВО@ЕМ ДОСТОИ@СТВЕ}
+\pattern[chars="@",reps="group_cyrextcaps",format="list"]{ЛЮ@И РОЖ@ДАЮТСЯ СВОБОДНЫ@И И РАВНЫМИ В СВО@ЕМ ДОСТОИ@СТВЕ}
 
 \subsection{LC SENTENCE FRAMES - UDHR}
-\pattern[chars="@",reps="group_cyrbasiclc",format="list"]{Все лю@и рож@даются свободны@и и равными в сво@ем достои@стве и правах}
-\pattern[chars="@",reps="group_cyrextlc",format="list"]{Все лю@и рож@даются свободны@и и равными в сво@ем достои@стве и правах}
+\pattern[chars="@",reps="group_cyrbasiclc",format="list"]{Лю@и рож@даются свободны@и и равными в сво@ем достои@стве и правах}
+\pattern[chars="@",reps="group_cyrextlc",format="list"]{Лю@и рож@даются свободны@и и равными в сво@ем достои@стве и правах}
 
 \section{DESIGN GROUPS}
 
@@ -57,7 +57,7 @@
 \subsection{ROUNDS - check proportions, stroke weights, counters, curve style}
 \proof[size="28pt"]{ФЮОӨѲҨԌСҼӘЄЭԐЅЗԆԄ бԁрҏфюоөѳҩԍсҽеәєэԑѕзԇԅ}
 
-\subsection{WAISTLINES - check for consistency and for generally balance between top and bottom, esp. in lowercase}
+\subsection{WAISTLINES - check for consistency and for general balance between top and bottom, esp. in lowercase}
 \proof[size="28pt"]{ЖКЯВЕЄЭЗНЮѲ жкявеєэзнюѳ}
 
 \subsection{LINES THROUGH - check weight, length, style, positioning, relationship with diagonals}
