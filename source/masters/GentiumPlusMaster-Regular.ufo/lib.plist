@@ -8,7 +8,10 @@
   <string>1161</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/CySmKa/CyCapKaHook/CySmKaHook/CySmEl/CySmElHook/CySmElMiddleHook/CySmPe/CySmPeMiddleHook/CySmEn/CySmEnHook/CySmEnLftHook/CySmEnMiddleHook/CySmGhe/CySmGheMiddleHook/CySmGheStrk/CySmGheStrkHook/CySmDje</string>
+    <string>/CyCapDje/CyCapEsDesc</string>
+    <string>/CyCapE</string>
+    <string>/CyCapKa/CyCapKje/CyCapKaDesc/CyCapBashkirKa/CyCapKaStrk/CyCapKaVertStrk/CyCapKaHook/CyCapAleutKa 
+/CyCapZhe/CyCapZheBreve/CyCapZheDiaer/CyCapZheDesc</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -4475,8 +4478,6 @@
       <integer>-550</integer>
     </dict>
   </dict>
-  <key>org.sil.glyphsappversion</key>
-  <string>1161</string>
   <key>org.sil.lcg.toneLetters</key>
   <dict>
     <key>contourWidth</key>

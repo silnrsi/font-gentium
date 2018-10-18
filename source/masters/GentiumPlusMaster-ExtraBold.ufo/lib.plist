@@ -9,7 +9,12 @@
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <string/>
+  <array>
+    <string>/CyCapDje/CyCapEsDesc</string>
+    <string>/CyCapE</string>
+    <string>/CyCapKa/CyCapKje/CyCapKaDesc/CyCapBashkirKa/CyCapKaStrk/CyCapKaVertStrk/CyCapKaHook/CyCapAleutKa 
+/CyCapZhe/CyCapZheBreve/CyCapZheDiaer/CyCapZheDesc</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
@@ -4475,8 +4480,6 @@
       <integer>-550</integer>
     </dict>
   </dict>
-  <key>org.sil.glyphsappversion</key>
-  <string>1161</string>
   <key>org.sil.lcg.toneLetters</key>
   <dict>
     <key>contourWidth</key>
