@@ -1,0 +1,4 @@
+#!/bin/sh
+
+psfufo2glyphs source/GentiumPlusRoman.designspace source/masters/GentiumPlusRoman.glyphs
+psfufo2glyphs source/GentiumPlusItalic.designspace source/masters/GentiumPlusItalic.glyphs
