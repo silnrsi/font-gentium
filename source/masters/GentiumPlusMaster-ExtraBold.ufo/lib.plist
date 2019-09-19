@@ -509,7 +509,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1184</string>
+  <string>1265</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -611,25 +611,33 @@
     </dict>
     <key>subscript</key>
     <dict>
+      <key>boldX</key>
+      <integer>20</integer>
+      <key>boldY</key>
+      <integer>10</integer>
       <key>scaleX</key>
-      <real>0.65</real>
+      <real>0.7</real>
       <key>scaleY</key>
       <real>0.6</real>
       <key>shiftX</key>
       <integer>0</integer>
       <key>shiftY</key>
-      <integer>-460</integer>
+      <integer>-200</integer>
     </dict>
     <key>superscript</key>
     <dict>
+      <key>boldX</key>
+      <integer>20</integer>
+      <key>boldY</key>
+      <integer>10</integer>
       <key>scaleX</key>
-      <real>0.65</real>
+      <real>0.7</real>
       <key>scaleY</key>
       <real>0.6</real>
       <key>shiftX</key>
       <integer>0</integer>
       <key>shiftY</key>
-      <integer>785</integer>
+      <integer>620</integer>
     </dict>
     <key>superscriptCaps</key>
     <dict>

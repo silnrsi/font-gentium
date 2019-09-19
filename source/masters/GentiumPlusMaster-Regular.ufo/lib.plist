@@ -509,7 +509,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1184</string>
+  <string>1265</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <string/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -610,9 +610,9 @@
     <key>subscript</key>
     <dict>
       <key>boldX</key>
-      <integer>28</integer>
+      <integer>20</integer>
       <key>boldY</key>
-      <integer>16</integer>
+      <integer>10</integer>
       <key>scaleX</key>
       <real>0.7</real>
       <key>scaleY</key>
@@ -625,9 +625,9 @@
     <key>superscript</key>
     <dict>
       <key>boldX</key>
-      <integer>28</integer>
+      <integer>20</integer>
       <key>boldY</key>
-      <integer>16</integer>
+      <integer>10</integer>
       <key>scaleX</key>
       <real>0.7</real>
       <key>scaleY</key>
