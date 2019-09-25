@@ -601,15 +601,19 @@
     <key>smallcaps</key>
     <dict>
       <key>adjustMetrics</key>
+      <integer>2</integer>
+      <key>manAdjustX</key>
       <integer>10</integer>
-      <key>boldX</key>
-      <integer>7</integer>
-      <key>boldY</key>
-      <integer>9</integer>
+      <key>manAdjustY</key>
+      <integer>14</integer>
       <key>scaleX</key>
-      <real>0.94</real>
+      <real>0.938</real>
       <key>scaleY</key>
-      <real>0.83</real>
+      <real>0.826</real>
+      <key>shiftX</key>
+      <integer>-5</integer>
+      <key>shiftY</key>
+      <integer>0</integer>
     </dict>
     <key>subscript</key>
     <dict>
