@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmJCrossedTail.sc" format="2">
-  <advance width="620"/>
-  <anchor x="330" y="-600" name="L"/>
-  <anchor x="330" y="1370" name="U"/>
+  <advance width="585"/>
+  <anchor x="307" y="-496" name="L"/>
+  <anchor x="307" y="1132" name="U"/>
   <outline>
-    <component base="LtnCapJCrossedTail"/>
+    <contour>
+      <point x="227" y="940" type="curve" smooth="yes"/>
+      <point x="227" y="149" type="line" smooth="yes"/>
+      <point x="227" y="-118"/>
+      <point x="165" y="-197"/>
+      <point x="50" y="-197" type="curve" smooth="yes"/>
+      <point x="0" y="-197"/>
+      <point x="-60" y="-171"/>
+      <point x="-60" y="-118" type="curve" smooth="yes"/>
+      <point x="-60" y="-74"/>
+      <point x="-17" y="-41"/>
+      <point x="61" y="-41" type="curve" smooth="yes"/>
+      <point x="197" y="-41"/>
+      <point x="284" y="-132"/>
+      <point x="470" y="-322" type="curve"/>
+      <point x="522" y="-274" type="line"/>
+      <point x="373" y="-92"/>
+      <point x="231" y="39"/>
+      <point x="65" y="39" type="curve" smooth="yes"/>
+      <point x="-116" y="39"/>
+      <point x="-192" y="-70"/>
+      <point x="-192" y="-140" type="curve" smooth="yes"/>
+      <point x="-192" y="-250"/>
+      <point x="-80" y="-314"/>
+      <point x="15" y="-314" type="curve" smooth="yes"/>
+      <point x="100" y="-314"/>
+      <point x="175" y="-282"/>
+      <point x="238" y="-223" type="curve" smooth="yes"/>
+      <point x="310" y="-157"/>
+      <point x="387" y="-50"/>
+      <point x="387" y="195" type="curve" smooth="yes"/>
+      <point x="387" y="940" type="line" smooth="yes"/>
+      <point x="387" y="956"/>
+      <point x="433" y="976"/>
+      <point x="518" y="991" type="curve"/>
+      <point x="518" y="1041" type="line"/>
+      <point x="49" y="1041" type="line"/>
+      <point x="49" y="991" type="line"/>
+      <point x="199" y="972"/>
+      <point x="227" y="953"/>
+    </contour>
   </outline>
 </glyph>
