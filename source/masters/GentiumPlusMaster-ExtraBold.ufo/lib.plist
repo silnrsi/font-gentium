@@ -1400,22 +1400,14 @@
     <string>LtnSmFHookStrk</string>
     <string>LtnLigSmFSmI</string>
     <string>LtnLigSmFSmI.SItal</string>
-    <string>LtnLigSmFSmI.TailI</string>
-    <string>LtnSmLigFi.TailI</string>
     <string>LtnLigSmFSmL</string>
     <string>LtnLigSmFSmL.SItal</string>
-    <string>LtnLigSmFSmL.TailL</string>
-    <string>LtnSmLigFl.TailL</string>
     <string>LtnLigSmFSmFSmI</string>
     <string>LtnLigSmFSmFSmI.SItal</string>
-    <string>LtnLigSmFSmFSmI.TailI</string>
     <string>LtnSmLigFfi</string>
-    <string>LtnSmLigFfi.TailI</string>
     <string>LtnLigSmFSmFSmL</string>
     <string>LtnLigSmFSmFSmL.SItal</string>
-    <string>LtnLigSmFSmFSmL.TailL</string>
     <string>LtnSmLigFfl</string>
-    <string>LtnSmLigFfl.TailL</string>
     <string>LtnLigSmFSmF</string>
     <string>LtnLigSmFSmF.SItal</string>
     <string>LtnSmLigFf</string>
@@ -4033,149 +4025,6 @@
     <string>GrPsiliPeris.Por</string>
     <string>GrKoronis</string>
     <string>CombGrKoronis</string>
-    <string>LtnSmIOgonek.TailI.RetroHook</string>
-    <string>LtnSmIStrk.TailI</string>
-    <string>LtnSupSmIStrk.TailI</string>
-    <string>LtnSubSmI.Dotless.TailI</string>
-    <string>LtnSupSmI.Dotless.TailI</string>
-    <string>LtnSmIStrk.Dotless.TailI</string>
-    <string>LtnSupSmIStrk.Dotless.TailI</string>
-    <string>LtnSmI.TailI</string>
-    <string>LtnSmDotlessI.TailI</string>
-    <string>LtnSubSmI.TailI</string>
-    <string>LtnSupSmI.TailI</string>
-    <string>CombLtnSmI.TailI</string>
-    <string>LtnSmIAcute.TailI</string>
-    <string>LtnSmIGrave.TailI</string>
-    <string>LtnSmIDblGrave.TailI</string>
-    <string>LtnSmICircum.TailI</string>
-    <string>LtnSmIInvBreve.TailI</string>
-    <string>LtnSmIBreve.TailI</string>
-    <string>LtnSmICaron.TailI</string>
-    <string>LtnSmITilde.TailI</string>
-    <string>LtnSmIMacron.TailI</string>
-    <string>LtnSmIDiaerAcute.TailI</string>
-    <string>LtnSmIDiaer.TailI</string>
-    <string>LtnSmIHookAbv.TailI</string>
-    <string>LtnSmITildeBlw.TailI</string>
-    <string>LtnSmIDotBlw.TailI</string>
-    <string>LtnSmIOgonek.TailI</string>
-    <string>LtnSubSmJ.TopLftSerif</string>
-    <string>LtnSmJ.BarTop</string>
-    <string>LtnSmJCircum.BarTop</string>
-    <string>LtnSmJStrk.BarTop</string>
-    <string>LtnSmJCrossedTail.BarTop</string>
-    <string>ModSmJ.Dotless.TopLftSerif</string>
-    <string>LtnSmJCrossedTail.Dotless.TopLftSerif</string>
-    <string>ModSmJCrossedTail.Dotless.TopLftSerif</string>
-    <string>LtnSmJ.TopLftSerif</string>
-    <string>LtnSmDotlessJ.TopLftSerif</string>
-    <string>ModSmJ.TopLftSerif</string>
-    <string>LtnSmJCircum.TopLftSerif</string>
-    <string>LtnSmJCaron.TopLftSerif</string>
-    <string>LtnSmJStrk.TopLftSerif</string>
-    <string>LtnSupSmDotlessJStrk.TopLftSerif</string>
-    <string>ModSmJCrossedTail.TopLftSerif</string>
-    <string>LtnSmJCrossedTail.TopLftSerif</string>
-    <string>LtnSmDotlessJStrk.TopLftSerif</string>
-    <string>LtnCapJ.BarTop</string>
-    <string>ModCapJ.BarTop</string>
-    <string>LtnSmCapJ.BarTop</string>
-    <string>LtnCapJCircum.BarTop</string>
-    <string>LtnCapJStrk.BarTop</string>
-    <string>LtnCapJCrossedTail.BarTop</string>
-    <string>LtnSubSmL.TailL</string>
-    <string>LtnSmLCaron.Caron.TailL</string>
-    <string>LtnSmLHighBar.TailL</string>
-    <string>LtnSmL.TailL</string>
-    <string>ModSmL.TailL</string>
-    <string>LtnSmLAcute.TailL</string>
-    <string>LtnSmLCircumBlw.TailL</string>
-    <string>LtnSmLLineBlw.TailL</string>
-    <string>LtnSmLDotBlw.TailL</string>
-    <string>LtnSmLDotBlwMacron.TailL</string>
-    <string>LtnSmLCedilla.TailL</string>
-    <string>LtnSmLMiddleDot.TailL</string>
-    <string>LtnSmLCaron.TailL</string>
-    <string>LtnSmLPalHook.TailL</string>
-    <string>ModSmLPalHook.TailL</string>
-    <string>LtnSmLBar.TailL</string>
-    <string>LtnSmDblBarredL.TailL</string>
-    <string>LtnSmLMiddleTilde.TailL</string>
-    <string>LtnSmLStrk.TailL</string>
-    <string>LtnSmLBelt.TailL</string>
-    <string>LtnSmQStrk.Point</string>
-    <string>LtnSmQDiagStrk.Point</string>
-    <string>LtnSmQ.Point</string>
-    <string>LtnSmQHook.Point</string>
-    <string>LtnSmQ.DiagTail</string>
-    <string>LtnCapQStrk.DiagTail</string>
-    <string>LtnCapQDiagStrk.DiagTail</string>
-    <string>LtnCapQ.DiagTail</string>
-    <string>LtnSmQStrk.DiagTail</string>
-    <string>LtnSmQDiagStrk.DiagTail</string>
-    <string>LtnSmCapQ.DiagTail</string>
-    <string>LtnSubSmT.NoTailT</string>
-    <string>LtnSmTCaron.Caron.NoTailT</string>
-    <string>LtnSmT.NoTailT</string>
-    <string>LtnSupSmT.NoTailT</string>
-    <string>CombLtnSmT.NoTailT</string>
-    <string>LtnSmTDiaer.NoTailT</string>
-    <string>LtnSmTDotAbv.NoTailT</string>
-    <string>LtnSmTCircumBlw.NoTailT</string>
-    <string>LtnSmTLineBlw.NoTailT</string>
-    <string>LtnSmTDotBlw.NoTailT</string>
-    <string>LtnSmTCommaBlw.NoTailT</string>
-    <string>LtnSmTCaron.NoTailT</string>
-    <string>LtnSmTCedilla.NoTailT</string>
-    <string>LtnSmTPalHook.NoTailT</string>
-    <string>ModSmTPalHook.NoTailT</string>
-    <string>LtnSmTStrk.NoTailT</string>
-    <string>LtnSmTMiddleTilde.NoTailT</string>
-    <string>LtnSmTDiagStrk.NoTailT</string>
-    <string>LtnSmTHook.NoTailT</string>
-    <string>LtnSmTHStrk.NoTailT</string>
-    <string>LtnSmTcDigraphCurl.NoTailT</string>
-    <string>LtnSmTsDigraph.NoTailT</string>
-    <string>LtnSmTeshDigraph.NoTailT</string>
-    <string>LtnSmTzDigraph.NoTailT</string>
-    <string>LtnSmTurnedT.NoTailT</string>
-    <string>LtnSmY.NoTailY</string>
-    <string>ModSmY.NoTailY</string>
-    <string>LtnSmYAcute.NoTailY</string>
-    <string>LtnSmYGrave.NoTailY</string>
-    <string>LtnSmYCircum.NoTailY</string>
-    <string>LtnSmYTilde.NoTailY</string>
-    <string>LtnSmYMacron.NoTailY</string>
-    <string>LtnSmYDiaer.NoTailY</string>
-    <string>LtnSmYDotAbv.NoTailY</string>
-    <string>LtnSmYRingAbv.NoTailY</string>
-    <string>LtnSmYHookAbv.NoTailY</string>
-    <string>LtnSmYDotBlw.NoTailY</string>
-    <string>LtnSmYStrk.NoTailY</string>
-    <string>LtnSmYHook.NoTailY</string>
-    <string>LtnSmYHook.RtHook.NoTailY</string>
-    <string>LtnSmTurnedY.NoTailY</string>
-    <string>ModSmTurnedY.NoTailY</string>
-    <string>LtnSmTurnedYBelt.NoTailY</string>
-    <string>DigitZero.Slash</string>
-    <string>SubZero.Slash</string>
-    <string>SupZero.Slash</string>
-    <string>DigitOne.NoBase</string>
-    <string>SubOne.NoBase</string>
-    <string>SupOne.NoBase</string>
-    <string>DigitFour.Open</string>
-    <string>SubFour.Open</string>
-    <string>SupFour.Open</string>
-    <string>DigitSix.Diag</string>
-    <string>SubSix.Diag</string>
-    <string>SupSix.Diag</string>
-    <string>DigitSeven.Bar</string>
-    <string>SubSeven.Bar</string>
-    <string>SupSeven.Bar</string>
-    <string>DigitNine.Diag</string>
-    <string>SubNine.Diag</string>
-    <string>SupNine.Diag</string>
     <string>LtnSmA.sc</string>
     <string>CySmA.sc</string>
     <string>LtnSmAAcute.sc</string>
@@ -4501,10 +4350,6 @@
     <string>LtnSmJ.sc</string>
     <string>CySmJe.sc</string>
     <string>LtnSmJCircum.sc</string>
-    <string>LtnSmJ.BarTop.sc</string>
-    <string>LtnSmJCircum.BarTop.sc</string>
-    <string>LtnSmJStrk.BarTop.sc</string>
-    <string>LtnSmJCrossedTail.BarTop.sc</string>
     <string>LtnSmJStrk.sc</string>
     <string>LtnSmJCrossedTail.sc</string>
     <string>LtnSmIs.sc</string>
@@ -4680,9 +4525,6 @@
     <string>LtnSmQStrk.sc</string>
     <string>LtnSmQDiagStrk.sc</string>
     <string>LtnSmQHookTail.sc</string>
-    <string>LtnSmQ.DiagTail.sc</string>
-    <string>LtnSmQStrk.DiagTail.sc</string>
-    <string>LtnSmQDiagStrk.DiagTail.sc</string>
     <string>LtnSmR.sc</string>
     <string>LtnSmRAcute.sc</string>
     <string>LtnSmRDblGrave.sc</string>
@@ -4724,7 +4566,6 @@
     <string>LtnSmEsh.sc</string>
     <string>LtnSmT.sc</string>
     <string>LtnSmTCaron.Caron.sc</string>
-    <string>LtnSmTCaron.Caron.NoTailT.sc</string>
     <string>LtnSmTDotAbv.sc</string>
     <string>LtnSmTCircumBlw.sc</string>
     <string>LtnSmTLineBlw.sc</string>
@@ -4828,7 +4669,6 @@
     <string>LtnSmYStrk.sc</string>
     <string>LtnSmYHook.RtHook.sc</string>
     <string>LtnSmYHook.sc</string>
-    <string>LtnSmYHook.RtHook.NoTailY.sc</string>
     <string>LtnSmYLoop.sc</string>
     <string>CySmStraightU.sc</string>
     <string>CySmStraightUStrk.sc</string>
@@ -5401,8 +5241,6 @@
     <string>uni036A</string>
     <key>CombLtnSmI</key>
     <string>uni0365</string>
-    <key>CombLtnSmI.TailI</key>
-    <string>uni0365.TailI</string>
     <key>CombLtnSmM</key>
     <string>uni036B</string>
     <key>CombLtnSmO</key>
@@ -5415,8 +5253,6 @@
     <string>uniF178</string>
     <key>CombLtnSmT</key>
     <string>uni036D</string>
-    <key>CombLtnSmT.NoTailT</key>
-    <string>uni036D.NoTailT</string>
     <key>CombLtnSmU</key>
     <string>uni0367</string>
     <key>CombLtnSmV</key>
@@ -6455,32 +6291,22 @@
     <string>compDigitFive</string>
     <key>DigitFour</key>
     <string>four</string>
-    <key>DigitFour.Open</key>
-    <string>four.Open</string>
     <key>DigitFour.Sophia</key>
     <string>compDigitFour</string>
     <key>DigitNine</key>
     <string>nine</string>
-    <key>DigitNine.Diag</key>
-    <string>nine.Diag</string>
     <key>DigitNine.Sophia</key>
     <string>compDigitNine</string>
     <key>DigitOne</key>
     <string>one</string>
-    <key>DigitOne.NoBase</key>
-    <string>one.NoBase</string>
     <key>DigitOne.Sophia</key>
     <string>compDigitOne</string>
     <key>DigitSeven</key>
     <string>seven</string>
-    <key>DigitSeven.Bar</key>
-    <string>seven.Bar</string>
     <key>DigitSeven.Sophia</key>
     <string>compDigitSeven</string>
     <key>DigitSix</key>
     <string>six</string>
-    <key>DigitSix.Diag</key>
-    <string>six.Diag</string>
     <key>DigitSix.Sophia</key>
     <string>compDigitSix</string>
     <key>DigitThree</key>
@@ -6493,8 +6319,6 @@
     <string>compDigitTwo</string>
     <key>DigitZero</key>
     <string>zero</string>
-    <key>DigitZero.Slash</key>
-    <string>zero.Slash</string>
     <key>DigitZero.Sophia</key>
     <string>compDigitZero</string>
     <key>DivSgn</key>
@@ -8047,24 +7871,16 @@
     <string>uniA76C</string>
     <key>LtnCapJ</key>
     <string>J</string>
-    <key>LtnCapJ.BarTop</key>
-    <string>J.BarTop</string>
     <key>LtnCapJ.Sophia</key>
     <string>compLtnCapJ</string>
     <key>LtnCapJCircum</key>
     <string>Jcircumflex</string>
-    <key>LtnCapJCircum.BarTop</key>
-    <string>Jcircumflex.BarTop</string>
     <key>LtnCapJCrossedTail</key>
     <string>uniA7B2</string>
-    <key>LtnCapJCrossedTail.BarTop</key>
-    <string>uniA7B2.BarTop</string>
     <key>LtnCapJCrossedTailDep</key>
     <string>uniF26C</string>
     <key>LtnCapJStrk</key>
     <string>uni0248</string>
-    <key>LtnCapJStrk.BarTop</key>
-    <string>uni0248.BarTop</string>
     <key>LtnCapJStrkDep</key>
     <string>uniF261</string>
     <key>LtnCapK</key>
@@ -8337,16 +8153,10 @@
     <string>uniF25C</string>
     <key>LtnCapQ</key>
     <string>Q</string>
-    <key>LtnCapQ.DiagTail</key>
-    <string>Q.DiagTail</string>
     <key>LtnCapQDiagStrk</key>
     <string>uniA758</string>
-    <key>LtnCapQDiagStrk.DiagTail</key>
-    <string>uniA758.DiagTail</string>
     <key>LtnCapQStrk</key>
     <string>uniA756</string>
-    <key>LtnCapQStrk.DiagTail</key>
-    <string>uniA756.DiagTail</string>
     <key>LtnCapR</key>
     <string>R</string>
     <key>LtnCapR.Sophia</key>
@@ -8729,8 +8539,6 @@
     <string>f_f_i.SItal</string>
     <key>LtnLigSmFSmFSmI.SItal.sc</key>
     <string>f_f_i.SItal.sc</string>
-    <key>LtnLigSmFSmFSmI.TailI</key>
-    <string>f_f_i.TailI</string>
     <key>LtnLigSmFSmFSmI.sc</key>
     <string>f_f_i.sc</string>
     <key>LtnLigSmFSmFSmL</key>
@@ -8739,8 +8547,6 @@
     <string>f_f_l.SItal</string>
     <key>LtnLigSmFSmFSmL.SItal.sc</key>
     <string>f_f_l.SItal.sc</string>
-    <key>LtnLigSmFSmFSmL.TailL</key>
-    <string>f_f_l.TailL</string>
     <key>LtnLigSmFSmFSmL.sc</key>
     <string>f_f_l.sc</string>
     <key>LtnLigSmFSmI</key>
@@ -8749,8 +8555,6 @@
     <string>f_i.SItal</string>
     <key>LtnLigSmFSmI.SItal.sc</key>
     <string>f_i.SItal.sc</string>
-    <key>LtnLigSmFSmI.TailI</key>
-    <string>f_i.TailI</string>
     <key>LtnLigSmFSmI.sc</key>
     <string>f_i.sc</string>
     <key>LtnLigSmFSmL</key>
@@ -8759,8 +8563,6 @@
     <string>f_l.SItal</string>
     <key>LtnLigSmFSmL.SItal.sc</key>
     <string>f_l.SItal.sc</string>
-    <key>LtnLigSmFSmL.TailL</key>
-    <string>f_l.TailL</string>
     <key>LtnLigSmFSmL.sc</key>
     <string>f_l.sc</string>
     <key>LtnRetrClick</key>
@@ -9565,8 +9367,6 @@
     <string>uni0281</string>
     <key>LtnSmCapJ</key>
     <string>uni1D0A</string>
-    <key>LtnSmCapJ.BarTop</key>
-    <string>uni1D0A.BarTop</string>
     <key>LtnSmCapK</key>
     <string>uni1D0B</string>
     <key>LtnSmCapL</key>
@@ -9595,8 +9395,6 @@
     <string>uni1D18</string>
     <key>LtnSmCapQ</key>
     <string>uniA7AF</string>
-    <key>LtnSmCapQ.DiagTail</key>
-    <string>uniA7AF.DiagTail</string>
     <key>LtnSmCapR</key>
     <string>uni0280</string>
     <key>LtnSmCapR.sc</key>
@@ -9733,8 +9531,6 @@
     <string>uni018C.sc</string>
     <key>LtnSmDblBarredL</key>
     <string>uni2C61</string>
-    <key>LtnSmDblBarredL.TailL</key>
-    <string>uni2C61.TailL</string>
     <key>LtnSmDblBarredL.sc</key>
     <string>uni2C61.sc</string>
     <key>LtnSmDblBarredLDep</key>
@@ -9747,18 +9543,12 @@
     <string>dotlessi</string>
     <key>LtnSmDotlessI.SItal</key>
     <string>dotlessi.SItal</string>
-    <key>LtnSmDotlessI.TailI</key>
-    <string>dotlessi.TailI</string>
     <key>LtnSmDotlessI.sc</key>
     <string>dotlessi.sc</string>
     <key>LtnSmDotlessJ</key>
     <string>uni0237</string>
-    <key>LtnSmDotlessJ.TopLftSerif</key>
-    <string>uni0237.TopLftSerif</string>
     <key>LtnSmDotlessJStrk</key>
     <string>uni025F</string>
-    <key>LtnSmDotlessJStrk.TopLftSerif</key>
-    <string>uni025F.TopLftSerif</string>
     <key>LtnSmDotlessJStrkHook</key>
     <string>uni0284</string>
     <key>LtnSmDotlessJStrkHook.DblSerif</key>
@@ -10263,8 +10053,6 @@
     <string>i.SItal</string>
     <key>LtnSmI.SItal.LP</key>
     <string>i.SItal.LP</string>
-    <key>LtnSmI.TailI</key>
-    <string>i.TailI</string>
     <key>LtnSmI.sc</key>
     <string>i.sc</string>
     <key>LtnSmIAcute</key>
@@ -10275,16 +10063,12 @@
     <string>iacute.SItal</string>
     <key>LtnSmIAcute.SItal.LP</key>
     <string>iacute.SItal.LP</string>
-    <key>LtnSmIAcute.TailI</key>
-    <string>iacute.TailI</string>
     <key>LtnSmIAcute.sc</key>
     <string>iacute.sc</string>
     <key>LtnSmIBreve</key>
     <string>ibreve</string>
     <key>LtnSmIBreve.SItal</key>
     <string>ibreve.SItal</string>
-    <key>LtnSmIBreve.TailI</key>
-    <string>ibreve.TailI</string>
     <key>LtnSmIBreve.sc</key>
     <string>ibreve.sc</string>
     <key>LtnSmICaron</key>
@@ -10295,8 +10079,6 @@
     <string>uni01D0.SItal</string>
     <key>LtnSmICaron.SItal.LP</key>
     <string>uni01D0.SItal.LP</string>
-    <key>LtnSmICaron.TailI</key>
-    <string>uni01D0.TailI</string>
     <key>LtnSmICaron.sc</key>
     <string>uni01D0.sc</string>
     <key>LtnSmICircum</key>
@@ -10307,16 +10089,12 @@
     <string>icircumflex.SItal</string>
     <key>LtnSmICircum.SItal.LP</key>
     <string>icircumflex.SItal.LP</string>
-    <key>LtnSmICircum.TailI</key>
-    <string>icircumflex.TailI</string>
     <key>LtnSmICircum.sc</key>
     <string>icircumflex.sc</string>
     <key>LtnSmIDblGrave</key>
     <string>uni0209</string>
     <key>LtnSmIDblGrave.SItal</key>
     <string>uni0209.SItal</string>
-    <key>LtnSmIDblGrave.TailI</key>
-    <string>uni0209.TailI</string>
     <key>LtnSmIDblGrave.sc</key>
     <string>uni0209.sc</string>
     <key>LtnSmIDiaer</key>
@@ -10327,8 +10105,6 @@
     <string>idieresis.SItal</string>
     <key>LtnSmIDiaer.SItal.LP</key>
     <string>idieresis.SItal.LP</string>
-    <key>LtnSmIDiaer.TailI</key>
-    <string>idieresis.TailI</string>
     <key>LtnSmIDiaer.sc</key>
     <string>idieresis.sc</string>
     <key>LtnSmIDiaerAcute</key>
@@ -10339,8 +10115,6 @@
     <string>uni1E2F.SItal</string>
     <key>LtnSmIDiaerAcute.SItal.LP</key>
     <string>uni1E2F.SItal.LP</string>
-    <key>LtnSmIDiaerAcute.TailI</key>
-    <string>uni1E2F.TailI</string>
     <key>LtnSmIDiaerAcute.sc</key>
     <string>uni1E2F.sc</string>
     <key>LtnSmIDotAbv</key>
@@ -10361,8 +10135,6 @@
     <string>uni1ECB.SItal</string>
     <key>LtnSmIDotBlw.SItal.LP</key>
     <string>uni1ECB.SItal.LP</string>
-    <key>LtnSmIDotBlw.TailI</key>
-    <string>uni1ECB.TailI</string>
     <key>LtnSmIDotBlw.sc</key>
     <string>uni1ECB.sc</string>
     <key>LtnSmIGrave</key>
@@ -10373,24 +10145,18 @@
     <string>igrave.SItal</string>
     <key>LtnSmIGrave.SItal.LP</key>
     <string>igrave.SItal.LP</string>
-    <key>LtnSmIGrave.TailI</key>
-    <string>igrave.TailI</string>
     <key>LtnSmIGrave.sc</key>
     <string>igrave.sc</string>
     <key>LtnSmIHookAbv</key>
     <string>uni1EC9</string>
     <key>LtnSmIHookAbv.SItal</key>
     <string>uni1EC9.SItal</string>
-    <key>LtnSmIHookAbv.TailI</key>
-    <string>uni1EC9.TailI</string>
     <key>LtnSmIHookAbv.sc</key>
     <string>uni1EC9.sc</string>
     <key>LtnSmIInvBreve</key>
     <string>uni020B</string>
     <key>LtnSmIInvBreve.SItal</key>
     <string>uni020B.SItal</string>
-    <key>LtnSmIInvBreve.TailI</key>
-    <string>uni020B.TailI</string>
     <key>LtnSmIInvBreve.sc</key>
     <string>uni020B.sc</string>
     <key>LtnSmIMacron</key>
@@ -10401,8 +10167,6 @@
     <string>imacron.SItal</string>
     <key>LtnSmIMacron.SItal.LP</key>
     <string>imacron.SItal.LP</string>
-    <key>LtnSmIMacron.TailI</key>
-    <string>imacron.TailI</string>
     <key>LtnSmIMacron.sc</key>
     <string>imacron.sc</string>
     <key>LtnSmIOgonek</key>
@@ -10417,10 +10181,6 @@
     <string>iogonek.RetroHook.LP</string>
     <key>LtnSmIOgonek.RetroHook.sc</key>
     <string>iogonek.RetroHook.sc</string>
-    <key>LtnSmIOgonek.TailI</key>
-    <string>iogonek.TailI</string>
-    <key>LtnSmIOgonek.TailI.RetroHook</key>
-    <string>iogonek.TailI.RetroHook</string>
     <key>LtnSmIOgonek.sc</key>
     <string>iogonek.sc</string>
     <key>LtnSmIRetrHook</key>
@@ -10433,12 +10193,8 @@
     <string>uni0268</string>
     <key>LtnSmIStrk.Dotless</key>
     <string>uni0268.Dotless</string>
-    <key>LtnSmIStrk.Dotless.TailI</key>
-    <string>uni0268.Dotless.TailI</string>
     <key>LtnSmIStrk.LP</key>
     <string>uni0268.LP</string>
-    <key>LtnSmIStrk.TailI</key>
-    <string>uni0268.TailI</string>
     <key>LtnSmIStrk.sc</key>
     <string>uni0268.sc</string>
     <key>LtnSmITilde</key>
@@ -10449,8 +10205,6 @@
     <string>itilde.SItal</string>
     <key>LtnSmITilde.SItal.LP</key>
     <string>itilde.SItal.LP</string>
-    <key>LtnSmITilde.TailI</key>
-    <string>itilde.TailI</string>
     <key>LtnSmITilde.sc</key>
     <string>itilde.sc</string>
     <key>LtnSmITildeBlw</key>
@@ -10461,8 +10215,6 @@
     <string>uni1E2D.SItal</string>
     <key>LtnSmITildeBlw.SItal.LP</key>
     <string>uni1E2D.SItal.LP</string>
-    <key>LtnSmITildeBlw.TailI</key>
-    <string>uni1E2D.TailI</string>
     <key>LtnSmITildeBlw.sc</key>
     <string>uni1E2D.sc</string>
     <key>LtnSmInsularD</key>
@@ -10505,62 +10257,34 @@
     <string>uniA76D.sc</string>
     <key>LtnSmJ</key>
     <string>j</string>
-    <key>LtnSmJ.BarTop</key>
-    <string>j.BarTop</string>
-    <key>LtnSmJ.BarTop.sc</key>
-    <string>j.BarTop.sc</string>
     <key>LtnSmJ.Dotless</key>
     <string>j.Dotless</string>
     <key>LtnSmJ.LP</key>
     <string>j.LP</string>
-    <key>LtnSmJ.TopLftSerif</key>
-    <string>j.TopLftSerif</string>
     <key>LtnSmJ.sc</key>
     <string>j.sc</string>
     <key>LtnSmJCaron</key>
     <string>uni01F0</string>
     <key>LtnSmJCaron.LP</key>
     <string>uni01F0.LP</string>
-    <key>LtnSmJCaron.TopLftSerif</key>
-    <string>uni01F0.TopLftSerif</string>
     <key>LtnSmJCircum</key>
     <string>jcircumflex</string>
-    <key>LtnSmJCircum.BarTop</key>
-    <string>jcircumflex.BarTop</string>
-    <key>LtnSmJCircum.BarTop.sc</key>
-    <string>jcircumflex.BarTop.sc</string>
     <key>LtnSmJCircum.LP</key>
     <string>jcircumflex.LP</string>
-    <key>LtnSmJCircum.TopLftSerif</key>
-    <string>jcircumflex.TopLftSerif</string>
     <key>LtnSmJCircum.sc</key>
     <string>jcircumflex.sc</string>
     <key>LtnSmJCrossedTail</key>
     <string>uni029D</string>
-    <key>LtnSmJCrossedTail.BarTop</key>
-    <string>uni029D.BarTop</string>
-    <key>LtnSmJCrossedTail.BarTop.sc</key>
-    <string>uni029D.BarTop.sc</string>
     <key>LtnSmJCrossedTail.Dotless</key>
     <string>uni029D.Dotless</string>
-    <key>LtnSmJCrossedTail.Dotless.TopLftSerif</key>
-    <string>uni029D.Dotless.TopLftSerif</string>
     <key>LtnSmJCrossedTail.LP</key>
     <string>uni029D.LP</string>
-    <key>LtnSmJCrossedTail.TopLftSerif</key>
-    <string>uni029D.TopLftSerif</string>
     <key>LtnSmJCrossedTail.sc</key>
     <string>uni029D.sc</string>
     <key>LtnSmJStrk</key>
     <string>uni0249</string>
-    <key>LtnSmJStrk.BarTop</key>
-    <string>uni0249.BarTop</string>
-    <key>LtnSmJStrk.BarTop.sc</key>
-    <string>uni0249.BarTop.sc</string>
     <key>LtnSmJStrk.Dotless</key>
     <string>uni0249.Dotless</string>
-    <key>LtnSmJStrk.TopLftSerif</key>
-    <string>uni0249.TopLftSerif</string>
     <key>LtnSmJStrk.sc</key>
     <string>uni0249.sc</string>
     <key>LtnSmJStrkDep</key>
@@ -10625,28 +10349,20 @@
     <string>l</string>
     <key>LtnSmL.SItal</key>
     <string>l.SItal</string>
-    <key>LtnSmL.TailL</key>
-    <string>l.TailL</string>
     <key>LtnSmL.sc</key>
     <string>l.sc</string>
     <key>LtnSmLAcute</key>
     <string>lacute</string>
     <key>LtnSmLAcute.SItal</key>
     <string>lacute.SItal</string>
-    <key>LtnSmLAcute.TailL</key>
-    <string>lacute.TailL</string>
     <key>LtnSmLAcute.sc</key>
     <string>lacute.sc</string>
     <key>LtnSmLBar</key>
     <string>uni019A</string>
-    <key>LtnSmLBar.TailL</key>
-    <string>uni019A.TailL</string>
     <key>LtnSmLBar.sc</key>
     <string>uni019A.sc</string>
     <key>LtnSmLBelt</key>
     <string>uni026C</string>
-    <key>LtnSmLBelt.TailL</key>
-    <string>uni026C.TailL</string>
     <key>LtnSmLBelt.sc</key>
     <string>uni026C.sc</string>
     <key>LtnSmLBrkn</key>
@@ -10657,26 +10373,18 @@
     <string>lcaron</string>
     <key>LtnSmLCaron.Caron</key>
     <string>lcaron.Caron</string>
-    <key>LtnSmLCaron.Caron.TailL</key>
-    <string>lcaron.Caron.TailL</string>
     <key>LtnSmLCaron.Caron.sc</key>
     <string>lcaron.Caron.sc</string>
-    <key>LtnSmLCaron.TailL</key>
-    <string>lcaron.TailL</string>
     <key>LtnSmLCaron.sc</key>
     <string>lcaron.sc</string>
     <key>LtnSmLCedilla</key>
     <string>lcommaaccent</string>
-    <key>LtnSmLCedilla.TailL</key>
-    <string>lcommaaccent.TailL</string>
     <key>LtnSmLCedilla.sc</key>
     <string>lcommaaccent.sc</string>
     <key>LtnSmLCircumBlw</key>
     <string>uni1E3D</string>
     <key>LtnSmLCircumBlw.SItal</key>
     <string>uni1E3D.SItal</string>
-    <key>LtnSmLCircumBlw.TailL</key>
-    <string>uni1E3D.TailL</string>
     <key>LtnSmLCircumBlw.sc</key>
     <string>uni1E3D.sc</string>
     <key>LtnSmLCurl</key>
@@ -10685,24 +10393,18 @@
     <string>uni1E37</string>
     <key>LtnSmLDotBlw.SItal</key>
     <string>uni1E37.SItal</string>
-    <key>LtnSmLDotBlw.TailL</key>
-    <string>uni1E37.TailL</string>
     <key>LtnSmLDotBlw.sc</key>
     <string>uni1E37.sc</string>
     <key>LtnSmLDotBlwMacron</key>
     <string>uni1E39</string>
     <key>LtnSmLDotBlwMacron.SItal</key>
     <string>uni1E39.SItal</string>
-    <key>LtnSmLDotBlwMacron.TailL</key>
-    <string>uni1E39.TailL</string>
     <key>LtnSmLDotBlwMacron.sc</key>
     <string>uni1E39.sc</string>
     <key>LtnSmLHighBar</key>
     <string>uniA749</string>
     <key>LtnSmLHighBar.SItal</key>
     <string>uniA749.SItal</string>
-    <key>LtnSmLHighBar.TailL</key>
-    <string>uniA749.TailL</string>
     <key>LtnSmLHighBar.sc</key>
     <string>uniA749.sc</string>
     <key>LtnSmLLDigraph</key>
@@ -10713,26 +10415,18 @@
     <string>uni1E3B</string>
     <key>LtnSmLLineBlw.SItal</key>
     <string>uni1E3B.SItal</string>
-    <key>LtnSmLLineBlw.TailL</key>
-    <string>uni1E3B.TailL</string>
     <key>LtnSmLLineBlw.sc</key>
     <string>uni1E3B.sc</string>
     <key>LtnSmLMiddleDot</key>
     <string>ldot</string>
-    <key>LtnSmLMiddleDot.TailL</key>
-    <string>ldot.TailL</string>
     <key>LtnSmLMiddleDot.sc</key>
     <string>ldot.sc</string>
     <key>LtnSmLMiddleTilde</key>
     <string>uni026B</string>
-    <key>LtnSmLMiddleTilde.TailL</key>
-    <string>uni026B.TailL</string>
     <key>LtnSmLMiddleTilde.sc</key>
     <string>uni026B.sc</string>
     <key>LtnSmLPalHook</key>
     <string>uni1D85</string>
-    <key>LtnSmLPalHook.TailL</key>
-    <string>uni1D85.TailL</string>
     <key>LtnSmLPalHookDep</key>
     <string>uniF22A</string>
     <key>LtnSmLRetrHook</key>
@@ -10745,8 +10439,6 @@
     <string>uni02AA</string>
     <key>LtnSmLStrk</key>
     <string>lslash</string>
-    <key>LtnSmLStrk.TailL</key>
-    <string>lslash.TailL</string>
     <key>LtnSmLStrk.sc</key>
     <string>lslash.sc</string>
     <key>LtnSmLTrnd</key>
@@ -10765,22 +10457,14 @@
     <string>ffi</string>
     <key>LtnSmLigFfi.LP</key>
     <string>ffi.LP</string>
-    <key>LtnSmLigFfi.TailI</key>
-    <string>ffi.TailI</string>
     <key>LtnSmLigFfl</key>
     <string>ffl</string>
-    <key>LtnSmLigFfl.TailL</key>
-    <string>ffl.TailL</string>
     <key>LtnSmLigFi</key>
     <string>fi</string>
     <key>LtnSmLigFi.LP</key>
     <string>fi.LP</string>
-    <key>LtnSmLigFi.TailI</key>
-    <string>fi.TailI</string>
     <key>LtnSmLigFl</key>
     <string>fl</string>
-    <key>LtnSmLigFl.TailL</key>
-    <string>fl.TailL</string>
     <key>LtnSmLigIj</key>
     <string>ij</string>
     <key>LtnSmLigIj.LP</key>
@@ -11277,28 +10961,14 @@
     <string>uni0278</string>
     <key>LtnSmQ</key>
     <string>q</string>
-    <key>LtnSmQ.DiagTail</key>
-    <string>q.DiagTail</string>
-    <key>LtnSmQ.DiagTail.sc</key>
-    <string>q.DiagTail.sc</string>
-    <key>LtnSmQ.Point</key>
-    <string>q.Point</string>
     <key>LtnSmQ.sc</key>
     <string>q.sc</string>
     <key>LtnSmQDiagStrk</key>
     <string>uniA759</string>
-    <key>LtnSmQDiagStrk.DiagTail</key>
-    <string>uniA759.DiagTail</string>
-    <key>LtnSmQDiagStrk.DiagTail.sc</key>
-    <string>uniA759.DiagTail.sc</string>
-    <key>LtnSmQDiagStrk.Point</key>
-    <string>uniA759.Point</string>
     <key>LtnSmQDiagStrk.sc</key>
     <string>uniA759.sc</string>
     <key>LtnSmQHook</key>
     <string>uni02A0</string>
-    <key>LtnSmQHook.Point</key>
-    <string>uni02A0.Point</string>
     <key>LtnSmQHookTail</key>
     <string>uni024B</string>
     <key>LtnSmQHookTail.sc</key>
@@ -11311,12 +10981,6 @@
     <string>uniF241</string>
     <key>LtnSmQStrk</key>
     <string>uniA757</string>
-    <key>LtnSmQStrk.DiagTail</key>
-    <string>uniA757.DiagTail</string>
-    <key>LtnSmQStrk.DiagTail.sc</key>
-    <string>uniA757.DiagTail.sc</string>
-    <key>LtnSmQStrk.Point</key>
-    <string>uniA757.Point</string>
     <key>LtnSmQStrk.sc</key>
     <string>uniA757.sc</string>
     <key>LtnSmR</key>
@@ -11565,8 +11229,6 @@
     <string>uni0285</string>
     <key>LtnSmT</key>
     <string>t</string>
-    <key>LtnSmT.NoTailT</key>
-    <string>t.NoTailT</string>
     <key>LtnSmT.sc</key>
     <string>t.sc</string>
     <key>LtnSmTCaron</key>
@@ -11575,32 +11237,20 @@
     <string>tcaron.Caron</string>
     <key>LtnSmTCaron.Caron.LP</key>
     <string>tcaron.Caron.LP</string>
-    <key>LtnSmTCaron.Caron.NoTailT</key>
-    <string>tcaron.Caron.NoTailT</string>
-    <key>LtnSmTCaron.Caron.NoTailT.sc</key>
-    <string>tcaron.Caron.NoTailT.sc</string>
     <key>LtnSmTCaron.Caron.sc</key>
     <string>tcaron.Caron.sc</string>
-    <key>LtnSmTCaron.NoTailT</key>
-    <string>tcaron.NoTailT</string>
     <key>LtnSmTCaron.sc</key>
     <string>tcaron.sc</string>
     <key>LtnSmTCedilla</key>
     <string>uni0163</string>
-    <key>LtnSmTCedilla.NoTailT</key>
-    <string>uni0163.NoTailT</string>
     <key>LtnSmTCedilla.sc</key>
     <string>uni0163.sc</string>
     <key>LtnSmTCircumBlw</key>
     <string>uni1E71</string>
-    <key>LtnSmTCircumBlw.NoTailT</key>
-    <string>uni1E71.NoTailT</string>
     <key>LtnSmTCircumBlw.sc</key>
     <string>uni1E71.sc</string>
     <key>LtnSmTCommaBlw</key>
     <string>uni021B</string>
-    <key>LtnSmTCommaBlw.NoTailT</key>
-    <string>uni021B.NoTailT</string>
     <key>LtnSmTCommaBlw.sc</key>
     <string>uni021B.sc</string>
     <key>LtnSmTCurl</key>
@@ -11609,36 +11259,24 @@
     <string>uni1E97</string>
     <key>LtnSmTDiaer.LP</key>
     <string>uni1E97.LP</string>
-    <key>LtnSmTDiaer.NoTailT</key>
-    <string>uni1E97.NoTailT</string>
     <key>LtnSmTDiagStrk</key>
     <string>uni2C66</string>
-    <key>LtnSmTDiagStrk.NoTailT</key>
-    <string>uni2C66.NoTailT</string>
     <key>LtnSmTDiagStrk.sc</key>
     <string>uni2C66.sc</string>
     <key>LtnSmTDotAbv</key>
     <string>uni1E6B</string>
     <key>LtnSmTDotAbv.LP</key>
     <string>uni1E6B.LP</string>
-    <key>LtnSmTDotAbv.NoTailT</key>
-    <string>uni1E6B.NoTailT</string>
     <key>LtnSmTDotAbv.sc</key>
     <string>uni1E6B.sc</string>
     <key>LtnSmTDotBlw</key>
     <string>uni1E6D</string>
-    <key>LtnSmTDotBlw.NoTailT</key>
-    <string>uni1E6D.NoTailT</string>
     <key>LtnSmTDotBlw.sc</key>
     <string>uni1E6D.sc</string>
     <key>LtnSmTHStrk</key>
     <string>uni1D7A</string>
-    <key>LtnSmTHStrk.NoTailT</key>
-    <string>uni1D7A.NoTailT</string>
     <key>LtnSmTHook</key>
     <string>uni01AD</string>
-    <key>LtnSmTHook.NoTailT</key>
-    <string>uni01AD.NoTailT</string>
     <key>LtnSmTHook.RtHook</key>
     <string>uni01AD.RtHook</string>
     <key>LtnSmTHook.RtHook.sc</key>
@@ -11647,38 +11285,26 @@
     <string>uni01AD.sc</string>
     <key>LtnSmTLineBlw</key>
     <string>uni1E6F</string>
-    <key>LtnSmTLineBlw.NoTailT</key>
-    <string>uni1E6F.NoTailT</string>
     <key>LtnSmTLineBlw.sc</key>
     <string>uni1E6F.sc</string>
     <key>LtnSmTMiddleTilde</key>
     <string>uni1D75</string>
-    <key>LtnSmTMiddleTilde.NoTailT</key>
-    <string>uni1D75.NoTailT</string>
     <key>LtnSmTMiddleTildeDep</key>
     <string>uniF252</string>
     <key>LtnSmTPalHook</key>
     <string>uni01AB</string>
-    <key>LtnSmTPalHook.NoTailT</key>
-    <string>uni01AB.NoTailT</string>
     <key>LtnSmTRetrHook</key>
     <string>uni0288</string>
     <key>LtnSmTRetrHook.sc</key>
     <string>uni0288.sc</string>
     <key>LtnSmTStrk</key>
     <string>tbar</string>
-    <key>LtnSmTStrk.NoTailT</key>
-    <string>tbar.NoTailT</string>
     <key>LtnSmTStrk.sc</key>
     <string>tbar.sc</string>
     <key>LtnSmTcDigraphCurl</key>
     <string>uni02A8</string>
-    <key>LtnSmTcDigraphCurl.NoTailT</key>
-    <string>uni02A8.NoTailT</string>
     <key>LtnSmTeshDigraph</key>
     <string>uni02A7</string>
-    <key>LtnSmTeshDigraph.NoTailT</key>
-    <string>uni02A7.NoTailT</string>
     <key>LtnSmThorn</key>
     <string>thorn</string>
     <key>LtnSmThorn.sc</key>
@@ -11727,8 +11353,6 @@
     <string>uni1D08</string>
     <key>LtnSmTsDigraph</key>
     <string>uni02A6</string>
-    <key>LtnSmTsDigraph.NoTailT</key>
-    <string>uni02A6.NoTailT</string>
     <key>LtnSmTum</key>
     <string>uniA777</string>
     <key>LtnSmTurnedA</key>
@@ -11775,8 +11399,6 @@
     <string>uniF269</string>
     <key>LtnSmTurnedT</key>
     <string>uni0287</string>
-    <key>LtnSmTurnedT.NoTailT</key>
-    <string>uni0287.NoTailT</string>
     <key>LtnSmTurnedT.sc</key>
     <string>uni0287.sc</string>
     <key>LtnSmTurnedV</key>
@@ -11787,16 +11409,10 @@
     <string>uni028D</string>
     <key>LtnSmTurnedY</key>
     <string>uni028E</string>
-    <key>LtnSmTurnedY.NoTailY</key>
-    <string>uni028E.NoTailY</string>
     <key>LtnSmTurnedYBelt</key>
     <string>uniF267</string>
-    <key>LtnSmTurnedYBelt.NoTailY</key>
-    <string>uniF267.NoTailY</string>
     <key>LtnSmTzDigraph</key>
     <string>uniA729</string>
-    <key>LtnSmTzDigraph.NoTailT</key>
-    <string>uniA729.NoTailT</string>
     <key>LtnSmTzDigraph.sc</key>
     <string>uniA729.sc</string>
     <key>LtnSmU</key>
@@ -12117,74 +11733,52 @@
     <string>uniF232</string>
     <key>LtnSmY</key>
     <string>y</string>
-    <key>LtnSmY.NoTailY</key>
-    <string>y.NoTailY</string>
     <key>LtnSmY.sc</key>
     <string>y.sc</string>
     <key>LtnSmYAcute</key>
     <string>yacute</string>
     <key>LtnSmYAcute.LP</key>
     <string>yacute.LP</string>
-    <key>LtnSmYAcute.NoTailY</key>
-    <string>yacute.NoTailY</string>
     <key>LtnSmYAcute.sc</key>
     <string>yacute.sc</string>
     <key>LtnSmYCircum</key>
     <string>ycircumflex</string>
     <key>LtnSmYCircum.LP</key>
     <string>ycircumflex.LP</string>
-    <key>LtnSmYCircum.NoTailY</key>
-    <string>ycircumflex.NoTailY</string>
     <key>LtnSmYCircum.sc</key>
     <string>ycircumflex.sc</string>
     <key>LtnSmYDiaer</key>
     <string>ydieresis</string>
     <key>LtnSmYDiaer.LP</key>
     <string>ydieresis.LP</string>
-    <key>LtnSmYDiaer.NoTailY</key>
-    <string>ydieresis.NoTailY</string>
     <key>LtnSmYDiaer.sc</key>
     <string>ydieresis.sc</string>
     <key>LtnSmYDotAbv</key>
     <string>uni1E8F</string>
     <key>LtnSmYDotAbv.LP</key>
     <string>uni1E8F.LP</string>
-    <key>LtnSmYDotAbv.NoTailY</key>
-    <string>uni1E8F.NoTailY</string>
     <key>LtnSmYDotAbv.sc</key>
     <string>uni1E8F.sc</string>
     <key>LtnSmYDotBlw</key>
     <string>uni1EF5</string>
-    <key>LtnSmYDotBlw.NoTailY</key>
-    <string>uni1EF5.NoTailY</string>
     <key>LtnSmYDotBlw.sc</key>
     <string>uni1EF5.sc</string>
     <key>LtnSmYGrave</key>
     <string>ygrave</string>
     <key>LtnSmYGrave.LP</key>
     <string>ygrave.LP</string>
-    <key>LtnSmYGrave.NoTailY</key>
-    <string>ygrave.NoTailY</string>
     <key>LtnSmYGrave.sc</key>
     <string>ygrave.sc</string>
     <key>LtnSmYHook</key>
     <string>uni01B4</string>
-    <key>LtnSmYHook.NoTailY</key>
-    <string>uni01B4.NoTailY</string>
     <key>LtnSmYHook.RtHook</key>
     <string>uni01B4.RtHook</string>
-    <key>LtnSmYHook.RtHook.NoTailY</key>
-    <string>uni01B4.RtHook.NoTailY</string>
-    <key>LtnSmYHook.RtHook.NoTailY.sc</key>
-    <string>uni01B4.RtHook.NoTailY.sc</string>
     <key>LtnSmYHook.RtHook.sc</key>
     <string>uni01B4.RtHook.sc</string>
     <key>LtnSmYHook.sc</key>
     <string>uni01B4.sc</string>
     <key>LtnSmYHookAbv</key>
     <string>uni1EF7</string>
-    <key>LtnSmYHookAbv.NoTailY</key>
-    <string>uni1EF7.NoTailY</string>
     <key>LtnSmYHookAbv.sc</key>
     <string>uni1EF7.sc</string>
     <key>LtnSmYLoop</key>
@@ -12195,18 +11789,12 @@
     <string>uni0233</string>
     <key>LtnSmYMacron.LP</key>
     <string>uni0233.LP</string>
-    <key>LtnSmYMacron.NoTailY</key>
-    <string>uni0233.NoTailY</string>
     <key>LtnSmYMacron.sc</key>
     <string>uni0233.sc</string>
     <key>LtnSmYRingAbv</key>
     <string>uni1E99</string>
-    <key>LtnSmYRingAbv.NoTailY</key>
-    <string>uni1E99.NoTailY</string>
     <key>LtnSmYStrk</key>
     <string>uni024F</string>
-    <key>LtnSmYStrk.NoTailY</key>
-    <string>uni024F.NoTailY</string>
     <key>LtnSmYStrk.sc</key>
     <string>uni024F.sc</string>
     <key>LtnSmYStrkDep</key>
@@ -12215,8 +11803,6 @@
     <string>uni1EF9</string>
     <key>LtnSmYTilde.LP</key>
     <string>uni1EF9.LP</string>
-    <key>LtnSmYTilde.NoTailY</key>
-    <string>uni1EF9.NoTailY</string>
     <key>LtnSmYTilde.sc</key>
     <string>uni1EF9.sc</string>
     <key>LtnSmYogh</key>
@@ -12329,24 +11915,16 @@
     <string>uni1D62</string>
     <key>LtnSubSmI.Dotless</key>
     <string>uni1D62.Dotless</string>
-    <key>LtnSubSmI.Dotless.TailI</key>
-    <string>uni1D62.Dotless.TailI</string>
-    <key>LtnSubSmI.TailI</key>
-    <string>uni1D62.TailI</string>
     <key>LtnSubSmJ</key>
     <string>uni2C7C</string>
     <key>LtnSubSmJ.Dotless</key>
     <string>uni2C7C.Dotless</string>
-    <key>LtnSubSmJ.TopLftSerif</key>
-    <string>uni2C7C.TopLftSerif</string>
     <key>LtnSubSmK</key>
     <string>uni2096</string>
     <key>LtnSubSmL</key>
     <string>uni2097</string>
     <key>LtnSubSmL.SItal</key>
     <string>uni2097.SItal</string>
-    <key>LtnSubSmL.TailL</key>
-    <string>uni2097.TailL</string>
     <key>LtnSubSmM</key>
     <string>uni2098</string>
     <key>LtnSubSmN</key>
@@ -12363,8 +11941,6 @@
     <string>uni2094</string>
     <key>LtnSubSmT</key>
     <string>uni209C</string>
-    <key>LtnSubSmT.NoTailT</key>
-    <string>uni209C.NoTailT</string>
     <key>LtnSubSmU</key>
     <string>uni1D64</string>
     <key>LtnSubSmV</key>
@@ -12403,8 +11979,6 @@
     <string>uni1D48</string>
     <key>LtnSupSmDotlessJStrk</key>
     <string>uni1DA1</string>
-    <key>LtnSupSmDotlessJStrk.TopLftSerif</key>
-    <string>uni1DA1.TopLftSerif</string>
     <key>LtnSupSmDotlessJStrkDep</key>
     <string>uniF1A9</string>
     <key>LtnSupSmE</key>
@@ -12433,18 +12007,10 @@
     <string>uni2071</string>
     <key>LtnSupSmI.Dotless</key>
     <string>uni2071.Dotless</string>
-    <key>LtnSupSmI.Dotless.TailI</key>
-    <string>uni2071.Dotless.TailI</string>
-    <key>LtnSupSmI.TailI</key>
-    <string>uni2071.TailI</string>
     <key>LtnSupSmIStrk</key>
     <string>uni1DA4</string>
     <key>LtnSupSmIStrk.Dotless</key>
     <string>uni1DA4.Dotless</string>
-    <key>LtnSupSmIStrk.Dotless.TailI</key>
-    <string>uni1DA4.Dotless.TailI</string>
-    <key>LtnSupSmIStrk.TailI</key>
-    <string>uni1DA4.TailI</string>
     <key>LtnSupSmIStrkDep</key>
     <string>uniF1A7</string>
     <key>LtnSupSmK</key>
@@ -12495,8 +12061,6 @@
     <string>uniF1A6</string>
     <key>LtnSupSmT</key>
     <string>uni1D57</string>
-    <key>LtnSupSmT.NoTailT</key>
-    <string>uni1D57.NoTailT</string>
     <key>LtnSupSmTurnedA</key>
     <string>uni1D44</string>
     <key>LtnSupSmTurnedAlpha</key>
@@ -12645,8 +12209,6 @@
     <string>uni1D35</string>
     <key>ModCapJ</key>
     <string>uni1D36</string>
-    <key>ModCapJ.BarTop</key>
-    <string>uni1D36.BarTop</string>
     <key>ModCapK</key>
     <string>uni1D37</string>
     <key>ModCapL</key>
@@ -12885,30 +12447,18 @@
     <string>uni02B2</string>
     <key>ModSmJ.Dotless</key>
     <string>uni02B2.Dotless</string>
-    <key>ModSmJ.Dotless.TopLftSerif</key>
-    <string>uni02B2.Dotless.TopLftSerif</string>
-    <key>ModSmJ.TopLftSerif</key>
-    <string>uni02B2.TopLftSerif</string>
     <key>ModSmJCrossedTail</key>
     <string>uni1DA8</string>
     <key>ModSmJCrossedTail.Dotless</key>
     <string>uni1DA8.Dotless</string>
-    <key>ModSmJCrossedTail.Dotless.TopLftSerif</key>
-    <string>uni1DA8.Dotless.TopLftSerif</string>
-    <key>ModSmJCrossedTail.TopLftSerif</key>
-    <string>uni1DA8.TopLftSerif</string>
     <key>ModSmJCrossedTailDep</key>
     <string>uniF1BD</string>
     <key>ModSmL</key>
     <string>uni02E1</string>
-    <key>ModSmL.TailL</key>
-    <string>uni02E1.TailL</string>
     <key>ModSmLMiddleTilde</key>
     <string>uniAB5E</string>
     <key>ModSmLPalHook</key>
     <string>uni1DAA</string>
-    <key>ModSmLPalHook.TailL</key>
-    <string>uni1DAA.TailL</string>
     <key>ModSmLPalHookDep</key>
     <string>uniF1BE</string>
     <key>ModSmMHook</key>
@@ -12937,8 +12487,6 @@
     <string>uni1D59</string>
     <key>ModSmTPalHook</key>
     <string>uni1DB5</string>
-    <key>ModSmTPalHook.NoTailT</key>
-    <string>uni1DB5.NoTailT</string>
     <key>ModSmTPalHookDep</key>
     <string>uniF1C5</string>
     <key>ModSmTheta</key>
@@ -12963,8 +12511,6 @@
     <string>uniF1BB</string>
     <key>ModSmTurnedY</key>
     <string>uniF1CE</string>
-    <key>ModSmTurnedY.NoTailY</key>
-    <string>uniF1CE.NoTailY</string>
     <key>ModSmVHook</key>
     <string>uni1DB9</string>
     <key>ModSmVHook.StraightLft</key>
@@ -12979,8 +12525,6 @@
     <string>uni02E3</string>
     <key>ModSmY</key>
     <string>uni02B8</string>
-    <key>ModSmY.NoTailY</key>
-    <string>uni02B8.NoTailY</string>
     <key>ModSmZRetrHook</key>
     <string>uni1DBC</string>
     <key>ModSmZRetrHookDep</key>
@@ -13357,40 +12901,28 @@
     <string>uni2085</string>
     <key>SubFour</key>
     <string>uni2084</string>
-    <key>SubFour.Open</key>
-    <string>uni2084.Open</string>
     <key>SubLftParen</key>
     <string>uni208D</string>
     <key>SubMinus</key>
     <string>uni208B</string>
     <key>SubNine</key>
     <string>uni2089</string>
-    <key>SubNine.Diag</key>
-    <string>uni2089.Diag</string>
     <key>SubOne</key>
     <string>uni2081</string>
-    <key>SubOne.NoBase</key>
-    <string>uni2081.NoBase</string>
     <key>SubPlusSgn</key>
     <string>uni208A</string>
     <key>SubRtParen</key>
     <string>uni208E</string>
     <key>SubSeven</key>
     <string>uni2087</string>
-    <key>SubSeven.Bar</key>
-    <string>uni2087.Bar</string>
     <key>SubSix</key>
     <string>uni2086</string>
-    <key>SubSix.Diag</key>
-    <string>uni2086.Diag</string>
     <key>SubThree</key>
     <string>uni2083</string>
     <key>SubTwo</key>
     <string>uni2082</string>
     <key>SubZero</key>
     <string>uni2080</string>
-    <key>SubZero.Slash</key>
-    <string>uni2080.Slash</string>
     <key>SubsetOf</key>
     <string>uni2282</string>
     <key>SubsetOfEqTo</key>
@@ -13403,40 +12935,28 @@
     <string>uni2075</string>
     <key>SupFour</key>
     <string>uni2074</string>
-    <key>SupFour.Open</key>
-    <string>uni2074.Open</string>
     <key>SupLftParen</key>
     <string>uni207D</string>
     <key>SupMinus</key>
     <string>uni207B</string>
     <key>SupNine</key>
     <string>uni2079</string>
-    <key>SupNine.Diag</key>
-    <string>uni2079.Diag</string>
     <key>SupOne</key>
     <string>onesuperior</string>
-    <key>SupOne.NoBase</key>
-    <string>onesuperior.NoBase</string>
     <key>SupPlusSgn</key>
     <string>uni207A</string>
     <key>SupRtParen</key>
     <string>uni207E</string>
     <key>SupSeven</key>
     <string>uni2077</string>
-    <key>SupSeven.Bar</key>
-    <string>uni2077.Bar</string>
     <key>SupSix</key>
     <string>uni2076</string>
-    <key>SupSix.Diag</key>
-    <string>uni2076.Diag</string>
     <key>SupThree</key>
     <string>threesuperior</string>
     <key>SupTwo</key>
     <string>twosuperior</string>
     <key>SupZero</key>
     <string>uni2070</string>
-    <key>SupZero.Slash</key>
-    <string>uni2070.Slash</string>
     <key>SupersetOf</key>
     <string>uni2283</string>
     <key>SupersetOfEqTo</key>

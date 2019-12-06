@@ -1,26 +1,34 @@
 #!/bin/sh
 
-# Produce individual UFOs from Glyphs files
-psfglyphs2ufo --nofea source/masters/GentiumPlusRoman.glyphs source/masters -l source/logs/glyphsexportR.log &
-psfglyphs2ufo --nofea source/masters/GentiumPlusItalic.glyphs source/masters -l source/logs/glyphsexportI.log &
+echo "-----Updating UFOs from Glyphs file..."
+psfglyphs2ufo --nofea source/masters/GentiumPlusRoman.glyphs source/masters  &
+psfglyphs2ufo --nofea source/masters/GentiumPlusItalic.glyphs source/masters &
 wait
 
-# update psnames and sort order in Regular, which also normalizes it
-psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/GentiumPlusMaster-Regular.ufo -l source/logs/psnames.log
-psfsetglyphorder --header sort_final_cdg -i source/glyph_data.csv source/masters/GentiumPlusMaster-Regular.ufo -l source/logs/sortorder.log
+echo "-----Normalizing Regular UFO..."
+echo "-----Updating production names in Regular..."
+psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/GentiumPlusMaster-Regular.ufo -x
 
-# normalize other family members
-psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-ExtraBold.ufo -l source/logs/normXB.log &
-psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-Italic.ufo -l source/logs/normI.log &
-psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo -l source/logs/normXBI.log &
+echo "-----Updating glyph orders in Regular..."
+psfsetglyphorder -q --header sort_final_cdg -i source/glyph_data.csv source/masters/GentiumPlusMaster-Regular.ufo -p backup=False -x
+
+echo "-----Normalizing other UFOs..."
+psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-ExtraBold.ufo       &
+psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-Italic.ufo          &
+psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo &
 wait
 
-# copy psnames and glyphorder and any other updates to all fonts
-psfsyncmasters source/GentiumPlusRoman.designspace source/GentiumPlusItalic.designspace -l source/logs/sync.log
+# add building of composites here
 
- # Fix problem with non-spacing marks due to glyphsLib bug
-psfremovegliflibkeys source/masters/GentiumPlusMaster-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixR.log &
-psfremovegliflibkeys source/masters/GentiumPlusMaster-ExtraBold.ufo com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixXB.log &
-psfremovegliflibkeys source/masters/GentiumPlusMaster-Italic.ufo com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixI.log &
-psfremovegliflibkeys source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixXBI.log &
+echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
+psfsyncmasters -q source/GentiumPlusRoman.designspace source/GentiumPlusItalic.designspace
+
+# Fix problem with non-spacing marks due to glyphsLib bug
+echo "-----Fixing width of non-spacing marks..."
+psfremovegliflibkeys -q source/masters/GentiumPlusMaster-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth          &
+psfremovegliflibkeys -q source/masters/GentiumPlusMaster-ExtraBold.ufo com.schriftgestaltung.Glyphs.originalWidth        &
+psfremovegliflibkeys -q source/masters/GentiumPlusMaster-Italic.ufo com.schriftgestaltung.Glyphs.originalWidth           &
+psfremovegliflibkeys -q source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo com.schriftgestaltung.Glyphs.originalWidth  &
 wait
+
+echo "-----Preflight completed!"
