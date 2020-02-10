@@ -25,9 +25,6 @@ DEBPKG = 'fonts-sil-gentium'
 getufoinfo('source/masters/' + FAMILYNAME + 'Master' + '-Regular' + '.ufo')
 BUILDLABEL = "alpha"
 
-# set up the sile tests (using fontproof)
-testCommand('sile', cmd='${SILE} -o "${TGT}" "${SRC[0].abspath()}" -f "${SRC[1]}"', extracmds=['sile'], shapers=0, supports=['.sil'], ext='.pdf')
-
 fontfamily="GentiumPlus"
 for dspace in ('Roman', 'Italic'):
 #for dspace in ('Roman',):
