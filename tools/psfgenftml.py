@@ -7,6 +7,7 @@ __author__ = 'Alan Ward'
 
 from silfont.core import execute
 import silfont.ftml_builder as FB
+from palaso.unicode.ucd import get_ucd
 import re
 from itertools import combinations, chain, product
 
@@ -16,7 +17,6 @@ argspec = [
     ('-i','--input',{'help': 'Glyph info csv file'}, {'type': 'incsv', 'def': 'glyph_data.csv'}),
     ('-f','--fontcode',{'help': 'letter to filter for glyph_data'},{}),
     ('-l','--log',{'help': 'Set log file name'}, {'type': 'outfile', 'def': '_ftml.log'}),
-    ('--rtl', {'help': 'enable right-to-left features', 'action': 'store_true'}, {}),
     ('-t', '--test', {'help': 'which test to build', 'default': None, 'action': 'store'}, {}),
     ('-s','--fontsrc',{'help': 'default font source', 'action': 'append'}, {}),
     ('--scale', {'help': '% to scale rendered text'}, {}),
@@ -212,6 +212,50 @@ class FTMLBuilder_LCG(FB.FTMLBuilder):
             self.allLangs = list(sorted(self.allLangs))
             self.allLangs = list(sorted(self.allLangs))
 
+    def matchMarkBase(self, c_mark, c_base):
+        """ test whether an _AP on c_mark matches an AP on c_base """
+        for apM in c_mark.aps:
+            if apM.startswith("_"):
+                ap = apM[1:]
+                for apB in c_base.aps:
+                    if apB == ap:
+                        return True
+        return False
+
+#    def render(self, uids, ftml, keyUID=0, descSimple=False):
+    def render(self, uids, ftml, keyUID=0, descUIDs=None):
+        """ general purpose (but not required) function to generate ftml for a character sequence """
+        if len(uids) == 0:
+            return
+        # Make a copy so we don't affect caller
+        uids = list(uids)
+        # Remember first uid and original length for later
+        startUID = uids[0]
+        uidLen = len(uids)
+        # if keyUID wasn't supplied, use startUID
+        if keyUID == 0: keyUID = startUID
+        # Construct label from uids:
+        if not descUIDs:
+            descUIDs = uids
+        label = '\n'.join(['U+{0:04X}'.format(u) for u in descUIDs])
+        # Construct comment from glyph names:
+        comment = ' '.join([self._charFromUID[u].basename for u in descUIDs])
+        if get_ucd(startUID, 'gc') == 'Mn':
+            # First char is a NSM... prefix a suitable base
+            uids.insert(0, self.diacBase)
+        elif get_ucd(startUID, 'WSpace'):
+            # First char is whitespace -- prefix with baseline brackets:
+            uids.insert(0, 0xF130)
+        lastNonMark = [x for x in uids if get_ucd(x, 'gc') != 'Mn'][-1]
+        if get_ucd(lastNonMark, 'WSpace'):
+            # Last non-mark is whitespace -- append baseline brackets:
+            uids.append(0xF131)
+        s = ''.join([chr(uid) for uid in uids])
+        if uidLen > 1:
+            ftml.addToTest(keyUID, s, label=label, comment=comment)
+        else:
+            ftml.addToTest(keyUID, s, comment=comment)
+
 def doit(args):
     logger = args.logger
 
@@ -221,6 +265,18 @@ def doit(args):
     test = args.test or "AllChars"  # Default to "AllChars"
     ftml = FB.FTML(test, logger, rendercheck = True, fontscale = args.scale, xslfn = args.xsl, fontsrc = args.fontsrc)
 
+    # Representative base and diac chars:
+    repDiac = [x for x in [0x0327, 0x0316, 0x0328, 0x0315, 0x0300] if x in builder.uids()]
+    ap_type_uid = {}
+    for diac_uid in repDiac:
+        c = builder.char(diac_uid)
+        for ap in c.aps:
+            if ap.startswith("_"):
+                ap_type_uid[ap[1:]] = diac_uid
+
+    # A E H O a e i o
+    repBase = [x for x in [0x0041, 0x0045, 0x0048, 0x004F, 0x0061, 0x0065, 0x0069, 0x006F] if x in builder.uids()]
+
     if test.lower().startswith("allchars"):
         # all chars that should be in the font:
         ftml.startTestGroup('Encoded characters')
@@ -228,15 +284,7 @@ def doit(args):
             if uid < 32: continue
             c = builder.char(uid)
             builder.render((uid,), ftml)
-            # use Features test instead
-            # iterate over all permutations of feature settings that might affect this character:
-            #  This would take much space in the Latin fonts. Outputting variants could be an option?
-            #   Is it better to output all chars affected by a feature(s) in one place?
-            # for featlist in builder.permuteFeatures(uids = (uid,)):
-            #     ftml.setFeatures(featlist)
-            #     builder.render((uid,), ftml)
-            #     # Don't close test -- collect consecutive encoded chars in a single row
-            # ftml.clearFeatures()
+            ftml.closeTest()
             for langID in sorted(c.langs):
                 ftml.setLang(langID)
                 builder.render((uid,), ftml)
@@ -247,22 +295,21 @@ def doit(args):
         for gname in sorted(builder.specials()):
             special = builder.special(gname)
             builder.render(special.uids, ftml)
-            # use Features test instead
-            # iterate over all permutations of feature settings that might affect this special
-            # for featlist in builder.permuteFeatures(uids = special.uids):
-            #     ftml.setFeatures(featlist)
-            #     builder.render(special.uids, ftml)
-            #     # close test so each special is on its own row:
-            #     ftml.closeTest()
-            # ftml.clearFeatures()
+            ftml.closeTest()
             if len(special.langs):
                 for langID in sorted(special.langs):
                     ftml.setLang(langID)
                     builder.render(special.uids, ftml)
-                    ftml.closeTest()
                 ftml.clearLang()
 
     if test.lower().startswith("features"):
+        # support for adding a diac after each char that is being tested
+        # tests include: feature, feature_U, feature_L, feature_O, feature_H, feature_R
+        ap_type = None
+        ix = test.find("_")
+        if ix != -1:
+            ap_type = test[ix + 1:]
+
         ftml.startTestGroup('Features from glyph_data')
 
         # build map from features (and all combinations) to the uids that are affected by a feature
@@ -278,8 +325,8 @@ def doit(args):
                 except KeyError: feats_to_uid[feat_set] = [uid]
 
         # create tests for all uids affected by a feature, organized by features
-        feats_sort = {}
-        for feat_set in feats_to_uid.keys(): # sort based on number of features in combo
+        feats_sort = {} # sort based on number of features in combo
+        for feat_set in feats_to_uid.keys():
             cnt = len(feat_set.split(" "))
             try: feats_sort[cnt].append(feat_set)
             except: feats_sort[cnt] = [feat_set]
@@ -287,39 +334,101 @@ def doit(args):
         for i in sorted(feats_sort.keys()):
             feat_set_lst = sorted(feats_sort[i]) # list of feat combos where number in combo is i
             for feat_set in feat_set_lst: # one feat combo
+                if feat_set == "smcp":
+                    continue # skip smcp test (but not interaction of smcp with other features); see "smcp" test
                 ftml.startTestGroup(f'{feat_set}')
+
                 uid_lst = sorted(feats_to_uid[feat_set]) # list of uids to test against feat combo
                 i = 0
                 uidlst_lst = []
-                while i < len(uid_lst): # break uids into groups of 16
-                    uidlst_lst.append(uid_lst[i:i + 16])
-                    i += 16
+                uidlst_ct = 16 if not ap_type else 8
+                while i < len(uid_lst): # break uids into groups
+                    uidlst_lst.append(uid_lst[i:i + uidlst_ct])
+                    i += uidlst_ct
+
                 feats = feat_set.split(" ") # separate feat combo into feats
                 tvlist_lst = []
                 for feat in feats:
                     tvlist = builder.features[feat].tvlist[1:] # all values of feats except default
                     tvlist_lst.append(tvlist) # build list of list of all value for each feat
-                p = product(*tvlist_lst) # find all combo of all values, MUST flatten the list of lists
-                ftml.clearFeatures()
-                if feat_set != "smcp": # render all uids without feat setting except for 'smcp'
-                    for uidlst in uidlst_lst:
-                        builder.render(uidlst, ftml)
-                else:
-                        builder.render([ord(a) for a in u'lower case dropped'], ftml)
-                for tv_lst in p: # for one list of values out of all lists of values
-                    ftml.setFeatures(tv_lst)
-                    for uidlst in uidlst_lst:
-                        builder.render(uidlst, ftml)
-            ftml.closeTest()
+                p_lst = list(product(*tvlist_lst)) # find all combo of all values, MUST flatten the list of lists
+
+                for uidlst in uidlst_lst:
+                    base_diac_lst, base_lst = [], []
+                    if not ap_type:
+                        base_diac_lst, base_lst = uidlst, uidlst
+                    else:
+                        try: ap_uid = ap_type_uid[ap_type]
+                        except KeyError: logger.log("Invalid AP type: %s" % ap_type, "S")
+                        for uid in uidlst:
+                            c_base, c_mark = builder.char(uid), builder.char(ap_uid)
+                            if builder.matchMarkBase(c_mark, c_base):
+                                base_lst.append(uid)
+                                base_diac_lst.extend((uid, ap_uid))
+                    ftml.clearFeatures()
+                    builder.render(base_diac_lst, ftml, descUIDs=base_lst) # render all uids without feat setting
+                    for tv_lst in p_lst: # for one list of values out of all lists of values
+                        ftml.setFeatures(tv_lst)
+                        builder.render(base_diac_lst, ftml, descUIDs=base_lst)
+
+    if test.lower().startswith("smcp"):
+        # Example of what report needs to show: LtnSmEgAlef LtnSmEgAlef.sc LtnCapEgAlef
+        pass
+        # support for adding a diac after each char that is being tested
+        # tests include: smcp, smcp_U, etc
+        ap_type = None
+        ix = test.find("_")
+        if ix != -1:
+            ap_type = test[ix + 1:]
+
+        ftml.startTestGroup('Small caps from glyph_data')
+
+        smcp_uid_lst = []
+        for uid in builder.uids():
+            c = builder.char(uid)
+            if 'smcp' in c.feats:
+                smcp_uid_lst.append(uid)
+        smcp_uid_lst.sort()
+
+        uidlst_lst = []
+        uidlst_ct = 16 if not ap_type else 8
+        i = 0
+        while i < len(smcp_uid_lst):  # break uids into groups
+            uidlst_lst.append(smcp_uid_lst[i:i + uidlst_ct])
+            i += uidlst_ct
+
+        for uidlst in uidlst_lst:
+            base_diac_lst, base_lst = [], []
+            if not ap_type:
+                base_diac_lst, base_lst = uidlst, uidlst
+            else:
+                try: ap_uid = ap_type_uid[ap_type]
+                except KeyError:
+                    logger.log("Invalid AP type: %s" % ap_type, "S")
+                for uid in uidlst:
+                    c_base, c_mark = builder.char(uid), builder.char(ap_uid)
+                    if builder.matchMarkBase(c_mark, c_base):
+                        base_lst.append(uid)
+                        base_diac_lst.extend((uid, ap_uid))
+            ftml.clearFeatures()
+            builder.render(base_diac_lst, ftml, descUIDs=base_lst)  # render all uids without feat setting
+            ftml.setFeatures(builder.features['smcp'].tvlist[1:])
+            builder.render(base_diac_lst, ftml, descUIDs=base_lst)
+            ftml.clearFeatures()
+
+            # add uppercase uids to test
+            # TODO: may need a better way to convert lower to upper
+            upper_base_diac_lst, upper_base_lst = [], []
+            for lower_uid in base_diac_lst:
+                try: upper_base_diac_lst.append(ord(chr(lower_uid).upper()))
+                except: upper_base_diac_lst.append(ord('X'))
+            for lower_uid in base_lst:
+                try: upper_base_lst.append(ord(chr(lower_uid).upper()))
+                except: upper_base_lst.append(ord('X'))
+            builder.render(upper_base_diac_lst, ftml, descUIDs=upper_base_lst)
 
     if test.lower().startswith("diac"):
         # Diac attachment:
-
-        # Representative base and diac chars:
-        repDiac = [x for x in [0x0327, 0x0316, 0x0328, 0x0315, 0x0300] if x in builder.uids()]
-        # A E H O a e i o
-        repBase = [x for x in [0x0041, 0x0045, 0x0048, 0x004F, 0x0061, 0x0065, 0x0069, 0x006F ] if x in builder.uids()]
-
         ftml.startTestGroup('Representative diacritics on all bases that take diacritics')
         for uid in sorted(builder.uids()):
             # adjust for Latin
@@ -330,7 +439,12 @@ def doit(args):
             # Always process Lo, but others only if that take marks:
             if c.general == 'Lo' or c.isBase:
                 for diac in repDiac:
-                    builder.render((uid, diac), ftml, addBreaks = False)
+                    c_mark = builder.char(diac)
+                    if builder.matchMarkBase(c_mark, c):
+                        builder.render((uid, diac), ftml, keyUID=uid, descUIDs=[uid])
+                    else:
+                        # TODO: possibly output 'X' to mark place where mismatches occur
+                        pass
                     # for featlist in builder.permuteFeatures(uids = (uid,diac)):
                     #     ftml.setFeatures(featlist)
                     #     # Don't automatically separate connecting or mirrored forms into separate lines:
@@ -346,7 +460,11 @@ def doit(args):
             c = builder.char(uid)
             if c.general == 'Mn':
                 for base in repBase:
-                    builder.render((base, uid), ftml, keyUID=uid, addBreaks=False)
+                    c_base = builder.char(base)
+                    if builder.matchMarkBase(c, c_base):
+                        builder.render((base, uid), ftml, keyUID=uid, descUIDs=[uid])
+                    else: # TODO: possibly output 'X' to mark place where mismatches occur
+                        pass
                     # for featlist in builder.permuteFeatures(uids = (uid,base)):
                     #     ftml.setFeatures(featlist)
                     #     builder.render((base,uid), ftml, keyUID = uid, addBreaks = False)
