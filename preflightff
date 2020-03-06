@@ -13,7 +13,11 @@ psfsetpsnames -q -p checkfix=fix -i source/glyph_data.csv source/masters/Gentium
 echo "-----Updating glyph orders in Regular..."
 psfsetglyphorder -q --header sort_final_cdg -i source/glyph_data.csv source/masters/GentiumPlusMaster-Regular.ufo -p backup=False -x
 
-# add building of composites here
+echo "-----Rebuilding composites..."
+psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlusMaster-Regular.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlusMaster-ExtraBold.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlusMaster-Italic.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo -p backup=False
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters -q source/GentiumPlusRoman.designspace source/GentiumPlusItalic.designspace

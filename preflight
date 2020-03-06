@@ -13,7 +13,11 @@ psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-Italic.ufo        
 psfnormalize -p checkfix=fix source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo  &
 wait
 
-# add building of composites here
+echo "-----Rebuilding composites..."
+psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlusMaster-Regular.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlusMaster-ExtraBold.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlusMaster-Italic.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo -p backup=False
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters -q source/GentiumPlusRoman.designspace source/GentiumPlusItalic.designspace
