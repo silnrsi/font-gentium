@@ -6,7 +6,12 @@
   <anchor x="795" y="7" name="O"/>
   <anchor x="760" y="1836" name="U"/>
   <outline>
-    <component base="LtnSmA.sc"/>
-    <component base="CombBreveHook.VN" xOffset="1008" yOffset="103"/>
+    <component base="LtnSmABreveHookAbv.VN.sc"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

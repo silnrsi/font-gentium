@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CySmIGrave" format="2">
-  <advance width="1195"/>
+  <advance width="1285"/>
   <unicode hex="045D"/>
-  <anchor x="597" y="-100" name="L"/>
-  <anchor x="597" y="1410" name="U"/>
+  <anchor x="643" y="-100" name="L"/>
+  <anchor x="643" y="1410" name="U"/>
   <outline>
     <component base="CySmI"/>
-    <component base="CombGrave" xOffset="1063"/>
+    <component base="CombGrave" xOffset="1109"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

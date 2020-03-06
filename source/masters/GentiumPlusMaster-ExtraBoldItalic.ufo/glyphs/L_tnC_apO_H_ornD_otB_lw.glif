@@ -5,8 +5,13 @@
   <anchor x="476" y="-600" name="L"/>
   <anchor x="729" y="1320" name="U"/>
   <outline>
-    <component base="LtnCapO"/>
-    <component base="CombHorn" xOffset="1110" yOffset="380"/>
+    <component base="LtnCapOHorn"/>
     <component base="CombDotBlw" xOffset="1080"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

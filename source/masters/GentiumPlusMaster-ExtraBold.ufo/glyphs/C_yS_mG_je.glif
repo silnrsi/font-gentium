@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CySmGje" format="2">
-  <advance width="848"/>
+  <advance width="918"/>
   <unicode hex="0453"/>
-  <anchor x="441" y="-100" name="L"/>
-  <anchor x="351" y="1440" name="U"/>
+  <anchor x="352" y="-100" name="L"/>
+  <anchor x="413" y="1440" name="U"/>
   <outline>
     <component base="CySmGhe"/>
-    <component base="CombAcute" xOffset="981"/>
+    <component base="CombAcute" xOffset="1043"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

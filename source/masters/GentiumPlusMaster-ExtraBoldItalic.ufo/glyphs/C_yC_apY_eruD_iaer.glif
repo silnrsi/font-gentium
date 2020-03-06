@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CyCapYeruDiaer" format="2">
-  <advance width="1377"/>
+  <advance width="1555"/>
   <unicode hex="04F8"/>
-  <anchor x="626" y="-100" name="L"/>
-  <anchor x="874" y="1640" name="U"/>
+  <anchor x="726" y="-100" name="L"/>
+  <anchor x="974" y="1640" name="U"/>
   <outline>
     <component base="CyCapYeru"/>
-    <component base="CombDiaer.LP" xOffset="1218" yOffset="320"/>
+    <component base="CombDiaer.LP" xOffset="1318" yOffset="320"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

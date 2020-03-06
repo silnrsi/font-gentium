@@ -2,8 +2,12 @@
 <glyph name="LtnLigSmFSmFSmI" format="2">
   <advance width="1829"/>
   <outline>
-    <component base="LtnSmF"/>
-    <component base="LtnSmF" xOffset="637"/>
-    <component base="LtnSmI" xOffset="1274"/>
+    <component base="LtnSmLigFfi"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

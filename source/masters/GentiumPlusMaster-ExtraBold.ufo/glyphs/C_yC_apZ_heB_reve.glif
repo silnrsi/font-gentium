@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CyCapZheBreve" format="2">
-  <advance width="1760"/>
+  <advance width="1990"/>
   <unicode hex="04C1"/>
-  <anchor x="868" y="-100" name="L"/>
-  <anchor x="868" y="1805" name="U"/>
+  <anchor x="991" y="-100" name="L"/>
+  <anchor x="991" y="1805" name="U"/>
   <outline>
     <component base="CyCapZhe"/>
-    <component base="CombBreve.CyShortMrkAlt.UCHt" xOffset="1498"/>
+    <component base="CombBreve.CyShortMrkAlt.UCHt" xOffset="1621"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

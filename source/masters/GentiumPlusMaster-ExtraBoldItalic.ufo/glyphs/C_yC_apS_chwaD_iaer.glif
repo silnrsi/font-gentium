@@ -2,10 +2,16 @@
 <glyph name="CyCapSchwaDiaer" format="2">
   <advance width="1206"/>
   <unicode hex="04DA"/>
-  <anchor x="405" y="-100" name="L"/>
-  <anchor x="643" y="1640" name="U"/>
+  <anchor x="485" y="-100" name="L"/>
+  <anchor x="783" y="1640" name="U"/>
   <outline>
     <component base="LtnCapSchwa"/>
-    <component base="CombDiaer.LP" xOffset="987" yOffset="320"/>
+    <component base="CombDiaer.LP" xOffset="1127" yOffset="320"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CyCapUDiaer" format="2">
-  <advance width="1240"/>
+  <advance width="1270"/>
   <unicode hex="04F0"/>
   <anchor x="650" y="-100" name="L"/>
   <anchor x="650" y="1690" name="U"/>
@@ -8,4 +8,10 @@
     <component base="CyCapU"/>
     <component base="CombDiaer.LP" xOffset="1198" yOffset="320"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

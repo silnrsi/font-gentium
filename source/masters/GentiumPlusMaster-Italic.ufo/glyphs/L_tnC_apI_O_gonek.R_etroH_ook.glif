@@ -8,6 +8,12 @@
   <anchor x="406" y="1320" name="U"/>
   <outline>
     <component base="LtnCapI"/>
-    <component base="Ogonek.RetroHook" xOffset="359"/>
+    <component base="CombOgonek.RetroHook" xOffset="359"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

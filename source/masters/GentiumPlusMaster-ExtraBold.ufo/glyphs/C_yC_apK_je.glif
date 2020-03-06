@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CyCapKje" format="2">
-  <advance width="1220"/>
+  <advance width="1370"/>
   <unicode hex="040C"/>
-  <anchor x="640" y="-100" name="L"/>
-  <anchor x="640" y="1690" name="U"/>
+  <anchor x="740" y="-100" name="L"/>
+  <anchor x="740" y="1690" name="U"/>
   <outline>
     <component base="CyCapKa"/>
-    <component base="CombAcute.LP" xOffset="1216" yOffset="320"/>
+    <component base="CombAcute.LP" xOffset="1316" yOffset="320"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

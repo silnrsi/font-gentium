@@ -12,4 +12,10 @@
     <component base="CombTilde" xOffset="1050"/>
     <component base="CombAcute" xOffset="1078" yOffset="360"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,9 +2,15 @@
 <glyph name="CyCapSchwa" format="2">
   <advance width="1206"/>
   <unicode hex="04D8"/>
-  <anchor x="405" y="-100" name="L"/>
-  <anchor x="599" y="1320" name="U"/>
+  <anchor x="485" y="-100" name="L"/>
+  <anchor x="739" y="1320" name="U"/>
   <outline>
     <component base="LtnCapSchwa"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

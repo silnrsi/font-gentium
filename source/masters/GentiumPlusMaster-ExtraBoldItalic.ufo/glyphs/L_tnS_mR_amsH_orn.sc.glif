@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmRamsHorn.sc" format="2">
-  <advance width="1367"/>
-  <anchor x="725" y="-100" name="L"/>
-  <anchor x="921" y="1320" name="U"/>
+  <advance width="1041"/>
+  <anchor x="461" y="-76" name="L"/>
+  <anchor x="644" y="1103" name="U"/>
   <outline>
-    <component base="LtnCapYHook"/>
+    <component base="LtnSmGamma.sc"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

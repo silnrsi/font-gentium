@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CySmUMacron" format="2">
-  <advance width="1030"/>
+  <advance width="1080"/>
   <unicode hex="04EF"/>
-  <anchor x="770" y="-100" name="L"/>
-  <anchor x="550" y="1410" name="U"/>
+  <anchor x="800" y="-100" name="L"/>
+  <anchor x="580" y="1410" name="U"/>
   <outline>
     <component base="CySmU"/>
-    <component base="CombMacron" xOffset="1108"/>
+    <component base="CombMacron" xOffset="1138"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
