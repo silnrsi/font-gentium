@@ -24,4 +24,5 @@ In order to modify the Graphite tables in this font:
     ttftable -delete graphite old-font-with-Graphite-tables.ttf  new-font-without-Graphite-tables.ttf 
 * Run:
     grcompiler -d -v2 -n2048 -w3521 -w510 font.gdl ttf-file-with-Graphite-tables-stripped.ttf output-ttf.ttf
-    
+          
+Further detail of features is available in the file /source/opentype/featureinfo.xlsx
