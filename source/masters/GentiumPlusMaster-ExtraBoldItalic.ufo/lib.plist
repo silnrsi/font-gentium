@@ -509,9 +509,13 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1306</string>
+  <string>1286</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra Italic</string>
+  <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
+  <array>
+    <string>/LtnSmCapK/LtnSmCapY/LtnSmCapO/LtnSmCapOu/LtnSmCapO/LtnSmCapS/LtnSmCapO/LtnSmCapC/LtnSmCapN</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
