@@ -17,8 +17,8 @@ argspec = [
     ('-i','--input',{'help': 'Glyph info csv file'}, {'type': 'incsv', 'def': 'glyph_data.csv'}),
     ('-f','--fontcode',{'help': 'letter to filter for glyph_data'},{}),
     ('-l','--log',{'help': 'Set log file name'}, {'type': 'outfile', 'def': '_ftml.log'}),
-    ('-t', '--test', {'help': 'which test to build', 'default': None, 'action': 'store'}, {}),
-    ('-s','--fontsrc',{'help': 'default font source', 'action': 'append'}, {}),
+    ('-t','--test', {'help': 'which test to build', 'default': None, 'action': 'store'}, {}),
+    ('-s','--fontsrc', {'help': 'default font source optionally followed by "=label"', 'action': 'append'}, {}),
     ('--scale', {'help': '% to scale rendered text'}, {}),
     ('--ap', {'help': 'regular expression describing APs to examine', 'default': '.', 'action': 'store'}, {}),
     ('--xsl', {'help': 'XSL stylesheet to use'}, {}),
@@ -153,7 +153,7 @@ class FTMLBuilder_LCG(FB.FTMLBuilder):
                 assoc_uid = uidList[0]
                 try:
                     c = self.char(assoc_uid)
-                    c.checkAPs(gname, font, self.apRE)
+                    # c.checkAPs(gname, font, self.apRE)
                 except:
                     self._csvWarning('associated USV %04X for glyph %s matches no encoded glyph' % (assoc_uid, gname))
                     c = None
@@ -204,8 +204,22 @@ class FTMLBuilder_LCG(FB.FTMLBuilder):
 
         # set default values for features where the default is non-zero
         if fontcode == 'A':
-            self.features['litr'].default = 1
-        self.features['Y_hk'].default = 1
+            self.features['ss01'].default = 1
+        self.features['cv68'].default = 1
+
+        # add features that are not present in glyph_data.csv
+        # ss01 - lit; ss02 - lita; ss03 - litg
+        self.features.setdefault('ss02', FB.Feature('ss02'))
+        self.features.setdefault('ss03', FB.Feature('ss03'))
+        for uid in self.uids():
+            c = self.char(uid)
+            if "ss01" in c.feats:
+                if re.search("SmA", c.basename):
+                    c.feats.add("ss02")
+                elif re.search("SmG", c.basename):
+                    c.feats.add("ss03")
+                else:
+                    self.logger.log('Glyph with "ss01" found without "SmA" or "SmG"', "W")
 
         # We're finally done, but if allLangs is a set, let's order it (for lack of anything better) and make a list:
         if not self._langsComplete:
@@ -263,10 +277,27 @@ def doit(args):
 
     # Initialize FTML document:
     test = args.test or "AllChars"  # Default to "AllChars"
-    ftml = FB.FTML(test, logger, rendercheck = True, fontscale = args.scale, xslfn = args.xsl, fontsrc = args.fontsrc)
+
+    # split labels from fontsource parameter
+    fontsrc_lst, fontlabel_lst = [], []
+    for sl in args.fontsrc:
+        try:
+            s, l = sl.split('=', 1)
+            fontsrc_lst.append(s)
+            fontlabel_lst.append(l)
+        except ValueError:
+            fontsrc_lst.append(sl)
+            fontlabel_lst.append(None)
+
+    ftml = FB.FTML(test, logger, rendercheck = False, fontscale = args.scale, xslfn = args.xsl,
+                   fontsrc = fontsrc_lst, fontlabel = fontlabel_lst)
+
+    # Char to use in allframed test to surround other chars for checking spacing
+    frame_uid = 0x006F
 
     # Representative base and diac chars:
-    repDiac = [x for x in [0x0327, 0x0316, 0x0328, 0x0315, 0x0300] if x in builder.uids()]
+    #  cedilla (H), vertical line below (L), ogonek (O), comma abov right (R), vertical line above (U)
+    repDiac = [x for x in [0x0327, 0x0329, 0x0328, 0x0315, 0x030D] if x in builder.uids()]
     ap_type_uid = {}
     for diac_uid in repDiac:
         c = builder.char(diac_uid)
@@ -277,29 +308,50 @@ def doit(args):
     # A E H O a e i o
     repBase = [x for x in [0x0041, 0x0045, 0x0048, 0x004F, 0x0061, 0x0065, 0x0069, 0x006F] if x in builder.uids()]
 
-    if test.lower().startswith("allchars"):
+    if test.lower().startswith("allchars") or test.lower().startswith("allframed"):
         # all chars that should be in the font:
+        framed = test.lower().startswith("allframed")
+        uids = special_uids = None
+
         ftml.startTestGroup('Encoded characters')
         for uid in sorted(builder.uids()):
             if uid < 32: continue
             c = builder.char(uid)
-            builder.render((uid,), ftml)
+            if not framed:
+                builder.render((uid,), ftml)
+            else: # TODO: is there a cleaner way to create uids? (also see special_uids creation below)
+                uids = [frame_uid]
+                uids.extend((uid,)) # used extend() instead of append() to be parallel to special_uids
+                uids.append(frame_uid)
+                builder.render(uids, ftml, keyUID=uid, descUIDs=(uid,))
             ftml.closeTest()
             for langID in sorted(c.langs):
                 ftml.setLang(langID)
-                builder.render((uid,), ftml)
+                if not framed:
+                    builder.render((uid,), ftml)
+                else:
+                    builder.render(uids, ftml, keyUID=uid, descUIDs=(uid,))
             ftml.clearLang()
 
         # Add unencoded specials and ligatures -- i.e., things with a sequence of USVs in the glyph_data:
         ftml.startTestGroup('Specials & ligatures from glyph_data')
         for gname in sorted(builder.specials()):
             special = builder.special(gname)
-            builder.render(special.uids, ftml)
+            if not framed:
+                builder.render(special.uids, ftml)
+            else:
+                special_uids = [frame_uid]
+                special_uids.extend(special.uids)
+                special_uids.append(frame_uid)
+                builder.render(special_uids, ftml, keyUID=special.uids[0], descUIDs=(special.uids))
             ftml.closeTest()
             if len(special.langs):
                 for langID in sorted(special.langs):
                     ftml.setLang(langID)
-                    builder.render(special.uids, ftml)
+                    if not framed:
+                        builder.render(special.uids, ftml)
+                    else:
+                        builder.render(special_uids, ftml, keyUID=special.uids[0], descUIDs=(special.uids))
                 ftml.clearLang()
 
     if test.lower().startswith("features"):
@@ -372,10 +424,13 @@ def doit(args):
                         builder.render(base_diac_lst, ftml, descUIDs=base_lst)
 
     if test.lower().startswith("smcp"):
+        # TODO: improve test for "c2sc" ?
         # Example of what report needs to show: LtnSmEgAlef LtnSmEgAlef.sc LtnCapEgAlef
-        pass
-        # support for adding a diac after each char that is being tested
+        #  could add "LtnCapEgAlef <with 'c2sc' feature applied>" but commented out below
+
+        # support adding a diac after each char that is being tested
         # tests include: smcp, smcp_U, etc
+
         ap_type = None
         ix = test.find("_")
         if ix != -1:
@@ -426,6 +481,8 @@ def doit(args):
                 try: upper_base_lst.append(ord(chr(lower_uid).upper()))
                 except: upper_base_lst.append(ord('X'))
             builder.render(upper_base_diac_lst, ftml, descUIDs=upper_base_lst)
+            ftml.setFeatures([("c2sc", "1")]) # TODO: kludgy way to add a 'c2sc' test
+            builder.render(upper_base_diac_lst, ftml, descUIDs=upper_base_lst)
 
     if test.lower().startswith("diac"):
         # Diac attachment:
@@ -454,9 +511,6 @@ def doit(args):
 
         ftml.startTestGroup('All diacritics on representative bases')
         for uid in sorted(builder.uids()):
-            # adjust for Latin
-            # ignore non-ABS marks
-            # if uid < 0x600 or uid in range(0xFE00, 0xFE10): continue
             c = builder.char(uid)
             if c.general == 'Mn':
                 for base in repBase:
@@ -471,11 +525,30 @@ def doit(args):
                     # ftml.clearFeatures()
                 ftml.closeTest()
 
-        # TODO: adjust for Latin
-        # ftml.startTestGroup('Special cases')
-        # builder.render((0x064A, 0x065E), ftml)   # Yeh + Fatha should keep dots
-        # builder.render((0x064A, 0x0654), ftml)   # Yeh + Hamza should loose dots
-        # ftml.closeTest()
+        ftml.startTestGroup('Special case - cv79')
+        # cv79 - Kayan grave_acute
+        kayan_diac_lst = [0x0300, 0x0301] # comb_grave, comb_acute
+        kayan_base_lst = ['a', 'e', 'i', 'o', 'n', 'u', 'w', 'y', 'A', 'E', 'I', 'O', 'N', 'U', 'W', 'Y']
+        baselst_lst = [kayan_base_lst[i:i+8] for i in range(0, len(kayan_base_lst), 8)]
+        for base_lst in baselst_lst:
+            ftml.clearFeatures()
+            for base in base_lst:
+                builder.render([ord(base)] + kayan_diac_lst, ftml, keyUID=kayan_diac_lst[0], descUIDs=kayan_diac_lst)
+            ftml.setFeatures([('cv79','1')])
+            for base in base_lst:
+                builder.render([ord(base)] + kayan_diac_lst, ftml, keyUID=kayan_diac_lst[0], descUIDs=kayan_diac_lst)
+        ftml.closeTestGroup()
+
+        # ftml.startTestGroup('Special case - cv75')
+        # ftml.clearFeatures()
+        # # comb_circumflex, comb_acute, space, a, comb_circumflex, comb_acute
+        # builder.render((0x0302, 0x0301, 0x0020, 0x0061, 0x0302, 0x0301), ftml, descUIDs=(0x0302, 0x0301))
+        # # o, comb_circumflex, comb_acute
+        # builder.render((0x006F, 0x0302, 0x0301), ftml, keyUID=0x0302)
+        # ftml.setFeatures([["cv75", "1"]])
+        # builder.render((0x0302, 0x0301, 0x0020, 0x0061, 0x0302, 0x0301), ftml, descUIDs=(0x0302, 0x0301))
+        # builder.render((0x006F, 0x0302, 0x0301), ftml, keyUID=0x0302)
+        # ftml.closeTestGroup()
 
     # Write the output ftml file
     ftml.writeFile(args.output)
