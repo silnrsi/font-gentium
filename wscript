@@ -47,7 +47,7 @@ for dspace in ('Roman', 'Italic'):
                     params = '-e gdlerr-${DS:FILENAME_BASE}.txt',
                     depends = ('source/graphite/features.gdh', 
                         'source/graphite/pitches.gdh', 
-                        'source/graphite/kern.gdh', 
+                        'source/graphite/takes_lowProfile.gdh', 
                         'source/graphite/greek_recompose.gdh', 
                         'source/graphite/stddef.gdh')
                     ),
