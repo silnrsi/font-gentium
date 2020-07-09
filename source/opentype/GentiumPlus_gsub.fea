@@ -453,59 +453,12 @@ lookup sital_sub {
 # Gentium
 lookup srfb_sub {
   lookupflag 0;
-    sub GrSmBeta from [GrSmBeta.Serif ];
-    sub GrSubSmBeta from [GrSubSmBeta.Serif ];
-    sub ModSmBeta from [ModSmBeta.Serif ];
+    sub @cno_Serif by @c_Serif;
 } srfb_sub;
 
 lookup pcx_sub {
   lookupflag 0;
-    sub GrSmAlphaWPeris from [GrSmAlphaWPeris.Por ];
-    sub GrSmAlphaWPerisYpo from [GrSmAlphaWPerisYpo.Por ];
-    sub GrSmAlphaWDasiaPeris from [GrSmAlphaWDasiaPeris.Por ];
-    sub GrSmAlphaWDasiaPerisYpo from [GrSmAlphaWDasiaPerisYpo.Por ];
-    sub GrSmAlphaWPsiliPeris from [GrSmAlphaWPsiliPeris.Por ];
-    sub GrSmAlphaWPsiliPerisYpo from [GrSmAlphaWPsiliPerisYpo.Por ];
-    sub GrCapAlphaWDasiaPeris from [GrCapAlphaWDasiaPeris.Por ];
-    sub GrCapAlphaWDasiaPerisPros from [GrCapAlphaWDasiaPerisPros.Por ];
-    sub GrCapAlphaWPsiliPeris from [GrCapAlphaWPsiliPeris.Por ];
-    sub GrCapAlphaWPsiliPerisPros from [GrCapAlphaWPsiliPerisPros.Por ];
-    sub GrCapEtaWDasiaPeris from [GrCapEtaWDasiaPeris.Por ];
-    sub GrCapEtaWDasiaPerisPros from [GrCapEtaWDasiaPerisPros.Por ];
-    sub GrCapEtaWPsiliPeris from [GrCapEtaWPsiliPeris.Por ];
-    sub GrCapEtaWPsiliPerisPros from [GrCapEtaWPsiliPerisPros.Por ];
-    sub GrSmIotaWPeris from [GrSmIotaWPeris.Por ];
-    sub GrSmIotaWDasiaPeris from [GrSmIotaWDasiaPeris.Por ];
-    sub GrSmIotaWPsiliPeris from [GrSmIotaWPsiliPeris.Por ];
-    sub GrSmIotaWDialPeris from [GrSmIotaWDialPeris.Por ];
-    sub GrCapIotaWDasiaPeris from [GrCapIotaWDasiaPeris.Por ];
-    sub GrCapIotaWPsiliPeris from [GrCapIotaWPsiliPeris.Por ];
-    sub GrSmEtaWPeris from [GrSmEtaWPeris.Por ];
-    sub GrSmEtaWPerisYpo from [GrSmEtaWPerisYpo.Por ];
-    sub GrSmEtaWDasiaPeris from [GrSmEtaWDasiaPeris.Por ];
-    sub GrSmEtaWDasiaPerisYpo from [GrSmEtaWDasiaPerisYpo.Por ];
-    sub GrSmEtaWPsiliPeris from [GrSmEtaWPsiliPeris.Por ];
-    sub GrSmEtaWPsiliPerisYpo from [GrSmEtaWPsiliPerisYpo.Por ];
-    sub GrCapOmegaWDasiaPeris from [GrCapOmegaWDasiaPeris.Por ];
-    sub GrCapOmegaWDasiaPerisPros from [GrCapOmegaWDasiaPerisPros.Por ];
-    sub GrCapOmegaWPsiliPeris from [GrCapOmegaWPsiliPeris.Por ];
-    sub GrCapOmegaWPsiliPerisPros from [GrCapOmegaWPsiliPerisPros.Por ];
-    sub GrSmUpsilonWPeris from [GrSmUpsilonWPeris.Por ];
-    sub GrSmUpsilonWDasiaPeris from [GrSmUpsilonWDasiaPeris.Por ];
-    sub GrSmUpsilonWPsiliPeris from [GrSmUpsilonWPsiliPeris.Por ];
-    sub GrSmUpsilonWDialPeris from [GrSmUpsilonWDialPeris.Por ];
-    sub GrSmOmegaWPeris from [GrSmOmegaWPeris.Por ];
-    sub GrSmOmegaWPerisYpo from [GrSmOmegaWPerisYpo.Por ];
-    sub GrSmOmegaWDasiaPeris from [GrSmOmegaWDasiaPeris.Por ];
-    sub GrSmOmegaWDasiaPerisYpo from [GrSmOmegaWDasiaPerisYpo.Por ];
-    sub GrSmOmegaWPsiliPeris from [GrSmOmegaWPsiliPeris.Por ];
-    sub GrSmOmegaWPsiliPerisYpo from [GrSmOmegaWPsiliPerisYpo.Por ];
-    sub GrCapUpsilonWDasiaPeris from [GrCapUpsilonWDasiaPeris.Por ];
-    sub GrPeris from [GrPeris.Por ];
-    sub CombGrPeris from [CombGrPeris.Por ];
-    sub GrDialPeris from [GrDialPeris.Por ];
-    sub GrDasiaPeris from [GrDasiaPeris.Por ];
-    sub GrPsiliPeris from [GrPsiliPeris.Por ];
+    sub @cno_Por by @c_Por;
 } pcx_sub;
 
 languagesystem DFLT dflt;
