@@ -453,7 +453,9 @@ lookup sital_sub {
 # Gentium
 lookup srfb_sub {
   lookupflag 0;
-    sub @cno_Serif by @c_Serif;
+    sub GrSmBeta from [GrSmBeta.Serif ];
+    sub GrSubSmBeta from [GrSubSmBeta.Serif ];
+    sub ModSmBeta from [ModSmBeta.Serif ];
 } srfb_sub;
 
 lookup pcx_sub {
