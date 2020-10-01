@@ -509,11 +509,27 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1286</string>
-  <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <array>
-    <string>xd/LtnSmTrndInsularG hd/LtnSmTurnedG ho</string>
-  </array>
+  <string>1346</string>
+  <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
+  <dict>
+    <key>XXXX</key>
+    <dict>
+      <key>0</key>
+      <integer>0</integer>
+    </dict>
+    <key>wdth</key>
+    <dict>
+      <key>100</key>
+      <integer>100</integer>
+    </dict>
+    <key>wght</key>
+    <dict>
+      <key>400</key>
+      <integer>400</integer>
+      <key>800</key>
+      <integer>800</integer>
+    </dict>
+  </dict>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
