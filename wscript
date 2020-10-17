@@ -30,8 +30,8 @@ for dspace in ('Roman', 'Italic'):
                     cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${DS:FILE}'])),
                 instances = ['Gentium Plus Regular'] if '--quick' in opts else None,
                 ap = 'source/${DS:FILENAME_BASE}_ap.xml',
-#                classes = 'source/opentype/${DS:FAMILYNAME_NOSPC}_classes.xml', #fails for Book fonts
-                classes = 'source/opentype/{}_classes.xml'.format(familyname),
+#                classes = 'source/${DS:FAMILYNAME_NOSPC}_classes.xml', #fails for Book fonts
+                classes = 'source/{}_classes.xml'.format(familyname),
                 opentype = fea('source/${DS:FILENAME_BASE}.fea',
                     master = 'source/opentype/${DS:FILENAME_BASE}.fea',
                     make_params = omitapps,

@@ -5,7 +5,7 @@
     <fontscale>200</fontscale>
     <fontsrc>url(../results/GentiumPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GRv5">url(../references/v5/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="GRv5">url(../references/v5/GentiumPlus-Italic.ttf)</fontsrc>
+    <fontsrc label="GIv5">url(../references/v5/GentiumPlus-Italic.ttf)</fontsrc>
     <styles>
       <style feats="'c2sc' 1" name="c2sc_1"/>
       <style feats="'smcp' 1" name="smcp_1"/>
@@ -2764,6 +2764,44 @@ U+A7B3" stylename="c2sc_1">
     <test label="U+F327" stylename="c2sc_1">
       <comment>CySmGheStrkDesc</comment>
       <string>\u00F327</string>
+    </test>
+    <test label="U+0066
+U+0069
+U+0020
+U+0066
+U+006C
+U+0020
+U+0066
+U+0066
+U+0069
+U+0020
+U+0066
+U+0066
+U+006C
+U+0020
+U+0066
+U+0066">
+      <comment>LtnSmF LtnSmI Space LtnSmF LtnSmL Space LtnSmF LtnSmF LtnSmI Space LtnSmF LtnSmF LtnSmL Space LtnSmF LtnSmF</comment>
+      <string>fi fl ffi ffl ff</string>
+    </test>
+    <test label="U+0066
+U+0069
+U+0020
+U+0066
+U+006C
+U+0020
+U+0066
+U+0066
+U+0069
+U+0020
+U+0066
+U+0066
+U+006C
+U+0020
+U+0066
+U+0066" stylename="smcp_1">
+      <comment>LtnSmF LtnSmI Space LtnSmF LtnSmL Space LtnSmF LtnSmF LtnSmI Space LtnSmF LtnSmF LtnSmL Space LtnSmF LtnSmF</comment>
+      <string>fi fl ffi ffl ff</string>
     </test>
   </testgroup>
 </ftml>

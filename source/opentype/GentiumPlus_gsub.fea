@@ -86,12 +86,13 @@ lookup ss_sub {
 
 lookup ss_ctx {
   lookupflag 0;
-    sub @c_superscripts' @cno_Sup' lookup ss_sub;
+    sub @c_superscripts @cno_Sup' lookup ss_sub;
 } ss_ctx;
 
 lookup sc1_sub {
   lookupflag 0;
-    sub @cno_sc by @c_sc;
+    # sub @cno_sc by @c_sc;
+    sub @cno_smcp by @c_smcp;
     sub LtnSmRBar by LtnSmRBarredStem.sc;
     sub CySmPalochka by CyPalochka.sc;
     sub LtnSmTurnedE by LtnSmRevE.sc;
@@ -439,7 +440,7 @@ lookup bbwl_sub {
   lookupflag 0;
     # sub @cno_BarBowl by @c_BarBowl; wrongly maps LtnSmG to LtnSmG.BarBowl
     sub @cno_barbowl by @c_barbowl;
-    sub LtnSmGStrk by LtnSmG.BarBowl ;
+    sub LtnSmGStrk by LtnSmG.BarBowl;
     sub LtnSmGStrk.SngBowl by LtnSmG.BarBowl.SngBowl;
     sub LtnSmGStrk.sc by LtnSmG.BarBowl.sc;
     sub LtnSmGStrk.SngBowl.sc by LtnSmG.BarBowl.SngBowl.sc;
@@ -507,10 +508,10 @@ feature aalt {
   feature cv14; #Gentium
   feature cv78; #Gentium
   feature ss01;
-  feature ss02;
-  feature ss03;
   feature ss04;
   feature ss05;
+  feature ss11; #non-Andika
+  feature ss12; #non-Andika
 } aalt;
 
 feature ccmp {
@@ -755,11 +756,6 @@ feature cv43 {
        name 1 0 0 "?";  # Mac English
       };
       
-      ParamUILabelNameID {
-       name 3 1 0x0409 "Large eng with descender";  # English US
-       name 1 0 0 "Large eng with descender";  # Mac English
-      };
-
       ParamUILabelNameID {
        name 3 1 0x0409 "Large eng on baseline";  # English US
        name 1 0 0 "Large eng on baseline";  # Mac English
@@ -1392,21 +1388,21 @@ feature ss01 {
   lookup lit_sub;
 } ss01;
 
-feature ss02 {
+feature ss11 {
   featureNames {
     name 3 1 0x409 "Literacy a alternates";
   };
 
   lookup lita_sub;
-} ss02;
+} ss11;
 
-feature ss03 {
+feature ss12 {
   featureNames {
     name 3 1 0x409 "Literacy g alternates";
   };
 
   lookup litg_sub;
-} ss03;
+} ss12;
 
 feature ss04 {
   featureNames {

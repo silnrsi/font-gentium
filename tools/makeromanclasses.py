@@ -11,12 +11,13 @@ import re
 import silfont.ufo as ufo
 from silfont.core import execute
 
-class_spec_lst = [('lit', 'SngStory', 'SngBowl'),
+class_spec_lst = [('smcp', 'sc'),
+                  ('lit', 'SngStory', 'SngBowl'),
                   ('lita', 'SngStory'),
                   ('litg', 'SngBowl'),
-                  # psfmakefea BarBowl classes wrongly map LtnSmG to LtnSmG.BarBowl
-                  ('barbowl', 'BarBowl'),  
                   ('sital', 'SItal', '2StorySItal'),
+                  # psfmakefea BarBowl classes wrongly map LtnSmG to LtnSmG.BarBowl
+                  ('barbowl', 'BarBowl'),
                   ('viet', 'VN'),
                   ('dotlss', 'Dotless'),
                   ('rtrhk', 'RetroHook'),
@@ -175,9 +176,10 @@ class Font(object):
                 logger.log("class %s from class deletions missing" % cls, 'W')
             for g in g_lst:
                 if g in self.g_classes[cls]:
-                    logger.log("glyph %s from class deletions not present" % g, 'W')
                     l = self.g_classes[cls]
                     del l[l.index(g)]
+                else:
+                    logger.log("glyph %s from class deletions not present" % g, 'W')
 
     def find_variants(self):
         # create single and multiple alternate lkups for aalt (sa_sub, ma_sub)
@@ -231,15 +233,28 @@ class Font(object):
                 o_f.write("    %s\n" % s)
             o_f.write("} sa_sub;\n")
 
-    def write_classes(self, file_nm):
+    def write_classes(self, file_nm, ix=None):
         with open(file_nm, "w") as o_f:
             o_f.write(classes_xml_hd)
             for c, g in self.g_classes.items():
-                o_f.write('\t<class name="{}">\n'.format(c))
+                if ix is not None:
+                    o_f.write('\t<class name="{}" fixed="{}">\n'.format(c, ix))
+                else:
+                    o_f.write('\t<class name="{}">\n'.format(c))
                 glyph_str_lst = [g[i:i + 4] for i in range(0, len(g), 4)]
                 for l in glyph_str_lst:
                     o_f.write("\t\t{}\n".format(" ".join(l)))
                 o_f.write('\t</class>\n')
+            o_f.write(classes_xml_ft)
+
+    def write_fixed_classes(self, file_nm):
+        with open(file_nm, "w") as o_f:
+            o_f.write(classes_xml_hd)
+            for c, g_lst in self.g_classes.items():
+                ix = 0
+                for g in g_lst:
+                    o_f.write('\t<class name="{}[{}]">{}</class>\n'.format(c, ix, g))
+                    ix += 1
             o_f.write(classes_xml_ft)
 
 class Glyph(object):
@@ -262,7 +277,8 @@ def doit(args) :
             font.find_variants()
             font.write_fea(args.output_fea)
         if args.output_xml:
-            font.write_classes(args.output_xml)
+            font.write_classes(args.output_xml, 0)
+            # font.write_fixed_classes(args.output_xml)
         if not args.output_fea and not args.output_xml:
             # TODO: handle output if output not specified
             pass

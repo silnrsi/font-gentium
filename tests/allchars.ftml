@@ -5,7 +5,7 @@
     <fontscale>200</fontscale>
     <fontsrc>url(../results/GentiumPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GRv5">url(../references/v5/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="GRv5">url(../references/v5/GentiumPlus-Italic.ttf)</fontsrc>
+    <fontsrc label="GIv5">url(../references/v5/GentiumPlus-Italic.ttf)</fontsrc>
     <title>allchars</title>
   </head>
   <testgroup label="Encoded characters">
@@ -10977,16 +10977,6 @@ U+0301">
       <string>\u0025CC\u000306\u000301</string>
     </test>
     <test label="U+0306
-U+0301">
-      <comment>CombBreve CombAcute</comment>
-      <string>\u0025CC\u000306\u000301</string>
-    </test>
-    <test label="U+0306
-U+0300">
-      <comment>CombBreve CombGrave</comment>
-      <string>\u0025CC\u000306\u000300</string>
-    </test>
-    <test label="U+0306
 U+0300">
       <comment>CombBreve CombGrave</comment>
       <string>\u0025CC\u000306\u000300</string>
@@ -10995,16 +10985,6 @@ U+0300">
 U+0309">
       <comment>CombBreve CombHookAbv</comment>
       <string>\u0025CC\u000306\u000309</string>
-    </test>
-    <test label="U+0306
-U+0309">
-      <comment>CombBreve CombHookAbv</comment>
-      <string>\u0025CC\u000306\u000309</string>
-    </test>
-    <test label="U+0306
-U+0303">
-      <comment>CombBreve CombTilde</comment>
-      <string>\u0025CC\u000306\u000303</string>
     </test>
     <test label="U+0306
 U+0303">
@@ -11017,16 +10997,6 @@ U+0301">
       <string>\u0025CC\u000302\u000301</string>
     </test>
     <test label="U+0302
-U+0301">
-      <comment>CombCircum CombAcute</comment>
-      <string>\u0025CC\u000302\u000301</string>
-    </test>
-    <test label="U+0302
-U+0300">
-      <comment>CombCircum CombGrave</comment>
-      <string>\u0025CC\u000302\u000300</string>
-    </test>
-    <test label="U+0302
 U+0300">
       <comment>CombCircum CombGrave</comment>
       <string>\u0025CC\u000302\u000300</string>
@@ -11035,16 +11005,6 @@ U+0300">
 U+0309">
       <comment>CombCircum CombHookAbv</comment>
       <string>\u0025CC\u000302\u000309</string>
-    </test>
-    <test label="U+0302
-U+0309">
-      <comment>CombCircum CombHookAbv</comment>
-      <string>\u0025CC\u000302\u000309</string>
-    </test>
-    <test label="U+0302
-U+0303">
-      <comment>CombCircum CombTilde</comment>
-      <string>\u0025CC\u000302\u000303</string>
     </test>
     <test label="U+0302
 U+0303">
@@ -11062,39 +11022,6 @@ U+0066">
       <string>ff</string>
     </test>
     <test label="U+0066
-U+0066">
-      <comment>LtnSmF LtnSmF</comment>
-      <string>ff</string>
-    </test>
-    <test label="U+0066
-U+0066">
-      <comment>LtnSmF LtnSmF</comment>
-      <string>ff</string>
-    </test>
-    <test label="U+0066
-U+0066">
-      <comment>LtnSmF LtnSmF</comment>
-      <string>ff</string>
-    </test>
-    <test label="U+0066
-U+0066
-U+0069">
-      <comment>LtnSmF LtnSmF LtnSmI</comment>
-      <string>ffi</string>
-    </test>
-    <test label="U+0066
-U+0066
-U+0069">
-      <comment>LtnSmF LtnSmF LtnSmI</comment>
-      <string>ffi</string>
-    </test>
-    <test label="U+0066
-U+0066
-U+0069">
-      <comment>LtnSmF LtnSmF LtnSmI</comment>
-      <string>ffi</string>
-    </test>
-    <test label="U+0066
 U+0066
 U+0069">
       <comment>LtnSmF LtnSmF LtnSmI</comment>
@@ -11107,57 +11034,9 @@ U+006C">
       <string>ffl</string>
     </test>
     <test label="U+0066
-U+0066
-U+006C">
-      <comment>LtnSmF LtnSmF LtnSmL</comment>
-      <string>ffl</string>
-    </test>
-    <test label="U+0066
-U+0066
-U+006C">
-      <comment>LtnSmF LtnSmF LtnSmL</comment>
-      <string>ffl</string>
-    </test>
-    <test label="U+0066
-U+0066
-U+006C">
-      <comment>LtnSmF LtnSmF LtnSmL</comment>
-      <string>ffl</string>
-    </test>
-    <test label="U+0066
 U+0069">
       <comment>LtnSmF LtnSmI</comment>
       <string>fi</string>
-    </test>
-    <test label="U+0066
-U+0069">
-      <comment>LtnSmF LtnSmI</comment>
-      <string>fi</string>
-    </test>
-    <test label="U+0066
-U+0069">
-      <comment>LtnSmF LtnSmI</comment>
-      <string>fi</string>
-    </test>
-    <test label="U+0066
-U+0069">
-      <comment>LtnSmF LtnSmI</comment>
-      <string>fi</string>
-    </test>
-    <test label="U+0066
-U+006C">
-      <comment>LtnSmF LtnSmL</comment>
-      <string>fl</string>
-    </test>
-    <test label="U+0066
-U+006C">
-      <comment>LtnSmF LtnSmL</comment>
-      <string>fl</string>
-    </test>
-    <test label="U+0066
-U+006C">
-      <comment>LtnSmF LtnSmL</comment>
-      <string>fl</string>
     </test>
     <test label="U+0066
 U+006C">

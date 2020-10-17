@@ -5,7 +5,7 @@
     <fontscale>200</fontscale>
     <fontsrc>url(../results/GentiumPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GRv5">url(../references/v5/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="GRv5">url(../references/v5/GentiumPlus-Italic.ttf)</fontsrc>
+    <fontsrc label="GIv5">url(../references/v5/GentiumPlus-Italic.ttf)</fontsrc>
     <styles>
       <style feats="'c2sc' 1" name="c2sc_1"/>
       <style feats="'smcp' 1" name="smcp_1"/>
@@ -1588,6 +1588,38 @@ U+A734" stylename="c2sc_1">
     <test label="U+A74E" stylename="c2sc_1">
       <comment>LtnCapOODigraph</comment>
       <string>\u00A74E\u000315</string>
+    </test>
+    <test label="U+0066
+U+0069
+U+0020
+U+0066
+U+006C
+U+0020
+U+0066
+U+0066
+U+0069
+U+0020
+U+0066
+U+0066
+U+006C">
+      <comment>LtnSmF LtnSmI Space LtnSmF LtnSmL Space LtnSmF LtnSmF LtnSmI Space LtnSmF LtnSmF LtnSmL</comment>
+      <string>fi\u000315 fl\u000315 ffi\u000315 ffl\u000315</string>
+    </test>
+    <test label="U+0066
+U+0069
+U+0020
+U+0066
+U+006C
+U+0020
+U+0066
+U+0066
+U+0069
+U+0020
+U+0066
+U+0066
+U+006C" stylename="smcp_1">
+      <comment>LtnSmF LtnSmI Space LtnSmF LtnSmL Space LtnSmF LtnSmF LtnSmI Space LtnSmF LtnSmF LtnSmL</comment>
+      <string>fi\u000315 fl\u000315 ffi\u000315 ffl\u000315</string>
     </test>
   </testgroup>
 </ftml>
