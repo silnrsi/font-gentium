@@ -27,12 +27,4 @@ psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlusMaster-Ext
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters -q source/GentiumPlusRoman.designspace source/GentiumPlusItalic.designspace
 
-# Fix problem with non-spacing marks due to glyphsLib bug
-echo "-----Fixing width of non-spacing marks..."
-psfremovegliflibkeys -q source/masters/GentiumPlusMaster-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth          &
-psfremovegliflibkeys -q source/masters/GentiumPlusMaster-ExtraBold.ufo com.schriftgestaltung.Glyphs.originalWidth        &
-psfremovegliflibkeys -q source/masters/GentiumPlusMaster-Italic.ufo com.schriftgestaltung.Glyphs.originalWidth           &
-psfremovegliflibkeys -q source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo com.schriftgestaltung.Glyphs.originalWidth  &
-wait
-
 echo "-----Preflight completed!"
