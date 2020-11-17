@@ -20,6 +20,6 @@ psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlusMaster-Ita
 psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo -p backup=False
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters -q source/GentiumPlusRoman.designspace source/GentiumPlusItalic.designspace
+psfsyncmasters --complex -q source/GentiumPlusRoman.designspace source/GentiumPlusItalic.designspace
 
 echo "-----Preflight completed!"
