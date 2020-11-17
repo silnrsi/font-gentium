@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmETildeBlw.sc" format="2">
-  <advance width="889"/>
-  <anchor x="386" y="7" name="H"/>
-  <anchor x="304" y="-576" name="L"/>
-  <anchor x="584" y="7" name="O"/>
-  <anchor x="893" y="896" name="R"/>
-  <anchor x="556" y="1103" name="U"/>
+  <advance width="1016"/>
+  <anchor x="449" y="0" name="H"/>
+  <anchor x="367" y="-583" name="L"/>
+  <anchor x="651" y="0" name="O"/>
+  <anchor x="1026" y="885" name="R"/>
+  <anchor x="599" y="1090" name="U"/>
   <outline>
     <component base="LtnSmE.sc"/>
-    <component base="CombTildeBlw" xOffset="912" yOffset="24"/>
+    <component base="CombTildeBlw" xOffset="975" yOffset="17"/>
   </outline>
   <lib>
     <dict>

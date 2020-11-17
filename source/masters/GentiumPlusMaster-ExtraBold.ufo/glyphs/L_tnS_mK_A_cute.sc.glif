@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmKAcute.sc" format="2">
-  <advance width="1113"/>
-  <anchor x="258" y="7" name="H"/>
-  <anchor x="575" y="-76" name="L"/>
-  <anchor x="465" y="1535" name="U"/>
+  <advance width="1271"/>
+  <anchor x="325" y="0" name="H"/>
+  <anchor x="660" y="-83" name="L"/>
+  <anchor x="546" y="1522" name="U"/>
   <outline>
     <component base="LtnSmK.sc"/>
-    <component base="CombAcute" xOffset="1095" yOffset="95"/>
+    <component base="CombAcute" xOffset="1176" yOffset="82"/>
   </outline>
   <lib>
     <dict>

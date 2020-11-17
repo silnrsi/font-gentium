@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmABreveHookAbv.SngStory.sc" format="2">
-  <advance width="1078"/>
-  <anchor x="827" y="7" name="H"/>
-  <anchor x="472" y="-76" name="L"/>
-  <anchor x="795" y="7" name="O"/>
-  <anchor x="742" y="1743" name="U"/>
+  <advance width="1190"/>
+  <anchor x="533" y="0" name="H"/>
+  <anchor x="522" y="-83" name="L"/>
+  <anchor x="852" y="0" name="O"/>
+  <anchor x="773" y="1730" name="U"/>
   <outline>
     <component base="LtnSmA.sc"/>
-    <component base="CombBreve" xOffset="1041" yOffset="103"/>
-    <component base="CombHookAbv" xOffset="1091" yOffset="423"/>
+    <component base="CombBreve" xOffset="1072" yOffset="90"/>
+    <component base="CombHookAbv" xOffset="1122" yOffset="410"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CySmBarredODiaer.sc" format="2">
-  <advance width="1049"/>
-  <anchor x="477" y="-76" name="L"/>
-  <anchor x="711" y="1473" name="U"/>
+  <advance width="1172"/>
+  <anchor x="533" y="-83" name="L"/>
+  <anchor x="749" y="1460" name="U"/>
   <outline>
     <component base="LtnSmOMiddleTilde.sc"/>
-    <component base="CombDiaer" xOffset="1047" yOffset="103"/>
+    <component base="CombDiaer" xOffset="1085" yOffset="90"/>
   </outline>
   <lib>
     <dict>

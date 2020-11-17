@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmNTilde.sc" format="2">
-  <advance width="1165"/>
-  <anchor x="884" y="7" name="H"/>
-  <anchor x="509" y="-76" name="L"/>
-  <anchor x="742" y="1456" name="U"/>
+  <advance width="1251"/>
+  <anchor x="937" y="0" name="H"/>
+  <anchor x="565" y="-83" name="L"/>
+  <anchor x="778" y="1443" name="U"/>
   <outline>
     <component base="LtnSmN.sc"/>
-    <component base="CombTilde" xOffset="1081" yOffset="103"/>
+    <component base="CombTilde" xOffset="1117" yOffset="90"/>
   </outline>
   <lib>
     <dict>

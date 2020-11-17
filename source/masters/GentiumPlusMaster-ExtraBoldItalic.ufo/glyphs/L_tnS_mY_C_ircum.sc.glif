@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmYCircum.sc" format="2">
-  <advance width="1076"/>
-  <anchor x="463" y="-76" name="L"/>
-  <anchor x="719" y="1593" name="U"/>
+  <advance width="1159"/>
+  <anchor x="530" y="-83" name="L"/>
+  <anchor x="766" y="1580" name="U"/>
   <outline>
     <component base="LtnSmY.sc"/>
-    <component base="CombCircum" xOffset="1031" yOffset="103"/>
+    <component base="CombCircum" xOffset="1078" yOffset="90"/>
   </outline>
   <lib>
     <dict>

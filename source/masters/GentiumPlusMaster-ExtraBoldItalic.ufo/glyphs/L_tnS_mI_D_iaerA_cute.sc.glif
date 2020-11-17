@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmIDiaerAcute.sc" format="2">
-  <advance width="539"/>
-  <anchor x="211" y="7" name="H"/>
-  <anchor x="198" y="-76" name="L"/>
-  <anchor x="268" y="7" name="O"/>
-  <anchor x="517" y="896" name="R"/>
-  <anchor x="485" y="1843" name="U"/>
+  <advance width="652"/>
+  <anchor x="266" y="0" name="H"/>
+  <anchor x="249" y="-83" name="L"/>
+  <anchor x="319" y="0" name="O"/>
+  <anchor x="621" y="885" name="R"/>
+  <anchor x="516" y="1830" name="U"/>
   <outline>
     <component base="LtnSmI.sc"/>
-    <component base="CombDiaer" xOffset="770" yOffset="103"/>
-    <component base="CombAcute" xOffset="820" yOffset="473"/>
+    <component base="CombDiaer" xOffset="801" yOffset="90"/>
+    <component base="CombAcute" xOffset="851" yOffset="460"/>
   </outline>
   <lib>
     <dict>

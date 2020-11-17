@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmGCircum.SngBowl.sc" format="2">
-  <advance width="1122"/>
-  <anchor x="583" y="7" name="H"/>
-  <anchor x="602" y="-76" name="L"/>
-  <anchor x="602" y="1595" name="U"/>
+  <advance width="1223"/>
+  <anchor x="634" y="0" name="H"/>
+  <anchor x="655" y="-83" name="L"/>
+  <anchor x="655" y="1582" name="U"/>
   <outline>
     <component base="LtnSmG.sc"/>
-    <component base="CombCircum" xOffset="1149" yOffset="95"/>
+    <component base="CombCircum" xOffset="1202" yOffset="82"/>
   </outline>
   <lib>
     <dict>

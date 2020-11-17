@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmZCaron.sc" format="2">
-  <advance width="961"/>
-  <anchor x="437" y="-76" name="L"/>
-  <anchor x="661" y="1525" name="U"/>
+  <advance width="1063"/>
+  <anchor x="483" y="-83" name="L"/>
+  <anchor x="687" y="1512" name="U"/>
   <outline>
     <component base="LtnSmZ.sc"/>
-    <component base="CombCaron" xOffset="991" yOffset="103"/>
+    <component base="CombCaron" xOffset="1017" yOffset="90"/>
   </outline>
   <lib>
     <dict>

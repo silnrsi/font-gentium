@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnLigSmFSmI.sc" format="2">
-  <advance width="1493"/>
-  <anchor x="1197" y="7" name="H"/>
-  <anchor x="1197" y="-76" name="L"/>
-  <anchor x="1244" y="7" name="O"/>
-  <anchor x="1465" y="920" name="R"/>
-  <anchor x="1197" y="1145" name="U"/>
+  <advance width="1733"/>
+  <anchor x="1384" y="0" name="H"/>
+  <anchor x="1384" y="-83" name="L"/>
+  <anchor x="1443" y="0" name="O"/>
+  <anchor x="1647" y="909" name="R"/>
+  <anchor x="1384" y="1132" name="U"/>
   <outline>
     <component base="LtnSmF.sc"/>
-    <component base="LtnSmI.sc" xOffset="920"/>
+    <component base="LtnSmI.sc" xOffset="1044"/>
   </outline>
   <lib>
     <dict>

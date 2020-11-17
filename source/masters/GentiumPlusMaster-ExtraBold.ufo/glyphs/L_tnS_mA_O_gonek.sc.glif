@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmAOgonek.sc" format="2">
-  <advance width="1146"/>
-  <anchor x="940" y="7" name="H"/>
-  <anchor x="852" y="-593" name="L"/>
-  <anchor x="563" y="1145" name="U"/>
+  <advance width="1285"/>
+  <anchor x="638" y="0" name="H"/>
+  <anchor x="962" y="-600" name="L"/>
+  <anchor x="638" y="1132" name="U"/>
   <outline>
     <component base="LtnSmA.sc"/>
-    <component base="CombOgonek" xOffset="1399" yOffset="7"/>
+    <component base="CombOgonek" xOffset="1509"/>
   </outline>
   <lib>
     <dict>

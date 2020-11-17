@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmECircumDotBlw.sc" format="2">
-  <advance width="955"/>
-  <anchor x="472" y="7" name="H"/>
-  <anchor x="472" y="-576" name="L"/>
-  <anchor x="705" y="7" name="O"/>
-  <anchor x="931" y="920" name="R"/>
-  <anchor x="472" y="1595" name="U"/>
+  <advance width="1080"/>
+  <anchor x="544" y="0" name="H"/>
+  <anchor x="544" y="-583" name="L"/>
+  <anchor x="812" y="0" name="O"/>
+  <anchor x="1074" y="909" name="R"/>
+  <anchor x="544" y="1582" name="U"/>
   <outline>
     <component base="LtnSmE.sc"/>
-    <component base="CombDotBlw" xOffset="1020" yOffset="24"/>
-    <component base="CombCircum" xOffset="1019" yOffset="95"/>
+    <component base="CombDotBlw" xOffset="1092" yOffset="17"/>
+    <component base="CombCircum" xOffset="1091" yOffset="82"/>
   </outline>
   <lib>
     <dict>

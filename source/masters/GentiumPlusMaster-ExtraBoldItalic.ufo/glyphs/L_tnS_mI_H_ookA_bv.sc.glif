@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmIHookAbv.sc" format="2">
-  <advance width="539"/>
-  <anchor x="211" y="7" name="H"/>
-  <anchor x="198" y="-76" name="L"/>
-  <anchor x="268" y="7" name="O"/>
-  <anchor x="517" y="896" name="R"/>
-  <anchor x="426" y="1423" name="U"/>
+  <advance width="652"/>
+  <anchor x="266" y="0" name="H"/>
+  <anchor x="249" y="-83" name="L"/>
+  <anchor x="319" y="0" name="O"/>
+  <anchor x="621" y="885" name="R"/>
+  <anchor x="457" y="1410" name="U"/>
   <outline>
     <component base="LtnSmI.sc"/>
-    <component base="CombHookAbv" xOffset="775" yOffset="103"/>
+    <component base="CombHookAbv" xOffset="806" yOffset="90"/>
   </outline>
   <lib>
     <dict>

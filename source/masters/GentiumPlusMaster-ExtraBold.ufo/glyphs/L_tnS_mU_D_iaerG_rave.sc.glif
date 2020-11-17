@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmUDiaerGrave.sc" format="2">
-  <advance width="1259"/>
-  <anchor x="636" y="7" name="H"/>
-  <anchor x="636" y="-76" name="L"/>
-  <anchor x="714" y="7" name="O"/>
-  <anchor x="1250" y="920" name="R"/>
-  <anchor x="636" y="1865" name="U"/>
+  <advance width="1353"/>
+  <anchor x="689" y="0" name="H"/>
+  <anchor x="689" y="-83" name="L"/>
+  <anchor x="773" y="0" name="O"/>
+  <anchor x="1347" y="909" name="R"/>
+  <anchor x="689" y="1852" name="U"/>
   <outline>
     <component base="LtnSmU.sc"/>
-    <component base="CombDiaer" xOffset="1184" yOffset="95"/>
-    <component base="CombGrave" xOffset="1102" yOffset="455"/>
+    <component base="CombDiaer" xOffset="1237" yOffset="82"/>
+    <component base="CombGrave" xOffset="1155" yOffset="442"/>
   </outline>
   <lib>
     <dict>

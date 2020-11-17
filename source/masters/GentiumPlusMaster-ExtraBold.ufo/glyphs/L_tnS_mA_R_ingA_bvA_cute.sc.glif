@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmARingAbvAcute.sc" format="2">
-  <advance width="1146"/>
-  <anchor x="940" y="7" name="H"/>
-  <anchor x="563" y="-76" name="L"/>
-  <anchor x="902" y="7" name="O"/>
-  <anchor x="473" y="1975" name="U"/>
+  <advance width="1285"/>
+  <anchor x="638" y="0" name="H"/>
+  <anchor x="638" y="-83" name="L"/>
+  <anchor x="1012" y="0" name="O"/>
+  <anchor x="548" y="1962" name="U"/>
   <outline>
     <component base="LtnSmA.sc"/>
-    <component base="CombRingAbv" xOffset="1111" yOffset="95"/>
-    <component base="CombAcute" xOffset="1103" yOffset="535"/>
+    <component base="CombRingAbv" xOffset="1186" yOffset="82"/>
+    <component base="CombAcute" xOffset="1178" yOffset="522"/>
   </outline>
   <lib>
     <dict>
