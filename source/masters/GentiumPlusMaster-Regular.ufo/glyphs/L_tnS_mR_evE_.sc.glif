@@ -5,25 +5,6 @@
   <anchor x="478" y="1145" name="U"/>
   <outline>
     <contour>
-      <point x="200" y="551" type="curve"/>
-      <point x="201" y="542" type="line"/>
-      <point x="227" y="516" type="line"/>
-      <point x="269" y="526"/>
-      <point x="353" y="534"/>
-      <point x="409" y="534" type="curve"/>
-      <point x="597" y="534" type="line"/>
-      <point x="597" y="140" type="line"/>
-      <point x="597" y="103"/>
-      <point x="571" y="88"/>
-      <point x="417" y="88" type="curve"/>
-      <point x="219" y="88" type="line"/>
-      <point x="180" y="88"/>
-      <point x="165" y="173"/>
-      <point x="160" y="273" type="curve"/>
-      <point x="107" y="273" type="line"/>
-      <point x="92" y="230"/>
-      <point x="62" y="82"/>
-      <point x="58" y="23" type="curve"/>
       <point x="94" y="0" type="line"/>
       <point x="891" y="0" type="line"/>
       <point x="891" y="49" type="line"/>
@@ -51,6 +32,30 @@
       <point x="291" y="646" type="curve"/>
       <point x="260" y="626"/>
       <point x="220" y="581"/>
+      <point x="200" y="551" type="curve"/>
+      <point x="227" y="516" type="line"/>
+      <point x="269" y="526"/>
+      <point x="353" y="534"/>
+      <point x="409" y="534" type="curve"/>
+      <point x="597" y="534" type="line"/>
+      <point x="597" y="140" type="line"/>
+      <point x="597" y="103"/>
+      <point x="571" y="88"/>
+      <point x="417" y="88" type="curve"/>
+      <point x="219" y="88" type="line"/>
+      <point x="180" y="88"/>
+      <point x="165" y="173"/>
+      <point x="160" y="273" type="curve"/>
+      <point x="107" y="273" type="line"/>
+      <point x="92" y="230"/>
+      <point x="62" y="82"/>
+      <point x="58" y="23" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
 </glyph>

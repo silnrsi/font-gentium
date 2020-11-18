@@ -6,11 +6,12 @@
   <anchor x="577" y="1145" name="U"/>
   <outline>
     <contour>
+      <point x="531" y="-24" type="curve" smooth="yes"/>
+      <point x="660" y="-24"/>
+      <point x="790" y="24"/>
       <point x="948" y="174" type="curve"/>
-      <point x="948" y="184" type="line"/>
-      <point x="940" y="194" type="line"/>
-      <point x="932" y="205"/>
-      <point x="921" y="219"/>
+      <point x="940" y="191"/>
+      <point x="928" y="206"/>
       <point x="909" y="224" type="curve"/>
       <point x="772" y="123"/>
       <point x="663" y="88"/>
@@ -36,9 +37,12 @@
       <point x="63" y="485" type="curve" smooth="yes"/>
       <point x="63" y="164"/>
       <point x="301" y="-24"/>
-      <point x="531" y="-24" type="curve" smooth="yes"/>
-      <point x="660" y="-24"/>
-      <point x="790" y="24"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
 </glyph>
