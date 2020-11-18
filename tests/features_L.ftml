@@ -574,6 +574,7 @@ U+044D" stylename="cv80_1">
     </test>
   </testgroup>
   <testgroup label="cv82"/>
+  <testgroup label="cv83"/>
   <testgroup label="cv90"/>
   <testgroup label="cv91"/>
   <testgroup label="cv98"/>
@@ -1967,6 +1968,7 @@ U+0165" stylename="cv77_1_smcp_1">
       <string>\u00010F\u000329\u00013E\u000329\u000165\u000329</string>
     </test>
   </testgroup>
+  <testgroup label="cv78 cv83"/>
   <testgroup label="cv80 smcp">
     <test label="U+044D">
       <comment>CySmE</comment>

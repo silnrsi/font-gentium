@@ -102,12 +102,14 @@
       <style feats="'cv77' 1" name="cv77_1"/>
       <style feats="'cv77' 1, 'smcp' 1" name="cv77_1_smcp_1"/>
       <style feats="'cv78' 1" name="cv78_1"/>
+      <style feats="'cv78' 1, 'cv83' 1" name="cv78_1_cv83_1"/>
       <style feats="'cv79' 1" name="cv79_1"/>
       <style feats="'cv80' 1" name="cv80_1"/>
       <style feats="'cv80' 1, 'smcp' 1" name="cv80_1_smcp_1"/>
       <style feats="'cv81' 1" name="cv81_1"/>
       <style feats="'cv81' 1, 'smcp' 1" name="cv81_1_smcp_1"/>
       <style feats="'cv82' 1" name="cv82_1"/>
+      <style feats="'cv83' 1" name="cv83_1"/>
       <style feats="'cv90' 1" name="cv90_1"/>
       <style feats="'cv90' 1, 'ss07' 1" name="cv90_1_ss07_1"/>
       <style feats="'cv91' 1" name="cv91_1"/>
@@ -756,6 +758,74 @@ U+044D" stylename="cv80_1">
     <test label="U+0306" stylename="cv82_1">
       <comment>CombBreve</comment>
       <string>\u0025CC\u000306</string>
+    </test>
+  </testgroup>
+  <testgroup label="cv83">
+    <test label="U+1F88
+U+1F89
+U+1F8A
+U+1F8B
+U+1F8C
+U+1F8D
+U+1F8E
+U+1F8F
+U+1F98
+U+1F99
+U+1F9A
+U+1F9B
+U+1F9C
+U+1F9D
+U+1F9E
+U+1F9F">
+      <comment>GrCapAlphaWPsiliPros GrCapAlphaWDasiaPros GrCapAlphaWPsiliVariaPros GrCapAlphaWDasiaVariaPros GrCapAlphaWPsiliOxiaPros GrCapAlphaWDasiaOxiaPros GrCapAlphaWPsiliPerisPros GrCapAlphaWDasiaPerisPros GrCapEtaWPsiliPros GrCapEtaWDasiaPros GrCapEtaWPsiliVariaPros GrCapEtaWDasiaVariaPros GrCapEtaWPsiliOxiaPros GrCapEtaWDasiaOxiaPros GrCapEtaWPsiliPerisPros GrCapEtaWDasiaPerisPros</comment>
+      <string>\u001F88\u001F89\u001F8A\u001F8B\u001F8C\u001F8D\u001F8E\u001F8F\u001F98\u001F99\u001F9A\u001F9B\u001F9C\u001F9D\u001F9E\u001F9F</string>
+    </test>
+    <test label="U+1F88
+U+1F89
+U+1F8A
+U+1F8B
+U+1F8C
+U+1F8D
+U+1F8E
+U+1F8F
+U+1F98
+U+1F99
+U+1F9A
+U+1F9B
+U+1F9C
+U+1F9D
+U+1F9E
+U+1F9F" stylename="cv83_1">
+      <comment>GrCapAlphaWPsiliPros GrCapAlphaWDasiaPros GrCapAlphaWPsiliVariaPros GrCapAlphaWDasiaVariaPros GrCapAlphaWPsiliOxiaPros GrCapAlphaWDasiaOxiaPros GrCapAlphaWPsiliPerisPros GrCapAlphaWDasiaPerisPros GrCapEtaWPsiliPros GrCapEtaWDasiaPros GrCapEtaWPsiliVariaPros GrCapEtaWDasiaVariaPros GrCapEtaWPsiliOxiaPros GrCapEtaWDasiaOxiaPros GrCapEtaWPsiliPerisPros GrCapEtaWDasiaPerisPros</comment>
+      <string>\u001F88\u001F89\u001F8A\u001F8B\u001F8C\u001F8D\u001F8E\u001F8F\u001F98\u001F99\u001F9A\u001F9B\u001F9C\u001F9D\u001F9E\u001F9F</string>
+    </test>
+    <test label="U+1FA8
+U+1FA9
+U+1FAA
+U+1FAB
+U+1FAC
+U+1FAD
+U+1FAE
+U+1FAF
+U+1FBC
+U+1FCC
+U+1FFC">
+      <comment>GrCapOmegaWPsiliPros GrCapOmegaWDasiaPros GrCapOmegaWPsiliVariaPros GrCapOmegaWDasiaVariaPros GrCapOmegaWPsiliOxiaPros GrCapOmegaWDasiaOxiaPros GrCapOmegaWPsiliPerisPros GrCapOmegaWDasiaPerisPros GrCapAlphaWPros GrCapEtaWPros GrCapOmegaWPros</comment>
+      <string>\u001FA8\u001FA9\u001FAA\u001FAB\u001FAC\u001FAD\u001FAE\u001FAF\u001FBC\u001FCC\u001FFC</string>
+    </test>
+    <test label="U+1FA8
+U+1FA9
+U+1FAA
+U+1FAB
+U+1FAC
+U+1FAD
+U+1FAE
+U+1FAF
+U+1FBC
+U+1FCC
+U+1FFC" stylename="cv83_1">
+      <comment>GrCapOmegaWPsiliPros GrCapOmegaWDasiaPros GrCapOmegaWPsiliVariaPros GrCapOmegaWDasiaVariaPros GrCapOmegaWPsiliOxiaPros GrCapOmegaWDasiaOxiaPros GrCapOmegaWPsiliPerisPros GrCapOmegaWDasiaPerisPros GrCapAlphaWPros GrCapEtaWPros GrCapOmegaWPros</comment>
+      <string>\u001FA8\u001FA9\u001FAA\u001FAB\u001FAC\u001FAD\u001FAE\u001FAF\u001FBC\u001FCC\u001FFC</string>
     </test>
   </testgroup>
   <testgroup label="cv90">
@@ -2094,6 +2164,26 @@ U+013E
 U+0165" stylename="cv77_1_smcp_1">
       <comment>LtnSmDCaron LtnSmLCaron LtnSmTCaron</comment>
       <string>\u00010F\u00013E\u000165</string>
+    </test>
+  </testgroup>
+  <testgroup label="cv78 cv83">
+    <test label="U+1F8E
+U+1F8F
+U+1F9E
+U+1F9F
+U+1FAE
+U+1FAF">
+      <comment>GrCapAlphaWPsiliPerisPros GrCapAlphaWDasiaPerisPros GrCapEtaWPsiliPerisPros GrCapEtaWDasiaPerisPros GrCapOmegaWPsiliPerisPros GrCapOmegaWDasiaPerisPros</comment>
+      <string>\u001F8E\u001F8F\u001F9E\u001F9F\u001FAE\u001FAF</string>
+    </test>
+    <test label="U+1F8E
+U+1F8F
+U+1F9E
+U+1F9F
+U+1FAE
+U+1FAF" stylename="cv78_1_cv83_1">
+      <comment>GrCapAlphaWPsiliPerisPros GrCapAlphaWDasiaPerisPros GrCapEtaWPsiliPerisPros GrCapEtaWDasiaPerisPros GrCapOmegaWPsiliPerisPros GrCapOmegaWDasiaPerisPros</comment>
+      <string>\u001F8E\u001F8F\u001F9E\u001F9F\u001FAE\u001FAF</string>
     </test>
   </testgroup>
   <testgroup label="cv80 smcp">

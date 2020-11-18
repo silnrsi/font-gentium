@@ -464,6 +464,11 @@ lookup pcx_sub {
     sub @cno_Por by @c_Por;
 } pcx_sub;
 
+lookup iota_sub {
+  lookupflag 0;
+	sub @cno_iotasub by @c_iotasub;
+} iota_sub;
+
 languagesystem DFLT dflt;
 languagesystem cyrl dflt;
 languagesystem cyrl SRB;
@@ -507,6 +512,7 @@ feature aalt {
   feature cv98;
   feature cv14; #Gentium
   feature cv78; #Gentium
+  feature cv83; #Gentium
   feature ss01;
   feature ss04;
   feature ss05;
@@ -1378,6 +1384,33 @@ feature cv78 {
 
   lookup pcx_sub;
 } cv78;
+
+feature cv83 {
+
+  cvParameters {
+      FeatUILabelNameID {
+       name 3 1 0x0409 "Greek capital iota subscript";  # English US
+       name 1 0 0 "Greek capital iota subscript";  # Mac English
+      };
+
+      FeatUITooltipTextNameID {
+       name 3 1 0x0409 "Greek capital iota subscript";  # English US
+       name 1 0 0 "Greek capital iota subscript";  # Mac English
+      };
+
+      SampleTextNameID {
+       name 3 1 0x0409 "sample_text";  # English US TODO: set sample_text
+#       name 1 0 0  "";  # Mac English
+      }; #TODO: what should Mac sample be?
+
+      ParamUILabelNameID {
+       name 3 1 0x0409 "Subscript-style";  # English US
+       name 1 0 0 "Subscript-style";  # Mac English
+      };
+  };
+
+  lookup iota_sub;
+} cv83;
 
 
 feature ss01 {

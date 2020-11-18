@@ -670,6 +670,28 @@
 		LtnSmOOgonekMacron.LP LtnSmOOgonekMacron.sc LtnSmUOgonek LtnSmUOgonek.sc
 		Ogonek
 	</class>
+	<class name="c_iotasub" fixed="0">
+		GrCapAlphaWDasiaOxiaPros.ISub GrCapAlphaWDasiaPerisPros.ISub GrCapAlphaWDasiaPerisPros.Por.ISub GrCapAlphaWDasiaPros.ISub
+		GrCapAlphaWDasiaVariaPros.ISub GrCapAlphaWPros.ISub GrCapAlphaWPsiliOxiaPros.ISub GrCapAlphaWPsiliPerisPros.ISub
+		GrCapAlphaWPsiliPerisPros.Por.ISub GrCapAlphaWPsiliPros.ISub GrCapAlphaWPsiliVariaPros.ISub GrCapEtaWDasiaOxiaPros.ISub
+		GrCapEtaWDasiaPerisPros.ISub GrCapEtaWDasiaPerisPros.Por.ISub GrCapEtaWDasiaPros.ISub GrCapEtaWDasiaVariaPros.ISub
+		GrCapEtaWPros.ISub GrCapEtaWPsiliOxiaPros.ISub GrCapEtaWPsiliPerisPros.ISub GrCapEtaWPsiliPerisPros.Por.ISub
+		GrCapEtaWPsiliPros.ISub GrCapEtaWPsiliVariaPros.ISub GrCapOmegaWDasiaOxiaPros.ISub GrCapOmegaWDasiaPerisPros.ISub
+		GrCapOmegaWDasiaPerisPros.Por.ISub GrCapOmegaWDasiaPros.ISub GrCapOmegaWDasiaVariaPros.ISub GrCapOmegaWPros.ISub
+		GrCapOmegaWPsiliOxiaPros.ISub GrCapOmegaWPsiliPerisPros.ISub GrCapOmegaWPsiliPerisPros.Por.ISub GrCapOmegaWPsiliPros.ISub
+		GrCapOmegaWPsiliVariaPros.ISub
+	</class>
+	<class name="cno_iotasub" fixed="0">
+		GrCapAlphaWDasiaOxiaPros GrCapAlphaWDasiaPerisPros GrCapAlphaWDasiaPerisPros.Por GrCapAlphaWDasiaPros
+		GrCapAlphaWDasiaVariaPros GrCapAlphaWPros GrCapAlphaWPsiliOxiaPros GrCapAlphaWPsiliPerisPros
+		GrCapAlphaWPsiliPerisPros.Por GrCapAlphaWPsiliPros GrCapAlphaWPsiliVariaPros GrCapEtaWDasiaOxiaPros
+		GrCapEtaWDasiaPerisPros GrCapEtaWDasiaPerisPros.Por GrCapEtaWDasiaPros GrCapEtaWDasiaVariaPros
+		GrCapEtaWPros GrCapEtaWPsiliOxiaPros GrCapEtaWPsiliPerisPros GrCapEtaWPsiliPerisPros.Por
+		GrCapEtaWPsiliPros GrCapEtaWPsiliVariaPros GrCapOmegaWDasiaOxiaPros GrCapOmegaWDasiaPerisPros
+		GrCapOmegaWDasiaPerisPros.Por GrCapOmegaWDasiaPros GrCapOmegaWDasiaVariaPros GrCapOmegaWPros
+		GrCapOmegaWPsiliOxiaPros GrCapOmegaWPsiliPerisPros GrCapOmegaWPsiliPerisPros.Por GrCapOmegaWPsiliPros
+		GrCapOmegaWPsiliVariaPros
+	</class>
 	<class name="cno_c2sc" fixed="0">
 		CyCapA CyCapABreve CyCapADiaer CyCapAbkhasChe
 		CyCapAbkhasCheDesc CyCapAbkhasDze CyCapAbkhasDze.RevSigmaStyle CyCapAbkhasHa
