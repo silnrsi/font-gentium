@@ -5,6 +5,16 @@
   <anchor x="785" y="1145" name="U"/>
   <outline>
     <contour>
+      <point x="47" y="0" type="line"/>
+      <point x="1508" y="0" type="line"/>
+      <point x="1508" y="49" type="line"/>
+      <point x="1419" y="64"/>
+      <point x="1374" y="83"/>
+      <point x="1374" y="93" type="curve"/>
+      <point x="1374" y="949" type="line"/>
+      <point x="1374" y="959"/>
+      <point x="1425" y="977"/>
+      <point x="1508" y="992" type="curve"/>
       <point x="1508" y="1041" type="line"/>
       <point x="1089" y="1041" type="line"/>
       <point x="1089" y="992" type="line"/>
@@ -39,16 +49,6 @@
       <point x="180" y="81"/>
       <point x="131" y="64"/>
       <point x="47" y="49" type="curve"/>
-      <point x="47" y="0" type="line"/>
-      <point x="1508" y="0" type="line"/>
-      <point x="1508" y="49" type="line"/>
-      <point x="1419" y="64"/>
-      <point x="1374" y="83"/>
-      <point x="1374" y="93" type="curve"/>
-      <point x="1374" y="949" type="line"/>
-      <point x="1374" y="959"/>
-      <point x="1425" y="977"/>
-      <point x="1508" y="992" type="curve"/>
     </contour>
   </outline>
   <lib>

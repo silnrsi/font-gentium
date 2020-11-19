@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmSaltillo.sc" format="2">
   <advance width="481"/>
+  <anchor x="244" y="83" name="L"/>
+  <anchor x="244" y="1338" name="U"/>
   <outline>
     <contour>
+      <point x="184" y="556" type="line"/>
+      <point x="216" y="556"/>
+      <point x="263" y="565"/>
       <point x="285" y="576" type="curve"/>
       <point x="337" y="1277" type="line"/>
       <point x="283" y="1301" type="line"/>
       <point x="256" y="1296"/>
       <point x="149" y="1265"/>
       <point x="119" y="1250" type="curve"/>
-      <point x="184" y="556" type="line"/>
-      <point x="216" y="556"/>
-      <point x="263" y="565"/>
     </contour>
   </outline>
   <lib>
