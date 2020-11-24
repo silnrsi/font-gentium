@@ -34,7 +34,9 @@
     <contour>
       <point x="423" y="582" type="line"/>
       <point x="860" y="582" type="line"/>
-      <point x="908" y="690" type="line"/>
+      <point x="876" y="618"/>
+      <point x="892" y="654"/>
+      <point x="908" y="690" type="curve"/>
       <point x="424" y="690" type="line"/>
     </contour>
   </outline>
