@@ -378,6 +378,22 @@ greek_circ {
 	}
 }
 
+iota_subscript {
+	id = "cv83";
+	name.1033 = string("Greek capital iota subscript");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("False");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Subscript-style");
+		}
+	}
+}
+
 #endif // GENTIUMfont
 
 b_hook {

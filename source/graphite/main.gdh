@@ -963,7 +963,6 @@ endif;
 
 #endif // GENTIUMfont
 
-
 #if (ANDIKAfamily)
 
 if (zero == 1 || zero__dig0 == 1)
@@ -1058,6 +1057,14 @@ cno_LP  >  cLP  /  cTakesLPDiac  DIASTR4(cnUDiaX) ^ _ {lp_subclass == LP_DIACONL
 // Don't try to do low-profile stuff with small-caps.
 if ((low_profile_diac || low_profile_diac__lopr) && !smallcaps)
 	cno_LP  >  cLP  / ^ _;	// back up to handle dotless stuff
+endif;
+
+// Gentium features that interact with other features
+
+if (iota_subscript == 1)
+	cno_ISub  >  cISub;
+else
+	cISub  >  cno_ISub;
 endif;
 
 #endif // GENTIUMfont
