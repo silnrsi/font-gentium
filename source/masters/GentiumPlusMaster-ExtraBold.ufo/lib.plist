@@ -631,10 +631,12 @@
     </dict>
     <key>subscript</key>
     <dict>
-      <key>boldX</key>
-      <integer>20</integer>
-      <key>boldY</key>
-      <integer>10</integer>
+      <key>adjustMetrics</key>
+      <integer>0</integer>
+      <key>manAdjustX</key>
+      <integer>0</integer>
+      <key>manAdjustY</key>
+      <integer>0</integer>
       <key>scaleX</key>
       <real>0.7</real>
       <key>scaleY</key>
@@ -646,10 +648,12 @@
     </dict>
     <key>superscript</key>
     <dict>
-      <key>boldX</key>
-      <integer>20</integer>
-      <key>boldY</key>
-      <integer>10</integer>
+      <key>adjustMetrics</key>
+      <integer>0</integer>
+      <key>manAdjustX</key>
+      <integer>0</integer>
+      <key>manAdjustY</key>
+      <integer>0</integer>
       <key>scaleX</key>
       <real>0.7</real>
       <key>scaleY</key>
@@ -661,14 +665,20 @@
     </dict>
     <key>superscriptCaps</key>
     <dict>
+      <key>adjustMetrics</key>
+      <integer>0</integer>
+      <key>manAdjustX</key>
+      <integer>0</integer>
+      <key>manAdjustY</key>
+      <integer>0</integer>
       <key>scaleX</key>
-      <real>0.52</real>
+      <real>0.7</real>
       <key>scaleY</key>
-      <real>0.435</real>
+      <real>0.6</real>
       <key>shiftX</key>
       <integer>0</integer>
       <key>shiftY</key>
-      <integer>785</integer>
+      <integer>620</integer>
     </dict>
   </dict>
   <key>public.glyphOrder</key>
