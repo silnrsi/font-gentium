@@ -3,7 +3,22 @@
   <advance width="423"/>
   <unicode hex="208E"/>
   <outline>
-    <component base="SupRtParen" xOffset="-115" yOffset="-830"/>
+    <contour>
+      <point x="-110" y="-411" type="line"/>
+      <point x="85" y="-332"/>
+      <point x="247" y="-109"/>
+      <point x="290" y="154" type="curve"/>
+      <point x="331" y="409"/>
+      <point x="254" y="660"/>
+      <point x="79" y="740" type="curve"/>
+      <point x="53" y="713" type="line"/>
+      <point x="161" y="610"/>
+      <point x="195" y="369"/>
+      <point x="158" y="137" type="curve"/>
+      <point x="115" y="-120"/>
+      <point x="0" y="-307"/>
+      <point x="-127" y="-384" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>

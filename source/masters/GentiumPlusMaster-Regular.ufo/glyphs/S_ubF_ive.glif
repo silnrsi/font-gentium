@@ -2,8 +2,52 @@
 <glyph name="SubFive" format="2">
   <advance width="673"/>
   <unicode hex="2085"/>
+  <anchor x="326" y="-290" name="L"/>
+  <anchor x="356" y="615" name="U"/>
   <outline>
-    <component base="SupFive" yOffset="-830"/>
+    <contour>
+      <point x="595" y="-103"/>
+      <point x="595" y="36" type="curve" smooth="yes"/>
+      <point x="595" y="154"/>
+      <point x="504" y="263"/>
+      <point x="324" y="263" type="curve" smooth="yes"/>
+      <point x="276" y="263"/>
+      <point x="232" y="259"/>
+      <point x="195" y="249" type="curve"/>
+      <point x="203" y="285"/>
+      <point x="222" y="378"/>
+      <point x="225" y="425" type="curve"/>
+      <point x="496" y="425" type="line"/>
+      <point x="518" y="439"/>
+      <point x="553" y="481"/>
+      <point x="573" y="506" type="curve"/>
+      <point x="553" y="524" type="line"/>
+      <point x="553" y="524"/>
+      <point x="522" y="512"/>
+      <point x="469" y="512" type="curve" smooth="yes"/>
+      <point x="143" y="512" type="line"/>
+      <point x="138" y="428"/>
+      <point x="103" y="246"/>
+      <point x="86" y="159" type="curve"/>
+      <point x="119" y="139" type="line"/>
+      <point x="168" y="171"/>
+      <point x="242" y="187"/>
+      <point x="282" y="187" type="curve" smooth="yes"/>
+      <point x="403" y="187"/>
+      <point x="463" y="119"/>
+      <point x="463" y="10" type="curve" smooth="yes"/>
+      <point x="463" y="-71"/>
+      <point x="414" y="-157"/>
+      <point x="293" y="-157" type="curve" smooth="yes"/>
+      <point x="229" y="-157"/>
+      <point x="166" y="-147"/>
+      <point x="79" y="-88" type="curve"/>
+      <point x="55" y="-139" type="line"/>
+      <point x="135" y="-203"/>
+      <point x="212" y="-228"/>
+      <point x="308" y="-228" type="curve" smooth="yes"/>
+      <point x="494" y="-228"/>
+    </contour>
   </outline>
   <lib>
     <dict>

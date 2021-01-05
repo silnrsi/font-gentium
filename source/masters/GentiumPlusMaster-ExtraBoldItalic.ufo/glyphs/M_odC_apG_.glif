@@ -2,11 +2,20 @@
 <glyph name="ModCapG" format="2">
   <advance width="795"/>
   <unicode hex="1D33"/>
-  <anchor x="430" y="608" name="H"/>
   <anchor x="435" y="548" name="L"/>
   <anchor x="564" y="1400" name="U"/>
   <outline>
     <contour>
+      <point x="417" y="589" type="curve" smooth="yes"/>
+      <point x="493" y="589"/>
+      <point x="603" y="615"/>
+      <point x="744" y="712" type="curve"/>
+      <point x="748" y="743"/>
+      <point x="762" y="846"/>
+      <point x="770" y="888" type="curve" smooth="yes"/>
+      <point x="772" y="906"/>
+      <point x="793" y="925"/>
+      <point x="843" y="937" type="curve"/>
       <point x="847" y="987" type="line"/>
       <point x="454" y="987" type="line"/>
       <point x="450" y="937" type="line"/>
@@ -20,11 +29,8 @@
       <point x="380" y="691"/>
       <point x="272" y="759"/>
       <point x="272" y="930" type="curve" smooth="yes"/>
-      <point x="272" y="1041"/>
-      <point x="326" y="1190"/>
-      <point x="392" y="1247" type="curve" smooth="yes"/>
-      <point x="438" y="1287"/>
-      <point x="483" y="1305"/>
+      <point x="272" y="1094"/>
+      <point x="370" y="1305"/>
       <point x="526" y="1305" type="curve" smooth="yes"/>
       <point x="622" y="1305"/>
       <point x="669" y="1248"/>
@@ -44,16 +50,6 @@
       <point x="84" y="904" type="curve" smooth="yes"/>
       <point x="84" y="711"/>
       <point x="242" y="589"/>
-      <point x="417" y="589" type="curve" smooth="yes"/>
-      <point x="493" y="589"/>
-      <point x="603" y="615"/>
-      <point x="744" y="712" type="curve"/>
-      <point x="748" y="743"/>
-      <point x="762" y="846"/>
-      <point x="770" y="888" type="curve" smooth="yes"/>
-      <point x="772" y="906"/>
-      <point x="793" y="925"/>
-      <point x="843" y="937" type="curve"/>
     </contour>
   </outline>
   <lib>

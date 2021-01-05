@@ -2,26 +2,10 @@
 <glyph name="LtnSubSmE" format="2">
   <advance width="704"/>
   <unicode hex="2091"/>
-  <anchor x="373" y="-200" name="H"/>
   <anchor x="373" y="-260" name="L"/>
-  <anchor x="391" y="-200" name="O"/>
-  <anchor x="714" y="340" name="R"/>
   <anchor x="381" y="430" name="U"/>
   <outline>
     <contour>
-      <point x="645" y="112"/>
-      <point x="662" y="128" type="curve"/>
-      <point x="662" y="266"/>
-      <point x="571" y="376"/>
-      <point x="388" y="376" type="curve" smooth="yes"/>
-      <point x="310" y="376"/>
-      <point x="234" y="350"/>
-      <point x="183" y="317" type="curve" smooth="yes"/>
-      <point x="88" y="256"/>
-      <point x="42" y="174"/>
-      <point x="42" y="66" type="curve" smooth="yes"/>
-      <point x="42" y="-103"/>
-      <point x="175" y="-218"/>
       <point x="340" y="-218" type="curve" smooth="yes"/>
       <point x="456" y="-218"/>
       <point x="526" y="-194"/>
@@ -48,6 +32,19 @@
       <point x="127" y="76" type="line"/>
       <point x="557" y="76" type="line"/>
       <point x="587" y="86"/>
+      <point x="645" y="112"/>
+      <point x="662" y="128" type="curve"/>
+      <point x="662" y="266"/>
+      <point x="571" y="376"/>
+      <point x="388" y="376" type="curve" smooth="yes"/>
+      <point x="310" y="376"/>
+      <point x="234" y="350"/>
+      <point x="183" y="317" type="curve" smooth="yes"/>
+      <point x="88" y="256"/>
+      <point x="42" y="174"/>
+      <point x="42" y="66" type="curve" smooth="yes"/>
+      <point x="42" y="-103"/>
+      <point x="175" y="-218"/>
     </contour>
   </outline>
   <lib>

@@ -2,38 +2,14 @@
 <glyph name="ModCapE" format="2">
   <advance width="767"/>
   <unicode hex="1D31"/>
-  <anchor x="383" y="620" name="H"/>
   <anchor x="383" y="560" name="L"/>
-  <anchor x="578" y="620" name="O"/>
-  <anchor x="767" y="1280" name="R"/>
   <anchor x="383" y="1442" name="U"/>
   <outline>
     <contour>
-      <point x="690" y="1314"/>
-      <point x="692" y="1355" type="curve"/>
-      <point x="662" y="1376" type="line"/>
-      <point x="302" y="1376" type="line"/>
-      <point x="282" y="1298" type="line"/>
-      <point x="547" y="1298" type="line" smooth="yes"/>
-      <point x="581" y="1298"/>
-      <point x="600" y="1252"/>
-      <point x="604" y="1178" type="curve"/>
-      <point x="664" y="1178" type="line"/>
-      <point x="675" y="1209"/>
-    </contour>
-    <contour>
-      <point x="606" y="1016"/>
-      <point x="620" y="1038" type="curve"/>
-      <point x="595" y="1061" type="line"/>
-      <point x="288" y="1061" type="line"/>
-      <point x="272" y="993" type="line"/>
-      <point x="417" y="993" type="line" smooth="yes"/>
-      <point x="496" y="993"/>
-      <point x="527" y="983"/>
-      <point x="556" y="960" type="curve"/>
-      <point x="576" y="972"/>
-    </contour>
-    <contour>
+      <point x="28" y="670" type="curve"/>
+      <point x="28" y="620" type="line"/>
+      <point x="709" y="620" type="line"/>
+      <point x="717" y="643"/>
       <point x="731" y="745"/>
       <point x="738" y="814" type="curve"/>
       <point x="680" y="831" type="line"/>
@@ -57,10 +33,31 @@
       <point x="122" y="706" type="line" smooth="yes"/>
       <point x="122" y="696"/>
       <point x="91" y="681"/>
-      <point x="28" y="670" type="curve"/>
-      <point x="28" y="620" type="line"/>
-      <point x="709" y="620" type="line"/>
-      <point x="717" y="643"/>
+    </contour>
+    <contour>
+      <point x="556" y="960" type="curve"/>
+      <point x="576" y="972"/>
+      <point x="606" y="1016"/>
+      <point x="620" y="1038" type="curve"/>
+      <point x="595" y="1061" type="line"/>
+      <point x="288" y="1061" type="line"/>
+      <point x="272" y="993" type="line"/>
+      <point x="417" y="993" type="line" smooth="yes"/>
+      <point x="496" y="993"/>
+      <point x="527" y="983"/>
+    </contour>
+    <contour>
+      <point x="604" y="1178" type="curve"/>
+      <point x="664" y="1178" type="line"/>
+      <point x="675" y="1209"/>
+      <point x="690" y="1314"/>
+      <point x="692" y="1355" type="curve"/>
+      <point x="662" y="1376" type="line"/>
+      <point x="302" y="1376" type="line"/>
+      <point x="282" y="1298" type="line"/>
+      <point x="547" y="1298" type="line" smooth="yes"/>
+      <point x="581" y="1298"/>
+      <point x="600" y="1252"/>
     </contour>
   </outline>
   <lib>

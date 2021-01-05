@@ -6,6 +6,17 @@
   <anchor x="373" y="1400" name="U"/>
   <outline>
     <contour>
+      <point x="-56" y="367" type="curve" smooth="yes"/>
+      <point x="8" y="367"/>
+      <point x="100" y="401"/>
+      <point x="150" y="435" type="curve" smooth="yes"/>
+      <point x="226" y="485"/>
+      <point x="333" y="556"/>
+      <point x="360" y="731" type="curve" smooth="yes"/>
+      <point x="445" y="1277" type="line" smooth="yes"/>
+      <point x="447" y="1288"/>
+      <point x="480" y="1303"/>
+      <point x="539" y="1314" type="curve"/>
       <point x="548" y="1364" type="line"/>
       <point x="156" y="1364" type="line"/>
       <point x="148" y="1314" type="line"/>
@@ -24,17 +35,6 @@
       <point x="-210" y="427" type="curve" smooth="yes"/>
       <point x="-210" y="408"/>
       <point x="-131" y="367"/>
-      <point x="-56" y="367" type="curve" smooth="yes"/>
-      <point x="8" y="367"/>
-      <point x="100" y="401"/>
-      <point x="150" y="435" type="curve" smooth="yes"/>
-      <point x="226" y="485"/>
-      <point x="333" y="556"/>
-      <point x="360" y="731" type="curve" smooth="yes"/>
-      <point x="445" y="1277" type="line" smooth="yes"/>
-      <point x="447" y="1288"/>
-      <point x="480" y="1303"/>
-      <point x="539" y="1314" type="curve"/>
     </contour>
   </outline>
   <lib>

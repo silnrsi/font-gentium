@@ -2,8 +2,43 @@
 <glyph name="SubSix" format="2">
   <advance width="576"/>
   <unicode hex="2086"/>
+  <anchor x="181" y="-290" name="L"/>
+  <anchor x="303" y="592" name="U"/>
   <outline>
-    <component base="SupSix" xOffset="-115" yOffset="-830"/>
+    <contour>
+      <point x="489" y="492" type="curve"/>
+      <point x="484" y="527" type="line"/>
+      <point x="162" y="491"/>
+      <point x="-32" y="253"/>
+      <point x="-32" y="-6" type="curve" smooth="yes"/>
+      <point x="-32" y="-146"/>
+      <point x="52" y="-241"/>
+      <point x="182" y="-241" type="curve" smooth="yes"/>
+      <point x="364" y="-241"/>
+      <point x="473" y="-62"/>
+      <point x="473" y="68" type="curve" smooth="yes"/>
+      <point x="473" y="175"/>
+      <point x="412" y="245"/>
+      <point x="283" y="245" type="curve" smooth="yes"/>
+      <point x="223" y="245"/>
+      <point x="145" y="225"/>
+      <point x="65" y="141" type="curve"/>
+      <point x="63" y="73" type="line"/>
+      <point x="127" y="146"/>
+      <point x="183" y="168"/>
+      <point x="246" y="168" type="curve" smooth="yes"/>
+      <point x="301" y="168"/>
+      <point x="355" y="135"/>
+      <point x="355" y="31" type="curve" smooth="yes"/>
+      <point x="355" y="-46"/>
+      <point x="321" y="-166"/>
+      <point x="218" y="-166" type="curve" smooth="yes"/>
+      <point x="144" y="-166"/>
+      <point x="90" y="-118"/>
+      <point x="90" y="2" type="curve" smooth="yes"/>
+      <point x="90" y="223"/>
+      <point x="227" y="443"/>
+    </contour>
   </outline>
   <lib>
     <dict>

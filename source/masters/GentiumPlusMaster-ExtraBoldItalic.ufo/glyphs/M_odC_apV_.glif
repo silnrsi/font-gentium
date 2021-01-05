@@ -2,12 +2,18 @@
 <glyph name="ModCapV" format="2">
   <advance width="879"/>
   <unicode hex="2C7D"/>
-  <anchor x="458" y="608" name="H"/>
   <anchor x="436" y="548" name="L"/>
-  <anchor x="423" y="608" name="O"/>
   <anchor x="566" y="1400" name="U"/>
   <outline>
     <contour>
+      <point x="398" y="590" type="line"/>
+      <point x="449" y="601"/>
+      <point x="527" y="626"/>
+      <point x="546" y="661" type="curve"/>
+      <point x="887" y="1275" type="line" smooth="yes"/>
+      <point x="899" y="1297"/>
+      <point x="933" y="1304"/>
+      <point x="994" y="1314" type="curve"/>
       <point x="1002" y="1364" type="line"/>
       <point x="718" y="1364" type="line"/>
       <point x="711" y="1314" type="line"/>
@@ -25,14 +31,6 @@
       <point x="182" y="1308"/>
       <point x="202" y="1296"/>
       <point x="208" y="1275" type="curve"/>
-      <point x="398" y="590" type="line"/>
-      <point x="449" y="601"/>
-      <point x="527" y="626"/>
-      <point x="546" y="661" type="curve"/>
-      <point x="887" y="1275" type="line" smooth="yes"/>
-      <point x="899" y="1297"/>
-      <point x="933" y="1304"/>
-      <point x="994" y="1314" type="curve"/>
     </contour>
   </outline>
   <lib>

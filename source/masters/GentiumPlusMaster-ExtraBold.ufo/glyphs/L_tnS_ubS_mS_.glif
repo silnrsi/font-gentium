@@ -2,11 +2,12 @@
 <glyph name="LtnSubSmS" format="2">
   <advance width="616"/>
   <unicode hex="209B"/>
-  <anchor x="297" y="-200" name="H"/>
   <anchor x="307" y="-260" name="L"/>
   <anchor x="307" y="430" name="U"/>
   <outline>
     <contour>
+      <point x="276" y="-218" type="curve" smooth="yes"/>
+      <point x="366" y="-218"/>
       <point x="566" y="-200"/>
       <point x="566" y="-30" type="curve" smooth="yes"/>
       <point x="566" y="59"/>
@@ -49,8 +50,6 @@
       <point x="59" y="-174" type="curve" smooth="yes"/>
       <point x="122" y="-205"/>
       <point x="211" y="-218"/>
-      <point x="276" y="-218" type="curve" smooth="yes"/>
-      <point x="366" y="-218"/>
     </contour>
   </outline>
   <lib>
