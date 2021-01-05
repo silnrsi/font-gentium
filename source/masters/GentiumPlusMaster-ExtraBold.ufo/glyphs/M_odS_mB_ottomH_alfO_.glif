@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModSmBottomHalfO" format="2">
-  <advance width="721"/>
+  <advance width="763"/>
   <unicode hex="1D55"/>
-  <anchor x="358" y="540" name="L"/>
-  <anchor x="358" y="1286" name="U"/>
+  <anchor x="389" y="560" name="L"/>
+  <anchor x="389" y="1250" name="U"/>
   <outline>
     <contour>
-      <point x="189" y="779"/>
-      <point x="184" y="898" type="curve"/>
-      <point x="56" y="898" type="line"/>
-      <point x="51" y="724"/>
-      <point x="171" y="602"/>
-      <point x="348" y="602" type="curve" smooth="yes"/>
-      <point x="518" y="602"/>
-      <point x="657" y="747"/>
-      <point x="665" y="898" type="curve"/>
-      <point x="540" y="898" type="line"/>
-      <point x="541" y="760"/>
-      <point x="480" y="678"/>
-      <point x="367" y="678" type="curve" smooth="yes"/>
-      <point x="296" y="678"/>
+      <point x="243" y="774"/>
+      <point x="241" y="898" type="curve"/>
+      <point x="42" y="898" type="line"/>
+      <point x="42" y="711"/>
+      <point x="176" y="602"/>
+      <point x="368" y="602" type="curve" smooth="yes"/>
+      <point x="554" y="602"/>
+      <point x="713" y="744"/>
+      <point x="721" y="898" type="curve"/>
+      <point x="721" y="898"/>
+      <point x="522" y="898"/>
+      <point x="522" y="898" type="curve"/>
+      <point x="524" y="752"/>
+      <point x="495" y="680"/>
+      <point x="388" y="680" type="curve" smooth="yes"/>
+      <point x="303" y="680"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

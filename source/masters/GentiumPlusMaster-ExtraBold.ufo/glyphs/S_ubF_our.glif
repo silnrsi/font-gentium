@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="SubFour" format="2">
-  <advance width="673"/>
+  <advance width="742"/>
   <unicode hex="2084"/>
+  <anchor x="371" y="-260" name="L"/>
+  <anchor x="371" y="622" name="U"/>
   <outline>
-    <component base="SupFour" yOffset="-830"/>
+    <contour>
+      <point x="669" y="44"/>
+      <point x="689" y="70" type="curve"/>
+      <point x="671" y="88" type="line"/>
+      <point x="578" y="88" type="line"/>
+      <point x="578" y="520" type="line"/>
+      <point x="545" y="547" type="line"/>
+      <point x="500" y="533"/>
+      <point x="418" y="512"/>
+      <point x="372" y="498" type="curve"/>
+      <point x="38" y="24" type="line"/>
+      <point x="69" y="-2" type="line"/>
+      <point x="396" y="-2" type="line"/>
+      <point x="396" y="-107" type="line" smooth="yes"/>
+      <point x="396" y="-121"/>
+      <point x="370" y="-133"/>
+      <point x="248" y="-150" type="curve"/>
+      <point x="248" y="-200" type="line"/>
+      <point x="675" y="-200" type="line"/>
+      <point x="675" y="-150" type="line"/>
+      <point x="598" y="-135"/>
+      <point x="578" y="-126"/>
+      <point x="578" y="-114" type="curve" smooth="yes"/>
+      <point x="578" y="-2" type="line"/>
+      <point x="612" y="-2" type="line"/>
+      <point x="634" y="12"/>
+    </contour>
+    <contour>
+      <point x="396" y="376" type="line"/>
+      <point x="396" y="88" type="line"/>
+      <point x="184" y="88" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
 </glyph>

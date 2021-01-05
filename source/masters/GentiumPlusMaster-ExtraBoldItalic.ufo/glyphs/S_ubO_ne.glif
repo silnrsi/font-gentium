@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="SubOne" format="2">
-  <advance width="576"/>
+  <advance width="677"/>
   <unicode hex="2081"/>
+  <anchor x="214" y="-258" name="L"/>
+  <anchor x="354" y="594" name="U"/>
   <outline>
-    <component base="SupOne" xOffset="-115" yOffset="-830"/>
+    <contour>
+      <point x="518" y="-142" type="line"/>
+      <point x="390" y="-127"/>
+      <point x="362" y="-104"/>
+      <point x="364" y="-88" type="curve" smooth="yes"/>
+      <point x="462" y="522" type="line"/>
+      <point x="435" y="549" type="line"/>
+      <point x="366" y="524"/>
+      <point x="155" y="460"/>
+      <point x="78" y="447" type="curve"/>
+      <point x="88" y="392" type="line"/>
+      <point x="207" y="415"/>
+      <point x="246" y="411"/>
+      <point x="254" y="401" type="curve" smooth="yes"/>
+      <point x="264" y="390"/>
+      <point x="262" y="374"/>
+      <point x="257" y="342" type="curve" smooth="yes"/>
+      <point x="189" y="-88" type="line" smooth="yes"/>
+      <point x="186" y="-105"/>
+      <point x="142" y="-127"/>
+      <point x="3" y="-142" type="curve"/>
+      <point x="-5" y="-198" type="line"/>
+      <point x="509" y="-198" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
 </glyph>

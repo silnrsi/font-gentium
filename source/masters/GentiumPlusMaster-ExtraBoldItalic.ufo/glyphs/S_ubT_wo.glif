@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="SubTwo" format="2">
-  <advance width="576"/>
+  <advance width="677"/>
   <unicode hex="2082"/>
+  <anchor x="214" y="-258" name="L"/>
+  <anchor x="354" y="594" name="U"/>
   <outline>
-    <component base="SupTwo" xOffset="-115" yOffset="-830"/>
+    <contour>
+      <point x="590" y="418" type="curve" smooth="yes"/>
+      <point x="590" y="513"/>
+      <point x="488" y="543"/>
+      <point x="381" y="543" type="curve" smooth="yes"/>
+      <point x="210" y="543"/>
+      <point x="63" y="440"/>
+      <point x="49" y="357" type="curve"/>
+      <point x="67" y="309" type="line"/>
+      <point x="106" y="313"/>
+      <point x="204" y="335"/>
+      <point x="234" y="350" type="curve"/>
+      <point x="230" y="407"/>
+      <point x="254" y="469"/>
+      <point x="322" y="469" type="curve" smooth="yes"/>
+      <point x="372" y="469"/>
+      <point x="399" y="446"/>
+      <point x="399" y="388" type="curve" smooth="yes"/>
+      <point x="399" y="287"/>
+      <point x="270" y="136"/>
+      <point x="-62" y="-154" type="curve"/>
+      <point x="-51" y="-198" type="line"/>
+      <point x="492" y="-198" type="line"/>
+      <point x="539" y="28" type="line"/>
+      <point x="480" y="41" type="line"/>
+      <point x="480" y="41"/>
+      <point x="456" y="-84"/>
+      <point x="394" y="-84" type="curve" smooth="yes"/>
+      <point x="145" y="-84" type="line"/>
+      <point x="510" y="220"/>
+      <point x="590" y="318"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
 </glyph>

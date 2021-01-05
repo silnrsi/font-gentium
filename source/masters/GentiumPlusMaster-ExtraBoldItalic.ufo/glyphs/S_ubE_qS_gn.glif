@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="SubEqSgn" format="2">
-  <advance width="587"/>
+  <advance width="630"/>
   <unicode hex="208C"/>
   <outline>
-    <component base="SupEqSgn" xOffset="-115" yOffset="-830"/>
+    <contour>
+      <point x="511" y="76" type="curve"/>
+      <point x="492" y="96" type="line"/>
+      <point x="17" y="96" type="line"/>
+      <point x="7" y="80"/>
+      <point x="-20" y="41"/>
+      <point x="-27" y="23" type="curve"/>
+      <point x="-9" y="3" type="line"/>
+      <point x="467" y="3" type="line"/>
+      <point x="476" y="16"/>
+      <point x="504" y="58"/>
+    </contour>
+    <contour>
+      <point x="540" y="256" type="curve"/>
+      <point x="521" y="276" type="line"/>
+      <point x="46" y="276" type="line"/>
+      <point x="35" y="260"/>
+      <point x="9" y="221"/>
+      <point x="2" y="203" type="curve"/>
+      <point x="20" y="183" type="line"/>
+      <point x="496" y="183" type="line"/>
+      <point x="504" y="196"/>
+      <point x="532" y="238"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
 </glyph>

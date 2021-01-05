@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="SupMinus" format="2">
-  <advance width="483"/>
+  <advance width="609"/>
   <unicode hex="207B"/>
   <outline>
     <contour>
-      <point x="435" y="940"/>
-      <point x="440" y="957" type="curve"/>
-      <point x="423" y="971" type="line"/>
-      <point x="64" y="971" type="line"/>
-      <point x="56" y="956"/>
-      <point x="48" y="915"/>
-      <point x="43" y="897" type="curve"/>
-      <point x="60" y="883" type="line"/>
-      <point x="419" y="883" type="line"/>
-      <point x="426" y="896"/>
+      <point x="568" y="966"/>
+      <point x="574" y="984" type="curve"/>
+      <point x="550" y="1004" type="line"/>
+      <point x="71" y="1004" type="line"/>
+      <point x="62" y="988"/>
+      <point x="40" y="949"/>
+      <point x="35" y="931" type="curve"/>
+      <point x="59" y="911" type="line"/>
+      <point x="538" y="911" type="line"/>
+      <point x="545" y="924"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
 </glyph>

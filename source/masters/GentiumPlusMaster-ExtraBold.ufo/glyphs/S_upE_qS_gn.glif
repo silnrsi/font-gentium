@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="SupEqSgn" format="2">
-  <advance width="629"/>
+  <advance width="658"/>
   <unicode hex="207C"/>
   <outline>
     <contour>
-      <point x="582" y="1060"/>
-      <point x="587" y="1076" type="curve"/>
-      <point x="569" y="1091" type="line"/>
-      <point x="64" y="1091" type="line"/>
-      <point x="56" y="1076"/>
-      <point x="48" y="1034"/>
-      <point x="43" y="1018" type="curve"/>
-      <point x="60" y="1003" type="line"/>
-      <point x="566" y="1003" type="line"/>
-      <point x="572" y="1017"/>
+      <point x="617" y="1056"/>
+      <point x="623" y="1074" type="curve"/>
+      <point x="598" y="1094" type="line"/>
+      <point x="71" y="1094" type="line"/>
+      <point x="62" y="1078"/>
+      <point x="40" y="1039"/>
+      <point x="35" y="1021" type="curve"/>
+      <point x="59" y="1001" type="line"/>
+      <point x="587" y="1001" type="line"/>
+      <point x="594" y="1014"/>
     </contour>
     <contour>
-      <point x="582" y="880"/>
-      <point x="587" y="896" type="curve"/>
-      <point x="569" y="911" type="line"/>
-      <point x="64" y="911" type="line"/>
-      <point x="56" y="895"/>
-      <point x="48" y="855"/>
-      <point x="43" y="839" type="curve"/>
-      <point x="60" y="822" type="line"/>
-      <point x="566" y="822" type="line"/>
-      <point x="572" y="837"/>
+      <point x="617" y="876"/>
+      <point x="623" y="894" type="curve"/>
+      <point x="598" y="914" type="line"/>
+      <point x="71" y="914" type="line"/>
+      <point x="62" y="898"/>
+      <point x="40" y="859"/>
+      <point x="35" y="841" type="curve"/>
+      <point x="59" y="821" type="line"/>
+      <point x="587" y="821" type="line"/>
+      <point x="594" y="834"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
 </glyph>
