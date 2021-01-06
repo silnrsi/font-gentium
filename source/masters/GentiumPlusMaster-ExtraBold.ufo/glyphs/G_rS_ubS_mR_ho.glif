@@ -2,6 +2,8 @@
 <glyph name="GrSubSmRho" format="2">
   <advance width="739"/>
   <unicode hex="1D68"/>
+  <anchor x="380" y="-600" name="L"/>
+  <anchor x="380" y="444" name="U"/>
   <outline>
     <contour>
       <point x="690" y="-82"/>
@@ -39,8 +41,8 @@
       <point x="335" y="-110"/>
       <point x="289" y="-92"/>
       <point x="193" y="-21" type="curve"/>
-      <point x="146" y="-26"/>
-      <point x="190" y="-82"/>
+      <point x="186" y="-45"/>
+      <point x="181" y="-77"/>
       <point x="172" y="-93" type="curve"/>
       <point x="293" y="-200"/>
       <point x="343" y="-218"/>

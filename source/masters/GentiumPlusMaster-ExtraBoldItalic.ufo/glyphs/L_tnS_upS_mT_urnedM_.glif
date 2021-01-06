@@ -3,22 +3,9 @@
   <advance width="1134"/>
   <unicode hex="1D5A"/>
   <anchor x="546" y="548" name="L"/>
-  <anchor x="1154" y="1130" name="R"/>
   <anchor x="664" y="1208" name="U"/>
   <outline>
     <contour>
-      <point x="87" y="1042" type="line"/>
-      <point x="122" y="1052"/>
-      <point x="144" y="1056"/>
-      <point x="152" y="1056" type="curve" smooth="yes"/>
-      <point x="175" y="1056"/>
-      <point x="183" y="1048"/>
-      <point x="183" y="1009" type="curve" smooth="yes"/>
-      <point x="183" y="943"/>
-      <point x="128" y="780"/>
-      <point x="128" y="688" type="curve" smooth="yes"/>
-      <point x="128" y="611"/>
-      <point x="182" y="583"/>
       <point x="236" y="583" type="curve" smooth="yes"/>
       <point x="306" y="583"/>
       <point x="366" y="607"/>
@@ -95,6 +82,18 @@
       <point x="312" y="1169"/>
       <point x="167" y="1123"/>
       <point x="75" y="1087" type="curve"/>
+      <point x="87" y="1042" type="line"/>
+      <point x="122" y="1052"/>
+      <point x="144" y="1056"/>
+      <point x="152" y="1056" type="curve" smooth="yes"/>
+      <point x="175" y="1056"/>
+      <point x="183" y="1048"/>
+      <point x="183" y="1009" type="curve" smooth="yes"/>
+      <point x="183" y="943"/>
+      <point x="128" y="780"/>
+      <point x="128" y="688" type="curve" smooth="yes"/>
+      <point x="128" y="611"/>
+      <point x="182" y="583"/>
     </contour>
   </outline>
   <lib>

@@ -3,10 +3,11 @@
   <advance width="763"/>
   <unicode hex="1DB1"/>
   <anchor x="389" y="560" name="L"/>
-  <anchor x="763" y="1160" name="R"/>
   <anchor x="389" y="1250" name="U"/>
   <outline>
     <contour>
+      <point x="368" y="602" type="curve" smooth="yes"/>
+      <point x="559" y="602"/>
       <point x="721" y="751"/>
       <point x="721" y="911" type="curve" smooth="yes"/>
       <point x="721" y="1075"/>
@@ -17,26 +18,24 @@
       <point x="42" y="886" type="curve" smooth="yes"/>
       <point x="42" y="723"/>
       <point x="171" y="602"/>
-      <point x="368" y="602" type="curve" smooth="yes"/>
-      <point x="559" y="602"/>
     </contour>
     <contour>
-      <point x="502" y="1047"/>
-      <point x="517" y="938" type="curve"/>
+      <point x="388" y="680" type="curve" smooth="yes"/>
+      <point x="314" y="680"/>
+      <point x="256" y="748"/>
+      <point x="244" y="860" type="curve"/>
+      <point x="522" y="860" type="line"/>
+      <point x="517" y="736"/>
+      <point x="484" y="680"/>
+    </contour>
+    <contour>
       <point x="241" y="938" type="line"/>
       <point x="248" y="1050"/>
       <point x="281" y="1118"/>
       <point x="375" y="1118" type="curve" smooth="yes"/>
       <point x="454" y="1118"/>
-    </contour>
-    <contour>
-      <point x="244" y="860" type="curve"/>
-      <point x="522" y="860" type="line"/>
-      <point x="517" y="736"/>
-      <point x="484" y="680"/>
-      <point x="388" y="680" type="curve" smooth="yes"/>
-      <point x="314" y="680"/>
-      <point x="256" y="748"/>
+      <point x="502" y="1047"/>
+      <point x="517" y="938" type="curve"/>
     </contour>
   </outline>
   <lib>

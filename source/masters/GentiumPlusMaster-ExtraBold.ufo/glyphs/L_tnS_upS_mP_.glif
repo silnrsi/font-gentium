@@ -2,12 +2,19 @@
 <glyph name="LtnSupSmP" format="2">
   <advance width="815"/>
   <unicode hex="1D56"/>
-  <anchor x="219" y="331" name="H"/>
   <anchor x="402" y="260" name="L"/>
-  <anchor x="816" y="1160" name="R"/>
   <anchor x="402" y="1250" name="U"/>
   <outline>
     <contour>
+      <point x="31" y="332" type="line"/>
+      <point x="430" y="332" type="line"/>
+      <point x="430" y="382" type="line"/>
+      <point x="342" y="393"/>
+      <point x="312" y="406"/>
+      <point x="312" y="419" type="curve" smooth="yes"/>
+      <point x="312" y="667" type="line"/>
+      <point x="398" y="618"/>
+      <point x="444" y="602"/>
       <point x="499" y="602" type="curve" smooth="yes"/>
       <point x="608" y="602"/>
       <point x="774" y="758"/>
@@ -31,23 +38,8 @@
       <point x="122" y="405"/>
       <point x="93" y="394"/>
       <point x="31" y="382" type="curve"/>
-      <point x="31" y="332" type="line"/>
-      <point x="430" y="332" type="line"/>
-      <point x="430" y="382" type="line"/>
-      <point x="342" y="393"/>
-      <point x="312" y="406"/>
-      <point x="312" y="419" type="curve" smooth="yes"/>
-      <point x="312" y="667" type="line"/>
-      <point x="398" y="618"/>
-      <point x="444" y="602"/>
     </contour>
     <contour>
-      <point x="436" y="1085" type="curve" smooth="yes"/>
-      <point x="512" y="1085"/>
-      <point x="595" y="1033"/>
-      <point x="595" y="876" type="curve" smooth="yes"/>
-      <point x="595" y="770"/>
-      <point x="554" y="710"/>
       <point x="491" y="710" type="curve" smooth="yes"/>
       <point x="447" y="710"/>
       <point x="416" y="712"/>
@@ -55,6 +47,12 @@
       <point x="312" y="1040" type="line"/>
       <point x="393" y="1083"/>
       <point x="402" y="1085"/>
+      <point x="436" y="1085" type="curve" smooth="yes"/>
+      <point x="512" y="1085"/>
+      <point x="595" y="1033"/>
+      <point x="595" y="876" type="curve" smooth="yes"/>
+      <point x="595" y="770"/>
+      <point x="554" y="710"/>
     </contour>
   </outline>
   <lib>

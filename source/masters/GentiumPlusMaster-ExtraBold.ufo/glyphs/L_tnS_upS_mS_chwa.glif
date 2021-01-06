@@ -2,12 +2,15 @@
 <glyph name="LtnSupSmSchwa" format="2">
   <advance width="710"/>
   <unicode hex="1D4A"/>
-  <anchor x="355" y="620" name="H"/>
   <anchor x="355" y="560" name="L"/>
-  <anchor x="379" y="620" name="O"/>
   <anchor x="355" y="1250" name="U"/>
   <outline>
     <contour>
+      <point x="340" y="602" type="curve" smooth="yes"/>
+      <point x="424" y="602"/>
+      <point x="516" y="637"/>
+      <point x="568" y="686" type="curve" smooth="yes"/>
+      <point x="632" y="745"/>
       <point x="668" y="829"/>
       <point x="668" y="923" type="curve" smooth="yes"/>
       <point x="668" y="1101"/>
@@ -45,11 +48,6 @@
       <point x="42" y="805" type="curve" smooth="yes"/>
       <point x="42" y="688"/>
       <point x="158" y="602"/>
-      <point x="340" y="602" type="curve" smooth="yes"/>
-      <point x="424" y="602"/>
-      <point x="516" y="637"/>
-      <point x="568" y="686" type="curve" smooth="yes"/>
-      <point x="632" y="745"/>
     </contour>
   </outline>
   <lib>

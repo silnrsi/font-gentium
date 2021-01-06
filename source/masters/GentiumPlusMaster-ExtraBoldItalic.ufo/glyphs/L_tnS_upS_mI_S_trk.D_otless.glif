@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSupSmIStrk.Dotless" format="2">
   <advance width="412"/>
-  <anchor x="220" y="608" name="H"/>
   <anchor x="219" y="548" name="L"/>
-  <anchor x="245" y="608" name="O"/>
-  <anchor x="490" y="1130" name="R"/>
   <anchor x="324" y="1208" name="U"/>
   <outline>
     <contour>
-      <point x="471" y="908" type="line"/>
-      <point x="450" y="929" type="line"/>
-      <point x="84" y="929" type="line"/>
-      <point x="75" y="916"/>
-      <point x="54" y="883"/>
-      <point x="48" y="870" type="curve"/>
-      <point x="68" y="851" type="line"/>
-      <point x="435" y="851" type="line"/>
-    </contour>
-    <contour>
+      <point x="181" y="583" type="curve" smooth="yes"/>
+      <point x="236" y="583"/>
+      <point x="353" y="637"/>
       <point x="440" y="681" type="curve"/>
       <point x="426" y="727" type="line"/>
       <point x="388" y="714"/>
@@ -47,9 +37,16 @@
       <point x="122" y="654" type="curve" smooth="yes"/>
       <point x="122" y="610"/>
       <point x="149" y="583"/>
-      <point x="181" y="583" type="curve" smooth="yes"/>
-      <point x="236" y="583"/>
-      <point x="353" y="637"/>
+    </contour>
+    <contour>
+      <point x="68" y="851" type="line"/>
+      <point x="435" y="851" type="line"/>
+      <point x="471" y="908" type="line"/>
+      <point x="450" y="929" type="line"/>
+      <point x="84" y="929" type="line"/>
+      <point x="75" y="916"/>
+      <point x="54" y="883"/>
+      <point x="48" y="870" type="curve"/>
     </contour>
   </outline>
   <lib>
