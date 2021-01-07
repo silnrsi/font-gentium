@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmIBreve.SItal" format="2">
-  <advance width="555"/>
-  <anchor x="285" y="0" name="H"/>
-  <anchor x="285" y="-100" name="L"/>
-  <anchor x="335" y="0" name="O"/>
-  <anchor x="555" y="900" name="R"/>
-  <anchor x="285" y="1370" name="U"/>
+  <advance width="635"/>
+  <anchor x="325" y="0" name="H"/>
+  <anchor x="325" y="-100" name="L"/>
+  <anchor x="386" y="0" name="O"/>
+  <anchor x="635" y="900" name="R"/>
+  <anchor x="325" y="1370" name="U"/>
   <outline>
     <component base="LtnSmDotlessI.SItal"/>
-    <component base="CombBreve" xOffset="833"/>
+    <component base="CombBreve" xOffset="873"/>
   </outline>
   <lib>
     <dict>

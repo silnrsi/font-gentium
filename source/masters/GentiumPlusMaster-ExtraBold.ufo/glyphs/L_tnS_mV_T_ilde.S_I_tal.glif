@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmVTilde.SItal" format="2">
   <advance width="1010"/>
-  <anchor x="516" y="0" name="H"/>
-  <anchor x="516" y="-100" name="L"/>
-  <anchor x="465" y="0" name="O"/>
-  <anchor x="536" y="1410" name="U"/>
+  <anchor x="514" y="0" name="H"/>
+  <anchor x="536" y="-100" name="L"/>
+  <anchor x="477" y="0" name="O"/>
+  <anchor x="557" y="1410" name="U"/>
   <outline>
     <component base="LtnSmV.SItal"/>
-    <component base="CombTilde" xOffset="1084"/>
+    <component base="CombTilde" xOffset="1105"/>
   </outline>
   <lib>
     <dict>
