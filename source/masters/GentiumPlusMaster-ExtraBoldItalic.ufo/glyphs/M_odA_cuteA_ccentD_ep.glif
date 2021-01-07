@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModAcuteAccentDep" format="2">
-  <advance width="400"/>
+  <advance width="402"/>
   <unicode hex="F197"/>
-  <anchor x="256" y="1370" name="U"/>
+  <anchor x="100" y="1410" name="U"/>
   <outline>
     <contour>
-      <point x="120" y="996" type="line"/>
-      <point x="580" y="996" type="line"/>
-      <point x="580" y="1489" type="line"/>
-      <point x="120" y="1489" type="line"/>
+      <point x="-30" y="1519" type="line"/>
+      <point x="-30" y="1017" type="line"/>
+      <point x="432" y="1017" type="line"/>
+      <point x="432" y="1519" type="line"/>
     </contour>
     <contour>
-      <point x="550" y="1374" type="line"/>
-      <point x="195" y="1026" type="line"/>
-      <point x="174" y="1031"/>
-      <point x="169" y="1038"/>
-      <point x="150" y="1061" type="curve"/>
-      <point x="422" y="1459" type="line"/>
-      <point x="448" y="1452"/>
-      <point x="513" y="1432"/>
-      <point x="535" y="1419" type="curve"/>
+      <point x="402" y="1427" type="line"/>
+      <point x="57" y="1047" type="line"/>
+      <point x="33" y="1051"/>
+      <point x="15" y="1063"/>
+      <point x="0" y="1075" type="curve"/>
+      <point x="234" y="1489" type="line"/>
+      <point x="265" y="1487"/>
+      <point x="349" y="1475"/>
+      <point x="379" y="1466" type="curve"/>
     </contour>
   </outline>
 </glyph>

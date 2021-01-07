@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModRaisedUpArrwDep" format="2">
-  <advance width="450"/>
+  <advance width="536"/>
   <unicode hex="F19C"/>
   <outline>
     <contour>
-      <point x="70" y="798" type="line"/>
-      <point x="535" y="798" type="line"/>
-      <point x="535" y="1466" type="line"/>
-      <point x="70" y="1466" type="line"/>
+      <point x="5" y="1466" type="line"/>
+      <point x="5" y="788" type="line"/>
+      <point x="521" y="788" type="line"/>
+      <point x="521" y="1466" type="line"/>
     </contour>
     <contour>
-      <point x="100" y="1261" type="line"/>
-      <point x="327" y="1436" type="line"/>
-      <point x="505" y="1261" type="line"/>
-      <point x="473" y="1204" type="line"/>
-      <point x="348" y="1295" type="line"/>
-      <point x="287" y="858" type="line"/>
-      <point x="260" y="842"/>
-      <point x="248" y="836"/>
-      <point x="223" y="828" type="curve"/>
-      <point x="203" y="847" type="line"/>
-      <point x="266" y="1295" type="line"/>
-      <point x="117" y="1204" type="line"/>
+      <point x="62" y="1200" type="line"/>
+      <point x="35" y="1258" type="line"/>
+      <point x="263" y="1436" type="line"/>
+      <point x="491" y="1258" type="line"/>
+      <point x="464" y="1200" type="line"/>
+      <point x="309" y="1292" type="line"/>
+      <point x="309" y="849" type="line"/>
+      <point x="282" y="832"/>
+      <point x="269" y="826"/>
+      <point x="242" y="818" type="curve"/>
+      <point x="217" y="838" type="line"/>
+      <point x="217" y="1292" type="line"/>
     </contour>
   </outline>
 </glyph>
