@@ -1,0 +1,66 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[size="14pt"]
+
+%%%%% GROUPS
+
+% All Greek
+\patterngroup[name="grkall"]{ͰͱͲͳʹ͵Ͷͷͺͻͼͽ;Ϳ΄΅Ά·ΈΉΊΌΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώϏϐϑϒϓϔϕϖϗϘϙϚϛϜϝϞϟϠϡϰϱϲϳϴϵ϶ϷϸϹϺϻϼϽϾϿἀἁἂἃἄἅἆἇἈἉἊἋἌἍἎἏἐἑἒἓἔἕἘἙἚἛἜἝἠἡἢἣἤἥἦἧἨἩἪἫἬἭἮἯἰἱἲἳἴἵἶἷἸἹἺἻἼἽἾἿὀὁὂὃὄὅὈὉὊὋὌὍὐὑὒὓὔὕὖὗὙὛὝὟὠὡὢὣὤὥὦὧὨὩὪὫὬὭὮὯὰάὲέὴήὶίὸόὺύὼώᾀᾁᾂᾃᾄᾅᾆᾇᾈᾉᾊᾋᾌᾍᾎᾏᾐᾑᾒᾓᾔᾕᾖᾗᾘᾙᾚᾛᾜᾝᾞᾟᾠᾡᾢᾣᾤᾥᾦᾧᾨᾩᾪᾫᾬᾭᾮᾯᾰᾱᾲᾳᾴᾶᾷᾸᾹᾺΆᾼ᾽ι᾿῀῁ῂῃῄῆῇῈΈῊΉῌ῍῎῏ῐῑῒΐῖῗῘῙῚΊ῝῞῟ῠῡῢΰῤῥῦῧῨῩῪΎῬ῭΅`ῲῳῴῶῷῸΌῺΏῼ´῾}
+\patterngroup[name="grktemp"]{}
+
+% Caps
+\patterngroup[name="grkcap"]{ΆΈΉΊΌΎΏΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΪΫϏϒϓϔϘϚϜϞϠϴϷϹϺϽϾϿͰͲͶͿ}
+
+% Lowercase
+\patterngroup[name="grklc"]{ΐάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώϐϑϕϖϗϙϛϝϟϡϰϱϲϳϵ϶ϸϻϼͱͳͷͻͼͽ}
+
+% Caps Ext
+\patterngroup[name="grkcapext"]{ἈἉἊἋἌἍἎἏἘἙἚἛἜἝἨἩἪἫἬἭἮἯἸἹἺἻἼἽἾἿὈὉὊὋὌὍὙὛὝὟὨὩὪὫὬὭὮὯᾈᾉᾊᾋᾌᾍᾎᾏᾘᾙᾚᾛᾜᾝᾞᾟᾨᾩᾪᾫᾬᾭᾮᾯᾸᾹᾺΆᾼῈΈῊΉῌῘῙῚΊῨῩῪΎῬῸΌῺΏῼ}
+
+% Lowercase Ext
+\patterngroup[name="grklcext"]{ἀἁἂἃἄἅἆἇἐἑἒἓἔἕἠἡἢἣἤἥἦἧἰἱἲἳἴἵἶἷὀὁὂὃὄὅὐὑὒὓὔὕὖὗὠὡὢὣὤὥὦὧὰάὲέὴήὶίὸόὺύὼώᾀᾁᾂᾃᾄᾅᾆᾇᾐᾑᾒᾓᾔᾕᾖᾗᾠᾡᾢᾣᾤᾥᾦᾧᾰᾱᾲᾳᾴᾶᾷῂῃῄῆῇῐῑῒΐῖῗῠῡῢΰῤῥῦῧῲῳῴῶῷ}
+
+% Diacritics
+\patterngroup[name="grkdiac"]{΄΅ιͺ᾽᾿῀῁῍῎῏῝῞῟῭΅`´῾}
+
+% Numeral signs
+\patterngroup[name="grknumsign"]{ʹ͵}
+
+% Punctuation
+\patterngroup[name="grkpunct"]{;·}
+
+% General
+\patterngroup[name="numerals"]{1234567890}
+\patterngroup[name="punctuation"]{.,:;!-}
+
+%%%%% TESTS
+
+\section{LETTERS}
+
+\proof[size="28pt"]{ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ}
+\proof[size="28pt"]{ΆΈΉΊΌΎΏΪΫ}
+\proof[size="28pt"]{ϏϒϓϔϘϚϜϞϠϴϷϹϺϽϾϿͰͲͶͿ}
+\proof[size="28pt"]{αβγδεζηθικλμνξοπρςστυφχψω}
+\proof[size="28pt"]{ΐάέήίΰϊϋόύώ}
+\proof[size="28pt"]{ϐϑϕϖϗϙϛϝϟϡϰϱϲϳϵ϶ϸϻϼͱͳͷͻͼͽ}
+\proof[size="28pt"]{ἈἉἊἋἌἍἎἏἘἙἚἛἜἝ}
+\proof[size="28pt"]{ἨἩἪἫἬἭἮἯ}
+\proof[size="28pt"]{ἸἹἺἻἼἽἾἿὈὉὊὋὌὍ}
+\proof[size="28pt"]{ὙὛὝὟὨὩὪὫὬὭὮὯ}
+\proof[size="28pt"]{ᾈᾉᾊᾋᾌᾍᾎᾏ}
+\proof[size="28pt"]{ᾘᾙᾚᾛᾜᾝᾞᾟ}
+\proof[size="28pt"]{ᾨᾩᾪᾫᾬᾭᾮᾯ}
+\proof[size="28pt"]{ᾸᾹᾺΆᾼῈΈῊΉῌῘῙῚΊῨῩῪΎῬῸΌῺΏῼ}
+
+\proof[size="28pt"]{ἀἁἂἃἄἅἆἇἐἑἒἓἔἕἠἡἢἣἤἥἦἧἰἱἲἳἴἵἶἷ}
+\proof[size="28pt"]{ὀὁὂὃὄὅὐὑὒὓὔὕὖὗὠὡὢὣὤὥὦὧ}
+\proof[size="28pt"]{ὰάὲέὴήὶίὸόὺύὼώ}
+\proof[size="28pt"]{ᾀᾁᾂᾃᾄᾅᾆᾇᾐᾑᾒᾓᾔᾕᾖᾗᾠᾡᾢᾣᾤᾥᾦᾧ}
+\proof[size="28pt"]{ᾰᾱᾲᾳᾴᾶᾷῂῃῄῆῇῐῑῒΐῖῗῠῡῢΰῤῥῦῧῲῳῴῶῷ}
+
+\pattern[size="28pt",chars="@",reps="group_grkdiac",format="table"]{α@}
+
+\proof[size="28pt"]{αʹα͵ α; α·}
+
+
+\end{document}
