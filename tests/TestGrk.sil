@@ -58,9 +58,15 @@
 \proof[size="28pt"]{ᾀᾁᾂᾃᾄᾅᾆᾇᾐᾑᾒᾓᾔᾕᾖᾗᾠᾡᾢᾣᾤᾥᾦᾧ}
 \proof[size="28pt"]{ᾰᾱᾲᾳᾴᾶᾷῂῃῄῆῇῐῑῒΐῖῗῠῡῢΰῤῥῦῧῲῳῴῶῷ}
 
-\pattern[size="28pt",chars="@",reps="group_grkdiac",format="table"]{α@}
+\pattern[size="28pt",chars="@",reps="group_grkdiac",format="para"]{α@}
 
-\proof[size="28pt"]{αʹα͵ α; α·}
+\proof[size="28pt"]{αʹα͵α α; α· α}
 
+\section{WIDTH TESTS}
+
+\pattern[chars="@",reps="group_grkcap",format="para"]{Η@Η}
+\pattern[chars="@",reps="group_grkcapext",format="para"]{Η@Η}
+\pattern[chars="@",reps="group_grklc",format="para"]{α@α}
+\pattern[chars="@",reps="group_grklcext",format="para"]{α@α}
 
 \end{document}
