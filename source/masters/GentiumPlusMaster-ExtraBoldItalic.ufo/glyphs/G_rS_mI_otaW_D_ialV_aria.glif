@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmIotaWDialVaria" format="2">
-  <advance width="539"/>
+  <advance width="621"/>
   <unicode hex="1FD2"/>
   <outline>
-    <component base="GrSmIota" xOffset="-42"/>
-    <component base="GrDialVaria" xOffset="-25"/>
+    <component base="GrSmIota"/>
+    <component base="GrDialVaria" xOffset="-63"/>
   </outline>
 </glyph>

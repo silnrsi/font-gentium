@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmAlphaWTonos" format="2">
-  <advance width="1022"/>
+  <advance width="1166"/>
   <unicode hex="03AC"/>
   <outline>
-    <component base="GrSmAlpha" xOffset="-79"/>
-    <component base="GrTonos" xOffset="476"/>
+    <component base="GrSmAlpha"/>
+    <component base="GrTonos" xOffset="463"/>
   </outline>
 </glyph>

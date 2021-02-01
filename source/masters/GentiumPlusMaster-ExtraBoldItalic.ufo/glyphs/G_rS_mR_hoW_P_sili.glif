@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmRhoWPsili" format="2">
-  <advance width="904"/>
+  <advance width="993"/>
   <unicode hex="1FE4"/>
   <outline>
-    <component base="GrSmRho" xOffset="-3"/>
-    <component base="GrPsili" xOffset="384"/>
+    <component base="GrSmRho"/>
+    <component base="GrPsili" xOffset="380"/>
   </outline>
 </glyph>

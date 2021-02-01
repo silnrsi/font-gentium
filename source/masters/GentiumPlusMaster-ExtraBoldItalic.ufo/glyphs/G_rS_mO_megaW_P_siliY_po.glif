@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmOmegaWPsiliYpo" format="2">
-  <advance width="1370"/>
+  <advance width="1428"/>
   <unicode hex="1FA0"/>
   <outline>
-    <component base="GrPsili" xOffset="630"/>
-    <component base="GrYpo" xOffset="1190"/>
+    <component base="GrYpo" xOffset="1256"/>
     <component base="GrSmOmega"/>
+    <component base="GrPsili" xOffset="597" yOffset="-50"/>
   </outline>
 </glyph>

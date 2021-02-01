@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmAlphaWVrachy" format="2">
-  <advance width="1076"/>
+  <advance width="1226"/>
   <unicode hex="1FB0"/>
   <outline>
-    <component base="GrSmAlpha" xOffset="-75"/>
-    <component base="CombBreve" xOffset="1065" yOffset="25"/>
+    <component base="GrSmAlpha"/>
+    <component base="CombBreve" xOffset="1133"/>
   </outline>
 </glyph>

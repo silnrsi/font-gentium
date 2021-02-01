@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmEtaWPsiliPerisYpo" format="2">
-  <advance width="1006"/>
+  <advance width="1123"/>
   <unicode hex="1F96"/>
   <outline>
-    <component base="GrSmEta" xOffset="38"/>
-    <component base="GrPsiliPeris" xOffset="371"/>
-    <component base="GrYpo" xOffset="728"/>
+    <component base="GrSmEta"/>
+    <component base="GrPsiliPeris" xOffset="410"/>
+    <component base="GrYpo" xOffset="823"/>
   </outline>
 </glyph>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmUpsilonWDasiaPeris" format="2">
-  <advance width="1040"/>
+  <advance width="1135"/>
   <unicode hex="1F57"/>
   <outline>
-    <component base="GrSmUpsilon" xOffset="-60"/>
-    <component base="GrDasiaPeris" xOffset="349"/>
+    <component base="GrSmUpsilon"/>
+    <component base="GrDasiaPeris" xOffset="369"/>
   </outline>
 </glyph>

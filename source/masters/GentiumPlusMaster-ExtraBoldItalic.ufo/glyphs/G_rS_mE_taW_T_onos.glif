@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmEtaWTonos" format="2">
-  <advance width="1006"/>
+  <advance width="1123"/>
   <unicode hex="03AE"/>
   <outline>
-    <component base="GrSmEta" xOffset="38"/>
-    <component base="GrTonos" xOffset="496"/>
+    <component base="GrSmEta"/>
+    <component base="GrTonos" xOffset="453"/>
   </outline>
 </glyph>

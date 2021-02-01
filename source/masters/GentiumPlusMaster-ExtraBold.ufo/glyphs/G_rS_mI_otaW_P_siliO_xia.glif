@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmIotaWPsiliOxia" format="2">
-  <advance width="604"/>
+  <advance width="695"/>
   <unicode hex="1F34"/>
   <outline>
-    <component base="GrSmIota" xOffset="-30"/>
-    <component base="GrPsiliOxia" xOffset="-63"/>
+    <component base="GrSmIota"/>
+    <component base="GrPsiliOxia" xOffset="-33"/>
   </outline>
 </glyph>

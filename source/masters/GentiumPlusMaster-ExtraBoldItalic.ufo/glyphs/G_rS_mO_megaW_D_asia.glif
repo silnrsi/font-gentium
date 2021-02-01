@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmOmegaWDasia" format="2">
-  <advance width="1370"/>
+  <advance width="1428"/>
   <unicode hex="1F61"/>
   <outline>
-    <component base="GrDasia" xOffset="547"/>
     <component base="GrSmOmega"/>
+    <component base="GrDasia" xOffset="554" yOffset="-50"/>
   </outline>
 </glyph>

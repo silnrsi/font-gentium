@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmUpsilonWPeris.Por" format="2">
-  <advance width="1040"/>
+  <advance width="1135"/>
   <outline>
-    <component base="GrSmUpsilon" xOffset="-60"/>
-    <component base="GrPeris.Por" xOffset="125" yOffset="25"/>
+    <component base="GrSmUpsilon"/>
+    <component base="GrPeris.Por" xOffset="185"/>
   </outline>
 </glyph>

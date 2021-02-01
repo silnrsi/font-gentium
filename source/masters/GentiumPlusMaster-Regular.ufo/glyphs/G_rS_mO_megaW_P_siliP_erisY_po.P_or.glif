@@ -2,8 +2,8 @@
 <glyph name="GrSmOmegaWPsiliPerisYpo.Por" format="2">
   <advance width="1435"/>
   <outline>
-    <component base="GrPsiliPeris.Por" xOffset="557"/>
     <component base="GrYpo" xOffset="1218"/>
     <component base="GrSmOmega"/>
+    <component base="GrPsiliPeris.Por" xOffset="557"/>
   </outline>
 </glyph>

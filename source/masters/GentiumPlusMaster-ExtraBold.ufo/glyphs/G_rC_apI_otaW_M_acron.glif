@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrCapIotaWMacron" format="2">
-  <advance width="650"/>
+  <advance width="690"/>
   <unicode hex="1FD9"/>
   <outline>
     <component base="GrCapIota"/>
-    <component base="CombMacron.LP" xOffset="840" yOffset="320"/>
+    <component base="CombMacron.LP" xOffset="913" yOffset="320"/>
   </outline>
 </glyph>

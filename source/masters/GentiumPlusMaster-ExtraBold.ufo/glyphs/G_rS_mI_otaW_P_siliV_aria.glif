@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmIotaWPsiliVaria" format="2">
-  <advance width="604"/>
+  <advance width="695"/>
   <unicode hex="1F32"/>
   <outline>
-    <component base="GrSmIota" xOffset="-30"/>
-    <component base="GrPsiliVaria" xOffset="-113"/>
+    <component base="GrSmIota"/>
+    <component base="GrPsiliVaria" xOffset="-83"/>
   </outline>
 </glyph>

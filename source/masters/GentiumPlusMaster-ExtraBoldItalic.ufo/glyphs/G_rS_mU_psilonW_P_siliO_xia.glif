@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmUpsilonWPsiliOxia" format="2">
-  <advance width="965"/>
+  <advance width="1099"/>
   <unicode hex="1F54"/>
   <outline>
-    <component base="GrSmUpsilon" xOffset="-130"/>
-    <component base="GrPsiliOxia" xOffset="181"/>
+    <component base="GrSmUpsilon"/>
+    <component base="GrPsiliOxia" xOffset="280"/>
   </outline>
 </glyph>

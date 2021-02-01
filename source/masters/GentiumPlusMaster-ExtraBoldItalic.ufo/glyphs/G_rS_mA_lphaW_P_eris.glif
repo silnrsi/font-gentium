@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmAlphaWPeris" format="2">
-  <advance width="1022"/>
+  <advance width="1166"/>
   <unicode hex="1FB6"/>
   <outline>
-    <component base="GrSmAlpha" xOffset="-79"/>
-    <component base="GrPeris" xOffset="118" yOffset="25"/>
+    <component base="GrSmAlpha"/>
+    <component base="GrPeris" xOffset="211"/>
   </outline>
 </glyph>

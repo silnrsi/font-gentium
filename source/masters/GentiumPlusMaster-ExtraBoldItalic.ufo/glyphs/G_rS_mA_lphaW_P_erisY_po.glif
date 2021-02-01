@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmAlphaWPerisYpo" format="2">
-  <advance width="1022"/>
+  <advance width="1166"/>
   <unicode hex="1FB7"/>
   <outline>
-    <component base="GrSmAlpha" xOffset="-79"/>
-    <component base="GrPeris" xOffset="118" yOffset="25"/>
-    <component base="GrYpo" xOffset="960"/>
+    <component base="GrSmAlpha"/>
+    <component base="GrPeris" xOffset="211"/>
+    <component base="GrYpo" xOffset="1102"/>
   </outline>
 </glyph>

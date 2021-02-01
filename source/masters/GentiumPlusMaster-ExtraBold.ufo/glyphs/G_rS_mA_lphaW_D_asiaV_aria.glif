@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmAlphaWDasiaVaria" format="2">
-  <advance width="1076"/>
+  <advance width="1226"/>
   <unicode hex="1F03"/>
   <outline>
-    <component base="GrSmAlpha" xOffset="-75"/>
-    <component base="GrDasiaVaria" xOffset="52"/>
+    <component base="GrSmAlpha"/>
+    <component base="GrDasiaVaria" xOffset="127"/>
   </outline>
 </glyph>

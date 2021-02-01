@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmAlphaWDasiaYpo" format="2">
-  <advance width="1022"/>
+  <advance width="1166"/>
   <unicode hex="1F81"/>
   <outline>
-    <component base="GrSmAlpha" xOffset="-79"/>
-    <component base="GrDasia" xOffset="317"/>
-    <component base="GrYpo" xOffset="960"/>
+    <component base="GrSmAlpha"/>
+    <component base="GrDasia" xOffset="404"/>
+    <component base="GrYpo" xOffset="1102"/>
   </outline>
 </glyph>

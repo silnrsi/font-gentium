@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrSmOmegaWPsili" format="2">
-  <advance width="1370"/>
+  <advance width="1428"/>
   <unicode hex="1F60"/>
   <outline>
-    <component base="GrPsili" xOffset="630"/>
     <component base="GrSmOmega"/>
+    <component base="GrPsili" xOffset="597" yOffset="-50"/>
   </outline>
 </glyph>
