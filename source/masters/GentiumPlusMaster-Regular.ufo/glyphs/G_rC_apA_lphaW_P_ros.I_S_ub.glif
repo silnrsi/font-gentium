@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrCapAlphaWPros.ISub" format="2">
-  <advance width="1823"/>
+  <advance width="1219"/>
   <outline>
     <component base="GrCapAlpha"/>
-    <component base="GrPros" xOffset="1219" yOffset="-400"/>
+    <component base="GrYpo" xOffset="1090"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrCapOmegaWPros.ISub" format="2">
-  <advance width="1900"/>
+  <advance width="1296"/>
   <outline>
     <component base="GrCapOmega"/>
-    <component base="GrPros" xOffset="1296" yOffset="-400"/>
+    <component base="GrYpo" xOffset="1138"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>
