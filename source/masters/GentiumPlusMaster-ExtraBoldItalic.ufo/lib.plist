@@ -528,8 +528,15 @@
     <dict>
       <key>400</key>
       <integer>400</integer>
+      <key>800</key>
+      <integer>800</integer>
     </dict>
   </dict>
+  <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
+  <array>
+    <string>/GrTonos/GrOxia/GrVaria/GrDasia/GrDasiaOxia/GrDasiaVaria/GrDasiaPeris/GrPsili/GrPsiliOxia/GrPsiliVaria/GrPsiliPeris/GrDasiaPeris.Por/GrPsiliPeris.Por/Space</string>
+    <string>/GrCapEpsilon/GrCapEta/GrCapIota/GrCapAlpha/GrCapOmicron/GrCapOmega/GrCapRho/GrUpsilonWHookSym/GrCapUpsilon</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
