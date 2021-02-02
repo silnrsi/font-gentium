@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "-----Removing all glyph cell mark colours..."
+psfsetmarkcolors -x source/masters/GentiumPlusMaster-Regular.ufo
+psfsetmarkcolors -x source/masters/GentiumPlusMaster-ExtraBold.ufo
+psfsetmarkcolors -x source/masters/GentiumPlusMaster-Italic.ufo
+psfsetmarkcolors -x source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo
