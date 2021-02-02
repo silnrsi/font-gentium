@@ -532,6 +532,16 @@
       <integer>800</integer>
     </dict>
   </dict>
+  <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
+  <array>
+    <string>/GrTonos/GrOxia/GrVaria/GrPeris/GrDasia/GrDasiaOxia/GrDasiaVaria/GrDasiaPeris/GrPsili/GrPsiliOxia/GrPsiliVaria/GrPsiliPeris/GrDasiaPeris.Por/GrPsiliPeris.Por</string>
+    <string>/GrCapOmicronWTonos/GrCapOmicronWVaria/GrCapOmicronWDasia/GrCapOmicronWDasiaOxia/GrCapOmicronWDasiaVaria/GrCapOmicronWPsili/GrCapOmicronWPsiliOxia/GrCapOmicronWPsiliVaria</string>
+    <string>/GrCapOmegaWTonos/GrCapOmegaWVaria/GrCapOmegaWDasia/GrCapOmegaWDasiaOxia/GrCapOmegaWDasiaVaria/GrCapOmegaWDasiaPeris/GrCapOmegaWPsili/GrCapOmegaWPsiliOxia/GrCapOmegaWPsiliVaria/GrCapOmegaWPsiliPeris</string>
+    <string>/GrCapUpsilonWTonos/GrCapUpsilonWVaria/GrCapUpsilonWDasia/GrCapUpsilonWDasiaOxia/GrCapUpsilonWDasiaVaria/GrCapUpsilonWDasiaPeris</string>
+    <string>/GrCapIota</string>
+    <string>/GrCapEpsilon/GrCapEta/GrCapIota/GrCapAlpha/GrCapOmicron/GrCapOmega/GrCapRho/GrUpsilonWHookSym/GrCapUpsilon</string>
+    <string>/GrCapRho</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
