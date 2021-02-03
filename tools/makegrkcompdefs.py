@@ -14,46 +14,46 @@ argspec = [
 ]
 
 kerns = {
-    "GrCapAlpha": { "R": -230, "B": -230, "I": -230, "X": -230 },
-    "GrCapEpsilon": { "R": 0, "B": 0, "I": 0, "X": 0 },
-    "GrCapEta": { "R": 0, "B": 0, "I": 0, "X": 0 },
-    "GrCapIota": { "R": -20, "B": -20, "I": -20, "X": -20 },
-    "GrCapOmega": { "R": -65, "B": -65, "I": -65, "X": -65 },
-    "GrCapOmicron": { "R": -50, "B": -50, "I": -50, "X": -50 },
-    "GrCapRho": { "R": 0, "B": 0, "I": 0, "X": 0 },
-    "GrCapUpsilon": { "R": 100, "B": 100, "I": 100, "X": 100 },
-    "GrUpsilonWHookSym": { "R": 100, "B": 100, "I": 100, "X": 100 }
+    "GrCapAlpha": { "R": -230, "B": -230, "I": -220, "X": -220 },
+    "GrCapEpsilon": { "R": 0, "B": 0, "I": -33, "X": -33 },
+    "GrCapEta": { "R": 0, "B": 0, "I": -33, "X": -33 },
+    "GrCapIota": { "R": -20, "B": -20, "I": -53, "X": -53 },
+    "GrCapOmega": { "R": -65, "B": -65, "I": -60, "X": -60 },
+    "GrCapOmicron": { "R": -50, "B": -50, "I": -40, "X": -40 },
+    "GrCapRho": { "R": 0, "B": 0, "I": -33, "X": -33 },
+    "GrCapUpsilon": { "R": 100, "B": 100, "I": 60, "X": 60 },
+    "GrUpsilonWHookSym": { "R": 100, "B": 100, "I": 60, "X": 60 }
 }
 
 widths = {
-    "GrTonos": { "R": 461, "B": 510, "I": 461, "X": 461 },
-    "GrOxia": { "R": 461, "B": 510, "I": 461, "X": 461 },
-    "GrVaria": { "R": 454, "B": 505, "I": 454, "X": 454 },
-    "GrDasia": { "R": 383, "B": 448, "I": 383, "X": 383 },
-    "GrDasiaOxia": { "R": 660, "B": 744, "I": 660, "X": 660 },
-    "GrDasiaVaria": { "R": 740, "B": 855, "I": 740, "X": 740 },
-    "GrDasiaPeris": { "R": 383, "B": 488, "I": 383, "X": 383 },
-    "GrPsili": { "R": 383, "B": 453, "I": 383, "X": 383 },
-    "GrPsiliOxia": { "R": 660, "B": 793, "I": 660, "X": 660 },
-    "GrPsiliVaria": { "R": 720, "B": 834, "I": 720, "X": 720 },
-    "GrPsiliPeris": { "R": 383, "B": 488, "I": 383, "X": 383 },
-    "GrDasiaPeris.Por": { "R": 383, "B": 430, "I": 383, "X": 383 },
-    "GrPsiliPeris.Por": { "R": 383, "B": 430, "I": 383, "X": 383 }
+    "GrTonos": { "R": 461, "B": 510, "I": 480, "X": 480 },
+    "GrOxia": { "R": 461, "B": 510, "I": 480, "X": 480 },
+    "GrVaria": { "R": 454, "B": 505, "I": 403, "X": 464 },
+    "GrDasia": { "R": 383, "B": 448, "I": 340, "X": 417 },
+    "GrDasiaOxia": { "R": 660, "B": 744, "I": 580, "X": 730 },
+    "GrDasiaVaria": { "R": 740, "B": 855, "I": 623, "X": 752 },
+    "GrDasiaPeris": { "R": 383, "B": 488, "I": 340, "X": 445 },
+    "GrPsili": { "R": 383, "B": 453, "I": 340, "X": 403 },
+    "GrPsiliOxia": { "R": 660, "B": 793, "I": 580, "X": 739 },
+    "GrPsiliVaria": { "R": 720, "B": 834, "I": 631, "X": 750 },
+    "GrPsiliPeris": { "R": 383, "B": 488, "I": 340, "X": 445 },
+    "GrDasiaPeris.Por": { "R": 383, "B": 430, "I": 340, "X": 389 },
+    "GrPsiliPeris.Por": { "R": 383, "B": 430, "I": 340, "X": 394 }
 }
 
 shifts = {
-    "GrCapOmicronGrTonos": { "R": 150, "B": 150, "I": 150, "X": 150 },
-    "GrCapOmicronGrOxia": { "R": 150, "B": 150, "I": 150, "X": 150 },
-    "GrCapOmicronGrDasiaOxia": { "R": 100, "B": 100, "I": 100, "X": 100 },
-    "GrCapOmicronGrPsiliOxia": { "R": 100, "B": 100, "I": 100, "X": 100 },
-    "GrCapOmegaGrTonos": { "R": 150, "B": 150, "I": 150, "X": 150 },
-    "GrCapOmegaGrOxia": { "R": 150, "B": 150, "I": 150, "X": 150 },
-    "GrCapOmegaGrDasiaOxia": { "R": 100, "B": 100, "I": 100, "X": 100 },
-    "GrCapOmegaGrPsiliOxia": { "R": 100, "B": 100, "I": 100, "X": 100 },
-    "GrCapEtaGrDasiaPeris.Por": { "R": -130, "B": -130, "I": -130, "X": -130 },
-    "GrCapEtaGrPsiliPeris.Por": { "R": -130, "B": -130, "I": -130, "X": -130 },
-    "GrCapIotaGrDasiaPeris.Por": { "R": -110, "B": -110, "I": -110, "X": -110 },
-    "GrCapIotaGrPsiliPeris.Por": { "R": -110, "B": -110, "I": -110, "X": -110 },
+    "GrCapOmicronGrTonos": { "R": 150, "B": 150, "I": 130, "X": 130 },
+    "GrCapOmicronGrOxia": { "R": 150, "B": 150, "I": 130, "X": 130 },
+    "GrCapOmicronGrDasiaOxia": { "R": 100, "B": 100, "I": 80, "X": 80 },
+    "GrCapOmicronGrPsiliOxia": { "R": 100, "B": 100, "I": 80, "X": 80 },
+    "GrCapOmegaGrTonos": { "R": 150, "B": 150, "I": 130, "X": 130 },
+    "GrCapOmegaGrOxia": { "R": 150, "B": 150, "I": 130, "X": 130 },
+    "GrCapOmegaGrDasiaOxia": { "R": 100, "B": 100, "I": 80, "X": 80 },
+    "GrCapOmegaGrPsiliOxia": { "R": 100, "B": 100, "I": 80, "X": 80 },
+    "GrCapEtaGrDasiaPeris.Por": { "R": -130, "B": -130, "I": -120, "X": -120 },
+    "GrCapEtaGrPsiliPeris.Por": { "R": -130, "B": -130, "I": -120, "X": -120 },
+    "GrCapIotaGrDasiaPeris.Por": { "R": -110, "B": -110, "I": -100, "X": -100 },
+    "GrCapIotaGrPsiliPeris.Por": { "R": -110, "B": -110, "I": -100, "X": -100 },
     "GrCapUpsilonGrDasiaPeris.Por": { "R": -60, "B": -60, "I": -60, "X": -60 }
 }
 

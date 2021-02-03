@@ -1,0 +1,140 @@
+GrCapAlphaWDasia = GrCapAlpha + GrDasia@G ^ 197,0 |1F09
+GrCapAlphaWDasiaOxia = GrCapAlpha + GrDasiaOxia@G ^ 510,0 |1F0D
+GrCapAlphaWDasiaOxiaPros = GrCapAlpha + GrDasiaOxia@G & GrPros ^ 510,0 |1F8D
+GrCapAlphaWDasiaPeris = GrCapAlpha + GrDasiaPeris@G ^ 225,0 |1F0F
+GrCapAlphaWDasiaPeris.Por = GrCapAlpha + GrDasiaPeris.Por@G ^ 169,0
+GrCapAlphaWDasiaPerisPros = GrCapAlpha + GrDasiaPeris@G & GrPros ^ 225,0 |1F8F
+GrCapAlphaWDasiaPerisPros.Por = GrCapAlpha + GrDasiaPeris.Por@G & GrPros ^ 169,0
+GrCapAlphaWDasiaPros = GrCapAlpha + GrDasia@G & GrPros ^ 197,0 |1F89
+GrCapAlphaWDasiaVaria = GrCapAlpha + GrDasiaVaria@G ^ 532,0 |1F0B
+GrCapAlphaWDasiaVariaPros = GrCapAlpha + GrDasiaVaria@G & GrPros ^ 532,0 |1F8B
+GrCapAlphaWOxia = GrCapAlpha + GrOxia@G ^ 260,0 |1FBB
+GrCapAlphaWPsili = GrCapAlpha + GrPsili@G ^ 183,0 |1F08
+GrCapAlphaWPsiliOxia = GrCapAlpha + GrPsiliOxia@G ^ 519,0 |1F0C
+GrCapAlphaWPsiliOxiaPros = GrCapAlpha + GrPsiliOxia@G & GrPros ^ 519,0 |1F8C
+GrCapAlphaWPsiliPeris = GrCapAlpha + GrPsiliPeris@G ^ 225,0 |1F0E
+GrCapAlphaWPsiliPeris.Por = GrCapAlpha + GrPsiliPeris.Por@G ^ 174,0
+GrCapAlphaWPsiliPerisPros = GrCapAlpha + GrPsiliPeris@G & GrPros ^ 225,0 |1F8E
+GrCapAlphaWPsiliPerisPros.Por = GrCapAlpha + GrPsiliPeris.Por@G & GrPros ^ 174,0
+GrCapAlphaWPsiliPros = GrCapAlpha + GrPsili@G & GrPros ^ 183,0 |1F88
+GrCapAlphaWPsiliVaria = GrCapAlpha + GrPsiliVaria@G ^ 530,0 |1F0A
+GrCapAlphaWPsiliVariaPros = GrCapAlpha + GrPsiliVaria@G & GrPros ^ 530,0 |1F8A
+GrCapAlphaWTonos = GrCapAlpha + GrTonos@G ^ 260,0 |0386
+GrCapAlphaWVaria = GrCapAlpha + GrVaria@G ^ 244,0 |1FBA
+GrCapEpsilonWDasia = GrCapEpsilon + GrDasia@G ^ 384,0 |1F19
+GrCapEpsilonWDasiaOxia = GrCapEpsilon + GrDasiaOxia@G ^ 697,0 |1F1D
+GrCapEpsilonWDasiaVaria = GrCapEpsilon + GrDasiaVaria@G ^ 719,0 |1F1B
+GrCapEpsilonWOxia = GrCapEpsilon + GrOxia@G ^ 447,0 |1FC9
+GrCapEpsilonWPsili = GrCapEpsilon + GrPsili@G ^ 370,0 |1F18
+GrCapEpsilonWPsiliOxia = GrCapEpsilon + GrPsiliOxia@G ^ 706,0 |1F1C
+GrCapEpsilonWPsiliVaria = GrCapEpsilon + GrPsiliVaria@G ^ 717,0 |1F1A
+GrCapEpsilonWTonos = GrCapEpsilon + GrTonos@G ^ 447,0 |0388
+GrCapEpsilonWVaria = GrCapEpsilon + GrVaria@G ^ 431,0 |1FC8
+GrCapEtaWDasia = GrCapEta + GrDasia@G ^ 384,0 |1F29
+GrCapEtaWDasiaOxia = GrCapEta + GrDasiaOxia@G ^ 697,0 |1F2D
+GrCapEtaWDasiaOxiaPros = GrCapEta + GrDasiaOxia@G & GrPros ^ 697,0 |1F9D
+GrCapEtaWDasiaPeris = GrCapEta + GrDasiaPeris@G ^ 412,0 |1F2F
+GrCapEtaWDasiaPeris.Por = GrCapEta + GrDasiaPeris.Por@G[shift=-120,0] ^ 476,0
+GrCapEtaWDasiaPerisPros = GrCapEta + GrDasiaPeris@G & GrPros ^ 412,0 |1F9F
+GrCapEtaWDasiaPerisPros.Por = GrCapEta + GrDasiaPeris.Por@G[shift=-120,0] & GrPros ^ 476,0
+GrCapEtaWDasiaPros = GrCapEta + GrDasia@G & GrPros ^ 384,0 |1F99
+GrCapEtaWDasiaVaria = GrCapEta + GrDasiaVaria@G ^ 719,0 |1F2B
+GrCapEtaWDasiaVariaPros = GrCapEta + GrDasiaVaria@G & GrPros ^ 719,0 |1F9B
+GrCapEtaWOxia = GrCapEta + GrOxia@G ^ 447,0 |1FCB
+GrCapEtaWPsili = GrCapEta + GrPsili@G ^ 370,0 |1F28
+GrCapEtaWPsiliOxia = GrCapEta + GrPsiliOxia@G ^ 706,0 |1F2C
+GrCapEtaWPsiliOxiaPros = GrCapEta + GrPsiliOxia@G & GrPros ^ 706,0 |1F9C
+GrCapEtaWPsiliPeris = GrCapEta + GrPsiliPeris@G ^ 412,0 |1F2E
+GrCapEtaWPsiliPeris.Por = GrCapEta + GrPsiliPeris.Por@G[shift=-120,0] ^ 481,0
+GrCapEtaWPsiliPerisPros = GrCapEta + GrPsiliPeris@G & GrPros ^ 412,0 |1F9E
+GrCapEtaWPsiliPerisPros.Por = GrCapEta + GrPsiliPeris.Por@G[shift=-120,0] & GrPros ^ 481,0
+GrCapEtaWPsiliPros = GrCapEta + GrPsili@G & GrPros ^ 370,0 |1F98
+GrCapEtaWPsiliVaria = GrCapEta + GrPsiliVaria@G ^ 717,0 |1F2A
+GrCapEtaWPsiliVariaPros = GrCapEta + GrPsiliVaria@G & GrPros ^ 717,0 |1F9A
+GrCapEtaWTonos = GrCapEta + GrTonos@G ^ 447,0 |0389
+GrCapEtaWVaria = GrCapEta + GrVaria@G ^ 431,0 |1FCA
+GrCapIotaWDasia = GrCapIota + GrDasia@G ^ 364,0 |1F39
+GrCapIotaWDasiaOxia = GrCapIota + GrDasiaOxia@G ^ 677,0 |1F3D
+GrCapIotaWDasiaPeris = GrCapIota + GrDasiaPeris@G ^ 392,0 |1F3F
+GrCapIotaWDasiaPeris.Por = GrCapIota + GrDasiaPeris.Por@G[shift=-100,0] ^ 436,0
+GrCapIotaWDasiaVaria = GrCapIota + GrDasiaVaria@G ^ 699,0 |1F3B
+GrCapIotaWOxia = GrCapIota + GrOxia@G ^ 427,0 |1FDB
+GrCapIotaWPsili = GrCapIota + GrPsili@G ^ 350,0 |1F38
+GrCapIotaWPsiliOxia = GrCapIota + GrPsiliOxia@G ^ 686,0 |1F3C
+GrCapIotaWPsiliPeris = GrCapIota + GrPsiliPeris@G ^ 392,0 |1F3E
+GrCapIotaWPsiliPeris.Por = GrCapIota + GrPsiliPeris.Por@G[shift=-100,0] ^ 441,0
+GrCapIotaWPsiliVaria = GrCapIota + GrPsiliVaria@G ^ 697,0 |1F3A
+GrCapIotaWTonos = GrCapIota + GrTonos@G ^ 427,0 |038A
+GrCapIotaWVaria = GrCapIota + GrVaria@G ^ 411,0 |1FDA
+GrCapOmegaWDasia = GrCapOmega + GrDasia@G ^ 357,0 |1F69
+GrCapOmegaWDasiaOxia = GrCapOmega + GrDasiaOxia@G[shift=80,0] ^ 590,0 |1F6D
+GrCapOmegaWDasiaOxiaPros = GrCapOmega + GrDasiaOxia@G[shift=80,0] & GrPros ^ 590,0 |1FAD
+GrCapOmegaWDasiaPeris = GrCapOmega + GrDasiaPeris@G ^ 385,0 |1F6F
+GrCapOmegaWDasiaPeris.Por = GrCapOmega + GrDasiaPeris.Por@G ^ 329,0
+GrCapOmegaWDasiaPerisPros = GrCapOmega + GrDasiaPeris@G & GrPros ^ 385,0 |1FAF
+GrCapOmegaWDasiaPerisPros.Por = GrCapOmega + GrDasiaPeris.Por@G & GrPros ^ 329,0
+GrCapOmegaWDasiaPros = GrCapOmega + GrDasia@G & GrPros ^ 357,0 |1FA9
+GrCapOmegaWDasiaVaria = GrCapOmega + GrDasiaVaria@G ^ 692,0 |1F6B
+GrCapOmegaWDasiaVariaPros = GrCapOmega + GrDasiaVaria@G & GrPros ^ 692,0 |1FAB
+GrCapOmegaWOxia = GrCapOmega + GrOxia@G[shift=130,0] ^ 290,0 |1FFB
+GrCapOmegaWPsili = GrCapOmega + GrPsili@G ^ 343,0 |1F68
+GrCapOmegaWPsiliOxia = GrCapOmega + GrPsiliOxia@G[shift=80,0] ^ 599,0 |1F6C
+GrCapOmegaWPsiliOxiaPros = GrCapOmega + GrPsiliOxia@G[shift=80,0] & GrPros ^ 599,0 |1FAC
+GrCapOmegaWPsiliPeris = GrCapOmega + GrPsiliPeris@G ^ 385,0 |1F6E
+GrCapOmegaWPsiliPeris.Por = GrCapOmega + GrPsiliPeris.Por@G ^ 334,0
+GrCapOmegaWPsiliPerisPros = GrCapOmega + GrPsiliPeris@G & GrPros ^ 385,0 |1FAE
+GrCapOmegaWPsiliPerisPros.Por = GrCapOmega + GrPsiliPeris.Por@G & GrPros ^ 334,0
+GrCapOmegaWPsiliPros = GrCapOmega + GrPsili@G & GrPros ^ 343,0 |1FA8
+GrCapOmegaWPsiliVaria = GrCapOmega + GrPsiliVaria@G ^ 690,0 |1F6A
+GrCapOmegaWPsiliVariaPros = GrCapOmega + GrPsiliVaria@G & GrPros ^ 690,0 |1FAA
+GrCapOmegaWTonos = GrCapOmega + GrTonos@G[shift=130,0] ^ 290,0 |038F
+GrCapOmegaWVaria = GrCapOmega + GrVaria@G ^ 404,0 |1FFA
+GrCapOmicronWDasia = GrCapOmicron + GrDasia@G ^ 377,0 |1F49
+GrCapOmicronWDasiaOxia = GrCapOmicron + GrDasiaOxia@G[shift=80,0] ^ 610,0 |1F4D
+GrCapOmicronWDasiaVaria = GrCapOmicron + GrDasiaVaria@G ^ 712,0 |1F4B
+GrCapOmicronWOxia = GrCapOmicron + GrOxia@G[shift=130,0] ^ 310,0 |1FF9
+GrCapOmicronWPsili = GrCapOmicron + GrPsili@G ^ 363,0 |1F48
+GrCapOmicronWPsiliOxia = GrCapOmicron + GrPsiliOxia@G[shift=80,0] ^ 619,0 |1F4C
+GrCapOmicronWPsiliVaria = GrCapOmicron + GrPsiliVaria@G ^ 710,0 |1F4A
+GrCapOmicronWTonos = GrCapOmicron + GrTonos@G[shift=130,0] ^ 310,0 |038C
+GrCapOmicronWVaria = GrCapOmicron + GrVaria@G ^ 424,0 |1FF8
+GrCapRhoWDasia = GrCapRho + GrDasia@G ^ 384,0 |1FEC
+GrCapUpsilonWDasia = GrCapUpsilon + GrDasia@G ^ 477,0 |1F59
+GrCapUpsilonWDasiaOxia = GrCapUpsilon + GrDasiaOxia@G ^ 790,0 |1F5D
+GrCapUpsilonWDasiaPeris = GrCapUpsilon + GrDasiaPeris@G ^ 505,0 |1F5F
+GrCapUpsilonWDasiaPeris.Por = GrCapUpsilon + GrDasiaPeris.Por@G[shift=-60,0] ^ 509,0
+GrCapUpsilonWDasiaVaria = GrCapUpsilon + GrDasiaVaria@G ^ 812,0 |1F5B
+GrCapUpsilonWOxia = GrCapUpsilon + GrOxia@G ^ 540,0 |1FEB
+GrCapUpsilonWTonos = GrCapUpsilon + GrTonos@G ^ 540,0 |038E
+GrCapUpsilonWVaria = GrCapUpsilon + GrVaria@G ^ 524,0 |1FEA
+GrUpsilonWAcuteHookSym = GrUpsilonWHookSym + GrTonos@G ^ 540,0 |03D3
+GrCapAlphaWDasiaOxiaPros.ISub = GrCapAlpha + GrDasiaOxia@G + GrYpo@L ^ 510,0
+GrCapAlphaWDasiaPerisPros.ISub = GrCapAlpha + GrDasiaPeris@G + GrYpo@L ^ 225,0
+GrCapAlphaWDasiaPerisPros.Por.ISub = GrCapAlpha + GrDasiaPeris.Por@G + GrYpo@L ^ 169,0
+GrCapAlphaWDasiaPros.ISub = GrCapAlpha + GrDasia@G + GrYpo@L ^ 197,0
+GrCapAlphaWDasiaVariaPros.ISub = GrCapAlpha + GrDasiaVaria@G + GrYpo@L ^ 532,0
+GrCapAlphaWPsiliOxiaPros.ISub = GrCapAlpha + GrPsiliOxia@G + GrYpo@L ^ 519,0
+GrCapAlphaWPsiliPerisPros.ISub = GrCapAlpha + GrPsiliPeris@G + GrYpo@L ^ 225,0
+GrCapAlphaWPsiliPerisPros.Por.ISub = GrCapAlpha + GrPsiliPeris.Por@G + GrYpo@L ^ 174,0
+GrCapAlphaWPsiliPros.ISub = GrCapAlpha + GrPsili@G + GrYpo@L ^ 183,0
+GrCapAlphaWPsiliVariaPros.ISub = GrCapAlpha + GrPsiliVaria@G + GrYpo@L ^ 530,0
+GrCapEtaWDasiaOxiaPros.ISub = GrCapEta + GrDasiaOxia@G + GrYpo@L ^ 697,0
+GrCapEtaWDasiaPerisPros.ISub = GrCapEta + GrDasiaPeris@G + GrYpo@L ^ 412,0
+GrCapEtaWDasiaPerisPros.Por.ISub = GrCapEta + GrDasiaPeris.Por@G[shift=-120,0] + GrYpo@L ^ 476,0
+GrCapEtaWDasiaPros.ISub = GrCapEta + GrDasia@G + GrYpo@L ^ 384,0
+GrCapEtaWDasiaVariaPros.ISub = GrCapEta + GrDasiaVaria@G + GrYpo@L ^ 719,0
+GrCapEtaWPsiliOxiaPros.ISub = GrCapEta + GrPsiliOxia@G + GrYpo@L ^ 706,0
+GrCapEtaWPsiliPerisPros.ISub = GrCapEta + GrPsiliPeris@G + GrYpo@L ^ 412,0
+GrCapEtaWPsiliPerisPros.Por.ISub = GrCapEta + GrPsiliPeris.Por@G[shift=-120,0] + GrYpo@L ^ 481,0
+GrCapEtaWPsiliPros.ISub = GrCapEta + GrPsili@G + GrYpo@L ^ 370,0
+GrCapEtaWPsiliVariaPros.ISub = GrCapEta + GrPsiliVaria@G + GrYpo@L ^ 717,0
+GrCapOmegaWDasiaOxiaPros.ISub = GrCapOmega + GrDasiaOxia@G[shift=80,0] + GrYpo@L ^ 590,0
+GrCapOmegaWDasiaPerisPros.ISub = GrCapOmega + GrDasiaPeris@G + GrYpo@L ^ 385,0
+GrCapOmegaWDasiaPerisPros.Por.ISub = GrCapOmega + GrDasiaPeris.Por@G + GrYpo@L ^ 329,0
+GrCapOmegaWDasiaPros.ISub = GrCapOmega + GrDasia@G + GrYpo@L ^ 357,0
+GrCapOmegaWDasiaVariaPros.ISub = GrCapOmega + GrDasiaVaria@G + GrYpo@L ^ 692,0
+GrCapOmegaWPsiliOxiaPros.ISub = GrCapOmega + GrPsiliOxia@G[shift=80,0] + GrYpo@L ^ 599,0
+GrCapOmegaWPsiliPerisPros.ISub = GrCapOmega + GrPsiliPeris@G + GrYpo@L ^ 385,0
+GrCapOmegaWPsiliPerisPros.Por.ISub = GrCapOmega + GrPsiliPeris.Por@G + GrYpo@L ^ 334,0
+GrCapOmegaWPsiliPros.ISub = GrCapOmega + GrPsili@G + GrYpo@L ^ 343,0
+GrCapOmegaWPsiliVariaPros.ISub = GrCapOmega + GrPsiliVaria@G + GrYpo@L ^ 690,0
