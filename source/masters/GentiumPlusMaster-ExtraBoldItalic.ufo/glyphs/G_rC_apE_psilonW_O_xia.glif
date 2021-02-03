@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrCapEpsilonWOxia" format="2">
-  <advance width="1393"/>
+  <advance width="1477"/>
   <unicode hex="1FC9"/>
   <outline>
     <component base="GrCapEpsilon" xOffset="447"/>
-    <component base="GrOxia" yOffset="-100"/>
+    <component base="GrOxia" xOffset="18" yOffset="-100"/>
   </outline>
 </glyph>

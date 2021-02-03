@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrCapEpsilonWPsili" format="2">
-  <advance width="1253"/>
+  <advance width="1400"/>
   <unicode hex="1F18"/>
   <outline>
-    <component base="GrCapEpsilon" xOffset="307"/>
-    <component base="GrPsili" xOffset="-20" yOffset="-100"/>
+    <component base="GrCapEpsilon" xOffset="370"/>
+    <component base="GrPsili" xOffset="1" yOffset="-100"/>
   </outline>
 </glyph>

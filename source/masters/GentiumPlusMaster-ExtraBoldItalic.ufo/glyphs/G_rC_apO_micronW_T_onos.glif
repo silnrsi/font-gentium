@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrCapOmicronWTonos" format="2">
-  <advance width="1445"/>
+  <advance width="1501"/>
   <unicode hex="038C"/>
   <outline>
     <component base="GrCapOmicron" xOffset="310"/>
-    <component base="GrTonos" yOffset="-100"/>
+    <component base="GrTonos" xOffset="18" yOffset="-100"/>
   </outline>
 </glyph>
