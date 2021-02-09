@@ -2,14 +2,14 @@
 <glyph name="LtnSmODotAbv" format="2">
   <advance width="924"/>
   <unicode hex="022F"/>
-  <anchor x="430" y="0" name="H"/>
-  <anchor x="404" y="-100" name="L"/>
-  <anchor x="479" y="0" name="O"/>
-  <anchor x="970" y="870" name="R"/>
-  <anchor x="604" y="1353" name="U"/>
+  <anchor x="405" y="0" name="H"/>
+  <anchor x="379" y="-100" name="L"/>
+  <anchor x="454" y="0" name="O"/>
+  <anchor x="945" y="870" name="R"/>
+  <anchor x="579" y="1353" name="U"/>
   <outline>
     <component base="LtnSmO"/>
-    <component base="CombDotAbv" xOffset="977"/>
+    <component base="CombDotAbv" xOffset="952"/>
   </outline>
   <lib>
     <dict>

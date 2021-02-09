@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmOCircumTilde.VN" format="2">
   <advance width="924"/>
-  <anchor x="430" y="0" name="H"/>
-  <anchor x="404" y="-100" name="L"/>
-  <anchor x="479" y="0" name="O"/>
-  <anchor x="970" y="870" name="R"/>
-  <anchor x="677" y="1733" name="U"/>
+  <anchor x="405" y="0" name="H"/>
+  <anchor x="379" y="-100" name="L"/>
+  <anchor x="454" y="0" name="O"/>
+  <anchor x="945" y="870" name="R"/>
+  <anchor x="652" y="1733" name="U"/>
   <outline>
     <component base="LtnSmO"/>
-    <component base="CombCircumTilde.VN" xOffset="940"/>
+    <component base="CombCircumTilde.VN" xOffset="915"/>
   </outline>
   <lib>
     <dict>

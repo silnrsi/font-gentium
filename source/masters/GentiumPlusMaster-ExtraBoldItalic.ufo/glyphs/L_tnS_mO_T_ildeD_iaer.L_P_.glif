@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmOTildeDiaer.LP" format="2">
   <advance width="924"/>
-  <anchor x="430" y="0" name="H"/>
-  <anchor x="404" y="-100" name="L"/>
-  <anchor x="479" y="0" name="O"/>
-  <anchor x="970" y="870" name="R"/>
-  <anchor x="643" y="1640" name="U"/>
+  <anchor x="405" y="0" name="H"/>
+  <anchor x="379" y="-100" name="L"/>
+  <anchor x="454" y="0" name="O"/>
+  <anchor x="945" y="870" name="R"/>
+  <anchor x="618" y="1640" name="U"/>
   <outline>
     <component base="LtnSmO"/>
-    <component base="CombTilde.LP" xOffset="910"/>
-    <component base="CombDiaer.LP" xOffset="987" yOffset="320"/>
+    <component base="CombTilde.LP" xOffset="885"/>
+    <component base="CombDiaer.LP" xOffset="962" yOffset="320"/>
   </outline>
   <lib>
     <dict>

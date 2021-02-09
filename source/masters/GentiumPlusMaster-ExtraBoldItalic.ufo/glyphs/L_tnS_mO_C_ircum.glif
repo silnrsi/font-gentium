@@ -2,14 +2,14 @@
 <glyph name="LtnSmOCircum" format="2">
   <advance width="924"/>
   <unicode hex="00F4"/>
-  <anchor x="430" y="0" name="H"/>
-  <anchor x="404" y="-100" name="L"/>
-  <anchor x="479" y="0" name="O"/>
-  <anchor x="970" y="870" name="R"/>
-  <anchor x="628" y="1490" name="U"/>
+  <anchor x="405" y="0" name="H"/>
+  <anchor x="379" y="-100" name="L"/>
+  <anchor x="454" y="0" name="O"/>
+  <anchor x="945" y="870" name="R"/>
+  <anchor x="603" y="1490" name="U"/>
   <outline>
     <component base="LtnSmO"/>
-    <component base="CombCircum" xOffset="940"/>
+    <component base="CombCircum" xOffset="915"/>
   </outline>
   <lib>
     <dict>
