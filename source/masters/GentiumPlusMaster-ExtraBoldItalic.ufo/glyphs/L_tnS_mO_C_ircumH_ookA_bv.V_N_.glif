@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmOCircumHookAbv.VN" format="2">
   <advance width="924"/>
-  <anchor x="405" y="0" name="H"/>
-  <anchor x="379" y="-100" name="L"/>
-  <anchor x="454" y="0" name="O"/>
-  <anchor x="945" y="870" name="R"/>
+  <anchor x="410" y="0" name="H"/>
+  <anchor x="384" y="-100" name="L"/>
+  <anchor x="459" y="0" name="O"/>
+  <anchor x="950" y="870" name="R"/>
   <outline>
     <component base="LtnSmO"/>
-    <component base="CombCircumHook.VN" xOffset="915"/>
+    <component base="CombCircumHook.VN" xOffset="920"/>
   </outline>
   <lib>
     <dict>

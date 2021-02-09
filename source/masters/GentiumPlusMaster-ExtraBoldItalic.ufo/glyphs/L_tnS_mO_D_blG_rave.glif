@@ -2,14 +2,14 @@
 <glyph name="LtnSmODblGrave" format="2">
   <advance width="924"/>
   <unicode hex="020D"/>
-  <anchor x="405" y="0" name="H"/>
-  <anchor x="379" y="-100" name="L"/>
-  <anchor x="454" y="0" name="O"/>
-  <anchor x="945" y="870" name="R"/>
-  <anchor x="617" y="1496" name="U"/>
+  <anchor x="410" y="0" name="H"/>
+  <anchor x="384" y="-100" name="L"/>
+  <anchor x="459" y="0" name="O"/>
+  <anchor x="950" y="870" name="R"/>
+  <anchor x="622" y="1496" name="U"/>
   <outline>
     <component base="LtnSmO"/>
-    <component base="CombDblGrave" xOffset="922"/>
+    <component base="CombDblGrave" xOffset="927"/>
   </outline>
   <lib>
     <dict>

@@ -2,11 +2,11 @@
 <glyph name="CySmODiaer" format="2">
   <advance width="924"/>
   <unicode hex="04E7"/>
-  <anchor x="404" y="-100" name="L"/>
-  <anchor x="607" y="1370" name="U"/>
+  <anchor x="384" y="-100" name="L"/>
+  <anchor x="587" y="1370" name="U"/>
   <outline>
     <component base="CySmO"/>
-    <component base="CombDiaer" xOffset="943"/>
+    <component base="CombDiaer" xOffset="923"/>
   </outline>
   <lib>
     <dict>

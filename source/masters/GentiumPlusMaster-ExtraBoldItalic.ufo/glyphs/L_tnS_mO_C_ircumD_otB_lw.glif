@@ -2,15 +2,15 @@
 <glyph name="LtnSmOCircumDotBlw" format="2">
   <advance width="924"/>
   <unicode hex="1ED9"/>
-  <anchor x="405" y="0" name="H"/>
-  <anchor x="310" y="-600" name="L"/>
-  <anchor x="454" y="0" name="O"/>
-  <anchor x="945" y="870" name="R"/>
-  <anchor x="603" y="1490" name="U"/>
+  <anchor x="410" y="0" name="H"/>
+  <anchor x="315" y="-600" name="L"/>
+  <anchor x="459" y="0" name="O"/>
+  <anchor x="950" y="870" name="R"/>
+  <anchor x="608" y="1490" name="U"/>
   <outline>
     <component base="LtnSmO"/>
-    <component base="CombDotBlw" xOffset="914"/>
-    <component base="CombCircum" xOffset="915"/>
+    <component base="CombDotBlw" xOffset="919"/>
+    <component base="CombCircum" xOffset="920"/>
   </outline>
   <lib>
     <dict>

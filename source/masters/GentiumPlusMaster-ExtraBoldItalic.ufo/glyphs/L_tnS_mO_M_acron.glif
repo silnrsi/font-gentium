@@ -2,14 +2,14 @@
 <glyph name="LtnSmOMacron" format="2">
   <advance width="924"/>
   <unicode hex="014D"/>
-  <anchor x="405" y="0" name="H"/>
-  <anchor x="379" y="-100" name="L"/>
-  <anchor x="454" y="0" name="O"/>
-  <anchor x="945" y="870" name="R"/>
-  <anchor x="582" y="1370" name="U"/>
+  <anchor x="410" y="0" name="H"/>
+  <anchor x="384" y="-100" name="L"/>
+  <anchor x="459" y="0" name="O"/>
+  <anchor x="950" y="870" name="R"/>
+  <anchor x="587" y="1370" name="U"/>
   <outline>
     <component base="LtnSmO"/>
-    <component base="CombMacron" xOffset="928"/>
+    <component base="CombMacron" xOffset="933"/>
   </outline>
   <lib>
     <dict>
