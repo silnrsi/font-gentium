@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmLCaron" format="2">
-  <advance width="737"/>
+  <advance width="920"/>
   <unicode hex="013E"/>
   <anchor x="180" y="0" name="H"/>
   <anchor x="158" y="-100" name="L"/>
   <anchor x="397" y="1640" name="U"/>
   <outline>
     <component base="LtnSmL"/>
-    <component base="CombCommaAbvRt" xOffset="478"/>
+    <component base="CombCommaAbvRt" xOffset="558"/>
   </outline>
 </glyph>

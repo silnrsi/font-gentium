@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombUpTackAbv" format="2">
   <unicode hex="1DF5"/>
-  <anchor x="-515" y="-600" name="L"/>
-  <anchor x="-515" y="-100" name="_L"/>
+  <anchor x="-515" y="1550" name="U"/>
+  <anchor x="-515" y="1050" name="_U"/>
   <outline>
-    <component base="CombUpTackBlw"/>
+    <contour>
+      <point x="-332" y="1157" type="line"/>
+      <point x="-320" y="1179"/>
+      <point x="-312" y="1194"/>
+      <point x="-305" y="1220" type="curve"/>
+      <point x="-330" y="1247" type="line"/>
+      <point x="-696" y="1247" type="line"/>
+      <point x="-710" y="1220"/>
+      <point x="-717" y="1208"/>
+      <point x="-725" y="1181" type="curve"/>
+      <point x="-702" y="1157" type="line"/>
+    </contour>
+    <contour>
+      <point x="-535" y="1177" type="line"/>
+      <point x="-509" y="1185"/>
+      <point x="-497" y="1192"/>
+      <point x="-470" y="1208" type="curve"/>
+      <point x="-470" y="1483" type="line"/>
+      <point x="-497" y="1507" type="line"/>
+      <point x="-523" y="1499"/>
+      <point x="-537" y="1490"/>
+      <point x="-560" y="1477" type="curve"/>
+      <point x="-560" y="1199" type="line"/>
+    </contour>
   </outline>
 </glyph>
