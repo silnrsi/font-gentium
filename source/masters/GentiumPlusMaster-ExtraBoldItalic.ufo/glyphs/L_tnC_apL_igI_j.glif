@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapLigIj" format="2">
-  <advance width="1151"/>
+  <advance width="1310"/>
   <unicode hex="0132"/>
-  <anchor x="202" y="0" name="H"/>
-  <anchor x="731" y="-600" name="L"/>
-  <anchor x="225" y="0" name="O"/>
-  <anchor x="1003" y="1320" name="U"/>
+  <anchor x="269" y="0" name="H"/>
+  <anchor x="857" y="-600" name="L"/>
+  <anchor x="324" y="0" name="O"/>
+  <anchor x="648" y="1072" name="R"/>
+  <anchor x="1121" y="1320" name="U"/>
   <outline>
     <component base="LtnCapI"/>
-    <component base="LtnCapJ" xOffset="573"/>
+    <component base="LtnCapJ" xOffset="652"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

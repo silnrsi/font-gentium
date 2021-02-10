@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmLj" format="2">
-  <advance width="1085"/>
+  <advance width="1245"/>
   <unicode hex="01C9"/>
-  <anchor x="265" y="0" name="H"/>
-  <anchor x="835" y="-600" name="L"/>
-  <anchor x="836" y="1049" name="U"/>
+  <anchor x="325" y="0" name="H"/>
+  <anchor x="955" y="-600" name="L"/>
+  <anchor x="615" y="900" name="R"/>
+  <anchor x="955" y="1050" name="U"/>
   <outline>
     <component base="LtnSmL"/>
-    <component base="LtnSmJ" xOffset="555"/>
+    <component base="LtnSmJ" xOffset="635"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

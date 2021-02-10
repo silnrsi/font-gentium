@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapLj" format="2">
-  <advance width="1496"/>
+  <advance width="1676"/>
   <unicode hex="01C7"/>
-  <anchor x="210" y="0" name="H"/>
-  <anchor x="1080" y="-600" name="L"/>
-  <anchor x="1348" y="1320" name="U"/>
+  <anchor x="480" y="0" name="H"/>
+  <anchor x="1223" y="-600" name="L"/>
+  <anchor x="744" y="870" name="R"/>
+  <anchor x="1487" y="1320" name="U"/>
   <outline>
     <component base="LtnCapL"/>
-    <component base="LtnCapJ" xOffset="918"/>
+    <component base="LtnCapJ" xOffset="1018"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

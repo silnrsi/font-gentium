@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmLj.LP" format="2">
   <advance width="983"/>
+  <anchor x="180" y="0" name="H"/>
   <anchor x="589" y="-600" name="L"/>
-  <anchor x="705" y="870" name="R"/>
+  <anchor x="484" y="870" name="R"/>
   <anchor x="808" y="1000" name="U"/>
   <outline>
     <component base="LtnSmL"/>
     <component base="LtnSmJ.LP" xOffset="481"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

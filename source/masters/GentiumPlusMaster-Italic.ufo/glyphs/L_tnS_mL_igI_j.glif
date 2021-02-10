@@ -2,12 +2,19 @@
 <glyph name="LtnSmLigIj" format="2">
   <advance width="1006"/>
   <unicode hex="0133"/>
-  <anchor x="188" y="0" name="H"/>
+  <anchor x="210" y="0" name="H"/>
   <anchor x="612" y="-600" name="L"/>
-  <anchor x="278" y="0" name="O"/>
-  <anchor x="655" y="1410" name="U"/>
+  <anchor x="275" y="0" name="O"/>
+  <anchor x="504" y="870" name="R"/>
+  <anchor x="831" y="1000" name="U"/>
   <outline>
     <component base="LtnSmI"/>
     <component base="LtnSmJ" xOffset="504"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapDSmZCaron.LP" format="2">
-  <advance width="1894"/>
-  <anchor x="1465" y="-100" name="L"/>
-  <anchor x="1660" y="1320" name="U"/>
+  <advance width="2014"/>
+  <anchor x="1581" y="0" name="H"/>
+  <anchor x="1581" y="-100" name="L"/>
+  <anchor x="1781" y="1348" name="U"/>
   <outline>
-    <component base="LtnCapD" xOffset="-77"/>
-    <component base="LtnSmZ" xOffset="956"/>
-    <component base="CombCaron.LP" xOffset="1973"/>
+    <component base="LtnCapD"/>
+    <component base="LtnSmZ" xOffset="1238"/>
+    <component base="CombCaron.LP" xOffset="2122"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
