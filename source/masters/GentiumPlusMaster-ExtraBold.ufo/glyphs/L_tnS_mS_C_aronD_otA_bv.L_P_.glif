@@ -3,11 +3,11 @@
   <advance width="880"/>
   <anchor x="424" y="0" name="H"/>
   <anchor x="439" y="-100" name="L"/>
-  <anchor x="439" y="1690" name="U"/>
+  <anchor x="439" y="1770" name="U"/>
   <outline>
     <component base="LtnSmS"/>
     <component base="CombCaron.LP" xOffset="986"/>
-    <component base="CombDotAbv.LP" xOffset="987" yOffset="320"/>
+    <component base="CombDotAbv.LP" xOffset="987" yOffset="400"/>
   </outline>
   <lib>
     <dict>

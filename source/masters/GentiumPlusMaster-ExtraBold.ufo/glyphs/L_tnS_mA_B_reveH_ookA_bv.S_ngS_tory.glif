@@ -5,11 +5,11 @@
   <anchor x="590" y="-100" name="L"/>
   <anchor x="850" y="0" name="O"/>
   <anchor x="1164" y="900" name="R"/>
-  <anchor x="590" y="1690" name="U"/>
+  <anchor x="590" y="1740" name="U"/>
   <outline>
     <component base="LtnSmA.SngStory"/>
     <component base="CombBreve" xOffset="1138"/>
-    <component base="CombHookAbv" xOffset="1141" yOffset="320"/>
+    <component base="CombHookAbv" xOffset="1141" yOffset="370"/>
   </outline>
   <lib>
     <dict>

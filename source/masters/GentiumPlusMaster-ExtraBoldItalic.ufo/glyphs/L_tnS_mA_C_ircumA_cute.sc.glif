@@ -4,11 +4,11 @@
   <anchor x="533" y="0" name="H"/>
   <anchor x="522" y="-83" name="L"/>
   <anchor x="852" y="0" name="O"/>
-  <anchor x="809" y="1950" name="U"/>
+  <anchor x="809" y="2100" name="U"/>
   <outline>
     <component base="LtnSmA.sc"/>
     <component base="CombCircum" xOffset="1070" yOffset="90"/>
-    <component base="CombAcute" xOffset="1144" yOffset="580"/>
+    <component base="CombAcute" xOffset="1144" yOffset="600"/>
   </outline>
   <lib>
     <dict>

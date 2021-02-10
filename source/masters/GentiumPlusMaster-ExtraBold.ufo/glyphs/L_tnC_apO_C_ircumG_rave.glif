@@ -6,11 +6,11 @@
   <anchor x="646" y="-100" name="L"/>
   <anchor x="712" y="0" name="O"/>
   <anchor x="1256" y="1100" name="R"/>
-  <anchor x="646" y="2090" name="U"/>
+  <anchor x="646" y="2230" name="U"/>
   <outline>
     <component base="LtnCapO"/>
     <component base="CombCircum.LP" xOffset="1193" yOffset="320"/>
-    <component base="CombGrave.LP" xOffset="1112" yOffset="720"/>
+    <component base="CombGrave.LP" xOffset="1112" yOffset="780"/>
   </outline>
   <lib>
     <dict>
