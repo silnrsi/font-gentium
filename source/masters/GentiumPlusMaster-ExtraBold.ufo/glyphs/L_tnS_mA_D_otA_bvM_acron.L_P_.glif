@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmADotAbvMacron.LP" format="2">
-  <advance width="940"/>
+  <advance width="1050"/>
   <anchor x="460" y="-100" name="L"/>
   <anchor x="715" y="0" name="O"/>
   <anchor x="940" y="900" name="R"/>
@@ -8,7 +8,7 @@
   <anchor x="480" y="1370" name="_U"/>
   <outline>
     <component base="LtnSmA" xOffset="-30"/>
-    <component base="CombDotAbv.LP" xOffset="995"/>
-    <component base="CombMacron.LP" xOffset="1005" yOffset="320"/>
+    <component base="CombDotAbv.LP" xOffset="1035"/>
+    <component base="CombMacron.LP" xOffset="1055" yOffset="320"/>
   </outline>
 </glyph>

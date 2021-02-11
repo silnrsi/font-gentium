@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmOOgonekMacron.RetroHook" format="2">
-  <advance width="1030"/>
+  <advance width="1090"/>
   <anchor x="535" y="0" name="H"/>
   <anchor x="544" y="-600" name="L"/>
   <anchor x="575" y="0" name="O"/>
@@ -8,6 +8,6 @@
   <anchor x="535" y="1410" name="U"/>
   <outline>
     <component base="LtnSmOOgonek.RetroHook"/>
-    <component base="CombMacron" xOffset="1040"/>
+    <component base="CombMacron" xOffset="1100"/>
   </outline>
 </glyph>

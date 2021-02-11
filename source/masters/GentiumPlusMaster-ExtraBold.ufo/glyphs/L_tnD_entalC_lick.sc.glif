@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnDentalClick.sc" format="2">
-  <advance width="496"/>
-  <anchor x="253" y="-496" name="L"/>
-  <anchor x="250" y="1396" name="U"/>
+  <advance width="520"/>
+  <anchor x="261" y="-76" name="L"/>
+  <anchor x="261" y="1145" name="U"/>
   <outline>
     <contour>
-      <point x="210" y="-413" type="line"/>
-      <point x="242" y="-404"/>
-      <point x="317" y="-379"/>
-      <point x="340" y="-362" type="curve"/>
-      <point x="340" y="1254" type="line"/>
-      <point x="296" y="1280" type="line"/>
-      <point x="258" y="1272"/>
-      <point x="202" y="1250"/>
-      <point x="166" y="1232" type="curve"/>
-      <point x="166" y="-386" type="line"/>
+      <point x="215" y="-24" type="line"/>
+      <point x="248" y="-13"/>
+      <point x="326" y="17"/>
+      <point x="350" y="38" type="curve"/>
+      <point x="350" y="1033" type="line"/>
+      <point x="304" y="1065" type="line"/>
+      <point x="265" y="1055"/>
+      <point x="207" y="1028"/>
+      <point x="170" y="1006" type="curve"/>
+      <point x="170" y="9" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmADotAbvMacron" format="2">
-  <advance width="940"/>
+  <advance width="1050"/>
   <unicode hex="01E1"/>
   <anchor x="700" y="0" name="H"/>
   <anchor x="460" y="-100" name="L"/>
@@ -9,7 +9,7 @@
   <anchor x="480" y="1770" name="U"/>
   <outline>
     <component base="LtnSmA"/>
-    <component base="DotAbv" xOffset="280"/>
-    <component base="CombMacron" xOffset="1005" yOffset="360"/>
+    <component base="DotAbv" xOffset="320"/>
+    <component base="CombMacron" xOffset="1085" yOffset="360"/>
   </outline>
 </glyph>

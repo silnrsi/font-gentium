@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmADiaerMacron" format="2">
-  <advance width="922"/>
+  <advance width="1007"/>
   <unicode hex="01DF"/>
   <anchor x="680" y="0" name="H"/>
   <anchor x="400" y="-100" name="L"/>
@@ -9,7 +9,7 @@
   <anchor x="648" y="1706" name="U"/>
   <outline>
     <component base="LtnSmA"/>
-    <component base="CombDiaer" xOffset="905"/>
-    <component base="CombMacron" xOffset="964" yOffset="353"/>
+    <component base="CombDiaer" xOffset="975"/>
+    <component base="CombMacron" xOffset="1024" yOffset="353"/>
   </outline>
 </glyph>

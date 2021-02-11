@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapUOgonek.RetroHook" format="2">
-  <advance width="1227"/>
+  <advance width="1282"/>
   <anchor x="580" y="0" name="H"/>
   <anchor x="501" y="-600" name="L"/>
   <anchor x="661" y="0" name="O"/>
@@ -8,6 +8,6 @@
   <anchor x="757" y="1320" name="U"/>
   <outline>
     <component base="LtnCapU"/>
-    <component base="Ogonek.RetroHook" xOffset="693"/>
+    <component base="Ogonek.RetroHook" xOffset="733" yOffset="-10"/>
   </outline>
 </glyph>

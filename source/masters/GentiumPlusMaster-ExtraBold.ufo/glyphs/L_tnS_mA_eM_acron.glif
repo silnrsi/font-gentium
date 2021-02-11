@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmAeMacron" format="2">
-  <advance width="1417"/>
+  <advance width="1529"/>
   <unicode hex="01E3"/>
   <anchor x="738" y="0" name="H"/>
   <anchor x="738" y="-100" name="L"/>
@@ -9,6 +9,6 @@
   <anchor x="738" y="1410" name="U"/>
   <outline>
     <component base="LtnSmAe"/>
-    <component base="CombMacron" xOffset="1263"/>
+    <component base="CombMacron" xOffset="1333"/>
   </outline>
 </glyph>
