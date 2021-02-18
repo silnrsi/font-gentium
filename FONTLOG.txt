@@ -151,7 +151,8 @@ in development but should work. Please let us know of any features that are
 not working properly for you.
 
 - Improved miscellaneous anchor positions, including the position of diacritics
-over lowercase "d' and similar glyphs
+over lowercase "d' and similar glyphs, and position of diacritics below glyphs
+with macrons below (e.g. U+1E0F LATIN SMALL LETTER D WITH LINE BELOW)
 
 - Numerous other fixes and improvements to various glyphs, including:
     U+01E5 LATIN SMALL LETTER G WITH STROKE (bar position on single-story variant)
@@ -187,6 +188,7 @@ in the Type menu. Please also look over the document carefully to note
 any places where changes in the fonts have affected letterforms or spacing.
 
 - Known issues with this beta release
+    Tone letters (U+02E5..02E9) and related features are not working properly
     There is no support for TypeTuner
     There are no regional subsets
 
