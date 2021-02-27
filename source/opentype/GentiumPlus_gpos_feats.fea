@@ -54,12 +54,17 @@ lookup mark_mark_L {
     pos mark @L_MarkBase mark @_L;
 } mark_mark_L;
 
-
 feature mkmk {
   lookup mark_mark_U;
   lookup mark_mark_L;
 } mkmk;
 
+lookup kernpairs {
+    kernpairs;
+} kernpairs;
+
 feature kern {
   lookup tns_pos;
+#  lookup grk_kern;
+  lookup kernpairs;
 } kern;
