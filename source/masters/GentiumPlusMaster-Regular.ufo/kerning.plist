@@ -3,7 +3,6 @@
 "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-<!-- glyph glyph pairs -->
   <key>LtnCapA</key>
   <dict>
     <key>LtnCapO</key>
@@ -30,6 +29,8 @@
     <integer>-80</integer>
     <key>LtnCapU</key>
     <integer>-80</integer>
+    <key>public.kern2.RtDblQuotMrk</key>
+    <integer>-201</integer>
   </dict>
   <key>LtnCapC</key>
   <dict>
@@ -57,6 +58,8 @@
     <integer>-80</integer>
     <key>LtnSmO</key>
     <integer>-80</integer>
+    <key>public.kern2.FullStop</key>
+    <integer>-201</integer>
   </dict>
   <key>LtnCapK</key>
   <dict>
@@ -73,6 +76,8 @@
     <integer>-59</integer>
     <key>LtnCapT</key>
     <integer>-129</integer>
+    <key>public.kern2.RtDblQuotMrk</key>
+    <integer>-201</integer>
   </dict>
   <key>LtnCapO</key>
   <dict>
@@ -89,6 +94,8 @@
   <dict>
     <key>LtnCapA</key>
     <integer>-121</integer>
+    <key>public.kern2.FullStop</key>
+    <integer>-201</integer>
   </dict>
   <key>LtnCapR</key>
   <dict>
@@ -109,6 +116,8 @@
     <integer>-80</integer>
     <key>LtnSmO</key>
     <integer>-80</integer>
+    <key>public.kern2.FullStop</key>
+    <integer>-129</integer>
   </dict>
   <key>LtnCapU</key>
   <dict>
@@ -129,6 +138,8 @@
     <integer>-121</integer>
     <key>LtnCapA</key>
     <integer>-201</integer>
+    <key>public.kern2.FullStop</key>
+    <integer>-260</integer>
   </dict>
   <key>LtnCapW</key>
   <dict>
@@ -142,6 +153,8 @@
     <integer>-80</integer>
     <key>LtnSmO</key>
     <integer>-80</integer>
+    <key>public.kern2.FullStop</key>
+    <integer>-201</integer>
   </dict>
   <key>LtnCapY</key>
   <dict>
@@ -157,6 +170,8 @@
     <integer>-80</integer>
     <key>LtnCapS</key>
     <integer>-41</integer>
+    <key>public.kern2.FullStop</key>
+    <integer>-201</integer>
   </dict>
   <key>LtnSmA</key>
   <dict>
@@ -209,6 +224,8 @@
     <integer>-31</integer>
     <key>LtnSmQ</key>
     <integer>-31</integer>
+    <key>public.kern2.FullStop</key>
+    <integer>-150</integer>
   </dict>
   <key>LtnSmV</key>
   <dict>
@@ -218,6 +235,8 @@
     <integer>-41</integer>
     <key>LtnSmE</key>
     <integer>-49</integer>
+    <key>public.kern2.FullStop</key>
+    <integer>-201</integer>
   </dict>
   <key>LtnSmW</key>
   <dict>
@@ -227,6 +246,8 @@
     <integer>-31</integer>
     <key>LtnSmE</key>
     <integer>-41</integer>
+    <key>public.kern2.FullStop</key>
+    <integer>-150</integer>
   </dict>
   <key>LtnSmX</key>
   <dict>
@@ -243,6 +264,8 @@
     <integer>-41</integer>
     <key>LtnSmO</key>
     <integer>-41</integer>
+    <key>public.kern2.FullStop</key>
+    <integer>-201</integer>
   </dict>
   <key>GrCapBeta</key>
   <dict>
@@ -252,6 +275,12 @@
     <integer>-31</integer>
     <key>GrCapLamda</key>
     <integer>-49</integer>
+    <key>public.kern2.GrSmIota</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrCapAlpha</key>
+    <integer>-49</integer>
+    <key>public.kern2.GrCapUpsilon</key>
+    <integer>-121</integer>
   </dict>
   <key>GrSmBeta</key>
   <dict>
@@ -261,16 +290,32 @@
     <integer>-31</integer>
     <key>GrSmRho</key>
     <integer>-31</integer>
+    <key>public.kern2.GrSmEta</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmIota</key>
+    <integer>-31</integer>
   </dict>
   <key>GrSmDelta</key>
   <dict>
     <key>GrSmRho</key>
+    <integer>-20</integer>
+    <key>public.kern2.GrSmIota</key>
+    <integer>-20</integer>
+    <key>public.kern2.GrSmUpsilon</key>
     <integer>-20</integer>
   </dict>
   <key>GrCapDelta</key>
   <dict>
     <key>GrSmNu</key>
     <integer>-100</integer>
+    <key>public.kern2.GrSmIota</key>
+    <integer>-49</integer>
+    <key>public.kern2.GrSmUpsilon</key>
+    <integer>-49</integer>
+    <key>public.kern2.GrSmEta</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrCapUpsilon</key>
+    <integer>-150</integer>
   </dict>
   <key>GrCapGamma</key>
   <dict>
@@ -280,6 +325,16 @@
     <integer>-121</integer>
     <key>GrCapDelta</key>
     <integer>-90</integer>
+    <key>public.kern2.GrSmOmega</key>
+    <integer>-121</integer>
+    <key>public.kern2.GrSmOmicron</key>
+    <integer>-121</integer>
+    <key>public.kern2.GrSmEpsilon</key>
+    <integer>-100</integer>
+    <key>public.kern2.GrSmAlpha</key>
+    <integer>-100</integer>
+    <key>public.kern2.GrCapAlpha</key>
+    <integer>-121</integer>
   </dict>
   <key>GrSmTheta</key>
   <dict>
@@ -303,10 +358,18 @@
     <integer>-59</integer>
     <key>GrCapPsi</key>
     <integer>-20</integer>
+    <key>public.kern2.GrCapAlpha</key>
+    <integer>-49</integer>
+    <key>public.kern2.GrCapUpsilon</key>
+    <integer>-59</integer>
   </dict>
   <key>GrCapTheta</key>
   <dict>
     <key>GrCapLamda</key>
+    <integer>-49</integer>
+    <key>public.kern2.GrCapUpsilon</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrCapAlpha</key>
     <integer>-49</integer>
   </dict>
   <key>GrCapOmega</key>
@@ -315,6 +378,8 @@
     <integer>-41</integer>
     <key>GrCapChi</key>
     <integer>-41</integer>
+    <key>public.kern2.GrCapUpsilon</key>
+    <integer>-80</integer>
   </dict>
   <key>GrSmRho</key>
   <dict>
@@ -340,6 +405,8 @@
     <integer>-121</integer>
     <key>GrCapDelta</key>
     <integer>-100</integer>
+    <key>public.kern2.GrCapAlpha</key>
+    <integer>-121</integer>
   </dict>
   <key>GrCapPhi</key>
   <dict>
@@ -351,6 +418,10 @@
     <integer>-80</integer>
     <key>GrCapChi</key>
     <integer>-100</integer>
+    <key>public.kern2.GrCapAlpha</key>
+    <integer>-70</integer>
+    <key>public.kern2.GrCapUpsilon</key>
+    <integer>-100</integer>
   </dict>
   <key>GrSmTau</key>
   <dict>
@@ -360,6 +431,10 @@
     <integer>-41</integer>
     <key>GrSmPhi</key>
     <integer>-41</integer>
+    <key>public.kern2.GrSmOmicron</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmAlpha</key>
+    <integer>-31</integer>
   </dict>
   <key>GrCapTau</key>
   <dict>
@@ -370,6 +445,16 @@
     <key>GrCapPhi</key>
     <integer>-31</integer>
     <key>GrCapLamda</key>
+    <integer>-121</integer>
+    <key>public.kern2.GrSmAlpha</key>
+    <integer>-80</integer>
+    <key>public.kern2.GrSmEpsilon</key>
+    <integer>-80</integer>
+    <key>public.kern2.GrSmOmicron</key>
+    <integer>-121</integer>
+    <key>public.kern2.GrSmOmega</key>
+    <integer>-121</integer>
+    <key>public.kern2.GrCapAlpha</key>
     <integer>-121</integer>
   </dict>
   <key>GrSmMu</key>
@@ -385,6 +470,10 @@
     <integer>-31</integer>
     <key>GrSmRho</key>
     <integer>-41</integer>
+    <key>public.kern2.GrSmOmicron</key>
+    <integer>-20</integer>
+    <key>public.kern2.GrSmAlpha</key>
+    <integer>-20</integer>
   </dict>
   <key>GrSmChi</key>
   <dict>
@@ -392,6 +481,12 @@
     <integer>-70</integer>
     <key>GrSmLamda</key>
     <integer>-80</integer>
+    <key>public.kern2.GrSmEpsilon</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmOmicron</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmAlpha</key>
+    <integer>-49</integer>
   </dict>
   <key>GrCapChi</key>
   <dict>
@@ -407,6 +502,14 @@
     <integer>-59</integer>
     <key>GrCapPhi</key>
     <integer>-100</integer>
+    <key>public.kern2.GrSmAlpha</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmEpsilon</key>
+    <integer>-20</integer>
+    <key>public.kern2.GrSmIota</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmOmicron</key>
+    <integer>-49</integer>
   </dict>
   <key>GrSmLamda</key>
   <dict>
@@ -444,6 +547,16 @@
     <integer>-31</integer>
     <key>RtSglQuotMrk</key>
     <integer>-240</integer>
+    <key>public.kern2.GrSmEta</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmIota</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmOmicron</key>
+    <integer>-20</integer>
+    <key>public.kern2.GrSmUpsilon</key>
+    <integer>-41</integer>
+    <key>public.kern2.GrSmOmega</key>
+    <integer>-20</integer>
   </dict>
   <key>GrCapPsi</key>
   <dict>
@@ -451,6 +564,22 @@
     <integer>-59</integer>
     <key>GrCapOmicron</key>
     <integer>-41</integer>
+    <key>public.kern2.GrSmAlpha</key>
+    <integer>-100</integer>
+    <key>public.kern2.GrSmEpsilon</key>
+    <integer>-100</integer>
+    <key>public.kern2.GrSmEta</key>
+    <integer>-41</integer>
+    <key>public.kern2.GrSmIota</key>
+    <integer>-41</integer>
+    <key>public.kern2.GrSmOmicron</key>
+    <integer>-121</integer>
+    <key>public.kern2.GrSmUpsilon</key>
+    <integer>-41</integer>
+    <key>public.kern2.GrSmOmega</key>
+    <integer>-121</integer>
+    <key>public.kern2.GrCapAlpha</key>
+    <integer>-180</integer>
   </dict>
   <key>GrSmZeta</key>
   <dict>
@@ -458,6 +587,12 @@
     <integer>-121</integer>
     <key>GrSmTau</key>
     <integer>-121</integer>
+    <key>public.kern2.GrSmOmicron</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmUpsilon</key>
+    <integer>-49</integer>
+    <key>public.kern2.GrSmIota</key>
+    <integer>-31</integer>
   </dict>
   <key>GrCapLamda</key>
   <dict>
@@ -465,6 +600,12 @@
     <integer>-121</integer>
     <key>GrCapPhi</key>
     <integer>-59</integer>
+    <key>public.kern2.GrSmUpsilon</key>
+    <integer>-41</integer>
+    <key>public.kern2.GrSmIota</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrCapUpsilon</key>
+    <integer>-201</integer>
   </dict>
   <key>GrBetaSym</key>
   <dict>
@@ -472,6 +613,10 @@
     <integer>-20</integer>
     <key>GrSmLamda</key>
     <integer>-20</integer>
+    <key>public.kern2.GrSmEta</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmIota</key>
+    <integer>-31</integer>
   </dict>
   <key>GrSmIotaWDialTonos</key>
   <dict>
@@ -490,6 +635,10 @@
     <integer>-41</integer>
     <key>GrCapTheta</key>
     <integer>-41</integer>
+    <key>public.kern2.GrSmIota</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmUpsilon</key>
+    <integer>-49</integer>
   </dict>
   <key>GrPhiSym</key>
   <dict>
@@ -501,6 +650,8 @@
     <integer>-31</integer>
     <key>GrSmFinSigma</key>
     <integer>31</integer>
+    <key>public.kern2.GrSmEta</key>
+    <integer>-20</integer>
   </dict>
   <key>GrSmNu</key>
   <dict>
@@ -516,8 +667,23 @@
     <integer>10</integer>
     <key>GrSmFinSigma</key>
     <integer>-49</integer>
+    <key>public.kern2.GrSmEpsilon</key>
+    <integer>-31</integer>
   </dict>
-<!-- class glyph pairs -->
+  <key>LtnSmF</key>
+  <dict>
+    <key>public.kern2.RtDblQuotMrk</key>
+    <integer>219</integer>
+  </dict>
+  <key>GrSmXi</key>
+  <dict>
+    <key>public.kern2.GrSmAlpha</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmOmicron</key>
+    <integer>-41</integer>
+    <key>public.kern2.GrSmUpsilon</key>
+    <integer>-20</integer>
+  </dict>
   <key>public.kern1.GrCapAlpha</key>
   <dict>
     <key>GrSmGamma</key>
@@ -538,6 +704,14 @@
     <integer>-160</integer>
     <key>GrCapPhi</key>
     <integer>-59</integer>
+    <key>public.kern2.GrSmUpsilon</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrCapUpsilon</key>
+    <integer>-201</integer>
+    <key>public.kern2.GrSmUpsilonWPsili</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmUpsilonWDial</key>
+    <integer>-31</integer>
   </dict>
   <key>public.kern1.GrCapAlphaWTonos</key>
   <dict>
@@ -559,6 +733,14 @@
     <integer>-160</integer>
     <key>GrCapPhi</key>
     <integer>-59</integer>
+    <key>public.kern2.GrSmUpsilon</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrCapUpsilon</key>
+    <integer>-201</integer>
+    <key>public.kern2.GrSmUpsilonWPsili</key>
+    <integer>-31</integer>
+    <key>public.kern2.GrSmUpsilonWDial</key>
+    <integer>-31</integer>
   </dict>
   <key>public.kern1.GrCapOmegaWTonos</key>
   <dict>
@@ -566,6 +748,8 @@
     <integer>-41</integer>
     <key>GrCapChi</key>
     <integer>-41</integer>
+    <key>public.kern2.GrCapUpsilon</key>
+    <integer>-80</integer>
   </dict>
   <key>public.kern1.GrCapOmicronWTonos</key>
   <dict>
@@ -577,6 +761,10 @@
     <integer>-59</integer>
     <key>GrCapPsi</key>
     <integer>-20</integer>
+    <key>public.kern2.GrCapAlpha</key>
+    <integer>-49</integer>
+    <key>public.kern2.GrCapUpsilon</key>
+    <integer>-59</integer>
   </dict>
   <key>public.kern1.GrCapUpsilon</key>
   <dict>
@@ -612,6 +800,18 @@
     <integer>-80</integer>
     <key>GrCapPsi</key>
     <integer>41</integer>
+    <key>public.kern2.GrSmAlpha</key>
+    <integer>-160</integer>
+    <key>public.kern2.GrSmEpsilon</key>
+    <integer>-160</integer>
+    <key>public.kern2.GrSmIota</key>
+    <integer>-49</integer>
+    <key>public.kern2.GrSmOmicron</key>
+    <integer>-160</integer>
+    <key>public.kern2.GrCapAlpha</key>
+    <integer>-121</integer>
+    <key>public.kern2.GrSmIotaWPsili</key>
+    <integer>-49</integer>
   </dict>
   <key>public.kern1.GrCapUpsilonWTonos</key>
   <dict>
@@ -653,6 +853,24 @@
     <integer>-41</integer>
     <key>GrSmOmicronWPsili</key>
     <integer>-160</integer>
+    <key>public.kern2.GrSmAlpha</key>
+    <integer>-160</integer>
+    <key>public.kern2.GrSmEpsilon</key>
+    <integer>-160</integer>
+    <key>public.kern2.GrSmIota</key>
+    <integer>-49</integer>
+    <key>public.kern2.GrSmOmicron</key>
+    <integer>-160</integer>
+    <key>public.kern2.GrCapAlpha</key>
+    <integer>-121</integer>
+    <key>public.kern2.GrSmAlphaWPsili</key>
+    <integer>-160</integer>
+    <key>public.kern2.GrSmEpsilonWPsili</key>
+    <integer>-160</integer>
+    <key>public.kern2.GrSmIotaWPsili</key>
+    <integer>-49</integer>
+    <key>public.kern2.GrSmIotaWDial</key>
+    <integer>-49</integer>
   </dict>
   <key>public.kern1.GrSmAlpha</key>
   <dict>
@@ -783,355 +1001,10 @@
     <key>LtnCapA</key>
     <integer>-201</integer>
   </dict>
-<!-- glyph class pairs -->
-  <key>LtnCapA</key>
-  <dict>
-    <key>public.kern2.RtDblQuotMrk</key>
-    <integer>-201</integer>
-  </dict>
-  <key>LtnCapF</key>
-  <dict>
-    <key>public.kern2.FullStop</key>
-    <integer>-201</integer>
-  </dict>
-  <key>LtnCapL</key>
-  <dict>
-    <key>public.kern2.RtDblQuotMrk</key>
-    <integer>-201</integer>
-  </dict>
-  <key>LtnCapP</key>
-  <dict>
-    <key>public.kern2.FullStop</key>
-    <integer>-201</integer>
-  </dict>
-  <key>LtnCapT</key>
-  <dict>
-    <key>public.kern2.FullStop</key>
-    <integer>-129</integer>
-  </dict>
-  <key>LtnCapV</key>
-  <dict>
-    <key>public.kern2.FullStop</key>
-    <integer>-260</integer>
-  </dict>
-  <key>LtnCapW</key>
-  <dict>
-    <key>public.kern2.FullStop</key>
-    <integer>-201</integer>
-  </dict>
-  <key>LtnCapY</key>
-  <dict>
-    <key>public.kern2.FullStop</key>
-    <integer>-201</integer>
-  </dict>
-  <key>LtnSmF</key>
-  <dict>
-    <key>public.kern2.RtDblQuotMrk</key>
-    <integer>219</integer>
-  </dict>
-  <key>LtnSmR</key>
-  <dict>
-    <key>public.kern2.FullStop</key>
-    <integer>-150</integer>
-  </dict>
-  <key>LtnSmV</key>
-  <dict>
-    <key>public.kern2.FullStop</key>
-    <integer>-201</integer>
-  </dict>
-  <key>LtnSmW</key>
-  <dict>
-    <key>public.kern2.FullStop</key>
-    <integer>-150</integer>
-  </dict>
-  <key>LtnSmY</key>
-  <dict>
-    <key>public.kern2.FullStop</key>
-    <integer>-201</integer>
-  </dict>
-  <key>GrCapBeta</key>
-  <dict>
-    <key>public.kern2.GrSmIota</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrCapAlpha</key>
-    <integer>-49</integer>
-    <key>public.kern2.GrCapUpsilon</key>
-    <integer>-121</integer>
-  </dict>
-  <key>GrSmBeta</key>
-  <dict>
-    <key>public.kern2.GrSmEta</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmIota</key>
-    <integer>-31</integer>
-  </dict>
-  <key>GrSmDelta</key>
-  <dict>
-    <key>public.kern2.GrSmIota</key>
-    <integer>-20</integer>
-    <key>public.kern2.GrSmUpsilon</key>
-    <integer>-20</integer>
-  </dict>
-  <key>GrCapDelta</key>
-  <dict>
-    <key>public.kern2.GrSmIota</key>
-    <integer>-49</integer>
-    <key>public.kern2.GrSmUpsilon</key>
-    <integer>-49</integer>
-    <key>public.kern2.GrSmEta</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrCapUpsilon</key>
-    <integer>-150</integer>
-  </dict>
-  <key>GrCapGamma</key>
-  <dict>
-    <key>public.kern2.GrSmOmega</key>
-    <integer>-121</integer>
-    <key>public.kern2.GrSmOmicron</key>
-    <integer>-121</integer>
-    <key>public.kern2.GrSmEpsilon</key>
-    <integer>-100</integer>
-    <key>public.kern2.GrSmAlpha</key>
-    <integer>-100</integer>
-    <key>public.kern2.GrCapAlpha</key>
-    <integer>-121</integer>
-  </dict>
-  <key>GrCapOmicron</key>
-  <dict>
-    <key>public.kern2.GrCapAlpha</key>
-    <integer>-49</integer>
-    <key>public.kern2.GrCapUpsilon</key>
-    <integer>-59</integer>
-  </dict>
-  <key>GrCapTheta</key>
-  <dict>
-    <key>public.kern2.GrCapUpsilon</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrCapAlpha</key>
-    <integer>-49</integer>
-  </dict>
-  <key>GrCapOmega</key>
-  <dict>
-    <key>public.kern2.GrCapUpsilon</key>
-    <integer>-80</integer>
-  </dict>
-  <key>GrCapRho</key>
-  <dict>
-    <key>public.kern2.GrCapAlpha</key>
-    <integer>-121</integer>
-  </dict>
-  <key>GrCapPhi</key>
-  <dict>
-    <key>public.kern2.GrCapAlpha</key>
-    <integer>-70</integer>
-    <key>public.kern2.GrCapUpsilon</key>
-    <integer>-100</integer>
-  </dict>
-  <key>GrSmTau</key>
-  <dict>
-    <key>public.kern2.GrSmOmicron</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmAlpha</key>
-    <integer>-31</integer>
-  </dict>
-  <key>GrCapTau</key>
-  <dict>
-    <key>public.kern2.GrSmAlpha</key>
-    <integer>-80</integer>
-    <key>public.kern2.GrSmEpsilon</key>
-    <integer>-80</integer>
-    <key>public.kern2.GrSmOmicron</key>
-    <integer>-121</integer>
-    <key>public.kern2.GrSmOmega</key>
-    <integer>-121</integer>
-    <key>public.kern2.GrCapAlpha</key>
-    <integer>-121</integer>
-  </dict>
-  <key>GrSmGamma</key>
-  <dict>
-    <key>public.kern2.GrSmOmicron</key>
-    <integer>-20</integer>
-    <key>public.kern2.GrSmAlpha</key>
-    <integer>-20</integer>
-  </dict>
-  <key>GrSmChi</key>
-  <dict>
-    <key>public.kern2.GrSmEpsilon</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmOmicron</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmAlpha</key>
-    <integer>-49</integer>
-  </dict>
-  <key>GrCapChi</key>
-  <dict>
-    <key>public.kern2.GrSmAlpha</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmEpsilon</key>
-    <integer>-20</integer>
-    <key>public.kern2.GrSmIota</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmOmicron</key>
-    <integer>-49</integer>
-  </dict>
-  <key>GrSmLamda</key>
-  <dict>
-    <key>public.kern2.GrSmEta</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmIota</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmOmicron</key>
-    <integer>-20</integer>
-    <key>public.kern2.GrSmUpsilon</key>
-    <integer>-41</integer>
-    <key>public.kern2.GrSmOmega</key>
-    <integer>-20</integer>
-  </dict>
-  <key>GrCapPsi</key>
-  <dict>
-    <key>public.kern2.GrSmAlpha</key>
-    <integer>-100</integer>
-    <key>public.kern2.GrSmEpsilon</key>
-    <integer>-100</integer>
-    <key>public.kern2.GrSmEta</key>
-    <integer>-41</integer>
-    <key>public.kern2.GrSmIota</key>
-    <integer>-41</integer>
-    <key>public.kern2.GrSmOmicron</key>
-    <integer>-121</integer>
-    <key>public.kern2.GrSmUpsilon</key>
-    <integer>-41</integer>
-    <key>public.kern2.GrSmOmega</key>
-    <integer>-121</integer>
-    <key>public.kern2.GrCapAlpha</key>
-    <integer>-180</integer>
-  </dict>
-  <key>GrSmZeta</key>
-  <dict>
-    <key>public.kern2.GrSmOmicron</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmUpsilon</key>
-    <integer>-49</integer>
-    <key>public.kern2.GrSmIota</key>
-    <integer>-31</integer>
-  </dict>
-  <key>GrSmXi</key>
-  <dict>
-    <key>public.kern2.GrSmAlpha</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmOmicron</key>
-    <integer>-41</integer>
-    <key>public.kern2.GrSmUpsilon</key>
-    <integer>-20</integer>
-  </dict>
-  <key>GrCapLamda</key>
-  <dict>
-    <key>public.kern2.GrSmUpsilon</key>
-    <integer>-41</integer>
-    <key>public.kern2.GrSmIota</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrCapUpsilon</key>
-    <integer>-201</integer>
-  </dict>
-  <key>GrBetaSym</key>
-  <dict>
-    <key>public.kern2.GrSmEta</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmIota</key>
-    <integer>-31</integer>
-  </dict>
-  <key>GrCapKappa</key>
-  <dict>
-    <key>public.kern2.GrSmIota</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmUpsilon</key>
-    <integer>-49</integer>
-  </dict>
-  <key>GrPhiSym</key>
-  <dict>
-    <key>public.kern2.GrSmEta</key>
-    <integer>-20</integer>
-  </dict>
-  <key>GrSmNu</key>
-  <dict>
-    <key>public.kern2.GrSmEpsilon</key>
-    <integer>-31</integer>
-  </dict>
-<!-- class class pairs -->
   <key>public.kern1.FullStop</key>
   <dict>
     <key>public.kern2.RtDblQuotMrk</key>
     <integer>-219</integer>
-  </dict>
-  <key>public.kern1.GrCapAlpha</key>
-  <dict>
-    <key>public.kern2.GrSmUpsilon</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrCapUpsilon</key>
-    <integer>-201</integer>
-    <key>public.kern2.GrSmUpsilonWPsili</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmUpsilonWDial</key>
-    <integer>-31</integer>
-  </dict>
-  <key>public.kern1.GrCapAlphaWTonos</key>
-  <dict>
-    <key>public.kern2.GrSmUpsilon</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrCapUpsilon</key>
-    <integer>-201</integer>
-    <key>public.kern2.GrSmUpsilonWPsili</key>
-    <integer>-31</integer>
-    <key>public.kern2.GrSmUpsilonWDial</key>
-    <integer>-31</integer>
-  </dict>
-  <key>public.kern1.GrCapOmegaWTonos</key>
-  <dict>
-    <key>public.kern2.GrCapUpsilon</key>
-    <integer>-80</integer>
-  </dict>
-  <key>public.kern1.GrCapOmicronWTonos</key>
-  <dict>
-    <key>public.kern2.GrCapAlpha</key>
-    <integer>-49</integer>
-    <key>public.kern2.GrCapUpsilon</key>
-    <integer>-59</integer>
-  </dict>
-  <key>public.kern1.GrCapUpsilon</key>
-  <dict>
-    <key>public.kern2.GrSmAlpha</key>
-    <integer>-160</integer>
-    <key>public.kern2.GrSmEpsilon</key>
-    <integer>-160</integer>
-    <key>public.kern2.GrSmIota</key>
-    <integer>-49</integer>
-    <key>public.kern2.GrSmOmicron</key>
-    <integer>-160</integer>
-    <key>public.kern2.GrCapAlpha</key>
-    <integer>-121</integer>
-    <key>public.kern2.GrSmIotaWPsili</key>
-    <integer>-49</integer>
-  </dict>
-  <key>public.kern1.GrCapUpsilonWTonos</key>
-  <dict>
-    <key>public.kern2.GrSmAlpha</key>
-    <integer>-160</integer>
-    <key>public.kern2.GrSmEpsilon</key>
-    <integer>-160</integer>
-    <key>public.kern2.GrSmIota</key>
-    <integer>-49</integer>
-    <key>public.kern2.GrSmOmicron</key>
-    <integer>-160</integer>
-    <key>public.kern2.GrCapAlpha</key>
-    <integer>-121</integer>
-    <key>public.kern2.GrSmAlphaWPsili</key>
-    <integer>-160</integer>
-    <key>public.kern2.GrSmEpsilonWPsili</key>
-    <integer>-160</integer>
-    <key>public.kern2.GrSmIotaWPsili</key>
-    <integer>-49</integer>
-    <key>public.kern2.GrSmIotaWDial</key>
-    <integer>-49</integer>
   </dict>
 </dict>
 </plist>
