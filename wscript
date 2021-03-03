@@ -41,16 +41,16 @@ for dspace in ('Roman', 'Italic'):
                         'source/opentype/{}_gdef.fea'.format(familyname)),
                     to_ufo = 'True' # copies to instance UFOs
                     ),
-                graphite = gdl('source/${DS:FILENAME_BASE}.gdl',
-                    master = 'source/graphite/main.gdh',
-                    make_params = omitapps,
-                    params = '-e gdlerr-${DS:FILENAME_BASE}.txt',
-                    depends = ('source/graphite/features.gdh', 
-                        'source/graphite/pitches.gdh', 
-                        'source/graphite/takes_lowProfile.gdh', 
-                        'source/graphite/greek_recompose.gdh', 
-                        'source/graphite/stddef.gdh')
-                    ),
+#                graphite = gdl('source/${DS:FILENAME_BASE}.gdl',
+#                    master = 'source/graphite/main.gdh',
+#                    make_params = omitapps,
+#                    params = '-e gdlerr-${DS:FILENAME_BASE}.txt',
+#                    depends = ('source/graphite/features.gdh', 
+#                        'source/graphite/pitches.gdh', 
+#                        'source/graphite/takes_lowProfile.gdh', 
+#                        'source/graphite/greek_recompose.gdh', 
+#                        'source/graphite/stddef.gdh')
+#                    ),
                 woff = woff(),
                 version = VERSION,
 #                pdf=fret(params = '-r -oi')
