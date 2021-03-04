@@ -627,12 +627,12 @@
   <key>LtnSmE</key>
   <dict>
     <key>LtnSmX</key>
-    <integer>-27</integer>
+    <integer>-10</integer>
   </dict>
   <key>LtnSmF</key>
   <dict>
     <key>public.kern2.RtDblQuotMrk</key>
-    <integer>199</integer>
+    <integer>240</integer>
   </dict>
   <key>LtnSmK</key>
   <dict>
@@ -903,22 +903,22 @@
   <key>public.kern1.GrSmAlpha</key>
   <dict>
     <key>GrSmChi</key>
-    <integer>-20</integer>
+    <integer>10</integer>
     <key>GrSmFinSigma</key>
     <integer>-31</integer>
     <key>GrSmSigma</key>
-    <integer>-41</integer>
+    <integer>-20</integer>
     <key>GrSmTau</key>
     <integer>-31</integer>
   </dict>
   <key>public.kern1.GrSmAlphaWPsili</key>
   <dict>
     <key>GrSmChi</key>
-    <integer>-20</integer>
+    <integer>10</integer>
     <key>GrSmFinSigma</key>
     <integer>-31</integer>
     <key>GrSmSigma</key>
-    <integer>-41</integer>
+    <integer>-20</integer>
     <key>GrSmTau</key>
     <integer>-31</integer>
   </dict>
@@ -927,7 +927,7 @@
     <key>GrSmFinSigma</key>
     <integer>-20</integer>
     <key>GrSmNu</key>
-    <integer>-20</integer>
+    <integer>10</integer>
     <key>GrSmRho</key>
     <integer>-20</integer>
     <key>GrSmSigma</key>
@@ -936,7 +936,7 @@
   <key>public.kern1.GrSmEpsilonWPsili</key>
   <dict>
     <key>GrSmNu</key>
-    <integer>-20</integer>
+    <integer>10</integer>
     <key>GrSmRho</key>
     <integer>-20</integer>
     <key>GrSmSigma</key>
