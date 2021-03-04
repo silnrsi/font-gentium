@@ -29,7 +29,7 @@ for dspace in ('Roman', 'Italic'):
                 target = process('${DS:FILENAME_BASE}.ttf',
                     cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${DS:FILE}'])),
                 instances = ['Gentium Plus Regular'] if '--quick' in opts else None,
-                ap = 'source/${DS:FILENAME_BASE}_ap.xml',
+#                ap = 'source/${DS:FILENAME_BASE}_ap.xml',
 #                classes = 'source/${DS:FAMILYNAME_NOSPC}_classes.xml', #fails for Book fonts
                 classes = 'source/{}_classes.xml'.format(familyname),
                 opentype = fea('source/${DS:FILENAME_BASE}.fea',
