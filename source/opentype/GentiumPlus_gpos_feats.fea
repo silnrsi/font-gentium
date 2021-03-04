@@ -65,6 +65,5 @@ lookup kernpairs {
 
 feature kern {
   lookup tns_pos;
-#  lookup grk_kern;
   lookup kernpairs;
 } kern;
