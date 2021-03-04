@@ -146,10 +146,6 @@ cap correspondences
 forms, and added a new feature to display it as a subscript (ypogegrammeni)
 under capitals (cv83)
 
-- Synchronized Graphite and OpenType feature tags. Graphite support is still
-in development but should work. Please let us know of any features that are
-not working properly for you.
-
 - Improved miscellaneous anchor positions, including the position of diacritics
 over lowercase "d' and similar glyphs, and position of diacritics below glyphs
 with macrons below (e.g. U+1E0F LATIN SMALL LETTER D WITH LINE BELOW)
@@ -186,6 +182,11 @@ version 5.000 is opened with version 5.960 or later installed. It will
 be necessary to find/replace the fonts in the document using the command
 in the Type menu. Please also look over the document carefully to note
 any places where changes in the fonts have affected letterforms or spacing.
+
+- Graphite has been removed. Application and OS support for OpenType has
+greatly improved, so the need for Graphite in this font family is greatly
+reduced. *If this affects you, and you find that OpenType does not provide
+sufficient support for your needs, please contact us right away.*
 
 - Known issues with this beta release
     Tone letters (U+02E5..02E9) and related features are not working properly
