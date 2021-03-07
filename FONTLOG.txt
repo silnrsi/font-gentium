@@ -170,6 +170,8 @@ with macrons below (e.g. U+1E0F LATIN SMALL LETTER D WITH LINE BELOW)
     U+A7F8 MODIFIER LETTER CAPITAL H WITH STROKE (form)
     U+A7FA LATIN LETTER SMALL CAPITAL TURNED M (italic)
 
+- Applied new hinting techniques to try to improve screen rendering on Windows
+
 - Removed the "Show Invisibles" feature
 
 - Removed support for nine-level pitch contours. These will be replaced
