@@ -37,7 +37,7 @@ for dspace in ('Roman', 'Italic'):
 #                ap = 'source/${DS:FILENAME_BASE}_ap.xml',
 #                classes = 'source/${DS:FAMILYNAME_NOSPC}_classes.xml', #fails for Book fonts
                 classes = 'source/classes.xml',
-                opentype = fea('source/main.fea',
+                opentype = fea('source/${DS:FILENAME_BASE}.fea',
                     master = 'source/opentype/main.feax',
                     make_params = omitapps,
                     depends = ('source/opentype/gsub.feax', 
