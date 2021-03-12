@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "-----Rebuilding documentation..."
+echo "     > GentiumPlus-font-features.html"
+pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/GentiumPlus-font-features.md -o documentation/GentiumPlus-font-features.html
+
+echo "-----Completed!"
