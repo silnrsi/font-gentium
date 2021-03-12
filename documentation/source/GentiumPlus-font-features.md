@@ -230,6 +230,19 @@ Small gamma | <span class='gentium-cv25-2-R normal'>ɤ</span> | <span class='cod
 
 ### Diacritic and symbol alternates
 
+<!-- Not included because the feature is not working properly
+
+#### Low-profile diacritics  [ss07]
+
+<span class='affects'>Affects: U+0300 U+0301 U+0302 U+0303 U+0304 U+0307 U+0308 U+030C</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard    | <span class='gentium-dflt-R normal'>anything with ◌́◌̀◌̂◌̌◌̄◌̃◌̈◌̇ (áàâǎāãäȧ)</span> | <span class='code'>ss07=0</span>
+Low-profile | <span class='gentium-ss07-R normal'>anything with ◌́◌̀◌̂◌̌◌̄◌̃◌̈◌̇ (áàâǎāãäȧ)</span> | <span class='code'>ss07=1</span>
+
+-->
+
 #### Vietnamese-style diacritics
 
 <span class='affects'>Affects: U+1EA4 U+1EA5 U+1EA6 U+1EA7 U+1EA8 U+1EA9 U+1EAA U+1EAB U+1EAE U+1EAF U+1EB0 U+1EB1 U+1EB2 U+1EB3 U+1EB4 U+1EB5 U+1EBE U+1EBF U+1EC0 U+1EC1 U+1EC2 U+1EC3 U+1EC4 U+1EC5 U+1ED0 U+1ED1 U+1ED2 U+1ED3 U+1ED4 U+1ED5 U+1ED6 U+1ED7</span>
@@ -334,6 +347,35 @@ Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
 Standard | <span class='gentium-dflt-I normal'>б г д п т</span> | <span class='code'></span>
 Serbian  | <span class='gentium-dflt-I normal' lang='sr'>б г д п т</span> | <span class='code'>lang='sr'</span>
+
+### Greek alternates
+
+#### Porsonic circumflex
+
+<span class='affects'>Affects: U+0342 U+1F06 U+1F07 U+1F0E U+1F0F U+1F26 U+1F27 U+1F2E U+1F2F U+1F36 U+1F37 U+1F3E U+1F3F U+1F56 U+1F57 U+1F5F U+1F66 U+1F67 U+1F6E U+1F6F U+1F86 U+1F87 U+1F8E U+1F8F U+1F96 U+1F97 U+1F9E U+1F9F U+1FA6 U+1FA7 U+1FAE U+1FAF U+1FB6 U+1FB7 U+1FC0 U+1FC1 U+1FC6 U+1FC7 U+1FCF U+1FD6 U+1FD7 U+1FDF U+1FE6 U+1FE7 U+1FF6 U+1FF7</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard       | <span class='gentium-dflt-R normal'>◌͂ ◌῀ ◌῁  ◌῏  ◌῟  ἆ ἇ ᾆ ᾇ ᾶ ᾷ ἦ ἧ ᾖ ᾗ ῆ ῇ ἶ ἷ ῖ ῗ ὖ ὗ ῦ ῧ ὦ ὧ ᾦ ᾧ ῶ ῷ Ἆ Ἇ ᾎ ᾏ Ἦ Ἧ ᾞ ᾟ Ἶ Ἷ Ὗ Ὦ Ὧ ᾮ ᾯ</span> | <span class='code'>cv78=0</span>
+Porsonic-style | <span class='gentium-cv78-R normal'>◌͂ ◌῀ ◌῁  ◌῏  ◌῟  ἆ ἇ ᾆ ᾇ ᾶ ᾷ ἦ ἧ ᾖ ᾗ ῆ ῇ ἶ ἷ ῖ ῗ ὖ ὗ ῦ ῧ ὦ ὧ ᾦ ᾧ ῶ ῷ Ἆ Ἇ ᾎ ᾏ Ἦ Ἧ ᾞ ᾟ Ἶ Ἷ Ὗ Ὦ Ὧ ᾮ ᾯ</span> | <span class='code'>cv78=1</span>
+
+#### Capital adscript iota (prosgegrammeni)
+
+<span class='affects'>Affects: U+1F88 U+1F89 U+1F8A U+1F8B U+1F8C U+1F8D U+1F8E U+1F8F U+1F98 U+1F99 U+1F9A U+1F9B U+1F9C U+1F9D U+1F9E U+1F9F U+1FA8 U+1FA9 U+1FAA U+1FAB U+1FAC U+1FAD U+1FAE U+1FAF U+1FBC U+1FCC U+1FFC</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard        | <span class='gentium-dflt-R normal'>ᾼ ᾈ ᾉ ᾊ ᾋ ᾌ ᾍ ᾎ ᾏ ῌ ᾘ ᾙ ᾚ ᾛ ᾜ ᾝ ᾞ ᾟ ῼ ᾨ ᾩ ᾪ ᾫ ᾬ ᾭ ᾮ ᾯ</span> | <span class='code'>cv83=0</span>
+Subscript (ypogegrammeni) | <span class='gentium-cv83-R normal'>ᾼ ᾈ ᾉ ᾊ ᾋ ᾌ ᾍ ᾎ ᾏ ῌ ᾘ ᾙ ᾚ ᾛ ᾜ ᾝ ᾞ ᾟ ῼ ᾨ ᾩ ᾪ ᾫ ᾬ ᾭ ᾮ ᾯ</span> | <span class='code'>cv83=1</span>
+
+#### beta
+
+<span class='affects'>Affects: U+03B2 U+1D66 U+1D5D</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard    | <span class='gentium-dflt-R normal'>β ᵝ ᵦ</span> | <span class='code'>cv14=0</span>
+With serifs | <span class='gentium-cv14-R normal'>β ᵝ ᵦ</span> | <span class='code'>cv14=1</span>
 
 ### Tone alternates
 
