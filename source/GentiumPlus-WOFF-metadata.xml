@@ -86,7 +86,7 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
-      28 Feb 2021 (SIL NRSI team) Gentium Plus version 5.960 (beta2)
+      17 Mar 2021 (SIL NRSI team) Gentium Plus version 5.960 (beta2)
       *This is a beta version of the next major release.*
       *Please use it only for testing, not production, and give us your feedback.*
       *This major release includes spacing changes to some glyphs, so text in*
@@ -99,6 +99,8 @@
       "Gentium Basic" fonts, although note that the new weights may not be
       identical in metrics or form to the Basic fonts, though care has been taken
       to minimize differences.
+      
+      - Web fonts are provided in both WOFF and WOFF2 formats
       
       - First (beta) release that uses a UFO-based design and production workflow
       All sources are in open formats
@@ -161,6 +163,9 @@
       forms, and added a new feature to display it as a subscript (ypogegrammeni)
       under capitals (cv83)
       
+      - Replaced font features documentation with updated version in a new format
+      (see documentation/GentiumPlus-font-features.html)
+      
       - Improved miscellaneous anchor positions, including the position of diacritics
       over lowercase "d' and similar glyphs, and position of diacritics below glyphs
       with macrons below (e.g. U+1E0F LATIN SMALL LETTER D WITH LINE BELOW)
@@ -184,6 +189,8 @@
       U+A77F LATIN SMALL LETTER TURNED INSULAR G (position)
       U+A7F8 MODIFIER LETTER CAPITAL H WITH STROKE (form)
       U+A7FA LATIN LETTER SMALL CAPITAL TURNED M (italic)
+      
+      - Applied new hinting techniques to try to improve screen rendering on Windows
       
       - Removed the "Show Invisibles" feature
       
