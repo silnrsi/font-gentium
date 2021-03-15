@@ -2,10 +2,18 @@ DOCUMENTATION
 Gentium Plus
 ========================
 
+This file describes the documentation file included with the Gentium Plus font
+family. This information should be distributed along with the Gentium Plus 
+fonts and any derivative works.
 
-This file describes the documentation files included with the Gentium Plus font family. This information should be distributed along with the Gentium Plus fonts and any derivative works.
+Primary documentation for the Gentium Plus font family is on the Gentium Plus
+website (http://software.sil.org/gentium), however the information there
+is for version 5 and will be updated when version 6 is released. Please see
+the [FONTLOG.txt](../FONTLOG.txt) for information on the changes since
+version 5.
 
-Primary documentation for the Gentium Plus font family is on the Gentium website (http://scripts.sil.org/Gentium).
-
-The GentiumPlus-features.pdf file illustrates the use of OpenType and Graphite features.
-The GentiumPlus-features.odt file illustrates the use of OpenType and Graphite features (source file for the pdf).
+For information on using the OpenType features included in this font family
+see [GentiumPlus-font-features.html](GentiumPlus-font-features.html).
+For a concise example of how to use Gentium Plus as a web font see
+[Gentium Plus Webfont Example](../web/GentiumPlus-webfont-example.html).
+See [Using SIL Fonts on Web Pages: OpenType and Graphite feature support](http://scripts.sil.org/using_web_fonts#feat) for more information.
