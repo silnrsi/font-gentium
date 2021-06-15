@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 'generate ftml tests from glyph_data.csv and UFO'
 __url__ = 'http://github.com/silnrsi/pysilfont'
-__copyright__ = 'Copyright (c) 2019 SIL International  (http://www.sil.org)'
+__copyright__ = 'Copyright (c) 2021 SIL International  (http://www.sil.org)'
 __license__ = 'Released under the MIT License (http://opensource.org/licenses/MIT)'
 __author__ = 'Alan Ward'
 
@@ -22,6 +22,7 @@ argspec = [
     ('--scale', {'help': '% to scale rendered text'}, {}),
     ('--ap', {'help': 'regular expression describing APs to examine', 'default': '.', 'action': 'store'}, {}),
     ('--xsl', {'help': 'XSL stylesheet to use'}, {}),
+    ('--classes', {'help': 'classes.xml file used to generate some tests', 'default': None, 'action': 'store'}, {}),
 ]
 
 class FTMLBuilder_LCG(FB.FTMLBuilder):
@@ -147,7 +148,6 @@ class FTMLBuilder_LCG(FB.FTMLBuilder):
                 self._csvWarning("invalid associated USV '%s' (%s); ignored: " % (line[usvCol], e.message))
                 uidList = []
 
-            assoc_uid = None
             if len(uidList) == 1:
                 # Handle unencoded glyphs
                 assoc_uid = uidList[0]
@@ -177,6 +177,8 @@ class FTMLBuilder_LCG(FB.FTMLBuilder):
             if featCol is not None:
                 feat = line[featCol].strip()
                 if feat:
+                    if feat == 'locl': # locl cannot be tested like other user-selectable features
+                        continue
                     feature = self.features.setdefault(feat, FB.Feature(feat)) #TODO: using FB.Feature is messy
                     if valCol:
                         # if values supplied, collect default and maximum values for this feature:
@@ -225,16 +227,29 @@ class FTMLBuilder_LCG(FB.FTMLBuilder):
                 else:
                     self.logger.log('Glyph with "ss01" found without "SmA" or "SmG"', "W")
 
-        # cv91 - tone numbers
-        self.features.setdefault('cv91', FB.Feature('cv91'))
-        for nm in ('TnLtr1', 'TnLtr2', 'TnLtr3', 'TnLtr4', 'TnLtr5'):
-            c = self.char(nm)
-            c.feats.add('cv91')
+        # cv91 - tone numbers - see ToneBars.ftml for complete testing
+        # self.features.setdefault('cv91', FB.Feature('cv91'))
+        # for nm in ('TnLtr1', 'TnLtr2', 'TnLtr3', 'TnLtr4', 'TnLtr5'):
+        #    c = self.char(nm)
+        #    c.feats.add('cv91')
 
         # We're finally done, but if allLangs is a set, let's order it (for lack of anything better) and make a list:
         if not self._langsComplete:
             self.allLangs = list(sorted(self.allLangs))
-            self.allLangs = list(sorted(self.allLangs))
+
+    # this does NOT override the base class static method
+    #  but since my code only uses instances of FTMLBuilder_LCG, this method will be used
+    @staticmethod
+    def matchMarkBase(c_mark, c_base):
+        """ test whether an _AP on c_mark matches an AP on c_base """
+        for apM in c_mark.aps:
+            if apM == "R_": apM = "_R"
+            if apM.startswith("_"):
+                ap = apM[1:]
+                for apB in c_base.aps:
+                    if apB == ap:
+                        return True
+        return False
 
     def render_lists(self, base_uid_lst, diac_uid_lst, ftml, feature_lst=None, keyUID=0, descUIDs=None):
         baselst_lst = [base_uid_lst[i:i+8] for i in range(0, len(base_uid_lst), 8)]
@@ -273,7 +288,13 @@ class FTMLBuilder_LCG(FB.FTMLBuilder):
             descUIDs = uids
         label = '\n'.join(['U+{0:04X}'.format(u) for u in descUIDs])
         # Construct comment from glyph names:
-        comment = ' '.join([self._charFromUID[u].basename for u in descUIDs])
+        # comment = ' '.join([self._charFromUID[u].basename for u in descUIDs])
+        comment = ""
+        for u in descUIDs: # handle case where no char associated with usv
+            try: name = self._charFromUID[u].basename
+            except: name = 'U+{0:04X}'.format(u)
+            comment += name + " "
+        comment = comment[:-1] # remove extra space at end
         if get_ucd(startUID, 'gc') == 'Mn':
             # First char is a NSM... prefix a suitable base
             uids.insert(0, self.diacBase)
@@ -289,6 +310,33 @@ class FTMLBuilder_LCG(FB.FTMLBuilder):
             ftml.addToTest(keyUID, s, label=label, comment=comment)
         else:
             ftml.addToTest(keyUID, s, comment=comment) # label will be set based on keyUID
+
+# read list of glyph names from classes.xml file
+def get_class_xml(xml_fn, class_nm):
+    from xml import sax
+    class sax_handler(sax.ContentHandler):
+        def __init__(self):
+            self.b_capture = False
+            self.glyphs_str = ""
+
+        def startElement(self, name, attrs):
+            if name == "class" and attrs['name'] == class_nm:
+                self.b_capture = True
+
+        def characters(self, content):
+            if self.b_capture:
+                self.glyphs_str += content
+
+        def endElement(self, name):
+            if name == "class":
+                self.b_capture = False
+
+    handler = sax_handler()
+    sax_parser = sax.make_parser()
+    sax_parser.setContentHandler(handler)
+    sax_parser.parse(xml_fn)
+    glyphs_lst = handler.glyphs_str.split()
+    return glyphs_lst
 
 def doit(args):
     logger = args.logger
@@ -315,13 +363,14 @@ def doit(args):
     # Char to use in allframed test to surround other chars for checking spacing
     frame_uid = 0x006F
 
-    # Representative base and diac chars:
+    # Representative diac chars:
     #  cedilla (H), vertical line below (L), ogonek (O), comma abov right (R), vertical line above (U)
     repDiac = [x for x in [0x0327, 0x0329, 0x0328, 0x0315, 0x030D] if x in builder.uids()]
     ap_type_uid = {}
     for diac_uid in repDiac:
         c = builder.char(diac_uid)
         for ap in c.aps:
+            if ap == "R_": ap = "_R"
             if ap.startswith("_"):
                 ap_type_uid[ap[1:]] = diac_uid
 
@@ -479,13 +528,32 @@ def doit(args):
                         ftml.setFeatures(tv_lst)
                         builder.render(lig_diac_lst, ftml, descUIDs=lig_lst)
 
+        # add 'locl' test which provides Serbian alternates
+        # TODO: read uids with locl feat from glyph_data.csv
+        # TODO: test interactions of locl w other feats (only smcp currently)
+        # serb_alt_name_lst = ['CySmBe.Serb', 'CySmGhe.Serb', 'CySmPe.Serb', 'CySmDe.Serb']
+        serb_alt_name_lst = ['CySmBe', 'CySmGhe', 'CySmPe', 'CySmDe']
+        serb_alt_lst = [builder.char(x).uid for x in serb_alt_name_lst]
+        serb_alt_diac_lst = []
+        [serb_alt_diac_lst.extend([x, 0x030D]) for x in serb_alt_lst]
+        ftml.startTestGroup('locl - Serbian')
+        # builder.render(serb_alt_lst, ftml)
+        builder.render(serb_alt_diac_lst, ftml, descUIDs=serb_alt_lst)
+        # Serbian  'SRB '  cnr, srp - from OT spec
+        ftml.setLang('cnr')
+        # builder.render(serb_alt_lst, ftml)
+        builder.render(serb_alt_diac_lst, ftml, descUIDs=serb_alt_lst)
+        ftml.setLang('sr')  # use two letter BCP47 lang code
+        # builder.render(serb_alt_lst, ftml)
+        builder.render(serb_alt_diac_lst, ftml, descUIDs=serb_alt_lst)
+        ftml.closeTestGroup()
+
     if test.lower().startswith("smcp"):
-        # TODO: improve test for "c2sc" ?
         # Example of what report needs to show: LtnSmEgAlef LtnSmEgAlef.sc LtnCapEgAlef
         #  could add "LtnCapEgAlef <with 'c2sc' feature applied>" but commented out below
-
         # support adding a diac after each char that is being tested
-        # tests include: smcp, smcp_U, etc
+        #  tests include: smcp, smcp_U, etc
+        # add test for c2sc based on content of classes.xml
 
         ap_type = None
         ix = test.find("_")
@@ -496,7 +564,7 @@ def doit(args):
             except KeyError: logger.log("Invalid AP type: %s" % ap_type, "S")
             c_mark = builder.char(ap_uid)
 
-        ftml.startTestGroup('Small caps from glyph_data')
+        ftml.startTestGroup('Small caps from glyph_data (and extras)')
 
         char_special_iter = chain([builder.char(uid) for uid in builder.uids()],
               [builder.special(gname) for gname in builder.specials()])
@@ -507,6 +575,14 @@ def doit(args):
                 if type(cs) is FB.FSpecial: smcp_uid_lst.append(cs.uids)
 
         smcp_uid_lst.sort(key=lambda x: x[0] if type(x) is list else x)
+
+        # append special cases not specified in glyph_data.csv
+        #  no known cases but leave capability (originally done for LtnSmBarredO)
+        extra_glyphs_w_smcp = []
+        for g in extra_glyphs_w_smcp:
+            try: smcp_uid_lst.append(builder.char(g).uid)
+            except: pass
+
         smcp_char_lst = [u for u in smcp_uid_lst if type(u) is int]
         smcp_lig_lst = [u for u in smcp_uid_lst if type(u) is list]
 
@@ -539,8 +615,8 @@ def doit(args):
                 try: upper_base_lst.append(ord(chr(lower_uid).upper()))
                 except: upper_base_lst.append(ord('X'))
             builder.render(upper_base_diac_lst, ftml, descUIDs=upper_base_lst)
-            ftml.setFeatures([("c2sc", "1")]) # TODO: kludgy way to add a 'c2sc' test
-            builder.render(upper_base_diac_lst, ftml, descUIDs=upper_base_lst)
+            # ftml.setFeatures([("c2sc", "1")]) # TODO: kludgy way to add a 'c2sc' test
+            # builder.render(upper_base_diac_lst, ftml, descUIDs=upper_base_lst)
 
         liglst_lst = [smcp_lig_lst[i:i + uidlst_ct] for i in range(0, len(smcp_lig_lst), uidlst_ct)]
         for liglst in liglst_lst:  # liglst contains lists of uids & name to tests
@@ -566,6 +642,31 @@ def doit(args):
             builder.render(lig_diac_lst, ftml, descUIDs=lig_lst)  # render all uids without feat setting
             ftml.setFeatures(builder.features['smcp'].tvlist[1:])
             builder.render(lig_diac_lst, ftml, descUIDs=lig_lst)
+
+        # add c2sc test
+        ftml.startTestGroup('c2sc from classes.xml')
+        glyph_lst = get_class_xml(args.classes, "cno_c2sc") if args.classes else []
+        c2sc_char_lst = []
+        for g in glyph_lst: # handle unencoded glyphs
+            try: c2sc_char_lst.append(builder.char(g).uid)
+            except KeyError as key_exc: logger.log('glyph missing: {}'.format(key_exc), 'W')
+        c2sc_char_lst.sort()
+
+        uidlst_lst = [c2sc_char_lst[i:i+uidlst_ct] for i in range(0, len(c2sc_char_lst), uidlst_ct)]
+        for uidlst in uidlst_lst:
+            base_diac_lst, base_lst = [], []
+            if not ap_type:
+                base_diac_lst, base_lst = uidlst, uidlst
+            else:
+                for uid in uidlst:
+                    c_base = builder.char(uid)
+                    if builder.matchMarkBase(c_mark, c_base):
+                        base_lst.append(uid)
+                        base_diac_lst.extend((uid, ap_uid))
+            ftml.clearFeatures()
+            builder.render(base_diac_lst, ftml, descUIDs=base_lst)  # render all uids without feat setting
+            ftml.setFeatures([('c2sc', '1')])
+            builder.render(base_diac_lst, ftml, descUIDs=base_lst)
 
     if test.lower().startswith("diac"):
         # A E H O a e i o modifier-small-letter-o
@@ -613,7 +714,7 @@ def doit(args):
                     # ftml.clearFeatures()
                 ftml.closeTest()
 
-        ftml.startTestGroup('Special case - cv79 (NFD)')
+        ftml.startTestGroup('cv79 (NFD)')
         # cv79 - Kayan grave_acute
         kayan_diac_lst = [0x0300, 0x0301] # comb_grave, comb_acute
         kayan_base_char_lst = ['a', 'e', 'i', 'o', 'n', 'u', 'w', 'y', 'A', 'E', 'I', 'O', 'N', 'U', 'W', 'Y']
@@ -621,7 +722,7 @@ def doit(args):
         builder.render_lists(kayan_base_lst, kayan_diac_lst, ftml, [('cv79','1')], keyUID=kayan_diac_lst[0])
         ftml.closeTestGroup()
 
-        ftml.startTestGroup('Special case - cv79 (NFC)')
+        ftml.startTestGroup('cv79 (NFC)')
         # cv79 - Kayan grave_acute
         kayan_diac_lst = [0x0301] # comb_acute
         kayan_base_name_lst = ['LtnSmAGrave', 'LtnSmAGrave.SngStory', 'LtnSmEGrave', 'LtnSmIGrave', 'LtnSmOGrave',
@@ -640,66 +741,92 @@ def doit(args):
         builder.render_lists(kayan_base_lst, kayan_diac_lst, ftml, [('cv79','1')], keyUID=kayan_diac_lst[0])
         ftml.closeTestGroup()
 
+        ftml.startTestGroup('Rhotic hook attachment')
+        # rhotic_hk_diac_lst = [0x02DE] # rhotic hook
+        rhotic_hk_diac_name_lst = ['ModRhoticHook', 'CombCommaAbvRt', 'CombRtDotAbv', 'CombHorn', ]
+        rhotic_hk_diac_lst = [builder.char(x).uid for x in rhotic_hk_diac_name_lst]
+        rhotic_hook_base_name_lst = ['LtnCapI', 'LtnCapO']
+        rhotic_hk_base_lst = []
+        for base in rhotic_hook_base_name_lst:
+            try: rhotic_hk_base_lst.append(builder.char(base).uid)
+            except KeyError as key_exc: logger.log('glyph missing: {}'.format(key_exc), 'W')
+        for d in rhotic_hk_diac_lst:
+            for b in rhotic_hk_base_lst:
+                s = chr(b) + chr(d) + ' '
+                s += chr(b) + chr(d) + chr(d)
+                ftml.addToTest(d, s, comment=builder.char(d).basename)
+        ftml.closeTestGroup()
+
         ftml.startTestGroup('Dot removal')
         diac_lst = [0x301] #comb_acute
-        # the below glyph list was copied from classes.xml and massaged into Python format
-        base_name_lst = ['CySmByelorusUkrainI', 'CySmJe', 'LtnSmI', 'LtnSmI.SItal', 'LtnSmI.sc', 'LtnSmIOgonek',
-                    'LtnSmIRetrHook', 'LtnSmIStrk', 'LtnSmJ', 'LtnSmJCrossedTail', 'LtnSmJStrk',
-                    'LtnSubSmI', 'LtnSubSmJ', 'LtnSupSmI', 'LtnSupSmIStrk', 'ModSmJ', 'ModSmJCrossedTail']
+        base_name_lst = get_class_xml(args.classes, 'cno_dotlss')
+        # some glyphs have special dot removal handling so they works with other features, so add them to test
+        base_name_lst.extend(['LtnSmIDotBlw', 'LtnSmITildeBlw', 'LtnSmIOgonek'])
         base_lst = []
         for x in base_name_lst:
             try: base_lst.append(builder.char(x).uid)
             except: pass
         builder.render_lists(base_lst, diac_lst, ftml, keyUID=diac_lst[0])
-        builder.render_lists(base_lst, diac_lst, ftml, feature_lst=builder.features['smcp'].tvlist[1:], keyUID=diac_lst[0])
-        builder.render_lists(base_lst, diac_lst, ftml, feature_lst=builder.features['ss05'].tvlist[1:], keyUID=diac_lst[0])
+
+        smcp_base_lst = [uid for uid in base_lst if 'smcp' in builder.char(uid).feats]
+        builder.render_lists(smcp_base_lst, diac_lst, ftml, feature_lst=builder.features['smcp'].tvlist[1:], keyUID=diac_lst[0])
+        sital_base_lst = [uid for uid in base_lst if 'ss05' in builder.char(uid).feats]
+        builder.render_lists(sital_base_lst, diac_lst, ftml, feature_lst=builder.features['ss05'].tvlist[1:], keyUID=diac_lst[0])
         ftml.closeTestGroup()
 
         ftml.startTestGroup('Superscript diacritics')
         diac_lst = [0x308] #CombDiaer.Sup
-        # the below glyph list was copied from classes.xml and massaged into Python format
-        base_name_lst = [
-            'GrSubSmBeta', 'GrSubSmChi', 'GrSubSmGamma', 'GrSubSmPhi', 'GrSubSmRho', 'LtnSubSmA',
-            'LtnSubSmA.SngStory', 'LtnSubSmE', 'LtnSubSmH', 'LtnSubSmI', 'LtnSubSmI.Dotless', 'LtnSubSmJ',
-            'LtnSubSmJ.Dotless', 'LtnSubSmK', 'LtnSubSmL', 'LtnSubSmL.SItal', 'LtnSubSmM', 'LtnSubSmN',
-            'LtnSubSmO', 'LtnSubSmP', 'LtnSubSmR', 'LtnSubSmS', 'LtnSubSmSchwa', 'LtnSubSmT', 'LtnSubSmU',
-            'LtnSubSmV', 'LtnSubSmX', 'LtnSupSmA', 'LtnSupSmA.SngStory', 'LtnSupSmAe', 'LtnSupSmAlpha',
-            'LtnSupSmB', 'LtnSupSmBarredO', 'LtnSupSmBarredODep', 'LtnSupSmCCurl', 'LtnSupSmCCurlDep',
-            'LtnSupSmCapI', 'LtnSupSmCapIDep', 'LtnSupSmCapOe', 'LtnSupSmCapY', 'LtnSupSmClosedRevOpnE',
-            'LtnSupSmD', 'LtnSupSmDotlessJStrk', 'LtnSupSmDotlessJStrkDep', 'LtnSupSmE', 'LtnSupSmEng',
-            'LtnSupSmEngDep', 'LtnSupSmEsh', 'LtnSupSmEshDep', 'LtnSupSmEzh', 'LtnSupSmEzhDep', 'LtnSupSmF',
-            'LtnSupSmFDep', 'LtnSupSmG', 'LtnSupSmG.SngBowl', 'LtnSupSmI', 'LtnSupSmI.Dotless', 'LtnSupSmIStrk',
-            'LtnSupSmIStrk.Dotless', 'LtnSupSmIStrkDep', 'LtnSupSmK', 'LtnSupSmLRetrHook',
-            'LtnSupSmLRetrHookDep', 'LtnSupSmM', 'LtnSupSmMDep', 'LtnSupSmN', 'LtnSupSmNLftHook',
-            'LtnSupSmNLftHookDep', 'LtnSupSmO', 'LtnSupSmOStrk', 'LtnSupSmOe', 'LtnSupSmOeDep', 'LtnSupSmOpnE',
-            'LtnSupSmOpnO', 'LtnSupSmOpnO.TopSerif', 'LtnSupSmP', 'LtnSupSmRamsHorn', 'LtnSupSmRevE',
-            'LtnSupSmRevOpnE', 'LtnSupSmRevOpnEDep', 'LtnSupSmSchwa', 'LtnSupSmScriptG', 'LtnSupSmScriptGDep',
-            'LtnSupSmT', 'LtnSupSmTurnedA', 'LtnSupSmTurnedAlpha', 'LtnSupSmTurnedAlphaDep', 'LtnSupSmTurnedM',
-            'LtnSupSmTurnedMLngLeg', 'LtnSupSmTurnedMLngLegDep', 'LtnSupSmTurnedV', 'LtnSupSmTurnedVDep',
-            'LtnSupSmU', 'LtnSupSmUBar', 'LtnSupSmUBarDep', 'LtnSupSmUpsilon', 'LtnSupSmUpsilonDep',
-            'LtnSupSmV', 'LtnSupSmZ', 'LtnSupSmZCurl', 'LtnSupSmZCurlDep', 'LtnSupSmZDep', 'ModCapA',
-            'ModCapAe', 'ModCapB', 'ModCapBarredB', 'ModCapD', 'ModCapE', 'ModCapG', 'ModCapH', 'ModCapHStrk',
-            'ModCapI', 'ModCapJ', 'ModCapK', 'ModCapL', 'ModCapM', 'ModCapN', 'ModCapO', 'ModCapOu',
-            'ModCapOu.OpenTop', 'ModCapP', 'ModCapR', 'ModCapRevE', 'ModCapRevN', 'ModCapT', 'ModCapU',
-            'ModCapV', 'ModCapW', 'ModSmAin', 'ModSmBeta', 'ModSmBottomHalfO', 'ModSmC', 'ModSmCDep',
-            'ModSmCapIStrk', 'ModSmCapIStrkDep', 'ModSmCapInvR', 'ModSmCapL', 'ModSmCapLDep', 'ModSmCapN',
-            'ModSmCapNDep', 'ModSmCapU', 'ModSmCapUBar', 'ModSmCapUDep', 'ModSmChi', 'ModSmDelta', 'ModSmEth',
-            'ModSmEthDep', 'ModSmGamma', 'ModSmGrGamma', 'ModSmGrPhi', 'ModSmH', 'ModSmHHook', 'ModSmHStrk',
-            'ModSmHeng', 'ModSmIota', 'ModSmIotaDep', 'ModSmJ', 'ModSmJ.Dotless', 'ModSmJCrossedTail',
-            'ModSmJCrossedTail.Dotless', 'ModSmJCrossedTailDep', 'ModSmL', 'ModSmLMiddleTilde', 'ModSmLPalHook',
-            'ModSmLPalHookDep', 'ModSmMHook', 'ModSmMHookDep', 'ModSmNRetrHook', 'ModSmNRetrHookDep',
-            'ModSmPhi', 'ModSmPhiDep', 'ModSmR', 'ModSmRevGlottalStop', 'ModSmS', 'ModSmSHook', 'ModSmSHookDep',
-            'ModSmSdwysU', 'ModSmTPalHook', 'ModSmTPalHookDep', 'ModSmTheta', 'ModSmThetaDep', 'ModSmTopHalfO',
-            'ModSmTrndAe', 'ModSmTrndI', 'ModSmTrndOpnE', 'ModSmTrndR', 'ModSmTrndRHook', 'ModSmTurnedH',
-            'ModSmTurnedHDep', 'ModSmTurnedY', 'ModSmVHook', 'ModSmVHook.StraightLft',
-            'ModSmVHook.StraightLftHighHook', 'ModSmVHookDep', 'ModSmW', 'ModSmX', 'ModSmY', 'ModSmZRetrHook',
-            'ModSmZRetrHookDep', 'ModGlottalStop', 'ModRevGlottalStop'
-        ]
+        base_name_lst = get_class_xml(args.classes, 'c_superscripts')
         base_lst = []
         for x in base_name_lst:
             try: base_lst.append(builder.char(x).uid)
             except: pass
         builder.render_lists(base_lst, diac_lst, ftml, keyUID=diac_lst[0])
+        ftml.closeTestGroup()
+
+        ftml.startTestGroup('Vietnamese (NFC)')
+        base_name_lst = get_class_xml(args.classes, 'cno_viet')
+        base_uid_lst = []
+        for x in base_name_lst:
+            try: base_uid_lst.append(builder.char(x).uid)
+            except: pass
+        baselst_lst = [base_uid_lst[i:i + 8] for i in range(0, len(base_uid_lst), 8)]
+        for base_lst in baselst_lst:
+            ftml.clearLang()
+            builder.render(base_lst, ftml)
+            ftml.setLang('vi')
+            builder.render(base_lst, ftml)
+        ftml.closeTestGroup()
+
+        ftml.startTestGroup('Vietnamese (NFD)')
+
+        viet_diac1_name_lst = ['CombCircum', 'CombBreve']
+        viet_diac2_name_lst = ['CombAcute', 'CombGrave', 'CombHookAbv', 'CombTilde']
+        viet_diac1_lst = [builder.char(x).uid for x in viet_diac1_name_lst]
+        viet_diac2_lst = [builder.char(x).uid for x in viet_diac2_name_lst]
+        uid_lst = []
+        for i in [0x61, 0x41]: # lower a, upper A
+            for j in viet_diac1_lst:
+                for k in viet_diac2_lst:
+                    uid_lst += [i, j, k]
+            ftml.clearLang()
+            builder.render(uid_lst, ftml)
+            ftml.setLang('vi')
+            builder.render(uid_lst, ftml)
+            uid_lst = []
+
+        uid_lst = []
+        for i in [0x65, 0x45, 0x6F, 0x4F]: # lower e, upper E, lower o, upper O
+            for j in viet_diac1_lst[0:1]: # just test w circumflex
+                for k in viet_diac2_lst:
+                    uid_lst += [i, j, k]
+        uidlst_lst = [uid_lst[i:i + 8*3] for i in range(0, len(uid_lst), 8*3)]
+        for uid_lst in uidlst_lst:
+            ftml.clearLang()
+            builder.render(uid_lst, ftml)
+            ftml.setLang('vi')
+            builder.render(uid_lst, ftml)
+
         ftml.closeTestGroup()
 
         # ftml.startTestGroup('Special case - cv75')

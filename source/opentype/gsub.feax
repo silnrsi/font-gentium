@@ -35,13 +35,15 @@ lookup di_csub {
   lookupflag 0;
     sub @c_i_tilde_blw by @c_di_tilde_blw CombTildeBlw;
     sub @c_i_dot_blw by @c_di_dot_blw CombDotBlw;
+    sub LtnSmIOgonek by LtnSmI.Dotless CombOgonek;
+    # sub LtnSmIRetrHook by LtnSmI.Dotless CombOgonek.RetroHook; # wrong kind of RetrHook
 } di_csub;
 
 # Use markClasses from psfmakefea since they can be used as glyph classes
 @c_u_diacs = @_U;
-@c_non_u_diacs = [@_L @_O @_H @_R];
+@c_non_u_diacs = [@_L @_O @_H @R_];
 
-@c_i_diac_blw = [@c_i_tilde_blw @c_i_dot_blw];
+@c_i_diac_blw = [@c_i_tilde_blw @c_i_dot_blw LtnSmIOgonek];
 
 lookup di_ctx {
   lookupflag 0;
@@ -113,124 +115,249 @@ lookup f_sub {
     sub LtnSmF LtnSmF  by LtnLigSmFSmF;
 } f_sub;
 
+# used to generate glyph classes
+def SeqGen(n) {
+    l = list()
+    for i in range(1, 6):
+        for j in range(1, 6):
+            ltr = n + str(i) + str(j)
+            l.append(ltr)
+    return l
+} SeqGen;
+
+# glyph classes used below
+do  let l = SeqGen('TnLtrSeg');
+    let s = ' '.join(l);
+    {
+    @TnLtrSeg = [$s];
+    }
+# @TnLtrSeg = [];
+
+do  let l = SeqGen('TnContRt');
+    let s = ' '.join(l);
+    {
+    @TnContRt = [$s];
+    }
+# @TnContRt = [];
+
+do  let l = SeqGen('TnContLft');
+    let s = ' '.join(l);
+    {
+    @TnContLft = [$s];
+    }
+# @TnContLft = [];
+
+# create a glyph class of all non-tone glyphs
+def NonTns() {
+    l = list()
+    for g in allglyphs():
+        if not re.search('.*Tn(Ltr|Cont|Staff).*', g):
+            l.append(g)
+    return l
+} NonTns;
+
+do  let l = NonTns();
+    let s = ' '.join(l);
+    {
+    @NonTn = [$s];
+    }
+# @NonTn = [];
+
+@TnLtrs = [TnLtr5 TnLtr4 TnLtr3 TnLtr2 TnLtr1 ];
+@LftStemTnLtrs = [LftStemTnLtr5 LftStemTnLtr4 LftStemTnLtr3 LftStemTnLtr2 LftStemTnLtr1 ];
+
+# substitute contours for tone letters
+#  based on the level of the current tone and the following (or preceding) one
+# substitute a staff for the last (or first) tone letter
+# glyphs will connect in their default position
+# the glyph on the end of the sequence opposite the staff needs spacing added, see tne_ctx
+#  (staffs already have spacing)
+# supports any number of tone bars
 lookup tn_ctx {
   lookupflag 0;
-    sub [TnLtr5 TnLtr4 TnLtr3 TnLtr2 TnLtr1 ]' [TnLtr1 ]  by [TnContRt51 TnContRt41 TnContRt31 
-    TnContRt21 TnContRt11 ];
-    sub [TnLtr5 TnLtr4 TnLtr3 TnLtr2 TnLtr1 ]' [TnLtr2 ]  by [TnContRt52 TnContRt42 TnContRt32 
-    TnContRt22 TnContRt12 ];
-    sub [TnLtr5 TnLtr4 TnLtr3 TnLtr2 TnLtr1 ]' [TnLtr3 ]  by [TnContRt53 TnContRt43 TnContRt33 
-    TnContRt23 TnContRt13 ];
-    sub [TnLtr5 TnLtr4 TnLtr3 TnLtr2 TnLtr1 ]' [TnLtr4 ]  by [TnContRt54 TnContRt44 TnContRt34 
-    TnContRt24 TnContRt14 ];
-    sub [TnLtr5 TnLtr4 TnLtr3 TnLtr2 TnLtr1 ]' [TnLtr5 ]  by [TnContRt55 TnContRt45 TnContRt35 
-    TnContRt25 TnContRt15 ];
-    sub [TnContLft11 TnContLft21 TnContLft31 TnContLft41 TnContLft51 
-    LftStemTnLtr1 ] [LftStemTnLtr5 LftStemTnLtr4 LftStemTnLtr3 LftStemTnLtr2 LftStemTnLtr1 ]'  by [TnContLft15 TnContLft14 TnContLft13 
-    TnContLft12 TnContLft11 ];
-    sub [TnContLft12 TnContLft22 TnContLft32 TnContLft42 TnContLft52 
-    LftStemTnLtr2 ] [LftStemTnLtr5 LftStemTnLtr4 LftStemTnLtr3 LftStemTnLtr2 LftStemTnLtr1 ]'  by [TnContLft25 TnContLft24 TnContLft23 
-    TnContLft22 TnContLft21 ];
-    sub [TnContLft13 TnContLft23 TnContLft33 TnContLft43 TnContLft53 
-    LftStemTnLtr3 ] [LftStemTnLtr5 LftStemTnLtr4 LftStemTnLtr3 LftStemTnLtr2 LftStemTnLtr1 ]'  by [TnContLft35 TnContLft34 TnContLft33 
-    TnContLft32 TnContLft31 ];
-    sub [TnContLft14 TnContLft24 TnContLft34 TnContLft44 TnContLft54 
-    LftStemTnLtr4 ] [LftStemTnLtr5 LftStemTnLtr4 LftStemTnLtr3 LftStemTnLtr2 LftStemTnLtr1 ]'  by [TnContLft45 TnContLft44 TnContLft43 
-    TnContLft42 TnContLft41 ];
-    sub [TnContLft15 TnContLft25 TnContLft35 TnContLft45 TnContLft55 
-    LftStemTnLtr5 ] [LftStemTnLtr5 LftStemTnLtr4 LftStemTnLtr3 LftStemTnLtr2 LftStemTnLtr1 ]'  by [TnContLft55 TnContLft54 TnContLft53 
-    TnContLft52 TnContLft51 ];
+    # ignore two isolated tones of the same level next to each
+    #  unfortunately will not match if they are at a segment boundary
+    ignore sub @NonTn TnLtr5' TnLtr5' @NonTn;
+    ignore sub @NonTn TnLtr4' TnLtr4' @NonTn;
+    ignore sub @NonTn TnLtr3' TnLtr3' @NonTn;
+    ignore sub @NonTn TnLtr2' TnLtr2' @NonTn;
+    ignore sub @NonTn TnLtr1' TnLtr1' @NonTn;
+
+    sub @TnLtrs' [TnLtr1 ] by [TnLtrSeg51 TnLtrSeg41 TnLtrSeg31 TnLtrSeg21 TnLtrSeg11 ];
+    sub @TnLtrs' [TnLtr2 ] by [TnLtrSeg52 TnLtrSeg42 TnLtrSeg32 TnLtrSeg22 TnLtrSeg12 ];
+    sub @TnLtrs' [TnLtr3 ] by [TnLtrSeg53 TnLtrSeg43 TnLtrSeg33 TnLtrSeg23 TnLtrSeg13 ];
+    sub @TnLtrs' [TnLtr4 ] by [TnLtrSeg54 TnLtrSeg44 TnLtrSeg34 TnLtrSeg24 TnLtrSeg14 ];
+    sub @TnLtrs' [TnLtr5 ] by [TnLtrSeg55 TnLtrSeg45 TnLtrSeg35 TnLtrSeg25 TnLtrSeg15 ];
+    sub @TnLtrSeg @TnLtrs' by [TnStaffRt5 TnStaffRt4 TnStaffRt3 TnStaffRt2 TnStaffRt1 ];
+
+    ignore sub @NonTn LftStemTnLtr5' LftStemTnLtr5' @NonTn;
+    ignore sub @NonTn LftStemTnLtr4' LftStemTnLtr4' @NonTn;
+    ignore sub @NonTn LftStemTnLtr3' LftStemTnLtr3' @NonTn;
+    ignore sub @NonTn LftStemTnLtr2' LftStemTnLtr2' @NonTn;
+    ignore sub @NonTn LftStemTnLtr1' LftStemTnLtr1' @NonTn;
+
+    sub [TnStaffLft1 TnLtrSeg11 TnLtrSeg21 TnLtrSeg31 TnLtrSeg41 TnLtrSeg51 ] @LftStemTnLtrs' by 
+      [TnLtrSeg15 TnLtrSeg14 TnLtrSeg13 TnLtrSeg12 TnLtrSeg11 ];
+    sub [TnStaffLft2 TnLtrSeg12 TnLtrSeg22 TnLtrSeg32 TnLtrSeg42 TnLtrSeg52 ] @LftStemTnLtrs' by 
+      [TnLtrSeg25 TnLtrSeg24 TnLtrSeg23 TnLtrSeg22 TnLtrSeg21 ];
+    sub [TnStaffLft3 TnLtrSeg13 TnLtrSeg23 TnLtrSeg33 TnLtrSeg43 TnLtrSeg53 ] @LftStemTnLtrs' by 
+      [TnLtrSeg35 TnLtrSeg34 TnLtrSeg33 TnLtrSeg32 TnLtrSeg31 ];
+    sub [TnStaffLft4 TnLtrSeg14 TnLtrSeg24 TnLtrSeg34 TnLtrSeg44 TnLtrSeg54 ] @LftStemTnLtrs' by 
+      [TnLtrSeg45 TnLtrSeg44 TnLtrSeg43 TnLtrSeg42 TnLtrSeg41 ];
+    sub [TnStaffLft5 TnLtrSeg15 TnLtrSeg25 TnLtrSeg35 TnLtrSeg45 TnLtrSeg55 ] @LftStemTnLtrs' by 
+      [TnLtrSeg55 TnLtrSeg54 TnLtrSeg53 TnLtrSeg52 TnLtrSeg51 ];
+    sub @LftStemTnLtrs' @LftStemTnLtrs by 
+      [TnStaffLft5 TnStaffLft4 TnStaffLft3 TnStaffLft2 TnStaffLft1];
 } tn_ctx;
 
-lookup tnsr_dcmp {
+# substitute a glyph with spacing for one without spacing in right stem clusters
+lookup tner_sub {
   lookupflag 0;
-    sub TnLtr5 by TnContRt55 TnStaffRt5 ;
-    sub TnLtr4 by TnContRt44 TnStaffRt4 ;
-    sub TnLtr3 by TnContRt33 TnStaffRt3 ;
-    sub TnLtr2 by TnContRt22 TnStaffRt2 ;
-    sub TnLtr1 by TnContRt11 TnStaffRt1 ;
-} tnsr_dcmp;
+    sub @TnLtrSeg by @TnContRt;
+} tner_sub;
 
-lookup tnsr_sub {
+# substitute a glyph with spacing for one without spacing in left stem clusters
+lookup tnel_sub {
   lookupflag 0;
-    sub TnLtr5 by TnStaffRt5 ;
-    sub TnLtr4 by TnStaffRt4 ;
-    sub TnLtr3 by TnStaffRt3 ;
-    sub TnLtr2 by TnStaffRt2 ;
-    sub TnLtr1 by TnStaffRt1 ;
-} tnsr_sub;
+    sub @TnLtrSeg by @TnContLft;
+} tnel_sub;
 
-lookup tnsl_sub {
-  lookupflag 0;
-    sub LftStemTnLtr5 by TnStaffLft5 ;
-    sub LftStemTnLtr4 by TnStaffLft4 ;
-    sub LftStemTnLtr3 by TnStaffLft3 ;
-    sub LftStemTnLtr2 by TnStaffLft2 ;
-    sub LftStemTnLtr1 by TnStaffLft1 ;
-} tnsl_sub;
+@TnStaffRt = [TnStaffRt5 TnStaffRt4 TnStaffRt3 TnStaffRt2 TnStaffRt1 ];
+@TnStaffLft = [TnStaffLft5 TnStaffLft4 TnStaffLft3 TnStaffLft2 TnStaffLft1 ];
 
-lookup tnsl_dcmp {
-  lookupflag 0;
-    sub LftStemTnLtr5 by TnStaffLft5 TnContLft55 ;
-    sub LftStemTnLtr4 by TnStaffLft4 TnContLft44 ;
-    sub LftStemTnLtr3 by TnStaffLft3 TnContLft33 ;
-    sub LftStemTnLtr2 by TnStaffLft2 TnContLft22 ;
-    sub LftStemTnLtr1 by TnStaffLft1 TnContLft11 ;
-} tnsl_dcmp;
-
+# add a spacing glyph to the opposite end of a cluster from the staff
+#  supports up to seven tone bars
 lookup tne_ctx {
   lookupflag 0;
-    sub [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ] [TnLtr5 TnLtr4 TnLtr3 TnLtr2 TnLtr1 ]'lookup tnsr_dcmp  ;
-    sub [TnContRt12 TnContRt13 TnContRt14 TnContRt15 TnContRt21 TnContRt23 
-    TnContRt24 TnContRt25 TnContRt31 TnContRt32 TnContRt34 
-    TnContRt35 TnContRt41 TnContRt42 TnContRt43 TnContRt45 
-    TnContRt51 TnContRt52 TnContRt53 TnContRt54 ] [TnLtr5 TnLtr4 TnLtr3 TnLtr2 TnLtr1 ]'lookup tnsr_sub  ;
-    sub [TnContRt12 TnContRt13 TnContRt14 TnContRt15 TnContRt21 TnContRt23 
-    TnContRt24 TnContRt25 TnContRt31 TnContRt32 TnContRt34 
-    TnContRt35 TnContRt41 TnContRt42 TnContRt43 TnContRt45 
-    TnContRt51 TnContRt52 TnContRt53 TnContRt54 ] [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnLtr5 TnLtr4 TnLtr3 TnLtr2 TnLtr1 ]'lookup tnsr_sub  ;
-    sub [TnContRt12 TnContRt13 TnContRt14 TnContRt15 TnContRt21 TnContRt23 
-    TnContRt24 TnContRt25 TnContRt31 TnContRt32 TnContRt34 
-    TnContRt35 TnContRt41 TnContRt42 TnContRt43 TnContRt45 
-    TnContRt51 TnContRt52 TnContRt53 TnContRt54 ] [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnLtr5 TnLtr4 TnLtr3 TnLtr2 TnLtr1 ]'lookup tnsr_sub  ;
-    sub [TnContRt12 TnContRt13 TnContRt14 TnContRt15 TnContRt21 TnContRt23 
-    TnContRt24 TnContRt25 TnContRt31 TnContRt32 TnContRt34 
-    TnContRt35 TnContRt41 TnContRt42 TnContRt43 TnContRt45 
-    TnContRt51 TnContRt52 TnContRt53 TnContRt54 ] [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnLtr5 TnLtr4 TnLtr3 TnLtr2 TnLtr1 ]'lookup tnsr_sub  ;
-    sub [TnContRt12 TnContRt13 TnContRt14 TnContRt15 TnContRt21 TnContRt23 
-    TnContRt24 TnContRt25 TnContRt31 TnContRt32 TnContRt34 
-    TnContRt35 TnContRt41 TnContRt42 TnContRt43 TnContRt45 
-    TnContRt51 TnContRt52 TnContRt53 TnContRt54 ] [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnLtr5 TnLtr4 TnLtr3 TnLtr2 TnLtr1 ]'lookup tnsr_sub  ;
-    sub [TnContRt12 TnContRt13 TnContRt14 TnContRt15 TnContRt21 TnContRt23 
-    TnContRt24 TnContRt25 TnContRt31 TnContRt32 TnContRt34 
-    TnContRt35 TnContRt41 TnContRt42 TnContRt43 TnContRt45 
-    TnContRt51 TnContRt52 TnContRt53 TnContRt54 ] [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnContRt11 TnContRt22 TnContRt33 TnContRt44 TnContRt55 ]' [TnLtr5 TnLtr4 TnLtr3 TnLtr2 TnLtr1 ]'lookup tnsr_sub  ;
-    sub [LftStemTnLtr5 LftStemTnLtr4 LftStemTnLtr3 LftStemTnLtr2 LftStemTnLtr1 ]'lookup tnsl_sub  [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft12 TnContLft13 TnContLft14 TnContLft15 TnContLft21 TnContLft23 
-    TnContLft24 TnContLft25 TnContLft31 TnContLft32 TnContLft34 
-    TnContLft35 TnContLft41 TnContLft42 TnContLft43 TnContLft45 
-    TnContLft51 TnContLft52 TnContLft53 TnContLft54 ] ;
-    sub [LftStemTnLtr5 LftStemTnLtr4 LftStemTnLtr3 LftStemTnLtr2 LftStemTnLtr1 ]'lookup tnsl_sub  [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft12 TnContLft13 TnContLft14 TnContLft15 TnContLft21 TnContLft23 
-    TnContLft24 TnContLft25 TnContLft31 TnContLft32 TnContLft34 
-    TnContLft35 TnContLft41 TnContLft42 TnContLft43 TnContLft45 
-    TnContLft51 TnContLft52 TnContLft53 TnContLft54 ] ;
-    sub [LftStemTnLtr5 LftStemTnLtr4 LftStemTnLtr3 LftStemTnLtr2 LftStemTnLtr1 ]'lookup tnsl_sub  [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft12 TnContLft13 TnContLft14 TnContLft15 TnContLft21 TnContLft23 
-    TnContLft24 TnContLft25 TnContLft31 TnContLft32 TnContLft34 
-    TnContLft35 TnContLft41 TnContLft42 TnContLft43 TnContLft45 
-    TnContLft51 TnContLft52 TnContLft53 TnContLft54 ] ;
-    sub [LftStemTnLtr5 LftStemTnLtr4 LftStemTnLtr3 LftStemTnLtr2 LftStemTnLtr1 ]'lookup tnsl_sub  [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft12 TnContLft13 TnContLft14 TnContLft15 TnContLft21 TnContLft23 
-    TnContLft24 TnContLft25 TnContLft31 TnContLft32 TnContLft34 
-    TnContLft35 TnContLft41 TnContLft42 TnContLft43 TnContLft45 
-    TnContLft51 TnContLft52 TnContLft53 TnContLft54 ] ;
-    sub [LftStemTnLtr5 LftStemTnLtr4 LftStemTnLtr3 LftStemTnLtr2 LftStemTnLtr1 ]'lookup tnsl_sub  [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ]' [TnContLft12 TnContLft13 TnContLft14 TnContLft15 TnContLft21 TnContLft23 
-    TnContLft24 TnContLft25 TnContLft31 TnContLft32 TnContLft34 
-    TnContLft35 TnContLft41 TnContLft42 TnContLft43 TnContLft45 
-    TnContLft51 TnContLft52 TnContLft53 TnContLft54 ] ;
-    sub [LftStemTnLtr5 LftStemTnLtr4 LftStemTnLtr3 LftStemTnLtr2 LftStemTnLtr1 ]'lookup tnsl_dcmp  [TnContLft11 TnContLft22 TnContLft33 TnContLft44 TnContLft55 ] ;
-    sub [LftStemTnLtr5 LftStemTnLtr4 LftStemTnLtr3 LftStemTnLtr2 LftStemTnLtr1 ]'lookup tnsl_sub  [TnContLft12 TnContLft13 TnContLft14 TnContLft15 TnContLft21 TnContLft23 
-    TnContLft24 TnContLft25 TnContLft31 TnContLft32 TnContLft34 
-    TnContLft35 TnContLft41 TnContLft42 TnContLft43 TnContLft45 
-    TnContLft51 TnContLft52 TnContLft53 TnContLft54 ] ;
+    sub @TnLtrSeg'lookup tner_sub @TnLtrSeg' @TnLtrSeg' @TnLtrSeg' @TnLtrSeg' @TnLtrSeg' @TnStaffRt'; 
+    sub @TnLtrSeg'lookup tner_sub @TnLtrSeg' @TnLtrSeg' @TnLtrSeg' @TnLtrSeg' @TnStaffRt'; 
+    sub @TnLtrSeg'lookup tner_sub @TnLtrSeg' @TnLtrSeg' @TnLtrSeg' @TnStaffRt';
+    sub @TnLtrSeg'lookup tner_sub @TnLtrSeg' @TnLtrSeg' @TnStaffRt';
+    sub @TnLtrSeg'lookup tner_sub @TnLtrSeg' @TnStaffRt';
+    sub @TnLtrSeg'lookup tner_sub @TnStaffRt';
+
+    sub @TnStaffLft' @TnLtrSeg' @TnLtrSeg' @TnLtrSeg' @TnLtrSeg' @TnLtrSeg' @TnLtrSeg'lookup tnel_sub;
+    sub @TnStaffLft' @TnLtrSeg' @TnLtrSeg' @TnLtrSeg' @TnLtrSeg' @TnLtrSeg'lookup tnel_sub;
+    sub @TnStaffLft' @TnLtrSeg' @TnLtrSeg' @TnLtrSeg' @TnLtrSeg'lookup tnel_sub;
+    sub @TnStaffLft' @TnLtrSeg' @TnLtrSeg' @TnLtrSeg'lookup tnel_sub;
+    sub @TnStaffLft' @TnLtrSeg' @TnLtrSeg'lookup tnel_sub;
+    sub @TnStaffLft' @TnLtrSeg'lookup tnel_sub;
 } tne_ctx;
+
+@TnLtrsNo = [TnLtr5no TnLtr4no TnLtr3no TnLtr2no TnLtr1no ];
+@LftStemTnLtrsNo = [LftStemTnLtr5no LftStemTnLtr4no LftStemTnLtr3no LftStemTnLtr2no LftStemTnLtr1no ];
+
+@TnStaffRtNo = [TnStaffRt5no TnStaffRt4no TnStaffRt3no TnStaffRt2no TnStaffRt1no ];
+@TnStaffLftNo = [TnStaffLft5no TnStaffLft4no TnStaffLft3no TnStaffLft2no TnStaffLft1no ];
+
+# substitute numerals for tone bars
+lookup tnn_sub {
+  lookupflag 0;
+    sub TnLtr5 by [SupFive ];
+    sub TnLtr4 by [SupFour ];
+    sub TnLtr3 by [SupThree ];
+    sub TnLtr2 by [SupTwo ];
+    sub TnLtr1 by [SupOne ];
+    sub LftStemTnLtr5 by [SupFive ];
+    sub LftStemTnLtr4 by [SupFour ];
+    sub LftStemTnLtr3 by [SupThree ];
+    sub LftStemTnLtr2 by [SupTwo ];
+    sub LftStemTnLtr1 by [SupOne ];
+} tnn_sub;
+
+# the following is to turn tone segments (and contours) into numerals
+@RtTnLtrSeg5 = [TnLtrSeg51 TnLtrSeg52 TnLtrSeg53 TnLtrSeg54 TnLtrSeg55];
+@RtTnLtrSeg4 = [TnLtrSeg41 TnLtrSeg42 TnLtrSeg43 TnLtrSeg44 TnLtrSeg45];
+@RtTnLtrSeg3 = [TnLtrSeg31 TnLtrSeg32 TnLtrSeg33 TnLtrSeg34 TnLtrSeg35];
+@RtTnLtrSeg2 = [TnLtrSeg21 TnLtrSeg22 TnLtrSeg23 TnLtrSeg24 TnLtrSeg25];
+@RtTnLtrSeg1 = [TnLtrSeg11 TnLtrSeg12 TnLtrSeg13 TnLtrSeg14 TnLtrSeg15];
+
+@TnContRt5 = [TnContRt51 TnContRt52 TnContRt53 TnContRt54 TnContRt55];
+@TnContRt4 = [TnContRt41 TnContRt42 TnContRt43 TnContRt44 TnContRt45];
+@TnContRt3 = [TnContRt31 TnContRt32 TnContRt33 TnContRt34 TnContRt35];
+@TnContRt2 = [TnContRt21 TnContRt22 TnContRt23 TnContRt24 TnContRt25];
+@TnContRt1 = [TnContRt11 TnContRt12 TnContRt13 TnContRt14 TnContRt15];
+
+@LftTnLtrSeg5 = [TnLtrSeg15 TnLtrSeg25 TnLtrSeg35 TnLtrSeg45 TnLtrSeg55];
+@LftTnLtrSeg4 = [TnLtrSeg14 TnLtrSeg24 TnLtrSeg34 TnLtrSeg44 TnLtrSeg54];
+@LftTnLtrSeg3 = [TnLtrSeg13 TnLtrSeg23 TnLtrSeg33 TnLtrSeg43 TnLtrSeg53];
+@LftTnLtrSeg2 = [TnLtrSeg12 TnLtrSeg22 TnLtrSeg32 TnLtrSeg42 TnLtrSeg52];
+@LftTnLtrSeg1 = [TnLtrSeg11 TnLtrSeg21 TnLtrSeg31 TnLtrSeg41 TnLtrSeg51];
+
+@TnContLft5 = [TnContLft15 TnContLft25 TnContLft35 TnContLft45 TnContLft55];
+@TnContLft4 = [TnContLft14 TnContLft24 TnContLft34 TnContLft44 TnContLft54];
+@TnContLft3 = [TnContLft13 TnContLft23 TnContLft33 TnContLft43 TnContLft53];
+@TnContLft2 = [TnContLft12 TnContLft22 TnContLft32 TnContLft42 TnContLft52];
+@TnContLft1 = [TnContLft11 TnContLft21 TnContLft31 TnContLft41 TnContLft51];
+
+@TnStaffRt = [TnStaffRt5 TnStaffRt4 TnStaffRt3 TnStaffRt2 TnStaffRt1 ];
+@TnStaffLft = [TnStaffLft5 TnStaffLft4 TnStaffLft3 TnStaffLft2 TnStaffLft1 ];
+@SupNum = [SupFive SupFour SupThree SupTwo SupOne];
+
+lookup tnnr_sub {
+  lookupflag 0;
+    sub [@RtTnLtrSeg5 @TnContRt5] by SupFive;
+    sub [@RtTnLtrSeg4 @TnContRt4] by SupFour;
+    sub [@RtTnLtrSeg3 @TnContRt3] by SupThree;
+    sub [@RtTnLtrSeg2 @TnContRt2] by SupTwo;
+    sub [@RtTnLtrSeg1 @TnContRt1] by SupOne;
+    sub @TnStaffRt by @SupNum;
+} tnnr_sub;
+
+lookup tnnl_sub {
+  lookupflag 0;
+    sub [@LftTnLtrSeg5 @TnContLft5] by SupFive;
+    sub [@LftTnLtrSeg4 @TnContLft4] by SupFour;
+    sub [@LftTnLtrSeg3 @TnContLft3] by SupThree;
+    sub [@LftTnLtrSeg2 @TnContLft2] by SupTwo;
+    sub [@LftTnLtrSeg1 @TnContLft1] by SupOne;
+    sub @TnStaffLft by @SupNum;
+} tnnl_sub;
+
+lookup tnn_ctx {
+  lookupflag 0;
+    sub @TnContRt'lookup tnnr_sub @TnLtrSeg'lookup tnnr_sub @TnLtrSeg'lookup tnnr_sub 
+      @TnLtrSeg'lookup tnnr_sub @TnLtrSeg'lookup tnnr_sub @TnLtrSeg'lookup tnnr_sub 
+      @TnStaffRt'lookup tnnr_sub; 
+    sub @TnContRt'lookup tnnr_sub @TnLtrSeg'lookup tnnr_sub @TnLtrSeg'lookup tnnr_sub 
+      @TnLtrSeg'lookup tnnr_sub @TnLtrSeg'lookup tnnr_sub 
+      @TnStaffRt'lookup tnnr_sub; 
+    sub @TnContRt'lookup tnnr_sub @TnLtrSeg'lookup tnnr_sub @TnLtrSeg'lookup tnnr_sub 
+      @TnLtrSeg'lookup tnnr_sub 
+      @TnStaffRt'lookup tnnr_sub; 
+    sub @TnContRt'lookup tnnr_sub @TnLtrSeg'lookup tnnr_sub @TnLtrSeg'lookup tnnr_sub 
+      @TnStaffRt'lookup tnnr_sub; 
+    sub @TnContRt'lookup tnnr_sub @TnLtrSeg'lookup tnnr_sub 
+      @TnStaffRt'lookup tnnr_sub; 
+    sub @TnContRt'lookup tnnr_sub 
+      @TnStaffRt'lookup tnnr_sub; 
+
+    sub @TnStaffLft'lookup tnnl_sub @TnLtrSeg'lookup tnnl_sub @TnLtrSeg'lookup tnnl_sub 
+      @TnLtrSeg'lookup tnnl_sub @TnLtrSeg'lookup tnnl_sub @TnLtrSeg'lookup tnnl_sub 
+      @TnContLft'lookup tnnl_sub;
+    sub @TnStaffLft'lookup tnnl_sub @TnLtrSeg'lookup tnnl_sub @TnLtrSeg'lookup tnnl_sub 
+      @TnLtrSeg'lookup tnnl_sub @TnLtrSeg'lookup tnnl_sub 
+      @TnContLft'lookup tnnl_sub;
+    sub @TnStaffLft'lookup tnnl_sub @TnLtrSeg'lookup tnnl_sub @TnLtrSeg'lookup tnnl_sub 
+      @TnLtrSeg'lookup tnnl_sub 
+      @TnContLft'lookup tnnl_sub;
+    sub @TnStaffLft'lookup tnnl_sub @TnLtrSeg'lookup tnnl_sub @TnLtrSeg'lookup tnnl_sub 
+      @TnContLft'lookup tnnl_sub;
+    sub @TnStaffLft'lookup tnnl_sub @TnLtrSeg'lookup tnnl_sub 
+      @TnContLft'lookup tnnl_sub;
+    sub @TnStaffLft'lookup tnnl_sub 
+      @TnContLft'lookup tnnl_sub;
+} tnn_ctx;
+
+# hide the tone bar staves
+#  place after tone numbers lookup so it has less precedence
+lookup tnh_sub {
+  lookupflag 0;
+    sub @TnLtrs by @TnLtrsNo;
+    sub @LftStemTnLtrs by @LftStemTnLtrsNo;
+    sub @TnStaffRt by @TnStaffRtNo;
+    sub @TnStaffLft by @TnStaffLftNo;
+} tnh_sub;
 
 lookup bhk_sub {
   lookupflag 0;
@@ -402,20 +529,6 @@ lookup chnntc_sub {
     sub ModMacron from [ModChinantecTnMrkHorizBar ];
 } chnntc_sub;
 
-lookup tn_sub {
-  lookupflag 0;
-    sub TnLtr5 from [SupFive ];
-    sub TnLtr4 from [SupFour ];
-    sub TnLtr3 from [SupThree ];
-    sub TnLtr2 from [SupTwo ];
-    sub TnLtr1 from [SupOne ];
-    sub LftStemTnLtr5 from [SupFive ];
-    sub LftStemTnLtr4 from [SupFour ];
-    sub LftStemTnLtr3 from [SupThree ];
-    sub LftStemTnLtr2 from [SupTwo ];
-    sub LftStemTnLtr1 from [SupOne ];
-} tn_sub;
-
 lookup set_sub {
   lookupflag 0;
     sub EmptySet from [EmptySet.SlashZero ];
@@ -509,6 +622,7 @@ feature aalt {
   feature cv82;
   feature cv90;
   feature cv91;
+  feature cv92;
   feature cv98;
   feature cv14; #Gentium
   feature cv78; #Gentium
@@ -1300,8 +1414,36 @@ feature cv91 {
       };
   };
 
-  lookup tn_sub;
+  lookup tnn_sub;
+  lookup tnn_ctx;
 } cv91;
+
+feature cv92 {
+
+  cvParameters {
+      FeatUILabelNameID {
+       name 3 1 0x0409 "Hide tone contour staves";  # English US
+       name 1 0 0 "Hide tone contour staves";  # Mac English
+      };
+      
+      FeatUITooltipTextNameID {
+       name 3 1 0x0409 "Hide tone staves";  # English US
+       name 1 0 0 "Hide tone staves";  # Mac English
+      };
+      
+      SampleTextNameID {
+       name 3 1 0x0409 "˩˨˧˦˥꜖꜕꜔꜓꜒";  # English US
+       name 1 0 0 "?";  # Mac English
+      };
+      
+      ParamUILabelNameID {
+       name 3 1 0x0409 "True";  # English US
+       name 1 0 0 "True";  # Mac English
+      };
+  };
+
+  lookup tnh_sub;
+} cv92;
 
 feature cv98 {
 

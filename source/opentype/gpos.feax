@@ -1,27 +1,27 @@
 lookup base_mark_U {
-  lookupflag 0;
+  lookupflag IgnoreLigatures;
     pos base @U mark @_U;
 } base_mark_U;
 
 lookup base_mark_L {
-  lookupflag 0;
+  lookupflag IgnoreLigatures;
     pos base @L mark @_L;
 } base_mark_L;
 
 lookup base_mark_O {
-  lookupflag 0;
+  lookupflag IgnoreLigatures;
     pos base @O mark @_O;
 } base_mark_O;
 
 lookup base_mark_H {
-  lookupflag 0;
+  lookupflag IgnoreLigatures;
     pos base @H mark @_H;
 } base_mark_H;
 
-lookup base_mark_R {
-  lookupflag 0;
-    pos base @R mark @_R;
-} base_mark_R;
+lookup cursive_R {
+  lookupflag IgnoreMarks;
+    pos cursive @R_ @R;
+} cursive_R;
 
 # provided by _gsub.fea
 # languagesystem DFLT dflt;
@@ -32,17 +32,15 @@ lookup base_mark_R {
 # languagesystem latn VIT;
 
 feature mark {
-  lookup rdiac_adv;
   lookup base_mark_U;
   lookup base_mark_L;
   lookup base_mark_O;
   lookup base_mark_H;
-  lookup base_mark_R;
+  lookup cursive_R;
 } mark;
 
-
-@cMarkFilter_U = [@U @_U];
-@cMarkFilter_L = [@L @_L];
+@cMarkFilter_U = [@U_MarkBase @_U];
+@cMarkFilter_L = [@L_MarkBase @_L];
 
 lookup mark_mark_U {
   lookupflag UseMarkFilteringSet @cMarkFilter_U;
@@ -59,11 +57,7 @@ feature mkmk {
   lookup mark_mark_L;
 } mkmk;
 
-lookup kernpairs {
-    kernpairs;
-} kernpairs;
-
-feature kern {
-  lookup tns_pos;
-  lookup kernpairs;
-} kern;
+lookup tns_pos {
+  lookupflag IgnoreMarks;
+    pos cursive @TL_ @TL;
+} tns_pos;
