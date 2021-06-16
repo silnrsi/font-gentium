@@ -57,7 +57,16 @@ feature mkmk {
   lookup mark_mark_L;
 } mkmk;
 
-lookup tns_pos {
+lookup kernpairs {
+    kernpairs;
+} kernpairs;
+
+lookup tns_pos { # not needed by tone glyphs currently being used
   lookupflag IgnoreMarks;
     pos cursive @TL_ @TL;
 } tns_pos;
+
+feature kern {
+  # lookup tns_pos;
+  lookup kernpairs;
+} kern;
