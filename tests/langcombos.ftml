@@ -3,17 +3,17 @@
 <ftml version="1.0">
   <head>
     <fontscale>200</fontscale>
-    <fontsrc>url(../results/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc>url(../results/GentiumBookPlus-Regular.ttf)</fontsrc>
-    <fontsrc>url(../results/GentiumPlus-Bold.ttf)</fontsrc>
-    <fontsrc>url(../results/GentiumBookPlus-Bold.ttf)</fontsrc>
-    <fontsrc>url(../results/GentiumPlus-Italic.ttf)</fontsrc>
-    <fontsrc>url(../results/GentiumBookPlus-Italic.ttf)</fontsrc>
-    <fontsrc>url(../results/GentiumPlus-BoldItalic.ttf)</fontsrc>
-    <fontsrc>url(../results/GentiumBookPlus-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="GR">url(../results/GentiumPlus-Regular.ttf)</fontsrc>
+    <fontsrc label="GBkR">url(../results/GentiumBookPlus-Regular.ttf)</fontsrc>
+    <fontsrc label="GB">url(../results/GentiumPlus-Bold.ttf)</fontsrc>
+    <fontsrc label="GBkB">url(../results/GentiumBookPlus-Bold.ttf)</fontsrc>
+    <fontsrc label="GI">url(../results/GentiumPlus-Italic.ttf)</fontsrc>
+    <fontsrc label="GBkI">url(../results/GentiumBookPlus-Italic.ttf)</fontsrc>
+    <fontsrc label="GBI">url(../results/GentiumPlus-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="GBkB">url(../results/GentiumBookPlus-BoldItalic.ttf)</fontsrc>
     <fontsrc label="GRv5">url(../references/v5/GentiumPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GIv5">url(../references/v5/GentiumPlus-Italic.ttf)</fontsrc>
-    <title>LornasData</title>
+    <title>Language Combos</title>
   </head>
   <testgroup label="Common base diacritic combos">
     <test label="U+0061 U+0301">
