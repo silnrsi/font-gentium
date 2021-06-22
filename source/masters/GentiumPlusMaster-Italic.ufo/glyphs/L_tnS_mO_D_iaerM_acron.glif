@@ -6,11 +6,11 @@
   <anchor x="354" y="-100" name="L"/>
   <anchor x="429" y="0" name="O"/>
   <anchor x="920" y="870" name="R"/>
-  <anchor x="609" y="1740" name="U"/>
+  <anchor x="609" y="1770" name="U"/>
   <outline>
     <component base="LtnSmO"/>
     <component base="CombDiaer" xOffset="860"/>
-    <component base="CombMacron" xOffset="922" yOffset="370"/>
+    <component base="CombMacron" xOffset="922" yOffset="400"/>
   </outline>
   <lib>
     <dict>
