@@ -575,8 +575,26 @@ lookup pcx_sub {
 
 lookup iota_sub {
   lookupflag 0;
-	sub @cno_iotasub by @c_iotasub;
+    sub @cno_iotasub by @c_iotasub;
 } iota_sub;
+
+lookup lpdiac_sub {
+  lookupflag 0;
+    sub @cno_lprof_diac by @c_lprof_diac;
+} lpdiac_sub;
+
+lookup lpdiac_ctx { # use in ccmp, for NFD text
+  lookupflag UseMarkFilteringSet @cno_lprof_diac;
+    sub @c_takes_lp_diac' @cno_lprof_diac'lookup lpdiac_sub @cno_lprof_diac'lookup lpdiac_sub 
+      @cno_lprof_diac'lookup lpdiac_sub;
+    sub @c_takes_lp_diac' @cno_lprof_diac'lookup lpdiac_sub @cno_lprof_diac'lookup lpdiac_sub;
+    sub @c_takes_lp_diac' @cno_lprof_diac'lookup lpdiac_sub;
+} lpdiac_ctx;
+
+lookup lp_sub {
+  lookupflag 0;
+    sub @cno_lowprof by @c_lowprof;
+} lp_sub;
 
 languagesystem DFLT dflt;
 languagesystem cyrl dflt;
@@ -626,6 +644,7 @@ feature aalt {
   feature ss01;
   feature ss04;
   feature ss05;
+  feature ss07; #Gentium
   feature ss11; #non-Andika
   feature ss12; #non-Andika
 } aalt;
@@ -633,6 +652,7 @@ feature aalt {
 feature ccmp {
   lookup di_ctx;
   lookup ss_ctx;
+  lookup lpdiac_ctx; #Gentium
   lookup tn_ctx;
   lookup tne_ctx;
 
@@ -1457,4 +1477,12 @@ feature ss05 {
 
   lookup sital_sub;
 } ss05;
+
+feature ss07 {
+  featureNames {
+    name 3 1 0x409 "Low profile diacritic alternates";
+  };
+
+  lookup lp_sub;
+} ss07;
 
