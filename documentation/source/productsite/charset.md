@@ -5,7 +5,7 @@ This font supports over 2,700 characters from [The Unicode Standard](https://uni
 
 The following character ranges are supported by this font:
 
-Unicode block | Charis SIL support
+Unicode block | Gentium Plus support
 ------------- | ---------------
 C0 Controls and Basic Latin|U+0020..U+007E
 C1 Controls and Latin-1 Supplement|U+00A0..U+00FF

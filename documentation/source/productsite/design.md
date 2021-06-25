@@ -14,7 +14,7 @@ Gentium has been designed to balance the need for a compact, legible typeface wi
 
 For full details on the unique design characteristics of Gentium, download the 20-page type specimen: [Gentium Type Specimen (A5 format)](https://software.sil.org/gentium/wp-content/uploads/sites/20/2015/12/Gentium-RU-Specimen.pdf). This publication was prepared for the University of Reading and was distributed to all attendees of the ATypI conference in Rome, September 2002. It also includes examples of the glyph set supported by Gentium and shows it in use for a variety of settings (Regular/Italic, Latin/Greek, Prose/Poetry, Display/Text).
 
-An exhaustive set of proof sheets is also available that shows the complete glyph inventory of each font in a range of sizes: [Gentium Proofs (A3 format)](https://software.sil.org/gentium//wp-content/uploads/sites/20/2015/12/Gentium-RU-A3Proofs.pdf).
+An exhaustive set of proof sheets is also available that shows the complete glyph inventory of each font in a range of sizes: [Gentium Proofs (A3 format)](https://software.sil.org/gentium/wp-content/uploads/sites/20/2015/12/Gentium-RU-A3Proofs.pdf).
 
 A document showing Polytonic, Monotonic and mixed Latin with Greek is demonstrated in the following specimen: [Gentium Greek Specimen](https://software.sil.org/gentium/wp-content/uploads/sites/20/2015/12/Gentium-Greek-Specimen.pdf).
 

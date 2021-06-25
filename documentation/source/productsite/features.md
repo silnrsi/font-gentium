@@ -1,11 +1,11 @@
 
-Charis SIL is an OpenType-enabled font family that supports the Latin and Cyrillic scripts. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.
+Gentium Plus is an OpenType-enabled font family that supports the Latin, Cyrillic, and Greek scripts. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.
 
 These OpenType features are primarily specified using four-letter tags (e.g. 'cv17'), although some applications may provide a direct way to control certain common features such as small caps. For more information on how to access OpenType features in specific environments and applications, see [Using Font Features](http://software.sil.org/fonts/features).
 
-*Please note that Graphite support has been removed in the current release, but continues to be available in the version 5 fonts. See our [Previous Versions archive](http://software.sil.org/charis/download/previous-versions).*
+*Please note that Graphite support has been removed in the current release, but continues to be available in the version 5 fonts. See our [Previous Versions archive](http://software.sil.org/gentium/download/previous-versions).*
 
-This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Charis SIL as a web font see [Charis SIL Webfont Example](../web/CharisSIL-webfont-example.html). For detailed information see [Using SIL Fonts on Web Pages](http://software.sil.org/fonts/webfonts).
+This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Charis SIL as a web font see [Gentium Plus Webfont Example](../web/GentiumPlus-webfont-example.html). For detailed information see [Using SIL Fonts on Web Pages](http://software.sil.org/fonts/webfonts).
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
@@ -19,8 +19,8 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard   | <span class='charis-R normal'>a ... z</span> (all letters with capital equivalents) | `smcp=0`
-Small caps | <span class='charis-R normal' style='font-feature-settings: "smcp" 1'>a ... z</span> (all letters with capital equivalents) | `smcp=1`
+Standard   | <span class='gentium-R normal'>a ... z</span> (all letters with capital equivalents) | `smcp=0`
+Small caps | <span class='gentium-R normal' style='font-feature-settings: "smcp" 1'>a ... z</span> (all letters with capital equivalents) | `smcp=1`
 
 #### Small caps from capitals
 
@@ -28,8 +28,8 @@ Small caps | <span class='charis-R normal' style='font-feature-settings: "smcp" 
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard   | <span class='charis-R normal'>A ... Z</span> (all capitals) | `c2sc=0`
-Small caps | <span class='charis-R normal' style='font-feature-settings: "c2sc" 1'>A ... Z</span> (all capitals) | `c2sc=1`
+Standard   | <span class='gentium-R normal'>A ... Z</span> (all capitals) | `c2sc=0`
+Small caps | <span class='gentium-R normal' style='font-feature-settings: "c2sc" 1'>A ... Z</span> (all capitals) | `c2sc=1`
 
 #### Literacy a and g
 
@@ -37,8 +37,8 @@ Small caps | <span class='charis-R normal' style='font-feature-settings: "c2sc" 
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard     | <span class='charis-R normal'>a à á â ã ä å ā ă ą ǎ ǟ ǡ ǻ ȁ ȃ ȧ ḁ ẚ ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ⱥ ₐ ᵃ ◌ͣ g ĝ ğ ġ ģ ǧ ǵ ǥ ḡ ꞡ ᵍ </span> | `ss01=0`
-Single-story | <span class='charis-R normal' style='font-feature-settings: "ss01" 1'>a à á â ã ä å ā ă ą ǎ ǟ ǡ ǻ ȁ ȃ ȧ ḁ ẚ ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ⱥ ₐ ᵃ ◌ͣ g ĝ ğ ġ ģ ǧ ǵ ǥ ḡ ꞡ ᵍ </span> | `ss01=1`
+Standard     | <span class='gentium-R normal'>a à á â ã ä å ā ă ą ǎ ǟ ǡ ǻ ȁ ȃ ȧ ḁ ẚ ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ⱥ ₐ ᵃ ◌ͣ g ĝ ğ ġ ģ ǧ ǵ ǥ ḡ ꞡ ᵍ </span> | `ss01=0`
+Single-story | <span class='gentium-R normal' style='font-feature-settings: "ss01" 1'>a à á â ã ä å ā ă ą ǎ ǟ ǡ ǻ ȁ ȃ ȧ ḁ ẚ ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ⱥ ₐ ᵃ ◌ͣ g ĝ ğ ġ ģ ǧ ǵ ǥ ḡ ꞡ ᵍ </span> | `ss01=1`
 
 #### Literacy a (only)
 
@@ -46,8 +46,8 @@ Single-story | <span class='charis-R normal' style='font-feature-settings: "ss01
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard     | <span class='charis-R normal'>a à á â ã ä å ā ă ą ǎ ǟ ǡ ǻ ȁ ȃ ȧ ḁ ẚ ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ⱥ ₐ ᵃ ◌ͣ </span> | `ss11=0`
-Single-story | <span class='charis-R normal' style='font-feature-settings: "ss11" 1'>a à á â ã ä å ā ă ą ǎ ǟ ǡ ǻ ȁ ȃ ȧ ḁ ẚ ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ⱥ ₐ ᵃ ◌ͣ </span> | `ss11=1`
+Standard     | <span class='gentium-R normal'>a à á â ã ä å ā ă ą ǎ ǟ ǡ ǻ ȁ ȃ ȧ ḁ ẚ ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ⱥ ₐ ᵃ ◌ͣ </span> | `ss11=0`
+Single-story | <span class='gentium-R normal' style='font-feature-settings: "ss11" 1'>a à á â ã ä å ā ă ą ǎ ǟ ǡ ǻ ȁ ȃ ȧ ḁ ẚ ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ⱥ ₐ ᵃ ◌ͣ </span> | `ss11=1`
 
 #### Literacy g (only)
 
@@ -55,8 +55,8 @@ Single-story | <span class='charis-R normal' style='font-feature-settings: "ss11
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard     | <span class='charis-R normal'>g ĝ ğ ġ ģ ǧ ǵ ǥ ḡ ꞡ ᵍ </span> | `ss12=0`
-Single-story | <span class='charis-R normal' style='font-feature-settings: "ss12" 1'>g ĝ ğ ġ ģ ǧ ǵ ǥ ḡ ꞡ ᵍ </span> | `ss12=1`
+Standard     | <span class='gentium-R normal'>g ĝ ğ ġ ģ ǧ ǵ ǥ ḡ ꞡ ᵍ </span> | `ss12=0`
+Single-story | <span class='gentium-R normal' style='font-feature-settings: "ss12" 1'>g ĝ ğ ġ ģ ǧ ǵ ǥ ḡ ꞡ ᵍ </span> | `ss12=1`
 
 #### Barred-bowl forms 
 
@@ -64,8 +64,8 @@ Single-story | <span class='charis-R normal' style='font-feature-settings: "ss12
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard    | <span class='charis-R normal'>đ ƀ ǥ</span> | `ss04=0`
-Barred-bowl | <span class='charis-R normal' style='font-feature-settings: "ss04" 1'>đ ƀ ǥ</span> | `ss04=1`
+Standard    | <span class='gentium-R normal'>đ ƀ ǥ</span> | `ss04=0`
+Barred-bowl | <span class='gentium-R normal' style='font-feature-settings: "ss04" 1'>đ ƀ ǥ</span> | `ss04=1`
 
 #### Slant italic specials
 
@@ -73,8 +73,8 @@ Barred-bowl | <span class='charis-R normal' style='font-feature-settings: "ss04"
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='charis-I normal'>a ã à á â ä å ā ă ǎ ǟ ǡ ǻ ȁ ȃ ȧ ḁ ẚ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ạ ặ ⱥ ɐ æ f ḟ i ì í î ï ĩ ī ĭ į ǐ ȉ ȋ ḭ ḯ ỉ ị ı l ĺ ḷ ḹ ḻ ḽ ꝉ ₗ v ṽ ṿ ꝟ z ź ż ž ẑ ẓ ẕ ғ ӻ  fi ffi</span> | `ss05=0`
-Slanted  | <span class='charis-I normal' style='font-feature-settings: "ss05" 1'>a ã à á â ä å ā ă ǎ ǟ ǡ ǻ ȁ ȃ ȧ ḁ ẚ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ạ ặ ⱥ ɐ æ f ḟ i ì í î ï ĩ ī ĭ į ǐ ȉ ȋ ḭ ḯ ỉ ị ı l ĺ ḷ ḹ ḻ ḽ ꝉ ₗ v ṽ ṿ ꝟ z ź ż ž ẑ ẓ ẕ ғ ӻ  fi ffi</span> | `ss05=1`
+Standard | <span class='gentium-I normal'>a ã à á â ä å ā ă ǎ ǟ ǡ ǻ ȁ ȃ ȧ ḁ ẚ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ạ ặ ⱥ ɐ æ f ḟ i ì í î ï ĩ ī ĭ į ǐ ȉ ȋ ḭ ḯ ỉ ị ı l ĺ ḷ ḹ ḻ ḽ ꝉ ₗ v ṽ ṿ ꝟ z ź ż ž ẑ ẓ ẕ ғ ӻ  fi ffi</span> | `ss05=0`
+Slanted  | <span class='gentium-I normal' style='font-feature-settings: "ss05" 1'>a ã à á â ä å ā ă ǎ ǟ ǡ ǻ ȁ ȃ ȧ ḁ ẚ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ạ ặ ⱥ ɐ æ f ḟ i ì í î ï ĩ ī ĭ į ǐ ȉ ȋ ḭ ḯ ỉ ị ı l ĺ ḷ ḹ ḻ ḽ ꝉ ₗ v ṽ ṿ ꝟ z ź ż ž ẑ ẓ ẕ ғ ӻ  fi ffi</span> | `ss05=1`
 
 ### Character alternates
 
@@ -84,8 +84,8 @@ Slanted  | <span class='charis-I normal' style='font-feature-settings: "ss05" 1'
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard        | <span class='charis-R normal'>Ɓ</span> | `cv13=0`
-Lowercase-style | <span class='charis-R normal' style='font-feature-settings: "cv13" 1'>Ɓ</span> | `cv13=1`
+Standard        | <span class='gentium-R normal'>Ɓ</span> | `cv13=0`
+Lowercase-style | <span class='gentium-R normal' style='font-feature-settings: "cv13" 1'>Ɓ</span> | `cv13=1`
 
 #### D hook
 
@@ -93,8 +93,8 @@ Lowercase-style | <span class='charis-R normal' style='font-feature-settings: "c
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard        | <span class='charis-R normal'>Ɗ</span> | `cv17=0`
-Lowercase-style | <span class='charis-R normal' style='font-feature-settings: "cv17" 1'>Ɗ</span> | `cv17=1`
+Standard        | <span class='gentium-R normal'>Ɗ</span> | `cv17=0`
+Lowercase-style | <span class='gentium-R normal' style='font-feature-settings: "cv17" 1'>Ɗ</span> | `cv17=1`
 
 #### H stroke
 
@@ -102,8 +102,8 @@ Lowercase-style | <span class='charis-R normal' style='font-feature-settings: "c
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard        | <span class='charis-R normal'>Ħ</span> | `cv28=0`
-Vertical stroke | <span class='charis-R normal' style='font-feature-settings: "cv28" 1'>Ħ</span> | `cv28=1`
+Standard        | <span class='gentium-R normal'>Ħ</span> | `cv28=0`
+Vertical stroke | <span class='gentium-R normal' style='font-feature-settings: "cv28" 1'>Ħ</span> | `cv28=1`
 
 #### J stroke hook
 
@@ -111,8 +111,8 @@ Vertical stroke | <span class='charis-R normal' style='font-feature-settings: "c
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard  | <span class='charis-R normal'>ʄ</span> | `cv37=0`
-Top serif | <span class='charis-R normal' style='font-feature-settings: "cv37" 1'>ʄ</span> | `cv37=1`
+Standard  | <span class='gentium-R normal'>ʄ</span> | `cv37=0`
+Top serif | <span class='gentium-R normal' style='font-feature-settings: "cv37" 1'>ʄ</span> | `cv37=1`
 
 #### Eng
 
@@ -120,10 +120,10 @@ Top serif | <span class='charis-R normal' style='font-feature-settings: "cv37" 1
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard                          | <span class='charis-R normal'>Ŋ</span> | `cv43=0`
-Lowercase style on baseline       | <span class='charis-R normal' style='font-feature-settings: "cv43" 1'>Ŋ</span> | `cv43=1`
-Uppercase style with descender    | <span class='charis-R normal' style='font-feature-settings: "cv43" 2'>Ŋ</span> | `cv43=2`
-Alt. lowercase style on baseline  | <span class='charis-R normal' style='font-feature-settings: "cv43" 3'>Ŋ</span> | `cv43=3`
+Standard                          | <span class='gentium-R normal'>Ŋ</span> | `cv43=0`
+Lowercase style on baseline       | <span class='gentium-R normal' style='font-feature-settings: "cv43" 1'>Ŋ</span> | `cv43=1`
+Uppercase style with descender    | <span class='gentium-R normal' style='font-feature-settings: "cv43" 2'>Ŋ</span> | `cv43=2`
+Alt. lowercase style on baseline  | <span class='gentium-R normal' style='font-feature-settings: "cv43" 3'>Ŋ</span> | `cv43=3`
 
 #### N left hook
 
@@ -131,8 +131,8 @@ Alt. lowercase style on baseline  | <span class='charis-R normal' style='font-fe
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard        | <span class='charis-R normal'>Ɲ</span> | `cv44=0`
-Lowercase-style | <span class='charis-R normal' style='font-feature-settings: "cv44" 1'>Ɲ</span> | `cv44=1`
+Standard        | <span class='gentium-R normal'>Ɲ</span> | `cv44=0`
+Lowercase-style | <span class='gentium-R normal' style='font-feature-settings: "cv44" 1'>Ɲ</span> | `cv44=1`
 
 #### Open-O
 
@@ -140,8 +140,8 @@ Lowercase-style | <span class='charis-R normal' style='font-feature-settings: "c
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard  | <span class='charis-R normal'>Ɔ ɔ ᴐ ᵓ ᶗ</span> | `cv46=0`
-Top serif | <span class='charis-R normal' style='font-feature-settings: "cv46" 1'>Ɔ ɔ ᴐ ᵓ ᶗ</span> | `cv46=1`
+Standard  | <span class='gentium-R normal'>Ɔ ɔ ᴐ ᵓ ᶗ</span> | `cv46=0`
+Top serif | <span class='gentium-R normal' style='font-feature-settings: "cv46" 1'>Ɔ ɔ ᴐ ᵓ ᶗ</span> | `cv46=1`
 
 #### OU
 
@@ -149,8 +149,8 @@ Top serif | <span class='charis-R normal' style='font-feature-settings: "cv46" 1
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='charis-R normal'>Ȣ ȣ ᴕ ᴽ</span> | `cv47=0`
-Open     | <span class='charis-R normal' style='font-feature-settings: "cv47" 1'>Ȣ ȣ ᴕ ᴽ</span> | `cv47=1`
+Standard | <span class='gentium-R normal'>Ȣ ȣ ᴕ ᴽ</span> | `cv47=0`
+Open     | <span class='gentium-R normal' style='font-feature-settings: "cv47" 1'>Ȣ ȣ ᴕ ᴽ</span> | `cv47=1`
 
 #### p hook
 
@@ -158,8 +158,8 @@ Open     | <span class='charis-R normal' style='font-feature-settings: "cv47" 1'
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard   | <span class='charis-R normal'>ƥ</span> | `cv49=0`
-Right hook | <span class='charis-R normal' style='font-feature-settings: "cv49" 1'>ƥ</span> | `cv49=1`
+Standard   | <span class='gentium-R normal'>ƥ</span> | `cv49=0`
+Right hook | <span class='gentium-R normal' style='font-feature-settings: "cv49" 1'>ƥ</span> | `cv49=1`
 
 ####  R tail
 
@@ -167,8 +167,8 @@ Right hook | <span class='charis-R normal' style='font-feature-settings: "cv49" 
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard        | <span class='charis-R normal'>Ɽ</span> | `cv55=0`
-Lowercase-style | <span class='charis-R normal' style='font-feature-settings: "cv55" 1'>Ɽ</span> | `cv55=1`
+Standard        | <span class='gentium-R normal'>Ɽ</span> | `cv55=0`
+Lowercase-style | <span class='gentium-R normal' style='font-feature-settings: "cv55" 1'>Ɽ</span> | `cv55=1`
 
 #### T hook
 
@@ -176,8 +176,8 @@ Lowercase-style | <span class='charis-R normal' style='font-feature-settings: "c
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard   | <span class='charis-R normal'>Ƭ</span> | `cv57=0`
-Right hook | <span class='charis-R normal' style='font-feature-settings: "cv57" 1'>Ƭ</span> | `cv57=1`
+Standard   | <span class='gentium-R normal'>Ƭ</span> | `cv57=0`
+Right hook | <span class='gentium-R normal' style='font-feature-settings: "cv57" 1'>Ƭ</span> | `cv57=1`
 
 #### V hook
 
@@ -185,9 +185,9 @@ Right hook | <span class='charis-R normal' style='font-feature-settings: "cv57" 
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard                | <span class='charis-R normal'>Ʋ ʋ ᶹ</span> | `cv62=0`
-Straight with low hook  | <span class='charis-R normal' style='font-feature-settings: "cv62" 1'>Ʋ ʋ ᶹ</span> | `cv62=1`
-Straight with high hook | <span class='charis-R normal' style='font-feature-settings: "cv62" 2'>Ʋ ʋ ᶹ</span> | `cv62=2`
+Standard                | <span class='gentium-R normal'>Ʋ ʋ ᶹ</span> | `cv62=0`
+Straight with low hook  | <span class='gentium-R normal' style='font-feature-settings: "cv62" 1'>Ʋ ʋ ᶹ</span> | `cv62=1`
+Straight with high hook | <span class='gentium-R normal' style='font-feature-settings: "cv62" 2'>Ʋ ʋ ᶹ</span> | `cv62=2`
 
 #### Y hook
 
@@ -195,8 +195,8 @@ Straight with high hook | <span class='charis-R normal' style='font-feature-sett
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard  | <span class='charis-R normal'>Ƴ</span> | `cv68=0`
-Left hook | <span class='charis-R normal' style='font-feature-settings: "cv68" 1'>Ƴ</span> | `cv68=1`
+Standard  | <span class='gentium-R normal'>Ƴ</span> | `cv68=0`
+Left hook | <span class='gentium-R normal' style='font-feature-settings: "cv68" 1'>Ƴ</span> | `cv68=1`
 
 #### Ezh
 
@@ -204,8 +204,8 @@ Left hook | <span class='charis-R normal' style='font-feature-settings: "cv68" 1
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard       | <span class='charis-R normal'>Ʒ Ӡ</span> | `cv20=0`
-Reversed sigma | <span class='charis-R normal' style='font-feature-settings: "cv20" 1'>Ʒ Ӡ</span> | `cv20=1`
+Standard       | <span class='gentium-R normal'>Ʒ Ӡ</span> | `cv20=0`
+Reversed sigma | <span class='gentium-R normal' style='font-feature-settings: "cv20" 1'>Ʒ Ӡ</span> | `cv20=1`
 
 #### ezh curl
 
@@ -213,8 +213,8 @@ Reversed sigma | <span class='charis-R normal' style='font-feature-settings: "cv
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard   | <span class='charis-R normal'>ʓ</span> | `cv19=0`
-Large bowl | <span class='charis-R normal' style='font-feature-settings: "cv19" 1'>ʓ</span> | `cv19=1`
+Standard   | <span class='gentium-R normal'>ʓ</span> | `cv19=0`
+Large bowl | <span class='gentium-R normal' style='font-feature-settings: "cv19" 1'>ʓ</span> | `cv19=1`
 
 #### rams horn
 
@@ -222,11 +222,24 @@ Large bowl | <span class='charis-R normal' style='font-feature-settings: "cv19" 
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard    | <span class='charis-R normal'>ɤ</span> | `cv25=0`
-Large bowl  | <span class='charis-R normal' style='font-feature-settings: "cv25" 1'>ɤ</span> | `cv25=1`
-Small gamma | <span class='charis-R normal' style='font-feature-settings: "cv25" 2'>ɤ</span> | `cv25=2`
+Standard    | <span class='gentium-R normal'>ɤ</span> | `cv25=0`
+Large bowl  | <span class='gentium-R normal' style='font-feature-settings: "cv25" 1'>ɤ</span> | `cv25=1`
+Small gamma | <span class='gentium-R normal' style='font-feature-settings: "cv25" 2'>ɤ</span> | `cv25=2`
 
 ### Diacritic and symbol alternates
+
+<!-- Not included because the feature is not working properly
+
+#### Low-profile diacritics
+
+<span class='affects'>Affects: U+0300 U+0301 U+0302 U+0303 U+0304 U+0307 U+0308 U+030C</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard    | <span class='gentium-R normal'>anything with ◌́◌̀◌̂◌̌◌̄◌̃◌̈◌̇ (áàâǎāãäȧ)</span> | `ss07=0`
+Low-profile | <span class='gentium-R normal' style='font-feature-settings: "ss07" 1'>anything with ◌́◌̀◌̂◌̌◌̄◌̃◌̈◌̇ (áàâǎāãäȧ)</span> | `ss07=1`
+
+-->
 
 #### Vietnamese-style diacritics
 
@@ -234,8 +247,8 @@ Small gamma | <span class='charis-R normal' style='font-feature-settings: "cv25"
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard         | <span class='charis-R normal'>Ấấ Ầầ Ẩẩ Ẫẫ Ắắ Ằằ Ẳẳ Ẵẵ Ếế Ềề Ểể Ễễ Ốố Ồồ Ổổ Ỗỗ</span> | `cv75=0`
-Vietnamese-style | <span class='charis-R normal' style='font-feature-settings: "cv75" 1'>Ấấ Ầầ Ẩẩ Ẫẫ Ắắ Ằằ Ẳẳ Ẵẵ Ếế Ềề Ểể Ễễ Ốố Ồồ Ổổ Ỗỗ</span> | `cv75=1`
+Standard         | <span class='gentium-R normal'>Ấấ Ầầ Ẩẩ Ẫẫ Ắắ Ằằ Ẳẳ Ẵẵ Ếế Ềề Ểể Ễễ Ốố Ồồ Ổổ Ỗỗ</span> | `cv75=0`
+Vietnamese-style | <span class='gentium-R normal' style='font-feature-settings: "cv75" 1'>Ấấ Ầầ Ẩẩ Ẫẫ Ắắ Ằằ Ẳẳ Ẵẵ Ếế Ềề Ểể Ễễ Ốố Ồồ Ổổ Ỗỗ</span> | `cv75=1`
 
 #### Kayan diacritics
 
@@ -243,8 +256,8 @@ Vietnamese-style | <span class='charis-R normal' style='font-feature-settings: "
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard     | <span class='charis-R normal'>◌̀́</span> | `cv79=0`
-Side by side | <span class='charis-R normal' style='font-feature-settings: "cv79" 1'>◌̀́</span> | `cv79=1`
+Standard     | <span class='gentium-R normal'>◌̀́</span> | `cv79=0`
+Side by side | <span class='gentium-R normal' style='font-feature-settings: "cv79" 1'>◌̀́</span> | `cv79=1`
 
 #### Ogonek
 
@@ -252,8 +265,8 @@ Side by side | <span class='charis-R normal' style='font-feature-settings: "cv79
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='charis-R normal'>anything with ◌̨ (Ąą Ęę Įį Ųų Ǫǫ Ǭǭ)</span> | `cv76=0`
-Straight | <span class='charis-R normal' style='font-feature-settings: "cv76" 1'>anything with ◌̨ (Ąą Ęę Įį Ųų Ǫǫ Ǭǭ)</span> | `cv76=1`
+Standard | <span class='gentium-R normal'>anything with ◌̨ (Ąą Ęę Įį Ųų Ǫǫ Ǭǭ)</span> | `cv76=0`
+Straight | <span class='gentium-R normal' style='font-feature-settings: "cv76" 1'>anything with ◌̨ (Ąą Ęę Įį Ųų Ǫǫ Ǭǭ)</span> | `cv76=1`
 
 #### Caron
 
@@ -261,8 +274,8 @@ Straight | <span class='charis-R normal' style='font-feature-settings: "cv76" 1'
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard     | <span class='charis-R normal'>ď Ľ ľ ť</span> | `cv77=0`
-Global-style | <span class='charis-R normal' style='font-feature-settings: "cv77" 1'>ď Ľ ľ ť</span> | `cv77=1`
+Standard     | <span class='gentium-R normal'>ď Ľ ľ ť</span> | `cv77=0`
+Global-style | <span class='gentium-R normal' style='font-feature-settings: "cv77" 1'>ď Ľ ľ ť</span> | `cv77=1`
 
 #### Modifier apostrophe
 
@@ -270,8 +283,8 @@ Global-style | <span class='charis-R normal' style='font-feature-settings: "cv77
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='charis-R normal'>ʼ Ꞌ ꞌ</span> | `cv70=0`
-Large    | <span class='charis-R normal' style='font-feature-settings: "cv70" 1'>ʼ Ꞌ ꞌ</span> | `cv70=1`
+Standard | <span class='gentium-R normal'>ʼ Ꞌ ꞌ</span> | `cv70=0`
+Large    | <span class='gentium-R normal' style='font-feature-settings: "cv70" 1'>ʼ Ꞌ ꞌ</span> | `cv70=1`
 
 #### Modifier colon
 
@@ -279,8 +292,8 @@ Large    | <span class='charis-R normal' style='font-feature-settings: "cv70" 1'
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='charis-R normal'>꞉</span> | `cv71=0`
-Expanded | <span class='charis-R normal' style='font-feature-settings: "cv71" 1'>꞉</span> | `cv71=1`
+Standard | <span class='gentium-R normal'>꞉</span> | `cv71=0`
+Expanded | <span class='gentium-R normal' style='font-feature-settings: "cv71" 1'>꞉</span> | `cv71=1`
 
 #### Empty set
 
@@ -288,8 +301,8 @@ Expanded | <span class='charis-R normal' style='font-feature-settings: "cv71" 1'
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard   | <span class='charis-R normal'>∅</span> | `cv98=0`
-Zero-style | <span class='charis-R normal' style='font-feature-settings: "cv98" 1'>∅</span> | `cv98=1`
+Standard   | <span class='gentium-R normal'>∅</span> | `cv98=0`
+Zero-style | <span class='gentium-R normal' style='font-feature-settings: "cv98" 1'>∅</span> | `cv98=1`
 
 ### Cyrillic alternates
 
@@ -301,8 +314,8 @@ Zero-style | <span class='charis-R normal' style='font-feature-settings: "cv98" 
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard        | <span class='charis-R normal'>Э э</span> | `cv80=0`
-Mongolian-style | <span class='charis-R normal' style='font-feature-settings: "cv80" 1'>Э э</span> | `cv80=1`
+Standard        | <span class='gentium-R normal'>Э э</span> | `cv80=0`
+Mongolian-style | <span class='gentium-R normal' style='font-feature-settings: "cv80" 1'>Э э</span> | `cv80=1`
 
 #### Cyrillic shha
 
@@ -310,8 +323,8 @@ Mongolian-style | <span class='charis-R normal' style='font-feature-settings: "c
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard        | <span class='charis-R normal'>һ</span> | `cv81=0`
-Uppercase-style | <span class='charis-R normal' style='font-feature-settings: "cv81" 1'>һ</span> | `cv81=1`
+Standard        | <span class='gentium-R normal'>һ</span> | `cv81=0`
+Uppercase-style | <span class='gentium-R normal' style='font-feature-settings: "cv81" 1'>һ</span> | `cv81=1`
 
 #### Cyrillic breve
 
@@ -319,8 +332,8 @@ Uppercase-style | <span class='charis-R normal' style='font-feature-settings: "c
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard       | <span class='charis-R normal'>anything with ◌̆ (Ә̆ә̆)</span> | `cv82=0`
-Cyrillic-style | <span class='charis-R normal' style='font-feature-settings: "cv82" 1'>anything with ◌̆ (Ә̆ә̆)</span> | `cv82=1`
+Standard       | <span class='gentium-R normal'>anything with ◌̆ (Ә̆ә̆)</span> | `cv82=0`
+Cyrillic-style | <span class='gentium-R normal' style='font-feature-settings: "cv82" 1'>anything with ◌̆ (Ә̆ә̆)</span> | `cv82=1`
 
 #### Serbian Cyrillic alternates
 
@@ -330,8 +343,37 @@ Cyrillic-style | <span class='charis-R normal' style='font-feature-settings: "cv
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='charis-I normal'>б г д п т</span> | 
-Serbian  | <span class='charis-I normal' lang='sr'>б г д п т</span> | `lang='sr'`
+Standard | <span class='gentium-I normal'>б г д п т</span> | 
+Serbian  | <span class='gentium-I normal' lang='sr'>б г д п т</span> | `lang='sr'`
+
+### Greek alternates
+
+#### Porsonic circumflex
+
+<span class='affects'>Affects: U+0342 U+1F06 U+1F07 U+1F0E U+1F0F U+1F26 U+1F27 U+1F2E U+1F2F U+1F36 U+1F37 U+1F3E U+1F3F U+1F56 U+1F57 U+1F5F U+1F66 U+1F67 U+1F6E U+1F6F U+1F86 U+1F87 U+1F8E U+1F8F U+1F96 U+1F97 U+1F9E U+1F9F U+1FA6 U+1FA7 U+1FAE U+1FAF U+1FB6 U+1FB7 U+1FC0 U+1FC1 U+1FC6 U+1FC7 U+1FCF U+1FD6 U+1FD7 U+1FDF U+1FE6 U+1FE7 U+1FF6 U+1FF7</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard       | <span class='gentium-R normal'>◌͂ ◌῀ ◌῁  ◌῏  ◌῟  ἆ ἇ ᾆ ᾇ ᾶ ᾷ ἦ ἧ ᾖ ᾗ ῆ ῇ ἶ ἷ ῖ ῗ ὖ ὗ ῦ ῧ ὦ ὧ ᾦ ᾧ ῶ ῷ Ἆ Ἇ ᾎ ᾏ Ἦ Ἧ ᾞ ᾟ Ἶ Ἷ Ὗ Ὦ Ὧ ᾮ ᾯ<</span> | `cv78=0`
+Porsonic-style | <span class='gentium-R normal' style='font-feature-settings: "cv78" 1'>◌͂ ◌῀ ◌῁  ◌῏  ◌῟  ἆ ἇ ᾆ ᾇ ᾶ ᾷ ἦ ἧ ᾖ ᾗ ῆ ῇ ἶ ἷ ῖ ῗ ὖ ὗ ῦ ῧ ὦ ὧ ᾦ ᾧ ῶ ῷ Ἆ Ἇ ᾎ ᾏ Ἦ Ἧ ᾞ ᾟ Ἶ Ἷ Ὗ Ὦ Ὧ ᾮ ᾯ<</span> | `cv78=1`
+
+#### Capital adscript iota (prosgegrammeni)
+
+<span class='affects'>Affects: U+1F88 U+1F89 U+1F8A U+1F8B U+1F8C U+1F8D U+1F8E U+1F8F U+1F98 U+1F99 U+1F9A U+1F9B U+1F9C U+1F9D U+1F9E U+1F9F U+1FA8 U+1FA9 U+1FAA U+1FAB U+1FAC U+1FAD U+1FAE U+1FAF U+1FBC U+1FCC U+1FFC</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard                  | <span class='gentium-R normal'>ᾼ ᾈ ᾉ ᾊ ᾋ ᾌ ᾍ ᾎ ᾏ ῌ ᾘ ᾙ ᾚ ᾛ ᾜ ᾝ ᾞ ᾟ ῼ ᾨ ᾩ ᾪ ᾫ ᾬ ᾭ ᾮ ᾯ</span> | `cv83=0`
+Subscript (ypogegrammeni) | <span class='gentium-R normal' style='font-feature-settings: "cv83" 1'>ᾼ ᾈ ᾉ ᾊ ᾋ ᾌ ᾍ ᾎ ᾏ ῌ ᾘ ᾙ ᾚ ᾛ ᾜ ᾝ ᾞ ᾟ ῼ ᾨ ᾩ ᾪ ᾫ ᾬ ᾭ ᾮ ᾯ</span> | `cv83=1`
+
+#### beta
+
+<span class='affects'>Affects: U+03B2 U+1D66 U+1D5D</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard    | <span class='gentium-R normal'>β ᵝ ᵦ</span> | `cv14=0`
+With serifs | <span class='gentium-R normal' style='font-feature-settings: "cv14" 1'>β ᵝ ᵦ</span> | `cv14=1`
 
 ### Tone alternates
 
@@ -341,8 +383,8 @@ Serbian  | <span class='charis-I normal' lang='sr'>б г д п т</span> | `lang
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard        | <span class='charis-R normal'>ˋ ˈ ˉ ˊ</span> | `cv90=0`
-Chinantec-style | <span class='charis-R normal' style='font-feature-settings: "cv90" 1'>ˋ ˈ ˉ ˊ</span> | `cv90=1`
+Standard        | <span class='gentium-R normal'>ˋ ˈ ˉ ˊ</span> | `cv90=0`
+Chinantec-style | <span class='gentium-R normal' style='font-feature-settings: "cv90" 1'>ˋ ˈ ˉ ˊ</span> | `cv90=1`
 
 #### Tone numbers
 
@@ -350,8 +392,8 @@ Chinantec-style | <span class='charis-R normal' style='font-feature-settings: "c
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='charis-R normal'>˥ ˦ ˧ ˨ ˩ ꜒ ꜓ ꜔ ꜕ ꜖</span> | `cv91=0`
-Numbers  | <span class='charis-R normal' style='font-feature-settings: "cv91" 1'>˥ ˦ ˧ ˨ ˩ ꜒ ꜓ ꜔ ꜕ ꜖</span> | `cv91=1`
+Standard | <span class='gentium-R normal'>˥ ˦ ˧ ˨ ˩ ꜒ ꜓ ꜔ ꜕ ꜖</span> | `cv91=0`
+Numbers  | <span class='gentium-R normal' style='font-feature-settings: "cv91" 1'>˥ ˦ ˧ ˨ ˩ ꜒ ꜓ ꜔ ꜕ ꜖</span> | `cv91=1`
 
 #### Hide tone contour staves
 
@@ -359,5 +401,5 @@ Numbers  | <span class='charis-R normal' style='font-feature-settings: "cv91" 1'
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='charis-R normal'>˥ ˦ ˧ ˨ ˩ ꜒ ꜓ ꜔ ꜕ ꜖ (˩˦˥˧˨ ꜖꜓꜒꜔꜕)</span> | `cv92=0`
-Hide staves  | <span class='charis-R normal' style='font-feature-settings: "cv92" 1'>˥ ˦ ˧ ˨ ˩ ꜒ ꜓ ꜔ ꜕ ꜖ (˩˦˥˧˨ ꜖꜓꜒꜔꜕)</span> | `cv92=1`
+Standard | <span class='gentium-R normal'>˥ ˦ ˧ ˨ ˩ ꜒ ꜓ ꜔ ꜕ ꜖ (˩˦˥˧˨ ꜖꜓꜒꜔꜕)</span> | `cv92=0`
+Hide staves  | <span class='gentium-R normal' style='font-feature-settings: "cv92" 1'>˥ ˦ ˧ ˨ ˩ ꜒ ꜓ ꜔ ꜕ ꜖ (˩˦˥˧˨ ꜖꜓꜒꜔꜕)</span> | `cv92=1`
