@@ -1,54 +1,7 @@
-FONTLOG
-Gentium Plus
-============
-
-This file provides detailed information on the Gentium Plus family of fonts.
-This information should be distributed along with the Gentium Plus fonts and
-any derivative works.
-
-## About this project
-
-Gentium ("belonging to the nations" in Latin) is a Unicode typeface family 
-designed to enable the many diverse ethnic groups around the world who use 
-the Latin script to produce readable, high-quality publications. The 
-design is intended to be highly readable, reasonably compact, and visually 
-attractive. Gentium has won a "Certificate of Excellence in Typeface 
-Design" in two major international typeface design competitions: 
-bukva:raz! (2001), TDC2003 (2003). The Gentium Plus font family is based on
-this original design.
-
-This project is intended to provide a free and open font family for all
-current languages and writing systems that use Latin and Cyrillic scripts.
-It supports almost the complete range of Unicode characters for these scripts,
-including a comprehensive range of diacritics and a large set of symbols
-useful for linguistics and literacy work. Smart font routines automatically
-adjust the position of diacritics to support and optimize arbitrary
-base+diacritic combinations.
-
-## A Note Regarding the Open Font License and TypeTuner
-
-The OFL prohibits the use of Reserved Font Names "Gentium" and "SIL" in
-the name of any font that is derived from the Original Version of Gentium.
-However, SIL International (the Copyright Holder) grants through
-this separate written agreement the right to use the Reserved Font Names
-in any Modified Version of this font created by using TypeTuner as long
-as the feature information contained in the Original Version is used, 
-unmodified, as the source for TypeTuner feature information, and 
-"Gentium", "Gentium Plus", or "Gentium Basic" is not the resulting font
-family name.
-
-TypeTuner-produced fonts created in this manner are still bound by the
-terms of the OFL. Specifically, the use of Reserved Font Names is
-prohibited when making derivatives of a TypeTuner-produced font. Anyone
-making a derivative of a TypeTuner font will need to find a different
-name. For example a TypeTuner-produced font may be named 
-"Gentium Plus Literacy SomeFarAwayPlace" but a derivative of that font made 
-with other tools would not be allowed to use the "Gentium" and "SIL" 
-Reserved Font Names and would have to be named something like "Grace Foo".
-
-## ChangeLog
-
-(This should list both major and minor changes, most recent first.)
+---
+title: Gentium - Version History
+fontversion: 6.000
+---
 
 ### 25 Jun 2021 (SIL WSTech Team) Gentium Plus version 6.000
 
@@ -291,28 +244,3 @@ a display/printing problem. There is still no manual hinting.
 - First public release
 - No manual hinting is included in this version. Some has been done - with 
 good results - but is not yet complete enough.
-
-
-## Acknowledgements
-
-(Here is where contributors can be acknowledged. If you make modifications be 
-sure to add your name (N), email (E), web-address (W) and description (D). 
-This list is sorted by last name in alphabetical order.)
-
-N: Jon Coblentz, Sharon Correll, Lorna Evans, Bob Hallissy, Martin Hosken,
-Jonathan Kew, Annie Olsen, Iska Routamaa, Alan Ward
-E: https://software.sil.org/gentium/about/contact/
-W: https://software.sil.org/gentium/
-D: SIL designers and font engineers
-
-N: Victor Gaultney
-E: victor_gaultney@sil.org
-W: https://gaultney.org/jvgtype/
-D: Original Designer
-
-The Gentium and Gentium Plus fonts are maintained by SIL International, a global,
-faith-based nonprofit that works with local communities around the world
-to develop language solutions that expand possibilities for a better life.
-
-For more information or support please visit:
-https://software.sil.org/gentium/

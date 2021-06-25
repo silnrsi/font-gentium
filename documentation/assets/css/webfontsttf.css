@@ -6,11 +6,11 @@ Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
 */
 @font-face {
     font-family: GentiumPlus-R;
-    src: url("../../../web/GentiumPlus-Regular.woff2") format("woff2");
+    src: url("../../../results/GentiumPlus-Regular.ttf") format("truetype");
 }
 @font-face {
     font-family: GentiumPlus-I;
-    src: url("../../../web/GentiumPlus-Italic.woff2") format("woff2");
+    src: url("../../../results/GentiumPlus-Italic.ttf") format("truetype");
 }
 
 .gentium-R { font-family: GentiumPlus-R; }

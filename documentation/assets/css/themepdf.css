@@ -7,6 +7,7 @@ Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
 html {
     font-family: sans-serif;
     line-height: 1.1;
+    font-size: 9pt;
 }
 
 article,
@@ -32,7 +33,7 @@ section {
 
 body {
     margin: 0;
-    font-family: -apple-system, "Helvetica Neue", "Segoe UI", Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    font-family: Roboto, sans-serif;
     /* font-family: Cambria, Georgia, Times, "Times New Roman", "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", serif; */
     font-size: 1rem;
     font-weight: 400;
@@ -121,7 +122,7 @@ pre {
 code {
     display: inline-block;
     background-color: #edf2f5;
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: "Roboto Mono", monospace;
     font-size: 0.9rem;
 }
 
@@ -131,10 +132,6 @@ td code {
 
 blockquote {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 40px;
     padding-left: 30px;
     border-left: 10px solid #edf2f5;
 }
@@ -142,6 +139,8 @@ blockquote {
 img {
     vertical-align: middle;
     border-style: none;
+    object-fit: contain;
+    max-width: 100%;
 }
 
 figcaption {
@@ -210,10 +209,4 @@ footer {
 .normal {
     /* used for all product site web font example spans to remove inherited styling  */
     font-size: 1.5rem;
-}
-
-@media print {
-    html {
-        font-size: 10pt;
-    }
 }
