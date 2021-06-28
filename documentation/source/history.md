@@ -3,7 +3,7 @@ title: Gentium - Version History
 fontversion: 6.000
 ---
 
-### 25 Jun 2021 (SIL WSTech Team) Gentium Plus version 6.000
+### 29 Jun 2021 (SIL WSTech Team) Gentium Plus version 6.000
 
 ***Note that this is a major upgrade that may cause document reflow as some glyphs widths have changed and some features have been removed.***
 
