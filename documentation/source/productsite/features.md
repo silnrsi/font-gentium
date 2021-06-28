@@ -354,8 +354,8 @@ Serbian  | <span class='gentium-I normal' lang='sr'>б г д п т</span> | `lan
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard       | <span class='gentium-R normal'>◌͂ ◌῀ ◌῁  ◌῏  ◌῟  ἆ ἇ ᾆ ᾇ ᾶ ᾷ ἦ ἧ ᾖ ᾗ ῆ ῇ ἶ ἷ ῖ ῗ ὖ ὗ ῦ ῧ ὦ ὧ ᾦ ᾧ ῶ ῷ Ἆ Ἇ ᾎ ᾏ Ἦ Ἧ ᾞ ᾟ Ἶ Ἷ Ὗ Ὦ Ὧ ᾮ ᾯ<</span> | `cv78=0`
-Porsonic-style | <span class='gentium-R normal' style='font-feature-settings: "cv78" 1'>◌͂ ◌῀ ◌῁  ◌῏  ◌῟  ἆ ἇ ᾆ ᾇ ᾶ ᾷ ἦ ἧ ᾖ ᾗ ῆ ῇ ἶ ἷ ῖ ῗ ὖ ὗ ῦ ῧ ὦ ὧ ᾦ ᾧ ῶ ῷ Ἆ Ἇ ᾎ ᾏ Ἦ Ἧ ᾞ ᾟ Ἶ Ἷ Ὗ Ὦ Ὧ ᾮ ᾯ<</span> | `cv78=1`
+Standard       | <span class='gentium-R normal'>◌͂ ◌῀ ◌῁  ◌῏  ◌῟  ἆ ἇ ᾆ ᾇ ᾶ ᾷ ἦ ἧ ᾖ ᾗ ῆ ῇ ἶ ἷ ῖ ῗ ὖ ὗ ῦ ῧ ὦ ὧ ᾦ ᾧ ῶ ῷ Ἆ Ἇ ᾎ ᾏ Ἦ Ἧ ᾞ ᾟ Ἶ Ἷ Ὗ Ὦ Ὧ ᾮ ᾯ</span> | `cv78=0`
+Porsonic-style | <span class='gentium-R normal' style='font-feature-settings: "cv78" 1'>◌͂ ◌῀ ◌῁  ◌῏  ◌῟  ἆ ἇ ᾆ ᾇ ᾶ ᾷ ἦ ἧ ᾖ ᾗ ῆ ῇ ἶ ἷ ῖ ῗ ὖ ὗ ῦ ῧ ὦ ὧ ᾦ ᾧ ῶ ῷ Ἆ Ἇ ᾎ ᾏ Ἦ Ἧ ᾞ ᾟ Ἶ Ἷ Ὗ Ὦ Ὧ ᾮ ᾯ</span> | `cv78=1`
 
 #### Capital adscript iota (prosgegrammeni)
 
