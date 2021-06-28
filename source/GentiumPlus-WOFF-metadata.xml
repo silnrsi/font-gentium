@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.GentiumPlus.5.970" />
+  <uniqueid id="org.sil.fonts.GentiumPlus.6.000" />
   <vendor name="SIL International" url="http://www.sil.org/" />
   <credits>
     <credit
+      name="Jon Coblentz, Sharon Correll, Lorna Evans, Bob Hallissy, Martin Hosken,Jonathan Kew, Annie Olsen, Iska Routamaa, Alan Ward"
+      url="https://software.sil.org/gentium/"
+      role="SIL designers and font engineers"
+    />
+    <credit
       name="Victor Gaultney"
-      url="http://www.sil.org/~gaultney/"
+      url="https://gaultney.org/jvgtype/"
       role="Original Designer"
-    />
-    <credit
-      name="Annie Olsen"
-      url="http://scripts.sil.org/"
-      role="Contributed some extended Latin glyphs"
-    />
-    <credit
-      name="Iska Routamaa"
-      url="http://scripts.sil.org/"
-      role="Contributed some extended Latin glyphs and extensive work on the italic face"
-    />
-    <credit
-      name="SIL font engineers"
-      url="http://scripts.sil.org/"
-      role="Graphite, OpenType, and TypeTuner code, and build support"
     />
   </credits>
   <description>
@@ -35,42 +25,25 @@
       bukva:raz! (2001), TDC2003 (2003). The Gentium Plus font family is based on
       this original design.
       
-      The goal for this product is to provide a single Unicode-based font family
-      that contains a comprehensive inventory of glyphs needed for almost any
-      Roman- or Cyrillic-based writing system, whether used for phonetic or
-      orthographic needs, and provide a matching Greek face. In addition, there
-      is provision for other characters and symbols useful to linguists. This
-      font makes use of state-of-the-art font technologies to support complex
-      typographic issues, such as the need to position arbitrary combinations
-      of base glyphs and diacritics optimally.
+      This project is intended to provide a free and open font family for all
+      current languages and writing systems that use Latin and Cyrillic scripts.
+      It supports almost the complete range of Unicode characters for these scripts,
+      including a comprehensive range of diacritics and a large set of symbols
+      useful for linguistics and literacy work. Smart font routines automatically
+      adjust the position of diacritics to support and optimize arbitrary
+      base+diacritic combinations.
       
-      Eight fonts from this typeface family are included in this release,
-      grouped into two families, including a slightly heavier Book family:
-      
-      * Gentium Plus Regular
-      * Gentium Plus Bold
-      * Gentium Plus Italic
-      * Gentium Plus Bold Italic
-      
-      * Gentium Book Plus Regular
-      * Gentium Book Plus Bold
-      * Gentium Book Plus Italic
-      * Gentium Book Plus Bold Italic
-      
-      For detailed documentation see the contents of the 'documentation' folder.
-      
-      
-      A Note Regarding the Open Font License and TypeTuner
-      ----------------------------------------------------
+      ## A Note Regarding the Open Font License and TypeTuner
       
       The OFL prohibits the use of Reserved Font Names "Gentium" and "SIL" in
-      the name of any font that is derived from the Original Version of Gentium
-      Plus. However, SIL International (the Copyright Holder) grants through
+      the name of any font that is derived from the Original Version of Gentium.
+      However, SIL International (the Copyright Holder) grants through
       this separate written agreement the right to use the Reserved Font Names
       in any Modified Version of this font created by using TypeTuner as long
       as the feature information contained in the Original Version is used,
       unmodified, as the source for TypeTuner feature information, and
-      "Gentium Plus" is not the resulting font family name.
+      "Gentium", "Gentium Plus", or "Gentium Basic" is not the resulting font
+      family name.
       
       TypeTuner-produced fonts created in this manner are still bound by the
       terms of the OFL. Specifically, the use of Reserved Font Names is
@@ -79,143 +52,137 @@
       name. For example a TypeTuner-produced font may be named
       "Gentium Plus Literacy SomeFarAwayPlace" but a derivative of that font made
       with other tools would not be allowed to use the "Gentium" and "SIL"
-      Reserved Font Names and would have to be named something like "Nations Serif".
+      Reserved Font Names and would have to be named something like "Grace Foo".
       
+      ## ChangeLog
       
-      ChangeLog
-      ---------
       (This should list both major and minor changes, most recent first.)
       
-      17 Mar 2021 (SIL NRSI team) Gentium Plus version 5.960 (beta2)
-      *This is a beta version of the next major release.*
-      *Please use it only for testing, not production, and give us your feedback.*
-      *This major release includes spacing changes to some glyphs, so text in*
-      *existing documents may reflow. However, the spacing changes are mostly*
-      *for rare glyphs that most users are not likely to use. If you see*
-      *significant differences in layout between version 5.000 and this*
-      *version of the fonts please let us know.*
+      ### 29 Jun 2021 (SIL WSTech Team) Gentium Plus version 6.000
       
-      - Added new weights (listed above) previously only available in the
-      "Gentium Basic" fonts, although note that the new weights may not be
-      identical in metrics or form to the Basic fonts, though care has been taken
-      to minimize differences.
+      ***Note that this is a major upgrade that may cause document reflow as some glyphs widths have changed and some features have been removed.***
+      
+      #### Removed
+      
+      - **Removed DSIGs added in version 5.000.** These have now been removed to reflect current best practice font development guidance. Adobe InDesign will complain that fonts cannot be found if a document last saved with version 5.000 is opened with version 5.960 or later installed. It will be necessary to find/replace the fonts in the document using the command in the Type menu. Please also look over the document carefully to note any places where changes in the fonts have affected letterforms or spacing.
+      
+      - **Graphite has been removed.** Application and OS support for OpenType has greatly improved, so the need for Graphite in this font family is greatly reduced. *If this affects you, and you find that OpenType does not provide sufficient support for your needs, please contact us right away.*
+      
+      - Removed the *Show Invisibles* feature.
+      
+      - Removed support for nine-level pitch contours. These will be replaced by a standalone pitch contours font in the future.
+      
+      #### Added
+      
+      Characters added to support Unicode versions 7.0-13.0, including feature support (e.g. small caps) where appropriate:
+      
+      - U+1AB0 COMBINING DOUBLED CIRCUMFLEX ACCENT
+      - U+1AB1 COMBINING DIAERESIS-RING
+      - U+1AB2 COMBINING INFINITY
+      - U+1AB3 COMBINING DOWNWARDS ARROW
+      - U+1AB4 COMBINING TRIPLE DOT
+      - U+1AB5 COMBINING X-X BELOW
+      - U+1AB6 COMBINING WIGGLY LINE BELOW
+      - U+1AB7 COMBINING OPEN MARK BELOW
+      - U+1AB8 COMBINING DOUBLE OPEN MARK BELOW
+      - U+1AB9 COMBINING LIGHT CENTRALIZATION STROKE BELOW
+      - U+1ABA COMBINING STRONG CENTRALIZATION STROKE BELOW
+      - U+1DF5 COMBINING UP TACK ABOVE
+      - U+203B REFERENCE MARK
+      - U+20BE LARI SIGN
+      - U+20BF BITCOIN SIGN
+      - U+27E8 MATHEMATICAL LEFT ANGLE BRACKET
+      - U+27E9 MATHEMATICAL RIGHT ANGLE BRACKET
+      - U+2E13 DOTTED OBELOS
+      - U+2E14 DOWNWARDS ANCORA
+      - U+2E17 DOUBLE OBLIQUE HYPHEN
+      - U+2E22 TOP LEFT HALF BRACKET
+      - U+2E23 TOP RIGHT HALF BRACKET
+      - U+2E24 BOTTOM LEFT HALF BRACKET
+      - U+2E25 BOTTOM RIGHT HALF BRACKET
+      - U+A78F LATIN LETTER SINOLOGICAL DOT
+      - U+A7AE LATIN CAPITAL LETTER SMALL CAPITAL I
+      - U+A7AF LATIN LETTER SMALL CAPITAL Q
+      - U+A7B3 LATIN CAPITAL LETTER CHI
+      - U+A7B4 LATIN CAPITAL LETTER BETA
+      - U+A7B5 LATIN SMALL LETTER BETA
+      - U+A7B6 LATIN CAPITAL LETTER OMEGA
+      - U+A7B7 LATIN SMALL LETTER OMEGA
+      - U+A7B8 LATIN CAPITAL LETTER U WITH STROKE
+      - U+A7B9 LATIN SMALL LETTER U WITH STROKE
+      - U+AB30 LATIN SMALL LETTER BARRED ALPHA
+      - U+AB53 LATIN SMALL LETTER CHI
+      - U+AB5C MODIFIER LETTER SMALL HENG
+      - U+AB5E MODIFIER LETTER SMALL L WITH MIDDLE TILDE
+      - U+F26E CAPITAL RAMS HORN (in SIL PUA)
+      
+      #### New
+      
+      - First release that uses a UFO-based design and production workflow
+      - All sources are in open formats
+      - Build toolkit and workflow is completely open-source
+      - See https://silnrsi.github.io/silfontdev/en-US/Introduction.html
+      
+      - New weights previously only available in the Gentium Basic fonts. The new weights may not be identical in metrics or form to the Basic fonts, though care has been taken to minimize differences.
       
       - Web fonts are provided in both WOFF and WOFF2 formats
       
-      - First (beta) release that uses a UFO-based design and production workflow
-      All sources are in open formats
-      Build toolkit and workflow is completely open-source
-      See https://silnrsi.github.io/silfontdev/en-US/Introduction.html
-      
-      - Characters added to support Unicode versions 7.0-13.0
-      Includes feature support (e.g. small caps) where appropriate
-      U+1AB0 COMBINING DOUBLED CIRCUMFLEX ACCENT
-      U+1AB1 COMBINING DIAERESIS-RING
-      U+1AB2 COMBINING INFINITY
-      U+1AB3 COMBINING DOWNWARDS ARROW
-      U+1AB4 COMBINING TRIPLE DOT
-      U+1AB5 COMBINING X-X BELOW
-      U+1AB6 COMBINING WIGGLY LINE BELOW
-      U+1AB7 COMBINING OPEN MARK BELOW
-      U+1AB8 COMBINING DOUBLE OPEN MARK BELOW
-      U+1AB9 COMBINING LIGHT CENTRALIZATION STROKE BELOW
-      U+1ABA COMBINING STRONG CENTRALIZATION STROKE BELOW
-      U+1DF5 COMBINING UP TACK ABOVE
-      U+203B REFERENCE MARK
-      U+20BE LARI SIGN
-      U+20BF BITCOIN SIGN
-      U+27E8 MATHEMATICAL LEFT ANGLE BRACKET
-      U+27E9 MATHEMATICAL RIGHT ANGLE BRACKET
-      U+2E13 DOTTED OBELOS
-      U+2E14 DOWNWARDS ANCORA
-      U+2E17 DOUBLE OBLIQUE HYPHEN
-      U+2E22 TOP LEFT HALF BRACKET
-      U+2E23 TOP RIGHT HALF BRACKET
-      U+2E24 BOTTOM LEFT HALF BRACKET
-      U+2E25 BOTTOM RIGHT HALF BRACKET
-      U+A78F LATIN LETTER SINOLOGICAL DOT
-      U+A7AE LATIN CAPITAL LETTER SMALL CAPITAL I
-      U+A7AF LATIN LETTER SMALL CAPITAL Q
-      U+A7B3 LATIN CAPITAL LETTER CHI
-      U+A7B4 LATIN CAPITAL LETTER BETA
-      U+A7B5 LATIN SMALL LETTER BETA
-      U+A7B6 LATIN CAPITAL LETTER OMEGA
-      U+A7B7 LATIN SMALL LETTER OMEGA
-      U+A7B8 LATIN CAPITAL LETTER U WITH STROKE
-      U+A7B9 LATIN SMALL LETTER U WITH STROKE
-      U+AB30 LATIN SMALL LETTER BARRED ALPHA
-      U+AB53 LATIN SMALL LETTER CHI
-      U+AB5C MODIFIER LETTER SMALL HENG
-      U+AB5E MODIFIER LETTER SMALL L WITH MIDDLE TILDE
-      U+F26E CAPITAL RAMS HORN (in SIL PUA)
-      
-      - Added two new features for controlling literacy forms of a and g separately
-      Literacy a alternates (ss02)
-      Literacy g alternates (ss03)
-      
-      - Added feature to support side-by-side rendering of U+0300 plus U+0301
-      Kayan diacritics (cv79)
-      
-      - Added support for clicks to small caps feature and improved other small
-      cap correspondences
-      
-      - Reduced size of the Greek prosgegrammeni (adscript iota) used with capital
-      forms, and added a new feature to display it as a subscript (ypogegrammeni)
-      under capitals (cv83)
-      
-      - Replaced font features documentation with updated version in a new format
-      (see documentation/GentiumPlus-font-features.html)
-      
-      - Improved miscellaneous anchor positions, including the position of diacritics
-      over lowercase "d' and similar glyphs, and position of diacritics below glyphs
-      with macrons below (e.g. U+1E0F LATIN SMALL LETTER D WITH LINE BELOW)
-      
-      - Numerous other fixes and improvements to various glyphs, including:
-      U+01E5 LATIN SMALL LETTER G WITH STROKE (bar position on single-story variant)
-      U+02D6 MODIFIER LETTER PLUS SIGN (size)
-      U+0315 COMBINING COMMA ABOVE RIGHT (made spacing)
-      U+033B COMBINING SQUARE BELOW (more rectangular)
-      U+1D02 LATIN SMALL LETTER TURNED AE (made double-story in italic)
-      U+1D15 LATIN LETTER SMALL CAPITAL OU (form)
-      U+1D46 MODIFIER LETTER SMALL TURNED AE (made double-story in italic)
-      U+1D77 LATIN SMALL LETTER TURNED G (position)
-      U+1D78 MODIFIER LETTER CYRILLIC EN (form)
-      U+2053 SWUNG DASH
-      U+A75B LATIN SMALL LETTER R ROTUNDA (spacing)
-      U+A76A LATIN CAPITAL LETTER ET
-      U+A76B LATIN SMALL LETTER ET
-      U+A76C LATIN CAPITAL LETTER IS
-      U+A76D LATIN SMALL LETTER IS
-      U+A77F LATIN SMALL LETTER TURNED INSULAR G (position)
-      U+A7F8 MODIFIER LETTER CAPITAL H WITH STROKE (form)
-      U+A7FA LATIN LETTER SMALL CAPITAL TURNED M (italic)
-      
       - Applied new hinting techniques to try to improve screen rendering on Windows
       
-      - Removed the "Show Invisibles" feature
+      - All-new documentation in HTML and PDF formats
       
-      - Removed support for nine-level pitch contours. These will be replaced
-      by a standalone pitch contours font in the future
+      - Features for controlling literacy forms of a and g separately
+      - Literacy a alternates (ss02)
+      - Literacy g alternates (ss03)
       
-      - Removed DSIGs added in version 5.000. These have now been removed to
-      reflect current best practice font development guidance. Adobe InDesign
-      will complain that fonts cannot be found if a document last saved with
-      version 5.000 is opened with version 5.960 or later installed. It will
-      be necessary to find/replace the fonts in the document using the command
-      in the Type menu. Please also look over the document carefully to note
-      any places where changes in the fonts have affected letterforms or spacing.
+      - Feature to support side-by-side rendering of U+0300 plus U+0301
+      - Kayan diacritics (cv79)
       
-      - Graphite has been removed. Application and OS support for OpenType has
-      greatly improved, so the need for Graphite in this font family is greatly
-      reduced. *If this affects you, and you find that OpenType does not provide
-      sufficient support for your needs, please contact us right away.*
+      - Tone letter features (cv91 &amp; cv92) now supported through OpenType
       
-      - Known issues with this beta release
-      Tone letters (U+02E5..02E9) and related features are not working properly
-      There is no support for TypeTuner
-      There are no regional subsets
+      - Reduced size of the Greek prosgegrammeni (adscript iota) used with capital forms, and added a new feature to display it as a subscript (ypogegrammeni) under capitals (cv83)
       
-      27 Oct 2014 (SIL NRSI team) Gentium Plus version 5.000
+      #### Fixes
+      
+      - Fixed some small capital correspondences, including added support for clicks
+      
+      - Fixed problems with spacing of tone letters
+      
+      - Improved miscellaneous anchor positions, including the position of diacritics
+      below glyphs with macrons below (e.g. U+1E0F LATIN SMALL LETTER D WITH LINE BELOW)
+      
+      - Improved position of diacritics for superscripts and modifier letters
+      (including cedilla, ogonek, rhotic hook)
+      
+      - Fixes and improvements to various glyphs:
+      - U+01E5 LATIN SMALL LETTER G WITH STROKE (bar position on single-story variant)
+      - U+02D6 MODIFIER LETTER PLUS SIGN (size)
+      - U+0315 COMBINING COMMA ABOVE RIGHT (made spacing)
+      - U+033B COMBINING SQUARE BELOW (more rectangular)
+      - U+1D02 LATIN SMALL LETTER TURNED AE (made double-story in italic)
+      - U+1D15 LATIN LETTER SMALL CAPITAL OU (form)
+      - U+1D46 MODIFIER LETTER SMALL TURNED AE (made double-story in italic)
+      - U+1D77 LATIN SMALL LETTER TURNED G (position)
+      - U+1D78 MODIFIER LETTER CYRILLIC EN (form)
+      - U+2053 SWUNG DASH
+      - U+A75B LATIN SMALL LETTER R ROTUNDA (spacing)
+      - U+A76A LATIN CAPITAL LETTER ET
+      - U+A76B LATIN SMALL LETTER ET
+      - U+A76C LATIN CAPITAL LETTER IS
+      - U+A76D LATIN SMALL LETTER IS
+      - U+A77F LATIN SMALL LETTER TURNED INSULAR G (position)
+      - U+A7F8 MODIFIER LETTER CAPITAL H WITH STROKE (form)
+      - U+A7FA LATIN LETTER SMALL CAPITAL TURNED M (italic)
+      
+      #### Known issues
+      
+      - The low-profile diacritics feature (ss07) is present but not working properly in some cases.
+      
+      - There is no support for TypeTuner or TypeTuner Web. We hope to add that support soon.
+      
+      - There are no regional subsets. Please contact us if these are a priority for you and describe how you use them. We are reassessing whether to provide these subsets. With current web technology and WOFF2 compression most uses can be met equally well with the full fonts.
+      
+      ### 27 Oct 2014 (SIL NRSI team) Gentium Plus version 5.000
       - Added Stylistic Sets to the font for OpenType support
       of previously Graphite-only features
       - Added Character Variants to the font for OpenType support
@@ -294,15 +261,15 @@
       - Adjusted width of U+005F
       - Adjusted design of U+0264
       
-      1 Aug 2012 (SIL NRSI team) Gentium Plus version 1.510
+      ### 1 Aug 2012 (SIL NRSI team) Gentium Plus version 1.510
       - Changed Graphite feature identifiers from integers to 4-character
       alphanumeric tags (no other changes)
       
-      12 Sep 2011 (SIL NRSI team) Gentium Plus version 1.508
+      ### 12 Sep 2011 (SIL NRSI team) Gentium Plus version 1.508
       - Removed the VDMX table
       - Changed version number (using ttfsetver)
       
-      25 Aug 2011 (SIL NRSI team) Gentium Plus version 1.506
+      ### 25 Aug 2011 (SIL NRSI team) Gentium Plus version 1.506
       - Double-encoded the SIL PUA characters which were added to Unicode 5.2 and 6.0
       (using ttfremap)
       - Corrected problem with coverage tables (using ttfsortcover)
@@ -310,11 +277,11 @@
       - Added device metric tables
       - Added an empty dsig table
       
-      16 Nov 2010 (SIL NRSI team) Gentium Plus version 1.504
+      ### 16 Nov 2010 (SIL NRSI team) Gentium Plus version 1.504
       - Added codepage bits for 1251 (Cyrillic), 1257 (Windows Baltic), 1258
       (Vietnamese)
       
-      1 Nov 2010 (SIL NRSI team) Gentium Plus version 1.502
+      ### 1 Nov 2010 (SIL NRSI team) Gentium Plus version 1.502
       - Regular and Italic weights only
       - New OpenType and Graphite support
       - Converted kerning to OpenType (but not Graphite)
@@ -324,76 +291,22 @@
       - No separate GentiumAlt fonts (replaced by font features)
       - Added WOFF versions and examples
       
-      28 Nov 2005 (Victor Gaultney)  Gentium version 1.02
+      ### 28 Nov 2005 (Victor Gaultney)  Gentium version 1.02
       - Changed licensing to the SIL Open Font License
       - Included FontLab source files
       - Fixed some duplicate PostScript glyph names
       - Fixed italic angle
       
-      19 Sep 2003 (Victor Gaultney)  Gentium version 1.01
+      ### 19 Sep 2003 (Victor Gaultney)  Gentium version 1.01
       - Maintenance release focused on changing internal font
       - Information to reflect the changeover to an SIL project
       - There is only one bug fix - the Greek mu PS name was changed to try and fix
       a display/printing problem. There is still no manual hinting.
       
-      16 Sep 2002 (Victor Gaultney)  Gentium version 1.00
+      ### 16 Sep 2002 (Victor Gaultney)  Gentium version 1.00
       - First public release
       - No manual hinting is included in this version. Some has been done - with
       good results - but is not yet complete enough.
-      
-      
-      Information for Developers/Contributors
-      ---------------------------------------
-      
-      The release of Gentium Plus version 1.502 (and any subsequent versions) under
-      the OFL license provides a means for people to modify the fonts to meet their
-      needs and contribute to the project. For information on what you're allowed to
-      change or modify, consult the OFL and OFL-FAQ.
-      
-      Anyone can make their own modified version of Gentium Plus (using a different
-      name), but SIL International will continue to maintain and develop the
-      canonical version of the Gentium Plus fonts. As the package maintainer, we
-      welcome contributions. Here are some things to keep in mind:
-      
-      Format: We are open to contributions in various formats, but if you want to
-      maximise the chances of us including your work, please make it available to
-      us (via email or a URL) as either a FontLab database (preferred) or a
-      PostScript Type 1 (or OT-CFF) font.
-      
-      Source files: The primary source files for the fonts are the fonts themselves.
-      They contain all the important data in the fonts and can be studied and
-      modified using open font tools such as FontForge and TTX. The developer
-      release contains additional source files that might be useful. See the file
-      source/SOURCES.txt in that release archive for further information.
-      
-      Copyright attribution: If you submit something for inclusion in the main
-      Gentium Plus fonts, we will ask you to affirm that it is your original work,
-      and ask you to assign the copyright of your work to SIL International. This
-      is to ensure that future releases can be made under improved versions of the
-      OFL without needing to track you down for further permission. This follows
-      the same principle used by the FSF. Keep in mind that we are a
-      not-for-profit organization committed to free/libre and open source
-      software, and that any contributions incorporated in the fonts will always
-      be available under the OFL or a similar license.
-      
-      Quality: Because we want to be able to guarantee a high level of quality for
-      the primary Gentium Plus fonts, we will review submissions carefully. Please
-      don't be discouraged if we do not include a submission for this reason, or
-      ask you to make specific revisions.
-      
-      Types of contributions: If you wish to make a contribution - a set of
-      additional glyphs, scripts, code, etc. - please contact us before you do any
-      work to see if it is a contribution we currently need. Every addition adds
-      to the complexity of the project and needs to be carefully planned. This
-      also avoids two people working on the same type of addition at the same time.
-      
-      Linux packages: Please contact the upstream maintainer of the various
-      packages - nicolas_spalinger@sil.org - if you want to help package or
-      maintain a package.
-      
-      When submissions will be included: We plan to revise the fonts when major
-      updates are needed (eg new versions of Unicode). If you wish to make
-      submissions, contact us on the timing.
     </text>
   </description>
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
