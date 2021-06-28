@@ -10,19 +10,19 @@ Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
   font-family: GentiumPlusW;
   src: url(GentiumPlus-Regular.woff2);
 }
-/* use Charis SIL - Italic in .woff2 format */
+/* use Gentium Plus - Italic in .woff2 format */
 @font-face {
   font-family: GentiumPlusW;
   font-style: italic;
   src: url(GentiumPlus-Italic.woff2);
 }
-
+/* use Gentium Plus - Bold in .woff2 format */
 @font-face {
 	font-family: GentiumPlusW;
 	font-weight: bold;
 	src: url(GentiumPlus-Bold.woff2);
 }
-
+/* use Gentium Plus - Bold Italic in .woff2 format */
 @font-face {
 	font-family: GentiumPlusW;
 	font-weight: bold;
@@ -30,7 +30,7 @@ Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
 	src: url(GentiumPlus-BoldItalic.woff2);
 }
 
-/* set body to use Gentium Plus in .ttf format */
+/* set body to use Gentium Plus */
 body {
   font-family: GentiumPlusW, sans-serif;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
