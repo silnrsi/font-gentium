@@ -9,7 +9,7 @@ The design is intended to be highly readable, reasonably compact, and visually a
 
 ## Type Samples
 
-For a complete list of characters included in Gentium, see [Character Set Support](charset.md)).
+For a complete list of characters included in Gentium, see [Character Set Support](charset.md).
 
 Gentium has been designed to balance the need for a compact, legible typeface with the need for an attractive, friendly one. The overall tensions that influenced the design are summarized by the following table:
 

@@ -403,3 +403,5 @@ Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
 Standard | <span class='gentium-R normal'>˥ ˦ ˧ ˨ ˩ ꜒ ꜓ ꜔ ꜕ ꜖ (˩˦˥˧˨ ꜖꜓꜒꜔꜕)</span> | `cv92=0`
 Hide staves  | <span class='gentium-R normal' style='font-feature-settings: "cv92" 1'>˥ ˦ ˧ ˨ ˩ ꜒ ꜓ ꜔ ꜕ ꜖ (˩˦˥˧˨ ꜖꜓꜒꜔꜕)</span> | `cv92=1`
+
+[font id='gentium' face='GentiumPlus-Regular' italic='GentiumPlus-Italic' size='150%']
