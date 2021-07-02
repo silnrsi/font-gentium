@@ -3,7 +3,7 @@ title: Gentium - Version History
 fontversion: 6.001
 ---
 
-### 2 July 2021 (SIL WSTech Team) Doulos SIL version 6.001
+### 2 July 2021 (SIL WSTech Team) Gentium Plus version 6.001
 
 - Reverted font Postscript name to that used in v5 and earlier to avoid problems with unrecognized fonts when opening older documents.
 
