@@ -1,6 +1,6 @@
 ---
 title: Gentium - Frequently Asked Questions
-fontversion: 6.000
+fontversion: 6.001
 ---
 
 Many questions can be answered by consulting the following FAQ pages. Here are a few sample questions answered in each FAQ:

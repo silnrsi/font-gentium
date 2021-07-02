@@ -1,6 +1,6 @@
 ---
 title: Gentium Plus - Font Features
-fontversion: 6.000
+fontversion: 6.001
 ---
 
 Gentium Plus is an OpenType-enabled font family that supports the Latin, Cyrillic, and Greek scripts. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.
