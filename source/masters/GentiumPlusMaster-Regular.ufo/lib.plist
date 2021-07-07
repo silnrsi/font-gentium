@@ -675,6 +675,68 @@
         <string>1050</string>
       </dict>
     </dict>
+    <key>subscript</key>
+    <dict>
+      <key>H</key>
+      <dict>
+        <key>xPos</key>
+        <string>center</string>
+        <key>yPos</key>
+        <string>200</string>
+      </dict>
+      <key>L</key>
+      <dict>
+        <key>xPos</key>
+        <string>center</string>
+        <key>yPos</key>
+        <string>-260</string>
+      </dict>
+      <key>O</key>
+      <dict>
+        <key>xPos</key>
+        <string>center</string>
+        <key>yPos</key>
+        <string>200</string>
+      </dict>
+      <key>U</key>
+      <dict>
+        <key>xPos</key>
+        <string>center</string>
+        <key>yPos</key>
+        <string>444</string>
+      </dict>
+    </dict>
+    <key>subscriptCaps</key>
+    <dict>
+      <key>H</key>
+      <dict>
+        <key>xPos</key>
+        <string>center</string>
+        <key>yPos</key>
+        <string>200</string>
+      </dict>
+      <key>L</key>
+      <dict>
+        <key>xPos</key>
+        <string>center</string>
+        <key>yPos</key>
+        <string>-260</string>
+      </dict>
+      <key>O</key>
+      <dict>
+        <key>xPos</key>
+        <string>center</string>
+        <key>yPos</key>
+        <string>200</string>
+      </dict>
+      <key>U</key>
+      <dict>
+        <key>xPos</key>
+        <string>center</string>
+        <key>yPos</key>
+        <string>622</string>
+      </dict>
+    </dict>
     <key>superscript</key>
     <dict>
       <key>H</key>
@@ -711,6 +773,44 @@
         <string>center</string>
         <key>yPos</key>
         <string>1286</string>
+      </dict>
+    </dict>
+    <key>superscriptCaps</key>
+    <dict>
+      <key>H</key>
+      <dict>
+        <key>xPos</key>
+        <string>center</string>
+        <key>yPos</key>
+        <string>620</string>
+      </dict>
+      <key>L</key>
+      <dict>
+        <key>xPos</key>
+        <string>center</string>
+        <key>yPos</key>
+        <string>540</string>
+      </dict>
+      <key>O</key>
+      <dict>
+        <key>xPos</key>
+        <string>center</string>
+        <key>yPos</key>
+        <string>620</string>
+      </dict>
+      <key>R</key>
+      <dict>
+        <key>xPos</key>
+        <string>width</string>
+        <key>yPos</key>
+        <string>1136</string>
+      </dict>
+      <key>U</key>
+      <dict>
+        <key>xPos</key>
+        <string>center</string>
+        <key>yPos</key>
+        <string>1450</string>
       </dict>
     </dict>
   </dict>
