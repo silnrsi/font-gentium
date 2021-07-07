@@ -1092,6 +1092,7 @@
     <string>GrSmAlpha</string>
     <string>CyCapA</string>
     <string>GrCapAlpha</string>
+    <string>LtnSubCapA</string>
     <string>ModCapA</string>
     <string>LtnSmCapA</string>
     <string>LtnCapADblGrave</string>
@@ -1145,6 +1146,7 @@
     <string>LtnCapAeAcute</string>
     <string>LtnCapAeMacron</string>
     <string>MathFrktCapA</string>
+    <string>LtnSubSmB</string>
     <string>LtnSupSmB</string>
     <string>LtnSmBDotAbv</string>
     <string>LtnSmBLineBlw</string>
@@ -1170,6 +1172,7 @@
     <string>CySmVe</string>
     <string>CyCapVe</string>
     <string>GrCapBeta</string>
+    <string>LtnSubCapB</string>
     <string>ModCapB</string>
     <string>LtnSmCapB</string>
     <string>LtnCapBDotAbv</string>
@@ -1203,6 +1206,7 @@
     <string>LtnCapSharpS</string>
     <string>CySmEs</string>
     <string>SmRomNumOneHundred</string>
+    <string>LtnSubSmC</string>
     <string>ModSmC</string>
     <string>CombLtnSmC</string>
     <string>LtnSmCAcute</string>
@@ -1234,6 +1238,7 @@
     <string>CySmE.MongolStyle</string>
     <string>CyCapEs</string>
     <string>RomNumOneHundred</string>
+    <string>LtnSubCapC</string>
     <string>ModCapC</string>
     <string>LtnSmCapC</string>
     <string>LtnCapCAcute</string>
@@ -1265,6 +1270,7 @@
     <string>CyCapE.MongolStyle</string>
     <string>CySmKomiDe</string>
     <string>SmRomNumFiveHundred</string>
+    <string>LtnSubSmD</string>
     <string>LtnSupSmD</string>
     <string>CombLtnSmD</string>
     <string>LtnSmDCaron.Caron</string>
@@ -1299,6 +1305,7 @@
     <string>LtnSmEth</string>
     <string>ModSmEth</string>
     <string>RomNumFiveHundred</string>
+    <string>LtnSubCapD</string>
     <string>ModCapD</string>
     <string>LtnSmCapD</string>
     <string>LtnCapDCaron</string>
@@ -1397,6 +1404,7 @@
     <string>CySmKomiZje</string>
     <string>CyCapIe</string>
     <string>GrCapEpsilon</string>
+    <string>LtnSubCapE</string>
     <string>ModCapE</string>
     <string>LtnSmCapE</string>
     <string>CyCapIeGrave</string>
@@ -1448,6 +1456,7 @@
     <string>CyCapKomiDzje</string>
     <string>CyCapKomiZje</string>
     <string>LtnSmF.SItal</string>
+    <string>LtnSubSmF</string>
     <string>LtnSupSmF</string>
     <string>LtnSmFDotAbv</string>
     <string>LtnSmFDotAbv.SItal</string>
@@ -1483,6 +1492,7 @@
     <string>CySmGheStrkDesc.SItal</string>
     <string>CySmGheStrkHook</string>
     <string>CySmGheStrkHook.SItal</string>
+    <string>LtnSubCapF</string>
     <string>ModCapF</string>
     <string>LtnSmCapF</string>
     <string>LtnCapFDotAbv</string>
@@ -1499,6 +1509,7 @@
     <string>CyCapGheStrk</string>
     <string>CyCapGheStrkDesc</string>
     <string>CyCapGheStrkHook</string>
+    <string>LtnSubSmG</string>
     <string>LtnSupSmG</string>
     <string>LtnSupSmG.SngBowl</string>
     <string>LtnSmGAcute</string>
@@ -1512,6 +1523,7 @@
     <string>LtnSmG.BarBowl</string>
     <string>LtnSmGDiagStrk</string>
     <string>LtnSmGDiagStrk.SngBowl</string>
+    <string>LtnSubCapG</string>
     <string>LtnSmG.SngBowl</string>
     <string>LtnSmScriptG</string>
     <string>LtnSupSmScriptG</string>
@@ -1602,6 +1614,7 @@
     <string>GrSmCapPi</string>
     <string>CyCapEn</string>
     <string>GrCapEta</string>
+    <string>LtnSubCapH</string>
     <string>ModCapH</string>
     <string>ModCySmEn</string>
     <string>LtnSmCapH</string>
@@ -1706,6 +1719,7 @@
     <string>CySmPalochka</string>
     <string>GrCapIota</string>
     <string>RomNumOne</string>
+    <string>LtnSubCapI</string>
     <string>ModCapI</string>
     <string>LtnSmCapI</string>
     <string>LtnSupSmCapI</string>
@@ -1770,6 +1784,7 @@
     <string>CySmDeZheLig</string>
     <string>CySmLha</string>
     <string>CyCapJe</string>
+    <string>LtnSubCapJ</string>
     <string>ModCapJ</string>
     <string>LtnSmCapJ</string>
     <string>LtnCapJCircum</string>
@@ -1815,6 +1830,7 @@
     <string>CySmZheBreve</string>
     <string>CySmZheDiaer</string>
     <string>CySmZheDesc</string>
+    <string>LtnSubCapK</string>
     <string>ModCapK</string>
     <string>LtnSmCapK</string>
     <string>LtnCapKAcute</string>
@@ -1913,6 +1929,7 @@
     <string>LtnCapLBrkn</string>
     <string>LtnCapLTrnd</string>
     <string>LtnCapLSmJ</string>
+    <string>LtnSubCapL</string>
     <string>LtnCapLj</string>
     <string>LtnCapLLDigraph</string>
     <string>MathFrktCapL</string>
@@ -1939,6 +1956,7 @@
     <string>CyCapEm</string>
     <string>GrCapMu</string>
     <string>RomNumOneThousand</string>
+    <string>LtnSubCapM</string>
     <string>ModCapM</string>
     <string>LtnSmCapM</string>
     <string>LtnCapMAcute</string>
@@ -1988,6 +2006,7 @@
     <string>CySmShortITail</string>
     <string>CySmIMacron</string>
     <string>CySmIDiaer</string>
+    <string>LtnSubCapN</string>
     <string>ModCapN</string>
     <string>LtnSmCapN</string>
     <string>ModSmCapN</string>
@@ -2093,6 +2112,7 @@
     <string>ModSmTopHalfO</string>
     <string>CyCapO</string>
     <string>GrCapOmicron</string>
+    <string>LtnSubCapO</string>
     <string>ModCapO</string>
     <string>LtnSmCapO</string>
     <string>LtnCapODblAcute</string>
@@ -2185,6 +2205,7 @@
     <string>SmTaillessPhi</string>
     <string>CyCapEr</string>
     <string>GrCapRho</string>
+    <string>LtnSubCapP</string>
     <string>ModCapP</string>
     <string>LtnSmCapP</string>
     <string>GrSmCapRho</string>
@@ -2210,6 +2231,7 @@
     <string>GrCapPhi</string>
     <string>CyCapEf</string>
     <string>CySmQa</string>
+    <string>LtnSubSmQ</string>
     <string>LtnSupSmQ</string>
     <string>LtnSmQStrk</string>
     <string>LtnSmQDiagStrk</string>
@@ -2218,6 +2240,7 @@
     <string>LtnRevEshLoop</string>
     <string>LtnSmQPDigraph</string>
     <string>CyCapQa</string>
+    <string>LtnSubCapQ</string>
     <string>ModCapQ</string>
     <string>LtnCapSmQHookTail</string>
     <string>LtnSmCapQ</string>
@@ -2261,6 +2284,7 @@
     <string>LtnSmRum</string>
     <string>LtnSmSquatRevEsh</string>
     <string>LtnSmRevRFishhook</string>
+    <string>LtnSubCapR</string>
     <string>ModCapR</string>
     <string>LtnSmCapR</string>
     <string>LtnCapRAcute</string>
@@ -2322,6 +2346,7 @@
     <string>LtnSmEshCurl</string>
     <string>LtnSmUm</string>
     <string>CyCapDze</string>
+    <string>LtnSubCapS</string>
     <string>ModCapS</string>
     <string>LtnSmCapS</string>
     <string>LtnCapSAcute</string>
@@ -2377,6 +2402,7 @@
     <string>CySmLigTeTse</string>
     <string>CyCapTe</string>
     <string>GrCapTau</string>
+    <string>LtnSubCapT</string>
     <string>ModCapT</string>
     <string>LtnSmCapT</string>
     <string>LtnCapTCaron</string>
@@ -2449,6 +2475,7 @@
     <string>LtnSupSmUpsilon</string>
     <string>LtnSmUpsilonStrk</string>
     <string>LtnSmUpsilonOverSmSchwa</string>
+    <string>LtnSubCapU</string>
     <string>ModCapU</string>
     <string>LtnSmCapU</string>
     <string>ModSmCapU</string>
@@ -2522,6 +2549,7 @@
     <string>GrSubSmGamma</string>
     <string>ModSmGrGamma</string>
     <string>RomNumFive</string>
+    <string>LtnSubCapV</string>
     <string>ModCapV</string>
     <string>LtnSmCapV</string>
     <string>LtnCapVTilde</string>
@@ -2539,6 +2567,7 @@
     <string>LtnCapRamsHorn</string>
     <string>LtnCapGamma</string>
     <string>CySmWe</string>
+    <string>LtnSubSmW</string>
     <string>ModSmW</string>
     <string>LtnSmWAcute</string>
     <string>LtnSmWGrave</string>
@@ -2554,6 +2583,7 @@
     <string>GrSmOmega</string>
     <string>LtnSmClosedOmega</string>
     <string>CyCapWe</string>
+    <string>LtnSubCapW</string>
     <string>ModCapW</string>
     <string>LtnSmCapW</string>
     <string>LtnCapWAcute</string>
@@ -2585,6 +2615,7 @@
     <string>CyCapHa</string>
     <string>GrCapChi</string>
     <string>RomNumTen</string>
+    <string>LtnSubCapX</string>
     <string>ModCapX</string>
     <string>LtnCapXDiaer</string>
     <string>LtnCapXDotAbv</string>
@@ -2595,6 +2626,7 @@
     <string>RomNumTwelve</string>
     <string>LtnCapChi</string>
     <string>CySmU</string>
+    <string>LtnSubSmY</string>
     <string>ModSmY</string>
     <string>LtnSmYAcute</string>
     <string>CySmUDblAcute</string>
@@ -2629,6 +2661,7 @@
     <string>GrSmPsi</string>
     <string>CyCapStraightU</string>
     <string>GrCapUpsilon</string>
+    <string>LtnSubCapY</string>
     <string>ModCapY</string>
     <string>LtnSmCapY</string>
     <string>LtnSupSmCapY</string>
@@ -2659,6 +2692,7 @@
     <string>GrCapPsi</string>
     <string>GrSmCapPsi</string>
     <string>LtnSmZ.SItal</string>
+    <string>LtnSubSmZ</string>
     <string>LtnSupSmZ</string>
     <string>LtnSmZAcute</string>
     <string>LtnSmZAcute.SItal</string>
@@ -2684,6 +2718,7 @@
     <string>LtnSmZSwashTail</string>
     <string>LtnSmVisigothicZ</string>
     <string>GrCapZeta</string>
+    <string>LtnSubCapZ</string>
     <string>ModCapZ</string>
     <string>LtnSmCapZ</string>
     <string>LtnCapZAcute</string>
@@ -12019,12 +12054,74 @@
     <string>uniF257</string>
     <key>LtnStretchedC</key>
     <string>uni0297</string>
+    <key>LtnSubCapA</key>
+    <string>A.sub</string>
+    <key>LtnSubCapB</key>
+    <string>B.sub</string>
+    <key>LtnSubCapC</key>
+    <string>C.sub</string>
+    <key>LtnSubCapD</key>
+    <string>D.sub</string>
+    <key>LtnSubCapE</key>
+    <string>E.sub</string>
+    <key>LtnSubCapF</key>
+    <string>F.sub</string>
+    <key>LtnSubCapG</key>
+    <string>G.sub</string>
+    <key>LtnSubCapH</key>
+    <string>H.sub</string>
+    <key>LtnSubCapI</key>
+    <string>I.sub</string>
+    <key>LtnSubCapJ</key>
+    <string>J.sub</string>
+    <key>LtnSubCapK</key>
+    <string>K.sub</string>
+    <key>LtnSubCapL</key>
+    <string>L.sub</string>
+    <key>LtnSubCapM</key>
+    <string>M.sub</string>
+    <key>LtnSubCapN</key>
+    <string>N.sub</string>
+    <key>LtnSubCapO</key>
+    <string>O.sub</string>
+    <key>LtnSubCapP</key>
+    <string>P.sub</string>
+    <key>LtnSubCapQ</key>
+    <string>Q.sub</string>
+    <key>LtnSubCapR</key>
+    <string>R.sub</string>
+    <key>LtnSubCapS</key>
+    <string>S.sub</string>
+    <key>LtnSubCapT</key>
+    <string>T.sub</string>
+    <key>LtnSubCapU</key>
+    <string>U.sub</string>
+    <key>LtnSubCapV</key>
+    <string>V.sub</string>
+    <key>LtnSubCapW</key>
+    <string>W.sub</string>
+    <key>LtnSubCapX</key>
+    <string>X.sub</string>
+    <key>LtnSubCapY</key>
+    <string>Y.sub</string>
+    <key>LtnSubCapZ</key>
+    <string>Z.sub</string>
     <key>LtnSubSmA</key>
     <string>uni2090</string>
     <key>LtnSubSmA.SngStory</key>
     <string>uni2090.SngStory</string>
+    <key>LtnSubSmB</key>
+    <string>b.sub</string>
+    <key>LtnSubSmC</key>
+    <string>c.sub</string>
+    <key>LtnSubSmD</key>
+    <string>d.sub</string>
     <key>LtnSubSmE</key>
     <string>uni2091</string>
+    <key>LtnSubSmF</key>
+    <string>f.sub</string>
+    <key>LtnSubSmG</key>
+    <string>g.sub</string>
     <key>LtnSubSmH</key>
     <string>uni2095</string>
     <key>LtnSubSmI</key>
@@ -12049,6 +12146,8 @@
     <string>uni2092</string>
     <key>LtnSubSmP</key>
     <string>uni209A</string>
+    <key>LtnSubSmQ</key>
+    <string>q.sub</string>
     <key>LtnSubSmR</key>
     <string>uni1D63</string>
     <key>LtnSubSmS</key>
@@ -12061,8 +12160,14 @@
     <string>uni1D64</string>
     <key>LtnSubSmV</key>
     <string>uni1D65</string>
+    <key>LtnSubSmW</key>
+    <string>w.sub</string>
     <key>LtnSubSmX</key>
     <string>uni2093</string>
+    <key>LtnSubSmY</key>
+    <string>y.sub</string>
+    <key>LtnSubSmZ</key>
+    <string>z.sub</string>
     <key>LtnSupSmA</key>
     <string>uni1D43</string>
     <key>LtnSupSmA.SngStory</key>

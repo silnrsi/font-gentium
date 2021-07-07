@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSubCapY" format="2">
+  <advance width="851"/>
+  <anchor x="423" y="-260" name="L"/>
+  <anchor x="423" y="622" name="U"/>
+  <outline>
+    <contour>
+      <point x="760" y="520"/>
+      <point x="823" y="530" type="curve"/>
+      <point x="823" y="556" type="line"/>
+      <point x="546" y="556" type="line"/>
+      <point x="546" y="530" type="line"/>
+      <point x="618" y="522"/>
+      <point x="638" y="512"/>
+      <point x="624" y="491" type="curve" smooth="yes"/>
+      <point x="436" y="208" type="line"/>
+      <point x="371" y="323"/>
+      <point x="278" y="461"/>
+      <point x="208" y="539" type="curve" smooth="yes"/>
+      <point x="193" y="554"/>
+      <point x="174" y="562"/>
+      <point x="153" y="562" type="curve" smooth="yes"/>
+      <point x="115" y="562"/>
+      <point x="55" y="556"/>
+      <point x="0" y="549" type="curve"/>
+      <point x="3" y="524" type="line"/>
+      <point x="80" y="524"/>
+      <point x="100" y="508"/>
+      <point x="118" y="491" type="curve"/>
+      <point x="188" y="408"/>
+      <point x="316" y="227"/>
+      <point x="382" y="93" type="curve"/>
+      <point x="458" y="93" type="line"/>
+      <point x="714" y="491" type="line" smooth="yes"/>
+      <point x="727" y="511"/>
+    </contour>
+    <contour>
+      <point x="252" y="-200" type="line"/>
+      <point x="595" y="-200" type="line"/>
+      <point x="595" y="-174" type="line"/>
+      <point x="507" y="-159"/>
+      <point x="479" y="-141"/>
+      <point x="479" y="-131" type="curve" smooth="yes"/>
+      <point x="479" y="182" type="line"/>
+      <point x="367" y="182" type="line"/>
+      <point x="367" y="-131" type="line" smooth="yes"/>
+      <point x="367" y="-142"/>
+      <point x="337" y="-159"/>
+      <point x="252" y="-174" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>
