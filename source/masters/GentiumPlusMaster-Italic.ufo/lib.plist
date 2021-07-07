@@ -1234,6 +1234,7 @@
     <string>CySmE.MongolStyle</string>
     <string>CyCapEs</string>
     <string>RomNumOneHundred</string>
+    <string>ModCapC</string>
     <string>LtnSmCapC</string>
     <string>LtnCapCAcute</string>
     <string>LtnCapCCircum</string>
@@ -1482,6 +1483,7 @@
     <string>CySmGheStrkDesc.SItal</string>
     <string>CySmGheStrkHook</string>
     <string>CySmGheStrkHook.SItal</string>
+    <string>ModCapF</string>
     <string>LtnSmCapF</string>
     <string>LtnCapFDotAbv</string>
     <string>FrenchFrancSgn</string>
@@ -2208,6 +2210,7 @@
     <string>GrCapPhi</string>
     <string>CyCapEf</string>
     <string>CySmQa</string>
+    <string>LtnSupSmQ</string>
     <string>LtnSmQStrk</string>
     <string>LtnSmQDiagStrk</string>
     <string>LtnSmQHook</string>
@@ -2215,6 +2218,7 @@
     <string>LtnRevEshLoop</string>
     <string>LtnSmQPDigraph</string>
     <string>CyCapQa</string>
+    <string>ModCapQ</string>
     <string>LtnCapSmQHookTail</string>
     <string>LtnSmCapQ</string>
     <string>LtnCapQStrk</string>
@@ -2318,6 +2322,7 @@
     <string>LtnSmEshCurl</string>
     <string>LtnSmUm</string>
     <string>CyCapDze</string>
+    <string>ModCapS</string>
     <string>LtnSmCapS</string>
     <string>LtnCapSAcute</string>
     <string>LtnCapSAcuteDotAbv</string>
@@ -2580,6 +2585,7 @@
     <string>CyCapHa</string>
     <string>GrCapChi</string>
     <string>RomNumTen</string>
+    <string>ModCapX</string>
     <string>LtnCapXDiaer</string>
     <string>LtnCapXDotAbv</string>
     <string>CyCapHaStrk</string>
@@ -2623,6 +2629,7 @@
     <string>GrSmPsi</string>
     <string>CyCapStraightU</string>
     <string>GrCapUpsilon</string>
+    <string>ModCapY</string>
     <string>LtnSmCapY</string>
     <string>LtnSupSmCapY</string>
     <string>LtnCapYAcute</string>
@@ -2677,6 +2684,7 @@
     <string>LtnSmZSwashTail</string>
     <string>LtnSmVisigothicZ</string>
     <string>GrCapZeta</string>
+    <string>ModCapZ</string>
     <string>LtnSmCapZ</string>
     <string>LtnCapZAcute</string>
     <string>LtnCapZCircum</string>
@@ -12153,6 +12161,8 @@
     <string>uni1D53.TopSerif</string>
     <key>LtnSupSmP</key>
     <string>uni1D56</string>
+    <key>LtnSupSmQ</key>
+    <string>q.sup</string>
     <key>LtnSupSmRamsHorn</key>
     <string>uniF1B5</string>
     <key>LtnSupSmRevE</key>
@@ -12303,10 +12313,14 @@
     <string>uni1D2E</string>
     <key>ModCapBarredB</key>
     <string>uni1D2F</string>
+    <key>ModCapC</key>
+    <string>C.sup</string>
     <key>ModCapD</key>
     <string>uni1D30</string>
     <key>ModCapE</key>
     <string>uni1D31</string>
+    <key>ModCapF</key>
+    <string>F.sup</string>
     <key>ModCapG</key>
     <string>uni1D33</string>
     <key>ModCapH</key>
@@ -12331,12 +12345,16 @@
     <string>uni1D3D.OpenTop</string>
     <key>ModCapP</key>
     <string>uni1D3E</string>
+    <key>ModCapQ</key>
+    <string>Q.sup</string>
     <key>ModCapR</key>
     <string>uni1D3F</string>
     <key>ModCapRevE</key>
     <string>uni1D32</string>
     <key>ModCapRevN</key>
     <string>uni1D3B</string>
+    <key>ModCapS</key>
+    <string>S.sup</string>
     <key>ModCapT</key>
     <string>uni1D40</string>
     <key>ModCapU</key>
@@ -12345,6 +12363,12 @@
     <string>uni2C7D</string>
     <key>ModCapW</key>
     <string>uni1D42</string>
+    <key>ModCapX</key>
+    <string>X.sup</string>
+    <key>ModCapY</key>
+    <string>Y.sup</string>
+    <key>ModCapZ</key>
+    <string>Z.sup</string>
     <key>ModChinantecTnMrkDotHorizBar</key>
     <string>uniA719</string>
     <key>ModChinantecTnMrkDotHorizBarDep</key>

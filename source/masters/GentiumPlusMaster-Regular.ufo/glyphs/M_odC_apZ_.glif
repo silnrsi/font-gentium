@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModCapZ" format="2">
+  <advance width="749"/>
+  <anchor x="374" y="560" name="L"/>
+  <anchor x="388" y="1442" name="U"/>
+  <outline>
+    <contour>
+      <point x="691" y="744"/>
+      <point x="694" y="796" type="curve"/>
+      <point x="655" y="804" type="line"/>
+      <point x="620" y="706"/>
+      <point x="599" y="680"/>
+      <point x="559" y="680" type="curve" smooth="yes"/>
+      <point x="193" y="680" type="line"/>
+      <point x="687" y="1350" type="line"/>
+      <point x="669" y="1376" type="line"/>
+      <point x="238" y="1376" type="line" smooth="yes"/>
+      <point x="183" y="1376"/>
+      <point x="156" y="1376"/>
+      <point x="105" y="1386" type="curve"/>
+      <point x="85" y="1205" type="line"/>
+      <point x="125" y="1198" type="line"/>
+      <point x="145" y="1281"/>
+      <point x="188" y="1316"/>
+      <point x="218" y="1316" type="curve" smooth="yes"/>
+      <point x="539" y="1316" type="line"/>
+      <point x="41" y="647" type="line"/>
+      <point x="62" y="620" type="line"/>
+      <point x="685" y="620" type="line"/>
+      <point x="687" y="667"/>
+    </contour>
+  </outline>
+</glyph>
