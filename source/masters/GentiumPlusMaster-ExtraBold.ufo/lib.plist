@@ -636,6 +636,23 @@
   </dict>
   <key>org.sil.lcg.transforms</key>
   <dict>
+    <key>numr</key>
+    <dict>
+      <key>adjustMetrics</key>
+      <integer>0</integer>
+      <key>manAdjustX</key>
+      <integer>0</integer>
+      <key>manAdjustY</key>
+      <integer>0</integer>
+      <key>scaleX</key>
+      <integer>1</integer>
+      <key>scaleY</key>
+      <integer>1</integer>
+      <key>shiftX</key>
+      <integer>40</integer>
+      <key>shiftY</key>
+      <integer>638</integer>
+    </dict>
     <key>smallcaps</key>
     <dict>
       <key>adjustMetrics</key>
@@ -2778,20 +2795,25 @@
     <string>LariSgn</string>
     <string>SubZero</string>
     <string>DigitZero.dnom</string>
+    <string>DigitZero.numr</string>
     <string>SupZero</string>
     <string>SubOne</string>
     <string>DigitOne.dnom</string>
+    <string>DigitOne.numr</string>
     <string>SupOne</string>
     <string>SubTwo</string>
     <string>DigitTwo.dnom</string>
+    <string>DigitTwo.numr</string>
     <string>SupTwo</string>
     <string>LtnTwoStrk</string>
     <string>VulgFracZeroThirds</string>
     <string>SubThree</string>
     <string>DigitThree.dnom</string>
+    <string>DigitThree.numr</string>
     <string>SupThree</string>
     <string>SubFour</string>
     <string>DigitFour.dnom</string>
+    <string>DigitFour.numr</string>
     <string>SupFour</string>
     <string>LtnCapCuatrillo</string>
     <string>LtnCapCuatrilloComma</string>
@@ -2799,22 +2821,27 @@
     <string>LtnSmCuatrilloComma</string>
     <string>SubFive</string>
     <string>DigitFive.dnom</string>
+    <string>DigitFive.numr</string>
     <string>SupFive</string>
     <string>LtnCapTnFive</string>
     <string>LtnSmTnFive</string>
     <string>SubSix</string>
     <string>DigitSix.dnom</string>
+    <string>DigitSix.numr</string>
     <string>SupSix</string>
     <string>LtnSmOpenSix</string>
     <string>LtnCapOpenSix</string>
     <string>SubSeven</string>
     <string>DigitSeven.dnom</string>
+    <string>DigitSeven.numr</string>
     <string>SupSeven</string>
     <string>SubEight</string>
     <string>DigitEight.dnom</string>
+    <string>DigitEight.numr</string>
     <string>SupEight</string>
     <string>SubNine</string>
     <string>DigitNine.dnom</string>
+    <string>DigitNine.numr</string>
     <string>SupNine</string>
     <string>LtnCapOpenNine</string>
     <string>LtnSmOpenNine</string>
@@ -2838,6 +2865,7 @@
     <string>VulgFracFiveSixths</string>
     <string>VulgFracFiveEighths</string>
     <string>VulgFracSevenEighths</string>
+    <string>FracSlash.frac</string>
     <string>LtnRetrClick</string>
     <string>ModRaisedExclamationMrk</string>
     <string>ModLowInvExclamationMrk</string>
@@ -6389,60 +6417,80 @@
     <string>compDigitEight</string>
     <key>DigitEight.dnom</key>
     <string>eight.dnom</string>
+    <key>DigitEight.numr</key>
+    <string>eight.numr</string>
     <key>DigitFive</key>
     <string>five</string>
     <key>DigitFive.Sophia</key>
     <string>compDigitFive</string>
     <key>DigitFive.dnom</key>
     <string>five.dnom</string>
+    <key>DigitFive.numr</key>
+    <string>five.numr</string>
     <key>DigitFour</key>
     <string>four</string>
     <key>DigitFour.Sophia</key>
     <string>compDigitFour</string>
     <key>DigitFour.dnom</key>
     <string>four.dnom</string>
+    <key>DigitFour.numr</key>
+    <string>four.numr</string>
     <key>DigitNine</key>
     <string>nine</string>
     <key>DigitNine.Sophia</key>
     <string>compDigitNine</string>
     <key>DigitNine.dnom</key>
     <string>nine.dnom</string>
+    <key>DigitNine.numr</key>
+    <string>nine.numr</string>
     <key>DigitOne</key>
     <string>one</string>
     <key>DigitOne.Sophia</key>
     <string>compDigitOne</string>
     <key>DigitOne.dnom</key>
     <string>one.dnom</string>
+    <key>DigitOne.numr</key>
+    <string>one.numr</string>
     <key>DigitSeven</key>
     <string>seven</string>
     <key>DigitSeven.Sophia</key>
     <string>compDigitSeven</string>
     <key>DigitSeven.dnom</key>
     <string>seven.dnom</string>
+    <key>DigitSeven.numr</key>
+    <string>seven.numr</string>
     <key>DigitSix</key>
     <string>six</string>
     <key>DigitSix.Sophia</key>
     <string>compDigitSix</string>
     <key>DigitSix.dnom</key>
     <string>six.dnom</string>
+    <key>DigitSix.numr</key>
+    <string>six.numr</string>
     <key>DigitThree</key>
     <string>three</string>
     <key>DigitThree.Sophia</key>
     <string>compDigitThree</string>
     <key>DigitThree.dnom</key>
     <string>three.dnom</string>
+    <key>DigitThree.numr</key>
+    <string>three.numr</string>
     <key>DigitTwo</key>
     <string>two</string>
     <key>DigitTwo.Sophia</key>
     <string>compDigitTwo</string>
     <key>DigitTwo.dnom</key>
     <string>two.dnom</string>
+    <key>DigitTwo.numr</key>
+    <string>two.numr</string>
     <key>DigitZero</key>
     <string>zero</string>
     <key>DigitZero.Sophia</key>
     <string>compDigitZero</string>
     <key>DigitZero.dnom</key>
     <string>zero.dnom</string>
+    <key>DigitZero.numr</key>
+    <string>zero.numr</string>
     <key>DivSgn</key>
     <string>divide</string>
     <key>DollarSgn</key>
@@ -6547,6 +6595,8 @@
     <string>uni215F</string>
     <key>FracSlash</key>
     <string>fraction</string>
+    <key>FracSlash.frac</key>
+    <string>fraction.frac</string>
     <key>FrenchFrancSgn</key>
     <string>franc</string>
     <key>FullStop</key>
