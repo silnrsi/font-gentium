@@ -3,11 +3,11 @@
   <advance width="937"/>
   <anchor x="474" y="-200" name="H"/>
   <anchor x="474" y="-260" name="L"/>
-  <anchor x="532" y="-200" name="O"/>
-  <anchor x="931" y="460" name="R"/>
   <anchor x="474" y="622" name="U"/>
   <outline>
     <contour>
+      <point x="801" y="483" type="line" smooth="yes"/>
+      <point x="801" y="494"/>
       <point x="830" y="509"/>
       <point x="892" y="520" type="curve"/>
       <point x="892" y="556" type="line"/>
@@ -40,8 +40,6 @@
       <point x="668" y="-218"/>
       <point x="801" y="-96"/>
       <point x="801" y="114" type="curve" smooth="yes"/>
-      <point x="801" y="483" type="line" smooth="yes"/>
-      <point x="801" y="494"/>
     </contour>
   </outline>
   <lib>

@@ -2,10 +2,11 @@
 <glyph name="LtnSubSmY" format="2">
   <advance width="707"/>
   <anchor x="539" y="-260" name="L"/>
-  <anchor x="731" y="340" name="R"/>
-  <anchor x="371" y="430" name="U"/>
+  <anchor x="371" y="444" name="U"/>
   <outline>
     <contour>
+      <point x="615" y="282" type="line" smooth="yes"/>
+      <point x="625" y="305"/>
       <point x="636" y="311"/>
       <point x="692" y="322" type="curve"/>
       <point x="692" y="358" type="line"/>
@@ -42,8 +43,6 @@
       <point x="182" y="-500"/>
       <point x="304" y="-427"/>
       <point x="382" y="-249" type="curve" smooth="yes"/>
-      <point x="615" y="282" type="line" smooth="yes"/>
-      <point x="625" y="305"/>
     </contour>
   </outline>
   <lib>

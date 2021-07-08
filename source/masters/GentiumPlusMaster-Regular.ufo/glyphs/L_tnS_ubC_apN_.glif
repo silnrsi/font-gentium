@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSubCapN" format="2">
   <advance width="930"/>
-  <anchor x="733" y="-200" name="H"/>
   <anchor x="465" y="-260" name="L"/>
   <anchor x="465" y="622" name="U"/>
   <outline>
     <contour>
+      <point x="799" y="483" type="line" smooth="yes"/>
+      <point x="799" y="494"/>
       <point x="829" y="512"/>
       <point x="896" y="520" type="curve"/>
       <point x="896" y="556" type="line"/>
@@ -16,10 +17,10 @@
       <point x="705" y="483" type="curve" smooth="yes"/>
       <point x="710" y="-157" type="line"/>
       <point x="799" y="-181" type="line"/>
-      <point x="799" y="483" type="line" smooth="yes"/>
-      <point x="799" y="494"/>
     </contour>
     <contour>
+      <point x="691" y="-187" type="line" smooth="yes"/>
+      <point x="703" y="-201"/>
       <point x="753" y="-213"/>
       <point x="799" y="-218" type="curve"/>
       <point x="799" y="-128" type="line"/>
@@ -35,8 +36,6 @@
       <point x="84" y="514"/>
       <point x="118" y="496"/>
       <point x="157" y="450" type="curve" smooth="yes"/>
-      <point x="691" y="-187" type="line" smooth="yes"/>
-      <point x="703" y="-201"/>
     </contour>
     <contour>
       <point x="35" y="-200" type="line"/>
