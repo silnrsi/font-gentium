@@ -2980,34 +2980,44 @@
     <string>ManatSgn</string>
     <string>LariSgn</string>
     <string>SubZero</string>
+    <string>DigitZero.dnom</string>
     <string>SupZero</string>
     <string>SubOne</string>
+    <string>DigitOne.dnom</string>
     <string>SupOne</string>
     <string>SubTwo</string>
+    <string>DigitTwo.dnom</string>
     <string>SupTwo</string>
     <string>LtnTwoStrk</string>
     <string>VulgFracZeroThirds</string>
     <string>SubThree</string>
+    <string>DigitThree.dnom</string>
     <string>SupThree</string>
     <string>SubFour</string>
+    <string>DigitFour.dnom</string>
     <string>SupFour</string>
     <string>LtnCapCuatrillo</string>
     <string>LtnCapCuatrilloComma</string>
     <string>LtnSmCuatrillo</string>
     <string>LtnSmCuatrilloComma</string>
     <string>SubFive</string>
+    <string>DigitFive.dnom</string>
     <string>SupFive</string>
     <string>LtnCapTnFive</string>
     <string>LtnSmTnFive</string>
     <string>SubSix</string>
+    <string>DigitSix.dnom</string>
     <string>SupSix</string>
     <string>LtnSmOpenSix</string>
     <string>LtnCapOpenSix</string>
     <string>SubSeven</string>
+    <string>DigitSeven.dnom</string>
     <string>SupSeven</string>
     <string>SubEight</string>
+    <string>DigitEight.dnom</string>
     <string>SupEight</string>
     <string>SubNine</string>
+    <string>DigitNine.dnom</string>
     <string>SupNine</string>
     <string>LtnCapOpenNine</string>
     <string>LtnSmOpenNine</string>
@@ -6580,42 +6590,62 @@
     <string>eight</string>
     <key>DigitEight.Sophia</key>
     <string>compDigitEight</string>
+    <key>DigitEight.dnom</key>
+    <string>eight.dnom</string>
     <key>DigitFive</key>
     <string>five</string>
     <key>DigitFive.Sophia</key>
     <string>compDigitFive</string>
+    <key>DigitFive.dnom</key>
+    <string>five.dnom</string>
     <key>DigitFour</key>
     <string>four</string>
     <key>DigitFour.Sophia</key>
     <string>compDigitFour</string>
+    <key>DigitFour.dnom</key>
+    <string>four.dnom</string>
     <key>DigitNine</key>
     <string>nine</string>
     <key>DigitNine.Sophia</key>
     <string>compDigitNine</string>
+    <key>DigitNine.dnom</key>
+    <string>nine.dnom</string>
     <key>DigitOne</key>
     <string>one</string>
     <key>DigitOne.Sophia</key>
     <string>compDigitOne</string>
+    <key>DigitOne.dnom</key>
+    <string>one.dnom</string>
     <key>DigitSeven</key>
     <string>seven</string>
     <key>DigitSeven.Sophia</key>
     <string>compDigitSeven</string>
+    <key>DigitSeven.dnom</key>
+    <string>seven.dnom</string>
     <key>DigitSix</key>
     <string>six</string>
     <key>DigitSix.Sophia</key>
     <string>compDigitSix</string>
+    <key>DigitSix.dnom</key>
+    <string>six.dnom</string>
     <key>DigitThree</key>
     <string>three</string>
     <key>DigitThree.Sophia</key>
     <string>compDigitThree</string>
+    <key>DigitThree.dnom</key>
+    <string>three.dnom</string>
     <key>DigitTwo</key>
     <string>two</string>
     <key>DigitTwo.Sophia</key>
     <string>compDigitTwo</string>
+    <key>DigitTwo.dnom</key>
+    <string>two.dnom</string>
     <key>DigitZero</key>
     <string>zero</string>
     <key>DigitZero.Sophia</key>
     <string>compDigitZero</string>
+    <key>DigitZero.dnom</key>
+    <string>zero.dnom</string>
     <key>DivSgn</key>
     <string>divide</string>
     <key>DollarSgn</key>
