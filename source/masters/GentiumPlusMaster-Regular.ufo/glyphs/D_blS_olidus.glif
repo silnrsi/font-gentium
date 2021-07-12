@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="DblSolidus" format="2">
-  <advance width="961"/>
+  <advance width="1350"/>
   <unicode hex="2AFD"/>
   <outline>
     <component base="Solidus"/>
+    <component base="Solidus" xOffset="389"/>
   </outline>
   <lib>
     <dict>
