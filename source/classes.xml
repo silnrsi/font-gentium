@@ -668,6 +668,14 @@
 		LtnSmOOgonekMacron.LP LtnSmOOgonekMacron.sc LtnSmUOgonek LtnSmUOgonek.sc
 		Ogonek
 	</class>
+	<class name="c_caron" fixed="0">
+		LtnCapLCaron.Caron LtnSmDCaron.Caron LtnSmDCaron.Caron.sc LtnSmLCaron.Caron
+		LtnSmLCaron.Caron.sc LtnSmTCaron.Caron LtnSmTCaron.Caron.sc
+	</class>
+	<class name="cno_caron" fixed="0">
+		LtnCapLCaron LtnSmDCaron LtnSmDCaron.sc LtnSmLCaron
+		LtnSmLCaron.sc LtnSmTCaron LtnSmTCaron.sc
+	</class>
 	<class name="c_iotasub" fixed="0">
 		GrCapAlphaWDasiaOxiaPros.ISub GrCapAlphaWDasiaPerisPros.ISub GrCapAlphaWDasiaPerisPros.Por.ISub GrCapAlphaWDasiaPros.ISub
 		GrCapAlphaWDasiaVariaPros.ISub GrCapAlphaWPros.ISub GrCapAlphaWPsiliOxiaPros.ISub GrCapAlphaWPsiliPerisPros.ISub
