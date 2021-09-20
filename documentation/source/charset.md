@@ -18,9 +18,9 @@ Latin Extended-B|U+0180..U+024F
 IPA Extensions|U+0250..U+02AF
 Spacing Modifier Letters|U+02B0..U+02FF
 Combining Diacritical Marks|U+0300..U+0320, U+0323..U+033F, U+0346..U+036F
-Greek and Coptic|U+0370..U+0377, U+037A..U+037F, U+0384..U+038A, U+038C, U+038E..U+03E1, U+03F0..U+03FF
+Greek and Coptic|U+0370..U+0377, U+037A..U+037F, U+0384..U+038A, U+038C, U+038E..U+03A1, U+03A3..U+03E1, U+03F0..U+03FF
 Cyrillic|U+0400..U+045F, U+0462..U+0463, U+0472..U+0475, U+048A..U+04FF
-Cyrillic Supplementary|U+0500..U+052F
+Cyrillic Supplement|U+0500..U+052F
 Combining Diacritical Marks Extended|U+1AB0..U+1ABA
 Phonetic Extensions|U+1D00..U+1D7F
 Phonetic Extensions Supplement|U+1D80..U+1DBF
