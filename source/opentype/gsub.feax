@@ -1473,23 +1473,19 @@ feature cv14 {
 
   cvParameters {
       FeatUILabelNameID {
-       name 3 1 0x0409 "Serif beta alternates";  # English US
-       name 1 0 0 "Serif beta alternates";  # Mac English
+       name 3 1 0x0409 "Lowercase beta";  # English US
       };
       
       FeatUITooltipTextNameID {
-       name 3 1 0x0409 "Serif beta alt";  # English US
-       name 1 0 0 "Serif beta alt";  # Mac English
+       name 3 1 0x0409 "Alternate form of lowercase beta with serif on bottom";  # English US
       };
       
       SampleTextNameID {
        name 3 1 0x0409 "βᵦᵝ";  # English US
-#       name 1 0 0 "\x{03B2}\x{1D66}\x{1D5D}";  # Mac English
-      }; #TODO: what should Mac sample be?
+      };
       
       ParamUILabelNameID {
-       name 3 1 0x0409 "Serif";  # English US
-       name 1 0 0 "Serif";  # Mac English
+       name 3 1 0x0409 "With serif";  # English US
       };
   };
 
@@ -1500,23 +1496,19 @@ feature cv78 {
 
   cvParameters {
       FeatUILabelNameID {
-       name 3 1 0x0409 "Porsonic circumflex";  # English US
-       name 1 0 0 "Porsonic circumflex";  # Mac English
+       name 3 1 0x0409 "Greek circumflex";  # English US
       };
       
       FeatUITooltipTextNameID {
-       name 3 1 0x0409 "Porsonic circumflex";  # English US
-       name 1 0 0 "Porsonic circumflex";  # Mac English
+       name 3 1 0x0409 "Alternate Porsonic form of Greek circumflex";  # English US
       };
       
       SampleTextNameID {
        name 3 1 0x0409 "͂ἆἇἎἏἦἧἮἯἶἷἾἿὖὗὟὦὧὮὯᾆᾇᾎᾏᾖᾗᾞᾟᾦᾧᾮᾯᾶᾷ῀῁ῆῇ῏ῖῗ῟ῦῧῶῷ";  # English US
-#       name 1 0 0  "U+0342U+1F06U+1F07U+1F0EU+1F0FU+1F26U+1F27U+1F2EU+1F2FU+1F36U+1F37U+1F3EU+1F3FU+1F56U+1F57U+1F5FU+1F66U+1F67U+1F6EU+1F6FU+1F86U+1F87U+1F8EU+1F8FU+1F96U+1F97U+1F9EU+1F9FU+1FA6U+1FA7U+1FAEU+1FAFU+1FB6U+1FB7U+1FC0U+1FC1U+1FC6U+1FC7U+1FCFU+1FD6U+1FD7U+1FDFU+1FE6U+1FE7U+1FF6U+1FF7";  # Mac English
-      }; #TODO: what should Mac sample be?
+      };
       
       ParamUILabelNameID {
-       name 3 1 0x0409 "Porsonic-style";  # English US
-       name 1 0 0 "Porsonic-style";  # Mac English
+       name 3 1 0x0409 "Porsonic form";  # English US
       };
   };
 
@@ -1527,23 +1519,19 @@ feature cv83 {
 
   cvParameters {
       FeatUILabelNameID {
-       name 3 1 0x0409 "Greek capital iota subscript";  # English US
-       name 1 0 0 "Greek capital iota subscript";  # Mac English
+       name 3 1 0x0409 "Greek iota adscript";  # English US
       };
 
       FeatUITooltipTextNameID {
-       name 3 1 0x0409 "Greek capital iota subscript";  # English US
-       name 1 0 0 "Greek capital iota subscript";  # Mac English
+       name 3 1 0x0409 "Alternate subscript form of Greek iota adscript (ypogegrammeni)";  # English US
       };
 
       SampleTextNameID {
        name 3 1 0x0409 "sample_text";  # English US TODO: set sample_text
-#       name 1 0 0  "";  # Mac English
-      }; #TODO: what should Mac sample be?
+      };
 
       ParamUILabelNameID {
-       name 3 1 0x0409 "Subscript-style";  # English US
-       name 1 0 0 "Subscript-style";  # Mac English
+       name 3 1 0x0409 "Subscript";  # English US
       };
   };
 
