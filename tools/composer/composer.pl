@@ -399,6 +399,8 @@ my %reduced_featsets = (
 	'LpDiacs-T SlntItlc-T SmCp-T VIEdiacs-T' => 'LpDiacs-T SmCp-T VIEdiacs-T', #above
 	'Lit-T LpDiacs-T SlntItlc-T SmCp-T VIEdiacs-T' => 'LpDiacs-T SmCp-T VIEdiacs-T', #above
 	'Lit-T Ognk-Strt SlntItlc-T SmCp-T' => 'Lit-T Ognk-Strt SmCp-T', #new, above
+	'CapJ-T SmJSerif-TopSrf' => 'SmJSerif-TopSrf', #new, Andika
+	'CapJ-T SmCp-T SmJSerif-TopSrf' => 'CapJ-T SmCp-T', #new, Andika
 );
 
 #specify glyph variants which have a suffix but no corresponding non-default feature setting
