@@ -34,14 +34,15 @@ my $xml_version = "1.0";
 # NO LONGER SUPPORT: g, w; q is set on by default
 #$opt_a - andika processing
 #$opt_d - debug output
+#$opt_f - font family name
 #$opt_g - output only graphite cmds
 #$opt_q - output no graphite cmds
 #$opt_t - output <interaction> encode cmds w/o choices for PS name for testing TypeTuner
 #$opt_l - list features and settings to a file to help create %nm_to_tag map
 #$opt_w - generate a WorldPad file for testing Graphite features TODO: make this a different program
 #$opt_z - hook for ad hoc subroutine to analyze parsed glyph data, does NOT produce an output file
-our($opt_a, $opt_d, $opt_g, $opt_q, $opt_t, $opt_l, $opt_w, $opt_z); #set by &getopts:
-my $opt_str = 'adgqtlw:z';
+our($opt_a, $opt_d, $opt_f, $opt_g, $opt_q, $opt_t, $opt_l, $opt_w, $opt_z, $family_nm); #set by &getopts:
+my $opt_str = 'adf:gqtlw:z';
 my $featset_list_fn = 'featset_list.txt';
 
 my $feat_all_base_fn = 'feat_all_composer.xml';
@@ -96,6 +97,11 @@ my %nm_to_tag = (
 	'Barred-bowl forms' => 'BarBwl',
 	'Barred-bowl' => 'T',
 	'Literacy alternates' => 'Lit',
+	'Single-story a and g' => 'Lit', #new
+	'Single-story a' => 'SSA', #new
+	'Single-story g' => 'SSG', #new
+	'Double-story a' => 'DSA', #new
+	'Double-story g' => 'DSG', #new
 	'Slant italic specials' => 'SlntItlc',
 	'Slanted italic specials' => 'SlntItlc', #new
 	'Uppercase Eng alternates' => 'Eng',
@@ -283,6 +289,10 @@ my %featset_to_suffix = (
 	'CyrE-T' => '\.MongolStyle',
 	'Lit-T' => '(\.SngBowl|\.SngStory)',
 	'Lit-F' => '^[a-zA-Z0-9]+(\.|$)(?!SngBowl|SngStory)',
+	'SSA-T' => '\.SngStory', #new
+	'SSG-T' => '\.SngBowl', #new
+	'DSA-T' => '^[a-zA-Z0-9]+(\.|$)(?!SngStory)', #new
+	'DSG-T' => '^[a-zA-Z0-9]+(\.|$)(?!SngBowl)', #new
 	'ModAp-Lg' => '\.Lrg',
 	'Ognk-Strt' => '\.RetroHook',
 	'OpnO-TopSrf' => '\.TopSerif',
@@ -347,15 +357,19 @@ my %featset_to_suffix = (
 # small caps negate the lower case tail variants
 my %reduced_featsets = (
 	'CapQ-T SmQTail-T' => 'SmQTail-T', # lower case glyph not affected by Capital Q alternate
-	'Caron-T SmCp-T' => 'SmCp-T', 
+	'Caron-T SmCp-T' => 'SmCp-T',
 	'CHZtn-T LpDiacs-T' => 'CHZtn-T',
-	'CyShha-Uc SmCp-T' => 'SmCp-T', 
+	'CyShha-Uc SmCp-T' => 'SmCp-T',
 	'LgTHk-RtHk SmTTail-Strt' => 'SmTTail-Strt', # lower case glyph not affected by Capital T-hook alternate
 	'LgYHk-LftHk SmYTail-Strt' => 'SmYTail-Strt', # lower case glyph not affected by Capital Y-hook alternate
-	'Lit-T SlntItlc-T' => 'Lit-T', 
-	'Lit-T SmCp-T' => 'SmCp-T', 
+	'Lit-T SlntItlc-T' => 'Lit-T',
+	'Lit-T SmCp-T' => 'SmCp-T',
+	'Lit-T SSA-T' => 'Lit-T', #new
+	'Lit-T SSG-T' => 'Lit-T', #new
+	'SSA-T SlntItlc-T' => 'SSA-T', #new
+	'SSA-T SmCp-T' => 'SmCp-T',
 	'LpDiacs-T SmCp-T' => 'SmCp-T',
-	'LrgBHk-Lc SmCp-T' => 'SmCp-T', 
+	#'LrgBHk-Lc SmCp-T' => 'SmCp-T', #this seems like an error
 	'RmHrn-Gma SmCp-T' => 'SmCp-T',
 	'RmHrn-Lrg SmCp-T' => 'SmCp-T',
 	'Serb-T SmCp-T' => 'SmCp-T', 
@@ -369,6 +383,12 @@ my %reduced_featsets = (
 	'SmCp-T SmQTail-T' => 'SmCp-T',  
 	'SmCp-T SmTTail-Strt' => 'SmCp-T',  
 	'SmCp-T SmYTail-Strt' => 'SmCp-T',
+	'BarBwl-T Lit-T SSG-T' => 'BarBwl-T Lit-T', #new
+	'Lit-T Ognk-Strt SSA-T' => 'Lit-T Ognk-Strt', #new
+	'Lit-T SSA-T SlntItlc-T' => 'Lit-T SlntItlc-T', #new, above
+	'Lit-T SSA-T SmCp-T' => 'Lit-T SmCp-T', #new, above
+	'Lit-T SSA-T VIEdiacs-T' => 'Lit-T VIEdiacs-T', #new
+	'Lit-T SSG-T SmCp-T' => 'Lit-T SmCp-T', #new
 	'CapQ-T SmCp-T SmQTail-T' => 'CapQ-T SmCp-T',
 	'Caron-T SmCp-T SmLTail-CrvTl' => 'Caron-T SmCp-T', 
 	'Caron-T SmCp-T SmTTail-Strt' => 'Caron-T SmCp-T', 
@@ -377,30 +397,45 @@ my %reduced_featsets = (
 	'Lit-T LpDiacs-T SlntItlc-T' => 'Lit-T LpDiacs-T', 
 	'Lit-T LpDiacs-T SmCp-T' => 'LpDiacs-T SmCp-T', #above
 	'Lit-T Ognk-Strt SlntItlc-T' => 'Lit-T Ognk-Strt', #new
-	'Lit-T Ognk-Strt SmCp-T' => 'Ognk-Strt SmCp-T', 
-	'Lit-T SlntItlc-T SmCp-T'=> 'SmCp-T', 
-	'Lit-T SlntItlc-T VIEdiacs-T' => 'Lit-T VIEdiacs-T', 
-	'Lit-T SmCp-T VIEdiacs-T' => 'SmCp-T VIEdiacs-T', 
-	'LpDiacs-T Ognk-Strt SmCp-T' => 'Ognk-Strt SmCp-T', 
+	'Lit-T Ognk-Strt SmCp-T' => 'Ognk-Strt SmCp-T',
+	'Ognk-Strt SSA-T SmCp-T' => 'Ognk-Strt SmCp-T', #new
+	'Lit-T SlntItlc-T SmCp-T'=> 'SmCp-T',
+	'Lit-T SlntItlc-T VIEdiacs-T' => 'Lit-T VIEdiacs-T',
+	'Lit-T SmCp-T VIEdiacs-T' => 'SmCp-T VIEdiacs-T',
+	'SmCp-T SSA-T VIEdiacs-T' => 'SmCp-T VIEdiacs-T', #new
+	'Ognk-Strt SSA-T SlntItlc-T' => 'Ognk-Strt SSA-T', #new
+	'SSA-T SlntItlc-T SmCp-T' => 'SSA-T SmCp-T', #new, above
+	'SSA-T SlntItlc-T VIEdiacs-T' => 'SSA-T VIEdiacs-T', #new
+	'LpDiacs-T Ognk-Strt SmCp-T' => 'Ognk-Strt SmCp-T',
 	'LpDiacs-T SlntItlc-T SmCp-T' => 'LpDiacs-T SmCp-T', #above
-	'LpDiacs-T SmCp-T VIEdiacs-T' => 'SmCp-T VIEdiacs-T', 
+	'LpDiacs-T SmCp-T VIEdiacs-T' => 'SmCp-T VIEdiacs-T',
 	'Ognk-Strt SlntItlc-T SmCp-T' => 'Ognk-Strt SmCp-T', #new
-	'Ognk-Strt SmCp-T SmITail-CrvTl' => 'Ognk-Strt SmCp-T', 
+	'Ognk-Strt SmCp-T SmITail-CrvTl' => 'Ognk-Strt SmCp-T',
 	'RONdiacs-T SmCp-T SmTTail-Strt' => 'RONdiacs-T SmCp-T',
-	'SlntItlc-T SmCp-T VIEdiacs-T' => 'SmCp-T VIEdiacs-T', 
+	'SlntItlc-T SmCp-T VIEdiacs-T' => 'SmCp-T VIEdiacs-T',
 	'SlntItlc-T SmCp-T SmITail-CrvTl' => 'SmCp-T SmITail-CrvTl', #above
 	'SlntItlc-T SmCp-T SmLTail-CrvTl' => 'SmCp-T SmLTail-CrvTl', #above
 	#below line not needed with code to convert Lit-T to Lit-F for Andika processing
 	#'Lit-F SlntItlc-T SmCp-T VIEdiacs-T' => 'SmCp-T VIEdiacs-T', #Lit-F is non-default value for Andika
 	'Lit-T LpDiacs-T SlntItlc-T SmCp-T' => 'LpDiacs-T SmCp-T', #above
-	'Lit-T LpDiacs-T SlntItlc-T VIEdiacs-T' => 'Lit-T LpDiacs-T VIEdiacs-T', 
+	'Lit-T LpDiacs-T SlntItlc-T VIEdiacs-T' => 'Lit-T LpDiacs-T VIEdiacs-T',
 	'Lit-T LpDiacs-T SmCp-T VIEdiacs-T' => 'LpDiacs-T SmCp-T VIEdiacs-T', #above
-	'Lit-T SlntItlc-T SmCp-T VIEdiacs-T' => 'SmCp-T VIEdiacs-T', 
+	'Lit-T SlntItlc-T SmCp-T VIEdiacs-T' => 'SmCp-T VIEdiacs-T',
+	'BarBwl-T Lit-T SSG-T SmCp-T' => 'BarBwl-T Lit-T SmCp-T', #new
+	'Lit-T Ognk-Strt SSA-T SlntItlc-T' => 'Lit-T Ognk-Strt SlntItlc-T', #new, above
+	'Lit-T Ognk-Strt SSA-T SmCp-T' => 'Lit-T Ognk-Strt SmCp-T', #new
+	'Lit-T SSA-T SlntItlc-T SmCp-T' => 'Lit-T SlntItlc-T SmCp-T', #new
+	'Lit-T SSA-T SlntItlc-T VIEdiacs-T' => 'Lit-T SlntItlc-T VIEdiacs-T', #new
+	'Lit-T SSA-T SmCp-T VIEdiacs-T' => 'Lit-T SmCp-T VIEdiacs-T', #new
+	'Ognk-Strt SSA-T SlntItlc-T SmCp-T' => 'Ognk-Strt SSA-T SmCp-T', #new, above
+	'SSA-T SlntItlc-T SmCp-T VIEdiacs-T' => 'SSA-T SmCp-T VIEdiacs-T', #new, above
 	'LpDiacs-T SlntItlc-T SmCp-T VIEdiacs-T' => 'LpDiacs-T SmCp-T VIEdiacs-T', #above
 	'Lit-T LpDiacs-T SlntItlc-T SmCp-T VIEdiacs-T' => 'LpDiacs-T SmCp-T VIEdiacs-T', #above
 	'Lit-T Ognk-Strt SlntItlc-T SmCp-T' => 'Lit-T Ognk-Strt SmCp-T', #new, above
 	'CapJ-T SmJSerif-TopSrf' => 'SmJSerif-TopSrf', #new, Andika
 	'CapJ-T SmCp-T SmJSerif-TopSrf' => 'CapJ-T SmCp-T', #new, Andika
+	'Lit-T Ognk-Strt SSA-T SlntItlc-T SmCp-T' => 'Lit-T Ognk-Strt SlntItlc-T SmCp-T', #new, above
+	'Lit-T SSA-T SlntItlc-T SmCp-T VIEdiacs-T' => 'Lit-T SlntItlc-T SmCp-T VIEdiacs-T', #new, above
 );
 
 #specify glyph variants which have a suffix but no corresponding non-default feature setting
@@ -419,83 +454,93 @@ my %glyph_to_featset = (
 # no check is made against the actual data
 # below uni01E5.BarBowl.SngBowl is the literacy form for uni01E5 (uni01E5.SngBowl doesn't exist)
 my %glyph_to_featset_andika = (
-	'a' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['0061', 'SngStory'])}, 
-	'aacute' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['00E1', 'SngStory'])}, 
-	'abreve' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['0103', 'SngStory'])}, 
-	'acircumflex' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['00E2', 'SngStory'])}, 
-	'adieresis' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['00E4', 'SngStory'])}, 
-	'agrave' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['00E0', 'SngStory'])}, 
-	'amacron' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['0101', 'SngStory'])}, 
-	'aogonek' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['0105', 'SngStory'])}, 
-	'aring' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['00E5', 'SngStory'])}, 
-	'aringacute' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['01FB', 'SngStory'])}, 
-	'atilde' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['00E3', 'SngStory'])}, 
-	'g' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['0067', 'SngBowl'])}, 
-	'gbreve' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['011F', 'SngBowl'])}, 
-	'gcaron' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['01E7', 'SngBowl'])}, 
-	'gcircumflex' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['011D', 'SngBowl'])}, 
-	'gcommaaccent' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['0123', 'SngBowl'])}, 
-	'gdotaccent' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['0121', 'SngBowl'])}, 
-	'uni01CE' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['01CE', 'SngStory'])}, 
-	'uni01DF' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['01DF', 'SngStory'])}, 
-	'uni01E1' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['01E1', 'SngStory'])}, 
-	'uni01E5' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['01E5', 'BarBowl.SngBowl'])}, 
-	'uni01F5' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['01F5', 'SngBowl'])}, 
-	'uni0201' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['0201', 'SngStory'])}, 
-	'uni0203' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['0203', 'SngStory'])}, 
-	'uni0227' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['0227', 'SngStory'])}, 
-	'uni0363' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['0363', 'SngStory'])}, 	
-	'uni1D43' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1D43', 'SngStory'])}, 
-	'uni1D4D' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1D4D', 'SngBowl'])}, 
-	'uni1E01' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1E01', 'SngStory'])}, 
-	'uni1E21' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1E21', 'SngBowl'])}, 
-	'uni1E9A' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1E9A', 'SngStory'])}, 
-	'uni1EA1' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1EA1', 'SngStory'])}, 
-	'uni1EA3' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1EA3', 'SngStory'])}, 
-	'uni1EA5' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1EA5', 'SngStory'])}, 
-	'uni1EA7' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1EA7', 'SngStory'])}, 
-	'uni1EA9' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1EA9', 'SngStory'])}, 
-	'uni1EAB' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1EAB', 'SngStory'])}, 
-	'uni1EAD' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1EAD', 'SngStory'])}, 
-	'uni1EAF' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1EAF', 'SngStory'])}, 
-	'uni1EB1' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1EB1', 'SngStory'])}, 
-	'uni1EB3' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1EB3', 'SngStory'])}, 
-	'uni1EB5' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1EB5', 'SngStory'])}, 
-	'uni1EB7' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['1EB7', 'SngStory'])}, 
-	'uni2090' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['2090', 'SngStory'])}, 
-	'uni2C65' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['2C65', 'SngStory'])}, 
-	'uniA7A1' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F')], 'lit' => ['A7A1', 'SngBowl'])}, 
+	'a' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['0061', 'SngStory'])}, 
+	'aacute' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['00E1', 'SngStory'])}, 
+	'abreve' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['0103', 'SngStory'])}, 
+	'acircumflex' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['00E2', 'SngStory'])}, 
+	'adieresis' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['00E4', 'SngStory'])}, 
+	'agrave' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['00E0', 'SngStory'])}, 
+	'amacron' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['0101', 'SngStory'])}, 
+	'aogonek' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['0105', 'SngStory'])}, 
+	'aring' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['00E5', 'SngStory'])}, 
+	'aringacute' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['01FB', 'SngStory'])}, 
+	'atilde' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['00E3', 'SngStory'])}, 
+	'g' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['0067', 'SngBowl'])}, 
+	'gbreve' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['011F', 'SngBowl'])}, 
+	'gcaron' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['01E7', 'SngBowl'])}, 
+	'gcircumflex' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['011D', 'SngBowl'])}, 
+	'gcommaaccent' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['0123', 'SngBowl'])}, 
+	'gdotaccent' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['0121', 'SngBowl'])}, 
+	'uni01CE' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['01CE', 'SngStory'])}, 
+	'uni01DF' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['01DF', 'SngStory'])}, 
+	'uni01E1' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['01E1', 'SngStory'])}, 
+	'uni01E5' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['01E5', 'BarBowl.SngBowl'])}, 
+	'uni01F5' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['01F5', 'SngBowl'])}, 
+	'uni0201' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['0201', 'SngStory'])}, 
+	'uni0203' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['0203', 'SngStory'])}, 
+	'uni0227' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['0227', 'SngStory'])}, 
+	'uni0363' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['0363', 'SngStory'])}, 	
+	'uni1D43' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1D43', 'SngStory'])}, 
+	'uni1D4D' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1D4D', 'SngBowl'])}, 
+	'uni1E01' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1E01', 'SngStory'])}, 
+	'uni1E21' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1E21', 'SngBowl'])}, 
+	'uni1E9A' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1E9A', 'SngStory'])}, 
+	'uni1EA1' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1EA1', 'SngStory'])}, 
+	'uni1EA3' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1EA3', 'SngStory'])}, 
+	'uni1EA5' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1EA5', 'SngStory'])}, 
+	'uni1EA7' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1EA7', 'SngStory'])}, 
+	'uni1EA9' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1EA9', 'SngStory'])}, 
+	'uni1EAB' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1EAB', 'SngStory'])}, 
+	'uni1EAD' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1EAD', 'SngStory'])}, 
+	'uni1EAF' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1EAF', 'SngStory'])}, 
+	'uni1EB1' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1EB1', 'SngStory'])}, 
+	'uni1EB3' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1EB3', 'SngStory'])}, 
+	'uni1EB5' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1EB5', 'SngStory'])}, 
+	'uni1EB7' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['1EB7', 'SngStory'])}, 
+	'uni2090' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['2090', 'SngStory'])}, 
+	'uni2C65' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['2C65', 'SngStory'])}, 
+	'uniA7A1' => {('dflt' => 'Lit-T', 'alts' => [('Lit-F', 'DSA-T', 'DSG-T')], 'lit' => ['A7A1', 'SngBowl'])}, 
 );
 
+#bookmark
 #adjust data structures for Andika processing
 #necessary because Andika has the literacy feature on by default
 sub Andika_adjust()
 {
-	if ($opt_a)
+	if ($family_nm eq 'andika' or $opt_a)
 	{
 		#change Lit-T to Lit-F in %reduced_featsets for Andika
 		# since Lit-T is the default, "setting" the literacy feature means applying Lit-F
 		#retain the Lit-T reduction rules to handle the Lit-T added to literacy glyphs
 		foreach my $key (keys %reduced_featsets)
 		{
+			if (not $key =~ /(Lit-T|SSA-T|SSG-T)/) {next;}
+
 			my $new_key = $key;
+			$new_key =~ s/(.*?)(SSA-T)(.*?)/$1DSA-T$3/;
+			$new_key =~ s/(.*?)(SSG-T)(.*?)/$1DSG-T$3/;
 			$new_key =~ s/(.*?)(Lit-T)(.*?)/$1Lit-F$3/;
-			my $new_value = $reduced_featsets{$key};
-			$new_value =~ s/(.*?)(Lit-T)(.*?)/$1Lit-F$3/;
+			$new_key = join(' ', sort(split(/ /, $new_key)));
 			
+			my $new_value = $reduced_featsets{$key};
+			$new_value =~ s/(.*?)(SSA-T)(.*?)/$1DSA-T$3/;
+			$new_value =~ s/(.*?)(SSG-T)(.*?)/$1DSG-T$3/;
+			$new_value =~ s/(.*?)(Lit-T)(.*?)/$1Lit-F$3/;
+			$new_value = join(' ', sort(split(/ /, $new_value)));
+
 			#removing Lit-F from Andika implies a glyph with no literacy setting is wanted
 			# which means one with Lit-T (since that's the default), so don't remove Lit-F
 			#RFComposer sort of worked without this previously because
 			# literacy suffixes are regarded as extras when searching candidate glyphs for a given USV
 			# which avoids applying Lit-T as the default
 			# (ie the candidate selection algo acted as if Lit-F was present)
-			if ($new_key =~ /Lit-F/ and not $new_value =~ /Lit-F/)
-			{
-				my @new_value_lst = split(/ /, $new_value);
-				push(@new_value_lst, 'Lit-F');
-				@new_value_lst = sort @new_value_lst;
-				$new_value = join(' ', @new_value_lst);
-			}
+			# if ($new_key =~ /Lit-F/ and not $new_value =~ /Lit-F/)
+			# {
+				# my @new_value_lst = split(/ /, $new_value);
+				# push(@new_value_lst, 'Lit-F');
+				# @new_value_lst = sort @new_value_lst;
+				# $new_value = join(' ', @new_value_lst);
+			# }
 			
 			if ($new_key ne $key and $new_key ne $new_value)
 			{
@@ -645,6 +690,7 @@ sub Name_get($$)
 	return $name;
 }
 
+#bookmark
 sub OT_Feats_get($\%)
 #create the %feats structure based on the GSUB table in the font
 {
@@ -660,20 +706,22 @@ sub OT_Feats_get($\%)
 	{
 		if (not $ot_tag =~ /^(cv|ss)/) {next;}
 		if ($ot_tag =~ /(cv91|cv92|cv79)/) {next;} #exclude Tone numbers, Hide tone contour staves, Kayan diacritics
+		
 		# feature could be CV or SS; only CVs have UI strings for parms
 		$nm_id = $GSUB_tbl->{'FEATURES'}{$ot_tag}{'PARMS'}{'UINameID'}; #name tbl id
 		$nm_str = Name_get($font, $nm_id);
 		$feats->{$ot_tag}{'name'} = $nm_str;
 		$tag = Tag_lookup($nm_str, %nm_to_tag); # $tag is a TypeTuner tag
 		$feats->{$ot_tag}{'tag'} = $tag;
-		$feats->{$ot_tag}{'default'} = 0; # TODO: default for OT is always 0 ?
 		if (not defined($feats->{' ids'}))
 			{$feats->{' ids'} = [];}
 		push(@{$feats->{' ids'}}, $ot_tag);
+		#$feats->{$ot_tag}{'default'} will be set below
 
 		$ot_parms = $GSUB_tbl->{'FEATURES'}{$ot_tag}{'PARMS'};
 		$num_named_parms = defined($ot_parms->{'NumNamedParms'}) ? $ot_parms->{'NumNamedParms'} : 0;
 
+		#fea does not specify any info for features that aren't applied
 		$feats->{$ot_tag}{'settings'}{0}{'name'} = 'Default';
 		$feats->{$ot_tag}{'settings'}{0}{'tag'} = 'Dflt';
 		if (not defined($feats->{$ot_tag}{'settings'}{' ids'}))
@@ -699,6 +747,14 @@ sub OT_Feats_get($\%)
 			$feats->{$ot_tag}{'settings'}{$i+1}{'tag'} = $tag;
 			push(@{$feats->{$ot_tag}{'settings'}{' ids'}}, $i+1);
 		}
+
+		$feats->{$ot_tag}{'default'} = 0; #default for OT is usually 0
+		if (($family_nm eq 'andika' or $opt_a) and $ot_tag =~ /ss01/)
+		{ #except for literacy feature in Andika
+			$feats->{$ot_tag}{'default'} = 1;
+			$feats->{$ot_tag}{'settings'}{0}{'name'} = 'False';
+			$feats->{$ot_tag}{'settings'}{0}{'tag'} = 'F';
+		} 
 	}
 
 	$font->release;
@@ -878,6 +934,7 @@ sub Featset_combos_get($@)
 #	return @feats_combo;
 #}
 
+#bookmark
 sub Gsi_xml_parse($\%\%\%)
 #parse the GSI xml file to create the structures describing
 # mapping to PS name for given USV and feature setting and
@@ -1052,6 +1109,7 @@ sub Gsi_xml_parse($\%\%\%)
 	$xml_parser->parsefile($gsi_fn) or die "Can't read $gsi_fn";
 }
 
+#bookmark
 sub Special_glyphs_handle($\%\%\%\%)
 #add variant glyph info which isn't indicated in the GSI data to various hashes 
 # this allows the glyph to offered as a choice in the cmd elements
@@ -1084,7 +1142,7 @@ sub Special_glyphs_handle($\%\%\%\%)
 		
 	#add encoding info for literacy glyphs encoded in Andika
 	# which therefore have no encoding or feature info in the GSI
-	if ($opt_a)
+	if ($family_nm eq 'andika' or $opt_a)
 	{	
 		foreach my $glyph_base_name (keys %glyph_to_featset_andika)
 		{
@@ -1210,8 +1268,21 @@ sub PSName_select(\@$)
 {
 	my ($featsets, $choices) = @_;
 	
+	#do one level of feature reduction to eliminate redundant literacy feats (e.g. Lit-T SSA-T)
+	# the rest of the code assumes each featset is matching a unique suffix
+	# other glyphs should not be adversely affected if the reduction truly remove feats that have no visual impact
+	my $featsets_old;
+
+	$featsets_old = join(' ', @$featsets);
+	if (defined $reduced_featsets{$featsets_old})
+	{
+		my $featsets_new = $reduced_featsets{$featsets_old} ;
+		my @featsets_new = split(/\s/, $featsets_new);
+		$featsets = \@featsets_new;
+	}
+
 	my @suffixes = Suffixes_get(@$featsets);
-	
+
 	foreach my $choice (split(/\s/, $choices))
 	{
 		if (Suffixes_match_name(@suffixes, $choice))
@@ -1219,7 +1290,7 @@ sub PSName_select(\@$)
 	}
 	
 	#if no choice was found, reduce feature settings to simpler form and search again
-	my $featsets_old = join(' ', @$featsets);
+	$featsets_old = join(' ', @$featsets);
 	if (defined $reduced_featsets{$featsets_old})
 	{
 		my $featsets_new = $reduced_featsets{$featsets_old} ;
@@ -1230,6 +1301,7 @@ sub PSName_select(\@$)
 	return $choices;
 }
 
+#bookmark
 sub Features_output($\%\%\%\%)
 #output the <feature>s elements
 #all value elements contain at least a gr_feat cmd or a cmd="null" (if a default)
@@ -1406,7 +1478,8 @@ sub Features_output($\%\%\%\%)
 	# </feature>
 # END
 	# }
-	
+
+#bookmark
 	### output line spacing feature
 	unless ($opt_g)
 	{
@@ -1417,9 +1490,11 @@ sub Features_output($\%\%\%\%)
 		my $imported_tag = Tag_lookup('Imported', %nm_to_tag);
 		if (not $opt_t)
 		{ #be careful of tabs in section below for proper output
-			print $fh <<END
+			print $fh <<END;
 	<feature name="Line spacing" value="Normal" tag="$line_gap_tag">
-		<!-- edit the below lines to provide the correct line metrics -->
+END
+			if ($family_nm eq 'doulos') {
+			print $fh <<END
 		<!-- Doulos -->
 		<value name="Normal" tag="$normal_tag">
 			<cmd name="null" args="2324 810"/>
@@ -1430,6 +1505,9 @@ sub Features_output($\%\%\%\%)
 		<value name="Loose" tag="$loose_tag">
 			<cmd name="line_gap" args="2800 1100"/>
 		</value>
+END
+			} elsif ($family_nm eq 'charis') {
+			print $fh <<END
 		<!-- Charis -->
 		<value name="Normal" tag="$normal_tag">
 			<cmd name="null" args="2450 900"/>
@@ -1440,6 +1518,9 @@ sub Features_output($\%\%\%\%)
 		<value name="Loose" tag="$loose_tag">
 			<cmd name="line_gap" args="2900 1200"/>
 		</value>
+END
+			} elsif ($family_nm eq 'gentium') {
+			print $fh <<END
 		<!-- Gentium -->
 		<value name="Normal" tag="$normal_tag">
 			<cmd name="null" args="2050 900"/>
@@ -1450,6 +1531,9 @@ sub Features_output($\%\%\%\%)
 		<value name="Loose" tag="$loose_tag">
 			<cmd name="line_gap" args="2450 1200"/>
 		</value>
+END
+			} elsif ($family_nm eq 'andika') {
+			print $fh <<END
 		<!-- Andika -->
 		<value name="Normal" tag="$normal_tag">
 			<cmd name="null" args="2500 800"/>
@@ -1460,7 +1544,9 @@ sub Features_output($\%\%\%\%)
 		<value name="Loose" tag="$loose_tag">
 			<cmd name="line_gap" args="2900 1100"/>
 		</value>
-		<!-- edit note: do _not_ delete the Imported value -->
+END
+			}
+		print $fh <<END
 		<value name="Imported" tag="$imported_tag">
 			<cmd name="line_metrics_scaled" args="null"/>
 		</value>
@@ -1490,6 +1576,7 @@ END
 	}
 }
 
+#bookmark
 sub Test_output($$\%\%\%)
 #output the <cmd> elements inside of a <test> element 
 # for one set of feature interactions
@@ -1576,6 +1663,7 @@ sub Feats_to_ids($$\%)
 	die("Ids for feature and setting couldn't be found: $feat_tag $set_tag\n");
 }
 
+#bookmark
 sub Interactions_output($\%\%\%\%)
 #output the <interactions> elements
 {
@@ -1632,6 +1720,7 @@ END
 	print $feat_all_fh "\t</aliases>\n";
 }
 
+#bookmark
 sub Feax_Aliases_output($)
 #output the <aliases/> element used by psftuneraliases
 # that element will be replaced with <alias> elements created from the lookup map emitted by psfbuildfea
@@ -1679,9 +1768,9 @@ sub Usage_print()
 	print <<END;
 RFComposer ver $version (c) SIL International 2007-2021.
 usage: 
-	RFComposer <switches> <font.ttf> <gsi.xml> <gsi_supp_fn.xml>
+	composer -f <family name> [<switches>] <font.ttf> <gsi.xml> <gsi_supp_fn.xml>
 	switches:
-		-a - adjust processing for Andika
+		-f - font family name [charis, doulos, gentium, andika]
 		-d - debug output
 		-t - output a file that needs no editing 
 			(for testing TypeTuner)
@@ -1692,7 +1781,7 @@ END
 };
 
 #### main processing ####
-
+#bookmark
 sub cmd_line_exec() #for UltraEdit function list
 {}
 
@@ -1703,6 +1792,9 @@ getopts($opt_str); #sets $opt?'s & removes the switch from @ARGV
 $opt_q = 1; # force -q on by default
 $opt_g = 0; # force -g off by default
 $opt_w = ''; # force -w off by default (also, no font name for WorldPad test)
+if (defined($opt_f)) {$family_nm = lc $opt_f;} else {$family_nm = 'none';}
+if (not scalar grep(/$family_nm/, qw(charis doulos andika gentium)))
+	{Usage_print;}
 
 #build a file containing a hash of feature & setting names to tags
 # to paste into this program for specifying tags
@@ -1755,6 +1847,7 @@ if (scalar @ARGV == 3)
 else
 	{Usage_print;}
 
+#bookmark
 Andika_adjust();
 # Feats_get($font_fn, %feats, %gdl_tag_to_feat_id); # obsolete since Graphite no longer in LCG fonts
 OT_Feats_get($font_fn, %feats);
@@ -1816,6 +1909,7 @@ print $feat_all_fh "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 print $feat_all_fh "<!DOCTYPE all_features SYSTEM \"feat_all.dtd\">\n";
 print $feat_all_fh "<all_features version=\"$xml_version\">\n";
 
+#bookmark
 Features_output($feat_all_fh, %feats, %featset_to_usvs, %usv_feat_to_ps_name, %dblenc_usv);
 Interactions_output($feat_all_fh, %featset_to_usvs, %usv_feat_to_ps_name, %feats, %dblenc_usv);
 unless ($opt_g)
