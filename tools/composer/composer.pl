@@ -39,10 +39,11 @@ my $xml_version = "1.0";
 #$opt_q - output no graphite cmds
 #$opt_t - output <interaction> encode cmds w/o choices for PS name for testing TypeTuner
 #$opt_l - list features and settings to a file to help create %nm_to_tag map
+#$opt_m - generate OT tag to TypeTuner name csv mapping file
 #$opt_w - generate a WorldPad file for testing Graphite features TODO: make this a different program
 #$opt_z - hook for ad hoc subroutine to analyze parsed glyph data, does NOT produce an output file
-our($opt_a, $opt_d, $opt_f, $opt_g, $opt_q, $opt_t, $opt_l, $opt_w, $opt_z, $family_nm); #set by &getopts:
-my $opt_str = 'adf:gqtlw:z';
+our($opt_a, $opt_d, $opt_f, $opt_g, $opt_q, $opt_t, $opt_l, $opt_m, $opt_w, $opt_z, $family_nm); #set by &getopts:
+my $opt_str = 'adf:gqtlm:w:z';
 my $featset_list_fn = 'featset_list.txt';
 
 my $feat_all_base_fn = 'feat_all_composer.xml';
@@ -73,6 +74,7 @@ my $romanian_style_diacs_feat = 'romn';
 # so had to also modify featset_to_suffix and reduced_featsets for different value tags
 #add Capital J alternate for Andika Basics (will eventually be in all fonts)
 # map values to T and F to be like other char variants
+#bookmark
 my %nm_to_tag = (
 	'False' => 'F',
 	'True' => 'T',
@@ -204,6 +206,8 @@ my %nm_to_tag = (
 	'Zero' => 'Zro',
 	'Zero form' => 'Zro', #new
 	'Small Caps' => 'SmCp',
+	'Small caps from lowercase' => 'SmCp', #new
+	'Small caps' => 'T', #new
 	'Low-profile diacritics' => 'LpDiacs',
 	'Serbian-style alternates' => 'Serb',
 	'Serif beta alternates' => 'BetaSerif',
@@ -762,29 +766,34 @@ sub OT_Feats_get($\%)
 	# add smcp feature which does not have GSUB info like CV and SS feats
 	#  it's much like a SS feat
 	push(@{$feats->{' ids'}}, 'smcp');
-	$feats->{'smcp'}{'name'} = 'Small Caps';
-	$feats->{'smcp'}{'tag'} = Tag_lookup('Small Caps', %nm_to_tag);
+	$feats->{'smcp'}{'name'} = 'Small caps from lowercase';
+	$feats->{'smcp'}{'tag'} = Tag_lookup('Small caps from lowercase', %nm_to_tag);
 	$feats->{'smcp'}{'default'} = 0;
 	$feats->{'smcp'}{'settings'}{' ids'} = [0, 1];
 	$feats->{'smcp'}{'settings'}{0}{'name'} = 'Default';
 	$feats->{'smcp'}{'settings'}{0}{'tag'} = 'Dflt';
-	$feats->{'smcp'}{'settings'}{1}{'name'} = 'True';
+	$feats->{'smcp'}{'settings'}{1}{'name'} = 'Small caps';
 	$feats->{'smcp'}{'settings'}{1}{'tag'} = Tag_lookup('True', %nm_to_tag);
 
-	if ($opt_d)
+	if ($opt_m or $opt_d)
 	{
+		open FH, ">$opt_m" if defined $opt_m;
 		foreach my $feat_id (@{$feats->{' ids'}})
 		{
 			my $feat_t = $feats->{$feat_id};
 			my ($tag, $name, $default) = ($feat_t->{'tag'}, $feat_t->{'name'}, 
 										  $feat_t->{'default'});
-			print "feature: $feat_id tag: $tag name: $name default: $default\n";
+			print "feature: $feat_id tag: $tag name: $name default: $default\n" if $opt_d;
+			#print FH "\"$feat_id\",\"$name\",\"$default\"" if $opt_m;
+			print FH "\"$feat_id\",\"$name\"" if $opt_m;
 			foreach my $set_id (@{$feats->{$feat_id}{'settings'}{' ids'}})
 			{
 				my $set_t = $feat_t->{'settings'}{$set_id};
 				($tag, $name) = ($set_t->{'tag'}, $set_t->{'name'});
-				print "  setting: $set_id tag: $tag name: $name\n";
+				print FH ",\"$name\"" if $opt_m;
+				print "  setting: $set_id tag: $tag name: $name\n" if $opt_d;
 			}
+			print FH "\n" if $opt_m;
 		}
 	}
 }
@@ -1017,6 +1026,7 @@ sub Gsi_xml_parse($\%\%\%)
 				}
 			}
 			
+			#bookmark
 			my $feat = $attrs{'category'};
 			if (not defined($feats->{$feat}))
 				{if ($opt_d) {print "feature in GSI missing from feature info in ttf: $feat\n";} return;}
@@ -1159,6 +1169,7 @@ sub Special_glyphs_handle($\%\%\%\%)
 	}
 }
 
+#bookmark
 sub Featsets_add_default($\@\%)
 #add a default featset to the featsets array
 #based on the name of the base glyph and the current featsets
@@ -1260,6 +1271,7 @@ sub Suffixes_match_name(\@$)
 #forward declare this since it's a recursive subroutine to avoid a warning
 sub PSName_select(\@$);
 
+#bookmark
 sub PSName_select(\@$)
 #choose the first name in a space delimited string that matches the feature settings
 #if no name is found, try simplifying the feature settings according to the %reduced_featsets hash
@@ -1774,6 +1786,7 @@ usage:
 		-d - debug output
 		-t - output a file that needs no editing 
 			(for testing TypeTuner)
+		-m - output OT feature to TypeTuner csv name mapping file
 
 	output is to feat_all_composer.xml
 END
