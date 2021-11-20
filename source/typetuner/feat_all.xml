@@ -543,6 +543,186 @@
 			<cmd name="encode" args="1E93 uni1E93.SItal"/>
 		</value>
 	</feature>
+	<feature name="Low profile diacritic alternates" value="Default" tag="LpDiacs">
+		<value name="Default" tag="Dflt">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="True" tag="T">
+			<cmd name="encode" args="00E1 aacute.LP"/>
+			<cmd name="encode" args="00E0 agrave.LP"/>
+			<cmd name="encode" args="1EAD uni1EAD.LP"/>
+			<cmd name="encode" args="1EA5 uni1EA5.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.LP"/>
+			<cmd name="encode" args="00E2 acircumflex.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.LP"/>
+			<cmd name="encode" args="01CE uni01CE.LP"/>
+			<cmd name="encode" args="00E3 atilde.LP"/>
+			<cmd name="encode" args="0101 amacron.LP"/>
+			<cmd name="encode" args="01DF uni01DF.LP"/>
+			<cmd name="encode" args="00E4 adieresis.LP"/>
+			<cmd name="encode" args="01E1 uni01E1.LP"/>
+			<cmd name="encode" args="0227 uni0227.LP"/>
+			<cmd name="encode" args="01FD aeacute.LP"/>
+			<cmd name="encode" args="01E3 uni01E3.LP"/>
+			<cmd name="encode" args="1E03 uni1E03.LP"/>
+			<cmd name="encode" args="0107 cacute.LP"/>
+			<cmd name="encode" args="0109 ccircumflex.LP"/>
+			<cmd name="encode" args="010D ccaron.LP"/>
+			<cmd name="encode" args="010B cdotaccent.LP"/>
+			<cmd name="encode" args="1E09 uni1E09.LP"/>
+			<cmd name="encode" args="1E0B uni1E0B.LP"/>
+			<cmd name="encode" args="01C6 uni01C6.LP"/>
+			<cmd name="encode" args="01C5 uni01C5.LP"/>
+			<cmd name="encode" args="00E9 eacute.LP"/>
+			<cmd name="encode" args="00E8 egrave.LP"/>
+			<cmd name="encode" args="1EBF uni1EBF.LP"/>
+			<cmd name="encode" args="1EC1 uni1EC1.LP"/>
+			<cmd name="encode" args="1EC5 uni1EC5.LP"/>
+			<cmd name="encode" args="1EC3 uni1EC3.LP"/>
+			<cmd name="encode" args="1EC7 uni1EC7.LP"/>
+			<cmd name="encode" args="00EA ecircumflex.LP"/>
+			<cmd name="encode" args="011B ecaron.LP"/>
+			<cmd name="encode" args="1EBD uni1EBD.LP"/>
+			<cmd name="encode" args="1E17 uni1E17.LP"/>
+			<cmd name="encode" args="1E15 uni1E15.LP"/>
+			<cmd name="encode" args="0113 emacron.LP"/>
+			<cmd name="encode" args="00EB edieresis.LP"/>
+			<cmd name="encode" args="0117 edotaccent.LP"/>
+			<cmd name="encode" args="FB01 fi.LP"/>
+			<cmd name="encode" args="FB03 ffi.LP"/>
+			<cmd name="encode" args="01F5 uni01F5.LP"/>
+			<cmd name="encode" args="011D gcircumflex.LP"/>
+			<cmd name="encode" args="01E7 gcaron.LP"/>
+			<cmd name="encode" args="1E21 uni1E21.LP"/>
+			<cmd name="encode" args="0121 gdotaccent.LP"/>
+			<cmd name="encode" args="0069 i.LP"/>
+			<cmd name="encode" args="00ED iacute.LP"/>
+			<cmd name="encode" args="00EC igrave.LP"/>
+			<cmd name="encode" args="00EE icircumflex.LP"/>
+			<cmd name="encode" args="01D0 uni01D0.LP"/>
+			<cmd name="encode" args="0129 itilde.LP"/>
+			<cmd name="encode" args="012B imacron.LP"/>
+			<cmd name="encode" args="1E2F uni1E2F.LP"/>
+			<cmd name="encode" args="00EF idieresis.LP"/>
+			<cmd name="encode" args="1E2D uni1E2D.LP"/>
+			<cmd name="encode" args="1ECB uni1ECB.LP"/>
+			<cmd name="encode" args="012F iogonek.LP"/>
+			<cmd name="encode" args="0268 uni0268.LP"/>
+			<cmd name="encode" args="0133 ij.LP"/>
+			<cmd name="encode" args="006A j.LP"/>
+			<cmd name="encode" args="0135 jcircumflex.LP"/>
+			<cmd name="encode" args="01F0 uni01F0.LP"/>
+			<cmd name="encode" args="029D uni029D.LP"/>
+			<cmd name="encode" args="01C9 uni01C9.LP"/>
+			<cmd name="encode" args="01C8 uni01C8.LP"/>
+			<cmd name="encode" args="1E3F uni1E3F.LP"/>
+			<cmd name="encode" args="1E41 uni1E41.LP"/>
+			<cmd name="encode" args="0144 nacute.LP"/>
+			<cmd name="encode" args="01F9 uni01F9.LP"/>
+			<cmd name="encode" args="0148 ncaron.LP"/>
+			<cmd name="encode" args="00F1 ntilde.LP"/>
+			<cmd name="encode" args="1E45 uni1E45.LP"/>
+			<cmd name="encode" args="01CC uni01CC.LP"/>
+			<cmd name="encode" args="01CB uni01CB.LP"/>
+			<cmd name="encode" args="00F3 oacute.LP"/>
+			<cmd name="encode" args="00F2 ograve.LP"/>
+			<cmd name="encode" args="1ED1 uni1ED1.LP"/>
+			<cmd name="encode" args="1ED3 uni1ED3.LP"/>
+			<cmd name="encode" args="1ED7 uni1ED7.LP"/>
+			<cmd name="encode" args="1ED5 uni1ED5.LP"/>
+			<cmd name="encode" args="1ED9 uni1ED9.LP"/>
+			<cmd name="encode" args="00F4 ocircumflex.LP"/>
+			<cmd name="encode" args="01D2 uni01D2.LP"/>
+			<cmd name="encode" args="1E4D uni1E4D.LP"/>
+			<cmd name="encode" args="022D uni022D.LP"/>
+			<cmd name="encode" args="1E4F uni1E4F.LP"/>
+			<cmd name="encode" args="00F5 otilde.LP"/>
+			<cmd name="encode" args="1E53 uni1E53.LP"/>
+			<cmd name="encode" args="1E51 uni1E51.LP"/>
+			<cmd name="encode" args="014D omacron.LP"/>
+			<cmd name="encode" args="022B uni022B.LP"/>
+			<cmd name="encode" args="00F6 odieresis.LP"/>
+			<cmd name="encode" args="0231 uni0231.LP"/>
+			<cmd name="encode" args="022F uni022F.LP"/>
+			<cmd name="encode" args="01ED uni01ED.LP"/>
+			<cmd name="encode" args="01FF oslashacute.LP"/>
+			<cmd name="encode" args="1EDB uni1EDB.LP"/>
+			<cmd name="encode" args="1EDD uni1EDD.LP"/>
+			<cmd name="encode" args="1EE1 uni1EE1.LP"/>
+			<cmd name="encode" args="1E55 uni1E55.LP"/>
+			<cmd name="encode" args="1E57 uni1E57.LP"/>
+			<cmd name="encode" args="0155 racute.LP"/>
+			<cmd name="encode" args="0159 rcaron.LP"/>
+			<cmd name="encode" args="1E59 uni1E59.LP"/>
+			<cmd name="encode" args="1E5D uni1E5D.LP"/>
+			<cmd name="encode" args="1E65 uni1E65.LP"/>
+			<cmd name="encode" args="015B sacute.LP"/>
+			<cmd name="encode" args="015D scircumflex.LP"/>
+			<cmd name="encode" args="1E67 uni1E67.LP"/>
+			<cmd name="encode" args="0161 scaron.LP"/>
+			<cmd name="encode" args="1E61 uni1E61.LP"/>
+			<cmd name="encode" args="1E69 uni1E69.LP"/>
+			<cmd name="encode" args="1E97 uni1E97.LP"/>
+			<cmd name="encode" args="1E6B uni1E6B.LP"/>
+			<cmd name="encode" args="00FA uacute.LP"/>
+			<cmd name="encode" args="00F9 ugrave.LP"/>
+			<cmd name="encode" args="00FB ucircumflex.LP"/>
+			<cmd name="encode" args="01D4 uni01D4.LP"/>
+			<cmd name="encode" args="1E79 uni1E79.LP"/>
+			<cmd name="encode" args="0169 utilde.LP"/>
+			<cmd name="encode" args="1E7B uni1E7B.LP"/>
+			<cmd name="encode" args="016B umacron.LP"/>
+			<cmd name="encode" args="01D8 uni01D8.LP"/>
+			<cmd name="encode" args="01DC uni01DC.LP"/>
+			<cmd name="encode" args="01DA uni01DA.LP"/>
+			<cmd name="encode" args="01D6 uni01D6.LP"/>
+			<cmd name="encode" args="00FC udieresis.LP"/>
+			<cmd name="encode" args="1EE9 uni1EE9.LP"/>
+			<cmd name="encode" args="1EEB uni1EEB.LP"/>
+			<cmd name="encode" args="1EEF uni1EEF.LP"/>
+			<cmd name="encode" args="1E7D uni1E7D.LP"/>
+			<cmd name="encode" args="1E83 wacute.LP"/>
+			<cmd name="encode" args="1E81 wgrave.LP"/>
+			<cmd name="encode" args="0175 wcircumflex.LP"/>
+			<cmd name="encode" args="1E85 wdieresis.LP"/>
+			<cmd name="encode" args="1E87 uni1E87.LP"/>
+			<cmd name="encode" args="1E8D uni1E8D.LP"/>
+			<cmd name="encode" args="1E8B uni1E8B.LP"/>
+			<cmd name="encode" args="00FD yacute.LP"/>
+			<cmd name="encode" args="1EF3 ygrave.LP"/>
+			<cmd name="encode" args="0177 ycircumflex.LP"/>
+			<cmd name="encode" args="1EF9 uni1EF9.LP"/>
+			<cmd name="encode" args="0233 uni0233.LP"/>
+			<cmd name="encode" args="00FF ydieresis.LP"/>
+			<cmd name="encode" args="1E8F uni1E8F.LP"/>
+			<cmd name="encode" args="017A zacute.LP"/>
+			<cmd name="encode" args="1E91 uni1E91.LP"/>
+			<cmd name="encode" args="017E zcaron.LP"/>
+			<cmd name="encode" args="017C zdotaccent.LP"/>
+			<cmd name="encode" args="00B4 acute.LP"/>
+			<cmd name="encode" args="02CA uni02CA.LP"/>
+			<cmd name="encode" args="0301 acutecomb.LP"/>
+			<cmd name="encode" args="0060 grave.LP"/>
+			<cmd name="encode" args="02CB uni02CB.LP"/>
+			<cmd name="encode" args="0300 gravecomb.LP"/>
+			<cmd name="encode" args="02C6 circumflex.LP"/>
+			<cmd name="encode" args="0302 uni0302.LP"/>
+			<cmd name="encode" args="02C7 caron.LP"/>
+			<cmd name="encode" args="030C uni030C.LP"/>
+			<cmd name="encode" args="02DC tilde.LP"/>
+			<cmd name="encode" args="0303 tildecomb.LP"/>
+			<cmd name="encode" args="00AF macron.LP"/>
+			<cmd name="encode" args="0304 uni0304.LP"/>
+			<cmd name="encode" args="00A8 dieresis.LP"/>
+			<cmd name="encode" args="0308 uni0308.LP"/>
+			<cmd name="encode" args="02D9 dotaccent.LP"/>
+			<cmd name="encode" args="0307 uni0307.LP"/>
+		</value>
+	</feature>
 	<feature name="Single-story a" value="Default" tag="SSA">
 		<value name="Default" tag="Dflt">
 			<cmd name="null" args="null"/>
@@ -1214,6 +1394,10 @@
 			<cmd name="encode" args="0111 dcroat.BarBowl.sc"/>
 			<cmd name="encode" args="01E5 uni01E5.BarBowl.sc"/>
 		</test>
+		<test select="CHZtn-T LpDiacs-T">
+			<cmd name="encode" args="02CA uni02CA.ChinantecTn"/>
+			<cmd name="encode" args="02CB uni02CB.ChinantecTn"/>
+		</test>
 		<test select="Caron-T SmCp-T">
 			<cmd name="encode" args="010F dcaron.sc"/>
 			<cmd name="encode" args="013E lcaron.sc"/>
@@ -1266,6 +1450,31 @@
 		</test>
 		<test select="LgYHk-LftHk SmCp-T">
 			<cmd name="encode" args="01B4 uni01B4.sc"/>
+		</test>
+		<test select="Lit-T LpDiacs-T">
+			<cmd name="encode" args="00E1 aacute.SngStory.LP"/>
+			<cmd name="encode" args="00E0 agrave.SngStory.LP"/>
+			<cmd name="encode" args="1EAD uni1EAD.SngStory.LP"/>
+			<cmd name="encode" args="1EA5 uni1EA5.SngStory.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.SngStory.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.SngStory.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.SngStory.LP"/>
+			<cmd name="encode" args="00E2 acircumflex.SngStory.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.SngStory.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.SngStory.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.SngStory.LP"/>
+			<cmd name="encode" args="01CE uni01CE.SngStory.LP"/>
+			<cmd name="encode" args="00E3 atilde.SngStory.LP"/>
+			<cmd name="encode" args="0101 amacron.SngStory.LP"/>
+			<cmd name="encode" args="01DF uni01DF.SngStory.LP"/>
+			<cmd name="encode" args="00E4 adieresis.SngStory.LP"/>
+			<cmd name="encode" args="01E1 uni01E1.SngStory.LP"/>
+			<cmd name="encode" args="0227 uni0227.SngStory.LP"/>
+			<cmd name="encode" args="01F5 uni01F5.SngBowl.LP"/>
+			<cmd name="encode" args="011D gcircumflex.SngBowl.LP"/>
+			<cmd name="encode" args="01E7 gcaron.SngBowl.LP"/>
+			<cmd name="encode" args="1E21 uni1E21.SngBowl.LP"/>
+			<cmd name="encode" args="0121 gdotaccent.SngBowl.LP"/>
 		</test>
 		<test select="Lit-T Ognk-Strt">
 			<cmd name="encode" args="0105 aogonek.SngStory.RetroHook"/>
@@ -1407,6 +1616,245 @@
 			<cmd name="encode" args="1EB1 uni1EB1.SngStory.VN"/>
 			<cmd name="encode" args="1EB5 uni1EB5.SngStory.VN"/>
 			<cmd name="encode" args="1EB3 uni1EB3.SngStory.VN"/>
+		</test>
+		<test select="LpDiacs-T Ognk-Strt">
+			<cmd name="encode" args="012F iogonek.RetroHook.LP"/>
+			<cmd name="encode" args="01ED uni01ED.RetroHook.LP"/>
+		</test>
+		<test select="LpDiacs-T SSA-T">
+			<cmd name="encode" args="00E1 aacute.SngStory.LP"/>
+			<cmd name="encode" args="00E0 agrave.SngStory.LP"/>
+			<cmd name="encode" args="1EAD uni1EAD.SngStory.LP"/>
+			<cmd name="encode" args="1EA5 uni1EA5.SngStory.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.SngStory.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.SngStory.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.SngStory.LP"/>
+			<cmd name="encode" args="00E2 acircumflex.SngStory.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.SngStory.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.SngStory.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.SngStory.LP"/>
+			<cmd name="encode" args="01CE uni01CE.SngStory.LP"/>
+			<cmd name="encode" args="00E3 atilde.SngStory.LP"/>
+			<cmd name="encode" args="0101 amacron.SngStory.LP"/>
+			<cmd name="encode" args="01DF uni01DF.SngStory.LP"/>
+			<cmd name="encode" args="00E4 adieresis.SngStory.LP"/>
+			<cmd name="encode" args="01E1 uni01E1.SngStory.LP"/>
+			<cmd name="encode" args="0227 uni0227.SngStory.LP"/>
+		</test>
+		<test select="LpDiacs-T SSG-T">
+			<cmd name="encode" args="01F5 uni01F5.SngBowl.LP"/>
+			<cmd name="encode" args="011D gcircumflex.SngBowl.LP"/>
+			<cmd name="encode" args="01E7 gcaron.SngBowl.LP"/>
+			<cmd name="encode" args="1E21 uni1E21.SngBowl.LP"/>
+			<cmd name="encode" args="0121 gdotaccent.SngBowl.LP"/>
+		</test>
+		<test select="LpDiacs-T SlntItlc-T">
+			<cmd name="encode" args="00E1 aacute.2StorySItal.LP"/>
+			<cmd name="encode" args="00E0 agrave.2StorySItal.LP"/>
+			<cmd name="encode" args="1EAD uni1EAD.2StorySItal.LP"/>
+			<cmd name="encode" args="1EA5 uni1EA5.2StorySItal.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.2StorySItal.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.2StorySItal.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.2StorySItal.LP"/>
+			<cmd name="encode" args="00E2 acircumflex.2StorySItal.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.2StorySItal.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.2StorySItal.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.2StorySItal.LP"/>
+			<cmd name="encode" args="01CE uni01CE.2StorySItal.LP"/>
+			<cmd name="encode" args="00E3 atilde.2StorySItal.LP"/>
+			<cmd name="encode" args="0101 amacron.2StorySItal.LP"/>
+			<cmd name="encode" args="01DF uni01DF.2StorySItal.LP"/>
+			<cmd name="encode" args="00E4 adieresis.2StorySItal.LP"/>
+			<cmd name="encode" args="01E1 uni01E1.2StorySItal.LP"/>
+			<cmd name="encode" args="0227 uni0227.2StorySItal.LP"/>
+			<cmd name="encode" args="01FD aeacute.2StorySItal.LP"/>
+			<cmd name="encode" args="01E3 uni01E3.2StorySItal.LP"/>
+			<cmd name="encode" args="0069 i.SItal.LP"/>
+			<cmd name="encode" args="00ED iacute.SItal.LP"/>
+			<cmd name="encode" args="00EC igrave.SItal.LP"/>
+			<cmd name="encode" args="00EE icircumflex.SItal.LP"/>
+			<cmd name="encode" args="01D0 uni01D0.SItal.LP"/>
+			<cmd name="encode" args="0129 itilde.SItal.LP"/>
+			<cmd name="encode" args="012B imacron.SItal.LP"/>
+			<cmd name="encode" args="1E2F uni1E2F.SItal.LP"/>
+			<cmd name="encode" args="00EF idieresis.SItal.LP"/>
+			<cmd name="encode" args="1E2D uni1E2D.SItal.LP"/>
+			<cmd name="encode" args="1ECB uni1ECB.SItal.LP"/>
+			<cmd name="encode" args="1E7D uni1E7D.SItal.LP"/>
+			<cmd name="encode" args="017A zacute.SItal.LP"/>
+			<cmd name="encode" args="1E91 uni1E91.SItal.LP"/>
+			<cmd name="encode" args="017E zcaron.SItal.LP"/>
+			<cmd name="encode" args="017C zdotaccent.SItal.LP"/>
+		</test>
+		<test select="LpDiacs-T SmCp-T">
+			<cmd name="encode" args="00E1 aacute.sc"/>
+			<cmd name="encode" args="00E0 agrave.sc"/>
+			<cmd name="encode" args="00E2 acircumflex.sc"/>
+			<cmd name="encode" args="1EAD uni1EAD.sc"/>
+			<cmd name="encode" args="1EA5 uni1EA5.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.sc"/>
+			<cmd name="encode" args="01CE uni01CE.sc"/>
+			<cmd name="encode" args="00E3 atilde.sc"/>
+			<cmd name="encode" args="0101 amacron.sc"/>
+			<cmd name="encode" args="00E4 adieresis.sc"/>
+			<cmd name="encode" args="01DF uni01DF.sc"/>
+			<cmd name="encode" args="0227 uni0227.sc"/>
+			<cmd name="encode" args="01E1 uni01E1.sc"/>
+			<cmd name="encode" args="01FD aeacute.sc"/>
+			<cmd name="encode" args="01E3 uni01E3.sc"/>
+			<cmd name="encode" args="1E03 uni1E03.sc"/>
+			<cmd name="encode" args="0107 cacute.sc"/>
+			<cmd name="encode" args="0109 ccircumflex.sc"/>
+			<cmd name="encode" args="010D ccaron.sc"/>
+			<cmd name="encode" args="010B cdotaccent.sc"/>
+			<cmd name="encode" args="1E09 uni1E09.sc"/>
+			<cmd name="encode" args="1E0B uni1E0B.sc"/>
+			<cmd name="encode" args="01C6 uni01C6.sc"/>
+			<cmd name="encode" args="01C5 uni01C5.sc"/>
+			<cmd name="encode" args="00E9 eacute.sc"/>
+			<cmd name="encode" args="00E8 egrave.sc"/>
+			<cmd name="encode" args="00EA ecircumflex.sc"/>
+			<cmd name="encode" args="1EBF uni1EBF.sc"/>
+			<cmd name="encode" args="1EC1 uni1EC1.sc"/>
+			<cmd name="encode" args="1EC5 uni1EC5.sc"/>
+			<cmd name="encode" args="1EC3 uni1EC3.sc"/>
+			<cmd name="encode" args="1EC7 uni1EC7.sc"/>
+			<cmd name="encode" args="011B ecaron.sc"/>
+			<cmd name="encode" args="1EBD uni1EBD.sc"/>
+			<cmd name="encode" args="0113 emacron.sc"/>
+			<cmd name="encode" args="1E17 uni1E17.sc"/>
+			<cmd name="encode" args="1E15 uni1E15.sc"/>
+			<cmd name="encode" args="00EB edieresis.sc"/>
+			<cmd name="encode" args="0117 edotaccent.sc"/>
+			<cmd name="encode" args="01F5 uni01F5.sc"/>
+			<cmd name="encode" args="011D gcircumflex.sc"/>
+			<cmd name="encode" args="01E7 gcaron.sc"/>
+			<cmd name="encode" args="1E21 uni1E21.sc"/>
+			<cmd name="encode" args="0121 gdotaccent.sc"/>
+			<cmd name="encode" args="0069 i.sc"/>
+			<cmd name="encode" args="00ED iacute.sc"/>
+			<cmd name="encode" args="00EC igrave.sc"/>
+			<cmd name="encode" args="00EE icircumflex.sc"/>
+			<cmd name="encode" args="01D0 uni01D0.sc"/>
+			<cmd name="encode" args="0129 itilde.sc"/>
+			<cmd name="encode" args="012B imacron.sc"/>
+			<cmd name="encode" args="00EF idieresis.sc"/>
+			<cmd name="encode" args="1E2F uni1E2F.sc"/>
+			<cmd name="encode" args="1E2D uni1E2D.sc"/>
+			<cmd name="encode" args="1ECB uni1ECB.sc"/>
+			<cmd name="encode" args="012F iogonek.sc"/>
+			<cmd name="encode" args="0268 uni0268.sc"/>
+			<cmd name="encode" args="0133 ij.sc"/>
+			<cmd name="encode" args="006A j.sc"/>
+			<cmd name="encode" args="0135 jcircumflex.sc"/>
+			<cmd name="encode" args="029D uni029D.sc"/>
+			<cmd name="encode" args="01C9 uni01C9.sc"/>
+			<cmd name="encode" args="01C8 uni01C8.sc"/>
+			<cmd name="encode" args="1E3F uni1E3F.sc"/>
+			<cmd name="encode" args="1E41 uni1E41.sc"/>
+			<cmd name="encode" args="0144 nacute.sc"/>
+			<cmd name="encode" args="01F9 uni01F9.sc"/>
+			<cmd name="encode" args="0148 ncaron.sc"/>
+			<cmd name="encode" args="00F1 ntilde.sc"/>
+			<cmd name="encode" args="1E45 uni1E45.sc"/>
+			<cmd name="encode" args="01CC uni01CC.sc"/>
+			<cmd name="encode" args="01CB uni01CB.sc"/>
+			<cmd name="encode" args="00F3 oacute.sc"/>
+			<cmd name="encode" args="00F2 ograve.sc"/>
+			<cmd name="encode" args="00F4 ocircumflex.sc"/>
+			<cmd name="encode" args="1ED1 uni1ED1.sc"/>
+			<cmd name="encode" args="1ED3 uni1ED3.sc"/>
+			<cmd name="encode" args="1ED7 uni1ED7.sc"/>
+			<cmd name="encode" args="1ED5 uni1ED5.sc"/>
+			<cmd name="encode" args="1ED9 uni1ED9.sc"/>
+			<cmd name="encode" args="01D2 uni01D2.sc"/>
+			<cmd name="encode" args="00F5 otilde.sc"/>
+			<cmd name="encode" args="1E4D uni1E4D.sc"/>
+			<cmd name="encode" args="022D uni022D.sc"/>
+			<cmd name="encode" args="1E4F uni1E4F.sc"/>
+			<cmd name="encode" args="014D omacron.sc"/>
+			<cmd name="encode" args="1E53 uni1E53.sc"/>
+			<cmd name="encode" args="1E51 uni1E51.sc"/>
+			<cmd name="encode" args="00F6 odieresis.sc"/>
+			<cmd name="encode" args="022B uni022B.sc"/>
+			<cmd name="encode" args="022F uni022F.sc"/>
+			<cmd name="encode" args="0231 uni0231.sc"/>
+			<cmd name="encode" args="01ED uni01ED.sc"/>
+			<cmd name="encode" args="01FF oslashacute.sc"/>
+			<cmd name="encode" args="1EDB uni1EDB.sc"/>
+			<cmd name="encode" args="1EDD uni1EDD.sc"/>
+			<cmd name="encode" args="1EE1 uni1EE1.sc"/>
+			<cmd name="encode" args="1E55 uni1E55.sc"/>
+			<cmd name="encode" args="1E57 uni1E57.sc"/>
+			<cmd name="encode" args="0155 racute.sc"/>
+			<cmd name="encode" args="0159 rcaron.sc"/>
+			<cmd name="encode" args="1E59 uni1E59.sc"/>
+			<cmd name="encode" args="1E5D uni1E5D.sc"/>
+			<cmd name="encode" args="015B sacute.sc"/>
+			<cmd name="encode" args="1E65 uni1E65.sc"/>
+			<cmd name="encode" args="015D scircumflex.sc"/>
+			<cmd name="encode" args="0161 scaron.sc"/>
+			<cmd name="encode" args="1E67 uni1E67.sc"/>
+			<cmd name="encode" args="1E61 uni1E61.sc"/>
+			<cmd name="encode" args="1E69 uni1E69.sc"/>
+			<cmd name="encode" args="1E6B uni1E6B.sc"/>
+			<cmd name="encode" args="00FA uacute.sc"/>
+			<cmd name="encode" args="00F9 ugrave.sc"/>
+			<cmd name="encode" args="00FB ucircumflex.sc"/>
+			<cmd name="encode" args="01D4 uni01D4.sc"/>
+			<cmd name="encode" args="0169 utilde.sc"/>
+			<cmd name="encode" args="1E79 uni1E79.sc"/>
+			<cmd name="encode" args="016B umacron.sc"/>
+			<cmd name="encode" args="1E7B uni1E7B.sc"/>
+			<cmd name="encode" args="00FC udieresis.sc"/>
+			<cmd name="encode" args="01D8 uni01D8.sc"/>
+			<cmd name="encode" args="01DC uni01DC.sc"/>
+			<cmd name="encode" args="01DA uni01DA.sc"/>
+			<cmd name="encode" args="01D6 uni01D6.sc"/>
+			<cmd name="encode" args="1EE9 uni1EE9.sc"/>
+			<cmd name="encode" args="1EEB uni1EEB.sc"/>
+			<cmd name="encode" args="1EEF uni1EEF.sc"/>
+			<cmd name="encode" args="1E7D uni1E7D.sc"/>
+			<cmd name="encode" args="1E83 wacute.sc"/>
+			<cmd name="encode" args="1E81 wgrave.sc"/>
+			<cmd name="encode" args="0175 wcircumflex.sc"/>
+			<cmd name="encode" args="1E85 wdieresis.sc"/>
+			<cmd name="encode" args="1E87 uni1E87.sc"/>
+			<cmd name="encode" args="1E8D uni1E8D.sc"/>
+			<cmd name="encode" args="1E8B uni1E8B.sc"/>
+			<cmd name="encode" args="00FD yacute.sc"/>
+			<cmd name="encode" args="1EF3 ygrave.sc"/>
+			<cmd name="encode" args="0177 ycircumflex.sc"/>
+			<cmd name="encode" args="1EF9 uni1EF9.sc"/>
+			<cmd name="encode" args="0233 uni0233.sc"/>
+			<cmd name="encode" args="00FF ydieresis.sc"/>
+			<cmd name="encode" args="1E8F uni1E8F.sc"/>
+			<cmd name="encode" args="017A zacute.sc"/>
+			<cmd name="encode" args="1E91 uni1E91.sc"/>
+			<cmd name="encode" args="017E zcaron.sc"/>
+			<cmd name="encode" args="017C zdotaccent.sc"/>
+		</test>
+		<test select="LpDiacs-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.VN.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.VN.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.VN.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.VN.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.VN.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.VN.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.VN.LP"/>
+			<cmd name="encode" args="1EBF uni1EBF.VN.LP"/>
+			<cmd name="encode" args="1EC1 uni1EC1.VN.LP"/>
+			<cmd name="encode" args="1EC5 uni1EC5.VN.LP"/>
+			<cmd name="encode" args="1EC3 uni1EC3.VN.LP"/>
+			<cmd name="encode" args="1ED1 uni1ED1.VN.LP"/>
+			<cmd name="encode" args="1ED3 uni1ED3.VN.LP"/>
+			<cmd name="encode" args="1ED7 uni1ED7.VN.LP"/>
+			<cmd name="encode" args="1ED5 uni1ED5.VN.LP"/>
 		</test>
 		<test select="LrgBHk-Lc SmCp-T">
 			<cmd name="encode" args="0253 uni0253.TopBar.sc"/>
@@ -1659,6 +2107,87 @@
 		<test select="BarBwl-T SSG-T SmCp-T">
 			<cmd name="encode" args="01E5 uni01E5.BarBowl.SngBowl.sc"/>
 		</test>
+		<test select="Lit-T LpDiacs-T SSA-T">
+			<cmd name="encode" args="00E1 aacute.SngStory.LP"/>
+			<cmd name="encode" args="00E0 agrave.SngStory.LP"/>
+			<cmd name="encode" args="1EAD uni1EAD.SngStory.LP"/>
+			<cmd name="encode" args="1EA5 uni1EA5.SngStory.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.SngStory.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.SngStory.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.SngStory.LP"/>
+			<cmd name="encode" args="00E2 acircumflex.SngStory.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.SngStory.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.SngStory.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.SngStory.LP"/>
+			<cmd name="encode" args="01CE uni01CE.SngStory.LP"/>
+			<cmd name="encode" args="00E3 atilde.SngStory.LP"/>
+			<cmd name="encode" args="0101 amacron.SngStory.LP"/>
+			<cmd name="encode" args="01DF uni01DF.SngStory.LP"/>
+			<cmd name="encode" args="00E4 adieresis.SngStory.LP"/>
+			<cmd name="encode" args="01E1 uni01E1.SngStory.LP"/>
+			<cmd name="encode" args="0227 uni0227.SngStory.LP"/>
+		</test>
+		<test select="Lit-T LpDiacs-T SSG-T">
+			<cmd name="encode" args="01F5 uni01F5.SngBowl.LP"/>
+			<cmd name="encode" args="011D gcircumflex.SngBowl.LP"/>
+			<cmd name="encode" args="01E7 gcaron.SngBowl.LP"/>
+			<cmd name="encode" args="1E21 uni1E21.SngBowl.LP"/>
+			<cmd name="encode" args="0121 gdotaccent.SngBowl.LP"/>
+		</test>
+		<test select="Lit-T LpDiacs-T SlntItlc-T">
+			<cmd name="encode" args="00E1 aacute.SngStory.LP"/>
+			<cmd name="encode" args="00E0 agrave.SngStory.LP"/>
+			<cmd name="encode" args="1EAD uni1EAD.SngStory.LP"/>
+			<cmd name="encode" args="1EA5 uni1EA5.SngStory.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.SngStory.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.SngStory.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.SngStory.LP"/>
+			<cmd name="encode" args="00E2 acircumflex.SngStory.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.SngStory.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.SngStory.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.SngStory.LP"/>
+			<cmd name="encode" args="01CE uni01CE.SngStory.LP"/>
+			<cmd name="encode" args="00E3 atilde.SngStory.LP"/>
+			<cmd name="encode" args="0101 amacron.SngStory.LP"/>
+			<cmd name="encode" args="01DF uni01DF.SngStory.LP"/>
+			<cmd name="encode" args="00E4 adieresis.SngStory.LP"/>
+			<cmd name="encode" args="01E1 uni01E1.SngStory.LP"/>
+			<cmd name="encode" args="0227 uni0227.SngStory.LP"/>
+		</test>
+		<test select="Lit-T LpDiacs-T SmCp-T">
+			<cmd name="encode" args="00E1 aacute.sc"/>
+			<cmd name="encode" args="00E0 agrave.sc"/>
+			<cmd name="encode" args="00E2 acircumflex.sc"/>
+			<cmd name="encode" args="1EAD uni1EAD.sc"/>
+			<cmd name="encode" args="1EA5 uni1EA5.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.sc"/>
+			<cmd name="encode" args="01CE uni01CE.sc"/>
+			<cmd name="encode" args="00E3 atilde.sc"/>
+			<cmd name="encode" args="0101 amacron.sc"/>
+			<cmd name="encode" args="00E4 adieresis.sc"/>
+			<cmd name="encode" args="01DF uni01DF.sc"/>
+			<cmd name="encode" args="0227 uni0227.sc"/>
+			<cmd name="encode" args="01E1 uni01E1.sc"/>
+			<cmd name="encode" args="01F5 uni01F5.sc"/>
+			<cmd name="encode" args="011D gcircumflex.sc"/>
+			<cmd name="encode" args="01E7 gcaron.sc"/>
+			<cmd name="encode" args="1E21 uni1E21.sc"/>
+			<cmd name="encode" args="0121 gdotaccent.sc"/>
+		</test>
+		<test select="Lit-T LpDiacs-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.SngStory.VN.LP"/>
+		</test>
 		<test select="Lit-T Ognk-Strt SSA-T">
 			<cmd name="encode" args="0105 aogonek.SngStory.RetroHook"/>
 		</test>
@@ -1812,6 +2341,130 @@
 			<cmd name="encode" args="1EB5 uni1EB5.VN.sc"/>
 			<cmd name="encode" args="1EB3 uni1EB3.VN.sc"/>
 		</test>
+		<test select="LpDiacs-T Ognk-Strt SmCp-T">
+			<cmd name="encode" args="012F iogonek.RetroHook.sc"/>
+			<cmd name="encode" args="01ED uni01ED.RetroHook.sc"/>
+		</test>
+		<test select="LpDiacs-T SSA-T SlntItlc-T">
+			<cmd name="encode" args="00E1 aacute.SngStory.LP"/>
+			<cmd name="encode" args="00E0 agrave.SngStory.LP"/>
+			<cmd name="encode" args="1EAD uni1EAD.SngStory.LP"/>
+			<cmd name="encode" args="1EA5 uni1EA5.SngStory.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.SngStory.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.SngStory.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.SngStory.LP"/>
+			<cmd name="encode" args="00E2 acircumflex.SngStory.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.SngStory.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.SngStory.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.SngStory.LP"/>
+			<cmd name="encode" args="01CE uni01CE.SngStory.LP"/>
+			<cmd name="encode" args="00E3 atilde.SngStory.LP"/>
+			<cmd name="encode" args="0101 amacron.SngStory.LP"/>
+			<cmd name="encode" args="01DF uni01DF.SngStory.LP"/>
+			<cmd name="encode" args="00E4 adieresis.SngStory.LP"/>
+			<cmd name="encode" args="01E1 uni01E1.SngStory.LP"/>
+			<cmd name="encode" args="0227 uni0227.SngStory.LP"/>
+		</test>
+		<test select="LpDiacs-T SSA-T SmCp-T">
+			<cmd name="encode" args="00E1 aacute.sc"/>
+			<cmd name="encode" args="00E0 agrave.sc"/>
+			<cmd name="encode" args="00E2 acircumflex.sc"/>
+			<cmd name="encode" args="1EAD uni1EAD.sc"/>
+			<cmd name="encode" args="1EA5 uni1EA5.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.sc"/>
+			<cmd name="encode" args="01CE uni01CE.sc"/>
+			<cmd name="encode" args="00E3 atilde.sc"/>
+			<cmd name="encode" args="0101 amacron.sc"/>
+			<cmd name="encode" args="00E4 adieresis.sc"/>
+			<cmd name="encode" args="01DF uni01DF.sc"/>
+			<cmd name="encode" args="0227 uni0227.sc"/>
+			<cmd name="encode" args="01E1 uni01E1.sc"/>
+		</test>
+		<test select="LpDiacs-T SSA-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.SngStory.VN.LP"/>
+		</test>
+		<test select="LpDiacs-T SSG-T SmCp-T">
+			<cmd name="encode" args="01F5 uni01F5.sc"/>
+			<cmd name="encode" args="011D gcircumflex.sc"/>
+			<cmd name="encode" args="01E7 gcaron.sc"/>
+			<cmd name="encode" args="1E21 uni1E21.sc"/>
+			<cmd name="encode" args="0121 gdotaccent.sc"/>
+		</test>
+		<test select="LpDiacs-T SlntItlc-T SmCp-T">
+			<cmd name="encode" args="00E1 aacute.sc"/>
+			<cmd name="encode" args="00E0 agrave.sc"/>
+			<cmd name="encode" args="00E2 acircumflex.sc"/>
+			<cmd name="encode" args="1EAD uni1EAD.sc"/>
+			<cmd name="encode" args="1EA5 uni1EA5.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.sc"/>
+			<cmd name="encode" args="01CE uni01CE.sc"/>
+			<cmd name="encode" args="00E3 atilde.sc"/>
+			<cmd name="encode" args="0101 amacron.sc"/>
+			<cmd name="encode" args="00E4 adieresis.sc"/>
+			<cmd name="encode" args="01DF uni01DF.sc"/>
+			<cmd name="encode" args="0227 uni0227.sc"/>
+			<cmd name="encode" args="01E1 uni01E1.sc"/>
+			<cmd name="encode" args="01FD aeacute.sc"/>
+			<cmd name="encode" args="01E3 uni01E3.sc"/>
+			<cmd name="encode" args="0069 i.sc"/>
+			<cmd name="encode" args="00ED iacute.sc"/>
+			<cmd name="encode" args="00EC igrave.sc"/>
+			<cmd name="encode" args="00EE icircumflex.sc"/>
+			<cmd name="encode" args="01D0 uni01D0.sc"/>
+			<cmd name="encode" args="0129 itilde.sc"/>
+			<cmd name="encode" args="012B imacron.sc"/>
+			<cmd name="encode" args="00EF idieresis.sc"/>
+			<cmd name="encode" args="1E2F uni1E2F.sc"/>
+			<cmd name="encode" args="1E2D uni1E2D.sc"/>
+			<cmd name="encode" args="1ECB uni1ECB.sc"/>
+			<cmd name="encode" args="1E7D uni1E7D.sc"/>
+			<cmd name="encode" args="017A zacute.sc"/>
+			<cmd name="encode" args="1E91 uni1E91.sc"/>
+			<cmd name="encode" args="017E zcaron.sc"/>
+			<cmd name="encode" args="017C zdotaccent.sc"/>
+		</test>
+		<test select="LpDiacs-T SlntItlc-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.2StorySItal.VN.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.2StorySItal.VN.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.2StorySItal.VN.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.2StorySItal.VN.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.2StorySItal.VN.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.2StorySItal.VN.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.2StorySItal.VN.LP"/>
+		</test>
+		<test select="LpDiacs-T SmCp-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.VN.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.VN.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.VN.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.VN.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.VN.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.VN.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.VN.sc"/>
+			<cmd name="encode" args="1EBF uni1EBF.VN.sc"/>
+			<cmd name="encode" args="1EC1 uni1EC1.VN.sc"/>
+			<cmd name="encode" args="1EC5 uni1EC5.VN.sc"/>
+			<cmd name="encode" args="1EC3 uni1EC3.VN.sc"/>
+			<cmd name="encode" args="1ED1 uni1ED1.VN.sc"/>
+			<cmd name="encode" args="1ED3 uni1ED3.VN.sc"/>
+			<cmd name="encode" args="1ED7 uni1ED7.VN.sc"/>
+			<cmd name="encode" args="1ED5 uni1ED5.VN.sc"/>
+		</test>
 		<test select="Ognk-Strt SSA-T SlntItlc-T">
 			<cmd name="encode" args="0105 aogonek.SngStory.RetroHook"/>
 		</test>
@@ -1888,6 +2541,100 @@
 		<test select="BarBwl-T Lit-T SSG-T SmCp-T">
 			<cmd name="encode" args="01E5 uni01E5.BarBowl.SngBowl.sc"/>
 		</test>
+		<test select="Lit-T LpDiacs-T SSA-T SlntItlc-T">
+			<cmd name="encode" args="00E1 aacute.SngStory.LP"/>
+			<cmd name="encode" args="00E0 agrave.SngStory.LP"/>
+			<cmd name="encode" args="1EAD uni1EAD.SngStory.LP"/>
+			<cmd name="encode" args="1EA5 uni1EA5.SngStory.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.SngStory.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.SngStory.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.SngStory.LP"/>
+			<cmd name="encode" args="00E2 acircumflex.SngStory.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.SngStory.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.SngStory.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.SngStory.LP"/>
+			<cmd name="encode" args="01CE uni01CE.SngStory.LP"/>
+			<cmd name="encode" args="00E3 atilde.SngStory.LP"/>
+			<cmd name="encode" args="0101 amacron.SngStory.LP"/>
+			<cmd name="encode" args="01DF uni01DF.SngStory.LP"/>
+			<cmd name="encode" args="00E4 adieresis.SngStory.LP"/>
+			<cmd name="encode" args="01E1 uni01E1.SngStory.LP"/>
+			<cmd name="encode" args="0227 uni0227.SngStory.LP"/>
+		</test>
+		<test select="Lit-T LpDiacs-T SSA-T SmCp-T">
+			<cmd name="encode" args="00E1 aacute.sc"/>
+			<cmd name="encode" args="00E0 agrave.sc"/>
+			<cmd name="encode" args="00E2 acircumflex.sc"/>
+			<cmd name="encode" args="1EAD uni1EAD.sc"/>
+			<cmd name="encode" args="1EA5 uni1EA5.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.sc"/>
+			<cmd name="encode" args="01CE uni01CE.sc"/>
+			<cmd name="encode" args="00E3 atilde.sc"/>
+			<cmd name="encode" args="0101 amacron.sc"/>
+			<cmd name="encode" args="00E4 adieresis.sc"/>
+			<cmd name="encode" args="01DF uni01DF.sc"/>
+			<cmd name="encode" args="0227 uni0227.sc"/>
+			<cmd name="encode" args="01E1 uni01E1.sc"/>
+		</test>
+		<test select="Lit-T LpDiacs-T SSA-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.SngStory.VN.LP"/>
+		</test>
+		<test select="Lit-T LpDiacs-T SSG-T SmCp-T">
+			<cmd name="encode" args="01F5 uni01F5.sc"/>
+			<cmd name="encode" args="011D gcircumflex.sc"/>
+			<cmd name="encode" args="01E7 gcaron.sc"/>
+			<cmd name="encode" args="1E21 uni1E21.sc"/>
+			<cmd name="encode" args="0121 gdotaccent.sc"/>
+		</test>
+		<test select="Lit-T LpDiacs-T SlntItlc-T SmCp-T">
+			<cmd name="encode" args="00E1 aacute.sc"/>
+			<cmd name="encode" args="00E0 agrave.sc"/>
+			<cmd name="encode" args="00E2 acircumflex.sc"/>
+			<cmd name="encode" args="1EAD uni1EAD.sc"/>
+			<cmd name="encode" args="1EA5 uni1EA5.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.sc"/>
+			<cmd name="encode" args="01CE uni01CE.sc"/>
+			<cmd name="encode" args="00E3 atilde.sc"/>
+			<cmd name="encode" args="0101 amacron.sc"/>
+			<cmd name="encode" args="00E4 adieresis.sc"/>
+			<cmd name="encode" args="01DF uni01DF.sc"/>
+			<cmd name="encode" args="0227 uni0227.sc"/>
+			<cmd name="encode" args="01E1 uni01E1.sc"/>
+		</test>
+		<test select="Lit-T LpDiacs-T SlntItlc-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.SngStory.VN.LP"/>
+		</test>
+		<test select="Lit-T LpDiacs-T SmCp-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.VN.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.VN.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.VN.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.VN.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.VN.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.VN.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.VN.sc"/>
+		</test>
 		<test select="Lit-T Ognk-Strt SSA-T SlntItlc-T">
 			<cmd name="encode" args="0105 aogonek.SngStory.RetroHook"/>
 		</test>
@@ -1961,6 +2708,53 @@
 			<cmd name="encode" args="1EB5 uni1EB5.VN.sc"/>
 			<cmd name="encode" args="1EB3 uni1EB3.VN.sc"/>
 		</test>
+		<test select="LpDiacs-T SSA-T SlntItlc-T SmCp-T">
+			<cmd name="encode" args="00E1 aacute.sc"/>
+			<cmd name="encode" args="00E0 agrave.sc"/>
+			<cmd name="encode" args="00E2 acircumflex.sc"/>
+			<cmd name="encode" args="1EAD uni1EAD.sc"/>
+			<cmd name="encode" args="1EA5 uni1EA5.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.sc"/>
+			<cmd name="encode" args="01CE uni01CE.sc"/>
+			<cmd name="encode" args="00E3 atilde.sc"/>
+			<cmd name="encode" args="0101 amacron.sc"/>
+			<cmd name="encode" args="00E4 adieresis.sc"/>
+			<cmd name="encode" args="01DF uni01DF.sc"/>
+			<cmd name="encode" args="0227 uni0227.sc"/>
+			<cmd name="encode" args="01E1 uni01E1.sc"/>
+		</test>
+		<test select="LpDiacs-T SSA-T SlntItlc-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.SngStory.VN.LP"/>
+		</test>
+		<test select="LpDiacs-T SSA-T SmCp-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.VN.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.VN.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.VN.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.VN.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.VN.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.VN.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.VN.sc"/>
+		</test>
+		<test select="LpDiacs-T SlntItlc-T SmCp-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.VN.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.VN.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.VN.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.VN.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.VN.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.VN.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.VN.sc"/>
+		</test>
 		<test select="Ognk-Strt SSA-T SlntItlc-T SmCp-T">
 			<cmd name="encode" args="0105 aogonek.SngStory.RetroHook.sc"/>
 		</test>
@@ -1974,6 +2768,53 @@
 			<cmd name="encode" args="1EB5 uni1EB5.SngStory.VN.sc"/>
 			<cmd name="encode" args="1EB3 uni1EB3.SngStory.VN.sc"/>
 		</test>
+		<test select="Lit-T LpDiacs-T SSA-T SlntItlc-T SmCp-T">
+			<cmd name="encode" args="00E1 aacute.sc"/>
+			<cmd name="encode" args="00E0 agrave.sc"/>
+			<cmd name="encode" args="00E2 acircumflex.sc"/>
+			<cmd name="encode" args="1EAD uni1EAD.sc"/>
+			<cmd name="encode" args="1EA5 uni1EA5.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.sc"/>
+			<cmd name="encode" args="01CE uni01CE.sc"/>
+			<cmd name="encode" args="00E3 atilde.sc"/>
+			<cmd name="encode" args="0101 amacron.sc"/>
+			<cmd name="encode" args="00E4 adieresis.sc"/>
+			<cmd name="encode" args="01DF uni01DF.sc"/>
+			<cmd name="encode" args="0227 uni0227.sc"/>
+			<cmd name="encode" args="01E1 uni01E1.sc"/>
+		</test>
+		<test select="Lit-T LpDiacs-T SSA-T SlntItlc-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EA7 uni1EA7.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EAB uni1EAB.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EA9 uni1EA9.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EAF uni1EAF.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EB1 uni1EB1.SngStory.VN.LP"/>
+			<cmd name="encode" args="1EB5 uni1EB5.SngStory.VN.LP"/>
+		</test>
+		<test select="Lit-T LpDiacs-T SSA-T SmCp-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.VN.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.VN.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.VN.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.VN.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.VN.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.VN.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.VN.sc"/>
+		</test>
+		<test select="Lit-T LpDiacs-T SlntItlc-T SmCp-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.VN.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.VN.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.VN.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.VN.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.VN.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.VN.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.VN.sc"/>
+		</test>
 		<test select="Lit-T Ognk-Strt SSA-T SlntItlc-T SmCp-T">
 			<cmd name="encode" args="0105 aogonek.RetroHook.sc"/>
 		</test>
@@ -1986,6 +2827,24 @@
 			<cmd name="encode" args="1EB1 uni1EB1.VN.sc"/>
 			<cmd name="encode" args="1EB5 uni1EB5.VN.sc"/>
 			<cmd name="encode" args="1EB3 uni1EB3.VN.sc"/>
+		</test>
+		<test select="LpDiacs-T SSA-T SlntItlc-T SmCp-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.VN.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.VN.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.VN.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.VN.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.VN.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.VN.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.VN.sc"/>
+		</test>
+		<test select="Lit-T LpDiacs-T SSA-T SlntItlc-T SmCp-T VIEdiacs-T">
+			<cmd name="encode" args="1EA5 uni1EA5.VN.sc"/>
+			<cmd name="encode" args="1EA7 uni1EA7.VN.sc"/>
+			<cmd name="encode" args="1EAB uni1EAB.VN.sc"/>
+			<cmd name="encode" args="1EA9 uni1EA9.VN.sc"/>
+			<cmd name="encode" args="1EAF uni1EAF.VN.sc"/>
+			<cmd name="encode" args="1EB1 uni1EB1.VN.sc"/>
+			<cmd name="encode" args="1EB5 uni1EB5.VN.sc"/>
 		</test>
 	</interactions>
 	<aliases/>
