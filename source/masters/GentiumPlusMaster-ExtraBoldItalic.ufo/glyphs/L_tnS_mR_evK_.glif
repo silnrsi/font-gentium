@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmRevK" format="2">
+  <advance width="1039"/>
+  <unicode hex="1DF03"/>
+  <anchor x="190" y="0" name="H"/>
+  <anchor x="453" y="-100" name="L"/>
+  <anchor x="1174" y="870" name="R"/>
+  <anchor x="687" y="1580" name="U"/>
+  <outline>
+    <component base="LtnSmK"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>
