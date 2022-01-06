@@ -7,7 +7,7 @@
   <anchor x="1060" y="900" name="R"/>
   <anchor x="540" y="1050" name="U"/>
   <outline>
-    <component base="LtnSmG.SngBowl"/>
+    <component base="LtnSmG.SngBowl" xScale="-1" xOffset="985"/>
   </outline>
   <lib>
     <dict>

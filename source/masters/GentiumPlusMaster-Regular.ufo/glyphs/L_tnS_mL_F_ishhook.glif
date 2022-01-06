@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmLFishhook" format="2">
-  <advance width="555"/>
+  <advance width="746"/>
   <unicode hex="1DF11"/>
   <anchor x="285" y="0" name="H"/>
   <anchor x="285" y="-100" name="L"/>
@@ -8,6 +8,25 @@
   <anchor x="285" y="1690" name="U"/>
   <outline>
     <component base="LtnSmL"/>
+    <contour>
+      <point x="330" y="526" type="line"/>
+      <point x="330" y="802"/>
+      <point x="430" y="820"/>
+      <point x="498" y="820" type="curve" smooth="yes"/>
+      <point x="556" y="820"/>
+      <point x="606" y="771"/>
+      <point x="619" y="676" type="curve"/>
+      <point x="662" y="676" type="line"/>
+      <point x="695" y="748"/>
+      <point x="730" y="908"/>
+      <point x="705" y="923" type="curve"/>
+      <point x="656" y="951"/>
+      <point x="605" y="960"/>
+      <point x="562" y="960" type="curve" smooth="yes"/>
+      <point x="485" y="960"/>
+      <point x="368" y="918"/>
+      <point x="284" y="807" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>

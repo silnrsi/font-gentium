@@ -2,10 +2,10 @@
 <glyph name="LtnSmRevEng" format="2">
   <advance width="1120"/>
   <unicode hex="1DF07"/>
-  <anchor x="576" y="-600" name="L"/>
-  <anchor x="576" y="1050" name="U"/>
+  <anchor x="681" y="-600" name="L"/>
+  <anchor x="681" y="1050" name="U"/>
   <outline>
-    <component base="LtnSmEng"/>
+    <component base="LtnSmEng" xScale="-1" xOffset="1120"/>
   </outline>
   <lib>
     <dict>

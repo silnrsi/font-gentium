@@ -2,11 +2,11 @@
 <glyph name="LtnSmCapTurnedG" format="2">
   <advance width="1136"/>
   <unicode hex="1DF02"/>
-  <anchor x="621" y="-100" name="L"/>
-  <anchor x="1038" y="900" name="R"/>
-  <anchor x="621" y="1050" name="U"/>
+  <anchor x="581" y="-100" name="L"/>
+  <anchor x="998" y="900" name="R"/>
+  <anchor x="581" y="1050" name="U"/>
   <outline>
-    <component base="LtnSmCapG"/>
+    <component base="LtnSmCapG" xScale="-1" yScale="-1" xOffset="1136" yOffset="938"/>
   </outline>
   <lib>
     <dict>

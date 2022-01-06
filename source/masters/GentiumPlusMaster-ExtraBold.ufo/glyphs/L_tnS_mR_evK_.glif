@@ -2,12 +2,12 @@
 <glyph name="LtnSmRevK" format="2">
   <advance width="1164"/>
   <unicode hex="1DF03"/>
-  <anchor x="301" y="0" name="H"/>
-  <anchor x="609" y="-100" name="L"/>
-  <anchor x="1164" y="900" name="R"/>
-  <anchor x="609" y="1620" name="U"/>
+  <anchor x="856" y="0" name="H"/>
+  <anchor x="554" y="-100" name="L"/>
+  <anchor x="1109" y="900" name="R"/>
+  <anchor x="554" y="1620" name="U"/>
   <outline>
-    <component base="LtnSmK"/>
+    <component base="LtnSmK" xScale="-1" xOffset="1164"/>
   </outline>
   <lib>
     <dict>
