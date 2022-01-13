@@ -1,55 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="LtnSmTeshDigraph" format="2">
-  <advance width="1116"/>
-  <unicode hex="02A7"/>
-  <anchor x="496" y="-600" name="L"/>
-  <anchor x="835" y="1640" name="U"/>
+<glyph name="LtnSmTeshRetrHook" format="2">
   <outline>
-    <contour>
-      <point x="828" y="877" type="curve"/>
-      <point x="808" y="905" type="line"/>
-      <point x="165" y="905" type="line"/>
-      <point x="39" y="816" type="line"/>
-      <point x="64" y="775" type="line"/>
-      <point x="498" y="775" type="line" smooth="yes"/>
-      <point x="598" y="775"/>
-      <point x="635" y="767"/>
-      <point x="651" y="730" type="curve"/>
-      <point x="676" y="744"/>
-      <point x="801" y="840"/>
-    </contour>
-    <contour>
-      <point x="697" y="176" type="line"/>
-      <point x="688" y="246" type="line"/>
-      <point x="549" y="183"/>
-      <point x="496" y="170"/>
-      <point x="459" y="170" type="curve" smooth="yes"/>
-      <point x="422" y="170"/>
-      <point x="396" y="219"/>
-      <point x="396" y="301" type="curve" smooth="yes"/>
-      <point x="396" y="328"/>
-      <point x="400" y="395"/>
-      <point x="408" y="446" type="curve" smooth="yes"/>
-      <point x="490" y="963" type="line" smooth="yes"/>
-      <point x="499" y="1022"/>
-      <point x="517" y="1120"/>
-      <point x="541" y="1151" type="curve"/>
-      <point x="513" y="1176" type="line"/>
-      <point x="292" y="1074" type="line" smooth="yes"/>
-      <point x="252" y="1056"/>
-      <point x="240" y="1049"/>
-      <point x="223" y="940" type="curve" smooth="yes"/>
-      <point x="126" y="332" type="line" smooth="yes"/>
-      <point x="114" y="258"/>
-      <point x="112" y="241"/>
-      <point x="112" y="160" type="curve" smooth="yes"/>
-      <point x="112" y="43"/>
-      <point x="211" y="-41"/>
-      <point x="297" y="-41" type="curve" smooth="yes"/>
-      <point x="366" y="-41"/>
-      <point x="514" y="25"/>
-      <point x="691" y="133" type="curve"/>
-    </contour>
     <contour>
       <point x="1491" y="1403" type="curve"/>
       <point x="1450" y="1417"/>
