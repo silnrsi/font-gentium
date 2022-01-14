@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmEshDblBar" format="2">
+  <advance width="604"/>
+  <unicode hex="1DF0B"/>
+  <anchor x="292" y="-600" name="L"/>
+  <anchor x="292" y="1690" name="U"/>
+  <outline>
+    <component base="LtnSmEsh"/>
+    <contour>
+      <point x="555" y="840" type="line"/>
+      <point x="604" y="955" type="line"/>
+      <point x="582" y="980" type="line"/>
+      <point x="4" y="980" type="line"/>
+      <point x="-7" y="959"/>
+      <point x="-40" y="883"/>
+      <point x="-46" y="862" type="curve"/>
+      <point x="-23" y="840" type="line"/>
+    </contour>
+    <contour>
+      <point x="555" y="560" type="line"/>
+      <point x="604" y="675" type="line"/>
+      <point x="582" y="700" type="line"/>
+      <point x="4" y="700" type="line"/>
+      <point x="-7" y="679"/>
+      <point x="-40" y="603"/>
+      <point x="-46" y="582" type="curve"/>
+      <point x="-23" y="560" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

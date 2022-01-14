@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmTeshPalHook" format="2">
+  <advance width="1210"/>
+  <unicode hex="1DF17"/>
+  <anchor x="451" y="-600" name="L"/>
+  <anchor x="758" y="1640" name="U"/>
+  <outline>
+    <component base="LtnSmTeshDigraph"/>
+    <contour>
+      <point x="747" y="-290" type="curve"/>
+      <point x="743" y="-306"/>
+      <point x="741" y="-322"/>
+      <point x="741" y="-337" type="curve" smooth="yes"/>
+      <point x="741" y="-428"/>
+      <point x="804" y="-500"/>
+      <point x="891" y="-500" type="curve" smooth="yes"/>
+      <point x="971" y="-500"/>
+      <point x="1092" y="-452"/>
+      <point x="1130" y="-171" type="curve" smooth="yes"/>
+      <point x="1153" y="0" type="line"/>
+      <point x="1076" y="18" type="line"/>
+      <point x="1046" y="-200" type="line" smooth="yes"/>
+      <point x="1024" y="-361"/>
+      <point x="987" y="-406"/>
+      <point x="944" y="-406" type="curve" smooth="yes"/>
+      <point x="911" y="-406"/>
+      <point x="874" y="-375"/>
+      <point x="874" y="-316" type="curve" smooth="yes"/>
+      <point x="874" y="-291"/>
+      <point x="881" y="-260"/>
+      <point x="898" y="-225" type="curve"/>
+      <point x="893" y="-214"/>
+      <point x="885" y="-204"/>
+      <point x="880" y="-198" type="curve"/>
+      <point x="842" y="-214"/>
+      <point x="771" y="-262"/>
+    </contour>
+    <contour>
+      <point x="1159" y="45" type="line"/>
+      <point x="1140" y="70" type="line"/>
+      <point x="696" y="70" type="line"/>
+      <point x="665" y="22" type="line"/>
+      <point x="684" y="0" type="line"/>
+      <point x="1153" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

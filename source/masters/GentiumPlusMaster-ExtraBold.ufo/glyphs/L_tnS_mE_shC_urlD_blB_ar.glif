@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmEshCurlDblBar" format="2">
+  <advance width="574"/>
+  <unicode hex="1DF0C"/>
+  <anchor x="225" y="-600" name="L"/>
+  <anchor x="308" y="1690" name="U"/>
+  <outline>
+    <component base="LtnSmEshCurl"/>
+    <contour>
+      <point x="526" y="840" type="line"/>
+      <point x="575" y="955" type="line"/>
+      <point x="553" y="980" type="line"/>
+      <point x="-25" y="980" type="line"/>
+      <point x="-36" y="959"/>
+      <point x="-69" y="883"/>
+      <point x="-75" y="862" type="curve"/>
+      <point x="-52" y="840" type="line"/>
+    </contour>
+    <contour>
+      <point x="526" y="560" type="line"/>
+      <point x="575" y="675" type="line"/>
+      <point x="553" y="700" type="line"/>
+      <point x="-25" y="700" type="line"/>
+      <point x="-36" y="679"/>
+      <point x="-69" y="603"/>
+      <point x="-75" y="582" type="curve"/>
+      <point x="-52" y="560" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>
