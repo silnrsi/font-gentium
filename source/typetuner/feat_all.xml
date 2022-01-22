@@ -378,6 +378,18 @@
 			<cmd name="encode" args="1FA8 uni1FA8.ISub"/>
 		</value>
 	</feature>
+	<feature name="Cyr Serbian Macedonian" value="Default" tag="SerbMac">
+		<value name="Default" tag="Dflt">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Serbian Macedonian forms" tag="SrMk">
+			<cmd name="encode" args="0431 uni0431.Serb"/>
+			<cmd name="encode" args="0433 uni0433.Serb"/>
+			<cmd name="encode" args="043F uni043F.Serb"/>
+			<cmd name="encode" args="0434 uni0434.Serb"/>
+			<cmd name="encode" args="0442 uni0442.Serb"/>
+		</value>
+	</feature>
 	<feature name="Chinantec tones" value="Default" tag="CHZtn">
 		<value name="Default" tag="Dflt">
 			<cmd name="null" args="null"/>
@@ -1980,6 +1992,13 @@
 			<cmd name="encode" args="0123 gcommaaccent.SngBowl.sc"/>
 			<cmd name="encode" args="01E5 uni01E5.SngBowl.sc"/>
 			<cmd name="encode" args="A7A1 uniA7A1.SngBowl.sc"/>
+		</test>
+		<test select="SerbMac-SrMk SmCp-T">
+			<cmd name="encode" args="0431 uni0431.sc"/>
+			<cmd name="encode" args="0433 uni0433.sc"/>
+			<cmd name="encode" args="043F uni043F.sc"/>
+			<cmd name="encode" args="0434 uni0434.sc"/>
+			<cmd name="encode" args="0442 uni0442.sc"/>
 		</test>
 		<test select="SlntItlc-T SmCp-T">
 			<cmd name="encode" args="0061 a.sc"/>
