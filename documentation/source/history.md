@@ -59,7 +59,7 @@ This is a maintenance release primarily focused on making the v6 fonts available
 
 - The special-purpose modified fonts have been updated to be based on the current version. These are available at https://software.sil.org/lcgfonts/download/ and include *Literacy* and *Compact* versions.
 
-- The Low-profile diacritics feature (ss07) is working again
+- The Low-profile diacritics feature (ss07) is working properly again
 
 - U+1FBD GREEK KORONIS has been corrected to be a spacing character
 
