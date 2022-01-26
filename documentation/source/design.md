@@ -1,6 +1,6 @@
 ---
 title: Gentium - Design
-fontversion: 6.001
+fontversion: 6.100
 ---
 
 Gentium is a typeface family designed to enable the diverse ethnic groups around the world who use the Latin, Cyrillic, and Greek scripts to produce readable, high-quality publications. It supports a wide range of Latin- and Cyrillic-based alphabets. 

@@ -1,6 +1,6 @@
 ---
 title: Gentium - About
-fontversion: 6.001
+fontversion: 6.100
 ---
 
 ## About this project
