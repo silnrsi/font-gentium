@@ -2,11 +2,45 @@
 <glyph name="LtnCapCPalHook" format="2">
   <advance width="995"/>
   <unicode hex="A7C4"/>
-  <anchor x="465" y="0" name="H"/>
-  <anchor x="491" y="-100" name="L"/>
+  <anchor x="461" y="-600" name="L"/>
   <anchor x="686" y="1320" name="U"/>
   <outline>
     <component base="LtnCapC"/>
+    <contour>
+      <point x="387" y="-290" type="curve"/>
+      <point x="384" y="-305"/>
+      <point x="382" y="-319"/>
+      <point x="382" y="-333" type="curve" smooth="yes"/>
+      <point x="382" y="-425"/>
+      <point x="452" y="-500"/>
+      <point x="541" y="-500" type="curve" smooth="yes"/>
+      <point x="631" y="-500"/>
+      <point x="783" y="-452"/>
+      <point x="820" y="-171" type="curve" smooth="yes"/>
+      <point x="853" y="83" type="line" smooth="yes"/>
+      <point x="863" y="158"/>
+      <point x="875" y="184"/>
+      <point x="897" y="211" type="curve"/>
+      <point x="801" y="171" type="line"/>
+      <point x="780" y="128"/>
+      <point x="776" y="101"/>
+      <point x="770" y="56" type="curve" smooth="yes"/>
+      <point x="736" y="-200" type="line" smooth="yes"/>
+      <point x="715" y="-361"/>
+      <point x="652" y="-406"/>
+      <point x="594" y="-406" type="curve" smooth="yes"/>
+      <point x="560" y="-406"/>
+      <point x="516" y="-373"/>
+      <point x="516" y="-310" type="curve" smooth="yes"/>
+      <point x="516" y="-286"/>
+      <point x="523" y="-257"/>
+      <point x="538" y="-225" type="curve"/>
+      <point x="533" y="-214"/>
+      <point x="525" y="-204"/>
+      <point x="520" y="-198" type="curve"/>
+      <point x="482" y="-214"/>
+      <point x="411" y="-262"/>
+    </contour>
   </outline>
   <lib>
     <dict>
