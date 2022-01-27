@@ -1340,6 +1340,26 @@ U+A734">
       <comment>LtnCapFHookStrk</comment>
       <string>\u00A798\u000327</string>
     </test>
+    <test label="U+A7C4">
+      <comment>LtnCapCPalHook</comment>
+      <string>\u00A7C4\u000327</string>
+    </test>
+    <test label="U+A7C4" stylename="smcp_1">
+      <comment>LtnCapCPalHook</comment>
+      <string>\u00A7C4\u000327</string>
+    </test>
+    <test label="U+A7C4">
+      <comment>LtnCapCPalHook</comment>
+      <string>\u00A7C4\u000327 \u00A7C5\u000327</string>
+    </test>
+    <test label="U+A7C5" stylename="smcp_1">
+      <comment>LtnCapSHook</comment>
+      <string>\u00A7C5\u000327</string>
+    </test>
+    <test label="U+A7C5">
+      <comment>LtnCapSHook</comment>
+      <string>\u00A7C5\u000327</string>
+    </test>
     <test label="U+0066
 U+0069
 U+0020
@@ -2063,6 +2083,22 @@ U+A74E" stylename="c2sc_1">
     <test label="U+A78D" stylename="c2sc_1">
       <comment>LtnCapTurnedH</comment>
       <string>\u00A78D\u000327</string>
+    </test>
+    <test label="U+A7C4">
+      <comment>LtnCapCPalHook</comment>
+      <string>\u00A7C4\u000327</string>
+    </test>
+    <test label="U+A7C4" stylename="c2sc_1">
+      <comment>LtnCapCPalHook</comment>
+      <string>\u00A7C4\u000327</string>
+    </test>
+    <test label="U+A7C5">
+      <comment>LtnCapSHook</comment>
+      <string>\u00A7C5\u000327</string>
+    </test>
+    <test label="U+A7C5" stylename="c2sc_1">
+      <comment>LtnCapSHook</comment>
+      <string>\u00A7C5\u000327</string>
     </test>
   </testgroup>
 </ftml>

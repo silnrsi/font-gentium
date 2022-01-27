@@ -2030,9 +2030,9 @@ U+A7A9
 U+A7B5
 U+A7B7
 U+A7B9
-U+AB53">
-      <comment>LtnSmInsularS LtnSmInsularT LtnSmSaltillo LtnSmNDesc LtnSmCBar LtnSmBLftMidHook LtnSmFHookStrk LtnSmGDiagStrk LtnSmKDiagStrk LtnSmNDiagStrk LtnSmRDiagStrk LtnSmSDiagStrk LtnSmBeta LtnSmOmega LtnSmUStrk LtnSmChi</comment>
-      <string>\u00A785\u00A787\u00A78C\u00A791\u00A793\u00A797\u00A799\u00A7A1\u00A7A3\u00A7A5\u00A7A7\u00A7A9\u00A7B5\u00A7B7\u00A7B9\u00AB53</string>
+U+A7C4">
+      <comment>LtnSmInsularS LtnSmInsularT LtnSmSaltillo LtnSmNDesc LtnSmCBar LtnSmBLftMidHook LtnSmFHookStrk LtnSmGDiagStrk LtnSmKDiagStrk LtnSmNDiagStrk LtnSmRDiagStrk LtnSmSDiagStrk LtnSmBeta LtnSmOmega LtnSmUStrk LtnCapCPalHook</comment>
+      <string>\u00A785\u00A787\u00A78C\u00A791\u00A793\u00A797\u00A799\u00A7A1\u00A7A3\u00A7A5\u00A7A7\u00A7A9\u00A7B5\u00A7B7\u00A7B9\u00A7C4</string>
     </test>
     <test label="U+A785
 U+A787
@@ -2049,9 +2049,9 @@ U+A7A9
 U+A7B5
 U+A7B7
 U+A7B9
-U+AB53" stylename="smcp_1">
-      <comment>LtnSmInsularS LtnSmInsularT LtnSmSaltillo LtnSmNDesc LtnSmCBar LtnSmBLftMidHook LtnSmFHookStrk LtnSmGDiagStrk LtnSmKDiagStrk LtnSmNDiagStrk LtnSmRDiagStrk LtnSmSDiagStrk LtnSmBeta LtnSmOmega LtnSmUStrk LtnSmChi</comment>
-      <string>\u00A785\u00A787\u00A78C\u00A791\u00A793\u00A797\u00A799\u00A7A1\u00A7A3\u00A7A5\u00A7A7\u00A7A9\u00A7B5\u00A7B7\u00A7B9\u00AB53</string>
+U+A7C4" stylename="smcp_1">
+      <comment>LtnSmInsularS LtnSmInsularT LtnSmSaltillo LtnSmNDesc LtnSmCBar LtnSmBLftMidHook LtnSmFHookStrk LtnSmGDiagStrk LtnSmKDiagStrk LtnSmNDiagStrk LtnSmRDiagStrk LtnSmSDiagStrk LtnSmBeta LtnSmOmega LtnSmUStrk LtnCapCPalHook</comment>
+      <string>\u00A785\u00A787\u00A78C\u00A791\u00A793\u00A797\u00A799\u00A7A1\u00A7A3\u00A7A5\u00A7A7\u00A7A9\u00A7B5\u00A7B7\u00A7B9\u00A7C4</string>
     </test>
     <test label="U+A784
 U+A786
@@ -2068,21 +2068,27 @@ U+A7A8
 U+A7B4
 U+A7B6
 U+A7B8
-U+A7B3">
-      <comment>LtnCapInsularS LtnCapInsularT LtnCapSaltillo LtnCapNDesc LtnCapCBar LtnCapBLftMidHook LtnCapFHookStrk LtnCapGDiagStrk LtnCapKDiagStrk LtnCapNDiagStrk LtnCapRDiagStrk LtnCapSDiagStrk LtnCapBeta LtnCapOmega LtnCapUStrk LtnCapChi</comment>
-      <string>\u00A784\u00A786\u00A78B\u00A790\u00A792\u00A796\u00A798\u00A7A0\u00A7A2\u00A7A4\u00A7A6\u00A7A8\u00A7B4\u00A7B6\u00A7B8\u00A7B3</string>
+U+A7C4">
+      <comment>LtnCapInsularS LtnCapInsularT LtnCapSaltillo LtnCapNDesc LtnCapCBar LtnCapBLftMidHook LtnCapFHookStrk LtnCapGDiagStrk LtnCapKDiagStrk LtnCapNDiagStrk LtnCapRDiagStrk LtnCapSDiagStrk LtnCapBeta LtnCapOmega LtnCapUStrk LtnCapCPalHook</comment>
+      <string>\u00A784\u00A786\u00A78B\u00A790\u00A792\u00A796\u00A798\u00A7A0\u00A7A2\u00A7A4\u00A7A6\u00A7A8\u00A7B4\u00A7B6\u00A7B8\u00A7C4</string>
     </test>
-    <test label="U+F327">
-      <comment>CySmGheStrkDesc</comment>
-      <string>\u00F327</string>
+    <test label="U+A7C5
+U+AB53
+U+F327">
+      <comment>LtnCapSHook LtnSmChi CySmGheStrkDesc</comment>
+      <string>\u00A7C5\u00AB53\u00F327</string>
     </test>
-    <test label="U+F327" stylename="smcp_1">
-      <comment>CySmGheStrkDesc</comment>
-      <string>\u00F327</string>
+    <test label="U+A7C5
+U+AB53
+U+F327" stylename="smcp_1">
+      <comment>LtnCapSHook LtnSmChi CySmGheStrkDesc</comment>
+      <string>\u00A7C5\u00AB53\u00F327</string>
     </test>
-    <test label="U+F327">
-      <comment>CySmGheStrkDesc</comment>
-      <string>\u00F327</string>
+    <test label="U+A7C5
+U+A7B3
+U+F327">
+      <comment>LtnCapSHook LtnCapChi CySmGheStrkDesc</comment>
+      <string>\u00A7C5\u00A7B3\u00F327</string>
     </test>
     <test label="U+0066
 U+0069
@@ -3431,9 +3437,9 @@ U+A7B3
 U+A7B4
 U+A7B6
 U+A7B8
-U+A7C6">
-      <comment>LtnCapNDiagStrk LtnCapRDiagStrk LtnCapSDiagStrk LtnCapHHook LtnCapRevOpnE LtnCapScriptG LtnCapLBelt LtnCapSmCapI LtnCapTurnedK LtnCapTurnedT LtnCapJCrossedTail LtnCapChi LtnCapBeta LtnCapOmega LtnCapUStrk LtnCapZPalHook</comment>
-      <string>\u00A7A4\u00A7A6\u00A7A8\u00A7AA\u00A7AB\u00A7AC\u00A7AD\u00A7AE\u00A7B0\u00A7B1\u00A7B2\u00A7B3\u00A7B4\u00A7B6\u00A7B8\u00A7C6</string>
+U+A7C4">
+      <comment>LtnCapNDiagStrk LtnCapRDiagStrk LtnCapSDiagStrk LtnCapHHook LtnCapRevOpnE LtnCapScriptG LtnCapLBelt LtnCapSmCapI LtnCapTurnedK LtnCapTurnedT LtnCapJCrossedTail LtnCapChi LtnCapBeta LtnCapOmega LtnCapUStrk LtnCapCPalHook</comment>
+      <string>\u00A7A4\u00A7A6\u00A7A8\u00A7AA\u00A7AB\u00A7AC\u00A7AD\u00A7AE\u00A7B0\u00A7B1\u00A7B2\u00A7B3\u00A7B4\u00A7B6\u00A7B8\u00A7C4</string>
     </test>
     <test label="U+A7A4
 U+A7A6
@@ -3450,9 +3456,19 @@ U+A7B3
 U+A7B4
 U+A7B6
 U+A7B8
+U+A7C4" stylename="c2sc_1">
+      <comment>LtnCapNDiagStrk LtnCapRDiagStrk LtnCapSDiagStrk LtnCapHHook LtnCapRevOpnE LtnCapScriptG LtnCapLBelt LtnCapSmCapI LtnCapTurnedK LtnCapTurnedT LtnCapJCrossedTail LtnCapChi LtnCapBeta LtnCapOmega LtnCapUStrk LtnCapCPalHook</comment>
+      <string>\u00A7A4\u00A7A6\u00A7A8\u00A7AA\u00A7AB\u00A7AC\u00A7AD\u00A7AE\u00A7B0\u00A7B1\u00A7B2\u00A7B3\u00A7B4\u00A7B6\u00A7B8\u00A7C4</string>
+    </test>
+    <test label="U+A7C5
+U+A7C6">
+      <comment>LtnCapSHook LtnCapZPalHook</comment>
+      <string>\u00A7C5\u00A7C6</string>
+    </test>
+    <test label="U+A7C5
 U+A7C6" stylename="c2sc_1">
-      <comment>LtnCapNDiagStrk LtnCapRDiagStrk LtnCapSDiagStrk LtnCapHHook LtnCapRevOpnE LtnCapScriptG LtnCapLBelt LtnCapSmCapI LtnCapTurnedK LtnCapTurnedT LtnCapJCrossedTail LtnCapChi LtnCapBeta LtnCapOmega LtnCapUStrk LtnCapZPalHook</comment>
-      <string>\u00A7A4\u00A7A6\u00A7A8\u00A7AA\u00A7AB\u00A7AC\u00A7AD\u00A7AE\u00A7B0\u00A7B1\u00A7B2\u00A7B3\u00A7B4\u00A7B6\u00A7B8\u00A7C6</string>
+      <comment>LtnCapSHook LtnCapZPalHook</comment>
+      <string>\u00A7C5\u00A7C6</string>
     </test>
   </testgroup>
 </ftml>

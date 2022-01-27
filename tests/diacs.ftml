@@ -2324,7 +2324,7 @@
     </test>
     <test label="U+02B8">
       <comment>ModSmY</comment>
-      <string>\u0002B8\u000329 \u0002B8\u00030D</string>
+      <string>\u0002B8\u000329 \u0002B8\u000315 \u0002B8\u00030D</string>
     </test>
     <test label="U+02BE">
       <comment>ModRtHalfRing</comment>
@@ -4028,7 +4028,7 @@
     </test>
     <test label="U+1D53">
       <comment>LtnSupSmOpnO</comment>
-      <string>\u001D53\u000329 \u001D53\u00030D</string>
+      <string>\u001D53\u000329 \u001D53\u000315 \u001D53\u00030D</string>
     </test>
     <test label="U+1D54">
       <comment>ModSmTopHalfO</comment>
@@ -4056,7 +4056,7 @@
     </test>
     <test label="U+1D5A">
       <comment>LtnSupSmTurnedM</comment>
-      <string>\u001D5A\u000329 \u001D5A\u00030D</string>
+      <string>\u001D5A\u000329 \u001D5A\u000315 \u001D5A\u00030D</string>
     </test>
     <test label="U+1D5B">
       <comment>LtnSupSmV</comment>
@@ -4440,7 +4440,7 @@
     </test>
     <test label="U+1DBA">
       <comment>LtnSupSmTurnedV</comment>
-      <string>\u001DBA\u000329 \u001DBA\u00030D</string>
+      <string>\u001DBA\u000329 \u001DBA\u000315 \u001DBA\u00030D</string>
     </test>
     <test label="U+1DBB">
       <comment>LtnSupSmZ</comment>
