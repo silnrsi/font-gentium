@@ -555,7 +555,7 @@
 			<cmd name="encode" args="1E93 uni1E93.SItal"/>
 		</value>
 	</feature>
-	<feature name="Low profile diacritic alternates" value="Default" tag="LpDiacs">
+	<feature name="Low-profile diacritics" value="Default" tag="LpDiacs">
 		<value name="Default" tag="Dflt">
 			<cmd name="null" args="null"/>
 		</value>

@@ -669,13 +669,15 @@ feature locl {
   script cyrl;
     language SRB  exclude_dflt; #Serbian
       lookup srb_sub;
-} locl;
-
-feature locl {
-  script cyrl;
     language MKD  exclude_dflt; #Macedonian
       lookup srb_sub;
 } locl;
+
+# feature locl {
+#   script cyrl;
+#     language MKD  exclude_dflt; #Macedonian
+#       lookup srb_sub;
+# } locl;
 
 feature smcp {
   lookup sc1_sub;
@@ -1296,7 +1298,7 @@ feature cv84 {
       };
       
       SampleTextNameID {
-       name 3 1 0x0409 "sample_test";  # English US TODO: set sample_text
+       name 3 1 0x0409 "sample_text";  # English US TODO: set sample_text
       };
       
       ParamUILabelNameID {
@@ -1512,7 +1514,7 @@ feature ss05 {
 
 feature ss07 {
   featureNames {
-    name 3 1 0x409 "Low profile diacritic alternates";
+    name 3 1 0x409 "Low-profile diacritics";
   };
 
   lookup lp_sub;
