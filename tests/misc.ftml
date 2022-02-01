@@ -74,8 +74,13 @@
     </test>
   </testgroup>
   <testgroup label="Macedonian">
-    <test label="U+0431 U+0433 U+0434 U+043F U+0442 - U+0433 with acute" stylename="cv84_1">
-      <string>\u000431\u000433\u000434\u00043F\u000442\u000433\u000301</string>
+    <test label="U+0431 U+0433 U+0434 U+043F U+0442 U+0453" stylename="cv84_1">
+      <string>\u000431\u000433\u000434\u00043F\u000442\u000453</string>
+    </test>
+  </testgroup>
+  <testgroup label="Koronis">
+    <test label="U+03B1 U+1FBD U+03B1 U+1FBF">
+      <string>\u0003B1\u001FBD\u0003B1\u001FBF</string>
     </test>
   </testgroup>
 </ftml>
