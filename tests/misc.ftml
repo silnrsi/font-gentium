@@ -83,4 +83,10 @@
       <string>\u0003B1\u001FBD\u0003B1\u001FBF</string>
     </test>
   </testgroup>
+  <testgroup label="Low profile diacritics in decomposed text">
+    <test label="U+0041 U+034F U+0301 U+0323 U+0300">
+      <string>\u000041\u00034F\u000301\u000323\u000300</string>
+	  <comment>LtnCapA CombGraphemeJoiner CombAcute CombDotBlw CombGrave</comment>
+    </test>
+  </testgroup>
 </ftml>
