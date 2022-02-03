@@ -92,10 +92,14 @@ for test in test_lst:
     # generate multi-font test
     arg_lst = [arg.format(**arg_values_dict) for arg in arg_cols_template_lst]
     for fn in ttf_fn_sort_lst:
-        arg_lst.extend(["-s", "../results/{}".format(fn)])
+        family = fn[0]
+        family += 'Bk' if fn.find('Book') != -1 else ''
+        style = fn[fn.index('-') + 1]
+        style += 'I' if fn.find('BoldItalic') != -1 else ''
+        arg_lst.extend(["-s", "../results/{}={}{}".format(fn, family, style)])
     # TODO: kludgy way to add columns for v5 and Doulos, assumes tests/reference folder
-    arg_lst.extend(["-s", "../references/v5/GentiumPlus-Regular.ttf=GRv5"])
-    arg_lst.extend(["-s", "../references/v5/GentiumPlus-Italic.ttf=GIv5"])
+    arg_lst.extend(["-s", "../references/v6001/GentiumPlus-Regular.ttf=GRv6"])
+    arg_lst.extend(["-s", "../references/v6001/GentiumPlus-Italic.ttf=GIv6"])
     # arg_lst.extend(["-s", "../references/v5/CharisSIL-Regular.ttf=CRv5"])
     # arg_lst.extend(["-s", "../references/v5/CharisSIL-Italic.ttf=CIv5"])
     # arg_lst.extend(["-s", "../references/b1/DoulosSIL-Regular.ttf=DRb1"])
