@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Macron.LP" format="2">
   <advance width="1010"/>
-  <anchor x="495" y="1370" name="U"/>
-  <anchor x="495" y="1050" name="_U"/>
   <outline>
     <contour>
+      <point x="899" y="1115" type="line"/>
+      <point x="909" y="1137"/>
       <point x="952" y="1226"/>
       <point x="960" y="1255" type="curve"/>
       <point x="925" y="1289" type="line"/>
@@ -13,8 +13,6 @@
       <point x="57" y="1178"/>
       <point x="50" y="1149" type="curve"/>
       <point x="85" y="1115" type="line"/>
-      <point x="899" y="1115" type="line"/>
-      <point x="909" y="1137"/>
     </contour>
   </outline>
 </glyph>

@@ -2,9 +2,10 @@
 <glyph name="GraveAccent.LP" format="2">
   <advance width="707"/>
   <anchor x="376" y="1370" name="U"/>
-  <anchor x="376" y="1050" name="_U"/>
   <outline>
     <contour>
+      <point x="572" y="1031" type="line"/>
+      <point x="593" y="1045"/>
       <point x="637" y="1088"/>
       <point x="647" y="1110" type="curve"/>
       <point x="288" y="1469" type="line"/>
@@ -12,8 +13,6 @@
       <point x="92" y="1373"/>
       <point x="69" y="1357" type="curve"/>
       <point x="60" y="1289" type="line"/>
-      <point x="572" y="1031" type="line"/>
-      <point x="593" y="1045"/>
     </contour>
   </outline>
 </glyph>
