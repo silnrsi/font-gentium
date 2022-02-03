@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModCircumAccent.LP" format="2">
   <advance width="733"/>
-  <anchor x="371" y="1370" name="U"/>
-  <anchor x="371" y="1050" name="_U"/>
   <outline>
     <contour>
+      <point x="652" y="1037" type="line"/>
+      <point x="675" y="1047"/>
       <point x="702" y="1087"/>
       <point x="718" y="1112" type="curve"/>
       <point x="446" y="1451" type="line"/>
@@ -14,8 +14,6 @@
       <point x="68" y="1047"/>
       <point x="90" y="1037" type="curve"/>
       <point x="371" y="1195" type="line"/>
-      <point x="652" y="1037" type="line"/>
-      <point x="675" y="1047"/>
     </contour>
   </outline>
 </glyph>
