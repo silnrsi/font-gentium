@@ -1,6 +1,6 @@
 ---
 title: Gentium - Version History
-fontversion: 6.100
+fontversion: 6.101
 ---
 
 ### 4 Feb 2022 (SIL WSTech Team) Gentium Plus version 6.100
