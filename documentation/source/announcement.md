@@ -2,7 +2,7 @@ Release 6.101 - TypeTuner Web and special-purpose modified fonts
 
 This is a maintenance release primarily focused on making the v6 fonts available on *TypeTuner Web*. This enables us to also provide v6 versions of many special-purpose modified fonts, including *Literacy* and *Compact* versions.
 
-Both desktop and web fonts are provided in a single, all-platforms package on the [Download page](http://software.sil.org/charis/download). Special-purpose fonts are available from a [dedicated page](https://software.sil.org/lcgfonts/download/).
+Both desktop and web fonts are provided in a single, all-platforms package on the [Download page](http://software.sil.org/gentium/download). Special-purpose fonts are available from a [dedicated page](https://software.sil.org/lcgfonts/download/).
 
 #### New
 
