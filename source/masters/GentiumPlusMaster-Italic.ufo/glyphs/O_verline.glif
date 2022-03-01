@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Overline" format="2">
+  <advance width="863"/>
   <unicode hex="203E"/>
-  <anchor x="-303" y="1370" name="U"/>
-  <anchor x="-355" y="1000" name="_U"/>
   <outline>
-    <component base="CombOverline"/>
+    <contour>
+      <point x="1035" y="1258" type="curve"/>
+      <point x="1016" y="1283" type="line"/>
+      <point x="89" y="1283" type="line"/>
+      <point x="74" y="1256"/>
+      <point x="50" y="1208"/>
+      <point x="40" y="1181" type="curve"/>
+      <point x="56" y="1157" type="line"/>
+      <point x="985" y="1157" type="line"/>
+      <point x="998" y="1179"/>
+      <point x="1026" y="1229"/>
+    </contour>
   </outline>
 </glyph>
