@@ -1,4 +1,4 @@
-###Bulgarian Cyrillic | Glyphs System for Normal weights
+### Bulgarian Cyrillic | Glyphs System for Normal weights
 
 ```
 Д (uni0414) (CyCapDe)			–	CyCapDe.loclBGR
@@ -88,22 +88,25 @@
 ю (uni044E) (CySmYu.loclBGR)	–	CySmYu.sc
 ```
 
+
+### New classes for Bulgarian Cyrillic in Normal weights;
 ```
-# new classes for Bulgarian Cyrillic in Normal weights;
 @cno_Bulg = [CyCapDe CyCapI CyCapShortI CyCapIGrave CyCapEl CySmVe CySmGhe CySmDe CySmZhe CySmZe CySmI CySmShortI CySmIGrave CySmKa CySmEl CySmEn CySmPe CySmTe CySmTse CySmChe CySmSha CySmShcha CySmHardSgn CySmSoftSgn CySmYu];
 @c_Bulg = [CyCapDe.loclBGR CyCapI.loclBGR CyCapShortI.loclBGR CyCapIGrave.loclBGR CyCapEl.loclBGR CySmVe.loclBGR CySmGhe.loclBGR CySmDe.loclBGR CySmZhe.loclBGR CySmZe.loclBGR CySmI.loclBGR CySmShortI.loclBGR CySmIGrave.loclBGR CySmKa.loclBGR CySmEl.loclBGR CySmEn.loclBGR CySmPe.loclBGR CySmTe.loclBGR CySmTse.loclBGR CySmChe.loclBGR CySmSha.loclBGR CySmShcha.loclBGR CySmHardSgn.loclBGR CySmSoftSgn.loclBGR CySmYu.loclBGR];
 ```
 
+
+### New lookup for Bulgarian Cyrillic in Normal weights;
 ```
-# new lookup for Bulgarian Cyrillic;
 lookup bgr_sub {
     lookupflag 0;
     sub @cno_Bulg by @c_Bulg;
 } srb_sub;
 ```
 
+
+### New lines in feature locl for Bulgarian Cyrillic;
 ```
-# new lines in feature locl for Bulgarian Cyrillic;
 feature locl {
     script cyrl;
     language BGR exclude_dflt;
