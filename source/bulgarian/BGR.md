@@ -1,6 +1,6 @@
 Bulgarian Cyrillic
 Glyphs System for Normal weights
-
+```
 Д (uni0414) (CyCapDe)			–	CyCapDe.loclBGR
 И (uni0418) (CyCapI)			–	CyCapI.loclBGR
 Й (uni0419) (CyCapShortI)		–	CyCapShortI.loclBGR
@@ -27,7 +27,7 @@ Glyphs System for Normal weights
 ъ (uni044A) (CySmHardSgn)		–	CySmHardSgn.loclBGR
 ь (uni044C) (CySmSoftSgn)		–	CySmSoftSgn.loclBGR
 ю (uni044E) (CySmYu)			–	CySmYu.loclBGR
-
+```
 
 Glyphs System for Cursive weights
 
