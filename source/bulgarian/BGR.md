@@ -84,18 +84,21 @@ Glyphs System for Cursive weights | Small caps | SC
 н (uni043D) (CySmEn.loclBGR)	–	CySmEn.sc
 ю (uni044E) (CySmYu.loclBGR)	–	CySmYu.sc
 
-
+```
 # new classes for Bulgarian Cyrillic in Normal weights;
 @cno_Bulg = [CyCapDe CyCapI CyCapShortI CyCapIGrave CyCapEl CySmVe CySmGhe CySmDe CySmZhe CySmZe CySmI CySmShortI CySmIGrave CySmKa CySmEl CySmEn CySmPe CySmTe CySmTse CySmChe CySmSha CySmShcha CySmHardSgn CySmSoftSgn CySmYu];
 @c_Bulg = [CyCapDe.loclBGR CyCapI.loclBGR CyCapShortI.loclBGR CyCapIGrave.loclBGR CyCapEl.loclBGR CySmVe.loclBGR CySmGhe.loclBGR CySmDe.loclBGR CySmZhe.loclBGR CySmZe.loclBGR CySmI.loclBGR CySmShortI.loclBGR CySmIGrave.loclBGR CySmKa.loclBGR CySmEl.loclBGR CySmEn.loclBGR CySmPe.loclBGR CySmTe.loclBGR CySmTse.loclBGR CySmChe.loclBGR CySmSha.loclBGR CySmShcha.loclBGR CySmHardSgn.loclBGR CySmSoftSgn.loclBGR CySmYu.loclBGR];
+```
 
-
+```
 # new lookup for Bulgarian Cyrillic;
 lookup bgr_sub {
     lookupflag 0;
     sub @cno_Bulg by @c_Bulg;
 } srb_sub;
+```
 
+```
 # new lines in feature locl for Bulgarian Cyrillic;
 feature locl {
     script cyrl;
@@ -109,3 +112,4 @@ feature locl {
     #Macedonian
     lookup srb_sub;
 } locl;
+```
