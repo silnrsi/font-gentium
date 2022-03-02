@@ -1,5 +1,5 @@
-Bulgarian Cyrillic
-Glyphs System for Normal weights
+###Bulgarian Cyrillic | Glyphs System for Normal weights
+
 ```
 Д (uni0414) (CyCapDe)			–	CyCapDe.loclBGR
 И (uni0418) (CyCapI)			–	CyCapI.loclBGR
@@ -12,7 +12,7 @@ Glyphs System for Normal weights
 д (uni0434) (CySmDe)			–	CySmDe.loclBGR
 ж (uni0436) (CySmZhe)			–	CySmZhe.loclBGR
 з (uni0437) (CySmZe)			–	CySmZe.loclBGR
-и (uni0438) (CySmI)				–	CySmI.loclBGR
+и (uni0438) (CySmI)			–	CySmI.loclBGR
 й (uni0439) (CySmShortI)		–	CySmShortI.loclBGR
 ѝ (uni045D) (CySmIGrave)		–	CySmIGrave.loclBGR
 к (uni043A) (CySmKa)			–	CySmKa.loclBGR
@@ -29,8 +29,9 @@ Glyphs System for Normal weights
 ю (uni044E) (CySmYu)			–	CySmYu.loclBGR
 ```
 
-Glyphs System for Cursive weights
+### Glyphs System for Cursive weights
 
+```
 Д (uni0414) (CyCapDe)			–	CyCapDe.loclBGR
 И (uni0418) (CyCapI)			–	CyCapI.loclBGR
 Й (uni0419) (CyCapShortI)		–	CyCapShortI.loclBGR
@@ -46,10 +47,11 @@ Glyphs System for Cursive weights
 л (uni043B) (CySmEl)			–	CySmEl.loclBGR
 н (uni043D) (CySmEn)			–	CySmEn.loclBGR
 ю (uni044E) (CySmYu)			–	CySmYu.loclBGR
+```
 
+### Glyphs System for Normal weights | Small caps | SC
 
-Glyphs System for Normal weights | Small caps | SC
-
+```
 в (uni0432) (CySmVe.loclBGR)	–	CySmVe.sc
 г (uni0433) (CySmGhe.loclBGR)	–	CySmGhe.sc
 д (uni0434) (CySmDe.loclBGR)	–	CySmDeloclBGR.sc (new glyph)
@@ -70,10 +72,11 @@ Glyphs System for Normal weights | Small caps | SC
 ъ (uni044A) (CySmHardSgn.loclBGR)–	CySmHardSgn.sc
 ь (uni044C) (CySmSoftSgn.loclBGR)–	CySmSoftSgn.sc
 ю (uni044E) (CySmYu.loclBGR)	–	CySmYu.sc
+```
 
+### Glyphs System for Cursive weights | Small caps | SC
 
-Glyphs System for Cursive weights | Small caps | SC
-
+```
 в (uni0432) (CySmVe.loclBGR)	–	CySmVe.sc
 г (uni0433) (CySmGhe.loclBGR)	–	CySmGhe.sc
 д (uni0434) (CySmDe.loclBGR)	–	CySmDeloclBGR.sc (new glyph)
@@ -83,6 +86,7 @@ Glyphs System for Cursive weights | Small caps | SC
 л (uni043B) (CySmEl.loclBGR)	–	CySmElloclBGR.sc (new glyph)
 н (uni043D) (CySmEn.loclBGR)	–	CySmEn.sc
 ю (uni044E) (CySmYu.loclBGR)	–	CySmYu.sc
+```
 
 ```
 # new classes for Bulgarian Cyrillic in Normal weights;
