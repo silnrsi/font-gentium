@@ -1,4 +1,4 @@
-### Bulgarian Cyrillic | Glyphs System for Normal weights
+### Bulgarian Cyrillic | Glyphs' System for Normal weights
 
 ```
 Д (uni0414) (CyCapDe)			–	CyCapDe.loclBGR
@@ -29,7 +29,7 @@
 ю (uni044E) (CySmYu)			–	CySmYu.loclBGR
 ```
 
-### Glyphs System for Cursive weights
+### Glyphs' System for Cursive weights
 
 ```
 Д (uni0414) (CyCapDe)			–	CyCapDe.loclBGR
@@ -49,7 +49,7 @@
 ю (uni044E) (CySmYu)			–	CySmYu.loclBGR
 ```
 
-### Glyphs System for Normal weights | Small caps | SC
+### Glyphs' System for Normal weights | Small caps | SC
 
 ```
 в (uni0432) (CySmVe.loclBGR)	–	CySmVe.sc
@@ -57,7 +57,7 @@
 д (uni0434) (CySmDe.loclBGR)	–	CySmDeloclBGR.sc (new glyph)
 ж (uni0436) (CySmZhe.loclBGR)	–	CySmZhe.sc
 з (uni0437) (CySmZe.loclBGR)	–	CySmZe.sc
-и (uni0438) (CySmI.loclBGR)		–	CySmI.sc
+и (uni0438) (CySmI.loclBGR)	–	CySmI.sc
 й (uni0439) (CySmShortI.loclBGR)–	CySmShortI.sc
 ѝ (uni045D) (CySmIGrave.loclBGR)–	CySmIGrave.sc
 к (uni043A) (CySmKaSC.loclBGR)	–	CySmKaSC.sc
@@ -74,7 +74,7 @@
 ю (uni044E) (CySmYu.loclBGR)	–	CySmYu.sc
 ```
 
-### Glyphs System for Cursive weights | Small caps | SC
+### Glyphs' System for Cursive weights | Small caps | SC
 
 ```
 в (uni0432) (CySmVe.loclBGR)	–	CySmVe.sc
@@ -106,6 +106,38 @@ lookup bgr_sub {
 
 
 ### New lines in feature locl for Bulgarian Cyrillic;
+```
+feature locl {
+    script cyrl;
+    language BGR exclude_dflt;
+    #Bulgarian
+    lookup bgr_sub;	
+    language SRB exclude_dflt;
+    #Serbian
+    lookup srb_sub;
+    language MKD exclude_dflt;
+    #Macedonian
+    lookup srb_sub;
+} locl;
+```
+
+### New classes for Bulgarian Cyrillic in Cursive weights;
+```
+@cno_Bulg = [CyCapDe CyCapI CyCapShortI CyCapIGrave CyCapEl CySmVe CySmGhe CySmDe CySmZhe CySmZe CySmKa CySmEl CySmEn CySmYu];
+@c_Bulg = [CyCapDe.loclBGR CyCapI.loclBGR CyCapShortI.loclBGR CyCapIGrave.loclBGR CyCapEl.loclBGR CySmVe.loclBGR CySmGhe.loclBGR CySmDe.loclBGR CySmZhe.loclBGR CySmZe.loclBGR CySmKa.loclBGR CySmEl.loclBGR CySmEn.loclBGR CySmYu.loclBGR];
+```
+
+
+### New lookup for Bulgarian Cyrillic in Cursive weights;
+```
+lookup bgr_sub {
+    lookupflag 0;
+    sub @cno_Bulg by @c_Bulg;
+} srb_sub;
+```
+
+
+### New lines in feature locl for Bulgarian Cyrillic (Cursive weights);
 ```
 feature locl {
     script cyrl;
