@@ -29,6 +29,7 @@
 ю (uni044E) (CySmYu)			–	CySmYu.loclBGR
 ```
 
+![Sample Image](/images/GentiumPlus_Cyrillic_Models.jpg)
 
 ### Glyphs' System for Cursive weights
 
