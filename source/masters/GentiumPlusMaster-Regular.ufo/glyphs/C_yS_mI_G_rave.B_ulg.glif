@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CySmIGrave.Bulg" format="2">
-  <advance width="1195"/>
-  <anchor x="597" y="-100" name="L"/>
-  <anchor x="597" y="1410" name="U"/>
+  <advance width="1085"/>
+  <anchor x="546" y="0" name="H"/>
+  <anchor x="545" y="-100" name="L"/>
+  <anchor x="860" y="0" name="O"/>
+  <anchor x="1084" y="900" name="R"/>
+  <anchor x="545" y="1410" name="U"/>
   <outline>
-    <component base="CySmI"/>
-    <component base="CombGrave" xOffset="1030"/>
+    <component base="CySmI.Bulg"/>
+    <component base="CombGrave" xOffset="978"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

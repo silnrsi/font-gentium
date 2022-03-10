@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CySmShortI.Bulg" format="2">
-  <advance width="1107"/>
-  <anchor x="426" y="-100" name="L"/>
-  <anchor x="624" y="1320" name="U"/>
+  <advance width="1127"/>
+  <anchor x="435" y="0" name="H"/>
+  <anchor x="482" y="-100" name="L"/>
+  <anchor x="849" y="0" name="O"/>
+  <anchor x="1170" y="870" name="R"/>
+  <anchor x="680" y="1320" name="U"/>
   <outline>
-    <component base="CySmI"/>
-    <component base="CombBreve.CyShortMrkAlt" xOffset="1051"/>
+    <component base="CySmI.Bulg"/>
+    <component base="CombBreve.CyShortMrkAlt" xOffset="1107"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
