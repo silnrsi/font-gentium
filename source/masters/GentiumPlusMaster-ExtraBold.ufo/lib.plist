@@ -1141,12 +1141,15 @@
     <string>CySmBe</string>
     <string>CySmBe.Serb</string>
     <string>CySmSoftSgn</string>
+    <string>CySmSoftSgn.Bulg</string>
     <string>CySmSemisoftSgn</string>
     <string>CySmHardSgn</string>
+    <string>CySmHardSgn.Bulg</string>
     <string>CySmYat</string>
     <string>CySmYeru</string>
     <string>CySmYeruDiaer</string>
     <string>CySmVe</string>
+    <string>CySmVe.Bulg</string>
     <string>CyCapVe</string>
     <string>GrCapBeta</string>
     <string>ModCapB</string>
@@ -1378,6 +1381,7 @@
     <string>CySmZeDesc</string>
     <string>CySmKomiDzje</string>
     <string>CySmKomiZje</string>
+    <string>CySmZe.Bulg</string>
     <string>CyCapIe</string>
     <string>GrCapEpsilon</string>
     <string>ModCapE</string>
@@ -1499,6 +1503,7 @@
     <string>LtnSmG.SngBowl</string>
     <string>LtnSmScriptG</string>
     <string>LtnSupSmScriptG</string>
+    <string>CySmDe.Bulg</string>
     <string>LtnSmGAcute.SngBowl</string>
     <string>LtnSmGCircum.SngBowl</string>
     <string>LtnSmGBreve.SngBowl</string>
@@ -1577,6 +1582,7 @@
     <string>CySmEnLftHook</string>
     <string>CySmKomiNje</string>
     <string>CySmEnMiddleHook</string>
+    <string>CySmEn.Bulg</string>
     <string>CySmPe</string>
     <string>CySmPe.Serb</string>
     <string>CySmPeDesc</string>
@@ -1755,6 +1761,7 @@
     <string>CySmDe</string>
     <string>CySmDe.Serb</string>
     <string>CySmDeZheLig</string>
+    <string>CySmEl.Bulg</string>
     <string>CySmLha</string>
     <string>CyCapJe</string>
     <string>ModCapJ</string>
@@ -1771,9 +1778,11 @@
     <string>CyCapElHook</string>
     <string>CyCapKomiLje</string>
     <string>CyCapElMiddleHook</string>
+    <string>CyCapEl.Bulg</string>
     <string>CyCapLha</string>
     <string>CyCapDe</string>
     <string>CyCapDeZheLig</string>
+    <string>CyCapDe.Bulg</string>
     <string>LtnSubSmK</string>
     <string>LtnSupSmK</string>
     <string>LtnSmKAcute</string>
@@ -1790,6 +1799,8 @@
     <string>LtnSmKDesc</string>
     <string>LtnSmTurnedK</string>
     <string>LtnSmRevK</string>
+    <string>CySmKa.Bulg</string>
+    <string>CySmZhe.Bulg</string>
     <string>LtnSmKra</string>
     <string>CySmKa</string>
     <string>CySmKje</string>
@@ -1828,10 +1839,12 @@
     <string>CyCapKaVertStrk</string>
     <string>CyCapKaHook</string>
     <string>CyCapAleutKa</string>
+    <string>CyCapKa.Bulg</string>
     <string>CyCapZhe</string>
     <string>CyCapZheBreve</string>
     <string>CyCapZheDiaer</string>
     <string>CyCapZheDesc</string>
+    <string>CyCapZhe.Bulg</string>
     <string>LtnSmL.SItal</string>
     <string>SmRomNumFifty</string>
     <string>LtnSubSmL</string>
@@ -1877,6 +1890,7 @@
     <string>LtnSmLZDigraph</string>
     <string>LtnSmLezh</string>
     <string>LtnSmLezhRetrHook</string>
+    <string>CySmYu.Bulg</string>
     <string>LtrScriptSmL</string>
     <string>GermanPennySgn</string>
     <string>LiraSgn</string>
@@ -1920,8 +1934,11 @@
     <string>LtnSmMum</string>
     <string>LtnSmMHook</string>
     <string>ModSmMHook</string>
+    <string>CySmTe.Bulg</string>
     <string>LtnSmTurnedM</string>
     <string>LtnSupSmTurnedM</string>
+    <string>CySmSha.Bulg</string>
+    <string>CySmShcha.Bulg</string>
     <string>LtnSmTurnedMLngLeg</string>
     <string>LtnSupSmTurnedMLngLeg</string>
     <string>LtnSmSdwysTrndM</string>
@@ -1974,6 +1991,7 @@
     <string>LtnSmNDesc</string>
     <string>LtnSmNLngRtLeg</string>
     <string>LtnSmNj</string>
+    <string>CySmPe.Bulg</string>
     <string>GrSmEta</string>
     <string>CySmI</string>
     <string>CySmIGrave</string>
@@ -2013,6 +2031,9 @@
     <string>CyCapShortITail</string>
     <string>CyCapIDiaer</string>
     <string>CyCapIMacron</string>
+    <string>CyCapI.Bulg</string>
+    <string>CyCapIGrave.Bulg</string>
+    <string>CyCapShortI.Bulg</string>
     <string>CySmO</string>
     <string>GrSmOmicron</string>
     <string>LtnSubSmO</string>
@@ -2173,6 +2194,7 @@
     <string>LtnSmPhi</string>
     <string>ModSmPhi</string>
     <string>CySmEf</string>
+    <string>CySmEf.Bulg</string>
     <string>GrSmPhi</string>
     <string>GrSubSmPhi</string>
     <string>ModSmGrPhi</string>
@@ -2203,6 +2225,7 @@
     <string>LtnCapRevP</string>
     <string>GrCapPhi</string>
     <string>CyCapEf</string>
+    <string>CyCapEf.Bulg</string>
     <string>CySmQa</string>
     <string>LtnSmQStrk</string>
     <string>LtnSmQDiagStrk</string>
@@ -2309,6 +2332,7 @@
     <string>LtnSmSCurl</string>
     <string>LtnSmSSwashTail</string>
     <string>LtnSmTnTwo</string>
+    <string>CySmGhe.Bulg</string>
     <string>GrSmFinSigma</string>
     <string>LtnSmEsh</string>
     <string>LtnSupSmEsh</string>
@@ -2438,6 +2462,10 @@
     <string>LtnSmUHornTilde</string>
     <string>LtnSmUHornHookAbv</string>
     <string>LtnSmUHornDotBlw</string>
+    <string>CySmI.Bulg</string>
+    <string>CySmIGrave.Bulg</string>
+    <string>CySmShortI.Bulg</string>
+    <string>CySmTse.Bulg</string>
     <string>LtnSmUe</string>
     <string>LtnSmSdwysU</string>
     <string>ModSmSdwysU</string>
@@ -2627,6 +2655,7 @@
     <string>CySmCheDesc</string>
     <string>CySmKhakasChe</string>
     <string>CySmDeCheLig</string>
+    <string>CySmChe.Bulg</string>
     <string>GrSmPsi</string>
     <string>CyCapStraightU</string>
     <string>GrCapUpsilon</string>
@@ -4350,6 +4379,7 @@
     <string>LtnSmGDiagStrk.SngBowl.sc</string>
     <string>LtnSmG.SngBowl.sc</string>
     <string>LtnSmScriptG.sc</string>
+    <string>CySmDe.Bulg.sc</string>
     <string>LtnSmGAcute.SngBowl.sc</string>
     <string>LtnSmGCircum.SngBowl.sc</string>
     <string>LtnSmGBreve.SngBowl.sc</string>
@@ -4451,6 +4481,7 @@
     <string>CySmLha.sc</string>
     <string>CySmDe.sc</string>
     <string>CySmDeZheLig.sc</string>
+    <string>CySmEl.Bulg.sc</string>
     <string>LtnSmK.sc</string>
     <string>LtnSmKAcute.sc</string>
     <string>LtnSmKCaron.sc</string>
@@ -4476,6 +4507,8 @@
     <string>CySmZheBreve.sc</string>
     <string>CySmZheDiaer.sc</string>
     <string>CySmZheDesc.sc</string>
+    <string>CySmKa.Bulg.sc</string>
+    <string>CySmZhe.Bulg.sc</string>
     <string>LtnSmL.sc</string>
     <string>LtnSmLAcute.sc</string>
     <string>LtnSmLCaron.sc</string>
@@ -4532,6 +4565,9 @@
     <string>CySmIDiaer.sc</string>
     <string>CySmShortITail.sc</string>
     <string>LtnCapNSmJ.sc</string>
+    <string>CySmI.Bulg.sc</string>
+    <string>CySmIGrave.Bulg.sc</string>
+    <string>CySmShortI.Bulg.sc</string>
     <string>LtnSmO.sc</string>
     <string>CySmO.sc</string>
     <string>LtnSmOAcute.sc</string>
@@ -4608,6 +4644,7 @@
     <string>CySmRha.sc</string>
     <string>LtnWynn.sc</string>
     <string>CySmEf.sc</string>
+    <string>CySmEf.Bulg.sc</string>
     <string>LtnSmQ.sc</string>
     <string>CySmQa.sc</string>
     <string>LtnSmQStrk.sc</string>
@@ -5528,6 +5565,8 @@
     <string>uni04B8</string>
     <key>CyCapDe</key>
     <string>uni0414</string>
+    <key>CyCapDe.Bulg</key>
+    <string>uni0414.Bulg</string>
     <key>CyCapDeCheLig</key>
     <string>uni052C</string>
     <key>CyCapDeZheLig</key>
@@ -5546,8 +5585,12 @@
     <string>uni04EC</string>
     <key>CyCapEf</key>
     <string>uni0424</string>
+    <key>CyCapEf.Bulg</key>
+    <string>uni0424.Bulg</string>
     <key>CyCapEl</key>
     <string>uni041B</string>
+    <key>CyCapEl.Bulg</key>
+    <string>uni041B.Bulg</string>
     <key>CyCapElDesc</key>
     <string>uni052E</string>
     <key>CyCapElHook</key>
@@ -5618,10 +5661,14 @@
     <string>uni042A</string>
     <key>CyCapI</key>
     <string>uni0418</string>
+    <key>CyCapI.Bulg</key>
+    <string>uni0418.Bulg</string>
     <key>CyCapIDiaer</key>
     <string>uni04E4</string>
     <key>CyCapIGrave</key>
     <string>uni040D</string>
+    <key>CyCapIGrave.Bulg</key>
+    <string>uni040D.Bulg</string>
     <key>CyCapIMacron</key>
     <string>uni04E2</string>
     <key>CyCapIe</key>
@@ -5638,6 +5685,8 @@
     <string>uni0408</string>
     <key>CyCapKa</key>
     <string>uni041A</string>
+    <key>CyCapKa.Bulg</key>
+    <string>uni041A.Bulg</string>
     <key>CyCapKaDesc</key>
     <string>uni049A</string>
     <key>CyCapKaHook</key>
@@ -5714,6 +5763,8 @@
     <string>uniF32C</string>
     <key>CyCapShortI</key>
     <string>uni0419</string>
+    <key>CyCapShortI.Bulg</key>
+    <string>uni0419.Bulg</string>
     <key>CyCapShortITail</key>
     <string>uni048A</string>
     <key>CyCapShortU</key>
@@ -5768,6 +5819,8 @@
     <string>uni04DE</string>
     <key>CyCapZhe</key>
     <string>uni0416</string>
+    <key>CyCapZhe.Bulg</key>
+    <string>uni0416.Bulg</string>
     <key>CyCapZheBreve</key>
     <string>uni04C1</string>
     <key>CyCapZheDesc</key>
@@ -5844,6 +5897,8 @@
     <string>uni1D2B</string>
     <key>CySmChe</key>
     <string>uni0447</string>
+    <key>CySmChe.Bulg</key>
+    <string>uni0447.Bulg</string>
     <key>CySmChe.sc</key>
     <string>uni0447.sc</string>
     <key>CySmCheDesc</key>
@@ -5860,6 +5915,10 @@
     <string>uni04B9.sc</string>
     <key>CySmDe</key>
     <string>uni0434</string>
+    <key>CySmDe.Bulg</key>
+    <string>uni0434.Bulg</string>
+    <key>CySmDe.Bulg.sc</key>
+    <string>uni0434.Bulg.sc</string>
     <key>CySmDe.Serb</key>
     <string>uni0434.Serb</string>
     <key>CySmDe.sc</key>
@@ -5898,10 +5957,18 @@
     <string>uni04ED.sc</string>
     <key>CySmEf</key>
     <string>uni0444</string>
+    <key>CySmEf.Bulg</key>
+    <string>uni0444.Bulg</string>
+    <key>CySmEf.Bulg.sc</key>
+    <string>uni0424.Bulg.sc</string>
     <key>CySmEf.sc</key>
     <string>uni0444.sc</string>
     <key>CySmEl</key>
     <string>uni043B</string>
+    <key>CySmEl.Bulg</key>
+    <string>uni043B.Bulg</string>
+    <key>CySmEl.Bulg.sc</key>
+    <string>uni043B.Bulg.sc</string>
     <key>CySmEl.sc</key>
     <string>uni043B.sc</string>
     <key>CySmElDesc</key>
@@ -5932,6 +5999,8 @@
     <string>uni04CE.sc</string>
     <key>CySmEn</key>
     <string>uni043D</string>
+    <key>CySmEn.Bulg</key>
+    <string>uni043D.Bulg</string>
     <key>CySmEn.sc</key>
     <string>uni043D.sc</string>
     <key>CySmEnDesc</key>
@@ -5976,6 +6045,8 @@
     <string>uni0473.sc</string>
     <key>CySmGhe</key>
     <string>uni0433</string>
+    <key>CySmGhe.Bulg</key>
+    <string>uni0433.Bulg</string>
     <key>CySmGhe.Serb</key>
     <string>uni0433.Serb</string>
     <key>CySmGhe.sc</key>
@@ -6040,10 +6111,16 @@
     <string>uniF329</string>
     <key>CySmHardSgn</key>
     <string>uni044A</string>
+    <key>CySmHardSgn.Bulg</key>
+    <string>uni044A.Bulg</string>
     <key>CySmHardSgn.sc</key>
     <string>uni044A.sc</string>
     <key>CySmI</key>
     <string>uni0438</string>
+    <key>CySmI.Bulg</key>
+    <string>uni0438.Bulg</string>
+    <key>CySmI.Bulg.sc</key>
+    <string>uni0438.Bulg.sc</string>
     <key>CySmI.sc</key>
     <string>uni0438.sc</string>
     <key>CySmIDiaer</key>
@@ -6052,6 +6129,10 @@
     <string>uni04E5.sc</string>
     <key>CySmIGrave</key>
     <string>uni045D</string>
+    <key>CySmIGrave.Bulg</key>
+    <string>uni045D.Bulg</string>
+    <key>CySmIGrave.Bulg.sc</key>
+    <string>uni045D.Bulg.sc</string>
     <key>CySmIGrave.sc</key>
     <string>uni045D.sc</string>
     <key>CySmIMacron</key>
@@ -6088,6 +6169,10 @@
     <string>uni0458.sc</string>
     <key>CySmKa</key>
     <string>uni043A</string>
+    <key>CySmKa.Bulg</key>
+    <string>uni043A.Bulg</string>
+    <key>CySmKa.Bulg.sc</key>
+    <string>uni043A.Bulg.sc</string>
     <key>CySmKa.sc</key>
     <string>uni043A.sc</string>
     <key>CySmKaDesc</key>
@@ -6182,6 +6267,8 @@
     <string>uni04CF</string>
     <key>CySmPe</key>
     <string>uni043F</string>
+    <key>CySmPe.Bulg</key>
+    <string>uni043F.Bulg</string>
     <key>CySmPe.Serb</key>
     <string>uni043F.Serb</string>
     <key>CySmPe.sc</key>
@@ -6222,10 +6309,14 @@
     <string>uni048D.sc</string>
     <key>CySmSha</key>
     <string>uni0448</string>
+    <key>CySmSha.Bulg</key>
+    <string>uni0448.Bulg</string>
     <key>CySmSha.sc</key>
     <string>uni0448.sc</string>
     <key>CySmShcha</key>
     <string>uni0449</string>
+    <key>CySmShcha.Bulg</key>
+    <string>uni0449.Bulg</string>
     <key>CySmShcha.sc</key>
     <string>uni0449.sc</string>
     <key>CySmShha</key>
@@ -6242,6 +6333,10 @@
     <string>uniF32D</string>
     <key>CySmShortI</key>
     <string>uni0439</string>
+    <key>CySmShortI.Bulg</key>
+    <string>uni0439.Bulg</string>
+    <key>CySmShortI.Bulg.sc</key>
+    <string>uni0439.Bulg.sc</string>
     <key>CySmShortI.sc</key>
     <string>uni0439.sc</string>
     <key>CySmShortITail</key>
@@ -6254,6 +6349,8 @@
     <string>uni045E.sc</string>
     <key>CySmSoftSgn</key>
     <string>uni044C</string>
+    <key>CySmSoftSgn.Bulg</key>
+    <string>uni044C.Bulg</string>
     <key>CySmSoftSgn.sc</key>
     <string>uni044C.sc</string>
     <key>CySmStraightU</key>
@@ -6266,6 +6363,8 @@
     <string>uni04B1.sc</string>
     <key>CySmTe</key>
     <string>uni0442</string>
+    <key>CySmTe.Bulg</key>
+    <string>uni0442.Bulg</string>
     <key>CySmTe.Serb</key>
     <string>uni0442.Serb</string>
     <key>CySmTe.sc</key>
@@ -6276,6 +6375,8 @@
     <string>uni04AD.sc</string>
     <key>CySmTse</key>
     <string>uni0446</string>
+    <key>CySmTse.Bulg</key>
+    <string>uni0446.Bulg</string>
     <key>CySmTse.sc</key>
     <string>uni0446.sc</string>
     <key>CySmTshe</key>
@@ -6304,6 +6405,8 @@
     <string>uni0454.sc</string>
     <key>CySmVe</key>
     <string>uni0432</string>
+    <key>CySmVe.Bulg</key>
+    <string>uni0432.Bulg</string>
     <key>CySmVe.sc</key>
     <string>uni0432.sc</string>
     <key>CySmWe</key>
@@ -6336,10 +6439,14 @@
     <string>uni0457.sc</string>
     <key>CySmYu</key>
     <string>uni044E</string>
+    <key>CySmYu.Bulg</key>
+    <string>uni044E.Bulg</string>
     <key>CySmYu.sc</key>
     <string>uni044E.sc</string>
     <key>CySmZe</key>
     <string>uni0437</string>
+    <key>CySmZe.Bulg</key>
+    <string>uni0437.Bulg</string>
     <key>CySmZe.sc</key>
     <string>uni0437.sc</string>
     <key>CySmZeDesc</key>
@@ -6352,6 +6459,10 @@
     <string>uni04DF.sc</string>
     <key>CySmZhe</key>
     <string>uni0436</string>
+    <key>CySmZhe.Bulg</key>
+    <string>uni0436.Bulg</string>
+    <key>CySmZhe.Bulg.sc</key>
+    <string>uni0436.Bulg.sc</string>
     <key>CySmZhe.sc</key>
     <string>uni0436.sc</string>
     <key>CySmZheBreve</key>
