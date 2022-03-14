@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="TripleVertBar" format="2">
-  <advance width="835"/>
+  <advance width="1165"/>
   <unicode hex="2980"/>
-  <anchor x="418" y="-600" name="L"/>
-  <anchor x="415" y="1690" name="U"/>
+  <anchor x="584" y="-600" name="L"/>
+  <anchor x="581" y="1690" name="U"/>
   <outline>
     <component base="LtnLateralClick"/>
+    <contour>
+      <point x="867" y="-500" type="line"/>
+      <point x="900" y="-489"/>
+      <point x="978" y="-459"/>
+      <point x="1002" y="-438" type="curve"/>
+      <point x="1002" y="1518" type="line"/>
+      <point x="956" y="1550" type="line"/>
+      <point x="917" y="1540"/>
+      <point x="859" y="1513"/>
+      <point x="822" y="1491" type="curve"/>
+      <point x="822" y="-467" type="line"/>
+    </contour>
   </outline>
 </glyph>
