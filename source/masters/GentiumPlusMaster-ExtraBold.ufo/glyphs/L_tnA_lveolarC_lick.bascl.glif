@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnAlveolarClick.bascl" format="2">
   <advance width="792"/>
-  <anchor x="395" y="-600" name="L"/>
+  <anchor x="395" y="-100" name="L"/>
   <anchor x="395" y="1690" name="U"/>
   <outline>
-    <component base="LtnAlveolarClick"/>
+    <contour>
+      <point x="349" y="-33" type="line"/>
+      <point x="382" y="-22"/>
+      <point x="460" y="8"/>
+      <point x="484" y="29" type="curve"/>
+      <point x="484" y="1518" type="line"/>
+      <point x="438" y="1550" type="line"/>
+      <point x="399" y="1540"/>
+      <point x="341" y="1513"/>
+      <point x="304" y="1491" type="curve"/>
+      <point x="304" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="55" y="520" type="line"/>
+      <point x="729" y="520" type="line"/>
+      <point x="739" y="542"/>
+      <point x="764" y="597"/>
+      <point x="772" y="626" type="curve"/>
+      <point x="737" y="660" type="line"/>
+      <point x="63" y="660" type="line"/>
+      <point x="50" y="634"/>
+      <point x="27" y="583"/>
+      <point x="20" y="554" type="curve"/>
+    </contour>
+    <contour>
+      <point x="55" y="790" type="line"/>
+      <point x="729" y="790" type="line"/>
+      <point x="739" y="812"/>
+      <point x="764" y="867"/>
+      <point x="772" y="896" type="curve"/>
+      <point x="737" y="930" type="line"/>
+      <point x="63" y="930" type="line"/>
+      <point x="50" y="904"/>
+      <point x="27" y="853"/>
+      <point x="20" y="824" type="curve"/>
+    </contour>
   </outline>
 </glyph>

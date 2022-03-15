@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnDentalClick.bascl" format="2">
   <advance width="490"/>
-  <anchor x="245" y="-600" name="L"/>
+  <anchor x="245" y="-100" name="L"/>
   <anchor x="242" y="1690" name="U"/>
   <outline>
-    <component base="LtnDentalClick"/>
+    <contour>
+      <point x="311" y="8"/>
+      <point x="335" y="29" type="curve"/>
+      <point x="335" y="1518" type="line"/>
+      <point x="289" y="1550" type="line"/>
+      <point x="250" y="1540"/>
+      <point x="192" y="1513"/>
+      <point x="155" y="1491" type="curve"/>
+      <point x="155" y="0" type="line"/>
+      <point x="200" y="-33" type="line"/>
+      <point x="233" y="-22"/>
+    </contour>
   </outline>
 </glyph>
