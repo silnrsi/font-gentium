@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombTripleAcute" format="2">
+  <unicode hex="1ACB"/>
+  <anchor x="-249" y="1524" name="U"/>
+  <anchor x="-394" y="1000" name="_U"/>
+  <outline>
+    <component base="CombDblAcute"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

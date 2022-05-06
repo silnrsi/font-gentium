@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmDzRetrHook" format="2">
+  <advance width="1802"/>
+  <unicode hex="AB66"/>
+  <anchor x="885" y="-100" name="L"/>
+  <anchor x="881" y="1690" name="U"/>
+  <outline>
+    <component base="LtnSmDzDigraph"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

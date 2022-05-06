@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmYOgonek" format="2">
+  <advance width="1010"/>
+  <anchor x="770" y="-100" name="L"/>
+  <anchor x="1044" y="900" name="R"/>
+  <anchor x="530" y="1050" name="U"/>
+  <outline>
+    <component base="LtnSmYLoop"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmAEgAlef.SngStory" format="2">
+  <advance width="1023"/>
+  <unicode hex="A7BB"/>
+  <anchor x="532" y="0" name="H"/>
+  <anchor x="544" y="-100" name="L"/>
+  <anchor x="790" y="0" name="O"/>
+  <anchor x="1023" y="900" name="R"/>
+  <anchor x="544" y="1050" name="U"/>
+  <outline>
+    <component base="LtnSmAlpha"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

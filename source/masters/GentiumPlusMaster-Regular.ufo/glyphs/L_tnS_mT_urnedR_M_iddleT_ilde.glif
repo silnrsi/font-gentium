@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmTurnedRMiddleTilde" format="2">
+  <advance width="811"/>
+  <unicode hex="AB68"/>
+  <anchor x="418" y="-100" name="L"/>
+  <anchor x="418" y="1050" name="U"/>
+  <outline>
+    <component base="LtnSmTurnedR"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>
