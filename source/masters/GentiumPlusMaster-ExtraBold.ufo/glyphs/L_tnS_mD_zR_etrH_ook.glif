@@ -6,6 +6,27 @@
   <anchor x="881" y="1690" name="U"/>
   <outline>
     <component base="LtnSmDzDigraph"/>
+    <contour>
+      <point x="2122" y="-317"/>
+      <point x="2112" y="-184" type="curve"/>
+      <point x="2086" y="-130" type="line"/>
+      <point x="2032" y="-122"/>
+      <point x="1845" y="-210"/>
+      <point x="1856" y="-224" type="curve" smooth="yes"/>
+      <point x="1895" y="-273"/>
+      <point x="1882" y="-365"/>
+      <point x="1807" y="-365" type="curve" smooth="yes"/>
+      <point x="1751" y="-365"/>
+      <point x="1719" y="-319"/>
+      <point x="1720" y="-166" type="curve" smooth="yes"/>
+      <point x="1725" y="357" type="line"/>
+      <point x="1590" y="90" type="line"/>
+      <point x="1590" y="-247" type="line" smooth="yes"/>
+      <point x="1590" y="-432"/>
+      <point x="1691" y="-500"/>
+      <point x="1813" y="-500" type="curve" smooth="yes"/>
+      <point x="1963" y="-500"/>
+    </contour>
   </outline>
   <lib>
     <dict>
