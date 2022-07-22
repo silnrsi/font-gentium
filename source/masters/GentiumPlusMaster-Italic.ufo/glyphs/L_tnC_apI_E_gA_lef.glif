@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnCapIEgAlef" format="2">
-  <advance width="573"/>
+  <advance width="936"/>
   <unicode hex="A7BC"/>
-  <anchor x="225" y="0" name="H"/>
-  <anchor x="211" y="-100" name="L"/>
-  <anchor x="285" y="0" name="O"/>
-  <anchor x="568" y="1072" name="R"/>
-  <anchor x="406" y="1320" name="U"/>
+  <anchor x="588" y="0" name="H"/>
+  <anchor x="574" y="-100" name="L"/>
+  <anchor x="648" y="0" name="O"/>
+  <anchor x="931" y="1072" name="R"/>
+  <anchor x="769" y="1320" name="U"/>
   <outline>
-    <component base="LtnCapI"/>
+    <component base="LtnCapI" xOffset="363"/>
+    <contour>
+      <point x="349" y="1317" type="curve"/>
+      <point x="313" y="1317"/>
+      <point x="185" y="1273"/>
+      <point x="162" y="1259" type="curve"/>
+      <point x="167" y="1229" type="line"/>
+      <point x="279" y="1233"/>
+      <point x="319" y="1181"/>
+      <point x="319" y="1120" type="curve" smooth="yes"/>
+      <point x="319" y="1023"/>
+      <point x="233" y="936"/>
+      <point x="137" y="886" type="curve"/>
+      <point x="164" y="861" type="line"/>
+      <point x="298" y="925"/>
+      <point x="468" y="1060"/>
+      <point x="468" y="1195" type="curve" smooth="yes"/>
+      <point x="468" y="1257"/>
+      <point x="433" y="1306"/>
+    </contour>
   </outline>
   <lib>
     <dict>
