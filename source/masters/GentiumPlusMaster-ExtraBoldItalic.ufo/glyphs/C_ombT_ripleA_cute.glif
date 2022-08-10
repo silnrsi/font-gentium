@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombTripleAcute" format="2">
   <unicode hex="1ACB"/>
-  <anchor x="-249" y="1524" name="U"/>
-  <anchor x="-394" y="1000" name="_U"/>
+  <anchor x="-399" y="1524" name="U"/>
+  <anchor x="-544" y="1000" name="_U"/>
   <outline>
-    <component base="CombDblAcute"/>
+    <contour>
+      <point x="113" y="1383" type="line"/>
+      <point x="87" y="1454" type="line"/>
+      <point x="67" y="1464"/>
+      <point x="-47" y="1492"/>
+      <point x="-73" y="1496" type="curve"/>
+      <point x="-293" y="1072" type="line"/>
+      <point x="-275" y="1056"/>
+      <point x="-226" y="1024"/>
+      <point x="-206" y="1022" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-187" y="1383" type="line"/>
+      <point x="-213" y="1454" type="line"/>
+      <point x="-233" y="1464"/>
+      <point x="-347" y="1492"/>
+      <point x="-373" y="1496" type="curve"/>
+      <point x="-593" y="1072" type="line"/>
+      <point x="-575" y="1056"/>
+      <point x="-526" y="1024"/>
+      <point x="-506" y="1022" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-487" y="1383" type="line"/>
+      <point x="-513" y="1454" type="line"/>
+      <point x="-533" y="1464"/>
+      <point x="-647" y="1492"/>
+      <point x="-673" y="1496" type="curve"/>
+      <point x="-893" y="1072" type="line"/>
+      <point x="-875" y="1056"/>
+      <point x="-826" y="1024"/>
+      <point x="-806" y="1022" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>

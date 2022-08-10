@@ -1,10 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombDblPlusSgnBlw" format="2">
   <unicode hex="1ACA"/>
-  <anchor x="-577" y="-600" name="L"/>
-  <anchor x="-508" y="-100" name="_L"/>
+  <anchor x="-680" y="-600" name="L"/>
+  <anchor x="-611" y="-100" name="_L"/>
   <outline>
-    <component base="CombPlusSgnBlw"/>
+    <contour>
+      <point x="-280" y="-105" type="line"/>
+      <point x="-295" y="-91" type="line"/>
+      <point x="-313" y="-95"/>
+      <point x="-364" y="-110"/>
+      <point x="-380" y="-114" type="curve"/>
+      <point x="-436" y="-507" type="line"/>
+      <point x="-422" y="-520" type="line"/>
+      <point x="-403" y="-516"/>
+      <point x="-351" y="-503"/>
+      <point x="-334" y="-495" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-129" y="-277" type="curve"/>
+      <point x="-141" y="-262" type="line"/>
+      <point x="-562" y="-262" type="line"/>
+      <point x="-571" y="-278"/>
+      <point x="-591" y="-319"/>
+      <point x="-598" y="-335" type="curve"/>
+      <point x="-585" y="-349" type="line"/>
+      <point x="-164" y="-349" type="line"/>
+      <point x="-155" y="-336"/>
+      <point x="-134" y="-293"/>
+    </contour>
+    <contour>
+      <point x="-842" y="-105" type="line"/>
+      <point x="-857" y="-91" type="line"/>
+      <point x="-875" y="-95"/>
+      <point x="-926" y="-110"/>
+      <point x="-942" y="-114" type="curve"/>
+      <point x="-998" y="-507" type="line"/>
+      <point x="-984" y="-520" type="line"/>
+      <point x="-965" y="-516"/>
+      <point x="-913" y="-503"/>
+      <point x="-896" y="-495" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-681" y="-277" type="curve"/>
+      <point x="-693" y="-262" type="line"/>
+      <point x="-1114" y="-262" type="line"/>
+      <point x="-1123" y="-278"/>
+      <point x="-1143" y="-319"/>
+      <point x="-1150" y="-335" type="curve"/>
+      <point x="-1137" y="-349" type="line"/>
+      <point x="-716" y="-349" type="line"/>
+      <point x="-707" y="-336"/>
+      <point x="-686" y="-293"/>
+    </contour>
   </outline>
   <lib>
     <dict>
