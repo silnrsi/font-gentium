@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmTurnedRMiddleTilde" format="2">
-  <advance width="931"/>
+  <advance width="971"/>
   <unicode hex="AB68"/>
   <anchor x="401" y="-100" name="L"/>
   <anchor x="601" y="1000" name="U"/>
   <outline>
     <component base="LtnSmTurnedR"/>
+    <component base="CombTilde" xOffset="976" yOffset="-750"/>
   </outline>
   <lib>
     <dict>
