@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="BallotBox" format="2">
+  <advance width="1220"/>
+  <unicode hex="2610"/>
+  <outline>
+    <contour>
+      <point x="184" y="164" type="line"/>
+      <point x="211" y="171"/>
+      <point x="245" y="179"/>
+      <point x="271" y="192" type="curve"/>
+      <point x="271" y="1066" type="line"/>
+      <point x="245" y="1091" type="line"/>
+      <point x="218" y="1085"/>
+      <point x="182" y="1020"/>
+      <point x="160" y="1010" type="curve"/>
+      <point x="160" y="182" type="line"/>
+    </contour>
+    <contour>
+      <point x="1069" y="989" type="line"/>
+      <point x="1079" y="1009"/>
+      <point x="1092" y="1049"/>
+      <point x="1100" y="1078" type="curve"/>
+      <point x="1075" y="1100" type="line"/>
+      <point x="190" y="1100" type="line"/>
+      <point x="179" y="1076"/>
+      <point x="167" y="1040"/>
+      <point x="160" y="1011" type="curve"/>
+      <point x="185" y="989" type="line"/>
+    </contour>
+    <contour>
+      <point x="1100" y="249" type="curve"/>
+      <point x="1100" y="1077" type="line"/>
+      <point x="1074" y="1094" type="line"/>
+      <point x="1047" y="1088"/>
+      <point x="1011" y="1081"/>
+      <point x="989" y="1071" type="curve"/>
+      <point x="989" y="183" type="line"/>
+      <point x="1013" y="160" type="line"/>
+      <point x="1040" y="167"/>
+      <point x="1074" y="236"/>
+    </contour>
+    <contour>
+      <point x="1069" y="160" type="line"/>
+      <point x="1079" y="180"/>
+      <point x="1092" y="220"/>
+      <point x="1100" y="249" type="curve"/>
+      <point x="1075" y="271" type="line"/>
+      <point x="190" y="271" type="line"/>
+      <point x="179" y="247"/>
+      <point x="167" y="211"/>
+      <point x="160" y="182" type="curve"/>
+      <point x="185" y="160" type="line"/>
+    </contour>
+  </outline>
+</glyph>
