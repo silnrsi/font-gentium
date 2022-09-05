@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombDottedAcute" format="2">
-  <advance width="968"/>
   <unicode hex="1DC1"/>
-  <anchor x="484" y="1050" name="_U"/>
+  <anchor x="-555" y="1050" name="_U"/>
   <outline>
-    <component base="GrDialOxia"/>
+    <contour>
+      <point x="-86" y="1165"/>
+      <point x="-86" y="1270" type="curve" smooth="yes"/>
+      <point x="-86" y="1357"/>
+      <point x="-136" y="1400"/>
+      <point x="-216" y="1400" type="curve" smooth="yes"/>
+      <point x="-304" y="1400"/>
+      <point x="-386" y="1316"/>
+      <point x="-386" y="1210" type="curve" smooth="yes"/>
+      <point x="-386" y="1125"/>
+      <point x="-339" y="1080"/>
+      <point x="-256" y="1080" type="curve" smooth="yes"/>
+      <point x="-164" y="1080"/>
+    </contour>
+    <contour>
+      <point x="-760" y="1090" type="curve"/>
+      <point x="-178" y="1548" type="line"/>
+      <point x="-229" y="1613" type="line"/>
+      <point x="-280" y="1601"/>
+      <point x="-479" y="1568"/>
+      <point x="-522" y="1552" type="curve"/>
+      <point x="-858" y="1139" type="line"/>
+      <point x="-835" y="1119"/>
+      <point x="-782" y="1095"/>
+    </contour>
+    <contour>
+      <point x="-724" y="1378"/>
+      <point x="-724" y="1483" type="curve" smooth="yes"/>
+      <point x="-724" y="1570"/>
+      <point x="-774" y="1613"/>
+      <point x="-854" y="1613" type="curve" smooth="yes"/>
+      <point x="-942" y="1613"/>
+      <point x="-1024" y="1529"/>
+      <point x="-1024" y="1423" type="curve" smooth="yes"/>
+      <point x="-1024" y="1338"/>
+      <point x="-977" y="1293"/>
+      <point x="-894" y="1293" type="curve" smooth="yes"/>
+      <point x="-802" y="1293"/>
+    </contour>
   </outline>
 </glyph>
