@@ -3,6 +3,34 @@
   <advance width="1112"/>
   <unicode hex="2206"/>
   <outline>
-    <component base="GrCapDelta"/>
+    <contour>
+      <point x="982" y="51" type="line"/>
+      <point x="982" y="51"/>
+      <point x="795" y="924"/>
+      <point x="724" y="1317" type="curve"/>
+      <point x="690" y="1298"/>
+      <point x="639" y="1270"/>
+      <point x="608" y="1237" type="curve"/>
+      <point x="450" y="889"/>
+      <point x="50" y="51"/>
+      <point x="50" y="51" type="curve"/>
+      <point x="57" y="0" type="line"/>
+      <point x="956" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="806" y="166" type="curve"/>
+      <point x="815" y="115"/>
+      <point x="816" y="113"/>
+      <point x="698" y="113" type="curve" smooth="yes"/>
+      <point x="304" y="113" type="line" smooth="yes"/>
+      <point x="189" y="113"/>
+      <point x="190" y="115"/>
+      <point x="214" y="166" type="curve"/>
+      <point x="214" y="166"/>
+      <point x="471" y="711"/>
+      <point x="627" y="1049" type="curve"/>
+      <point x="685" y="748"/>
+      <point x="806" y="166"/>
+    </contour>
   </outline>
 </glyph>
