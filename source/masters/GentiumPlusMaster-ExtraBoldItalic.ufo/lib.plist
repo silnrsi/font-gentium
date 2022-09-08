@@ -536,7 +536,9 @@
   <string>Extra Italic</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>áå/LtnSmAHookAbv/LtnSmAEgAlef.SngStory/LtnSmAEgAlef/LtnSmIEgAlef/LtnSmUEgAlef H/LtnCapAEgAlef H/LtnCapIEgAlef TH/LtnCapUEgAlef</string>
+    <string>o/CombTripleAcute o/CombBreve o/CombAcute o/CombDblAcute o/CombGrave o/CombMacron</string>
+    <string>o/CombTripleAcute o/CombBreve o/CombAcute o/CombDblPlusSgnAbv o/CombDblAcute o/CombGrave o/CombMacron</string>
+    <string>o/CombPlusSgnBlw o/CombMacronBlw o/CombDblPlusSgnBlw o/CombBreveBlw o/CombGraveBlw</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
