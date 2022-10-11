@@ -4,17 +4,26 @@
 
 # smith
 .waf-*
+.smithpickle-*
 .lock-*
 results/**
 buildlinux2/**
 bin/**
+
+# Temporary files
+source/temp/*
+source/masters/temp/*
+source/backups/*
+*-backup.glyphs
+source/masters/*.glyphs
+documentation/source/pdftemp/*.html
+GentiumPlusMasterW*
 
 # general backup files
 *~
 *.swp
 *.autosave
 *(Autosaved)*
-
 
 # OS X
 *.DS_STORE
@@ -49,7 +58,8 @@ current.fpr
 *.bak
 *.vfbak
 *.~tt
-.idea/*
++.idea/*
+.vscode/settings.json
 
 # Shares
 .AppleDB
@@ -98,4 +108,4 @@ $RECYCLE.BIN/
 *.py[co]
 *$py.class
 __pycache__/
-settings.json
+
