@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModLateralClick" format="2">
+  <advance width="553"/>
+  <unicode hex="107B7"/>
+  <anchor x="276" y="260" name="L"/>
+  <anchor x="276" y="1634" name="U"/>
+  <outline>
+    <contour>
+      <point x="424" y="339"/>
+      <point x="441" y="351" type="curve"/>
+      <point x="441" y="1537" type="line"/>
+      <point x="416" y="1550" type="line"/>
+      <point x="388" y="1544"/>
+      <point x="369" y="1534"/>
+      <point x="343" y="1521" type="curve"/>
+      <point x="343" y="334" type="line"/>
+      <point x="368" y="320" type="line"/>
+      <point x="391" y="327"/>
+    </contour>
+    <contour>
+      <point x="193" y="339"/>
+      <point x="210" y="351" type="curve"/>
+      <point x="210" y="1537" type="line"/>
+      <point x="185" y="1550" type="line"/>
+      <point x="158" y="1544"/>
+      <point x="138" y="1534"/>
+      <point x="112" y="1521" type="curve"/>
+      <point x="112" y="334" type="line"/>
+      <point x="136" y="320" type="line"/>
+      <point x="160" y="327"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

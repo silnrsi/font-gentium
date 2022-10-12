@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModAlveolarClick" format="2">
+  <advance width="438"/>
+  <unicode hex="107B8"/>
+  <anchor x="143" y="248" name="L"/>
+  <anchor x="371" y="1592" name="U"/>
+  <outline>
+    <contour>
+      <point x="231" y="345" type="curve"/>
+      <point x="231" y="486"/>
+      <point x="379" y="1345"/>
+      <point x="413" y="1507" type="curve"/>
+      <point x="394" y="1520" type="line"/>
+      <point x="368" y="1514"/>
+      <point x="303" y="1497"/>
+      <point x="278" y="1483" type="curve"/>
+      <point x="279" y="1476"/>
+      <point x="280" y="1466"/>
+      <point x="280" y="1454" type="curve" smooth="yes"/>
+      <point x="280" y="1248"/>
+      <point x="137" y="469"/>
+      <point x="104" y="321" type="curve"/>
+      <point x="123" y="308" type="line"/>
+      <point x="145" y="313"/>
+      <point x="214" y="332"/>
+    </contour>
+    <contour>
+      <point x="69" y="842" type="line"/>
+      <point x="438" y="842" type="line"/>
+      <point x="446" y="856"/>
+      <point x="454" y="869"/>
+      <point x="459" y="883" type="curve"/>
+      <point x="446" y="896" type="line"/>
+      <point x="77" y="896" type="line"/>
+      <point x="69" y="885"/>
+      <point x="61" y="869"/>
+      <point x="56" y="857" type="curve"/>
+    </contour>
+    <contour>
+      <point x="86" y="980" type="line"/>
+      <point x="454" y="980" type="line"/>
+      <point x="463" y="994"/>
+      <point x="471" y="1007"/>
+      <point x="476" y="1021" type="curve"/>
+      <point x="463" y="1034" type="line"/>
+      <point x="94" y="1034" type="line"/>
+      <point x="86" y="1023"/>
+      <point x="78" y="1007"/>
+      <point x="72" y="995" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

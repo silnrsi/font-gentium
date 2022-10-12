@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModSupTriangularColon" format="2">
+  <advance width="400"/>
+  <unicode hex="10781"/>
+  <anchor x="200" y="560" name="L"/>
+  <anchor x="200" y="1250" name="U"/>
+  <outline>
+    <contour>
+      <point x="200" y="949" type="line"/>
+      <point x="337" y="1178" type="line"/>
+      <point x="63" y="1178" type="line"/>
+    </contour>
+    <contour>
+      <point x="200" y="849" type="line"/>
+      <point x="63" y="620" type="line"/>
+      <point x="337" y="620" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>
