@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombNumSgn" format="2">
+  <advance width="485"/>
+  <unicode hex="1AC6"/>
+  <outline>
+    <contour>
+      <point x="493" y="1478"/>
+      <point x="496" y="1491" type="curve"/>
+      <point x="483" y="1502" type="line"/>
+      <point x="113" y="1502" type="line"/>
+      <point x="108" y="1490"/>
+      <point x="100" y="1475"/>
+      <point x="97" y="1462" type="curve"/>
+      <point x="110" y="1451" type="line"/>
+      <point x="480" y="1451" type="line"/>
+      <point x="485" y="1461"/>
+    </contour>
+    <contour>
+      <point x="293" y="1146" type="curve"/>
+      <point x="451" y="1642" type="line"/>
+      <point x="438" y="1651" type="line"/>
+      <point x="422" y="1646"/>
+      <point x="407" y="1642"/>
+      <point x="392" y="1633" type="curve"/>
+      <point x="233" y="1136" type="line"/>
+      <point x="246" y="1127" type="line"/>
+      <point x="264" y="1133"/>
+      <point x="281" y="1138"/>
+    </contour>
+    <contour>
+      <point x="141" y="1146" type="curve"/>
+      <point x="300" y="1642" type="line"/>
+      <point x="286" y="1651" type="line"/>
+      <point x="271" y="1646"/>
+      <point x="256" y="1642"/>
+      <point x="241" y="1633" type="curve"/>
+      <point x="82" y="1136" type="line"/>
+      <point x="95" y="1127" type="line"/>
+      <point x="113" y="1133"/>
+      <point x="129" y="1138"/>
+    </contour>
+    <contour>
+      <point x="438" y="1312"/>
+      <point x="441" y="1323" type="curve"/>
+      <point x="430" y="1336" type="line"/>
+      <point x="59" y="1336" type="line"/>
+      <point x="53" y="1323"/>
+      <point x="47" y="1307"/>
+      <point x="44" y="1295" type="curve"/>
+      <point x="55" y="1284" type="line"/>
+      <point x="427" y="1284" type="line"/>
+      <point x="432" y="1294"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

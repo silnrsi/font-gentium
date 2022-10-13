@@ -1524,6 +1524,7 @@
     <string>CyCapGheStrkHook</string>
     <string>LtnSupSmG</string>
     <string>LtnSupSmG.SngBowl</string>
+    <string>CombLtnSmG</string>
     <string>LtnSmGAcute</string>
     <string>LtnSmGCircum</string>
     <string>LtnSmGBreve</string>
@@ -1553,6 +1554,7 @@
     <string>LtnSmRevScriptG</string>
     <string>LtnSmTurnedG</string>
     <string>LtnSmInsularG</string>
+    <string>CombLtnSmInsularG</string>
     <string>LtnSmTrndInsularG</string>
     <string>CySmKomiSje</string>
     <string>ModCapG</string>
@@ -1823,6 +1825,7 @@
     <string>CyCapDeZheLig</string>
     <string>LtnSubSmK</string>
     <string>LtnSupSmK</string>
+    <string>CombLtnSmK</string>
     <string>LtnSmKAcute</string>
     <string>LtnSmKCaron</string>
     <string>LtnSmKLineBlw</string>
@@ -2300,6 +2303,7 @@
     <string>LtnSmRRotunda</string>
     <string>LtnSmRumRotunda</string>
     <string>LtnSmInsularR</string>
+    <string>CombLtnSmInsularR</string>
     <string>LtnSmInsularS</string>
     <string>LtnSmInsularF</string>
     <string>LtnSmTurnedR</string>
@@ -2444,6 +2448,7 @@
     <string>LtnSmTeshPalHook</string>
     <string>LtnSmTzDigraph</string>
     <string>LtnSmInsularT</string>
+    <string>CombLtnSmInsularT</string>
     <string>LtnSmTurnedT</string>
     <string>LtnSmTurnedTCurl</string>
     <string>GrSmTau</string>
@@ -2619,6 +2624,7 @@
     <string>LtnCapRamsHorn</string>
     <string>LtnCapGamma</string>
     <string>CySmWe</string>
+    <string>CombLtnSmWBlw</string>
     <string>ModSmW</string>
     <string>LtnSmWAcute</string>
     <string>LtnSmWGrave</string>
@@ -2630,6 +2636,8 @@
     <string>LtnSmWHook</string>
     <string>LtnBilabialPercussive</string>
     <string>LtnSmTurnedW</string>
+    <string>CombLtnSmTurnedWBlw</string>
+    <string>CombLtnSmTurnedW</string>
     <string>LtnSmOmega</string>
     <string>GrSmOmega</string>
     <string>LtnSmClosedOmega</string>
@@ -3039,6 +3047,7 @@
     <string>CombMinusSgnBlw</string>
     <string>CombShortStrkOverlay</string>
     <string>CombLngStrkOverlay</string>
+    <string>CombNumSgn</string>
     <string>SupplRtAngleSubMkr</string>
     <string>SupplRtAngleSubMkrDot</string>
     <string>SupplLftSubBrac</string>
@@ -5532,10 +5541,20 @@
     <string>uni0369</string>
     <key>CombLtnSmE</key>
     <string>uni0364</string>
+    <key>CombLtnSmG</key>
+    <string>uni1DDA</string>
     <key>CombLtnSmH</key>
     <string>uni036A</string>
     <key>CombLtnSmI</key>
     <string>uni0365</string>
+    <key>CombLtnSmInsularG</key>
+    <string>uni1ACC</string>
+    <key>CombLtnSmInsularR</key>
+    <string>uni1ACD</string>
+    <key>CombLtnSmInsularT</key>
+    <string>uni1ACE</string>
+    <key>CombLtnSmK</key>
+    <string>uni1DDC</string>
     <key>CombLtnSmM</key>
     <string>uni036B</string>
     <key>CombLtnSmO</key>
@@ -5548,10 +5567,16 @@
     <string>uniF178</string>
     <key>CombLtnSmT</key>
     <string>uni036D</string>
+    <key>CombLtnSmTurnedW</key>
+    <string>uniAB69</string>
+    <key>CombLtnSmTurnedWBlw</key>
+    <string>uni1AC0</string>
     <key>CombLtnSmU</key>
     <string>uni0367</string>
     <key>CombLtnSmV</key>
     <string>uni036E</string>
+    <key>CombLtnSmWBlw</key>
+    <string>uni1ABF</string>
     <key>CombLtnSmX</key>
     <string>uni036F</string>
     <key>CombMacron</key>
@@ -5580,6 +5605,8 @@
     <string>uni0320</string>
     <key>CombNotTildeAbv</key>
     <string>uni034A</string>
+    <key>CombNumSgn</key>
+    <string>uni1AC6</string>
     <key>CombOgonek</key>
     <string>uni0328</string>
     <key>CombOgonek.Lrg</key>
