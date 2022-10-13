@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TripleVertBar.sc" format="2">
+  <advance width="1160"/>
+  <anchor x="580" y="-76" name="L"/>
+  <anchor x="580" y="1145" name="U"/>
+  <outline>
+    <contour>
+      <point x="535" y="-24" type="line"/>
+      <point x="568" y="-13"/>
+      <point x="646" y="17"/>
+      <point x="670" y="38" type="curve"/>
+      <point x="670" y="1033" type="line"/>
+      <point x="624" y="1065" type="line"/>
+      <point x="585" y="1055"/>
+      <point x="527" y="1028"/>
+      <point x="490" y="1006" type="curve"/>
+      <point x="490" y="9" type="line"/>
+    </contour>
+    <contour>
+      <point x="215" y="-24" type="line"/>
+      <point x="248" y="-13"/>
+      <point x="326" y="17"/>
+      <point x="350" y="38" type="curve"/>
+      <point x="350" y="1033" type="line"/>
+      <point x="304" y="1065" type="line"/>
+      <point x="265" y="1055"/>
+      <point x="207" y="1028"/>
+      <point x="170" y="1006" type="curve"/>
+      <point x="170" y="9" type="line"/>
+    </contour>
+    <contour>
+      <point x="855" y="-24" type="line"/>
+      <point x="888" y="-13"/>
+      <point x="966" y="17"/>
+      <point x="990" y="38" type="curve"/>
+      <point x="990" y="1033" type="line"/>
+      <point x="944" y="1065" type="line"/>
+      <point x="905" y="1055"/>
+      <point x="847" y="1028"/>
+      <point x="810" y="1006" type="curve"/>
+      <point x="810" y="9" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>
