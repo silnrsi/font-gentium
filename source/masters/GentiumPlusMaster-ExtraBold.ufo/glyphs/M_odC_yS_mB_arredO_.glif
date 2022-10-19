@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModCySmBarredO" format="2">
+  <advance width="763"/>
+  <unicode hex="1E04E"/>
+  <anchor x="389" y="560" name="L"/>
+  <anchor x="438" y="620" name="O"/>
+  <anchor x="841" y="1136" name="R"/>
+  <anchor x="389" y="1250" name="U"/>
+  <outline>
+    <component base="LtnSupSmBarredO"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

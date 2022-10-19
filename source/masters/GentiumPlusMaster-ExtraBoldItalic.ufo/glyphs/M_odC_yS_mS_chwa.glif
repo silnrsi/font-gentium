@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModCySmSchwa" format="2">
+  <advance width="619"/>
+  <unicode hex="1E04B"/>
+  <anchor x="296" y="548" name="L"/>
+  <anchor x="372" y="608" name="O"/>
+  <anchor x="749" y="1100" name="R"/>
+  <anchor x="402" y="1208" name="U"/>
+  <outline>
+    <component base="LtnSupSmSchwa"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>
