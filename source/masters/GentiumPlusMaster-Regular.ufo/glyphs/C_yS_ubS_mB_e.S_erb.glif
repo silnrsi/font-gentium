@@ -4,60 +4,7 @@
   <anchor x="342" y="-260" name="L"/>
   <anchor x="371" y="814" name="U"/>
   <outline>
-    <contour>
-      <point x="556" y="631"/>
-      <point x="621" y="686" type="curve"/>
-      <point x="615" y="696"/>
-      <point x="609" y="704"/>
-      <point x="603" y="708" type="curve"/>
-      <point x="591" y="703"/>
-      <point x="578" y="701"/>
-      <point x="565" y="701" type="curve" smooth="yes"/>
-      <point x="507" y="701"/>
-      <point x="396" y="719"/>
-      <point x="324" y="719" type="curve" smooth="yes"/>
-      <point x="215" y="719"/>
-      <point x="132" y="653"/>
-      <point x="132" y="552" type="curve" smooth="yes"/>
-      <point x="132" y="475"/>
-      <point x="188" y="420"/>
-      <point x="298" y="349" type="curve" smooth="yes"/>
-      <point x="451" y="251"/>
-      <point x="520" y="193"/>
-      <point x="520" y="62" type="curve" smooth="yes"/>
-      <point x="520" y="-78"/>
-      <point x="434" y="-152"/>
-      <point x="352" y="-152" type="curve" smooth="yes"/>
-      <point x="242" y="-152"/>
-      <point x="153" y="-46"/>
-      <point x="153" y="86" type="curve" smooth="yes"/>
-      <point x="153" y="194"/>
-      <point x="225" y="291"/>
-      <point x="370" y="330" type="curve"/>
-      <point x="352" y="379" type="line"/>
-      <point x="159" y="334"/>
-      <point x="52" y="210"/>
-      <point x="52" y="53" type="curve" smooth="yes"/>
-      <point x="52" y="-84"/>
-      <point x="144" y="-219"/>
-      <point x="335" y="-219" type="curve" smooth="yes"/>
-      <point x="491" y="-219"/>
-      <point x="631" y="-67"/>
-      <point x="631" y="94" type="curve" smooth="yes"/>
-      <point x="631" y="252"/>
-      <point x="550" y="309"/>
-      <point x="382" y="410" type="curve" smooth="yes"/>
-      <point x="269" y="478"/>
-      <point x="206" y="534"/>
-      <point x="206" y="579" type="curve" smooth="yes"/>
-      <point x="206" y="631"/>
-      <point x="253" y="653"/>
-      <point x="306" y="653" type="curve" smooth="yes"/>
-      <point x="360" y="653"/>
-      <point x="468" y="599"/>
-      <point x="501" y="599" type="curve" smooth="yes"/>
-      <point x="519" y="599"/>
-    </contour>
+    <component base="ModCySmBe.Serb" yOffset="-820"/>
   </outline>
   <lib>
     <dict>

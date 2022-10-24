@@ -5,34 +5,7 @@
   <anchor x="397" y="-260" name="L"/>
   <anchor x="397" y="430" name="U"/>
   <outline>
-    <contour>
-      <point x="721" y="-69"/>
-      <point x="721" y="91" type="curve" smooth="yes"/>
-      <point x="721" y="255"/>
-      <point x="592" y="376"/>
-      <point x="396" y="376" type="curve" smooth="yes"/>
-      <point x="186" y="376"/>
-      <point x="42" y="225"/>
-      <point x="42" y="66" type="curve" smooth="yes"/>
-      <point x="42" y="-97"/>
-      <point x="171" y="-218"/>
-      <point x="368" y="-218" type="curve" smooth="yes"/>
-      <point x="559" y="-218"/>
-    </contour>
-    <contour>
-      <point x="522" y="188"/>
-      <point x="522" y="61" type="curve" smooth="yes"/>
-      <point x="522" y="-70"/>
-      <point x="492" y="-140"/>
-      <point x="388" y="-140" type="curve" smooth="yes"/>
-      <point x="302" y="-140"/>
-      <point x="241" y="-43"/>
-      <point x="241" y="84" type="curve" smooth="yes"/>
-      <point x="241" y="206"/>
-      <point x="268" y="298"/>
-      <point x="375" y="298" type="curve" smooth="yes"/>
-      <point x="471" y="298"/>
-    </contour>
+    <component base="ModCySmO" yOffset="-820"/>
   </outline>
   <lib>
     <dict>

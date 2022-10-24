@@ -5,45 +5,7 @@
   <anchor x="399" y="-260" name="L"/>
   <anchor x="399" y="430" name="U"/>
   <outline>
-    <contour>
-      <point x="340" y="358" type="line"/>
-      <point x="38" y="358" type="line"/>
-      <point x="38" y="332" type="line"/>
-      <point x="106" y="321"/>
-      <point x="136" y="305"/>
-      <point x="136" y="296" type="curve" smooth="yes"/>
-      <point x="136" y="-138" type="line" smooth="yes"/>
-      <point x="136" y="-148"/>
-      <point x="102" y="-163"/>
-      <point x="38" y="-174" type="curve"/>
-      <point x="38" y="-200" type="line"/>
-      <point x="615" y="-200" type="line" smooth="yes"/>
-      <point x="653" y="-200"/>
-      <point x="678" y="-319"/>
-      <point x="672" y="-428" type="curve"/>
-      <point x="705" y="-428" type="line"/>
-      <point x="724" y="-381"/>
-      <point x="757" y="-243"/>
-      <point x="763" y="-158" type="curve"/>
-      <point x="745" y="-146" type="line"/>
-      <point x="637" y="-146" type="line"/>
-      <point x="637" y="296" type="line" smooth="yes"/>
-      <point x="637" y="306"/>
-      <point x="672" y="321"/>
-      <point x="735" y="332" type="curve"/>
-      <point x="735" y="358" type="line"/>
-      <point x="455" y="358" type="line"/>
-      <point x="455" y="332" type="line"/>
-      <point x="523" y="321"/>
-      <point x="532" y="305"/>
-      <point x="532" y="296" type="curve" smooth="yes"/>
-      <point x="532" y="-146" type="line"/>
-      <point x="241" y="-146" type="line"/>
-      <point x="241" y="297" type="line" smooth="yes"/>
-      <point x="241" y="308"/>
-      <point x="279" y="322"/>
-      <point x="340" y="332" type="curve"/>
-    </contour>
+    <component base="ModCySmTse" yOffset="-820"/>
   </outline>
   <lib>
     <dict>

@@ -4,41 +4,7 @@
   <anchor x="379" y="-260" name="L"/>
   <anchor x="379" y="430" name="U"/>
   <outline>
-    <contour>
-      <point x="633" y="287"/>
-      <point x="636" y="341" type="curve"/>
-      <point x="610" y="358" type="line"/>
-      <point x="228" y="358" type="line"/>
-      <point x="211" y="280" type="line"/>
-      <point x="484" y="280" type="line" smooth="yes"/>
-      <point x="513" y="280"/>
-      <point x="533" y="225"/>
-      <point x="538" y="149" type="curve"/>
-      <point x="598" y="149" type="line"/>
-      <point x="610" y="183"/>
-    </contour>
-    <contour>
-      <point x="31" y="-200" type="line"/>
-      <point x="424" y="-200" type="line"/>
-      <point x="424" y="-150" type="line"/>
-      <point x="332" y="-138"/>
-      <point x="312" y="-127"/>
-      <point x="312" y="-111" type="curve" smooth="yes"/>
-      <point x="312" y="297" type="line" smooth="yes"/>
-      <point x="312" y="305"/>
-      <point x="336" y="312"/>
-      <point x="388" y="315" type="curve"/>
-      <point x="388" y="358" type="line"/>
-      <point x="31" y="358" type="line"/>
-      <point x="31" y="308" type="line"/>
-      <point x="88" y="300"/>
-      <point x="122" y="282"/>
-      <point x="122" y="275" type="curve" smooth="yes"/>
-      <point x="122" y="-111" type="line" smooth="yes"/>
-      <point x="122" y="-128"/>
-      <point x="83" y="-142"/>
-      <point x="31" y="-150" type="curve"/>
-    </contour>
+    <component base="ModCySmGhe.Serb" yOffset="-820"/>
   </outline>
   <lib>
     <dict>
