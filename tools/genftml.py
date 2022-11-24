@@ -98,8 +98,8 @@ for test in test_lst:
         style += 'I' if fn.find('BoldItalic') != -1 else ''
         arg_lst.extend(["-s", "../results/{}={}{}".format(fn, family, style)])
     # TODO: kludgy way to add columns for v5 and Doulos, assumes tests/reference folder
-    arg_lst.extend(["-s", "../references/v6001/GentiumPlus-Regular.ttf=GRv6"])
-    arg_lst.extend(["-s", "../references/v6001/GentiumPlus-Italic.ttf=GIv6"])
+    arg_lst.extend(["-s", "../references/v6101/GentiumPlus-Regular.ttf=GRv6"])
+    arg_lst.extend(["-s", "../references/v6101/GentiumPlus-Italic.ttf=GIv6"])
     # arg_lst.extend(["-s", "../references/v5/CharisSIL-Regular.ttf=CRv5"])
     # arg_lst.extend(["-s", "../references/v5/CharisSIL-Italic.ttf=CIv5"])
     # arg_lst.extend(["-s", "../references/b1/DoulosSIL-Regular.ttf=DRb1"])
