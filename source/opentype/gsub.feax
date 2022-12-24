@@ -86,6 +86,12 @@ lookup ss_ctx {
     sub @c_superscripts @cno_Sup' lookup ss_sub;
 } ss_ctx;
 
+lookup y_ognk_sub {
+  lookupflag 0;
+    sub LtnSmY CombOgonek by LtnSmYOgonek;
+    sub LtnSmY CombOgonek.RetroHook by LtnSmYOgonek.RetroHook;
+} y_ognk_sub;
+
 lookup sc1_sub {
   lookupflag 0;
     # sub @cno_sc by @c_sc;
@@ -109,6 +115,36 @@ lookup f_sub {
     sub LtnSmF LtnSmF LtnSmL  by LtnLigSmFSmFSmL;
     sub LtnSmF LtnSmF  by LtnLigSmFSmF;
 } f_sub;
+
+# For frac feature: 
+# See https://ilovetypography.com/OpenType/opentype-features.html for algorithm
+#  Except use a lookup block instead of just a feature block
+# Since all rules in the lookup must be of the same type, 
+#  the input sequence must be marked in all rules (so they are all type 6)
+# Subtables are applied in order until one matches, then the lkup moves to the next glyph to be processed
+# The OT spec says that frac may be implemented in apps by applying numr and dnom
+#  The slash should be handled by numr
+
+@c_slash = [Solidus FracSlash DivisionSlash];
+
+lookup frac_sub {
+  lookupflag 0;
+    sub @c_slash' by FracSlash.frac;
+    sub FracSlash.frac @cno_dnom' by @c_dnom;
+    sub @c_dnom @cno_dnom' by @c_dnom;
+    sub @cno_numr' by @c_numr;
+} frac_sub;
+
+lookup numr_sub {
+  lookupflag 0;
+    sub @cno_numr by @c_numr;
+    sub @c_slash by FracSlash.frac;
+} numr_sub;
+
+lookup dnom_sub {
+  lookupflag 0;
+    sub @cno_dnom by @c_dnom;
+} dnom_sub;
 
 # must come after lkups used by smcp (and c2sc ?)
 lookup srb_sub {
@@ -365,40 +401,27 @@ do let f = info("familyName");
    if f.find("Andika") != -1; {
 lookup one_sub {
   lookupflag 0;
-    sub DigitOne from [DigitOne.NoBase ];
-    sub SubOne from [SubOne.NoBase ];
-    sub SupOne from [SupOne.NoBase ];
+    sub @cno_NoBase by @c_NoBase;
 } one_sub;
 
 lookup four_sub {
   lookupflag 0;
-    sub DigitFour from [DigitFour.Open ];
-    sub SubFour from [SubFour.Open ];
-    sub SupFour from [SupFour.Open ];
+    sub @cno_Open by @c_Open;
 } four_sub;
 
 lookup six_sub {
   lookupflag 0;
-    sub DigitSix from [DigitSix.Diag ];
-    sub DigitNine from [DigitNine.Diag ];
-    sub SubSix from [SubSix.Diag ];
-    sub SupSix from [SupSix.Diag ];
-    sub SubNine from [SubNine.Diag ];
-    sub SupNine from [SupNine.Diag ];
+    sub @cno_Diag by @c_Diag;
 } six_sub;
 
 lookup seven_sub {
   lookupflag 0;
-    sub DigitSeven from [DigitSeven.Bar ];
-    sub SubSeven from [SubSeven.Bar ];
-    sub SupSeven from [SupSeven.Bar ];
+    sub @cno_Bar by @c_Bar;
 } seven_sub;
 
 lookup zero_sub {
   lookupflag 0;
-    sub DigitZero from [DigitZero.Slash ];
-    sub SubZero from [SubZero.Slash ];
-    sub SupZero from [SupZero.Slash ];
+    sub @cno_Slash by @c_Slash;
 } zero_sub;
 }
 
@@ -587,6 +610,11 @@ lookup yhk_sub {
     sub LtnSmYHook.RtHook.sc from [LtnSmYHook.sc ];
 } yhk_sub;
 
+lookup bascl_sub {
+  lookupflag 0;
+    sub @cno_bascl by @c_bascl;
+} bascl_sub;
+
 lookup apos_sub {
   lookupflag 0;
     sub LtnCapSaltillo from [LtnCapSaltillo.Lrg ];
@@ -764,6 +792,8 @@ feature aalt {
   feature smcp;
   feature c2sc;
 #  feature liga; #cannot include many-to-one substitutions
+  feature numr;
+  feature dnom;
 ifinfo(familyName, "Andika") {
   feature cv01; #Andika
   feature cv04; #Andika
@@ -839,6 +869,7 @@ ifinfo(familyName, "Andika") {
 feature ccmp {
   lookup di_ctx;
   lookup ss_ctx;
+  lookup y_ognk_sub;
 do let f = info("familyName");
    if f.find("Gentium") != -1; {
   lookup lpdiac_ctx; #Gentium
@@ -871,6 +902,18 @@ feature c2sc {
 feature liga {
   lookup f_sub;
 } liga;
+
+feature frac {
+  lookup frac_sub;
+} frac;
+
+feature numr {
+  lookup numr_sub;
+} numr;
+
+feature dnom {
+  lookup dnom_sub;
+} dnom;
 
 # Andika
 do let f = info("familyName");
@@ -1579,6 +1622,29 @@ feature cv68 {
 
   lookup yhk_sub;
 } cv68;
+
+feature cv69 {
+
+  cvParameters {
+      FeatUILabelNameID {
+       name 3 1 0x0409 "Baseline clicks";  # English US
+      };
+      
+      FeatUITooltipTextNameID {
+       name 3 1 0x0409 "Alternate form of clicks on baseline";  # English US
+      };
+      
+      SampleTextNameID {
+       name 3 1 0x0409 "ǀǁǂǃ⦀";  # English US
+      };
+      
+      ParamUILabelNameID {
+       name 3 1 0x0409 "Baseline";  # English US
+      };
+  };
+
+  lookup bascl_sub;
+} cv69;
 
 feature cv70 {
 

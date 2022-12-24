@@ -706,17 +706,21 @@ U+1E17" stylename="ss07_1">
     </test>
     <test label="U+1E2D
 U+1E2F
+U+1E3F
+U+1E41
 U+1E4D
 U+1E4F">
-      <comment>LtnSmITildeBlw LtnSmIDiaerAcute LtnSmOTildeAcute LtnSmOTildeDiaer</comment>
-      <string>\u001E2D\u000328\u001E2F\u000328\u001E4D\u000328\u001E4F\u000328</string>
+      <comment>LtnSmITildeBlw LtnSmIDiaerAcute LtnSmMAcute LtnSmMDotAbv LtnSmOTildeAcute LtnSmOTildeDiaer</comment>
+      <string>\u001E2D\u000328\u001E2F\u000328\u001E3F\u000328\u001E41\u000328\u001E4D\u000328\u001E4F\u000328</string>
     </test>
     <test label="U+1E2D
 U+1E2F
+U+1E3F
+U+1E41
 U+1E4D
 U+1E4F" stylename="ss07_1">
-      <comment>LtnSmITildeBlw LtnSmIDiaerAcute LtnSmOTildeAcute LtnSmOTildeDiaer</comment>
-      <string>\u001E2D\u000328\u001E2F\u000328\u001E4D\u000328\u001E4F\u000328</string>
+      <comment>LtnSmITildeBlw LtnSmIDiaerAcute LtnSmMAcute LtnSmMDotAbv LtnSmOTildeAcute LtnSmOTildeDiaer</comment>
+      <string>\u001E2D\u000328\u001E2F\u000328\u001E3F\u000328\u001E41\u000328\u001E4D\u000328\u001E4F\u000328</string>
     </test>
     <test label="U+1E51
 U+1E53">
@@ -1583,19 +1587,23 @@ U+1E2F" stylename="smcp_1_ss07_1">
       <comment>LtnSmEMacronGrave LtnSmEMacronAcute LtnSmITildeBlw LtnSmIDiaerAcute</comment>
       <string>\u001E15\u000328\u001E17\u000328\u001E2D\u000328\u001E2F\u000328</string>
     </test>
-    <test label="U+1E4D
+    <test label="U+1E3F
+U+1E41
+U+1E4D
 U+1E4F
 U+1E51
 U+1E53">
-      <comment>LtnSmOTildeAcute LtnSmOTildeDiaer LtnSmOMacronGrave LtnSmOMacronAcute</comment>
-      <string>\u001E4D\u000328\u001E4F\u000328\u001E51\u000328\u001E53\u000328</string>
+      <comment>LtnSmMAcute LtnSmMDotAbv LtnSmOTildeAcute LtnSmOTildeDiaer LtnSmOMacronGrave LtnSmOMacronAcute</comment>
+      <string>\u001E3F\u000328\u001E41\u000328\u001E4D\u000328\u001E4F\u000328\u001E51\u000328\u001E53\u000328</string>
     </test>
-    <test label="U+1E4D
+    <test label="U+1E3F
+U+1E41
+U+1E4D
 U+1E4F
 U+1E51
 U+1E53" stylename="smcp_1_ss07_1">
-      <comment>LtnSmOTildeAcute LtnSmOTildeDiaer LtnSmOMacronGrave LtnSmOMacronAcute</comment>
-      <string>\u001E4D\u000328\u001E4F\u000328\u001E51\u000328\u001E53\u000328</string>
+      <comment>LtnSmMAcute LtnSmMDotAbv LtnSmOTildeAcute LtnSmOTildeDiaer LtnSmOMacronGrave LtnSmOMacronAcute</comment>
+      <string>\u001E3F\u000328\u001E41\u000328\u001E4D\u000328\u001E4F\u000328\u001E51\u000328\u001E53\u000328</string>
     </test>
     <test label="U+1E79
 U+1E7B
