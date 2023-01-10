@@ -6,6 +6,16 @@
   <anchor x="550" y="1370" name="U"/>
   <outline>
     <component base="LtnCapD"/>
+    <contour>
+      <point x="1063" y="615" type="line"/>
+      <point x="1085" y="680" type="line"/>
+      <point x="1063" y="705" type="line"/>
+      <point x="277" y="705" type="line"/>
+      <point x="267" y="684"/>
+      <point x="260" y="658"/>
+      <point x="255" y="637" type="curve"/>
+      <point x="277" y="615" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

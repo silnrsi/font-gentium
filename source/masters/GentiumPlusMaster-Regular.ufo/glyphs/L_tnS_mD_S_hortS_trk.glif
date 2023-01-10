@@ -8,6 +8,16 @@
   <anchor x="525" y="1690" name="U"/>
   <outline>
     <component base="LtnSmD"/>
+    <contour>
+      <point x="838" y="415" type="line"/>
+      <point x="860" y="480" type="line"/>
+      <point x="838" y="505" type="line"/>
+      <point x="132" y="505" type="line"/>
+      <point x="122" y="484"/>
+      <point x="115" y="458"/>
+      <point x="110" y="437" type="curve"/>
+      <point x="132" y="415" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
