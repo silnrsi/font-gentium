@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmSMidLftHook" format="2">
-  <advance width="1118"/>
+  <advance width="1108"/>
   <unicode hex="1DF29"/>
-  <anchor x="712" y="0" name="H"/>
-  <anchor x="724" y="-100" name="L"/>
-  <anchor x="724" y="1050" name="U"/>
+  <anchor x="702" y="0" name="H"/>
+  <anchor x="714" y="-100" name="L"/>
+  <anchor x="714" y="1050" name="U"/>
   <outline>
-    <component base="LtnSmS" xOffset="327"/>
+    <component base="LtnSmS" xOffset="317"/>
     <contour>
       <point x="108" y="676" type="curve"/>
       <point x="151" y="676" type="line"/>
