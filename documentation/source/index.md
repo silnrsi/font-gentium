@@ -1,6 +1,6 @@
 ---
 title: Gentium - Documentation
-fontversion: 6.101
+fontversion: 6.200
 ---
 
 Thank you for your interest in the Gentium fonts. This project is intended to provide a free and open font family for all current languages and writing systems that use Latin, Cyrillic, and Greek scripts. It supports almost the complete range of Unicode characters for these scripts, including a comprehensive range of diacritics and a large set of symbols useful for linguistics and literacy work. Smart font routines automatically adjust the position of diacritics to support and optimize arbitrary base+diacritic combinations. 
