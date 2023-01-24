@@ -9,7 +9,7 @@ These OpenType features are primarily specified using four-letter tags (e.g. 'cv
 
 *Please note that Graphite support has been removed in the current release, but continues to be available in the version 5 fonts. See our [Previous Versions archive](http://software.sil.org/gentium/download/previous-versions).*
 
-This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Gentium Plus as a web font see *GentiumPlus-webfont-example.html* in the font package *web* folder. For detailed information see [Using SIL Fonts on Web Pages](http://software.sil.org/fonts/webfonts).
+This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Gentium Plus as a web font, see *GentiumPlus-webfont-example.html* in the font package *web* folder. For detailed information, see [Using SIL Fonts on Web Pages](http://software.sil.org/fonts/webfonts).
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
@@ -350,7 +350,7 @@ Cyrillic-style | <span class='gentium-R normal' style='font-feature-settings: "c
 
 #### Serbian Cyrillic alternates
 
-*These alternate forms mainly affect italic styles. Unlike other features this is activated by tagging the span of text as being in the Serbian language, not by turning on an OpenType feature. It is also not available through TypeTuner Web although a similar feature is supported (cv84).*
+*These alternate forms mainly affect italic styles. Unlike other features, this is activated by tagging the span of text as being in the Serbian language, not by turning on an OpenType feature. It is also not available through TypeTuner Web although a similar feature is supported (cv84).*
 
 <span class='affects'>Affects: U+0431 U+0433 U+0434 U+043F U+0442 U+0453</span>
 
@@ -361,7 +361,7 @@ Serbian  | <span class='gentium-I normal' lang='sr'>б г д п т ѓ</span> | `
 
 #### Macedonian Cyrillic alternates
 
-*These alternate forms mainly affect italic styles. Unlike other features this is activated by tagging the span of text as being in the Macedonian language, not by turning on an OpenType feature. It is also not available through TypeTuner Web although a similar feature is supported (cv84).*
+*These alternate forms mainly affect italic styles. Unlike other features, this is activated by tagging the span of text as being in the Macedonian language, not by turning on an OpenType feature. It is also not available through TypeTuner Web although a similar feature is supported (cv84).*
 
 <span class='affects'>Affects: U+0431 U+0433 U+0434 U+043F U+0442 U+0453</span>
 

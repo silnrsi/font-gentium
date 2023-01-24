@@ -5,7 +5,7 @@ fontversion: 6.200
 
 ## Requirements
 
-These fonts are supported by all major operating systems (macOS, Windows, Linux-based, iOS, and Android), however the extent of that support depends on the individual OS and application.
+These fonts are supported by all major operating systems (macOS, Windows, Linux-based, iOS, and Android). However, the extent of that support depends on the individual OS and application.
 
 ## Installation
 
@@ -19,11 +19,11 @@ See [Character set support](charset.md) for details of the Unicode characters su
 
 ## Rendering and application support
 
-These fonts will work normally like any other fonts in most applications. If the writing system requires special diacritic positioning the application/OS will need to support OpenType.
+These fonts will work normally like any other fonts in most applications. If the writing system requires special diacritic positioning, the application/OS will need to support OpenType.
 
-These fonts also include extensive OpenType features for small caps, literacy forms, character alernates and language-specific preferences. For information on the specific features available in these fonts see [Font features](features.md). 
+These fonts also include extensive OpenType features for small caps, literacy forms, character alernates and language-specific preferences. For information on the specific features available in these fonts, see [Font features](features.md). 
 
-If special font features are to be activated the application will need to provide a way to turn on the feature or choose the feature setting. Details of current application support, and specific techniques for activating features, are on the [Using Font Features](http://software.sil.org/fonts/features) help page.
+If special font features are to be activated, the application will need to provide a way to turn on the feature or choose the feature setting. Details of current application support, and specific techniques for activating features, are on the [Using Font Features](http://software.sil.org/fonts/features) help page.
 
 Although the current fonts support only OpenType, previous versions provided support for Graphite and AAT (Apple Advanced Typography) technologies. Graphite was supported through version 5 and AAT was supported up to version 4. These older versions remain available from our [Previous Versions archive](http://software.sil.org/charis/download/previous-versions).
 

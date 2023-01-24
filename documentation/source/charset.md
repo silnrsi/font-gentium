@@ -100,7 +100,7 @@ There are a number of private-use characters that are supported in this font. Th
 
 Some characters formerly in the PUA have been added to Unicode, and so have been deprecated in our fonts. Those PUA characters are displayed as black boxes containing a white image of the deprecated glyph.
 
-## Gentium Basic and Gentium Book Basic supported charaxcters
+## Gentium Basic and Gentium Book Basic supported characters
 
 The supported character set for Gentium Basic and Gentium Book Basic is much smaller than for the main Gentium Plus font. The *Basic* fonts support only the Basic Latin and Latin-1 Supplement Unicode ranges, plus a selection of the more commonly used extended Latin characters, with miscellaneous diacritical marks, symbols and punctuation. In particular, these fonts do not support:
 
