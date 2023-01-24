@@ -5,14 +5,14 @@ fontversion: 6.200
 
 Many questions can be answered by consulting the following FAQ pages. Here are a few sample questions answered in each FAQ:
 
-- [SIL fonts in general](http://software.sil.org/fonts/faq)
+- [SIL fonts in general](https://software.sil.org/fonts/faq)
     - *How can I type...?*
     - *How can I use font features?*
     - *Will you add support for character...?*
     - *Will you add support for script...?*
     - *WIll you help me...?*
 
-- [SIL’s Latin, Cyrillic, and Greek fonts](http://software.sil.org/lcgfonts/faq).
+- [SIL’s Latin, Cyrillic, and Greek fonts](https://software.sil.org/lcgfonts/faq).
     - *How can I type IPA symbols?*
     - *How do I use both a single-story and double-story 'a' in italic?*
     - *Why don’t my diacritics position properly?*
