@@ -66,7 +66,7 @@ Emoticons|U+1F610
 
 ## Private-use (PUA) characters
 
-There are a number of private-use characters that are supported in this font. These conform to [SIL International’s corporate registry](http://scripts.sil.org/PUA_home) for usage of the Unicode private-use areas. Characters which are not yet in Unicode are shown below. 
+There are a number of private-use characters that are supported in this font. These conform to [SIL International’s corporate registry](https://scripts.sil.org/PUA_home) for usage of the Unicode private-use areas. Characters which are not yet in Unicode are shown below. 
 
 ### Specials
 
@@ -96,7 +96,7 @@ There are a number of private-use characters that are supported in this font. Th
 
 Some characters formerly in the PUA have been added to Unicode, and so have been deprecated in our fonts. Those PUA characters are displayed as black boxes containing a white image of the deprecated glyph.
 
-## Gentium Basic and Gentium Book Basic supported charaxcters
+## Gentium Basic and Gentium Book Basic supported characters
 
 The supported character set for Gentium Basic and Gentium Book Basic is much smaller than for the main Gentium Plus font. The *Basic* fonts support only the Basic Latin and Latin-1 Supplement Unicode ranges, plus a selection of the more commonly used extended Latin characters, with miscellaneous diacritical marks, symbols and punctuation. In particular, these fonts do not support:
 

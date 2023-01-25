@@ -1,14 +1,14 @@
 
 Many questions can be answered by consulting the following FAQ pages. Here are a few sample questions answered in each FAQ:
 
-- [SIL fonts in general](http://software.sil.org/fonts/faq)
+- [SIL fonts in general](https://software.sil.org/fonts/faq)
     - *How can I type...?*
     - *How can I use font features?*
     - *Will you add support for character...?*
     - *Will you add support for script...?*
     - *WIll you help me...?*
 
-- [SIL’s Latin, Cyrillic, and Greek fonts](http://software.sil.org/lcgfonts/faq).
+- [SIL’s Latin, Cyrillic, and Greek fonts](https://software.sil.org/lcgfonts/faq).
     - *How can I type IPA symbols?*
     - *How do I use both a single-story and double-story 'a' in italic?*
     - *Why don’t my diacritics position properly?*
@@ -28,7 +28,7 @@ The preferred pronunciation is with a soft G as in ‘general’, not a hard one
 
 #### *What is GentiumAlt? (only in the original Gentium package)*
 
-It is a version of the font with redesigned diacritics (flatter ones) to make it more suitable for use with stacking diacritics, and for languages such as Vietnamese. The Greek glyphs also use the Porsonic (single-curve) design for the circumflex. Since the original Gentium fonts do not include any ‘smart’ rendering routines, there is no easy way to access these alternate diacritic shapes from within the original Gentium font. The encoding of the fonts are the same, so the same text can be viewed with either one. There is also no problem with having both font families installed at the same time.
+It is a version of the font with redesigned diacritics (flatter ones) to make it more suitable for use with stacking diacritics, and for languages such as Vietnamese. The Greek glyphs also use the Porsonic (single-curve) design for the circumflex. Since the original Gentium fonts do not include any ‘smart’ rendering routines, there is no easy way to access these alternate diacritic shapes from within the original Gentium font. The encoding of the fonts is the same, so the same text can be viewed with either one. There is also no problem with having both font families installed at the same time.
 
 #### *How are the Basic fonts (Gentium Basic, Gentium Book Basic) different from Gentium Plus?*
 

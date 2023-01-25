@@ -243,6 +243,8 @@ This release is focused on adding features and glyphs, including support for ove
 
 - The combination of U+0079 LATIN SMALL LETTER Y and U+0328 COMBINING OGONEK forms a ligature
 
+- Small cap form corrected for U+A78D LATIN CAPITAL LETTER TURNED H / U+0265 LATIN SMALL LETTER TURNED H
+
 - U+0328 COMBINING OGONEK repositioned to middle leg of U+006D LATIN SMALL LETTER M
 
 - Diacritic positioning improved for U+2183 ROMAN NUMERAL REVERSED ONE HUNDRED 
@@ -251,9 +253,9 @@ This release is focused on adding features and glyphs, including support for ove
 
 #### Notes
 
-- Special-purpose modified fonts, including *Literacy* and *Compact* versions have not been updated to version 6.200. They will be updated at the next major version (7). If you need any of the new features or characters in this version, but also need them supported in the special-purpose modified fonts please contact us.
+- Special-purpose modified fonts, including *Literacy* and *Compact* versions, have not been updated to version 6.200. They will be updated at the next major version (7). If you need any of the new features or characters in this version, but also need them supported in the special-purpose modified fonts please contact us.
 
-- The next major version (7) will address some complex pending issues and features and may include substantial changes to line spacing, glyph metrics, kerning, and even font family structure. If you have any requests for future versions please contact us as soon as possible. 
+- The next major version (7) will address some complex pending issues and features and may include substantial changes to line spacing, glyph metrics, kerning, and even font family structure. If you have any requests for future versions, please contact us as soon as possible. 
 
 ### 9 Feb 2022 (SIL WSTech Team) Gentium Plus version 6.101
 
