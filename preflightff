@@ -20,7 +20,7 @@ psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlusMaster-Ita
 psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlusMaster-ExtraBoldItalic.ufo -p backup=False
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters --complex -q source/GentiumPlusRoman.designspace source/GentiumPlusItalic.designspace
+psfsyncmasters -q source/GentiumPlusRoman.designspace source/GentiumPlusItalic.designspace
 
 # echo "-----Updating woff metadata file..."
 # psfmakewoffmetadata -q -n "GentiumPlus" -i "org.sil.fonts" -o source/GentiumPlus-WOFF-metadata.xml source/masters/GentiumPlusMaster-Regular.ufo
