@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="MetricalShortLong" format="2">
+  <advance width="730"/>
+  <unicode hex="23D3"/>
+  <anchor x="365" y="1370" name="U"/>
+  <outline>
+    <component base="Breve"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>
