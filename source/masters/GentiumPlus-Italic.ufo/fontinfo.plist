@@ -11,7 +11,9 @@
   <key>descender</key>
   <integer>-750</integer>
   <key>familyName</key>
-  <string>Gentium Plus Master</string>
+  <string>Gentium Plus</string>
+  <key>italicAngle</key>
+  <integer>-8</integer>
   <key>openTypeHeadCreated</key>
   <string>2023/06/15 13:47:07</string>
   <key>openTypeHeadFlags</key>
@@ -81,11 +83,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameManufacturerURL</key>
   <string>https://www.sil.org/</string>
   <key>openTypeNamePreferredFamilyName</key>
-  <string>Gentium Plus Master</string>
+  <string>Gentium Plus</string>
   <key>openTypeNamePreferredSubfamilyName</key>
-  <string>Extra Bold</string>
+  <string>Italic</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Gentium Plus Master Extra Bold: 2023</string>
+  <string>SIL International: Gentium Plus Italic: 2023</string>
   <key>openTypeNameVersion</key>
   <string>Version 6.901</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -103,9 +105,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <array>
     <integer>2</integer>
     <integer>0</integer>
-    <integer>9</integer>
+    <integer>5</integer>
     <integer>3</integer>
-    <integer>6</integer>
+    <integer>8</integer>
     <integer>0</integer>
     <integer>0</integer>
     <integer>2</integer>
@@ -184,7 +186,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2VendorID</key>
   <string>SIL </string>
   <key>openTypeOS2WeightClass</key>
-  <integer>800</integer>
+  <integer>400</integer>
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
@@ -195,42 +197,36 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <array>
     <integer>-41</integer>
     <integer>0</integer>
-    <integer>930</integer>
-    <integer>966</integer>
+    <integer>915</integer>
+    <integer>936</integer>
     <integer>1260</integer>
-    <integer>1320</integer>
+    <integer>1317</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>GentiumPlusMaster-ExtraBold</string>
-  <key>postscriptFullName</key>
-  <string>Gentium Plus Master Extra Bold</string>
+  <string>GentiumPlus-Italic</string>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-500</integer>
-    <integer>-480</integer>
+    <integer>-485</integer>
   </array>
   <key>postscriptStemSnapH</key>
   <array>
-    <integer>83</integer>
-    <integer>130</integer>
-    <integer>140</integer>
+    <integer>43</integer>
+    <integer>90</integer>
+    <integer>115</integer>
   </array>
   <key>postscriptStemSnapV</key>
   <array>
-    <integer>270</integer>
-    <integer>280</integer>
-    <integer>285</integer>
+    <integer>146</integer>
+    <integer>150</integer>
+    <integer>154</integer>
   </array>
   <key>postscriptUnderlinePosition</key>
   <integer>-250</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>100</integer>
-  <key>styleMapFamilyName</key>
-  <string>Gentium Plus</string>
-  <key>styleMapStyleName</key>
-  <string>bold</string>
   <key>styleName</key>
-  <string>Extra Bold</string>
+  <string>Italic</string>
   <key>trademark</key>
   <string>Gentium is a trademark of SIL International.</string>
   <key>unitsPerEm</key>

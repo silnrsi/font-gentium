@@ -533,7 +533,7 @@
   <key>com.schriftgestaltung.appVersion</key>
   <string>3151</string>
   <key>com.schriftgestaltung.customName</key>
-  <string>Extra</string>
+  <string>Extra Italic</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -541,7 +541,7 @@
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
-  <string>SIL International: Gentium Plus Master Regular: 2023</string>
+  <string>SIL International: Gentium Plus Italic: 2023</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
@@ -590,31 +590,31 @@
   <key>org.sil.lcg.toneLetters</key>
   <dict>
     <key>contourWidth</key>
-    <integer>500</integer>
+    <integer>465</integer>
     <key>dotSize</key>
-    <integer>230</integer>
+    <integer>215</integer>
     <key>dotSpacing</key>
-    <integer>160</integer>
+    <integer>155</integer>
     <key>glyphDepth</key>
-    <integer>-20</integer>
+    <integer>-30</integer>
     <key>glyphHeight</key>
-    <integer>1550</integer>
+    <integer>1520</integer>
     <key>italicAngle</key>
-    <integer>0</integer>
+    <real>7.8</real>
     <key>marginDotLeft</key>
-    <integer>85</integer>
+    <integer>20</integer>
     <key>marginDotRight</key>
-    <integer>125</integer>
+    <integer>180</integer>
     <key>marginFlatLeft</key>
-    <integer>90</integer>
+    <integer>121</integer>
     <key>marginFlatRight</key>
-    <integer>120</integer>
+    <integer>191</integer>
     <key>marginPointLeft</key>
-    <integer>65</integer>
+    <integer>5</integer>
     <key>marginPointRight</key>
-    <integer>95</integer>
+    <integer>165</integer>
     <key>strokeThickness</key>
-    <integer>150</integer>
+    <integer>145</integer>
   </dict>
   <key>org.sil.lcg.transforms</key>
   <dict>
@@ -629,11 +629,11 @@
       <key>scaleX</key>
       <real>0.515</real>
       <key>scaleY</key>
-      <real>0.46</real>
+      <real>0.47</real>
       <key>shiftX</key>
       <integer>0</integer>
       <key>shiftY</key>
-      <integer>1060</integer>
+      <integer>1070</integer>
     </dict>
     <key>combbelow</key>
     <dict>
@@ -646,7 +646,7 @@
       <key>scaleX</key>
       <real>0.515</real>
       <key>scaleY</key>
-      <real>0.46</real>
+      <real>0.47</real>
       <key>shiftX</key>
       <integer>0</integer>
       <key>shiftY</key>
@@ -665,9 +665,11 @@
       <key>scaleY</key>
       <real>0.826</real>
       <key>shiftX</key>
-      <integer>5</integer>
+      <integer>-5</integer>
       <key>shiftY</key>
       <integer>0</integer>
+      <key>skew</key>
+      <real>-0.01</real>
     </dict>
     <key>subscript</key>
     <dict>
@@ -682,9 +684,9 @@
       <key>scaleY</key>
       <real>0.6</real>
       <key>shiftX</key>
-      <integer>0</integer>
+      <integer>-55</integer>
       <key>shiftY</key>
-      <integer>-200</integer>
+      <integer>-198</integer>
     </dict>
     <key>superscript</key>
     <dict>
@@ -699,9 +701,9 @@
       <key>scaleY</key>
       <real>0.6</real>
       <key>shiftX</key>
-      <integer>0</integer>
+      <integer>45</integer>
       <key>shiftY</key>
-      <integer>620</integer>
+      <integer>608</integer>
     </dict>
   </dict>
   <key>public.glyphOrder</key>
