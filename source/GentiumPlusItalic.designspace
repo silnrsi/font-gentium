@@ -4,6 +4,7 @@
         <axis default="400.0" maximum="800.0" minimum="400.0" name="weight" tag="wght">
             <map input="400.0" output="400.0" />
             <map input="500.0" output="500.0" />
+            <map input="600.0" output="600.0" />
             <map input="700.0" output="700.0" />
             <map input="800.0" output="800.0" />
             <labelname xml:lang="en">Weight</labelname>
@@ -18,7 +19,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Gentium Plus" filename="masters/GentiumPlus-Italic.ufo" name="Gentium Plus Italic" stylename="Italic">
+        <source familyname="Gentium Plus" filename="masters/GentiumPlus-Italic.ufo" name="Gentium Plus Regular" stylename="Italic">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -29,7 +30,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Gentium Plus" filename="masters/GentiumPlus-ExtraBoldItalic.ufo" name="Gentium Plus Extra Bold Italic" stylename="Extra Bold Italic">
+        <source familyname="Gentium Plus" filename="masters/GentiumPlus-ExtraBoldItalic.ufo" name="Gentium Plus ExtraBold" stylename="ExtraBold Italic">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
