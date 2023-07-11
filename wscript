@@ -46,6 +46,7 @@ for dspace in ('Roman', 'Italic'):
                 woff = woff('web/${DS:FILENAME_BASE}.woff',
                     metadata=f'../source/{familyname}-WOFF-metadata.xml'),
                 version = VERSION,
+                shortcircuit = False,
 #                pdf=fret(params = '-r -oi')
                 )
 
