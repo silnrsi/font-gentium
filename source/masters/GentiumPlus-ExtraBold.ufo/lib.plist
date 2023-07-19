@@ -535,7 +535,10 @@
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <array/>
+  <array>
+    <string>/Breve -x/MetricalBreve x/MetricalBreve o/MetricalLongShort o/MetricalShortLong on/MetricalShortShort n/MetricalLongShortShort o/MetricalShortShortLong o</string>
+    <string>/MetricalBreve</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>

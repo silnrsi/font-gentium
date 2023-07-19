@@ -1,15 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="MetricalShortShort" format="2">
-  <advance width="730"/>
+  <advance width="1403"/>
   <unicode hex="23D6"/>
-  <anchor x="365" y="1370" name="U"/>
   <outline>
-    <component base="Breve"/>
+    <contour>
+      <point x="397" y="250" type="curve" smooth="yes"/>
+      <point x="552" y="250"/>
+      <point x="681" y="351"/>
+      <point x="739" y="536" type="curve"/>
+      <point x="665" y="536" type="line"/>
+      <point x="724" y="351"/>
+      <point x="854" y="250"/>
+      <point x="1010" y="250" type="curve" smooth="yes"/>
+      <point x="1190" y="250"/>
+      <point x="1333" y="385"/>
+      <point x="1373" y="610" type="curve"/>
+      <point x="1357" y="634"/>
+      <point x="1313" y="675"/>
+      <point x="1280" y="685" type="curve"/>
+      <point x="1250" y="553"/>
+      <point x="1140" y="462"/>
+      <point x="1006" y="462" type="curve" smooth="yes"/>
+      <point x="865" y="462"/>
+      <point x="777" y="581"/>
+      <point x="756" y="665" type="curve"/>
+      <point x="732" y="685" type="line"/>
+      <point x="707" y="685"/>
+      <point x="666" y="676"/>
+      <point x="647" y="665" type="curve"/>
+      <point x="623" y="582"/>
+      <point x="551" y="462"/>
+      <point x="393" y="462" type="curve" smooth="yes"/>
+      <point x="274" y="462"/>
+      <point x="151" y="553"/>
+      <point x="123" y="685" type="curve"/>
+      <point x="91" y="675"/>
+      <point x="46" y="634"/>
+      <point x="30" y="610" type="curve"/>
+      <point x="70" y="385"/>
+      <point x="216" y="250"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>
