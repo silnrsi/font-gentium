@@ -536,7 +536,8 @@
   <string>Extra Italic</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/Breve -x/MetricalBreve x/MetricalBreve o/MetricalLongShort o/MetricalShortLong on/MetricalShortShort n/MetricalLongShortShort o/MetricalShortShortLong o</string>
+    <string>/Breve -x/MetricalBreve x/MetricalBreve o/MetricalLongShort o/MetricalShortLong on/MetricalShortShort o/MetricalLongShortShort o/MetricalShortShortLong o</string>
+    <string>/LftDblParen/RtDblParen/WigglyVerticalLine/VerticalSixDots |l/Space/Space/Space/CombDiaer</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
