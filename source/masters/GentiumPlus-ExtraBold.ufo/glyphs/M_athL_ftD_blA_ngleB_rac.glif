@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="MathLftDblAngleBrac" format="2">
-  <advance width="1182"/>
+  <advance width="1215"/>
   <unicode hex="27EA"/>
   <outline>
-    <component base="LftPtngAngBrac"/>
+    <contour>
+      <point x="800" y="1625" type="curve"/>
+      <point x="739" y="1639" type="line"/>
+      <point x="90" y="671" type="line"/>
+      <point x="90" y="645"/>
+      <point x="96" y="596"/>
+      <point x="102" y="573" type="curve"/>
+      <point x="221" y="541" type="line"/>
+      <point x="831" y="1451" type="line"/>
+      <point x="829" y="1484"/>
+      <point x="808" y="1589"/>
+    </contour>
+    <contour>
+      <point x="102" y="573" type="line"/>
+      <point x="682" y="-308" type="line"/>
+      <point x="741" y="-301"/>
+      <point x="790" y="-289"/>
+      <point x="839" y="-275" type="curve"/>
+      <point x="840" y="-217" type="line"/>
+      <point x="243" y="688" type="line"/>
+    </contour>
+    <contour>
+      <point x="1140" y="1625" type="curve"/>
+      <point x="1079" y="1639" type="line"/>
+      <point x="430" y="671" type="line"/>
+      <point x="430" y="645"/>
+      <point x="436" y="596"/>
+      <point x="442" y="573" type="curve"/>
+      <point x="561" y="541" type="line"/>
+      <point x="1171" y="1451" type="line"/>
+      <point x="1169" y="1484"/>
+      <point x="1148" y="1589"/>
+    </contour>
+    <contour>
+      <point x="442" y="573" type="line"/>
+      <point x="1022" y="-308" type="line"/>
+      <point x="1081" y="-301"/>
+      <point x="1130" y="-289"/>
+      <point x="1179" y="-275" type="curve"/>
+      <point x="1180" y="-217" type="line"/>
+      <point x="583" y="688" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>
