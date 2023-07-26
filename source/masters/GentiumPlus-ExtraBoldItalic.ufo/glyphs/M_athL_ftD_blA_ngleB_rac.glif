@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="MathLftDblAngleBrac" format="2">
-  <advance width="981"/>
+  <advance width="1061"/>
   <unicode hex="27EA"/>
   <outline>
     <contour>
@@ -27,27 +27,27 @@
       <point x="59" y="662" type="curve"/>
     </contour>
     <contour>
-      <point x="1138" y="1606" type="curve"/>
-      <point x="1065" y="1621" type="line"/>
-      <point x="369" y="662" type="line"/>
-      <point x="380" y="634"/>
-      <point x="473" y="564"/>
-      <point x="489" y="546" type="curve"/>
-      <point x="1140" y="1445" type="line"/>
-      <point x="1142" y="1479"/>
-      <point x="1142" y="1568"/>
+      <point x="1218" y="1606" type="curve"/>
+      <point x="1145" y="1621" type="line"/>
+      <point x="449" y="662" type="line"/>
+      <point x="460" y="634"/>
+      <point x="553" y="564"/>
+      <point x="569" y="546" type="curve"/>
+      <point x="1220" y="1445" type="line"/>
+      <point x="1222" y="1479"/>
+      <point x="1222" y="1568"/>
     </contour>
     <contour>
-      <point x="364" y="611" type="line"/>
-      <point x="761" y="-308" type="line"/>
-      <point x="811" y="-302"/>
-      <point x="861" y="-292"/>
-      <point x="900" y="-279" type="curve"/>
-      <point x="917" y="-225" type="line"/>
-      <point x="527" y="670" type="line"/>
-      <point x="501" y="670"/>
-      <point x="400" y="667"/>
-      <point x="369" y="662" type="curve"/>
+      <point x="444" y="611" type="line"/>
+      <point x="841" y="-308" type="line"/>
+      <point x="891" y="-302"/>
+      <point x="941" y="-292"/>
+      <point x="980" y="-279" type="curve"/>
+      <point x="997" y="-225" type="line"/>
+      <point x="607" y="670" type="line"/>
+      <point x="581" y="670"/>
+      <point x="480" y="667"/>
+      <point x="449" y="662" type="curve"/>
     </contour>
   </outline>
   <lib>

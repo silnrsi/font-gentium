@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombDwnArrw" format="2">
   <unicode hex="1AB3"/>
-  <anchor x="-514" y="1460" name="U"/>
+  <anchor x="-514" y="1560" name="U"/>
   <anchor x="-514" y="1050" name="_U"/>
   <outline>
     <contour>
-      <point x="-494" y="1460" type="line"/>
-      <point x="-521" y="1455"/>
-      <point x="-532" y="1449"/>
-      <point x="-559" y="1429" type="curve"/>
-      <point x="-559" y="1200" type="line"/>
-      <point x="-705" y="1289" type="line"/>
-      <point x="-731" y="1233" type="line"/>
-      <point x="-514" y="1060" type="line"/>
-      <point x="-293" y="1233" type="line"/>
-      <point x="-319" y="1289" type="line"/>
-      <point x="-469" y="1200" type="line"/>
-      <point x="-469" y="1438" type="line"/>
+      <point x="-490" y="1560" type="line"/>
+      <point x="-517" y="1555"/>
+      <point x="-537" y="1549"/>
+      <point x="-564" y="1529" type="curve"/>
+      <point x="-564" y="1200" type="line"/>
+      <point x="-464" y="1200" type="line"/>
+      <point x="-464" y="1538" type="line"/>
+    </contour>
+    <contour>
+      <point x="-460" y="1071" type="line"/>
+      <point x="-198" y="1428" type="line"/>
+      <point x="-214" y="1455"/>
+      <point x="-228" y="1463"/>
+      <point x="-251" y="1475" type="curve"/>
+      <point x="-550" y="1168" type="line"/>
+      <point x="-478" y="1168" type="line"/>
+      <point x="-776" y="1475" type="line"/>
+      <point x="-798" y="1463"/>
+      <point x="-812" y="1455"/>
+      <point x="-831" y="1428" type="curve"/>
+      <point x="-567" y="1071" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
