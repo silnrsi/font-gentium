@@ -4,13 +4,9 @@
   <head>
     <fontscale>200</fontscale>
     <fontsrc label="GR">url(../results/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="GBkR">url(../results/GentiumBookPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GB">url(../results/GentiumPlus-Bold.ttf)</fontsrc>
-    <fontsrc label="GBkB">url(../results/GentiumBookPlus-Bold.ttf)</fontsrc>
     <fontsrc label="GI">url(../results/GentiumPlus-Italic.ttf)</fontsrc>
-    <fontsrc label="GBkI">url(../results/GentiumBookPlus-Italic.ttf)</fontsrc>
     <fontsrc label="GBI">url(../results/GentiumPlus-BoldItalic.ttf)</fontsrc>
-    <fontsrc label="GBkBI">url(../results/GentiumBookPlus-BoldItalic.ttf)</fontsrc>
     <fontsrc label="GRv6">url(../references/v6101/GentiumPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GIv6">url(../references/v6101/GentiumPlus-Italic.ttf)</fontsrc>
     <styles>
@@ -2561,6 +2557,10 @@
     <test label="U+03C7">
       <comment>GrSmChi</comment>
       <string>\u0003C7\u000329 \u0003C7\u00030D</string>
+    </test>
+    <test label="U+03C8">
+      <comment>GrSmPsi</comment>
+      <string>\u0003C8\u00030D</string>
     </test>
     <test label="U+03C9">
       <comment>GrSmOmega</comment>

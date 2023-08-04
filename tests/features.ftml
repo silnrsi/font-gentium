@@ -4,13 +4,9 @@
   <head>
     <fontscale>200</fontscale>
     <fontsrc label="GR">url(../results/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="GBkR">url(../results/GentiumBookPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GB">url(../results/GentiumPlus-Bold.ttf)</fontsrc>
-    <fontsrc label="GBkB">url(../results/GentiumBookPlus-Bold.ttf)</fontsrc>
     <fontsrc label="GI">url(../results/GentiumPlus-Italic.ttf)</fontsrc>
-    <fontsrc label="GBkI">url(../results/GentiumBookPlus-Italic.ttf)</fontsrc>
     <fontsrc label="GBI">url(../results/GentiumPlus-BoldItalic.ttf)</fontsrc>
-    <fontsrc label="GBkBI">url(../results/GentiumBookPlus-BoldItalic.ttf)</fontsrc>
     <fontsrc label="GRv6">url(../references/v6101/GentiumPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GIv6">url(../references/v6101/GentiumPlus-Italic.ttf)</fontsrc>
     <styles>
@@ -126,6 +122,10 @@
       <style feats="'cv90' 1, 'ss07' 1" name="cv90_1_ss07_1"/>
       <style feats="'cv98' 1" name="cv98_1"/>
       <style lang="mk" name="mk"/>
+      <style feats="'onum' 1" name="onum_1"/>
+      <style feats="'onum' 1, 'subs' 1" name="onum_1_subs_1"/>
+      <style feats="'onum' 1, 'subs' 1, 'sups' 1" name="onum_1_subs_1_sups_1"/>
+      <style feats="'onum' 1, 'sups' 1" name="onum_1_sups_1"/>
       <style feats="'smcp' 1, 'ss01' 1" name="smcp_1_ss01_1"/>
       <style feats="'smcp' 1, 'ss01' 1, 'ss04' 1" name="smcp_1_ss01_1_ss04_1"/>
       <style feats="'smcp' 1, 'ss01' 1, 'ss04' 1, 'ss12' 1" name="smcp_1_ss01_1_ss04_1_ss12_1"/>
@@ -934,6 +934,34 @@ U+02CB" stylename="cv90_1">
     <test label="U+2205" stylename="cv98_1">
       <comment>EmptySet</comment>
       <string>\u002205</string>
+    </test>
+  </testgroup>
+  <testgroup label="onum">
+    <test label="U+0030
+U+0031
+U+0032
+U+0033
+U+0034
+U+0035
+U+0036
+U+0037
+U+0038
+U+0039">
+      <comment>DigitZero DigitOne DigitTwo DigitThree DigitFour DigitFive DigitSix DigitSeven DigitEight DigitNine</comment>
+      <string>0123456789</string>
+    </test>
+    <test label="U+0030
+U+0031
+U+0032
+U+0033
+U+0034
+U+0035
+U+0036
+U+0037
+U+0038
+U+0039" stylename="onum_1">
+      <comment>DigitZero DigitOne DigitTwo DigitThree DigitFour DigitFive DigitSix DigitSeven DigitEight DigitNine</comment>
+      <string>0123456789</string>
     </test>
   </testgroup>
   <testgroup label="ss01">
@@ -2374,6 +2402,62 @@ U+02CB">
 U+02CB" stylename="cv90_1_ss07_1">
       <comment>ModAcuteAccent ModGraveAccent</comment>
       <string>\u0002CA\u0002CB</string>
+    </test>
+  </testgroup>
+  <testgroup label="onum subs">
+    <test label="U+0030
+U+0031
+U+0032
+U+0033
+U+0034
+U+0035
+U+0036
+U+0037
+U+0038
+U+0039">
+      <comment>DigitZero DigitOne DigitTwo DigitThree DigitFour DigitFive DigitSix DigitSeven DigitEight DigitNine</comment>
+      <string>0123456789</string>
+    </test>
+    <test label="U+0030
+U+0031
+U+0032
+U+0033
+U+0034
+U+0035
+U+0036
+U+0037
+U+0038
+U+0039" stylename="onum_1_subs_1">
+      <comment>DigitZero DigitOne DigitTwo DigitThree DigitFour DigitFive DigitSix DigitSeven DigitEight DigitNine</comment>
+      <string>0123456789</string>
+    </test>
+  </testgroup>
+  <testgroup label="onum sups">
+    <test label="U+0030
+U+0031
+U+0032
+U+0033
+U+0034
+U+0035
+U+0036
+U+0037
+U+0038
+U+0039">
+      <comment>DigitZero DigitOne DigitTwo DigitThree DigitFour DigitFive DigitSix DigitSeven DigitEight DigitNine</comment>
+      <string>0123456789</string>
+    </test>
+    <test label="U+0030
+U+0031
+U+0032
+U+0033
+U+0034
+U+0035
+U+0036
+U+0037
+U+0038
+U+0039" stylename="onum_1_sups_1">
+      <comment>DigitZero DigitOne DigitTwo DigitThree DigitFour DigitFive DigitSix DigitSeven DigitEight DigitNine</comment>
+      <string>0123456789</string>
     </test>
   </testgroup>
   <testgroup label="smcp ss01">
@@ -4062,6 +4146,34 @@ U+01ED" stylename="cv76_1_smcp_1_ss07_1">
     <test label="U+0105" stylename="cv76_1_ss05_1_ss11_1">
       <comment>LtnSmAOgonek</comment>
       <string>\u000105</string>
+    </test>
+  </testgroup>
+  <testgroup label="onum subs sups">
+    <test label="U+0030
+U+0031
+U+0032
+U+0033
+U+0034
+U+0035
+U+0036
+U+0037
+U+0038
+U+0039">
+      <comment>DigitZero DigitOne DigitTwo DigitThree DigitFour DigitFive DigitSix DigitSeven DigitEight DigitNine</comment>
+      <string>0123456789</string>
+    </test>
+    <test label="U+0030
+U+0031
+U+0032
+U+0033
+U+0034
+U+0035
+U+0036
+U+0037
+U+0038
+U+0039" stylename="onum_1_subs_1_sups_1">
+      <comment>DigitZero DigitOne DigitTwo DigitThree DigitFour DigitFive DigitSix DigitSeven DigitEight DigitNine</comment>
+      <string>0123456789</string>
     </test>
   </testgroup>
   <testgroup label="smcp ss01 ss04">

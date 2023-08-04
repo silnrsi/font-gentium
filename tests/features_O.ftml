@@ -4,13 +4,9 @@
   <head>
     <fontscale>200</fontscale>
     <fontsrc label="GR">url(../results/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="GBkR">url(../results/GentiumBookPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GB">url(../results/GentiumPlus-Bold.ttf)</fontsrc>
-    <fontsrc label="GBkB">url(../results/GentiumBookPlus-Bold.ttf)</fontsrc>
     <fontsrc label="GI">url(../results/GentiumPlus-Italic.ttf)</fontsrc>
-    <fontsrc label="GBkI">url(../results/GentiumBookPlus-Italic.ttf)</fontsrc>
     <fontsrc label="GBI">url(../results/GentiumPlus-BoldItalic.ttf)</fontsrc>
-    <fontsrc label="GBkBI">url(../results/GentiumBookPlus-BoldItalic.ttf)</fontsrc>
     <fontsrc label="GRv6">url(../references/v6101/GentiumPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GIv6">url(../references/v6101/GentiumPlus-Italic.ttf)</fontsrc>
     <styles>
@@ -232,6 +228,7 @@ U+1ED7" stylename="cv75_1">
   <testgroup label="cv84"/>
   <testgroup label="cv90"/>
   <testgroup label="cv98"/>
+  <testgroup label="onum"/>
   <testgroup label="ss01">
     <test label="U+0061
 U+00E0
@@ -1127,6 +1124,8 @@ U+1EB5" stylename="cv75_1_ss11_1">
   <testgroup label="cv81 smcp"/>
   <testgroup label="cv84 smcp"/>
   <testgroup label="cv90 ss07"/>
+  <testgroup label="onum subs"/>
+  <testgroup label="onum sups"/>
   <testgroup label="smcp ss01">
     <test label="U+0061
 U+00E0
@@ -2529,6 +2528,7 @@ U+1EB5" stylename="cv75_1_ss07_1_ss11_1">
   <testgroup label="cv76 ss01 ss05"/>
   <testgroup label="cv76 ss01 ss11"/>
   <testgroup label="cv76 ss05 ss11"/>
+  <testgroup label="onum subs sups"/>
   <testgroup label="smcp ss01 ss04"/>
   <testgroup label="smcp ss01 ss05">
     <test label="U+0061
