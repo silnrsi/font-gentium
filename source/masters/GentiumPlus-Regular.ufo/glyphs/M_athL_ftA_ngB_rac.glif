@@ -3,7 +3,28 @@
   <advance width="1134"/>
   <unicode hex="27E8"/>
   <outline>
-    <component base="LftPtngAngBrac"/>
+    <contour>
+      <point x="1070" y="1585" type="curve"/>
+      <point x="1070" y="1584" type="line"/>
+      <point x="1029" y="1599" type="line"/>
+      <point x="100" y="671" type="line"/>
+      <point x="100" y="645"/>
+      <point x="106" y="596"/>
+      <point x="112" y="573" type="curve"/>
+      <point x="169" y="541" type="line"/>
+      <point x="1087" y="1459" type="line"/>
+      <point x="1085" y="1492"/>
+      <point x="1077" y="1549"/>
+    </contour>
+    <contour>
+      <point x="112" y="573" type="line"/>
+      <point x="968" y="-284" type="line"/>
+      <point x="1011" y="-279"/>
+      <point x="1044" y="-272"/>
+      <point x="1088" y="-255" type="curve"/>
+      <point x="1089" y="-207" type="line"/>
+      <point x="195" y="688" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
