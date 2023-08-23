@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="DigitSeven.osf" format="2">
-  <advance width="823"/>
-  <anchor x="320" y="-100" name="L"/>
-  <anchor x="520" y="1320" name="U"/>
+  <advance width="832"/>
+  <guideline x="276" y="797" angle="82"/>
   <outline>
-    <component base="DigitSeven"/>
+    <contour>
+      <point x="853" y="1004" type="curve"/>
+      <point x="829" y="1041" type="line"/>
+      <point x="194" y="1041" type="line"/>
+      <point x="171" y="982"/>
+      <point x="136" y="847"/>
+      <point x="120" y="785" type="curve"/>
+      <point x="157" y="767" type="line"/>
+      <point x="227" y="914"/>
+      <point x="257" y="916"/>
+      <point x="298" y="916" type="curve" smooth="yes"/>
+      <point x="708" y="916" type="line"/>
+      <point x="527" y="568"/>
+      <point x="321" y="176"/>
+      <point x="104" y="-161" type="curve"/>
+      <point x="137" y="-194" type="line"/>
+      <point x="196" y="-177"/>
+      <point x="247" y="-153"/>
+      <point x="292" y="-120" type="curve"/>
+      <point x="384" y="93"/>
+      <point x="628" y="574"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="DigitFour.osf" format="2">
-  <advance width="823"/>
-  <anchor x="320" y="-100" name="L"/>
-  <anchor x="520" y="1320" name="U"/>
+  <advance width="853"/>
+  <guideline x="671" y="748" angle="82"/>
   <outline>
-    <component base="DigitFour"/>
+    <contour>
+      <point x="772" y="246" type="curve"/>
+      <point x="749" y="277" type="line"/>
+      <point x="641" y="277" type="line"/>
+      <point x="743" y="1030" type="line"/>
+      <point x="716" y="1065" type="line"/>
+      <point x="676" y="1041"/>
+      <point x="621" y="1011"/>
+      <point x="581" y="994" type="curve"/>
+      <point x="28" y="203" type="line"/>
+      <point x="55" y="170" type="line"/>
+      <point x="499" y="170" type="line"/>
+      <point x="469" y="-65" type="line" smooth="yes"/>
+      <point x="466" y="-88"/>
+      <point x="428" y="-108"/>
+      <point x="270" y="-137" type="curve"/>
+      <point x="264" y="-180" type="line"/>
+      <point x="704" y="-180" type="line"/>
+      <point x="710" y="-137" type="line"/>
+      <point x="614" y="-112"/>
+      <point x="589" y="-96"/>
+      <point x="594" y="-76" type="curve"/>
+      <point x="626" y="170" type="line"/>
+      <point x="690" y="170" type="line"/>
+      <point x="719" y="191"/>
+      <point x="743" y="210"/>
+    </contour>
+    <contour>
+      <point x="596" y="860" type="line"/>
+      <point x="516" y="275" type="line"/>
+      <point x="178" y="275" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

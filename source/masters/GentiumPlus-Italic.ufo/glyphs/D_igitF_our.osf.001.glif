@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="DigitFour" format="2">
+<glyph name="DigitFour.osf.001" format="2">
   <advance width="823"/>
-  <unicode hex="0034"/>
-  <anchor x="320" y="-100" name="L"/>
-  <anchor x="520" y="1320" name="U"/>
+  <guideline x="630" y="748" angle="82"/>
   <outline>
     <contour>
       <point x="756" y="426" type="curve"/>
@@ -38,4 +36,10 @@
       <point x="162" y="455" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
 </glyph>
