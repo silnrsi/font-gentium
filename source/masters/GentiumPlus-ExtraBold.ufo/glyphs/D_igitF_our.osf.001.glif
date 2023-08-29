@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="DigitFour.osf.001" format="2">
+  <advance width="1061"/>
+  <outline>
+    <contour>
+      <point x="565" y="780" type="line"/>
+      <point x="565" y="300" type="line"/>
+      <point x="263" y="300" type="line"/>
+    </contour>
+    <contour>
+      <point x="565" y="-149" type="line"/>
+      <point x="641" y="-210" type="line"/>
+      <point x="692" y="-195"/>
+      <point x="796" y="-146"/>
+      <point x="825" y="-118" type="curve"/>
+      <point x="825" y="150" type="line"/>
+      <point x="875" y="150" type="line"/>
+      <point x="905" y="173"/>
+      <point x="956" y="227"/>
+      <point x="984" y="270" type="curve"/>
+      <point x="958" y="300" type="line"/>
+      <point x="825" y="300" type="line"/>
+      <point x="825" y="1020" type="line"/>
+      <point x="778" y="1065" type="line"/>
+      <point x="714" y="1042"/>
+      <point x="597" y="1006"/>
+      <point x="531" y="984" type="curve"/>
+      <point x="55" y="193" type="line"/>
+      <point x="98" y="150" type="line"/>
+      <point x="565" y="150" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>
