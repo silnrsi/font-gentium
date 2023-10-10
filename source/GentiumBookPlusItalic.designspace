@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
-        <axis default="400.0" maximum="800.0" minimum="400.0" name="weight" tag="wght">
-            <map input="400.0" output="400.0" />
-            <map input="500.0" output="500.0" />
-            <map input="600.0" output="600.0" />
-            <map input="700.0" output="700.0" />
-            <map input="800.0" output="800.0" />
+        <axis default="400.0" maximum="700.0" minimum="400.0" name="weight" tag="wght">
+            <map input="400.0" output="500.0" />
+            <map input="500.0" output="600.0" />
+            <map input="600.0" output="700.0" />
+            <map input="700.0" output="800.0" />
             <labelname xml:lang="en">Weight</labelname>
         </axis>
         <axis default="100.0" maximum="100.0" minimum="100.0" name="width" tag="wdth">
@@ -39,16 +38,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-Italic.ufo" name="Gentium Plus Italic" stylemapfamilyname="Gentium Plus" stylemapstylename="italic" stylename="Italic" postscriptfontname="GentiumPlus-Italic">
-            <location>
-                <dimension name="weight" xvalue="400.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
-            </location>
-            <info />
-            <kerning />
-        </instance>
-        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-MediumItalic.ufo" name="Gentium Plus Medium Italic" stylemapfamilyname="Gentium Plus Medium" stylemapstylename="italic" stylename="Medium Italic" postscriptfontname="GentiumPlus-MediumItalic">
+        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-Italic.ufo" name="Gentium Book Plus Italic" stylemapfamilyname="Gentium Book Plus" stylemapstylename="italic" stylename="Italic" postscriptfontname="GentiumBookPlus-Italic">
             <location>
                 <dimension name="weight" xvalue="500.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -57,7 +47,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-SemiBoldItalic.ufo" name="Gentium Plus SemiBold Italic" stylemapfamilyname="Gentium Plus SemiBold" stylemapstylename="italic" stylename="SemiBold Italic" postscriptfontname="GentiumPlus-SemiBoldItalic">
+        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-MediumItalic.ufo" name="Gentium Book Plus Medium Italic" stylemapfamilyname="Gentium Book Plus Medium" stylemapstylename="italic" stylename="Medium Italic" postscriptfontname="GentiumBookPlus-MediumItalic">
             <location>
                 <dimension name="weight" xvalue="600.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -66,7 +56,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-BoldItalic.ufo" name="Gentium Plus Bold Italic" stylemapfamilyname="Gentium Plus" stylemapstylename="bold italic" stylename="Bold Italic" postscriptfontname="GentiumPlus-BoldItalic">
+        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-SemiBoldItalic.ufo" name="Gentium Book Plus SemiBold Italic" stylemapfamilyname="Gentium Book Plus SemiBold" stylemapstylename="italic" stylename="SemiBold Italic" postscriptfontname="GentiumBookPlus-SemiBoldItalic">
             <location>
                 <dimension name="weight" xvalue="700.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -75,7 +65,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-ExtraBoldItalic.ufo" name="Gentium Plus ExtraBold Italic" stylemapfamilyname="Gentium Plus ExtraBold" stylemapstylename="italic" stylename="ExtraBold Italic" postscriptfontname="GentiumPlus-ExtraBoldItalic">
+        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-BoldItalic.ufo" name="Gentium Book Plus Bold Italic" stylemapfamilyname="Gentium Book Plus" stylemapstylename="bold italic" stylename="Bold Italic" postscriptfontname="GentiumBookPlus-BoldItalic">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
