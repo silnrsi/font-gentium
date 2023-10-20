@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="MathLftAngBrac" format="2">
-  <advance width="971"/>
+  <advance width="1014"/>
   <unicode hex="27E8"/>
   <outline>
     <contour>
@@ -27,10 +27,4 @@
       <point x="59" y="662" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>
