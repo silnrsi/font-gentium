@@ -464,7 +464,7 @@
     <integer>-72</integer>
     <key>LtnSmY</key>
     <integer>-90</integer>
-    <key>public.kern2.RtDblQuotMrk</key>
+    <key>public.kern2.RQuote</key>
     <integer>-180</integer>
   </dict>
   <key>LtnCapC</key>
@@ -493,7 +493,7 @@
     <integer>-72</integer>
     <key>LtnSmO</key>
     <integer>-72</integer>
-    <key>public.kern2.FullStop</key>
+    <key>public.kern2.RPunctBase</key>
     <integer>-180</integer>
   </dict>
   <key>LtnCapK</key>
@@ -511,7 +511,7 @@
     <integer>-80</integer>
     <key>LtnCapY</key>
     <integer>-121</integer>
-    <key>public.kern2.RtDblQuotMrk</key>
+    <key>public.kern2.RQuote</key>
     <integer>-180</integer>
   </dict>
   <key>LtnCapO</key>
@@ -529,7 +529,7 @@
   <dict>
     <key>LtnCapA</key>
     <integer>-111</integer>
-    <key>public.kern2.FullStop</key>
+    <key>public.kern2.RPunctBase</key>
     <integer>-180</integer>
   </dict>
   <key>LtnCapR</key>
@@ -551,7 +551,7 @@
     <integer>-72</integer>
     <key>LtnSmO</key>
     <integer>-72</integer>
-    <key>public.kern2.FullStop</key>
+    <key>public.kern2.RPunctBase</key>
     <integer>-117</integer>
   </dict>
   <key>LtnCapU</key>
@@ -573,7 +573,7 @@
     <integer>-90</integer>
     <key>LtnSmO</key>
     <integer>-90</integer>
-    <key>public.kern2.FullStop</key>
+    <key>public.kern2.RPunctBase</key>
     <integer>-233</integer>
   </dict>
   <key>LtnCapW</key>
@@ -588,7 +588,7 @@
     <integer>-49</integer>
     <key>LtnSmO</key>
     <integer>-49</integer>
-    <key>public.kern2.FullStop</key>
+    <key>public.kern2.RPunctBase</key>
     <integer>-180</integer>
   </dict>
   <key>LtnCapY</key>
@@ -607,7 +607,7 @@
     <integer>-129</integer>
     <key>LtnSmU</key>
     <integer>-59</integer>
-    <key>public.kern2.FullStop</key>
+    <key>public.kern2.RPunctBase</key>
     <integer>-180</integer>
   </dict>
   <key>LtnSmA</key>
@@ -631,7 +631,7 @@
   </dict>
   <key>LtnSmF</key>
   <dict>
-    <key>public.kern2.RtDblQuotMrk</key>
+    <key>public.kern2.RQuote</key>
     <integer>199</integer>
   </dict>
   <key>LtnSmK</key>
@@ -676,7 +676,7 @@
     <integer>-20</integer>
     <key>LtnSmQ</key>
     <integer>-41</integer>
-    <key>public.kern2.FullStop</key>
+    <key>public.kern2.RPunctBase</key>
     <integer>-180</integer>
   </dict>
   <key>LtnSmV</key>
@@ -687,12 +687,12 @@
     <integer>-20</integer>
     <key>LtnSmO</key>
     <integer>-20</integer>
-    <key>public.kern2.FullStop</key>
+    <key>public.kern2.RPunctBase</key>
     <integer>-121</integer>
   </dict>
   <key>LtnSmW</key>
   <dict>
-    <key>public.kern2.FullStop</key>
+    <key>public.kern2.RPunctBase</key>
     <integer>-41</integer>
   </dict>
   <key>LtnSmX</key>
@@ -708,13 +708,8 @@
     <integer>-31</integer>
     <key>LtnSmO</key>
     <integer>-20</integer>
-    <key>public.kern2.FullStop</key>
+    <key>public.kern2.RPunctBase</key>
     <integer>-121</integer>
-  </dict>
-  <key>public.kern1.FullStop</key>
-  <dict>
-    <key>public.kern2.RtDblQuotMrk</key>
-    <integer>-250</integer>
   </dict>
   <key>public.kern1.GrCapAlpha</key>
   <dict>
@@ -1046,7 +1041,12 @@
     <key>GrSmChi</key>
     <integer>-20</integer>
   </dict>
-  <key>public.kern1.LftDblQuotMrk</key>
+  <key>public.kern1.LPunctBase</key>
+  <dict>
+    <key>public.kern2.RQuote</key>
+    <integer>-250</integer>
+  </dict>
+  <key>public.kern1.LQuote</key>
   <dict>
     <key>LtnCapA</key>
     <integer>-180</integer>

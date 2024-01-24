@@ -2,11 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>public.kern1.FullStop</key>
-  <array>
-    <string>Comma</string>
-    <string>FullStop</string>
-  </array>
   <key>public.kern1.GrCapAlpha</key>
   <array>
     <string>GrCapAlpha</string>
@@ -309,20 +304,100 @@
     <string>GrSmUpsilonWPsiliPeris.Por</string>
     <string>GrSmUpsilonWPsiliVaria</string>
   </array>
-  <key>public.kern1.LftDblQuotMrk</key>
+  <key>public.kern1.LBracket</key>
   <array>
+    <string>LftCurlyBrac</string>
+    <string>LftParen</string>
+    <string>LftSqrBrac</string>
+  </array>
+  <key>public.kern1.LCapDiagA</key>
+  <array>
+    <string>LtnCapA</string>
+    <string>LtnCapL</string>
+  </array>
+  <key>public.kern1.LCapDiagV</key>
+  <array>
+    <string>LtnCapT</string>
+    <string>LtnCapV</string>
+    <string>LtnCapY</string>
+  </array>
+  <key>public.kern1.LCapDiagW</key>
+  <array>
+    <string>LtnCapW</string>
+  </array>
+  <key>public.kern1.LCapDiagX</key>
+  <array>
+    <string>LtnCapK</string>
+    <string>LtnCapX</string>
+  </array>
+  <key>public.kern1.LCapRound</key>
+  <array>
+    <string>LtnCapD</string>
+    <string>LtnCapO</string>
+    <string>LtnCapQ</string>
+  </array>
+  <key>public.kern1.LCapTopP</key>
+  <array>
+    <string>LtnCapF</string>
+    <string>LtnCapP</string>
+  </array>
+  <key>public.kern1.LPunctBase</key>
+  <array>
+    <string>Comma</string>
+    <string>DblLow9QuotMrk</string>
+    <string>FullStop</string>
+    <string>HorizEllipsis</string>
+    <string>SglLow9QuotMrk</string>
+  </array>
+  <key>public.kern1.LQuote</key>
+  <array>
+    <string>Apos</string>
     <string>LftDblQuotMrk</string>
     <string>LftSglQuotMrk</string>
-  </array>
-  <key>public.kern1.RtDblQuotMrk</key>
-  <array>
+    <string>ModApos</string>
+    <string>QuotMrk</string>
     <string>RtDblQuotMrk</string>
     <string>RtSglQuotMrk</string>
   </array>
-  <key>public.kern2.FullStop</key>
+  <key>public.kern1.LSmDesc</key>
   <array>
-    <string>Comma</string>
-    <string>FullStop</string>
+    <string>LtnSmG</string>
+    <string>LtnSmQ</string>
+  </array>
+  <key>public.kern1.LSmDiagV</key>
+  <array>
+    <string>LtnSmR</string>
+    <string>LtnSmV</string>
+    <string>LtnSmW</string>
+    <string>LtnSmY</string>
+  </array>
+  <key>public.kern1.LSmDiagX</key>
+  <array>
+    <string>LtnSmK</string>
+    <string>LtnSmX</string>
+  </array>
+  <key>public.kern1.LSmN</key>
+  <array>
+    <string>LtnSmA</string>
+    <string>LtnSmC</string>
+    <string>LtnSmH</string>
+    <string>LtnSmM</string>
+    <string>LtnSmN</string>
+    <string>LtnSmS</string>
+    <string>LtnSmT</string>
+    <string>LtnSmU</string>
+    <string>LtnSmZ</string>
+  </array>
+  <key>public.kern1.LSmRound</key>
+  <array>
+    <string>LtnSmB</string>
+    <string>LtnSmE</string>
+    <string>LtnSmO</string>
+    <string>LtnSmP</string>
+  </array>
+  <key>public.kern1.LSmTopF</key>
+  <array>
+    <string>LtnSmF</string>
   </array>
   <key>public.kern2.GrCapAlpha</key>
   <array>
@@ -517,10 +592,88 @@
     <string>GrSmUpsilonWPsiliPeris.Por</string>
     <string>GrSmUpsilonWPsiliVaria</string>
   </array>
-  <key>public.kern2.RtDblQuotMrk</key>
+  <key>public.kern2.RBracket</key>
   <array>
+    <string>RtCurlyBrac</string>
+    <string>RtParen</string>
+    <string>RtSqrBrac</string>
+  </array>
+  <key>public.kern2.RCapDiagA</key>
+  <array>
+    <string>LtnCapA</string>
+  </array>
+  <key>public.kern2.RCapDiagV</key>
+  <array>
+    <string>LtnCapT</string>
+    <string>LtnCapV</string>
+    <string>LtnCapY</string>
+  </array>
+  <key>public.kern2.RCapDiagW</key>
+  <array>
+    <string>LtnCapW</string>
+  </array>
+  <key>public.kern2.RCapDiagX</key>
+  <array>
+    <string>LtnCapX</string>
+  </array>
+  <key>public.kern2.RCapRound</key>
+  <array>
+    <string>LtnCapC</string>
+    <string>LtnCapG</string>
+    <string>LtnCapO</string>
+    <string>LtnCapQ</string>
+  </array>
+  <key>public.kern2.RPunctBase</key>
+  <array>
+    <string>Comma</string>
+    <string>DblLow9QuotMrk</string>
+    <string>FullStop</string>
+    <string>HorizEllipsis</string>
+    <string>SglLow9QuotMrk</string>
+  </array>
+  <key>public.kern2.RQuote</key>
+  <array>
+    <string>Apos</string>
+    <string>CombLftAngAbv</string>
+    <string>LftDblQuotMrk</string>
+    <string>LftSglQuotMrk</string>
+    <string>ModApos</string>
+    <string>QuotMrk</string>
     <string>RtDblQuotMrk</string>
     <string>RtSglQuotMrk</string>
+  </array>
+  <key>public.kern2.RSmDescJ</key>
+  <array>
+    <string>LtnSmJ</string>
+  </array>
+  <key>public.kern2.RSmDiagV</key>
+  <array>
+    <string>LtnSmV</string>
+    <string>LtnSmW</string>
+    <string>LtnSmY</string>
+  </array>
+  <key>public.kern2.RSmDiagX</key>
+  <array>
+    <string>LtnSmX</string>
+  </array>
+  <key>public.kern2.RSmN</key>
+  <array>
+    <string>LtnSmA</string>
+    <string>LtnSmG</string>
+    <string>LtnSmM</string>
+    <string>LtnSmN</string>
+    <string>LtnSmP</string>
+    <string>LtnSmR</string>
+    <string>LtnSmS</string>
+    <string>LtnSmU</string>
+    <string>LtnSmZ</string>
+  </array>
+  <key>public.kern2.RSmRound</key>
+  <array>
+    <string>LtnSmC</string>
+    <string>LtnSmE</string>
+    <string>LtnSmO</string>
+    <string>LtnSmQ</string>
   </array>
 </dict>
 </plist>
