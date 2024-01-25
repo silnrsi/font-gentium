@@ -10,6 +10,8 @@ APPNAME = 'GentiumPlus'
 familyname = APPNAME
 DEBPKG = 'fonts-sil-gentium'
 
+TESTDIR = ["tests", "../font-latin-private/tests"]
+
 # Get VERSION and BUILDLABEL from Regular UFO; must be first function call:
 getufoinfo('source/masters/' + familyname + '-Regular' + '.ufo')
 
