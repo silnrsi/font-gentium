@@ -365,6 +365,14 @@
     <string>RtDblQuotMrk</string>
     <string>RtSglQuotMrk</string>
   </array>
+  <key>public.kern1.LSmCurve</key>
+  <array>
+    <string>LtnSmA</string>
+    <string>LtnSmH</string>
+    <string>LtnSmM</string>
+    <string>LtnSmN</string>
+    <string>LtnSmU</string>
+  </array>
   <key>public.kern1.LSmDesc</key>
   <array>
     <string>LtnSmG</string>
@@ -382,24 +390,19 @@
     <string>LtnSmK</string>
     <string>LtnSmX</string>
   </array>
-  <key>public.kern1.LSmN</key>
-  <array>
-    <string>LtnSmA</string>
-    <string>LtnSmC</string>
-    <string>LtnSmH</string>
-    <string>LtnSmM</string>
-    <string>LtnSmN</string>
-    <string>LtnSmS</string>
-    <string>LtnSmT</string>
-    <string>LtnSmU</string>
-    <string>LtnSmZ</string>
-  </array>
   <key>public.kern1.LSmRound</key>
   <array>
     <string>LtnSmB</string>
     <string>LtnSmE</string>
     <string>LtnSmO</string>
     <string>LtnSmP</string>
+  </array>
+  <key>public.kern1.LSmSerif</key>
+  <array>
+    <string>LtnSmC</string>
+    <string>LtnSmS</string>
+    <string>LtnSmT</string>
+    <string>LtnSmZ</string>
   </array>
   <key>public.kern1.LSmTopF</key>
   <array>
@@ -643,13 +646,16 @@
   <key>public.kern2.RQuote</key>
   <array>
     <string>Apos</string>
-    <string>CombLftAngAbv</string>
     <string>LftDblQuotMrk</string>
     <string>LftSglQuotMrk</string>
     <string>ModApos</string>
     <string>QuotMrk</string>
     <string>RtDblQuotMrk</string>
     <string>RtSglQuotMrk</string>
+  </array>
+  <key>public.kern2.RRelease</key>
+  <array>
+    <string>CombLftAngAbv</string>
   </array>
   <key>public.kern2.RSmCurve</key>
   <array>
