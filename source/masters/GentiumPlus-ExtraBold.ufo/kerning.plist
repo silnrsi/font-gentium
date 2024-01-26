@@ -729,7 +729,7 @@
   <key>public.kern1.LBracket</key>
   <dict>
     <key>public.kern2.RSmDescJ</key>
-    <integer>120</integer>
+    <integer>260</integer>
   </dict>
   <key>public.kern1.LCapBaseL</key>
   <dict>
@@ -764,7 +764,7 @@
     <key>public.kern2.RCapRound</key>
     <integer>-90</integer>
     <key>public.kern2.RSmCurve</key>
-    <integer>-120</integer>
+    <integer>-140</integer>
     <key>public.kern2.RSmN</key>
     <integer>-120</integer>
     <key>public.kern2.RSmRound</key>
@@ -779,7 +779,7 @@
     <key>public.kern2.RCapRound</key>
     <integer>-60</integer>
     <key>public.kern2.RSmCurve</key>
-    <integer>-90</integer>
+    <integer>-100</integer>
     <key>public.kern2.RSmRound</key>
     <integer>-90</integer>
     <key>public.kern2.RSmSerif</key>
@@ -797,7 +797,7 @@
     <key>public.kern2.RCapDiagV</key>
     <integer>-60</integer>
     <key>public.kern2.RCapDiagW</key>
-    <integer>-20</integer>
+    <integer>-50</integer>
     <key>public.kern2.RCapDiagX</key>
     <integer>-50</integer>
     <key>public.kern2.RCapTopT</key>
@@ -829,7 +829,7 @@
   <key>public.kern1.LSmDesc</key>
   <dict>
     <key>public.kern2.RSmDescJ</key>
-    <integer>30</integer>
+    <integer>70</integer>
   </dict>
   <key>public.kern1.LSmDiagV</key>
   <dict>
@@ -851,7 +851,7 @@
   <key>public.kern1.LSmTopF</key>
   <dict>
     <key>public.kern2.RBracket</key>
-    <integer>140</integer>
+    <integer>220</integer>
   </dict>
 </dict>
 </plist>
