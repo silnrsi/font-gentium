@@ -314,6 +314,18 @@
   <array>
     <string>LtnCapL</string>
   </array>
+  <key>public.kern1.LCapBaseR</key>
+  <array>
+    <string>LtnCapR</string>
+  </array>
+  <key>public.kern1.LCapBaseU</key>
+  <array>
+    <string>LtnCapU</string>
+  </array>
+  <key>public.kern1.LCapCurve</key>
+  <array>
+    <string>LtnCapC</string>
+  </array>
   <key>public.kern1.LCapDiagA</key>
   <array>
     <string>LtnCapA</string>
@@ -607,6 +619,10 @@
     <string>RtParen</string>
     <string>RtSqrBrac</string>
   </array>
+  <key>public.kern2.RCapBaseU</key>
+  <array>
+    <string>LtnCapU</string>
+  </array>
   <key>public.kern2.RCapDiagA</key>
   <array>
     <string>LtnCapA</string>
@@ -630,6 +646,10 @@
     <string>LtnCapG</string>
     <string>LtnCapO</string>
     <string>LtnCapQ</string>
+  </array>
+  <key>public.kern2.RCapTopS</key>
+  <array>
+    <string>LtnCapS</string>
   </array>
   <key>public.kern2.RCapTopT</key>
   <array>
@@ -656,6 +676,13 @@
   <key>public.kern2.RRelease</key>
   <array>
     <string>CombLftAngAbv</string>
+  </array>
+  <key>public.kern2.RSmAsc</key>
+  <array>
+    <string>LtnSmB</string>
+    <string>LtnSmH</string>
+    <string>LtnSmK</string>
+    <string>LtnSmL</string>
   </array>
   <key>public.kern2.RSmCurve</key>
   <array>

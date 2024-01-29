@@ -414,6 +414,11 @@
     <key>public.kern2.GrSmUpsilon</key>
     <integer>-49</integer>
   </dict>
+  <key>LtnCapR</key>
+  <dict>
+    <key>public.kern2.RCapTopT</key>
+    <integer>-80</integer>
+  </dict>
   <key>public.kern1.GrCapAlpha</key>
   <dict>
     <key>GrCapOmicron</key>
@@ -748,10 +753,29 @@
     <key>public.kern2.RSmDiagV</key>
     <integer>-80</integer>
   </dict>
-  <key>public.kern1.LCapDiagA</key>
+  <key>public.kern1.LCapBaseR</key>
   <dict>
     <key>public.kern2.RCapDiagV</key>
-    <integer>-190</integer>
+    <integer>-120</integer>
+    <key>public.kern2.RCapDiagW</key>
+    <integer>-120</integer>
+  </dict>
+  <key>public.kern1.LCapBaseU</key>
+  <dict>
+    <key>public.kern2.RCapDiagA</key>
+    <integer>-100</integer>
+  </dict>
+  <key>public.kern1.LCapCurve</key>
+  <dict>
+    <key>public.kern2.RCapDiagA</key>
+    <integer>-60</integer>
+  </dict>
+  <key>public.kern1.LCapDiagA</key>
+  <dict>
+    <key>public.kern2.RCapBaseU</key>
+    <integer>-80</integer>
+    <key>public.kern2.RCapDiagV</key>
+    <integer>-200</integer>
     <key>public.kern2.RCapDiagW</key>
     <integer>-120</integer>
     <key>public.kern2.RCapRound</key>
@@ -771,6 +795,8 @@
     <integer>-220</integer>
     <key>public.kern2.RCapRound</key>
     <integer>-90</integer>
+    <key>public.kern2.RCapTopS</key>
+    <integer>-80</integer>
     <key>public.kern2.RPunctBase</key>
     <integer>-200</integer>
     <key>public.kern2.RSmCurve</key>
@@ -785,6 +811,8 @@
     <key>public.kern2.RCapDiagA</key>
     <integer>-160</integer>
     <key>public.kern2.RCapRound</key>
+    <integer>-60</integer>
+    <key>public.kern2.RCapTopS</key>
     <integer>-60</integer>
     <key>public.kern2.RPunctBase</key>
     <integer>-200</integer>
@@ -819,12 +847,18 @@
     <integer>-180</integer>
     <key>public.kern2.RPunctBase</key>
     <integer>-260</integer>
+    <key>public.kern2.RSmCurve</key>
+    <integer>-80</integer>
+    <key>public.kern2.RSmRound</key>
+    <integer>-80</integer>
   </dict>
   <key>public.kern1.LCapTopT</key>
   <dict>
     <key>public.kern2.RCapDiagA</key>
     <integer>-150</integer>
     <key>public.kern2.RCapRound</key>
+    <integer>-20</integer>
+    <key>public.kern2.RCapTopS</key>
     <integer>-20</integer>
     <key>public.kern2.RPunctBase</key>
     <integer>-200</integer>
@@ -871,6 +905,8 @@
     <integer>-100</integer>
     <key>public.kern2.RRelease</key>
     <integer>-400</integer>
+    <key>public.kern2.RSmDiagV</key>
+    <integer>-30</integer>
   </dict>
   <key>public.kern1.LSmDesc</key>
   <dict>
@@ -889,6 +925,8 @@
     <integer>-1</integer>
     <key>public.kern2.RRelease</key>
     <integer>-300</integer>
+    <key>public.kern2.RSmCurve</key>
+    <integer>-20</integer>
     <key>public.kern2.RSmRound</key>
     <integer>-30</integer>
   </dict>
@@ -918,11 +956,17 @@
     <integer>-1</integer>
     <key>public.kern2.RRelease</key>
     <integer>-320</integer>
+    <key>public.kern2.RSmAsc</key>
+    <integer>-30</integer>
+    <key>public.kern2.RSmSerif</key>
+    <integer>0</integer>
   </dict>
   <key>public.kern1.LSmTopF</key>
   <dict>
     <key>public.kern2.RBracket</key>
     <integer>140</integer>
+    <key>public.kern2.RQuote</key>
+    <integer>200</integer>
   </dict>
 </dict>
 </plist>
