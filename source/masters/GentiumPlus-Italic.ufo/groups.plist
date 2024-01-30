@@ -310,14 +310,28 @@
     <string>LftParen</string>
     <string>LftSqrBrac</string>
   </array>
+  <key>public.kern1.LCapBaseL</key>
+  <array>
+    <string>LtnCapL</string>
+  </array>
+  <key>public.kern1.LCapBaseR</key>
+  <array>
+    <string>LtnCapR</string>
+  </array>
+  <key>public.kern1.LCapBaseU</key>
+  <array>
+    <string>LtnCapU</string>
+  </array>
+  <key>public.kern1.LCapCurve</key>
+  <array>
+    <string>LtnCapC</string>
+  </array>
   <key>public.kern1.LCapDiagA</key>
   <array>
     <string>LtnCapA</string>
-    <string>LtnCapL</string>
   </array>
   <key>public.kern1.LCapDiagV</key>
   <array>
-    <string>LtnCapT</string>
     <string>LtnCapV</string>
     <string>LtnCapY</string>
   </array>
@@ -341,6 +355,10 @@
     <string>LtnCapF</string>
     <string>LtnCapP</string>
   </array>
+  <key>public.kern1.LCapTopT</key>
+  <array>
+    <string>LtnCapT</string>
+  </array>
   <key>public.kern1.LPunctBase</key>
   <array>
     <string>Comma</string>
@@ -359,6 +377,14 @@
     <string>RtDblQuotMrk</string>
     <string>RtSglQuotMrk</string>
   </array>
+  <key>public.kern1.LSmCurve</key>
+  <array>
+    <string>LtnSmA</string>
+    <string>LtnSmH</string>
+    <string>LtnSmM</string>
+    <string>LtnSmN</string>
+    <string>LtnSmU</string>
+  </array>
   <key>public.kern1.LSmDesc</key>
   <array>
     <string>LtnSmG</string>
@@ -376,24 +402,19 @@
     <string>LtnSmK</string>
     <string>LtnSmX</string>
   </array>
-  <key>public.kern1.LSmN</key>
-  <array>
-    <string>LtnSmA</string>
-    <string>LtnSmC</string>
-    <string>LtnSmH</string>
-    <string>LtnSmM</string>
-    <string>LtnSmN</string>
-    <string>LtnSmS</string>
-    <string>LtnSmT</string>
-    <string>LtnSmU</string>
-    <string>LtnSmZ</string>
-  </array>
   <key>public.kern1.LSmRound</key>
   <array>
     <string>LtnSmB</string>
     <string>LtnSmE</string>
     <string>LtnSmO</string>
     <string>LtnSmP</string>
+  </array>
+  <key>public.kern1.LSmSerif</key>
+  <array>
+    <string>LtnSmC</string>
+    <string>LtnSmS</string>
+    <string>LtnSmT</string>
+    <string>LtnSmZ</string>
   </array>
   <key>public.kern1.LSmTopF</key>
   <array>
@@ -598,13 +619,16 @@
     <string>RtParen</string>
     <string>RtSqrBrac</string>
   </array>
+  <key>public.kern2.RCapBaseU</key>
+  <array>
+    <string>LtnCapU</string>
+  </array>
   <key>public.kern2.RCapDiagA</key>
   <array>
     <string>LtnCapA</string>
   </array>
   <key>public.kern2.RCapDiagV</key>
   <array>
-    <string>LtnCapT</string>
     <string>LtnCapV</string>
     <string>LtnCapY</string>
   </array>
@@ -623,6 +647,14 @@
     <string>LtnCapO</string>
     <string>LtnCapQ</string>
   </array>
+  <key>public.kern2.RCapTopS</key>
+  <array>
+    <string>LtnCapS</string>
+  </array>
+  <key>public.kern2.RCapTopT</key>
+  <array>
+    <string>LtnCapT</string>
+  </array>
   <key>public.kern2.RPunctBase</key>
   <array>
     <string>Comma</string>
@@ -634,13 +666,29 @@
   <key>public.kern2.RQuote</key>
   <array>
     <string>Apos</string>
-    <string>CombLftAngAbv</string>
     <string>LftDblQuotMrk</string>
     <string>LftSglQuotMrk</string>
     <string>ModApos</string>
     <string>QuotMrk</string>
     <string>RtDblQuotMrk</string>
     <string>RtSglQuotMrk</string>
+  </array>
+  <key>public.kern2.RRelease</key>
+  <array>
+    <string>CombLftAngAbv</string>
+  </array>
+  <key>public.kern2.RSmAsc</key>
+  <array>
+    <string>LtnSmB</string>
+    <string>LtnSmH</string>
+    <string>LtnSmK</string>
+    <string>LtnSmL</string>
+  </array>
+  <key>public.kern2.RSmCurve</key>
+  <array>
+    <string>LtnSmA</string>
+    <string>LtnSmG</string>
+    <string>LtnSmS</string>
   </array>
   <key>public.kern2.RSmDescJ</key>
   <array>
@@ -656,18 +704,6 @@
   <array>
     <string>LtnSmX</string>
   </array>
-  <key>public.kern2.RSmN</key>
-  <array>
-    <string>LtnSmA</string>
-    <string>LtnSmG</string>
-    <string>LtnSmM</string>
-    <string>LtnSmN</string>
-    <string>LtnSmP</string>
-    <string>LtnSmR</string>
-    <string>LtnSmS</string>
-    <string>LtnSmU</string>
-    <string>LtnSmZ</string>
-  </array>
   <key>public.kern2.RSmRound</key>
   <array>
     <string>LtnSmC</string>
@@ -675,6 +711,15 @@
     <string>LtnSmE</string>
     <string>LtnSmO</string>
     <string>LtnSmQ</string>
+  </array>
+  <key>public.kern2.RSmSerif</key>
+  <array>
+    <string>LtnSmM</string>
+    <string>LtnSmN</string>
+    <string>LtnSmP</string>
+    <string>LtnSmR</string>
+    <string>LtnSmU</string>
+    <string>LtnSmZ</string>
   </array>
 </dict>
 </plist>
