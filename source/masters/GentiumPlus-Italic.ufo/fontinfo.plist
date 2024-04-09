@@ -15,7 +15,7 @@
   <key>italicAngle</key>
   <integer>-8</integer>
   <key>openTypeHeadCreated</key>
-  <string>2024/04/08 15:05:06</string>
+  <string>2024/04/09 11:57:04</string>
   <key>openTypeHeadFlags</key>
   <array>
     <integer>0</integer>
@@ -31,7 +31,7 @@
   <key>openTypeNameDescription</key>
   <string>Font family for languages that use Latin, Cyrillic, and Greek scripts</string>
   <key>openTypeNameDesigner</key>
-  <string>Victor Gaultney, Annie Olsen, Iska Routamaa, Becca Hirsbrunner</string>
+  <string>Victor Gaultney, Jon Coblentz, Sharon Correll, Lorna Evans, Bob Hallissy, Martin Hosken, Annie Olsen, David Raymond, Iska Routamaa, Becca Spalinger, Alan Ward</string>
   <key>openTypeNameDesignerURL</key>
   <string>https://software.sil.org/wstech/</string>
   <key>openTypeNameLicense</key>
@@ -237,6 +237,40 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>6</integer>
   <key>versionMinor</key>
   <integer>902</integer>
+  <key>woffMetadataCredits</key>
+  <dict>
+    <key>credits</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>Victor Gaultney</string>
+        <key>role</key>
+        <string>Original designer</string>
+        <key>url</key>
+        <string>https://www.gaultney.org/jvgtype/</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Jon Coblentz, Sharon Correll, Lorna Evans, Bob Hallissy, Martin Hosken, Annie Olsen, David Raymond, Iska Routamaa, Becca Spalinger, Alan Ward</string>
+        <key>role</key>
+        <string>SIL designers and font engineers</string>
+        <key>url</key>
+        <string>https://software.sil.org/wstech/</string>
+      </dict>
+    </array>
+  </dict>
+  <key>woffMetadataDescription</key>
+  <dict>
+    <key>text</key>
+    <array>
+      <dict>
+        <key>text</key>
+        <string>Gentium is a typeface family designed to enable the diverse ethnic groups around the world who use the Latin, Cyrillic, and Greek scripts to produce readable, high-quality publications. It supports almost the complete range of Unicode characters for these scripts, including a comprehensive range of diacritics and a large set of symbols useful for linguistics and literacy work.</string>
+      </dict>
+    </array>
+    <key>url</key>
+    <string>https://software.sil.org/gentium/history</string>
+  </dict>
   <key>xHeight</key>
   <integer>930</integer>
 </dict>
