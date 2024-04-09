@@ -23,6 +23,6 @@ echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters -q source/GentiumPlusRoman.designspace source/GentiumPlusItalic.designspace
 
 # echo "-----Updating woff metadata file..."
-# psfmakewoffmetadata -q -n "GentiumPlus" -i "org.sil.fonts" -o source/GentiumPlus-WOFF-metadata.xml source/masters/GentiumPlus-Regular.ufo
+# psfmakewoffmetadata -q -n "gentiumplus" -i "org.sil.fonts" -o source/gentiumplus-WOFF-metadata.xml source/masters/GentiumPlus-Regular.ufo
 
 echo "-----Preflight completed!"
