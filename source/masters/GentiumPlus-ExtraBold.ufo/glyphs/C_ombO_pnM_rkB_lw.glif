@@ -10,20 +10,20 @@
       <point x="-538" y="-102"/>
       <point x="-593" y="-115"/>
       <point x="-615" y="-126" type="curve"/>
-      <point x="-615" y="-433" type="line"/>
+      <point x="-615" y="-423" type="line" smooth="yes"/>
       <point x="-615" y="-527"/>
-      <point x="-596" y="-559"/>
-      <point x="-542" y="-559" type="curve" smooth="yes"/>
-      <point x="-482" y="-559"/>
-      <point x="-384" y="-492"/>
-      <point x="-367" y="-469" type="curve"/>
-      <point x="-381" y="-423" type="line"/>
-      <point x="-400" y="-437"/>
-      <point x="-433" y="-451"/>
-      <point x="-456" y="-451" type="curve" smooth="yes"/>
+      <point x="-586" y="-559"/>
+      <point x="-532" y="-559" type="curve" smooth="yes"/>
+      <point x="-472" y="-559"/>
+      <point x="-395" y="-516"/>
+      <point x="-347" y="-464" type="curve"/>
+      <point x="-361" y="-408" type="line"/>
+      <point x="-380" y="-422"/>
+      <point x="-423" y="-451"/>
+      <point x="-451" y="-451" type="curve" smooth="yes"/>
       <point x="-474" y="-451"/>
       <point x="-479" y="-439"/>
-      <point x="-479" y="-355" type="curve"/>
+      <point x="-479" y="-355" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
