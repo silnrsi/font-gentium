@@ -24,5 +24,6 @@ psfsyncmasters -q source/GentiumPlusRoman.designspace source/GentiumPlusItalic.d
 
 # echo "-----Updating woff metadata file..."
 # psfmakewoffmetadata -q -n "gentiumplus" -i "org.sil.fonts" -o source/gentiumplus-WOFF-metadata.xml source/masters/GentiumPlus-Regular.ufo
+# psfmakewoffmetadata -q -n "gentiumbookplus" -i "org.sil.fonts" -o source/gentiumbookplus-WOFF-metadata.xml source/masters/GentiumPlus-Regular.ufo
 
 echo "-----Preflight completed!"

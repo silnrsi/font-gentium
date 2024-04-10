@@ -7,13 +7,12 @@ DOCDIR = ["documentation", "web"]
 STANDARDS = 'references/v6101'
 
 APPNAME = 'GentiumPlus'
-familyname = APPNAME
+sourcefontfamily = APPNAME
 DEBPKG = 'fonts-sil-gentium'
 
 TESTDIR = ["tests", "../font-latin-private/tests"]
 
-# Get VERSION and BUILDLABEL from Regular UFO; must be first function call:
-getufoinfo('source/masters/' + familyname + '-Regular' + '.ufo')
+getufoinfo('source/masters/' + sourcefontfamily + '-Regular' + '.ufo')
 
 ftmlTest('tools/ftml-smith.xsl')
 
@@ -28,9 +27,7 @@ cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']))
 cmds.append(cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'))
 
 for dspace in ('Roman', 'Italic'):
-#for dspace in ('Roman',):
-#for dspace in ('Italic',):
-    designspace('source/' + familyname + dspace + '.designspace',
+    designspace('source/' + sourcefontfamily + dspace + '.designspace',
                 target = process('${DS:FILENAME_BASE}.ttf', *cmds),
                 instances = ['Gentium Plus Regular'] if '--quick' in opts else None,
 #                classes = 'source/${DS:FAMILYNAME_NOSPC}_classes.xml', #fails for Book fonts
@@ -50,6 +47,32 @@ for dspace in ('Roman', 'Italic'):
                 version = VERSION,
                 shortcircuit = False,
 #                pdf=fret(params = '-r -oi')
+                )
+
+bookpackage = package(appname = "GentiumBookPlus", docdir = DOCDIR)
+bookfamily = "GentiumBookPlus"
+
+getufoinfo('source/masters/' + sourcefontfamily + '-Regular' + '.ufo', bookpackage)
+
+for dspace in ('RB', 'IBI'):
+    designspace('source/' + bookfamily + dspace + '.designspace',
+                target = process('${DS:FILENAME_BASE}.ttf', *cmds),
+                classes = 'source/classes.xml',
+                opentype = fea('source/${DS:FILENAME_BASE}.fea',
+                    master = 'source/opentype/main.feax',
+                    make_params = omitapps,
+                    depends = ('source/opentype/gsub.feax', 
+                        'source/opentype/gpos.feax', 
+                        'source/opentype/gdef.feax'),
+                    mapfile = 'source/${DS:FILENAME_BASE}.map',
+                    to_ufo = 'False' # copies to instance UFOs
+                    ),
+                #typetuner = typetuner('source/typetuner/feat_all.xml'),
+                woff = woff('web/${DS:FILENAME_BASE}.woff',
+                    metadata=f'../source/gentiumbookplus-WOFF-metadata.xml'),
+                version = VERSION,
+                shortcircuit = False,
+                package = bookpackage
                 )
 
 def configure(ctx):
