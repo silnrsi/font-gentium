@@ -12,6 +12,7 @@ DEBPKG = 'fonts-sil-gentium'
 
 TESTDIR = ["tests", "../font-latin-private/tests"]
 
+# Get VERSION and BUILDLABEL from Regular UFO; must be first function call:
 getufoinfo('source/masters/' + sourcefontfamily + '-Regular' + '.ufo')
 
 ftmlTest('tools/ftml-smith.xsl')
@@ -57,6 +58,7 @@ getufoinfo('source/masters/' + sourcefontfamily + '-Regular' + '.ufo', bookpacka
 for dspace in ('RB', 'IBI'):
     designspace('source/' + bookfamily + dspace + '.designspace',
                 target = process('${DS:FILENAME_BASE}.ttf', *cmds),
+                instances = [] if '--quick' in opts else None,
                 classes = 'source/classes.xml',
                 opentype = fea('source/${DS:FILENAME_BASE}.fea',
                     master = 'source/opentype/main.feax',
