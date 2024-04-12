@@ -7,6 +7,26 @@
   <anchor x="348" y="1320" name="U"/>
   <outline>
     <component base="LtnSmT"/>
-    <component base="CombCommaAbvRt" xOffset="500"/>
+    <contour>
+      <point x="501" y="1068" type="curve"/>
+      <point x="565" y="1231"/>
+      <point x="619" y="1383"/>
+      <point x="645" y="1514" type="curve"/>
+      <point x="609" y="1550" type="line"/>
+      <point x="581" y="1544"/>
+      <point x="500" y="1513"/>
+      <point x="470" y="1496" type="curve"/>
+      <point x="480" y="1396"/>
+      <point x="463" y="1248"/>
+      <point x="425" y="1047" type="curve"/>
+      <point x="456" y="1049"/>
+      <point x="481" y="1060"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
 </glyph>

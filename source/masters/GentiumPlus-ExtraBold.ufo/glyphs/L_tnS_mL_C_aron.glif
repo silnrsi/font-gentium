@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmLCaron" format="2">
-  <advance width="922"/>
+  <advance width="825"/>
   <unicode hex="013E"/>
   <anchor x="285" y="0" name="H"/>
   <anchor x="285" y="-100" name="L"/>
   <anchor x="285" y="1690" name="U"/>
   <outline>
     <component base="LtnSmL"/>
-    <component base="CombCommaAbvRt" xOffset="665"/>
+    <contour>
+      <point x="661" y="1076" type="curve"/>
+      <point x="725" y="1209"/>
+      <point x="799" y="1383"/>
+      <point x="825" y="1514" type="curve"/>
+      <point x="789" y="1550" type="line"/>
+      <point x="741" y="1544"/>
+      <point x="610" y="1503"/>
+      <point x="560" y="1476" type="curve"/>
+      <point x="570" y="1376"/>
+      <point x="563" y="1236"/>
+      <point x="525" y="1035" type="curve"/>
+      <point x="566" y="1042"/>
+      <point x="624" y="1056"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
 </glyph>

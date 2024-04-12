@@ -958,5 +958,18 @@
     <key>public.kern2.RQuote</key>
     <integer>200</integer>
   </dict>
+  <key>public.kern1.LSmVCaron</key>
+  <dict>
+    <key>public.kern2.RSmCurve</key>
+    <integer>-130</integer>
+    <key>public.kern2.RSmDiagV</key>
+    <integer>-130</integer>
+    <key>public.kern2.RSmDiagX</key>
+    <integer>-130</integer>
+    <key>public.kern2.RSmRound</key>
+    <integer>-130</integer>
+    <key>public.kern2.RSmSerif</key>
+    <integer>-130</integer>
+  </dict>
 </dict>
 </plist>
