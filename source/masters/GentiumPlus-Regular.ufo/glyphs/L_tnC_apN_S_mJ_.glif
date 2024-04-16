@@ -4,6 +4,7 @@
   <unicode hex="01CB"/>
   <anchor x="1047" y="0" name="H"/>
   <anchor x="1609" y="-600" name="L"/>
+  <anchor x="1409" y="-400" name="O"/>
   <anchor x="1610" y="1050" name="U"/>
   <outline>
     <component base="LtnCapN"/>
@@ -12,7 +13,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

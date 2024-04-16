@@ -3,6 +3,7 @@
   <advance width="585"/>
   <unicode hex="0135"/>
   <anchor x="151" y="-600" name="L"/>
+  <anchor x="-3" y="-400" name="O"/>
   <anchor x="443" y="1510" name="U"/>
   <outline>
     <component base="LtnSmJ.Dotless"/>
@@ -11,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

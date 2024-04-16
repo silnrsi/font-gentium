@@ -2,6 +2,7 @@
 <glyph name="LtnSmYCircum.LP" format="2">
   <advance width="1050"/>
   <anchor x="830" y="-100" name="L"/>
+  <anchor x="288" y="-400" name="O"/>
   <anchor x="1050" y="900" name="R"/>
   <anchor x="548" y="1510" name="U"/>
   <outline>
@@ -11,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

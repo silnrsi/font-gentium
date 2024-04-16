@@ -3,6 +3,7 @@
   <advance width="996"/>
   <unicode hex="045E"/>
   <anchor x="680" y="-100" name="L"/>
+  <anchor x="183" y="-400" name="O"/>
   <anchor x="647" y="1320" name="U"/>
   <outline>
     <component base="CySmU"/>
@@ -11,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>
