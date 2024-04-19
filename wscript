@@ -55,7 +55,7 @@ bookfamily = "GentiumBookPlus"
 
 getufoinfo('source/masters/' + sourcefontfamily + '-Regular' + '.ufo', bookpackage)
 
-for dspace in ('RB', 'IBI'):
+for dspace in ('Roman', 'Italic'):
     designspace('source/' + bookfamily + dspace + '.designspace',
                 target = process('${DS:FILENAME_BASE}.ttf', *cmds),
                 instances = [] if '--quick' in opts else None,
