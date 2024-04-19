@@ -2,11 +2,33 @@
 <glyph name="LtnCapLCaron" format="2">
   <advance width="1018"/>
   <unicode hex="013D"/>
-  <anchor x="210" y="0" name="H"/>
+  <anchor x="402" y="0" name="H"/>
   <anchor x="393" y="-100" name="L"/>
   <anchor x="557" y="1320" name="U"/>
   <outline>
     <component base="LtnCapL"/>
-    <component base="CombCommaAbvRt" xOffset="693"/>
+    <contour>
+      <point x="845" y="1051" type="curve"/>
+      <point x="944" y="1193"/>
+      <point x="1050" y="1367"/>
+      <point x="1085" y="1496" type="curve"/>
+      <point x="1076" y="1512"/>
+      <point x="1064" y="1524"/>
+      <point x="1051" y="1534" type="curve"/>
+      <point x="993" y="1526"/>
+      <point x="890" y="1498"/>
+      <point x="829" y="1470" type="curve"/>
+      <point x="832" y="1370"/>
+      <point x="795" y="1213"/>
+      <point x="703" y="1015" type="curve"/>
+      <point x="749" y="1020"/>
+      <point x="814" y="1036"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
 </glyph>

@@ -359,6 +359,10 @@
   <array>
     <string>LtnCapT</string>
   </array>
+  <key>public.kern1.LCapVCaronL</key>
+  <array>
+    <string>LtnCapLCaron</string>
+  </array>
   <key>public.kern1.LPunctBase</key>
   <array>
     <string>Comma</string>
@@ -419,6 +423,15 @@
   <key>public.kern1.LSmTopF</key>
   <array>
     <string>LtnSmF</string>
+  </array>
+  <key>public.kern1.LSmVCaronD</key>
+  <array>
+    <string>LtnSmDCaron</string>
+    <string>LtnSmLCaron</string>
+  </array>
+  <key>public.kern1.LSmVCaronT</key>
+  <array>
+    <string>LtnSmTCaron</string>
   </array>
   <key>public.kern2.GrCapAlpha</key>
   <array>
@@ -663,6 +676,11 @@
     <string>HorizEllipsis</string>
     <string>SglLow9QuotMrk</string>
   </array>
+  <key>public.kern2.RPunctMid</key>
+  <array>
+    <string>Colon</string>
+    <string>Semicolon</string>
+  </array>
   <key>public.kern2.RQuote</key>
   <array>
     <string>Apos</string>
@@ -683,6 +701,13 @@
     <string>LtnSmH</string>
     <string>LtnSmK</string>
     <string>LtnSmL</string>
+    <string>LtnSmLCaron</string>
+  </array>
+  <key>public.kern2.RSmBar</key>
+  <array>
+    <string>LtnSmF</string>
+    <string>LtnSmT</string>
+    <string>LtnSmTCaron</string>
   </array>
   <key>public.kern2.RSmCurve</key>
   <array>
@@ -708,6 +733,7 @@
   <array>
     <string>LtnSmC</string>
     <string>LtnSmD</string>
+    <string>LtnSmDCaron</string>
     <string>LtnSmE</string>
     <string>LtnSmO</string>
     <string>LtnSmQ</string>

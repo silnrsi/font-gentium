@@ -904,6 +904,17 @@
     <key>public.kern2.RSmSerif</key>
     <integer>-40</integer>
   </dict>
+  <key>public.kern1.LCapVCaronL</key>
+  <dict>
+    <key>public.kern2.RCapDiagV</key>
+    <integer>-60</integer>
+    <key>public.kern2.RCapTopT</key>
+    <integer>-60</integer>
+    <key>public.kern2.RQuote</key>
+    <integer>-1</integer>
+    <key>public.kern2.RSmDiagV</key>
+    <integer>-110</integer>
+  </dict>
   <key>public.kern1.LPunctBase</key>
   <dict>
     <key>public.kern2.RCapDiagV</key>
@@ -1000,6 +1011,42 @@
     <integer>270</integer>
     <key>public.kern2.RQuote</key>
     <integer>300</integer>
+  </dict>
+  <key>public.kern1.LSmVCaronD</key>
+  <dict>
+    <key>public.kern2.RPunctBase</key>
+    <integer>-246</integer>
+    <key>public.kern2.RPunctMid</key>
+    <integer>-246</integer>
+    <key>public.kern2.RSmBar</key>
+    <integer>-246</integer>
+    <key>public.kern2.RSmCurve</key>
+    <integer>-246</integer>
+    <key>public.kern2.RSmDiagV</key>
+    <integer>-246</integer>
+    <key>public.kern2.RSmDiagX</key>
+    <integer>-246</integer>
+    <key>public.kern2.RSmRound</key>
+    <integer>-246</integer>
+    <key>public.kern2.RSmSerif</key>
+    <integer>-246</integer>
+  </dict>
+  <key>public.kern1.LSmVCaronT</key>
+  <dict>
+    <key>public.kern2.RPunctBase</key>
+    <integer>-116</integer>
+    <key>public.kern2.RPunctMid</key>
+    <integer>-116</integer>
+    <key>public.kern2.RSmBar</key>
+    <integer>-116</integer>
+    <key>public.kern2.RSmCurve</key>
+    <integer>-116</integer>
+    <key>public.kern2.RSmDescJ</key>
+    <integer>-116</integer>
+    <key>public.kern2.RSmRound</key>
+    <integer>-116</integer>
+    <key>public.kern2.RSmSerif</key>
+    <integer>-116</integer>
   </dict>
 </dict>
 </plist>
