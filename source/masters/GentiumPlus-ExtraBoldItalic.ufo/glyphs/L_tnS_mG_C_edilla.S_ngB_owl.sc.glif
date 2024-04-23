@@ -3,7 +3,7 @@
   <advance width="1119"/>
   <anchor x="537" y="0" name="H"/>
   <anchor x="545" y="-83" name="L"/>
-  <anchor x="754" y="1410" name="U"/>
+  <anchor x="754" y="1510" name="U"/>
   <outline>
     <component base="LtnSmG.sc"/>
     <component base="CombTrndCommaAbv" xOffset="1101" yOffset="90"/>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

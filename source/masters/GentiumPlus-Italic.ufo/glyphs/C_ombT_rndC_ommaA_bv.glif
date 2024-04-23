@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombTrndCommaAbv" format="2">
   <unicode hex="0312"/>
-  <anchor x="-314" y="1320" name="U"/>
+  <anchor x="-314" y="1420" name="U"/>
   <anchor x="-358" y="1000" name="_U"/>
   <outline>
     <contour>
-      <point x="-432" y="1203" type="curve"/>
-      <point x="-445" y="1137"/>
+      <point x="-432" y="1203" type="curve" smooth="yes"/>
+      <point x="-446" y="1137"/>
       <point x="-436" y="1069"/>
       <point x="-376" y="1039" type="curve"/>
       <point x="-339" y="1035"/>
@@ -21,7 +21,7 @@
       <point x="-192" y="1433" type="curve"/>
       <point x="-222" y="1464" type="line"/>
       <point x="-336" y="1401"/>
-      <point x="-412" y="1292"/>
+      <point x="-413" y="1292"/>
     </contour>
   </outline>
 </glyph>
