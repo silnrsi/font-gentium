@@ -760,6 +760,64 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
       <integer>-550</integer>
     </dict>
   </dict>
+  <key>org.sil.lcg.bridgeLevels</key>
+  <dict>
+    <key>belowhigh</key>
+    <dict>
+      <key>LAnchorMax</key>
+      <integer>0</integer>
+      <key>LAnchorMin</key>
+      <integer>-100</integer>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>390</integer>
+    </dict>
+    <key>belowlow</key>
+    <dict>
+      <key>LAnchorMax</key>
+      <integer>-101</integer>
+      <key>LAnchorMin</key>
+      <integer>-999</integer>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>0</integer>
+    </dict>
+    <key>high</key>
+    <dict>
+      <key>UAnchorMax</key>
+      <integer>2999</integer>
+      <key>UAnchorMin</key>
+      <integer>1371</integer>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>0</integer>
+    </dict>
+    <key>low</key>
+    <dict>
+      <key>UAnchorMax</key>
+      <integer>1050</integer>
+      <key>UAnchorMin</key>
+      <integer>900</integer>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>-510</integer>
+    </dict>
+    <key>mid</key>
+    <dict>
+      <key>UAnchorMax</key>
+      <integer>1370</integer>
+      <key>UAnchorMin</key>
+      <integer>1051</integer>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>-190</integer>
+    </dict>
+  </dict>
   <key>org.sil.lcg.toneLetters</key>
   <dict>
     <key>contourWidth</key>
