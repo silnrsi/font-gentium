@@ -552,7 +552,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3257</string>
+  <string>3303</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>ngjnqjn
@@ -706,13 +706,18 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
 /LtnCapLCaron ahko</string>
     <string>d'/LtnSmDCaron/LtnSmLCaron/LtnSmTCaron/LtnCapLCaron á</string>
     <string>o/CombRevCommaAbv o/CombRevCommaAbv.Lrg k/ModApos/ModApos.Lrg o/CombTrndCommaAbv o/CombTrndCommaAbv.Lrg</string>
+    <string>ôöõÖÕÔf/LtnSmF.SItal/LtnSmFDotAbv/LtnSmFDotAbv.SItal/LtnSmFPalHook/LtnSmFMiddleTilde/LtnSmFHookStrk l/LtnSmLDotBlwMacron/Space i/LtnSmI.SItal/SmRomNumOne/LtnSmIRetrHook/LtnSmIStrk/LtnSmIStrkRetrHook/Space j/LtnSmJStrk/LtnSmJCrossedTail 
+o/CombDblInvBreveBlw oo/CombDblBreveBlw oo/CombDblMacronBlw oo/CombDblRtArrwBlw oo/CombDblInvBreve oo/CombDblBreve oo/CombDblCircum oo/CombDblTilde oo/CombDblMacron oo/CombDblDiaer o
+g/CombDblInvBreveBlw gg/CombDblBreveBlw gg/CombDblMacronBlw gg/CombDblRtArrwBlw g/Space f/CombDblInvBreve f/Space f/CombDblBreve f/Space f/CombDblCircum f/Space f/CombDblTilde f/Space f/CombDblMacron f/Space f/CombDblDiaer f
+O/CombDblInvBreve OO/CombDblBreve OO/CombDblCircum OO/CombDblTilde OO/CombDblMacron OO/CombDblDiaer O
+</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
-  <string>SIL International: Gentium Plus Regular: 2023</string>
+  <string>SIL International: Gentium Plus Regular: 2024</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
@@ -756,6 +761,64 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
       <integer>1750</integer>
       <key>descender</key>
       <integer>-550</integer>
+    </dict>
+  </dict>
+  <key>org.sil.lcg.bridgeLevels</key>
+  <dict>
+    <key>belowhigh</key>
+    <dict>
+      <key>LAnchorMax</key>
+      <integer>0</integer>
+      <key>LAnchorMin</key>
+      <integer>-100</integer>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>390</integer>
+    </dict>
+    <key>belowlow</key>
+    <dict>
+      <key>LAnchorMax</key>
+      <integer>-101</integer>
+      <key>LAnchorMin</key>
+      <integer>-999</integer>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>0</integer>
+    </dict>
+    <key>high</key>
+    <dict>
+      <key>UAnchorMax</key>
+      <integer>2999</integer>
+      <key>UAnchorMin</key>
+      <integer>1371</integer>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>0</integer>
+    </dict>
+    <key>low</key>
+    <dict>
+      <key>UAnchorMax</key>
+      <integer>1050</integer>
+      <key>UAnchorMin</key>
+      <integer>900</integer>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>-510</integer>
+    </dict>
+    <key>mid</key>
+    <dict>
+      <key>UAnchorMax</key>
+      <integer>1370</integer>
+      <key>UAnchorMin</key>
+      <integer>1051</integer>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>-190</integer>
     </dict>
   </dict>
   <key>org.sil.lcg.toneLetters</key>
@@ -1408,6 +1471,7 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
     <string>LtnSmCCurl</string>
     <string>LtnSupSmCCurl</string>
     <string>LtnStretchedCCurl</string>
+    <string>CopSmEie</string>
     <string>LtnSmOpnO</string>
     <string>LtnSmOpnO.TopSerif</string>
     <string>LtnSupSmOpnO</string>
@@ -3374,7 +3438,10 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
     <string>CombFermata</string>
     <string>CharTieAbv</string>
     <string>CombDblInvBreveBlw</string>
+    <string>CombDblInvBreveBlw.blwhigh</string>
     <string>CombDblInvBreve</string>
+    <string>CombDblInvBreve.mid</string>
+    <string>CombDblInvBreve.low</string>
     <string>CombDblInvBreve.UU</string>
     <string>CombDblInvBreve.UL</string>
     <string>CombDblInvBreve.LL</string>
@@ -3393,8 +3460,13 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
     <string>CombBreve_Macron</string>
     <string>CharTieBlw</string>
     <string>CombDblBreveBlw</string>
+    <string>CombDblBreveBlw.blwhigh</string>
     <string>CombDblBreve</string>
+    <string>CombDblBreve.mid</string>
+    <string>CombDblBreve.low</string>
     <string>CombDblCircum</string>
+    <string>CombDblCircum.mid</string>
+    <string>CombDblCircum.low</string>
     <string>ModVoicing</string>
     <string>CombCaronBlw</string>
     <string>CombCaron</string>
@@ -3418,6 +3490,8 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
     <string>CombAlmostEqToBlw</string>
     <string>CombHomotheticAbv</string>
     <string>CombDblTilde</string>
+    <string>CombDblTilde.mid</string>
+    <string>CombDblTilde.low</string>
     <string>CombDblTildeLft</string>
     <string>CombDblTildeRt</string>
     <string>CombVertTilde</string>
@@ -3439,7 +3513,10 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
     <string>CombMacron</string>
     <string>CombMacron.Short</string>
     <string>CombDblMacronBlw</string>
+    <string>CombDblMacronBlw.blwhigh</string>
     <string>CombDblMacron</string>
+    <string>CombDblMacron.mid</string>
+    <string>CombDblMacron.low</string>
     <string>CombLowLine</string>
     <string>CombOverline</string>
     <string>Overline</string>
@@ -3461,6 +3538,8 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
     <string>CombDiaer.UL</string>
     <string>CombDiaer.Sup</string>
     <string>CombDblDiaer</string>
+    <string>CombDblDiaer.mid</string>
+    <string>CombDblDiaer.low</string>
     <string>CombDiaerRing</string>
     <string>CombTripleDot</string>
     <string>CombDotBlw</string>
@@ -3708,6 +3787,7 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
     <string>CombRtArrwBlw</string>
     <string>CombRtHarpoonBarbDwnBlw</string>
     <string>CombDblRtArrwBlw</string>
+    <string>CombDblRtArrwBlw.blwhigh</string>
     <string>LftRtArrw</string>
     <string>CombLftRtArrwBlw</string>
     <string>LftArrwStrk</string>
@@ -5640,14 +5720,28 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
     <string>uni030B</string>
     <key>CombDblBreve</key>
     <string>uni035D</string>
+    <key>CombDblBreve.low</key>
+    <string>uni035D.low</string>
+    <key>CombDblBreve.mid</key>
+    <string>uni035D.mid</string>
     <key>CombDblBreveBlw</key>
     <string>uni035C</string>
+    <key>CombDblBreveBlw.blwhigh</key>
+    <string>uni035C.blwhigh</string>
     <key>CombDblBreveBlwDep</key>
     <string>uniF176</string>
     <key>CombDblCircum</key>
     <string>uni1DCD</string>
+    <key>CombDblCircum.low</key>
+    <string>uni1DCD.low</string>
+    <key>CombDblCircum.mid</key>
+    <string>uni1DCD.mid</string>
     <key>CombDblDiaer</key>
     <string>uniF17A</string>
+    <key>CombDblDiaer.low</key>
+    <string>uniF17A.low</string>
+    <key>CombDblDiaer.mid</key>
+    <string>uniF17A.mid</string>
     <key>CombDblGrave</key>
     <string>uni030F</string>
     <key>CombDblInvBreve</key>
@@ -5658,8 +5752,14 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
     <string>uni0361.UL</string>
     <key>CombDblInvBreve.UU</key>
     <string>uni0361.UU</string>
+    <key>CombDblInvBreve.low</key>
+    <string>uni0361.low</string>
+    <key>CombDblInvBreve.mid</key>
+    <string>uni0361.mid</string>
     <key>CombDblInvBreveBlw</key>
     <string>uni1DFC</string>
+    <key>CombDblInvBreveBlw.blwhigh</key>
+    <string>uni1DFC.blwhigh</string>
     <key>CombDblInvBreveLft</key>
     <string>uniFE20</string>
     <key>CombDblInvBreveRt</key>
@@ -5668,8 +5768,14 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
     <string>uni0333</string>
     <key>CombDblMacron</key>
     <string>uni035E</string>
+    <key>CombDblMacron.low</key>
+    <string>uni035E.low</string>
+    <key>CombDblMacron.mid</key>
+    <string>uni035E.mid</string>
     <key>CombDblMacronBlw</key>
     <string>uni035F</string>
+    <key>CombDblMacronBlw.blwhigh</key>
+    <string>uni035F.blwhigh</string>
     <key>CombDblOpnMrkBlw</key>
     <string>uni1AB8</string>
     <key>CombDblOverline</key>
@@ -5682,8 +5788,14 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
     <string>uni035A</string>
     <key>CombDblRtArrwBlw</key>
     <string>uni0362</string>
+    <key>CombDblRtArrwBlw.blwhigh</key>
+    <string>uni0362.blwhigh</string>
     <key>CombDblTilde</key>
     <string>uni0360</string>
+    <key>CombDblTilde.low</key>
+    <string>uni0360.low</string>
+    <key>CombDblTilde.mid</key>
+    <string>uni0360.mid</string>
     <key>CombDblTildeLft</key>
     <string>uniFE22</string>
     <key>CombDblTildeRt</key>
@@ -5992,6 +6104,8 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
     <string>compComma</string>
     <key>CopCapEie</key>
     <string>uni2C88</string>
+    <key>CopSmEie</key>
+    <string>uni2C89</string>
     <key>CopyleftSgn</key>
     <string>u1F12F</string>
     <key>CopyrightSgn</key>
