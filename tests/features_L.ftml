@@ -4,9 +4,13 @@
   <head>
     <fontscale>200</fontscale>
     <fontsrc label="GR">url(../results/GentiumPlus-Regular.ttf)</fontsrc>
+    <fontsrc label="GBkR">url(../results/GentiumBookPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GB">url(../results/GentiumPlus-Bold.ttf)</fontsrc>
+    <fontsrc label="GBkB">url(../results/GentiumBookPlus-Bold.ttf)</fontsrc>
     <fontsrc label="GI">url(../results/GentiumPlus-Italic.ttf)</fontsrc>
+    <fontsrc label="GBkI">url(../results/GentiumBookPlus-Italic.ttf)</fontsrc>
     <fontsrc label="GBI">url(../results/GentiumPlus-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="GBkBI">url(../results/GentiumBookPlus-BoldItalic.ttf)</fontsrc>
     <fontsrc label="GRv6">url(../references/v6101/GentiumPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GIv6">url(../references/v6101/GentiumPlus-Italic.ttf)</fontsrc>
     <styles>
@@ -236,17 +240,20 @@ U+04E1" stylename="cv20_1">
     </test>
   </testgroup>
   <testgroup label="cv25">
-    <test label="U+0264">
-      <comment>LtnSmRamsHorn</comment>
-      <string>\u000264\u000329</string>
+    <test label="U+0264
+U+10791">
+      <comment>LtnSmRamsHorn LtnSupSmRamsHorn</comment>
+      <string>\u000264\u000329\u010791\u000329</string>
     </test>
-    <test label="U+0264" stylename="cv25_1">
-      <comment>LtnSmRamsHorn</comment>
-      <string>\u000264\u000329</string>
+    <test label="U+0264
+U+10791" stylename="cv25_1">
+      <comment>LtnSmRamsHorn LtnSupSmRamsHorn</comment>
+      <string>\u000264\u000329\u010791\u000329</string>
     </test>
-    <test label="U+0264" stylename="cv25_2">
-      <comment>LtnSmRamsHorn</comment>
-      <string>\u000264\u000329</string>
+    <test label="U+0264
+U+10791" stylename="cv25_2">
+      <comment>LtnSmRamsHorn LtnSupSmRamsHorn</comment>
+      <string>\u000264\u000329\u010791\u000329</string>
     </test>
   </testgroup>
   <testgroup label="cv28">
