@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombDblBreve.low" format="2">
   <anchor x="-120" y="-100" name="L"/>
-  <anchor x="177" y="1930" name="U"/>
+  <anchor x="117" y="1410" name="U"/>
   <outline>
-    <component base="CombDblBreve"/>
+    <component base="CombDblBreve" xOffset="-60" yOffset="-520"/>
   </outline>
 </glyph>
