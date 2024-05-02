@@ -3,13 +3,12 @@
 <ftml version="1.0">
   <head>
     <fontscale>200</fontscale>
-    <fontsrc label="CRv6">url(../results/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="CBv6">url(../results/GentiumPlus-Bold.ttf)</fontsrc>
-    <fontsrc label="CIv6">url(../results/GentiumPlus-Italic.ttf)</fontsrc>
-    <fontsrc label="CBIv6">url(../results/GentiumPlus-BoldItalic.ttf)</fontsrc>
-    <fontsrc label="CRv5">url(../references/v6200/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="CIv5">url(../references/v6200/GentiumPlus-Italic.ttf)</fontsrc>
-    <!-- fontsrc label="DRv5">url(../references/v5/DoulosSIL-Regular.ttf)</fontsrc -->
+    <fontsrc label="GRv7">url(../results/GentiumPlus-Regular.ttf)</fontsrc>
+    <fontsrc label="GBv7">url(../results/GentiumPlus-Bold.ttf)</fontsrc>
+    <fontsrc label="GIv7">url(../results/GentiumPlus-Italic.ttf)</fontsrc>
+    <fontsrc label="GBIv7">url(../results/GentiumPlus-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="GRv62">url(../references/v6200/GentiumPlus-Regular.ttf)</fontsrc>
+    <fontsrc label="GIv62">url(../references/v6200/GentiumPlus-Italic.ttf)</fontsrc>
     <title>Bridging diacritics</title>
   </head>
   <testgroup label="Experimental combos (only the first and last are expected to fully center)">
