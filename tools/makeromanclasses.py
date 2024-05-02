@@ -28,7 +28,7 @@ class_spec_lst = [('smcp', 'sc'),
                   ('nobar', 'NB')
                   ]
 
-super_sub_mod_regex = "\wSubSm\w|\wSupSm\w|^ModCap\w|^ModSm\w|^ModCy\w"
+super_sub_mod_regex = r"\wSubSm\w|\wSupSm\w|^ModCap\w|^ModSm\w|^ModCy\w"
 
 glyph_class_additions = {# 'cno_c2sc' : ['LtnYr', 'CyPalochka'],
                          # 'c_c2sc' : ['LtnSmCapR.sc', 'CyPalochka.sc'],
@@ -74,6 +74,8 @@ class Font(object):
         self.unicodes = OrderedDict()
         self.g_classes = OrderedDict()
         self.g_variants = OrderedDict()
+        self.u_levels = {}
+        self.l_levels = {}
 
     def read_font(self, ufo_nm):
         self.file_nm = ufo_nm
@@ -85,11 +87,24 @@ class Font(object):
             unicode_lst = ufo_g['unicode']
             if unicode_lst:
                 # store primary encoding, allow for double encoding
-                self.unicodes.setdefault(unicode_lst[0].hex, []).append(glyph)
+                usv_str = unicode_lst[0].hex
+                self.unicodes.setdefault(usv_str, []).append(glyph)
             if 'anchor' in ufo_g:
                 for anchor in ufo_g['anchor']:
                     a_attr = anchor.element.attrib
-                    glyph.add_anchor(a_attr['name'], int(float(a_attr['x'])), int(float(a_attr['y'])))
+                    a_nm, a_x, a_y = a_attr['name'], int(float(a_attr['x'])), int(float(a_attr['y']))
+                    glyph.add_anchor(a_nm, a_x, a_y)
+                    if a_nm == "U":
+                        self.u_levels.setdefault(a_y, []).append(glyph)
+                    if a_nm == "L":
+                        self.l_levels.setdefault(a_y, []).append(glyph)
+
+        lib_plist = ufo_f.lib.getval("org.sil.lcg.bridgeLevels")
+        self.level_ranges = {}
+        for k in ('high', 'mid', 'low'):
+            self.level_ranges[k] = (lib_plist[k]['UAnchorMin'], lib_plist[k]['UAnchorMax'])
+        for k in ('belowhigh', 'belowlow'):
+            self.level_ranges[k] = (lib_plist[k]['LAnchorMin'], lib_plist[k]['LAnchorMax'])
 
     def make_classes(self, class_spec_lst):
         # create multisuffix classes
@@ -101,8 +116,8 @@ class Font(object):
             c_lst, cno_lst = [], []
             for suffix in class_spec[1:]:
                 for g_nm in self.glyphs:
-                    if re.search("\." + suffix, g_nm):
-                        gno_nm = re.sub("\." + suffix, "", g_nm)
+                    if re.search(r"\." + suffix, g_nm):
+                        gno_nm = re.sub(r"\." + suffix, "", g_nm)
                         if gno_nm in self.glyphs:
                             c_lst.append(g_nm)
                             cno_lst.append(gno_nm)
@@ -156,7 +171,7 @@ class Font(object):
         #  need to decompose glyphs that contain to a grave
         for g_nm in self.glyphs:
             if (re.search('Ltn(Cap|Sm).Grave', g_nm)):
-                g_base_nm = re.sub('(.*)Grave(.*)', '\g<1>\g<2>', g_nm)
+                g_base_nm = re.sub('(.*)Grave(.*)', r'\g<1>\g<2>', g_nm)
                 # TODO: generalize the below
                 if g_base_nm.find('LtnSmI') != -1 and g_base_nm.find('.sc') == -1 :
                     g_base_nm = re.sub('LtnSmI', 'LtnSmI.Dotless', g_base_nm)
@@ -166,7 +181,7 @@ class Font(object):
 
         # create classes of glyphs containing combining diacs w low profile variants
         for g_nm in self.glyphs:
-            if (re.search('Comb.*\.(LP|VNLP)', g_nm)):
+            if (re.search(r'Comb.*\.(LP|VNLP)', g_nm)):
                 g_no_nm = g_nm[:-3] if g_nm.find('VNLP') == -1 else g_nm[:-2]
                 self.g_classes.setdefault('c_lprof_diac', []).append(g_nm)
                 self.g_classes.setdefault('cno_lprof_diac', []).append(g_no_nm)
@@ -183,7 +198,24 @@ class Font(object):
                     for a in glyph_lst[0].anchors:
                         if a == 'U':
                             self.g_classes.setdefault('c_takes_lp_diac', []).append(g_nm)
-        
+
+        # create classes of glyphs for supporting bridging diacrtics
+        # TODO: explain criteria for class membership
+        for level in self.u_levels:
+            if not level >= self.level_ranges['low'][0]: continue
+            for glyph in self.u_levels[level]:
+                if 'L' in glyph.anchors and glyph.anchors['L'][1] <= self.level_ranges['belowhigh'][0]:
+                    if level >= self.level_ranges['low'][0] and level <= self.level_ranges['low'][1]:
+                        self.g_classes.setdefault('c_takes_low_diac',[]).append(glyph.name)
+                    if level >= self.level_ranges['mid'][0] and level <= self.level_ranges['mid'][1]:
+                        self.g_classes.setdefault('c_takes_mid_diac',[]).append(glyph.name)
+        for level in self.l_levels:
+            if not level <= self.level_ranges['belowhigh'][1]: continue
+            for glyph in self.l_levels[level]:
+                if 'U' in glyph.anchors and glyph.anchors['U'][1] >= self.level_ranges['low'][0]:
+                    if level >= self.level_ranges['belowhigh'][0] and level <= self.level_ranges['belowhigh'][1]:
+                        self.g_classes.setdefault('c_takes_belowhigh_diac',[]).append(glyph.name)
+
         # add irregular glyphs to classes not found by the above algorithms
         for cls, g_lst in glyph_class_additions.items():
             # for g in g_lst: assert(not g in self.g_classes[cls])
@@ -211,11 +243,11 @@ class Font(object):
         #  creates a mapping from a glyph to all glyphs with an additional suffix
         # only called if fea is being generated
         for g_nm in self.glyphs:
-            suffix_lst = re.findall('(\..*?)(?=\.|$)', g_nm)
+            suffix_lst = re.findall(r'(\..*?)(?=\.|$)', g_nm)
             for suffix in suffix_lst:
                 if suffix in ('.notdef', '.null'):
                     continue
-                if re.match('\.(1|2|3|4|5|rstaff|rstaffno|lstaff|lstaffno)$',suffix):
+                if re.match(r'\.(1|2|3|4|5|rstaff|rstaffno|lstaff|lstaffno)$',suffix):
                     # exclude tone-related glyphs
                     continue
                 variation = suffix[1:]
