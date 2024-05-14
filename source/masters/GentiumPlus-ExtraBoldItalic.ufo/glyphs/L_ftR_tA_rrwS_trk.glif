@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LftRtArrwStrk" format="2">
-  <advance width="1975"/>
+  <advance width="1976"/>
   <unicode hex="21AE"/>
   <outline>
-    <component base="LftRtArrw"/>
+    <contour>
+      <point x="1269" y="256" type="line"/>
+      <point x="1845" y="505" type="line"/>
+      <point x="1845" y="638" type="line"/>
+      <point x="1269" y="887" type="line"/>
+      <point x="1234" y="796" type="line"/>
+      <point x="1640" y="633" type="line"/>
+      <point x="335" y="633" type="line"/>
+      <point x="741" y="796" type="line"/>
+      <point x="706" y="887" type="line"/>
+      <point x="130" y="638" type="line"/>
+      <point x="130" y="505" type="line"/>
+      <point x="706" y="256" type="line"/>
+      <point x="741" y="347" type="line"/>
+      <point x="335" y="510" type="line"/>
+      <point x="1640" y="510" type="line"/>
+      <point x="1234" y="347" type="line"/>
+    </contour>
+    <contour>
+      <point x="1122" y="960" type="line"/>
+      <point x="753" y="229" type="line"/>
+      <point x="854" y="177" type="line"/>
+      <point x="1223" y="909" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

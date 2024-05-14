@@ -4,11 +4,25 @@
   <unicode hex="22BB"/>
   <outline>
     <component base="DwnArrwhd"/>
+    <contour>
+      <point x="725" y="-65" type="line"/>
+      <point x="736" y="-40"/>
+      <point x="758" y="2"/>
+      <point x="764" y="31" type="curve"/>
+      <point x="742" y="55" type="line"/>
+      <point x="-4" y="55" type="line"/>
+      <point x="-17" y="29"/>
+      <point x="-39" y="-11"/>
+      <point x="-45" y="-40" type="curve"/>
+      <point x="-23" y="-65" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>
