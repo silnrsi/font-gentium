@@ -764,7 +764,6 @@ CombDblInvBreve.UU = CombInvBreve.UU
 CombDblInvBreve.UL = CombInvBreve.UL
 CombDblInvBreve.LL = CombInvBreve.LL
 ModRtTack = ModYangDepartingToneMrk |AB6B
-CombGrYpo = GrYpo |0345
 LtnSmAAcute.LP = LtnSmA + CombAcute.LP@U
 LtnSmAGrave.LP = LtnSmA + CombGrave.LP@U
 LtnSmACircumDotBlw.LP = LtnSmA + CombDotBlw@L + CombCircum.LP@LtnSmA:U

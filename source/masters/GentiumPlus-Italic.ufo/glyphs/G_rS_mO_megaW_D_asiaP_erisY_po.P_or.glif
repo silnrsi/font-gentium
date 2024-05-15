@@ -2,7 +2,7 @@
 <glyph name="GrSmOmegaWDasiaPerisYpo.Por" format="2">
   <advance width="1370"/>
   <outline>
-    <component base="GrYpo" xOffset="1190"/>
+    <component base="CombGrYpo" xOffset="1190"/>
     <component base="GrSmOmega"/>
     <component base="GrDasiaPeris.Por" xOffset="610"/>
   </outline>
