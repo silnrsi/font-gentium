@@ -552,7 +552,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3260</string>
+  <string>3306</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -4643,6 +4643,12 @@ g/CombDblInvBreveBlw gg/CombDblBreveBlw gg/CombDblMacronBlw gg/CombDblRtArrwBlw 
     <string>GrPsiliPeris.Por</string>
     <string>GrKoronis</string>
     <string>CombGrKoronis</string>
+    <string>LftParen.sc</string>
+    <string>RtParen.sc</string>
+    <string>LftSqrBrac.sc</string>
+    <string>RtSqrBrac.sc</string>
+    <string>LftCurlyBrac.sc</string>
+    <string>RtCurlyBrac.sc</string>
     <string>LtnSmA.sc</string>
     <string>CySmA.sc</string>
     <string>LtnSmAAcute.sc</string>
@@ -8329,6 +8335,8 @@ g/CombDblInvBreveBlw gg/CombDblBreveBlw gg/CombDblMacronBlw gg/CombDblRtArrwBlw 
     <string>uni23A3</string>
     <key>LftCurlyBrac</key>
     <string>braceleft</string>
+    <key>LftCurlyBrac.sc</key>
+    <string>braceleft.sc</string>
     <key>LftDblArrw</key>
     <string>arrowdblleft</string>
     <key>LftDblParen</key>
@@ -8345,6 +8353,8 @@ g/CombDblInvBreveBlw gg/CombDblBreveBlw gg/CombDblMacronBlw gg/CombDblRtArrwBlw 
     <string>parenleft</string>
     <key>LftParen.Sophia</key>
     <string>compLftParen</string>
+    <key>LftParen.sc</key>
+    <string>parenleft.sc</string>
     <key>LftPtngAngBrac</key>
     <string>angleleft</string>
     <key>LftPtngDblAngQuotMrk</key>
@@ -8359,6 +8369,8 @@ g/CombDblInvBreveBlw gg/CombDblBreveBlw gg/CombDblMacronBlw gg/CombDblRtArrwBlw 
     <string>quoteleft</string>
     <key>LftSqrBrac</key>
     <string>bracketleft</string>
+    <key>LftSqrBrac.sc</key>
+    <string>bracketleft.sc</string>
     <key>LftStemTnLtr1</key>
     <string>uniA716</string>
     <key>LftStemTnLtr1Dep</key>
@@ -14139,6 +14151,8 @@ g/CombDblInvBreveBlw gg/CombDblBreveBlw gg/CombDblMacronBlw gg/CombDblRtArrwBlw 
     <string>uni23A6</string>
     <key>RtCurlyBrac</key>
     <string>braceright</string>
+    <key>RtCurlyBrac.sc</key>
+    <string>braceright.sc</string>
     <key>RtDblArrw</key>
     <string>arrowdblright</string>
     <key>RtDblParen</key>
@@ -14155,6 +14169,8 @@ g/CombDblInvBreveBlw gg/CombDblBreveBlw gg/CombDblMacronBlw gg/CombDblRtArrwBlw 
     <string>parenright</string>
     <key>RtParen.Sophia</key>
     <string>compRtParen</string>
+    <key>RtParen.sc</key>
+    <string>parenright.sc</string>
     <key>RtPtngAngBrac</key>
     <string>angleright</string>
     <key>RtPtngDblAngQuotMrk</key>
@@ -14163,6 +14179,8 @@ g/CombDblInvBreveBlw gg/CombDblBreveBlw gg/CombDblMacronBlw gg/CombDblRtArrwBlw 
     <string>quoteright</string>
     <key>RtSqrBrac</key>
     <string>bracketright</string>
+    <key>RtSqrBrac.sc</key>
+    <string>bracketright.sc</string>
     <key>RtToLftEmbedding</key>
     <string>uni202B</string>
     <key>RtToLftMrk</key>
