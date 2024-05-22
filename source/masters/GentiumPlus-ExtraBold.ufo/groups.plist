@@ -363,6 +363,10 @@
   <array>
     <string>LtnCapLCaron</string>
   </array>
+  <key>public.kern1.LModApos</key>
+  <array>
+    <string>ModApos</string>
+  </array>
   <key>public.kern1.LPunctBase</key>
   <array>
     <string>Comma</string>
@@ -376,7 +380,6 @@
     <string>Apos</string>
     <string>LftDblQuotMrk</string>
     <string>LftSglQuotMrk</string>
-    <string>ModApos</string>
     <string>QuotMrk</string>
     <string>RtDblQuotMrk</string>
     <string>RtSglQuotMrk</string>
@@ -668,6 +671,10 @@
   <array>
     <string>LtnCapT</string>
   </array>
+  <key>public.kern2.RModApos</key>
+  <array>
+    <string>ModApos</string>
+  </array>
   <key>public.kern2.RPunctBase</key>
   <array>
     <string>Comma</string>
@@ -686,7 +693,6 @@
     <string>Apos</string>
     <string>LftDblQuotMrk</string>
     <string>LftSglQuotMrk</string>
-    <string>ModApos</string>
     <string>QuotMrk</string>
     <string>RtDblQuotMrk</string>
     <string>RtSglQuotMrk</string>

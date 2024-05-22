@@ -783,6 +783,8 @@
     <integer>-1</integer>
     <key>public.kern2.RCapTopT</key>
     <integer>-130</integer>
+    <key>public.kern2.RModApos</key>
+    <integer>-190</integer>
     <key>public.kern2.RQuote</key>
     <integer>-250</integer>
     <key>public.kern2.RRelease</key>
@@ -821,6 +823,8 @@
     <integer>-30</integer>
     <key>public.kern2.RCapTopT</key>
     <integer>-120</integer>
+    <key>public.kern2.RModApos</key>
+    <integer>-220</integer>
     <key>public.kern2.RQuote</key>
     <integer>-250</integer>
     <key>public.kern2.RRelease</key>
@@ -953,6 +957,8 @@
   </dict>
   <key>public.kern1.LSmCurve</key>
   <dict>
+    <key>public.kern2.RModApos</key>
+    <integer>-170</integer>
     <key>public.kern2.RQuote</key>
     <integer>-140</integer>
     <key>public.kern2.RRelease</key>
@@ -962,6 +968,8 @@
   </dict>
   <key>public.kern1.LSmDesc</key>
   <dict>
+    <key>public.kern2.RModApos</key>
+    <integer>-120</integer>
     <key>public.kern2.RQuote</key>
     <integer>-90</integer>
     <key>public.kern2.RRelease</key>
@@ -971,6 +979,8 @@
   </dict>
   <key>public.kern1.LSmDiagV</key>
   <dict>
+    <key>public.kern2.RModApos</key>
+    <integer>-100</integer>
     <key>public.kern2.RPunctBase</key>
     <integer>-150</integer>
     <key>public.kern2.RQuote</key>
@@ -984,6 +994,8 @@
   </dict>
   <key>public.kern1.LSmDiagX</key>
   <dict>
+    <key>public.kern2.RModApos</key>
+    <integer>-100</integer>
     <key>public.kern2.RQuote</key>
     <integer>-50</integer>
     <key>public.kern2.RRelease</key>
@@ -993,6 +1005,8 @@
   </dict>
   <key>public.kern1.LSmRound</key>
   <dict>
+    <key>public.kern2.RModApos</key>
+    <integer>-160</integer>
     <key>public.kern2.RQuote</key>
     <integer>-150</integer>
     <key>public.kern2.RRelease</key>
@@ -1004,6 +1018,8 @@
   </dict>
   <key>public.kern1.LSmSerif</key>
   <dict>
+    <key>public.kern2.RModApos</key>
+    <integer>-100</integer>
     <key>public.kern2.RQuote</key>
     <integer>-80</integer>
     <key>public.kern2.RRelease</key>
@@ -1015,6 +1031,8 @@
   <dict>
     <key>public.kern2.RBracket</key>
     <integer>210</integer>
+    <key>public.kern2.RModApos</key>
+    <integer>290</integer>
     <key>public.kern2.RQuote</key>
     <integer>240</integer>
   </dict>
