@@ -746,6 +746,8 @@
     <integer>-1</integer>
     <key>public.kern2.RCapTopT</key>
     <integer>-120</integer>
+    <key>public.kern2.RModApos</key>
+    <integer>-190</integer>
     <key>public.kern2.RQuote</key>
     <integer>-250</integer>
     <key>public.kern2.RRelease</key>
@@ -782,6 +784,8 @@
     <integer>-60</integer>
     <key>public.kern2.RCapTopT</key>
     <integer>-120</integer>
+    <key>public.kern2.RModApos</key>
+    <integer>-220</integer>
     <key>public.kern2.RQuote</key>
     <integer>-250</integer>
     <key>public.kern2.RRelease</key>
@@ -912,6 +916,8 @@
   </dict>
   <key>public.kern1.LSmCurve</key>
   <dict>
+    <key>public.kern2.RModApos</key>
+    <integer>-170</integer>
     <key>public.kern2.RQuote</key>
     <integer>-100</integer>
     <key>public.kern2.RRelease</key>
@@ -921,6 +927,8 @@
   </dict>
   <key>public.kern1.LSmDesc</key>
   <dict>
+    <key>public.kern2.RModApos</key>
+    <integer>-100</integer>
     <key>public.kern2.RQuote</key>
     <integer>-1</integer>
     <key>public.kern2.RRelease</key>
@@ -930,6 +938,8 @@
   </dict>
   <key>public.kern1.LSmDiagV</key>
   <dict>
+    <key>public.kern2.RModApos</key>
+    <integer>-90</integer>
     <key>public.kern2.RPunctBase</key>
     <integer>-200</integer>
     <key>public.kern2.RQuote</key>
@@ -943,6 +953,8 @@
   </dict>
   <key>public.kern1.LSmDiagX</key>
   <dict>
+    <key>public.kern2.RModApos</key>
+    <integer>-90</integer>
     <key>public.kern2.RQuote</key>
     <integer>-1</integer>
     <key>public.kern2.RRelease</key>
@@ -952,6 +964,8 @@
   </dict>
   <key>public.kern1.LSmRound</key>
   <dict>
+    <key>public.kern2.RModApos</key>
+    <integer>-150</integer>
     <key>public.kern2.RQuote</key>
     <integer>-100</integer>
     <key>public.kern2.RRelease</key>
@@ -963,6 +977,8 @@
   </dict>
   <key>public.kern1.LSmSerif</key>
   <dict>
+    <key>public.kern2.RModApos</key>
+    <integer>-100</integer>
     <key>public.kern2.RQuote</key>
     <integer>-1</integer>
     <key>public.kern2.RRelease</key>
@@ -976,6 +992,8 @@
   <dict>
     <key>public.kern2.RBracket</key>
     <integer>200</integer>
+    <key>public.kern2.RModApos</key>
+    <integer>260</integer>
     <key>public.kern2.RQuote</key>
     <integer>200</integer>
   </dict>
