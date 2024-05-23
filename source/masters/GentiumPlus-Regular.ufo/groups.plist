@@ -413,6 +413,7 @@
     <string>LtnSmAOgonek.SngStory.RetroHook</string>
     <string>LtnSmARetrHook</string>
     <string>LtnSmAlphaRetrHook</string>
+    <string>LtnSmBPalHook</string>
     <string>LtnSmG</string>
     <string>LtnSmQ</string>
   </array>
@@ -435,10 +436,18 @@
     <string>LtnSmAODigraph</string>
     <string>LtnSmAe</string>
     <string>LtnSmB</string>
+    <string>LtnSmBBarredStem</string>
+    <string>LtnSmBDotAbv</string>
+    <string>LtnSmBHook</string>
+    <string>LtnSmBLftHook</string>
+    <string>LtnSmBLftMidHook</string>
+    <string>LtnSmBMiddleTilde</string>
+    <string>LtnSmBTopbar</string>
     <string>LtnSmE</string>
     <string>LtnSmLigOe</string>
     <string>LtnSmO</string>
     <string>LtnSmP</string>
+    <string>LtnSmTnSix</string>
     <string>LtnSmTurnedAlpha</string>
   </array>
   <key>public.kern1.LSmSerif</key>
@@ -739,6 +748,11 @@
   <key>public.kern2.RSmAsc</key>
   <array>
     <string>LtnSmB</string>
+    <string>LtnSmBBarredStem</string>
+    <string>LtnSmBBarredStem.BarBowl</string>
+    <string>LtnSmBDotAbv</string>
+    <string>LtnSmBHook</string>
+    <string>LtnSmBPalHook</string>
     <string>LtnSmH</string>
     <string>LtnSmK</string>
     <string>LtnSmL</string>
