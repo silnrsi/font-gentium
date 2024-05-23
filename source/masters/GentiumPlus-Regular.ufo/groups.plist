@@ -320,6 +320,7 @@
   </array>
   <key>public.kern1.LCapBaseU</key>
   <array>
+    <string>LtnCapAUDigraph</string>
     <string>LtnCapU</string>
   </array>
   <key>public.kern1.LCapCurve</key>
@@ -329,6 +330,8 @@
   <key>public.kern1.LCapDiagA</key>
   <array>
     <string>LtnCapA</string>
+    <string>LtnCapAADigraph</string>
+    <string>LtnCapAOgonek.RetroHook</string>
   </array>
   <key>public.kern1.LCapDiagV</key>
   <array>
@@ -337,6 +340,9 @@
   </array>
   <key>public.kern1.LCapDiagW</key>
   <array>
+    <string>LtnCapAVDigraph</string>
+    <string>LtnCapAYDigraph</string>
+    <string>LtnCapTurnedA</string>
     <string>LtnCapW</string>
   </array>
   <key>public.kern1.LCapDiagX</key>
@@ -346,9 +352,12 @@
   </array>
   <key>public.kern1.LCapRound</key>
   <array>
+    <string>LtnCapAODigraph</string>
     <string>LtnCapD</string>
+    <string>LtnCapLigOe</string>
     <string>LtnCapO</string>
     <string>LtnCapQ</string>
+    <string>LtnCapSmTurnedAlpha</string>
   </array>
   <key>public.kern1.LCapTopP</key>
   <array>
@@ -387,18 +396,30 @@
   <key>public.kern1.LSmCurve</key>
   <array>
     <string>LtnSmA</string>
+    <string>LtnSmAADigraph</string>
+    <string>LtnSmAOgonek.RetroHook</string>
+    <string>LtnSmAUDigraph</string>
+    <string>LtnSmAlpha</string>
+    <string>LtnSmBarredAlpha</string>
     <string>LtnSmH</string>
     <string>LtnSmM</string>
     <string>LtnSmN</string>
+    <string>LtnSmTrndAe</string>
+    <string>LtnSmTurnedA</string>
     <string>LtnSmU</string>
   </array>
   <key>public.kern1.LSmDesc</key>
   <array>
+    <string>LtnSmAOgonek.SngStory.RetroHook</string>
+    <string>LtnSmARetrHook</string>
+    <string>LtnSmAlphaRetrHook</string>
     <string>LtnSmG</string>
     <string>LtnSmQ</string>
   </array>
   <key>public.kern1.LSmDiagV</key>
   <array>
+    <string>LtnSmAVDigraph</string>
+    <string>LtnSmAYDigraph</string>
     <string>LtnSmR</string>
     <string>LtnSmV</string>
     <string>LtnSmW</string>
@@ -411,10 +432,14 @@
   </array>
   <key>public.kern1.LSmRound</key>
   <array>
+    <string>LtnSmAODigraph</string>
+    <string>LtnSmAe</string>
     <string>LtnSmB</string>
     <string>LtnSmE</string>
+    <string>LtnSmLigOe</string>
     <string>LtnSmO</string>
     <string>LtnSmP</string>
+    <string>LtnSmTurnedAlpha</string>
   </array>
   <key>public.kern1.LSmSerif</key>
   <array>
@@ -642,6 +667,15 @@
   <key>public.kern2.RCapDiagA</key>
   <array>
     <string>LtnCapA</string>
+    <string>LtnCapAADigraph</string>
+    <string>LtnCapAODigraph</string>
+    <string>LtnCapAOgonek.RetroHook</string>
+    <string>LtnCapAStrk</string>
+    <string>LtnCapAUDigraph</string>
+    <string>LtnCapAVDigraph</string>
+    <string>LtnCapAVDigraphStrk</string>
+    <string>LtnCapAYDigraph</string>
+    <string>LtnCapAe</string>
   </array>
   <key>public.kern2.RCapDiagV</key>
   <array>
@@ -662,6 +696,7 @@
     <string>LtnCapG</string>
     <string>LtnCapO</string>
     <string>LtnCapQ</string>
+    <string>LtnCapSmAlpha</string>
   </array>
   <key>public.kern2.RCapTopS</key>
   <array>
@@ -718,6 +753,16 @@
   <key>public.kern2.RSmCurve</key>
   <array>
     <string>LtnSmA</string>
+    <string>LtnSmAADigraph</string>
+    <string>LtnSmAODigraph</string>
+    <string>LtnSmAOgonek.RetroHook</string>
+    <string>LtnSmARetrHook</string>
+    <string>LtnSmAStrk</string>
+    <string>LtnSmAUDigraph</string>
+    <string>LtnSmAVDigraph</string>
+    <string>LtnSmAVDigraphStrk</string>
+    <string>LtnSmAYDigraph</string>
+    <string>LtnSmAe</string>
     <string>LtnSmG</string>
     <string>LtnSmS</string>
   </array>
@@ -737,12 +782,19 @@
   </array>
   <key>public.kern2.RSmRound</key>
   <array>
+    <string>LtnSmAOgonek.SngStory.RetroHook</string>
+    <string>LtnSmAStrk.SngStory</string>
+    <string>LtnSmAlpha</string>
+    <string>LtnSmAlphaRetrHook</string>
     <string>LtnSmC</string>
     <string>LtnSmD</string>
     <string>LtnSmDCaron</string>
     <string>LtnSmE</string>
+    <string>LtnSmInvAlpha</string>
+    <string>LtnSmLigOe</string>
     <string>LtnSmO</string>
     <string>LtnSmQ</string>
+    <string>LtnSmTrndAe</string>
   </array>
   <key>public.kern2.RSmSerif</key>
   <array>
@@ -750,6 +802,8 @@
     <string>LtnSmN</string>
     <string>LtnSmP</string>
     <string>LtnSmR</string>
+    <string>LtnSmTurnedA</string>
+    <string>LtnSmTurnedAlpha</string>
     <string>LtnSmU</string>
     <string>LtnSmZ</string>
   </array>
