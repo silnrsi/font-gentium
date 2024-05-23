@@ -925,6 +925,21 @@
     <key>public.kern2.RSmDiagV</key>
     <integer>-110</integer>
   </dict>
+  <key>public.kern1.LModApos</key>
+  <dict>
+    <key>public.kern2.RCapDiagA</key>
+    <integer>-90</integer>
+    <key>public.kern2.RSmCurve</key>
+    <integer>-70</integer>
+    <key>public.kern2.RSmDiagV</key>
+    <integer>-40</integer>
+    <key>public.kern2.RSmDiagX</key>
+    <integer>-40</integer>
+    <key>public.kern2.RSmRound</key>
+    <integer>-90</integer>
+    <key>public.kern2.RSmSerif</key>
+    <integer>-40</integer>
+  </dict>
   <key>public.kern1.LPunctBase</key>
   <dict>
     <key>public.kern2.RCapDiagV</key>
