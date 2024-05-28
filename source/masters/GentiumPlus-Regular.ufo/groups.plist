@@ -414,8 +414,12 @@
     <string>LtnSmARetrHook</string>
     <string>LtnSmAlphaRetrHook</string>
     <string>LtnSmBPalHook</string>
+    <string>LtnSmCPalHook</string>
+    <string>LtnSmCRetrHook</string>
     <string>LtnSmG</string>
     <string>LtnSmQ</string>
+    <string>LtnStretchedC</string>
+    <string>LtnStretchedCCurl</string>
   </array>
   <key>public.kern1.LSmDiagV</key>
   <array>
@@ -453,9 +457,12 @@
   <key>public.kern1.LSmSerif</key>
   <array>
     <string>LtnSmC</string>
+    <string>LtnSmCBar</string>
+    <string>LtnSmCCurl</string>
     <string>LtnSmS</string>
     <string>LtnSmT</string>
     <string>LtnSmZ</string>
+    <string>SmRomNumOneHundred</string>
   </array>
   <key>public.kern1.LSmTopF</key>
   <array>
@@ -713,7 +720,13 @@
   </array>
   <key>public.kern2.RCapTopT</key>
   <array>
+    <string>LtnCapBHook</string>
+    <string>LtnCapDHook</string>
+    <string>LtnCapDStrkHook</string>
+    <string>LtnCapHHook</string>
+    <string>LtnCapPHook</string>
     <string>LtnCapT</string>
+    <string>LtnCapYHook</string>
   </array>
   <key>public.kern2.RModApos</key>
   <array>
@@ -778,6 +791,10 @@
     <string>LtnSmAYDigraph</string>
     <string>LtnSmAe</string>
     <string>LtnSmG</string>
+    <string>LtnSmOpnO</string>
+    <string>LtnSmOpnO.TopSerif</string>
+    <string>LtnSmRevC</string>
+    <string>LtnSmRevCMiddleDot</string>
     <string>LtnSmS</string>
   </array>
   <key>public.kern2.RSmDescJ</key>
@@ -801,14 +818,21 @@
     <string>LtnSmAlpha</string>
     <string>LtnSmAlphaRetrHook</string>
     <string>LtnSmC</string>
+    <string>LtnSmCCurl</string>
+    <string>LtnSmCHook</string>
+    <string>LtnSmCPalHook</string>
+    <string>LtnSmCRetrHook</string>
+    <string>LtnSmCStrk</string>
     <string>LtnSmD</string>
     <string>LtnSmDCaron</string>
     <string>LtnSmE</string>
     <string>LtnSmInvAlpha</string>
     <string>LtnSmLigOe</string>
     <string>LtnSmO</string>
+    <string>LtnSmORingInside</string>
     <string>LtnSmQ</string>
     <string>LtnSmTrndAe</string>
+    <string>SmRomNumOneHundred</string>
   </array>
   <key>public.kern2.RSmSerif</key>
   <array>
