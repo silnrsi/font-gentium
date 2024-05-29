@@ -397,6 +397,11 @@
     <string>LtnSmG</string>
     <string>LtnSmQ</string>
   </array>
+  <key>public.kern1.LSmDiagTrndV</key>
+  <array>
+    <string>LtnSmCapA</string>
+    <string>LtnSmTurnedV</string>
+  </array>
   <key>public.kern1.LSmDiagV</key>
   <array>
     <string>LtnSmR</string>
@@ -669,7 +674,13 @@
   </array>
   <key>public.kern2.RCapTopT</key>
   <array>
+    <string>LtnCapBHook</string>
+    <string>LtnCapDHook</string>
+    <string>LtnCapDStrkHook</string>
+    <string>LtnCapHHook</string>
+    <string>LtnCapPHook</string>
     <string>LtnCapT</string>
+    <string>LtnCapYHook</string>
   </array>
   <key>public.kern2.RModApos</key>
   <array>
@@ -724,6 +735,11 @@
   <key>public.kern2.RSmDescJ</key>
   <array>
     <string>LtnSmJ</string>
+  </array>
+  <key>public.kern2.RSmDiagTrndV</key>
+  <array>
+    <string>LtnSmCapA</string>
+    <string>LtnSmTurnedV</string>
   </array>
   <key>public.kern2.RSmDiagV</key>
   <array>

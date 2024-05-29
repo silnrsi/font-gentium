@@ -421,6 +421,11 @@
     <string>LtnStretchedC</string>
     <string>LtnStretchedCCurl</string>
   </array>
+  <key>public.kern1.LSmDiagTrndV</key>
+  <array>
+    <string>LtnSmCapA</string>
+    <string>LtnSmTurnedV</string>
+  </array>
   <key>public.kern1.LSmDiagV</key>
   <array>
     <string>LtnSmAVDigraph</string>
@@ -800,6 +805,11 @@
   <key>public.kern2.RSmDescJ</key>
   <array>
     <string>LtnSmJ</string>
+  </array>
+  <key>public.kern2.RSmDiagTrndV</key>
+  <array>
+    <string>LtnSmCapA</string>
+    <string>LtnSmTurnedV</string>
   </array>
   <key>public.kern2.RSmDiagV</key>
   <array>
