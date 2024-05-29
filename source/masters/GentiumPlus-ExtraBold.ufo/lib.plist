@@ -552,14 +552,15 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3307</string>
+  <string>3308</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>ngjnqjn
-nf)nf]nf}/Space (jn[jn{jn</string>
-    <string>FALTEPARELVESLYH
+nf)nf]nf}/Space (jn[jn{jn
+/LtnSmCHook ]/LtnSmDHook ]/LtnSmDTailHook ]</string>
+    <string>/Space FALTEPARELVESLYH
 HHACHAGHAOHAQH
 HATHAVHAYHAWH
 HLCHLGHLOHLQH
@@ -586,7 +587,8 @@ nevnewneynexne/LtnSmTurnedV n
 novnownoynoxno/LtnSmTurnedV n
 npvnpwnpynpxnp/LtnSmTurnedV n
 n/LtnSmTurnedV vn/LtnSmTurnedV wn/LtnSmTurnedV yn/LtnSmTurnedV xn/LtnSmCapA vn
-nv/LtnSmTurnedV nw/LtnSmTurnedV ny/LtnSmTurnedV nv/LtnSmCapA n</string>
+nv/LtnSmTurnedV nw/LtnSmTurnedV ny/LtnSmTurnedV nv/LtnSmCapA n
+n/LtnSmDCurl vn/LtnSmDCurl on/LtnSmDCurl sn/LtnSmDezhDigraphPalHook vn/LtnSmENotch vn</string>
     <string>nrcnrdnrenronrqnranrgnrsn
 nvcnvdnvenvovnvqnvanvgnvsn
 nwcnwdnwenwownwqnwanwgnwsn
@@ -725,6 +727,8 @@ g/CombDblInvBreveBlw gg/CombDblBreveBlw gg/CombDblMacronBlw gg/CombDblRtArrwBlw 
     <string>H/LtnCapBHook HL/LtnCapBHook A/LtnCapBHook R/LtnCapBHook C/LtnCapBHook O/LtnCapBHook 
 H/LtnCapDStrkHook H/LtnCapDHook H/LtnCapHHook H/LtnCapPHook H/LtnCapYHook HT
 R/LtnCapDStrkHook R/LtnCapDHook R/LtnCapHHook R/LtnCapPHook R/LtnCapYHook RT</string>
+    <string>f</string>
+    <string>f/LtnSmCHook/LtnSmDHook/LtnSmDTailHook</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
