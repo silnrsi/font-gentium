@@ -362,6 +362,8 @@
     <string>LtnCapDStrk</string>
     <string>LtnCapDStrkHook</string>
     <string>LtnCapEth</string>
+    <string>LtnCapHalfH</string>
+    <string>LtnCapHwair</string>
     <string>LtnCapLigOe</string>
     <string>LtnCapO</string>
     <string>LtnCapOpnO</string>
@@ -381,6 +383,8 @@
   <key>public.kern1.LCapTopP</key>
   <array>
     <string>LtnCapF</string>
+    <string>LtnCapFHook</string>
+    <string>LtnCapFHookStrk</string>
     <string>LtnCapP</string>
   </array>
   <key>public.kern1.LCapTopT</key>
@@ -421,6 +425,11 @@
     <string>LtnSmAlpha</string>
     <string>LtnSmBarredAlpha</string>
     <string>LtnSmH</string>
+    <string>LtnSmHHook</string>
+    <string>LtnSmHStrk</string>
+    <string>LtnSmHeng</string>
+    <string>LtnSmHengHook</string>
+    <string>LtnSmHv</string>
     <string>LtnSmM</string>
     <string>LtnSmN</string>
     <string>LtnSmTrndAe</string>
@@ -440,9 +449,23 @@
     <string>LtnSmDezhDigraph</string>
     <string>LtnSmDezhDigraphRetrHook</string>
     <string>LtnSmERetrHook</string>
+    <string>LtnSmFengDigraph</string>
+    <string>LtnSmFengDigraphTrill</string>
     <string>LtnSmG</string>
+    <string>LtnSmG.BarBowl</string>
+    <string>LtnSmG.BarBowl.SngBowl</string>
+    <string>LtnSmG.SngBowl</string>
+    <string>LtnSmGDiagStrk</string>
+    <string>LtnSmGDiagStrk.SngBowl</string>
+    <string>LtnSmGStrk</string>
+    <string>LtnSmGStrk.SngBowl</string>
+    <string>LtnSmInsularG</string>
     <string>LtnSmOpnERetrHook</string>
     <string>LtnSmQ</string>
+    <string>LtnSmRevScriptG</string>
+    <string>LtnSmTurnedH</string>
+    <string>LtnSmTurnedHFishhook</string>
+    <string>LtnSmTurnedHFishhookTail</string>
     <string>LtnStretchedC</string>
     <string>LtnStretchedCCurl</string>
   </array>
@@ -453,6 +476,7 @@
     <string>LtnSmDezhDigraphPalHook</string>
     <string>LtnSmENotch</string>
     <string>LtnSmSchwaRetrHook</string>
+    <string>LtnSmScriptGPalHook</string>
     <string>LtnSmTurnedV</string>
   </array>
   <key>public.kern1.LSmDiagV</key>
@@ -487,11 +511,13 @@
     <string>LtnSmCapEth</string>
     <string>LtnSmCapOpnO</string>
     <string>LtnSmCapOpnO.TopSerif</string>
+    <string>LtnSmCapTurnedG</string>
     <string>LtnSmClosedOpnE</string>
     <string>LtnSmDBDigraph</string>
     <string>LtnSmE</string>
     <string>LtnSmEOgonek</string>
     <string>LtnSmEStrk</string>
+    <string>LtnSmHalfH</string>
     <string>LtnSmLigOe</string>
     <string>LtnSmO</string>
     <string>LtnSmP</string>
@@ -517,9 +543,18 @@
   <key>public.kern1.LSmTopF</key>
   <array>
     <string>LtnSmCHook</string>
+    <string>LtnSmCapGHook</string>
     <string>LtnSmDHook</string>
     <string>LtnSmDTailHook</string>
     <string>LtnSmF</string>
+    <string>LtnSmF.SItal</string>
+    <string>LtnSmFHookStrk</string>
+    <string>LtnSmFMiddleTilde</string>
+    <string>LtnSmFPalHook</string>
+    <string>LtnSmGHook</string>
+    <string>LtnSmLngS</string>
+    <string>LtnSmLngSDiagStrk</string>
+    <string>LtnSmLngSHighStrk</string>
   </array>
   <key>public.kern1.LSmVCaronD</key>
   <array>
@@ -765,10 +800,13 @@
     <string>LtnCapCHook</string>
     <string>LtnCapCStrk</string>
     <string>LtnCapG</string>
+    <string>LtnCapGHook</string>
+    <string>LtnCapGStrk</string>
     <string>LtnCapO</string>
     <string>LtnCapOpnE</string>
     <string>LtnCapQ</string>
     <string>LtnCapSchwa</string>
+    <string>LtnCapScriptG</string>
     <string>LtnCapSmAlpha</string>
     <string>RomNumOneHundred</string>
     <string>RomNumOneHundredThousand</string>
@@ -827,14 +865,38 @@
     <string>LtnSmBDotAbv</string>
     <string>LtnSmBHook</string>
     <string>LtnSmBPalHook</string>
+    <string>LtnSmFHookStrk</string>
+    <string>LtnSmFMiddleTilde</string>
     <string>LtnSmH</string>
+    <string>LtnSmHDesc</string>
+    <string>LtnSmHHook</string>
+    <string>LtnSmHPalHook</string>
+    <string>LtnSmHStrk</string>
+    <string>LtnSmHeng</string>
+    <string>LtnSmHengHook</string>
+    <string>LtnSmHv</string>
     <string>LtnSmK</string>
     <string>LtnSmL</string>
     <string>LtnSmLCaron</string>
+    <string>LtnSmLngS</string>
+    <string>LtnSmLngSDiagStrk</string>
+    <string>LtnSmLngSHighStrk</string>
   </array>
   <key>public.kern2.RSmBar</key>
   <array>
+    <string>LtnLigSmFSmF.SItal</string>
+    <string>LtnLigSmFSmFSmI.SItal</string>
+    <string>LtnLigSmFSmFSmL.SItal</string>
+    <string>LtnLigSmFSmI.SItal</string>
+    <string>LtnLigSmFSmL.SItal</string>
     <string>LtnSmF</string>
+    <string>LtnSmF.SItal</string>
+    <string>LtnSmFPalHook</string>
+    <string>LtnSmFengDigraph</string>
+    <string>LtnSmFengDigraphTrill</string>
+    <string>LtnSmLigFf</string>
+    <string>LtnSmLigFfi</string>
+    <string>LtnSmLigFfl</string>
     <string>LtnSmT</string>
     <string>LtnSmTCaron</string>
   </array>
@@ -855,6 +917,9 @@
     <string>LtnSmCapOpnO.TopSerif</string>
     <string>LtnSmClosedOpnE</string>
     <string>LtnSmG</string>
+    <string>LtnSmG.BarBowl</string>
+    <string>LtnSmGDiagStrk</string>
+    <string>LtnSmGStrk</string>
     <string>LtnSmOpnE</string>
     <string>LtnSmOpnERetrHook</string>
     <string>LtnSmOpnO</string>
@@ -897,6 +962,7 @@
     <string>LtnSmCRetrHook</string>
     <string>LtnSmCStrk</string>
     <string>LtnSmCapC</string>
+    <string>LtnSmCapG</string>
     <string>LtnSmClosedRevOpnE</string>
     <string>LtnSmD</string>
     <string>LtnSmDBDigraph</string>
@@ -921,6 +987,9 @@
     <string>LtnSmEOgonek</string>
     <string>LtnSmERetrHook</string>
     <string>LtnSmEth</string>
+    <string>LtnSmG.SngBowl</string>
+    <string>LtnSmGHook</string>
+    <string>LtnSmGStrk.SngBowl</string>
     <string>LtnSmInvAlpha</string>
     <string>LtnSmLigOe</string>
     <string>LtnSmO</string>
@@ -929,6 +998,7 @@
     <string>LtnSmRevE</string>
     <string>LtnSmSchwa</string>
     <string>LtnSmSchwaRetrHook</string>
+    <string>LtnSmScriptGPalHook</string>
     <string>LtnSmTrndAe</string>
     <string>LtnSmTurnedE</string>
     <string>SmRomNumFiveHundred</string>
@@ -942,6 +1012,7 @@
     <string>LtnSmR</string>
     <string>LtnSmTurnedA</string>
     <string>LtnSmTurnedAlpha</string>
+    <string>LtnSmTurnedH</string>
     <string>LtnSmU</string>
     <string>LtnSmZ</string>
   </array>
