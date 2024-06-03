@@ -334,6 +334,10 @@
   <array>
     <string>LtnCapAUDigraph</string>
     <string>LtnCapU</string>
+    <string>LtnCapUBar</string>
+    <string>LtnCapUOgonek</string>
+    <string>LtnCapUOgonek.RetroHook</string>
+    <string>LtnCapUStrk</string>
   </array>
   <key>public.kern1.LCapCurve</key>
   <array>
@@ -407,6 +411,7 @@
     <string>LtnCapThorn</string>
     <string>LtnCapThornHighStrk</string>
     <string>LtnCapThornLowStrk</string>
+    <string>LtnCapVHook</string>
     <string>RomNumFiftyThousand</string>
     <string>RomNumFiveHundred</string>
     <string>RomNumFiveThousand</string>
@@ -494,6 +499,8 @@
     <string>LtnSmTurnedM</string>
     <string>LtnSmTurnedR</string>
     <string>LtnSmU</string>
+    <string>LtnSmUBar</string>
+    <string>LtnSmUStrk</string>
     <string>LtnWynn</string>
     <string>SmRomNumOneThousand</string>
   </array>
@@ -564,6 +571,9 @@
     <string>LtnSmTurnedRPalHook</string>
     <string>LtnSmTurnedT</string>
     <string>LtnSmTzDigraph</string>
+    <string>LtnSmUOgonek</string>
+    <string>LtnSmUOgonek.RetroHook</string>
+    <string>LtnSmURetrHook</string>
     <string>LtnStretchedC</string>
     <string>LtnStretchedCCurl</string>
   </array>
@@ -676,6 +686,8 @@
     <string>LtnSmTurnedAlpha</string>
     <string>LtnSmTurnedE</string>
     <string>LtnSmTurnedRMiddleTilde</string>
+    <string>LtnSmUe</string>
+    <string>LtnSmVHook</string>
   </array>
   <key>public.kern1.LSmSerif</key>
   <array>
@@ -688,6 +700,7 @@
     <string>LtnSmCapRum</string>
     <string>LtnSmCapS</string>
     <string>LtnSmCapTrndR</string>
+    <string>LtnSmCapU</string>
     <string>LtnSmDzDigraph</string>
     <string>LtnSmInsularT</string>
     <string>LtnSmLSDigraph</string>
@@ -709,6 +722,8 @@
     <string>LtnSmTcDigraphCurl</string>
     <string>LtnSmTsDigraph</string>
     <string>LtnSmTsHook</string>
+    <string>LtnSmUpsilon</string>
+    <string>LtnSmUpsilonStrk</string>
     <string>LtnSmZ</string>
     <string>SmRomNumOneHundred</string>
   </array>
@@ -951,6 +966,12 @@
   <key>public.kern2.RCapBaseU</key>
   <array>
     <string>LtnCapU</string>
+    <string>LtnCapUBar</string>
+    <string>LtnCapUHorn</string>
+    <string>LtnCapUOgonek</string>
+    <string>LtnCapUOgonek.RetroHook</string>
+    <string>LtnCapUStrk</string>
+    <string>LtnCapVHook</string>
   </array>
   <key>public.kern2.RCapDiagA</key>
   <array>
@@ -1336,6 +1357,8 @@
     <string>LtnSmCapR</string>
     <string>LtnSmCapRevR</string>
     <string>LtnSmCapRum</string>
+    <string>LtnSmCapU</string>
+    <string>LtnSmCapUBar</string>
     <string>LtnSmEng</string>
     <string>LtnSmEngPalHook</string>
     <string>LtnSmInsularF</string>
@@ -1381,6 +1404,16 @@
     <string>LtnSmTurnedMLngLeg</string>
     <string>LtnSmTurnedT</string>
     <string>LtnSmU</string>
+    <string>LtnSmUBar</string>
+    <string>LtnSmUHorn</string>
+    <string>LtnSmUOgonek</string>
+    <string>LtnSmUOgonek.RetroHook</string>
+    <string>LtnSmURetrHook</string>
+    <string>LtnSmUStrk</string>
+    <string>LtnSmUe</string>
+    <string>LtnSmUpsilon</string>
+    <string>LtnSmUpsilonStrk</string>
+    <string>LtnSmVHook</string>
     <string>LtnSmZ</string>
     <string>LtnWynn</string>
     <string>SmRomNumOneThousand</string>
