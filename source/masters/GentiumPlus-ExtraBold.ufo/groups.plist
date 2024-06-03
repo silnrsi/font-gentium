@@ -441,6 +441,7 @@
     <string>LtnCapTHook.RtHook</string>
     <string>LtnCapTRetrHook</string>
     <string>LtnCapTStrk</string>
+    <string>LtnCapUHorn</string>
   </array>
   <key>public.kern1.LCapVCaronL</key>
   <array>
@@ -600,7 +601,6 @@
     <string>LtnSmCapT</string>
     <string>LtnSmInsularS</string>
     <string>LtnSmOCurl</string>
-    <string>LtnSmOHorn</string>
     <string>LtnSmR</string>
     <string>LtnSmRBar</string>
     <string>LtnSmRDiagStrk</string>
@@ -755,6 +755,10 @@
     <string>LtnSmTeshDigraph</string>
     <string>LtnSmTeshRetrHook</string>
   </array>
+  <key>public.kern1.LSmUHorn</key>
+  <array>
+    <string>LtnSmUHorn</string>
+  </array>
   <key>public.kern1.LSmVCaronD</key>
   <array>
     <string>LtnSmDCaron</string>
@@ -763,6 +767,10 @@
   <key>public.kern1.LSmVCaronT</key>
   <array>
     <string>LtnSmTCaron</string>
+  </array>
+  <key>public.kern1.LtnSmOHorn</key>
+  <array>
+    <string>LtnSmOHorn</string>
   </array>
   <key>public.kern2.GrCapAlpha</key>
   <array>

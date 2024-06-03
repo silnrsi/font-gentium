@@ -1043,6 +1043,15 @@
     <key>public.kern2.RSmRound</key>
     <integer>-20</integer>
   </dict>
+  <key>public.kern1.LSmOHorn</key>
+  <dict>
+    <key>public.kern2.RSmAsc</key>
+    <integer>-60</integer>
+    <key>public.kern2.RSmCurve</key>
+    <integer>-70</integer>
+    <key>public.kern2.RSmRound</key>
+    <integer>-70</integer>
+  </dict>
   <key>public.kern1.LSmRound</key>
   <dict>
     <key>public.kern2.RModApos</key>
@@ -1077,6 +1086,15 @@
     <integer>290</integer>
     <key>public.kern2.RQuote</key>
     <integer>240</integer>
+  </dict>
+  <key>public.kern1.LSmUHorn</key>
+  <dict>
+    <key>public.kern2.RSmAsc</key>
+    <integer>-50</integer>
+    <key>public.kern2.RSmCurve</key>
+    <integer>-80</integer>
+    <key>public.kern2.RSmRound</key>
+    <integer>-80</integer>
   </dict>
   <key>public.kern1.LSmVCaronD</key>
   <dict>

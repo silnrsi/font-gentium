@@ -348,6 +348,7 @@
   <array>
     <string>LtnCapD</string>
     <string>LtnCapO</string>
+    <string>LtnCapOHorn</string>
     <string>LtnCapQ</string>
   </array>
   <key>public.kern1.LCapTopP</key>
@@ -358,6 +359,7 @@
   <key>public.kern1.LCapTopT</key>
   <array>
     <string>LtnCapT</string>
+    <string>LtnCapUHorn</string>
   </array>
   <key>public.kern1.LCapVCaronL</key>
   <array>
@@ -414,6 +416,10 @@
     <string>LtnSmK</string>
     <string>LtnSmX</string>
   </array>
+  <key>public.kern1.LSmOHorn</key>
+  <array>
+    <string>LtnSmOHorn</string>
+  </array>
   <key>public.kern1.LSmRound</key>
   <array>
     <string>LtnSmB</string>
@@ -431,6 +437,10 @@
   <key>public.kern1.LSmTopF</key>
   <array>
     <string>LtnSmF</string>
+  </array>
+  <key>public.kern1.LSmUHorn</key>
+  <array>
+    <string>LtnSmUHorn</string>
   </array>
   <key>public.kern1.LSmVCaronD</key>
   <array>

@@ -1029,6 +1029,15 @@
     <key>public.kern2.RQuote</key>
     <integer>200</integer>
   </dict>
+  <key>public.kern1.LSmUHorn</key>
+  <dict>
+    <key>public.kern2.RSmAsc</key>
+    <integer>-40</integer>
+    <key>public.kern2.RSmCurve</key>
+    <integer>-120</integer>
+    <key>public.kern2.RSmRound</key>
+    <integer>-160</integer>
+  </dict>
   <key>public.kern1.LSmVCaronD</key>
   <dict>
     <key>public.kern2.RPunctBase</key>
@@ -1047,6 +1056,15 @@
     <integer>-205</integer>
     <key>public.kern2.RSmSerif</key>
     <integer>-205</integer>
+  </dict>
+  <key>public.kern1.LtnSmOHorn</key>
+  <dict>
+    <key>public.kern2.RSmAsc</key>
+    <integer>-40</integer>
+    <key>public.kern2.RSmCurve</key>
+    <integer>-130</integer>
+    <key>public.kern2.RSmRound</key>
+    <integer>-130</integer>
   </dict>
 </dict>
 </plist>

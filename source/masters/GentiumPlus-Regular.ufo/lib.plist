@@ -620,7 +620,8 @@ HPanHPgnHPmnHPnn
 HPpnHPrnHPsnHPunHPzn
 </string>
     <string>H"HH'HH/LftDblQuotMrk HH/RtDblQuotMrk HH/LftSglQuotMrk HH/RtSglQuotMrk HH/ModApos HH/CombLftAngAbv H
-A"HA'HA/LftDblQuotMrk HA/RtDblQuotMrk HA/LftSglQuotMrk HA/RtSglQuotMrk HA/ModApos HA/CombLftAngAbv H
+O"OO'OO/LftDblQuotMrk OO/RtDblQuotMrk OO/LftSglQuotMrk OO/RtSglQuotMrk OO/ModApos OO/CombLftAngAbv O
+'A"HA'HA/LftDblQuotMrk HA/RtDblQuotMrk HA/LftSglQuotMrk HA/RtSglQuotMrk HA/ModApos HA/CombLftAngAbv H
 L"HL'HL/LftDblQuotMrk HEAL/RtDblQuotMrk HL/LftSglQuotMrk HL/RtSglQuotMrk HL/ModApos HL/CombLftAngAbv H
 d"hd'hd/LftDblQuotMrk hd/RtDblQuotMrk hd/LftSglQuotMrk hd/RtSglQuotMrk hd/ModApos hd/CombLftAngAbv h
 b"hb'hb/LftDblQuotMrk hb/RtDblQuotMrk hb/LftSglQuotMrk hb/RtSglQuotMrk hb/ModApos hb/CombLftAngAbv h
@@ -720,7 +721,11 @@ g/CombDblInvBreveBlw gg/CombDblBreveBlw gg/CombDblMacronBlw gg/CombDblRtArrwBlw 
     <string>H/LtnCapBHook HL/LtnCapBHook A/LtnCapBHook R/LtnCapBHook C/LtnCapBHook O/LtnCapBHook 
 H/LtnCapDStrkHook H/LtnCapDHook H/LtnCapHHook H/LtnCapPHook H/LtnCapYHook HT
 R/LtnCapDStrkHook R/LtnCapDHook R/LtnCapHHook R/LtnCapPHook R/LtnCapYHook RT</string>
-    <string>uo/LtnSmUHorn o</string>
+    <string>OA/LtnCapOHorn AUA/LtnCapUHorn AO/RtSglQuotMrk/LtnCapOHorn/RtSglQuotMrk U/RtSglQuotMrk/LtnCapUHorn/RtSglQuotMrk 
+oaodohonotovoxo/ModApos o/RtSglQuotMrk 
+/LtnSmOHorn a/LtnSmOHorn d/LtnSmOHorn h/LtnSmOHorn n/LtnSmOHorn t/LtnSmOHorn v/LtnSmOHorn x/LtnSmOHorn/ModApos/LtnSmOHorn/RtSglQuotMrk 
+uauduhunutuvuxu/ModApos u/RtSglQuotMrk 
+/LtnSmUHorn a/LtnSmUHorn d/LtnSmUHorn h/LtnSmUHorn n/LtnSmUHorn t/LtnSmUHorn v/LtnSmUHorn x/LtnSmUHorn/ModApos/LtnSmUHorn/RtSglQuotMrk</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -2879,9 +2884,6 @@ R/LtnCapDStrkHook R/LtnCapDHook R/LtnCapHHook R/LtnCapPHook R/LtnCapYHook RT</st
     <string>LtnCapUHornHookAbv</string>
     <string>LtnCapUHornDotBlw</string>
     <string>LtnCapVHook</string>
-    <string>LtnCapVDiagStrk</string>
-    <string>LtnCapVYDigraph</string>
-    <string>LtnCapVend</string>
     <string>LtnCapUpsilon</string>
     <string>LtnSmV.SItal</string>
     <string>SmRomNumFive</string>
@@ -2897,15 +2899,14 @@ R/LtnCapDStrkHook R/LtnCapDHook R/LtnCapHHook R/LtnCapPHook R/LtnCapYHook RT</st
     <string>ModSmVRtHook</string>
     <string>LtnSmVHook.StraightLft</string>
     <string>LtnSmVHook.StraightLftHighHook</string>
-    <string>CyCapIzhitsa</string>
+    <string>CySmIzhitsa</string>
     <string>LtnSmVCurl</string>
     <string>LtnSmVDiagStrk</string>
     <string>LtnSmVDiagStrk.SItal</string>
-    <string>LtnSmVYDigraph</string>
-    <string>LtnSmVend</string>
     <string>SmRomNumSix</string>
     <string>SmRomNumSeven</string>
     <string>SmRomNumEight</string>
+    <string>LtnSmVend</string>
     <string>LtnSmTurnedV</string>
     <string>LtnSupSmTurnedV</string>
     <string>LtnSmRamsHorn.LrgBowl</string>
@@ -2924,13 +2925,15 @@ R/LtnCapDStrkHook R/LtnCapDHook R/LtnCapHHook R/LtnCapPHook R/LtnCapYHook RT</st
     <string>LtnSmCapV</string>
     <string>LtnCapVTilde</string>
     <string>LtnCapVDotBlw</string>
+    <string>LtnCapVDiagStrk</string>
     <string>V_Versicle</string>
     <string>LtnCapVHook.StraightLft</string>
     <string>LtnCapVHook.StraightLftHighHook</string>
-    <string>CySmIzhitsa</string>
+    <string>CyCapIzhitsa</string>
     <string>RomNumSix</string>
     <string>RomNumSeven</string>
     <string>RomNumEight</string>
+    <string>LtnCapVend</string>
     <string>LtnCapTurnedV</string>
     <string>GrSmCapLamda</string>
     <string>MathFrktCapV</string>
@@ -2947,6 +2950,7 @@ R/LtnCapDStrkHook R/LtnCapDHook R/LtnCapHHook R/LtnCapPHook R/LtnCapYHook RT</st
     <string>LtnSmWRingAbv</string>
     <string>LtnSmWDotBlw</string>
     <string>LtnSmWHook</string>
+    <string>LtnSmVYDigraph</string>
     <string>LtnBilabialPercussive</string>
     <string>LtnSmTurnedW</string>
     <string>CombLtnSmTurnedWBlw</string>
@@ -2965,6 +2969,7 @@ R/LtnCapDStrkHook R/LtnCapDHook R/LtnCapHHook R/LtnCapPHook R/LtnCapYHook RT</st
     <string>LtnCapWDotAbv</string>
     <string>LtnCapWDotBlw</string>
     <string>LtnCapWHook</string>
+    <string>LtnCapVYDigraph</string>
     <string>LtnCapOmega</string>
     <string>WonSgn</string>
     <string>CySmHa</string>
