@@ -666,10 +666,6 @@ a/CombLftAngAbv h/CombLftAngAbv m/CombLftAngAbv n/CombLftAngAbv u/CombLftAngAbv 
     <string>HH./Space F./Space P./Space T./Space V./Space Y./Space W./Space n./Space r./Space v./Space y./Space w./Space 
 HH,/Space F,/Space P,/Space T,/Space V,/Space Y,/Space W,/Space n,/Space r,/Space v,/Space y,/Space w,/Space 
 .HH/Space .T/Space .V/Space .Y/Space .W/Space .n/Space .v/Space .y/Space .w/Space 
-,HH/Space ,T/Space ,V/Space ,Y/Space ,W/Space ,n/Space ,v/Space ,y/Space ,w/Space</string>
-    <string>HH./Space F./Space P./Space T./Space V./Space Y./Space W./Space n./Space r./Space v./Space y./Space w./Space 
-HH,/Space F,/Space P,/Space T,/Space V,/Space Y,/Space W,/Space n,/Space r,/Space v,/Space y,/Space w,/Space 
-.HH/Space .T/Space .V/Space .Y/Space .W/Space .n/Space .v/Space .y/Space .w/Space 
 ,HH/Space ,T/Space ,V/Space ,Y/Space ,W/Space ,n/Space ,v/Space ,y/Space ,w/Space 
 H",H".H"/HorizEllipsis H"/SglLow9QuotMrk H"/DblLow9QuotMrk H
 H',H'.H'/HorizEllipsis H'/SglLow9QuotMrk H'/DblLow9QuotMrk H
@@ -708,7 +704,6 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
 /LtnCapLCaron A/Space/LtnCapLCaron B/Space/LtnCapLCaron/LtnCapCCaron/Space/LtnCapLCaron G/Space/LtnCapLCaron H/Space/LtnCapLCaron K/Space/LtnCapLCaron M/Space/LtnCapLCaron N/Space/LtnCapLCaron/LtnCapNCaron 
 /LtnCapLCaron O/Space/LtnCapLCaron S/Space/LtnCapLCaron/LtnCapSCaron/Space/LtnCapLCaron T/Space/LtnCapLCaron U/Space/LtnCapLCaron Ú/Space/LtnCapLCaron VALVELT
 /LtnCapLCaron ahko</string>
-    <string>d'/LtnSmDCaron/LtnSmLCaron/LtnSmTCaron/LtnCapLCaron á</string>
     <string>l/CombDblInvBreve l/Space l/CombDblBreve l/Space l/CombDblCircum l/Space l/CombDblTilde l/Space l/CombDblMacron l/Space l/CombDblDiaer l
 O/CombDblInvBreve.mid OO/CombDblBreve.mid OO/CombDblCircum.mid OO/CombDblTilde.mid OO/CombDblMacron.mid OO/CombDblDiaer.mid O
 o/CombDblInvBreve.low oo/CombDblBreve.low oo/CombDblCircum.low oo/CombDblTilde.low oo/CombDblMacron.low oo/CombDblDiaer.low o
@@ -722,6 +717,12 @@ oaodohonotovoxo/ModApos o/RtSglQuotMrk
 /LtnSmOHorn a/LtnSmOHorn d/LtnSmOHorn h/LtnSmOHorn n/LtnSmOHorn t/LtnSmOHorn v/LtnSmOHorn x/LtnSmOHorn/ModApos/LtnSmOHorn/RtSglQuotMrk 
 uauduhunutuvuxu/ModApos u/RtSglQuotMrk 
 /LtnSmUHorn a/LtnSmUHorn d/LtnSmUHorn h/LtnSmUHorn n/LtnSmUHorn t/LtnSmUHorn v/LtnSmUHorn x/LtnSmUHorn/ModApos/LtnSmUHorn/RtSglQuotMrk</string>
+    <string>/LtnSmVRtHook a/LtnSmVRtHook e/LtnSmVRtHook/LtnSmOpnE/LtnSmVRtHook/LtnSmVHook/LtnSmVRtHook b/LtnSmVRtHook f/LtnSmVRtHook v/LtnSmVRtHook/LtnSmTurnedV 
+/LtnSmWHook a/LtnSmWHook e/LtnSmWHook/LtnSmOpnE/LtnSmWHook/LtnSmVHook/LtnSmWHook b/LtnSmWHook f/LtnSmWHook v/LtnSmWHook/LtnSmTurnedV 
+/LtnSmYHook.RtHook a/LtnSmYHook.RtHook e/LtnSmYHook.RtHook/LtnSmOpnE/LtnSmYHook.RtHook/LtnSmVHook/LtnSmYHook.RtHook b/LtnSmYHook.RtHook f/LtnSmYHook.RtHook v/LtnSmYHook.RtHook/LtnSmTurnedV 
+/LtnCapWHook a/LtnCapWHook e/LtnCapWHook/LtnSmOpnE/LtnCapWHook/LtnSmVHook/LtnCapWHook b/LtnCapWHook f/LtnCapWHook v/LtnCapWHook/LtnSmTurnedV 
+/LtnCapYHook.RtHook a/LtnCapYHook.RtHook e/LtnCapYHook.RtHook/LtnSmOpnE/LtnCapYHook.RtHook/LtnSmVHook/LtnCapYHook.RtHook b/LtnCapYHook.RtHook f/LtnCapYHook.RtHook v/LtnCapYHook.RtHook/LtnSmTurnedV 
+H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
