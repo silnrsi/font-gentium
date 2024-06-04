@@ -351,21 +351,30 @@
     <string>LtnCapAADigraph</string>
     <string>LtnCapAOgonek.RetroHook</string>
     <string>LtnCapTurnedT</string>
+    <string>LtnCapTurnedV</string>
   </array>
   <key>public.kern1.LCapDiagV</key>
   <array>
     <string>LtnCapArchaicM</string>
     <string>LtnCapInsularS</string>
     <string>LtnCapOCurl</string>
+    <string>LtnCapRamsHorn</string>
     <string>LtnCapSmRHookTail</string>
     <string>LtnCapV</string>
+    <string>LtnCapVDiagStrk</string>
+    <string>LtnCapVHook.StraightLft</string>
+    <string>LtnCapVHook.StraightLftHighHook</string>
+    <string>LtnCapVend</string>
     <string>LtnCapY</string>
+    <string>RomNumFive</string>
     <string>RomNumFour</string>
+    <string>V_Versicle</string>
   </array>
   <key>public.kern1.LCapDiagW</key>
   <array>
     <string>LtnCapAVDigraph</string>
     <string>LtnCapAYDigraph</string>
+    <string>LtnCapGamma</string>
     <string>LtnCapIs</string>
     <string>LtnCapTurnedA</string>
     <string>LtnCapW</string>
@@ -575,6 +584,7 @@
     <string>LtnSmUOgonek</string>
     <string>LtnSmUOgonek.RetroHook</string>
     <string>LtnSmURetrHook</string>
+    <string>LtnSmVPalHook</string>
     <string>LtnStretchedC</string>
     <string>LtnStretchedCCurl</string>
   </array>
@@ -599,6 +609,8 @@
     <string>LtnSmAVDigraph</string>
     <string>LtnSmAYDigraph</string>
     <string>LtnSmCapT</string>
+    <string>LtnSmCapV</string>
+    <string>LtnSmGamma</string>
     <string>LtnSmInsularS</string>
     <string>LtnSmOCurl</string>
     <string>LtnSmR</string>
@@ -612,12 +624,24 @@
     <string>LtnSmRMidLftHook</string>
     <string>LtnSmRMiddleTilde</string>
     <string>LtnSmRPalHook</string>
+    <string>LtnSmRamsHorn</string>
+    <string>LtnSmRamsHorn.GammaStyle</string>
+    <string>LtnSmRamsHorn.LrgBowl</string>
     <string>LtnSmRevOpnEHook</string>
     <string>LtnSmRum</string>
     <string>LtnSmSchwaHook</string>
     <string>LtnSmV</string>
+    <string>LtnSmV.SItal</string>
+    <string>LtnSmVCurl</string>
+    <string>LtnSmVDiagStrk</string>
+    <string>LtnSmVDiagStrk.SItal</string>
+    <string>LtnSmVHook.StraightLft</string>
+    <string>LtnSmVHook.StraightLftHighHook</string>
+    <string>LtnSmVRtHook</string>
+    <string>LtnSmVend</string>
     <string>LtnSmW</string>
     <string>LtnSmY</string>
+    <string>SmRomNumFive</string>
     <string>SmRomNumFour</string>
   </array>
   <key>public.kern1.LSmDiagX</key>
@@ -995,15 +1019,26 @@
     <string>LtnCapAe</string>
     <string>LtnCapArchaicM</string>
     <string>LtnCapTurnedT</string>
+    <string>LtnCapTurnedV</string>
   </array>
   <key>public.kern2.RCapDiagV</key>
   <array>
     <string>LtnCapLTrnd</string>
+    <string>LtnCapRamsHorn</string>
     <string>LtnCapV</string>
+    <string>LtnCapVDiagStrk</string>
+    <string>LtnCapVHook.StraightLft</string>
+    <string>LtnCapVHook.StraightLftHighHook</string>
     <string>LtnCapY</string>
+    <string>RomNumEight</string>
+    <string>RomNumFive</string>
+    <string>RomNumSeven</string>
+    <string>RomNumSix</string>
+    <string>V_Versicle</string>
   </array>
   <key>public.kern2.RCapDiagW</key>
   <array>
+    <string>LtnCapGamma</string>
     <string>LtnCapW</string>
   </array>
   <key>public.kern2.RCapDiagX</key>
@@ -1263,16 +1298,33 @@
   <array>
     <string>LtnSmCapT</string>
     <string>LtnSmCapTrndR</string>
+    <string>LtnSmCapV</string>
     <string>LtnSmDMidLftHook</string>
+    <string>LtnSmGamma</string>
     <string>LtnSmLMidLftHook</string>
     <string>LtnSmNMidLftHook</string>
     <string>LtnSmRMidLftHook</string>
+    <string>LtnSmRamsHorn</string>
+    <string>LtnSmRamsHorn.GammaStyle</string>
+    <string>LtnSmRamsHorn.LrgBowl</string>
     <string>LtnSmRevRFishhook</string>
     <string>LtnSmSquatRevEsh</string>
     <string>LtnSmTMidLftHook</string>
     <string>LtnSmV</string>
+    <string>LtnSmV.SItal</string>
+    <string>LtnSmVCurl</string>
+    <string>LtnSmVDiagStrk</string>
+    <string>LtnSmVDiagStrk.SItal</string>
+    <string>LtnSmVHook.StraightLft</string>
+    <string>LtnSmVHook.StraightLftHighHook</string>
+    <string>LtnSmVPalHook</string>
+    <string>LtnSmVRtHook</string>
     <string>LtnSmW</string>
     <string>LtnSmY</string>
+    <string>SmRomNumEight</string>
+    <string>SmRomNumFive</string>
+    <string>SmRomNumSeven</string>
+    <string>SmRomNumSix</string>
   </array>
   <key>public.kern2.RSmDiagX</key>
   <array>

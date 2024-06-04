@@ -560,13 +560,13 @@
     <string>ngjnqjn
 nf)nf]nf}/Space (jn[jn{jn
 /LtnSmCHook ]/LtnSmDHook ]/LtnSmDTailHook ]</string>
-    <string>/Space FALTEPARELVESLYH
+    <string>FALTEPARELVESLYH
 HHACHAGHAOHAQH
 HATHAVHAYHAWH
 HLCHLGHLOHLQH
 HLVHLYHLTHLWH
-HFAHHPAHHVAVHVO</string>
-    <string>HATHAVHAYHAWH
+HFAHHPAHHVAVHVO
+HATHAVHAYHAWH
 HRTHRVHEVERYHRWH
 HAUHUAHCAHOAH
 HTSHVSHYSHWSH
@@ -574,10 +574,10 @@ HTSHVSHYSHWSH
     <string>ADVICEKO
 HDAHDXHDVHDYHDTHDWH
 HOAHOXHOVHOYHOTHOWH
-HQAHQXHQVHQYHQTHQWH</string>
-    <string>HKCHKGHKOHKQH
-HXCHXGHXOHXQH</string>
-    <string>TOTVOVYOYWOWOVE
+HQAHQXHQVHQYHQTHQWH
+HKCHKGHKOHKQH
+HXCHXGHXOHXQH
+TOTVOVYOYWOWOVE
 HTAHATCHTGHTOHTQH
 HVAHVCHVGHVOHVQH
 HYAHYCHYGHYOHYQH
@@ -594,13 +594,13 @@ nvcnvdnvenvovnvqnvanvgnvsn
 nwcnwdnwenwownwqnwanwgnwsn
 nycnydnyenyonyqnyanygnysn
 n/LtnSmCapA cn/LtnSmTurnedV cn/LtnSmTurnedV dn/LtnSmTurnedV en/LtnSmTurnedV on/LtnSmTurnedV qn/LtnSmTurnedV an/LtnSmTurnedV gn/LtnSmTurnedV sn
+nkcnkdnkenkonkqn
+nxcnxdnxenxonxqn
 </string>
-    <string>nkcnkdnkenkonkqn
-nxcnxdnxenxonxqn</string>
     <string>HAnnHAbnHAsn
 HAvnHAwnHAyn
-HLvnHLwnHLyn</string>
-    <string>VOVVovov
+HLvnHLwnHLyn
+VOVVovov
 HVcnHVdnHVenHVonHVqnHV/LtnSmTurnedV n
 HYcnHYdnHYenHYonHYqnHY/LtnSmTurnedV n
 HWcnHWdnHWenHWonHWqHW/LtnSmTurnedV n
@@ -650,15 +650,6 @@ t"ht'ht/LftDblQuotMrk ht/RtDblQuotMrk ht/LftSglQuotMrk ht/RtSglQuotMrk ht/ModApo
 u"hu'hu/LftDblQuotMrk hu/RtDblQuotMrk hu/LftSglQuotMrk hu/RtSglQuotMrk hu/ModApos h
 z"hz'hz/LftDblQuotMrk hz/RtDblQuotMrk hz/LftSglQuotMrk hz/RtSglQuotMrk hz/ModApos h
 f"hf'hf/LftDblQuotMrk hf/RtDblQuotMrk hf/LftSglQuotMrk hf/RtSglQuotMrk hf/ModApos h</string>
-    <string>a/CombLftAngAbv 
-h/CombLftAngAbv 
-m/CombLftAngAbv 
-n/CombLftAngAbv 
-u/CombLftAngAbv</string>
-    <string>c/CombLftAngAbv 
-s/CombLftAngAbv 
-t/CombLftAngAbv 
-z/CombLftAngAbv</string>
     <string>"A"c"d"e"o"q"v"y"w"x"/LtnSmTurnedV 
 'A'c'd'e'o'q'v'y'w'x'/LtnSmTurnedV 
 /LftDblQuotMrk A/LftDblQuotMrk c/LftDblQuotMrk d/LftDblQuotMrk e/LftDblQuotMrk o/LftDblQuotMrk q/LftDblQuotMrk v/LftDblQuotMrk y/LftDblQuotMrk w/LftDblQuotMrk x/LftDblQuotMrk/LtnSmTurnedV 
@@ -672,12 +663,17 @@ z/CombLftAngAbv</string>
 /RtDblQuotMrk a/RtDblQuotMrk g/RtDblQuotMrk s/RtDblQuotMrk m/RtDblQuotMrk n/RtDblQuotMrk p/RtDblQuotMrk r/RtDblQuotMrk u/RtDblQuotMrk z
 /LftSglQuotMrk a/LftSglQuotMrk g/LftSglQuotMrk s/LftSglQuotMrk m/LftSglQuotMrk n/LftSglQuotMrk p/LftSglQuotMrk r/LftSglQuotMrk u/LftSglQuotMrk z
 /RtSglQuotMrk a/RtSglQuotMrk g/RtSglQuotMrk s/RtSglQuotMrk m/RtSglQuotMrk n/RtSglQuotMrk p/RtSglQuotMrk r/RtSglQuotMrk u/RtSglQuotMrk z
-/ModApos a/ModApos g/ModApos s/ModApos m/ModApos n/ModApos p/ModApos r/ModApos u/ModApos z</string>
-    <string>HH./Space F./Space P./Space T./Space V./Space Y./Space W./Space n.r./Space v./Space y./Space w./Space 
-HH,/Space F,/Space P,/Space T,/Space V,/Space Y,/Space W,/Space n,r,/Space v,/Space y,/Space w,/Space 
+/ModApos a/ModApos g/ModApos s/ModApos m/ModApos n/ModApos p/ModApos r/ModApos u/ModApos z
+a/CombLftAngAbv h/CombLftAngAbv m/CombLftAngAbv n/CombLftAngAbv u/CombLftAngAbv c/CombLftAngAbv s/CombLftAngAbv t/CombLftAngAbv z/CombLftAngAbv</string>
+    <string>HH./Space F./Space P./Space T./Space V./Space Y./Space W./Space n./Space r./Space v./Space y./Space w./Space 
+HH,/Space F,/Space P,/Space T,/Space V,/Space Y,/Space W,/Space n,/Space r,/Space v,/Space y,/Space w,/Space 
 .HH/Space .T/Space .V/Space .Y/Space .W/Space .n/Space .v/Space .y/Space .w/Space 
 ,HH/Space ,T/Space ,V/Space ,Y/Space ,W/Space ,n/Space ,v/Space ,y/Space ,w/Space</string>
-    <string>H",H".H"/HorizEllipsis H"/SglLow9QuotMrk H"/DblLow9QuotMrk H
+    <string>HH./Space F./Space P./Space T./Space V./Space Y./Space W./Space n./Space r./Space v./Space y./Space w./Space 
+HH,/Space F,/Space P,/Space T,/Space V,/Space Y,/Space W,/Space n,/Space r,/Space v,/Space y,/Space w,/Space 
+.HH/Space .T/Space .V/Space .Y/Space .W/Space .n/Space .v/Space .y/Space .w/Space 
+,HH/Space ,T/Space ,V/Space ,Y/Space ,W/Space ,n/Space ,v/Space ,y/Space ,w/Space 
+H",H".H"/HorizEllipsis H"/SglLow9QuotMrk H"/DblLow9QuotMrk H
 H',H'.H'/HorizEllipsis H'/SglLow9QuotMrk H'/DblLow9QuotMrk H
 H/LftDblQuotMrk ,H/LftDblQuotMrk .H/LftDblQuotMrk/HorizEllipsis H/LftDblQuotMrk/SglLow9QuotMrk H/LftDblQuotMrk/DblLow9QuotMrk H
 H/RtDblQuotMrk ,H/RtDblQuotMrk .H/RtDblQuotMrk/HorizEllipsis H/RtDblQuotMrk/SglLow9QuotMrk H/RtDblQuotMrk/DblLow9QuotMrk H
