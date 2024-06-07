@@ -50,7 +50,7 @@ for dspace in ('Roman', 'Italic'):
 #                pdf=fret(params = '-r -oi')
                 )
 
-bookpackage = package(appname = "GentiumBookPlus", docdir = {"documentation": "documentation", "web_book": "web"})
+bookpackage = package(appname = "GentiumBookPlus", docdir = {"documentation": "documentation", "web": "web", "web_book": "web"})
 bookfamily = "GentiumBookPlus"
 
 getufoinfo('source/masters/' + sourcefontfamily + '-Regular' + '.ufo', bookpackage)
