@@ -1,0 +1,41 @@
+/*
+This file is from the Gentium project (https://software.sil.org/gentium/).
+Copyright (c) 2003-2024 SIL International (https://www.sil.org/) with Reserved
+Font Names "Gentium" and "SIL". This Font Software is licensed under the SIL
+Open Font License, Version 1.1 (https://openfontlicense.org).
+*/
+
+/* use Gentium Book Plus - Regular in .woff format */
+@font-face {
+  font-family: GentiumBookPlusW;
+  src: url(GentiumBookPlus-Regular.woff2);
+}
+/* use Gentium Book Plus - Italic in .woff2 format */
+@font-face {
+  font-family: GentiumBookPlusW;
+  font-style: italic;
+  src: url(GentiumBookPlus-Italic.woff2);
+}
+/* use Gentium Book Plus - Bold in .woff2 format */
+@font-face {
+	font-family: GentiumBookPlusW;
+	font-weight: bold;
+	src: url(GentiumBookPlus-Bold.woff2);
+}
+/* use Gentium Book Plus - Bold Italic in .woff2 format */
+@font-face {
+	font-family: GentiumBookPlusW;
+	font-weight: bold;
+	font-style: italic;
+	src: url(GentiumBookPlus-BoldItalic.woff2);
+}
+
+/* set body to use Gentium Book Plus */
+body {
+  font-family: GentiumBookPlusW, sans-serif;
+    /* fall back to sans serif so that it's really obvious if the fonts don't load */
+}
+/* remove bold styling from heading */
+h1 {
+  font-weight: normal;	
+}
