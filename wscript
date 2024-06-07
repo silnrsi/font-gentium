@@ -50,7 +50,7 @@ for dspace in ('Roman', 'Italic'):
 #                pdf=fret(params = '-r -oi')
                 )
 
-bookpackage = package(appname = "GentiumBookPlus", docdir = DOCDIR)
+bookpackage = package(appname = "GentiumBookPlus", docdir = {"documentation": "documentation", "web_book": "web"})
 bookfamily = "GentiumBookPlus"
 
 getufoinfo('source/masters/' + sourcefontfamily + '-Regular' + '.ufo', bookpackage)
@@ -70,8 +70,9 @@ for dspace in ('Roman', 'Italic'):
                     to_ufo = 'False' # copies to instance UFOs
                     ),
                 #typetuner = typetuner('source/typetuner/feat_all.xml'),
-                woff = woff('web/${DS:FILENAME_BASE}.woff',
-                    metadata=f'../source/gentiumbookplus-WOFF-metadata.xml'),
+                woff = woff('web_book/${DS:FILENAME_BASE}.woff',
+                    metadata=f'../source/gentiumbookplus-WOFF-metadata.xml',
+                    dontship=True),
                 version = VERSION,
                 shortcircuit = False,
                 package = bookpackage
