@@ -113,4 +113,12 @@
 	  <comment>LtnCapA CombGraphemeJoiner CombAcute CombDotBlw CombGrave</comment>
     </test>
   </testgroup>
+  <testgroup label="Test Cyr Lat cross-script kerning">
+    <test label="Latin">
+      <string>WATA</string>
+    </test>
+    <test label="Mixed - middle letters Cyr">
+      <string>WАТA</string>
+    </test>
+  </testgroup>
 </ftml>

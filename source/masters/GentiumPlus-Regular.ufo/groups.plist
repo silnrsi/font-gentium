@@ -464,6 +464,14 @@
   <array>
     <string>LtnCapLCaron</string>
   </array>
+  <key>public.kern1.LCyA</key>
+  <array>
+    <string>CyCapA</string>
+  </array>
+  <key>public.kern1.LCyT</key>
+  <array>
+    <string>CyCapTe</string>
+  </array>
   <key>public.kern1.LModApos</key>
   <array>
     <string>ModApos</string>
@@ -1158,6 +1166,14 @@
     <string>LtnCapTStrk</string>
     <string>LtnCapTzDigraph</string>
     <string>LtnCapYHook</string>
+  </array>
+  <key>public.kern2.RCyA</key>
+  <array>
+    <string>CyCapA</string>
+  </array>
+  <key>public.kern2.RCyT</key>
+  <array>
+    <string>CyCapTe</string>
   </array>
   <key>public.kern2.RModApos</key>
   <array>

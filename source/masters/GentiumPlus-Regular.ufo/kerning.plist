@@ -822,6 +822,8 @@
     <integer>-60</integer>
     <key>public.kern2.RCapTopS</key>
     <integer>-60</integer>
+    <key>public.kern2.RCyA</key>
+    <integer>-450</integer>
     <key>public.kern2.RPunctBase</key>
     <integer>-200</integer>
     <key>public.kern2.RSmCurve</key>
@@ -893,6 +895,16 @@
     <integer>-60</integer>
     <key>public.kern2.RSmDiagV</key>
     <integer>-80</integer>
+  </dict>
+  <key>public.kern1.LCyA</key>
+  <dict>
+    <key>public.kern2.RCyT</key>
+    <integer>-120</integer>
+  </dict>
+  <key>public.kern1.LCyT</key>
+  <dict>
+    <key>public.kern2.RCapDiagA</key>
+    <integer>-370</integer>
   </dict>
   <key>public.kern1.LModApos</key>
   <dict>
