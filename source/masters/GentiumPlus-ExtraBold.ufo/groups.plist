@@ -347,6 +347,7 @@
   </array>
   <key>public.kern1.LCapDiagA</key>
   <array>
+    <string>CyCapA</string>
     <string>LtnCapA</string>
     <string>LtnCapAADigraph</string>
     <string>LtnCapAOgonek.RetroHook</string>
@@ -452,6 +453,7 @@
   </array>
   <key>public.kern1.LCapTopT</key>
   <array>
+    <string>CyCapTe</string>
     <string>LtnCapT</string>
     <string>LtnCapTDiagStrk</string>
     <string>LtnCapTHook</string>
@@ -463,14 +465,6 @@
   <key>public.kern1.LCapVCaronL</key>
   <array>
     <string>LtnCapLCaron</string>
-  </array>
-  <key>public.kern1.LCyA</key>
-  <array>
-    <string>CyCapA</string>
-  </array>
-  <key>public.kern1.LCyT</key>
-  <array>
-    <string>CyCapTe</string>
   </array>
   <key>public.kern1.LModApos</key>
   <array>
@@ -1061,6 +1055,7 @@
   </array>
   <key>public.kern2.RCapDiagA</key>
   <array>
+    <string>CyCapA</string>
     <string>LtnCapA</string>
     <string>LtnCapAADigraph</string>
     <string>LtnCapAODigraph</string>
@@ -1153,6 +1148,7 @@
   </array>
   <key>public.kern2.RCapTopT</key>
   <array>
+    <string>CyCapTe</string>
     <string>LtnCapBHook</string>
     <string>LtnCapDHook</string>
     <string>LtnCapDStrkHook</string>
@@ -1166,14 +1162,6 @@
     <string>LtnCapTStrk</string>
     <string>LtnCapTzDigraph</string>
     <string>LtnCapYHook</string>
-  </array>
-  <key>public.kern2.RCyA</key>
-  <array>
-    <string>CyCapA</string>
-  </array>
-  <key>public.kern2.RCyT</key>
-  <array>
-    <string>CyCapTe</string>
   </array>
   <key>public.kern2.RModApos</key>
   <array>
