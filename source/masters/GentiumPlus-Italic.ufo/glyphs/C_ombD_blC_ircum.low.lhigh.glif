@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombDblCircum.low.lhigh" format="2">
+  <anchor x="-20" y="-100" name="L"/>
+  <anchor x="177" y="1480" name="U"/>
+  <outline>
+    <component base="CombDblCircum" xOffset="-60" yOffset="-520"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>
