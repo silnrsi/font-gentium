@@ -454,6 +454,7 @@
   <key>public.kern1.LCapTopT</key>
   <array>
     <string>CyCapTe</string>
+    <string>LtnCapGlottalStop</string>
     <string>LtnCapT</string>
     <string>LtnCapTDiagStrk</string>
     <string>LtnCapTHook</string>
@@ -489,6 +490,7 @@
   </array>
   <key>public.kern1.LSmCurve</key>
   <array>
+    <string>LtnInvGlottalStopStrk</string>
     <string>LtnSmA</string>
     <string>LtnSmAADigraph</string>
     <string>LtnSmAOgonek.RetroHook</string>
@@ -498,6 +500,7 @@
     <string>LtnSmCapOu</string>
     <string>LtnSmCapOu.OpenTop</string>
     <string>LtnSmCapR</string>
+    <string>LtnSmGlottalStop</string>
     <string>LtnSmH</string>
     <string>LtnSmHHook</string>
     <string>LtnSmHStrk</string>
@@ -521,6 +524,7 @@
     <string>LtnSmU</string>
     <string>LtnSmUBar</string>
     <string>LtnSmUStrk</string>
+    <string>LtnVcdLrynglSpirant</string>
     <string>LtnWynn</string>
     <string>SmRomNumOneThousand</string>
   </array>
@@ -684,6 +688,10 @@
   </array>
   <key>public.kern1.LSmDiagX</key>
   <array>
+    <string>LtnGlottalStop</string>
+    <string>LtnGlottalStopStrk</string>
+    <string>LtnRevGlottalStop</string>
+    <string>LtnRevGlottalStopStrk</string>
     <string>LtnSmCapK</string>
     <string>LtnSmK</string>
     <string>LtnSmKHook</string>
@@ -694,6 +702,8 @@
   </array>
   <key>public.kern1.LSmRound</key>
   <array>
+    <string>LtnInvGlottalStop</string>
+    <string>LtnInvGlottalStopCurl</string>
     <string>LtnSmAODigraph</string>
     <string>LtnSmAe</string>
     <string>LtnSmB</string>
@@ -1152,6 +1162,7 @@
     <string>LtnCapBHook</string>
     <string>LtnCapDHook</string>
     <string>LtnCapDStrkHook</string>
+    <string>LtnCapGlottalStop</string>
     <string>LtnCapHHook</string>
     <string>LtnCapPHook</string>
     <string>LtnCapT</string>
@@ -1195,6 +1206,12 @@
   </array>
   <key>public.kern2.RSmAsc</key>
   <array>
+    <string>LtnGlottalStop</string>
+    <string>LtnGlottalStopStrk</string>
+    <string>LtnInvGlottalStop</string>
+    <string>LtnInvGlottalStopCurl</string>
+    <string>LtnRevGlottalStop</string>
+    <string>LtnRevGlottalStopStrk</string>
     <string>LtnSmB</string>
     <string>LtnSmBBarredStem</string>
     <string>LtnSmBBarredStem.BarBowl</string>
@@ -1256,6 +1273,7 @@
   </array>
   <key>public.kern2.RSmBar</key>
   <array>
+    <string>LtnInvGlottalStopStrk</string>
     <string>LtnLigSmFSmF.SItal</string>
     <string>LtnLigSmFSmFSmI.SItal</string>
     <string>LtnLigSmFSmFSmL.SItal</string>
@@ -1457,6 +1475,7 @@
     <string>LtnSmG.SngBowl</string>
     <string>LtnSmGHook</string>
     <string>LtnSmGStrk.SngBowl</string>
+    <string>LtnSmGlottalStop</string>
     <string>LtnSmInvAlpha</string>
     <string>LtnSmLigOe</string>
     <string>LtnSmO</string>
@@ -1487,6 +1506,7 @@
     <string>LtnSmTrndDelta</string>
     <string>LtnSmTrndOe</string>
     <string>LtnSmTurnedE</string>
+    <string>LtnVcdLrynglSpirant</string>
     <string>SmRomNumFiveHundred</string>
     <string>SmRomNumOneHundred</string>
   </array>
