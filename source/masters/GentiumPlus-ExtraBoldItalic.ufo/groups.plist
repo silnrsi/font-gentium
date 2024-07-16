@@ -312,53 +312,155 @@
   </array>
   <key>public.kern1.LCapBaseL</key>
   <array>
+    <string>LtnCapDblBarredL</string>
     <string>LtnCapL</string>
+    <string>LtnCapLBar</string>
+    <string>LtnCapLBelt</string>
+    <string>LtnCapLBrkn</string>
+    <string>LtnCapLHighBar</string>
+    <string>LtnCapLLDigraph</string>
+    <string>LtnCapLMiddleTilde</string>
+    <string>LtnCapLStrk</string>
+    <string>RomNumFifty</string>
   </array>
   <key>public.kern1.LCapBaseR</key>
   <array>
     <string>LtnCapR</string>
+    <string>LtnCapRBarredStem</string>
+    <string>LtnCapRHookTail</string>
+    <string>LtnCapRumRotunda</string>
   </array>
   <key>public.kern1.LCapBaseU</key>
   <array>
+    <string>LtnCapAUDigraph</string>
     <string>LtnCapU</string>
+    <string>LtnCapUBar</string>
+    <string>LtnCapUOgonek</string>
+    <string>LtnCapUOgonek.RetroHook</string>
+    <string>LtnCapUStrk</string>
   </array>
   <key>public.kern1.LCapCurve</key>
   <array>
     <string>LtnCapC</string>
+    <string>LtnCapCBar</string>
+    <string>LtnCapOpnE</string>
   </array>
   <key>public.kern1.LCapDiagA</key>
   <array>
+    <string>CyCapA</string>
     <string>LtnCapA</string>
+    <string>LtnCapAADigraph</string>
+    <string>LtnCapAOgonek.RetroHook</string>
+    <string>LtnCapTurnedT</string>
+    <string>LtnCapTurnedV</string>
   </array>
   <key>public.kern1.LCapDiagV</key>
   <array>
+    <string>LtnCapArchaicM</string>
+    <string>LtnCapInsularS</string>
+    <string>LtnCapOCurl</string>
+    <string>LtnCapRamsHorn</string>
+    <string>LtnCapSmRHookTail</string>
     <string>LtnCapV</string>
+    <string>LtnCapVDiagStrk</string>
+    <string>LtnCapVHook.StraightLft</string>
+    <string>LtnCapVHook.StraightLftHighHook</string>
+    <string>LtnCapVend</string>
     <string>LtnCapY</string>
+    <string>LtnCapYHook</string>
+    <string>LtnCapYLoop</string>
+    <string>LtnCapYStrk</string>
+    <string>RomNumFive</string>
+    <string>RomNumFour</string>
+    <string>V_Versicle</string>
   </array>
   <key>public.kern1.LCapDiagW</key>
   <array>
+    <string>LtnCapAVDigraph</string>
+    <string>LtnCapAYDigraph</string>
+    <string>LtnCapGamma</string>
+    <string>LtnCapIs</string>
+    <string>LtnCapTurnedA</string>
+    <string>LtnCapVYDigraph</string>
     <string>LtnCapW</string>
   </array>
   <key>public.kern1.LCapDiagX</key>
   <array>
+    <string>LtnCapChi</string>
+    <string>LtnCapEzh.RevSigmaStyle</string>
     <string>LtnCapK</string>
+    <string>LtnCapKDesc</string>
+    <string>LtnCapKStrk</string>
+    <string>LtnCapSmCapI</string>
     <string>LtnCapX</string>
+    <string>RomNumNine</string>
+    <string>RomNumTen</string>
   </array>
   <key>public.kern1.LCapRound</key>
   <array>
+    <string>LtnBilabialClick</string>
+    <string>LtnCapAODigraph</string>
+    <string>LtnCapAfricanD</string>
     <string>LtnCapD</string>
+    <string>LtnCapDHook</string>
+    <string>LtnCapDShortStrk</string>
+    <string>LtnCapDStrk</string>
+    <string>LtnCapDStrkHook</string>
+    <string>LtnCapEth</string>
+    <string>LtnCapHalfH</string>
+    <string>LtnCapHwair</string>
+    <string>LtnCapInsularD</string>
+    <string>LtnCapLigOe</string>
     <string>LtnCapO</string>
     <string>LtnCapOHorn</string>
+    <string>LtnCapOLngStrk</string>
+    <string>LtnCapOMiddleTilde</string>
+    <string>LtnCapOODigraph</string>
+    <string>LtnCapOOgonek.RetroHook</string>
+    <string>LtnCapOmega</string>
+    <string>LtnCapOpnO</string>
+    <string>LtnCapOpnO.TopSerif</string>
     <string>LtnCapQ</string>
+    <string>LtnCapQDiagStrk</string>
+    <string>LtnCapQStrk</string>
+    <string>LtnCapRevCMiddleDot</string>
+    <string>LtnCapSchwa</string>
+    <string>LtnCapSmTurnedAlpha</string>
+    <string>LtnCapThorn</string>
+    <string>LtnCapThornHighStrk</string>
+    <string>LtnCapThornLowStrk</string>
+    <string>LtnCapVHook</string>
+    <string>RomNumFiftyThousand</string>
+    <string>RomNumFiveHundred</string>
+    <string>RomNumFiveThousand</string>
+    <string>RomNumOneHundredThousand</string>
+    <string>RomNumOneThousandCD</string>
+    <string>RomNumRevOneHundred</string>
+    <string>RomNumTenThousand</string>
   </array>
   <key>public.kern1.LCapTopP</key>
   <array>
     <string>LtnCapF</string>
+    <string>LtnCapFHook</string>
+    <string>LtnCapFHookStrk</string>
     <string>LtnCapP</string>
+    <string>LtnCapPHighCurl</string>
+    <string>LtnCapPHook</string>
+    <string>LtnCapPLowCurl</string>
+    <string>LtnCapPLowStrk</string>
+    <string>LtnCapPStrk</string>
+    <string>LtnCapWynn</string>
   </array>
   <key>public.kern1.LCapTopT</key>
   <array>
+    <string>CyCapTe</string>
+    <string>LtnCapGlottalStop</string>
     <string>LtnCapT</string>
+    <string>LtnCapTDiagStrk</string>
+    <string>LtnCapTHook</string>
+    <string>LtnCapTHook.RtHook</string>
+    <string>LtnCapTRetrHook</string>
+    <string>LtnCapTStrk</string>
     <string>LtnCapUHorn</string>
   </array>
   <key>public.kern1.LCapVCaronL</key>
@@ -388,33 +490,224 @@
   </array>
   <key>public.kern1.LSmCurve</key>
   <array>
+    <string>LtnInvGlottalStopStrk</string>
     <string>LtnSmA</string>
+    <string>LtnSmAADigraph</string>
+    <string>LtnSmAOgonek.RetroHook</string>
+    <string>LtnSmAUDigraph</string>
+    <string>LtnSmAlpha</string>
+    <string>LtnSmBarredAlpha</string>
+    <string>LtnSmCapOu</string>
+    <string>LtnSmCapOu.OpenTop</string>
+    <string>LtnSmCapR</string>
+    <string>LtnSmGlottalStop</string>
     <string>LtnSmH</string>
+    <string>LtnSmHHook</string>
+    <string>LtnSmHStrk</string>
+    <string>LtnSmHeng</string>
+    <string>LtnSmHengHook</string>
+    <string>LtnSmHv</string>
+    <string>LtnSmInsularR</string>
     <string>LtnSmM</string>
+    <string>LtnSmMMiddleTilde</string>
     <string>LtnSmN</string>
+    <string>LtnSmNLftHook</string>
+    <string>LtnSmNMidLftHook</string>
+    <string>LtnSmNMiddleTilde</string>
+    <string>LtnSmRRotunda</string>
+    <string>LtnSmTHStrk</string>
+    <string>LtnSmTnTwo</string>
+    <string>LtnSmTrndAe</string>
+    <string>LtnSmTurnedA</string>
+    <string>LtnSmTurnedM</string>
+    <string>LtnSmTurnedR</string>
     <string>LtnSmU</string>
+    <string>LtnSmUBar</string>
+    <string>LtnSmUStrk</string>
+    <string>LtnVcdLrynglSpirant</string>
+    <string>LtnWynn</string>
+    <string>SmRomNumOneThousand</string>
   </array>
   <key>public.kern1.LSmDesc</key>
   <array>
+    <string>LtnSmAOgonek.SngStory.RetroHook</string>
+    <string>LtnSmBPalHook</string>
+    <string>LtnSmCPalHook</string>
+    <string>LtnSmCapJ</string>
+    <string>LtnSmChi</string>
+    <string>LtnSmDPalHook</string>
+    <string>LtnSmDezhDigraph</string>
+    <string>LtnSmDezhDigraphRetrHook</string>
+    <string>LtnSmDotlessJStrk</string>
+    <string>LtnSmEng</string>
+    <string>LtnSmEt</string>
+    <string>LtnSmEzh</string>
+    <string>LtnSmEzhCurl</string>
+    <string>LtnSmEzhCurl.LrgBowl</string>
+    <string>LtnSmEzhHook</string>
+    <string>LtnSmEzhRev</string>
+    <string>LtnSmEzhTail</string>
+    <string>LtnSmFengDigraph</string>
+    <string>LtnSmFengDigraphTrill</string>
     <string>LtnSmG</string>
+    <string>LtnSmG.BarBowl</string>
+    <string>LtnSmG.BarBowl.SngBowl</string>
+    <string>LtnSmG.SngBowl</string>
+    <string>LtnSmGDiagStrk</string>
+    <string>LtnSmGDiagStrk.SngBowl</string>
+    <string>LtnSmGStrk</string>
+    <string>LtnSmGStrk.SngBowl</string>
+    <string>LtnSmIOgonek.RetroHook</string>
+    <string>LtnSmInsularG</string>
+    <string>LtnSmJ.Dotless</string>
+    <string>LtnSmJCrossedTail.Dotless</string>
+    <string>LtnSmKDesc</string>
+    <string>LtnSmKPalHook</string>
+    <string>LtnSmLTrnd</string>
+    <string>LtnSmLezh</string>
+    <string>LtnSmLezhRetrHook</string>
+    <string>LtnSmMHook</string>
+    <string>LtnSmMPalHook</string>
+    <string>LtnSmNDesc</string>
+    <string>LtnSmNLngRtLeg</string>
+    <string>LtnSmNPalHook</string>
+    <string>LtnSmOi</string>
+    <string>LtnSmPPalHook</string>
     <string>LtnSmQ</string>
+    <string>LtnSmQStrk</string>
+    <string>LtnSmRevRFishhook</string>
+    <string>LtnSmRevScriptG</string>
+    <string>LtnSmSPalHook</string>
+    <string>LtnSmSSwashTail</string>
+    <string>LtnSmTPalHook</string>
+    <string>LtnSmTRetrHook</string>
+    <string>LtnSmTresillo</string>
+    <string>LtnSmTrndDelta</string>
+    <string>LtnSmTurnedH</string>
+    <string>LtnSmTurnedHFishhook</string>
+    <string>LtnSmTurnedK</string>
+    <string>LtnSmTurnedMLngLeg</string>
+    <string>LtnSmTurnedRPalHook</string>
+    <string>LtnSmTurnedT</string>
+    <string>LtnSmTzDigraph</string>
+    <string>LtnSmUOgonek</string>
+    <string>LtnSmUOgonek.RetroHook</string>
+    <string>LtnSmVPalHook</string>
+    <string>LtnSmVisigothicZ</string>
+    <string>LtnSmXPalHook</string>
+    <string>LtnSmYOgonek</string>
+    <string>LtnSmYogh</string>
+    <string>LtnSmZDesc</string>
+    <string>LtnSmZPalHook</string>
+    <string>LtnSmZSwashTail</string>
+    <string>LtnStretchedC</string>
+    <string>LtnStretchedCCurl</string>
+  </array>
+  <key>public.kern1.LSmDescHook</key>
+  <array>
+    <string>LtnRevEshLoop</string>
+    <string>LtnSmARetrHook</string>
+    <string>LtnSmAlphaRetrHook</string>
+    <string>LtnSmCRetrHook</string>
+    <string>LtnSmDTail</string>
+    <string>LtnSmDTailHook</string>
+    <string>LtnSmDzRetrHook</string>
+    <string>LtnSmERetrHook</string>
+    <string>LtnSmIRetrHook</string>
+    <string>LtnSmIRetrHook.Dotless</string>
+    <string>LtnSmIStrkRetrHook</string>
+    <string>LtnSmLRetrHook</string>
+    <string>LtnSmLRetrHookBelt</string>
+    <string>LtnSmNRetrHook</string>
+    <string>LtnSmOpnERetrHook</string>
+    <string>LtnSmQHookTail</string>
+    <string>LtnSmSchwaRetrHook</string>
+    <string>LtnSmSquatRevEsh</string>
+    <string>LtnSmTurnedHFishhookTail</string>
+    <string>LtnSmTurnedRHook</string>
+    <string>LtnSmTurnedRLngLegHook</string>
+    <string>LtnSmURetrHook</string>
+    <string>LtnSmYOgonek.RetroHook</string>
+    <string>LtnSmZRetrHook</string>
   </array>
   <key>public.kern1.LSmDiagTrndV</key>
   <array>
     <string>LtnSmCapA</string>
+    <string>LtnSmCapL</string>
+    <string>LtnSmCapLBelt</string>
+    <string>LtnSmCapLStrk</string>
+    <string>LtnSmDCurl</string>
+    <string>LtnSmDezhDigraphPalHook</string>
+    <string>LtnSmENotch</string>
+    <string>LtnSmEngPalHook</string>
+    <string>LtnSmEzhPalHook</string>
+    <string>LtnSmLambdaStrk</string>
+    <string>LtnSmNCurl</string>
+    <string>LtnSmRumRotunda</string>
+    <string>LtnSmScriptGPalHook</string>
     <string>LtnSmTurnedV</string>
+    <string>LtnSmTurnedW</string>
+    <string>LtnSmTurnedY</string>
+    <string>LtnSmTurnedYBelt</string>
   </array>
   <key>public.kern1.LSmDiagV</key>
   <array>
+    <string>LtnSmAVDigraph</string>
+    <string>LtnSmAYDigraph</string>
+    <string>LtnSmCapT</string>
+    <string>LtnSmCapV</string>
+    <string>LtnSmCapW</string>
+    <string>LtnSmCapY</string>
+    <string>LtnSmGamma</string>
+    <string>LtnSmInsularS</string>
+    <string>LtnSmOCurl</string>
     <string>LtnSmR</string>
+    <string>LtnSmRBar</string>
+    <string>LtnSmRDiagStrk</string>
+    <string>LtnSmRFishhook</string>
+    <string>LtnSmRFishhookMiddleTilde</string>
+    <string>LtnSmRFishhookPalHook</string>
+    <string>LtnSmRHookTail</string>
+    <string>LtnSmRLngLeg</string>
+    <string>LtnSmRMidLftHook</string>
+    <string>LtnSmRMiddleTilde</string>
+    <string>LtnSmRPalHook</string>
+    <string>LtnSmRamsHorn</string>
+    <string>LtnSmRamsHorn.GammaStyle</string>
+    <string>LtnSmRamsHorn.LrgBowl</string>
+    <string>LtnSmRevOpnEHook</string>
+    <string>LtnSmRum</string>
+    <string>LtnSmSchwaHook</string>
     <string>LtnSmV</string>
+    <string>LtnSmV.SItal</string>
+    <string>LtnSmVCurl</string>
+    <string>LtnSmVDiagStrk</string>
+    <string>LtnSmVDiagStrk.SItal</string>
+    <string>LtnSmVHook.StraightLft</string>
+    <string>LtnSmVHook.StraightLftHighHook</string>
+    <string>LtnSmVRtHook</string>
+    <string>LtnSmVYDigraph</string>
+    <string>LtnSmVend</string>
     <string>LtnSmW</string>
     <string>LtnSmY</string>
+    <string>LtnSmYLoop</string>
+    <string>LtnSmYStrk</string>
+    <string>SmRomNumFive</string>
+    <string>SmRomNumFour</string>
   </array>
   <key>public.kern1.LSmDiagX</key>
   <array>
+    <string>LtnGlottalStop</string>
+    <string>LtnGlottalStopStrk</string>
+    <string>LtnRevGlottalStop</string>
+    <string>LtnRevGlottalStopStrk</string>
+    <string>LtnSmCapK</string>
     <string>LtnSmK</string>
+    <string>LtnSmKHook</string>
+    <string>LtnSmKStrk</string>
     <string>LtnSmX</string>
+    <string>SmRomNumNine</string>
+    <string>SmRomNumTen</string>
   </array>
   <key>public.kern1.LSmOHorn</key>
   <array>
@@ -422,21 +715,139 @@
   </array>
   <key>public.kern1.LSmRound</key>
   <array>
+    <string>LtnInvGlottalStop</string>
+    <string>LtnInvGlottalStopCurl</string>
+    <string>LtnSmAODigraph</string>
+    <string>LtnSmAe</string>
     <string>LtnSmB</string>
+    <string>LtnSmBBarredStem</string>
+    <string>LtnSmBDotAbv</string>
+    <string>LtnSmBHook</string>
+    <string>LtnSmBLftHook</string>
+    <string>LtnSmBLftMidHook</string>
+    <string>LtnSmBMiddleTilde</string>
+    <string>LtnSmBTopbar</string>
+    <string>LtnSmBarredO</string>
+    <string>LtnSmCapD</string>
+    <string>LtnSmCapEth</string>
+    <string>LtnSmCapO</string>
+    <string>LtnSmCapOpnO</string>
+    <string>LtnSmCapOpnO.TopSerif</string>
+    <string>LtnSmCapQ</string>
+    <string>LtnSmCapTurnedG</string>
+    <string>LtnSmClosedOmega</string>
+    <string>LtnSmClosedOpnE</string>
+    <string>LtnSmDBDigraph</string>
     <string>LtnSmE</string>
+    <string>LtnSmEOgonek</string>
+    <string>LtnSmEStrk</string>
+    <string>LtnSmHalfH</string>
+    <string>LtnSmInsularD</string>
+    <string>LtnSmLBeltPalHook</string>
+    <string>LtnSmLigOe</string>
     <string>LtnSmO</string>
+    <string>LtnSmOLngStrk</string>
+    <string>LtnSmOODigraph</string>
+    <string>LtnSmOOgonek</string>
+    <string>LtnSmOOgonek.RetroHook</string>
+    <string>LtnSmORetrHook</string>
+    <string>LtnSmORingInside</string>
+    <string>LtnSmOmega</string>
     <string>LtnSmP</string>
+    <string>LtnSmPHighCurl</string>
+    <string>LtnSmPLowCurl</string>
+    <string>LtnSmPLowStrk</string>
+    <string>LtnSmPMiddleTilde</string>
+    <string>LtnSmPStrk</string>
+    <string>LtnSmPhi</string>
+    <string>LtnSmQDiagStrk</string>
+    <string>LtnSmQPDigraph</string>
+    <string>LtnSmRevE</string>
+    <string>LtnSmSchwa</string>
+    <string>LtnSmSdwysO</string>
+    <string>LtnSmSdwysOStrk</string>
+    <string>LtnSmThorn</string>
+    <string>LtnSmThornHighStrk</string>
+    <string>LtnSmThornLowStrk</string>
+    <string>LtnSmTnSix</string>
+    <string>LtnSmTrndOe</string>
+    <string>LtnSmTurnedAlpha</string>
+    <string>LtnSmTurnedE</string>
+    <string>LtnSmTurnedRMiddleTilde</string>
+    <string>LtnSmUe</string>
+    <string>LtnSmVHook</string>
   </array>
   <key>public.kern1.LSmSerif</key>
   <array>
     <string>LtnSmC</string>
+    <string>LtnSmCBar</string>
+    <string>LtnSmCCurl</string>
+    <string>LtnSmCapC</string>
+    <string>LtnSmCapEzh</string>
+    <string>LtnSmCapInvR</string>
+    <string>LtnSmCapRevR</string>
+    <string>LtnSmCapRum</string>
+    <string>LtnSmCapS</string>
+    <string>LtnSmCapTrndR</string>
+    <string>LtnSmCapU</string>
+    <string>LtnSmCapZ</string>
+    <string>LtnSmDzDigraph</string>
+    <string>LtnSmInsularT</string>
+    <string>LtnSmLSDigraph</string>
+    <string>LtnSmLZDigraph</string>
+    <string>LtnSmOpnE</string>
     <string>LtnSmS</string>
+    <string>LtnSmSCurl</string>
+    <string>LtnSmSDiagStrk</string>
+    <string>LtnSmSHook</string>
+    <string>LtnSmSMidLftHook</string>
+    <string>LtnSmSMiddleTilde</string>
+    <string>LtnSmSShortStrk</string>
     <string>LtnSmT</string>
+    <string>LtnSmTCurl</string>
+    <string>LtnSmTDiagStrk</string>
+    <string>LtnSmTMidLftHook</string>
+    <string>LtnSmTMiddleTilde</string>
+    <string>LtnSmTStrk</string>
+    <string>LtnSmTcDigraphCurl</string>
+    <string>LtnSmTsDigraph</string>
+    <string>LtnSmTsHook</string>
+    <string>LtnSmUpsilon</string>
+    <string>LtnSmUpsilonStrk</string>
     <string>LtnSmZ</string>
+    <string>LtnSmZ.SItal</string>
+    <string>LtnSmZCurl</string>
+    <string>LtnSmZHook</string>
+    <string>LtnSmZMiddleTilde</string>
+    <string>LtnSmZStrk</string>
+    <string>SmRomNumOneHundred</string>
   </array>
   <key>public.kern1.LSmTopF</key>
   <array>
+    <string>LtnSmCHook</string>
+    <string>LtnSmCapGHook</string>
+    <string>LtnSmDHook</string>
+    <string>LtnSmDotlessJStrkHook</string>
+    <string>LtnSmDotlessJStrkHook.DblSerif</string>
+    <string>LtnSmEsh</string>
+    <string>LtnSmEshCurl</string>
+    <string>LtnSmEshCurlDblBar</string>
+    <string>LtnSmEshDblBar</string>
+    <string>LtnSmEshHook</string>
     <string>LtnSmF</string>
+    <string>LtnSmF.SItal</string>
+    <string>LtnSmFHookStrk</string>
+    <string>LtnSmFMiddleTilde</string>
+    <string>LtnSmFPalHook</string>
+    <string>LtnSmGHook</string>
+    <string>LtnSmIs</string>
+    <string>LtnSmLngS</string>
+    <string>LtnSmLngSDiagStrk</string>
+    <string>LtnSmLngSHighStrk</string>
+    <string>LtnSmPHook.BowlHook</string>
+    <string>LtnSmQHook</string>
+    <string>LtnSmTeshDigraph</string>
+    <string>LtnSmTeshRetrHook</string>
   </array>
   <key>public.kern1.LSmUHorn</key>
   <array>
@@ -653,43 +1064,122 @@
   <key>public.kern2.RCapBaseU</key>
   <array>
     <string>LtnCapU</string>
+    <string>LtnCapUBar</string>
+    <string>LtnCapUHorn</string>
+    <string>LtnCapUOgonek</string>
+    <string>LtnCapUOgonek.RetroHook</string>
+    <string>LtnCapUStrk</string>
+    <string>LtnCapVHook</string>
   </array>
   <key>public.kern2.RCapDiagA</key>
   <array>
+    <string>CyCapA</string>
     <string>LtnCapA</string>
+    <string>LtnCapAADigraph</string>
+    <string>LtnCapAODigraph</string>
+    <string>LtnCapAOgonek.RetroHook</string>
+    <string>LtnCapAStrk</string>
+    <string>LtnCapAUDigraph</string>
+    <string>LtnCapAVDigraph</string>
+    <string>LtnCapAVDigraphStrk</string>
+    <string>LtnCapAYDigraph</string>
+    <string>LtnCapAe</string>
+    <string>LtnCapArchaicM</string>
+    <string>LtnCapTurnedT</string>
+    <string>LtnCapTurnedV</string>
   </array>
   <key>public.kern2.RCapDiagV</key>
   <array>
+    <string>CyCapStraightUStrk</string>
+    <string>LtnCapLTrnd</string>
+    <string>LtnCapRamsHorn</string>
     <string>LtnCapV</string>
+    <string>LtnCapVDiagStrk</string>
+    <string>LtnCapVHook.StraightLft</string>
+    <string>LtnCapVHook.StraightLftHighHook</string>
     <string>LtnCapY</string>
+    <string>LtnCapYHook.RtHook</string>
+    <string>LtnCapYStrk</string>
+    <string>RomNumEight</string>
+    <string>RomNumFive</string>
+    <string>RomNumSeven</string>
+    <string>RomNumSix</string>
+    <string>V_Versicle</string>
   </array>
   <key>public.kern2.RCapDiagW</key>
   <array>
+    <string>LtnCapGamma</string>
+    <string>LtnCapVYDigraph</string>
     <string>LtnCapW</string>
+    <string>LtnCapWHook</string>
   </array>
   <key>public.kern2.RCapDiagX</key>
   <array>
+    <string>LtnCapChi</string>
+    <string>LtnCapEsh</string>
+    <string>LtnCapSmCapI</string>
+    <string>LtnCapTurnedK</string>
     <string>LtnCapX</string>
+    <string>RomNumEleven</string>
+    <string>RomNumTen</string>
+    <string>RomNumTwelve</string>
   </array>
   <key>public.kern2.RCapRound</key>
   <array>
+    <string>LtnBilabialClick</string>
     <string>LtnCapC</string>
+    <string>LtnCapCHook</string>
+    <string>LtnCapCStrk</string>
     <string>LtnCapG</string>
+    <string>LtnCapGHook</string>
+    <string>LtnCapGStrk</string>
     <string>LtnCapO</string>
+    <string>LtnCapOCurl</string>
+    <string>LtnCapOHorn</string>
+    <string>LtnCapOLngStrk</string>
+    <string>LtnCapOMiddleTilde</string>
+    <string>LtnCapOODigraph</string>
+    <string>LtnCapOOgonek.RetroHook</string>
+    <string>LtnCapOi</string>
+    <string>LtnCapOmega</string>
+    <string>LtnCapOpnE</string>
     <string>LtnCapQ</string>
+    <string>LtnCapQDiagStrk</string>
+    <string>LtnCapQStrk</string>
+    <string>LtnCapSchwa</string>
+    <string>LtnCapScriptG</string>
+    <string>LtnCapSmAlpha</string>
+    <string>LtnCapSmQHookTail</string>
+    <string>RomNumOneHundred</string>
+    <string>RomNumOneHundredThousand</string>
+    <string>RomNumOneThousandCD</string>
+    <string>RomNumTenThousand</string>
   </array>
   <key>public.kern2.RCapTopS</key>
   <array>
     <string>LtnCapS</string>
+    <string>LtnCapSDiagStrk</string>
+    <string>LtnCapSHook</string>
+    <string>LtnCapSShortStrk</string>
+    <string>LtnCapSSwashTail</string>
+    <string>LtnCapTnTwo</string>
   </array>
   <key>public.kern2.RCapTopT</key>
   <array>
+    <string>CyCapTe</string>
     <string>LtnCapBHook</string>
     <string>LtnCapDHook</string>
     <string>LtnCapDStrkHook</string>
+    <string>LtnCapGlottalStop</string>
     <string>LtnCapHHook</string>
     <string>LtnCapPHook</string>
     <string>LtnCapT</string>
+    <string>LtnCapTDiagStrk</string>
+    <string>LtnCapTHook</string>
+    <string>LtnCapTHook.RtHook</string>
+    <string>LtnCapTRetrHook</string>
+    <string>LtnCapTStrk</string>
+    <string>LtnCapTzDigraph</string>
     <string>LtnCapYHook</string>
   </array>
   <key>public.kern2.RModApos</key>
@@ -724,60 +1214,397 @@
   </array>
   <key>public.kern2.RSmAsc</key>
   <array>
+    <string>LtnGlottalStop</string>
+    <string>LtnGlottalStopStrk</string>
+    <string>LtnInvGlottalStop</string>
+    <string>LtnInvGlottalStopCurl</string>
+    <string>LtnRevGlottalStop</string>
+    <string>LtnRevGlottalStopStrk</string>
     <string>LtnSmB</string>
+    <string>LtnSmBBarredStem</string>
+    <string>LtnSmBBarredStem.BarBowl</string>
+    <string>LtnSmBDotAbv</string>
+    <string>LtnSmBHook</string>
+    <string>LtnSmBPalHook</string>
+    <string>LtnSmDblBarredL</string>
+    <string>LtnSmFHookStrk</string>
+    <string>LtnSmFMiddleTilde</string>
     <string>LtnSmH</string>
+    <string>LtnSmHDesc</string>
+    <string>LtnSmHHook</string>
+    <string>LtnSmHPalHook</string>
+    <string>LtnSmHStrk</string>
+    <string>LtnSmHeng</string>
+    <string>LtnSmHengHook</string>
+    <string>LtnSmHv</string>
     <string>LtnSmK</string>
+    <string>LtnSmKDesc</string>
+    <string>LtnSmKDiagStrk</string>
+    <string>LtnSmKHook</string>
+    <string>LtnSmKPalHook</string>
+    <string>LtnSmKRtDiagStrk</string>
+    <string>LtnSmKStrk</string>
+    <string>LtnSmKStrkRtDiagStrk</string>
     <string>LtnSmL</string>
+    <string>LtnSmL.SItal</string>
+    <string>LtnSmLBar</string>
+    <string>LtnSmLBelt</string>
+    <string>LtnSmLBrkn</string>
     <string>LtnSmLCaron</string>
+    <string>LtnSmLCurl</string>
+    <string>LtnSmLFishhook</string>
+    <string>LtnSmLHighBar</string>
+    <string>LtnSmLHighBar.SItal</string>
+    <string>LtnSmLLDigraph</string>
+    <string>LtnSmLMiddleDot</string>
+    <string>LtnSmLMiddleTilde</string>
+    <string>LtnSmLPalHook</string>
+    <string>LtnSmLRetrHook</string>
+    <string>LtnSmLRetrHookBelt</string>
+    <string>LtnSmLSDigraph</string>
+    <string>LtnSmLStrk</string>
+    <string>LtnSmLZDigraph</string>
+    <string>LtnSmLezh</string>
+    <string>LtnSmLezhRetrHook</string>
+    <string>LtnSmLngS</string>
+    <string>LtnSmLngSDiagStrk</string>
+    <string>LtnSmLngSHighStrk</string>
+    <string>LtnSmLum</string>
+    <string>LtnSmPHighCurl</string>
+    <string>LtnSmPHook</string>
+    <string>LtnSmThorn</string>
+    <string>LtnSmThornHighStrk</string>
+    <string>LtnSmThornLowStrk</string>
+    <string>LtnSmTrndI</string>
+    <string>LtnSmVisigothicZ</string>
+    <string>SmRomNumFifty</string>
   </array>
   <key>public.kern2.RSmBar</key>
   <array>
+    <string>LtnInvGlottalStopStrk</string>
+    <string>LtnLigSmFSmF.SItal</string>
+    <string>LtnLigSmFSmFSmI.SItal</string>
+    <string>LtnLigSmFSmFSmL.SItal</string>
+    <string>LtnLigSmFSmI.SItal</string>
+    <string>LtnLigSmFSmL.SItal</string>
+    <string>LtnSmDotlessJStrkHook</string>
     <string>LtnSmF</string>
+    <string>LtnSmF.SItal</string>
+    <string>LtnSmFPalHook</string>
+    <string>LtnSmFengDigraph</string>
+    <string>LtnSmFengDigraphTrill</string>
+    <string>LtnSmIs</string>
+    <string>LtnSmLigFf</string>
+    <string>LtnSmLigFfi</string>
+    <string>LtnSmLigFfl</string>
     <string>LtnSmT</string>
     <string>LtnSmTCaron</string>
+    <string>LtnSmTHStrk</string>
+    <string>LtnSmTHook</string>
+    <string>LtnSmTHookRetrHook</string>
+    <string>LtnSmTPalHook</string>
+    <string>LtnSmTRetrHook</string>
+    <string>LtnSmTcDigraphCurl</string>
+    <string>LtnSmTeshDigraph</string>
+    <string>LtnSmTeshPalHook</string>
+    <string>LtnSmTeshRetrHook</string>
+    <string>LtnSmTsDigraph</string>
+    <string>LtnSmTsHook</string>
+    <string>LtnSmTum</string>
+    <string>LtnSmTzDigraph</string>
   </array>
   <key>public.kern2.RSmCurve</key>
   <array>
     <string>LtnSmA</string>
+    <string>LtnSmAADigraph</string>
+    <string>LtnSmAODigraph</string>
+    <string>LtnSmAOgonek.RetroHook</string>
+    <string>LtnSmARetrHook</string>
+    <string>LtnSmAStrk</string>
+    <string>LtnSmAUDigraph</string>
+    <string>LtnSmAVDigraph</string>
+    <string>LtnSmAVDigraphStrk</string>
+    <string>LtnSmAYDigraph</string>
+    <string>LtnSmAe</string>
+    <string>LtnSmCapOpnO</string>
+    <string>LtnSmCapOpnO.TopSerif</string>
+    <string>LtnSmCapS</string>
+    <string>LtnSmClosedOpnE</string>
     <string>LtnSmG</string>
+    <string>LtnSmG.BarBowl</string>
+    <string>LtnSmGDiagStrk</string>
+    <string>LtnSmGStrk</string>
+    <string>LtnSmOpnE</string>
+    <string>LtnSmOpnERetrHook</string>
+    <string>LtnSmOpnO</string>
+    <string>LtnSmOpnO.TopSerif</string>
+    <string>LtnSmRevC</string>
+    <string>LtnSmRevCMiddleDot</string>
     <string>LtnSmS</string>
+    <string>LtnSmSCurl</string>
+    <string>LtnSmSDiagStrk</string>
+    <string>LtnSmSHook</string>
+    <string>LtnSmSMiddleTilde</string>
+    <string>LtnSmSPalHook</string>
+    <string>LtnSmSShortStrk</string>
+    <string>LtnSmSSwashTail</string>
+    <string>LtnSmTnTwo</string>
+    <string>LtnSmTresillo</string>
   </array>
   <key>public.kern2.RSmDescJ</key>
   <array>
+    <string>LtnSmDotlessJStrk</string>
+    <string>LtnSmDotlessJStrkHook.DblSerif</string>
+    <string>LtnSmEsh</string>
+    <string>LtnSmEshCurl</string>
+    <string>LtnSmEshCurlDblBar</string>
+    <string>LtnSmEshDblBar</string>
+    <string>LtnSmEshHook</string>
+    <string>LtnSmEshPalHook</string>
     <string>LtnSmJ</string>
+    <string>LtnSmJ.Dotless</string>
+    <string>LtnSmJCrossedTail</string>
+    <string>LtnSmJCrossedTail.Dotless</string>
+    <string>LtnSmJStrk</string>
+    <string>LtnSmNLftHook</string>
+    <string>LtnSmTurnedTCurl</string>
   </array>
   <key>public.kern2.RSmDiagTrndV</key>
   <array>
     <string>LtnSmCapA</string>
+    <string>LtnSmCapAe</string>
+    <string>LtnSmPLowCurl</string>
+    <string>LtnSmSMidLftHook</string>
+    <string>LtnSmTurnedR</string>
+    <string>LtnSmTurnedRHook</string>
+    <string>LtnSmTurnedRLngLeg</string>
+    <string>LtnSmTurnedRLngLegHook</string>
+    <string>LtnSmTurnedRMiddleTilde</string>
+    <string>LtnSmTurnedRPalHook</string>
     <string>LtnSmTurnedV</string>
+    <string>LtnSmTurnedW</string>
   </array>
   <key>public.kern2.RSmDiagV</key>
   <array>
+    <string>LtnSmCapT</string>
+    <string>LtnSmCapTrndR</string>
+    <string>LtnSmCapV</string>
+    <string>LtnSmCapW</string>
+    <string>LtnSmCapY</string>
+    <string>LtnSmDMidLftHook</string>
+    <string>LtnSmGamma</string>
+    <string>LtnSmLMidLftHook</string>
+    <string>LtnSmNMidLftHook</string>
+    <string>LtnSmRMidLftHook</string>
+    <string>LtnSmRamsHorn</string>
+    <string>LtnSmRamsHorn.GammaStyle</string>
+    <string>LtnSmRamsHorn.LrgBowl</string>
+    <string>LtnSmRevRFishhook</string>
+    <string>LtnSmSquatRevEsh</string>
+    <string>LtnSmTMidLftHook</string>
     <string>LtnSmV</string>
+    <string>LtnSmV.SItal</string>
+    <string>LtnSmVCurl</string>
+    <string>LtnSmVDiagStrk</string>
+    <string>LtnSmVDiagStrk.SItal</string>
+    <string>LtnSmVHook.StraightLft</string>
+    <string>LtnSmVHook.StraightLftHighHook</string>
+    <string>LtnSmVPalHook</string>
+    <string>LtnSmVRtHook</string>
+    <string>LtnSmVYDigraph</string>
     <string>LtnSmW</string>
+    <string>LtnSmWHook</string>
     <string>LtnSmY</string>
+    <string>LtnSmYHook.RtHook</string>
+    <string>LtnSmYLoop</string>
+    <string>LtnSmYOgonek</string>
+    <string>LtnSmYOgonek.RetroHook</string>
+    <string>LtnSmYStrk</string>
+    <string>SmRomNumEight</string>
+    <string>SmRomNumFive</string>
+    <string>SmRomNumSeven</string>
+    <string>SmRomNumSix</string>
   </array>
   <key>public.kern2.RSmDiagX</key>
   <array>
+    <string>LtnSmCapTurnedK</string>
+    <string>LtnSmChi</string>
+    <string>LtnSmRevK</string>
+    <string>LtnSmTurnedK</string>
     <string>LtnSmX</string>
+    <string>LtnSmXPalHook</string>
+    <string>SmRomNumEleven</string>
+    <string>SmRomNumTen</string>
+    <string>SmRomNumTwelve</string>
   </array>
   <key>public.kern2.RSmRound</key>
   <array>
+    <string>LtnSmAOgonek.SngStory.RetroHook</string>
+    <string>LtnSmAStrk.SngStory</string>
+    <string>LtnSmAlpha</string>
+    <string>LtnSmAlphaRetrHook</string>
+    <string>LtnSmBarredO</string>
     <string>LtnSmC</string>
+    <string>LtnSmCCurl</string>
+    <string>LtnSmCHook</string>
+    <string>LtnSmCPalHook</string>
+    <string>LtnSmCRetrHook</string>
+    <string>LtnSmCStrk</string>
+    <string>LtnSmCapC</string>
+    <string>LtnSmCapG</string>
+    <string>LtnSmCapO</string>
+    <string>LtnSmCapOe</string>
+    <string>LtnSmCapQ</string>
+    <string>LtnSmClosedOmega</string>
+    <string>LtnSmClosedRevOpnE</string>
     <string>LtnSmD</string>
+    <string>LtnSmDBDigraph</string>
+    <string>LtnSmDBarredStem</string>
     <string>LtnSmDCaron</string>
+    <string>LtnSmDCurl</string>
+    <string>LtnSmDHook</string>
+    <string>LtnSmDMiddleTilde</string>
+    <string>LtnSmDPalHook</string>
+    <string>LtnSmDShortStrk</string>
+    <string>LtnSmDTail</string>
+    <string>LtnSmDTailHook</string>
+    <string>LtnSmDezhDigraph</string>
+    <string>LtnSmDezhDigraphPalHook</string>
+    <string>LtnSmDezhDigraphRetrHook</string>
+    <string>LtnSmDum</string>
+    <string>LtnSmDzDigraph</string>
+    <string>LtnSmDzDigraphCurl</string>
+    <string>LtnSmDzRetrHook</string>
     <string>LtnSmE</string>
+    <string>LtnSmENotch</string>
+    <string>LtnSmEOgonek</string>
+    <string>LtnSmERetrHook</string>
+    <string>LtnSmEth</string>
+    <string>LtnSmG.SngBowl</string>
+    <string>LtnSmGHook</string>
+    <string>LtnSmGStrk.SngBowl</string>
+    <string>LtnSmGlottalStop</string>
+    <string>LtnSmInvAlpha</string>
+    <string>LtnSmLigOe</string>
     <string>LtnSmO</string>
+    <string>LtnSmOCurl</string>
+    <string>LtnSmOHorn</string>
+    <string>LtnSmOLngStrk</string>
+    <string>LtnSmOODigraph</string>
+    <string>LtnSmOOgonek</string>
+    <string>LtnSmOOgonek.RetroHook</string>
+    <string>LtnSmORetrHook</string>
+    <string>LtnSmORingInside</string>
+    <string>LtnSmOi</string>
+    <string>LtnSmOmega</string>
+    <string>LtnSmPhi</string>
     <string>LtnSmQ</string>
+    <string>LtnSmQDiagStrk</string>
+    <string>LtnSmQHook</string>
+    <string>LtnSmQHookTail</string>
+    <string>LtnSmQPDigraph</string>
+    <string>LtnSmQStrk</string>
+    <string>LtnSmRevE</string>
+    <string>LtnSmSchwa</string>
+    <string>LtnSmSchwaRetrHook</string>
+    <string>LtnSmScriptGPalHook</string>
+    <string>LtnSmSdwysO</string>
+    <string>LtnSmSdwysOStrk</string>
+    <string>LtnSmTrndAe</string>
+    <string>LtnSmTrndDelta</string>
+    <string>LtnSmTrndOe</string>
+    <string>LtnSmTurnedE</string>
+    <string>LtnVcdLrynglSpirant</string>
+    <string>SmRomNumFiveHundred</string>
+    <string>SmRomNumOneHundred</string>
   </array>
   <key>public.kern2.RSmSerif</key>
   <array>
+    <string>LtnSmCapEzh</string>
+    <string>LtnSmCapInvR</string>
+    <string>LtnSmCapP</string>
+    <string>LtnSmCapR</string>
+    <string>LtnSmCapRevR</string>
+    <string>LtnSmCapRum</string>
+    <string>LtnSmCapU</string>
+    <string>LtnSmCapUBar</string>
+    <string>LtnSmCapZ</string>
+    <string>LtnSmEng</string>
+    <string>LtnSmEngPalHook</string>
+    <string>LtnSmEt</string>
+    <string>LtnSmEzh</string>
+    <string>LtnSmEzhCurl</string>
+    <string>LtnSmEzhCurl.LrgBowl</string>
+    <string>LtnSmEzhHook</string>
+    <string>LtnSmEzhPalHook</string>
+    <string>LtnSmEzhRev</string>
+    <string>LtnSmEzhTail</string>
+    <string>LtnSmInsularF</string>
+    <string>LtnSmInsularR</string>
+    <string>LtnSmInsularS</string>
+    <string>LtnSmInsularT</string>
     <string>LtnSmM</string>
+    <string>LtnSmMHook</string>
+    <string>LtnSmMMiddleTilde</string>
+    <string>LtnSmMPalHook</string>
+    <string>LtnSmMum</string>
     <string>LtnSmN</string>
+    <string>LtnSmNCurl</string>
+    <string>LtnSmNDesc</string>
+    <string>LtnSmNLngRtLeg</string>
+    <string>LtnSmNMiddleTilde</string>
+    <string>LtnSmNPalHook</string>
+    <string>LtnSmNRetrHook</string>
+    <string>LtnSmNum</string>
     <string>LtnSmP</string>
+    <string>LtnSmPHook.BowlHook</string>
+    <string>LtnSmPLowStrk</string>
+    <string>LtnSmPMiddleTilde</string>
+    <string>LtnSmPPalHook</string>
+    <string>LtnSmPStrk</string>
     <string>LtnSmR</string>
+    <string>LtnSmRBar</string>
+    <string>LtnSmRDiagStrk</string>
+    <string>LtnSmRFishhook</string>
+    <string>LtnSmRFishhookMiddleTilde</string>
+    <string>LtnSmRFishhookPalHook</string>
+    <string>LtnSmRHookTail</string>
+    <string>LtnSmRLngLeg</string>
+    <string>LtnSmRMiddleTilde</string>
+    <string>LtnSmRPalHook</string>
+    <string>LtnSmRRotunda</string>
+    <string>LtnSmRum</string>
+    <string>LtnSmRumRotunda</string>
+    <string>LtnSmTurnedA</string>
+    <string>LtnSmTurnedAlpha</string>
+    <string>LtnSmTurnedH</string>
+    <string>LtnSmTurnedM</string>
+    <string>LtnSmTurnedMLngLeg</string>
+    <string>LtnSmTurnedT</string>
     <string>LtnSmU</string>
+    <string>LtnSmUBar</string>
+    <string>LtnSmUHorn</string>
+    <string>LtnSmUOgonek</string>
+    <string>LtnSmUOgonek.RetroHook</string>
+    <string>LtnSmURetrHook</string>
+    <string>LtnSmUStrk</string>
+    <string>LtnSmUe</string>
+    <string>LtnSmUpsilon</string>
+    <string>LtnSmUpsilonStrk</string>
+    <string>LtnSmVHook</string>
+    <string>LtnSmYogh</string>
     <string>LtnSmZ</string>
+    <string>LtnSmZ.SItal</string>
+    <string>LtnSmZCurl</string>
+    <string>LtnSmZDesc</string>
+    <string>LtnSmZHook</string>
+    <string>LtnSmZMiddleTilde</string>
+    <string>LtnSmZPalHook</string>
+    <string>LtnSmZRetrHook</string>
+    <string>LtnSmZStrk</string>
+    <string>LtnSmZSwashTail</string>
+    <string>LtnWynn</string>
+    <string>SmRomNumOneThousand</string>
   </array>
 </dict>
 </plist>
