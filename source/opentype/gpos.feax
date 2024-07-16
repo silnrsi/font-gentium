@@ -65,6 +65,15 @@ lookup kernpairs {
 } kernpairs;
 }
 
+# Gentium contextual kerning mainly for base+base+mark
+# Currently only for testing
+do let f = info("familyName");
+   if f.find("Gentium") != -1; {
+lookup kern_ctx {
+    pos @LCapTopT' 90 @RSmCurve CombDiaer
+} kern_ctx;
+}
+
 # lookup tns_pos { # not needed by tone glyphs currently being used
 #   lookupflag IgnoreMarks;
 #     pos cursive @TL_ @TL;
@@ -75,5 +84,6 @@ do let f = info("familyName");
 feature kern {
   # lookup tns_pos;
   lookup kernpairs;
+  lookup kern_ctx;
 } kern;
 }
