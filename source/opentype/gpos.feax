@@ -70,8 +70,7 @@ lookup kernpairs {
 do let f = info("familyName");
    if f.find("Gentium") != -1; {
 lookup kern_ctx {
-    pos LtnCapT' 90 LtnSmAODigraph CombDiaer;
-    #pos @LCapTopT' 90 @RSmCurve CombDiaer;
+    pos @LCapTopT' 90 @RSmCurve CombDiaer;
 } kern_ctx;
 }
 
