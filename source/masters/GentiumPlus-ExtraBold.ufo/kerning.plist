@@ -1001,6 +1001,15 @@
     <key>public.kern2.RSmRound</key>
     <integer>-40</integer>
   </dict>
+  <key>public.kern1.LSmOHorn</key>
+  <dict>
+    <key>public.kern2.RSmAsc</key>
+    <integer>-40</integer>
+    <key>public.kern2.RSmCurve</key>
+    <integer>-130</integer>
+    <key>public.kern2.RSmRound</key>
+    <integer>-130</integer>
+  </dict>
   <key>public.kern1.LSmRound</key>
   <dict>
     <key>public.kern2.RModApos</key>
@@ -1063,15 +1072,6 @@
     <integer>-205</integer>
     <key>public.kern2.RSmSerif</key>
     <integer>-205</integer>
-  </dict>
-  <key>public.kern1.LtnSmOHorn</key>
-  <dict>
-    <key>public.kern2.RSmAsc</key>
-    <integer>-40</integer>
-    <key>public.kern2.RSmCurve</key>
-    <integer>-130</integer>
-    <key>public.kern2.RSmRound</key>
-    <integer>-130</integer>
   </dict>
 </dict>
 </plist>
