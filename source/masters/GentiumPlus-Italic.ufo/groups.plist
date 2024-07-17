@@ -1234,8 +1234,6 @@
     <string>LtnSmHHook</string>
     <string>LtnSmHPalHook</string>
     <string>LtnSmHStrk</string>
-    <string>LtnSmHeng</string>
-    <string>LtnSmHengHook</string>
     <string>LtnSmHv</string>
     <string>LtnSmK</string>
     <string>LtnSmKDesc</string>
@@ -1258,26 +1256,31 @@
     <string>LtnSmLLDigraph</string>
     <string>LtnSmLMiddleDot</string>
     <string>LtnSmLMiddleTilde</string>
-    <string>LtnSmLPalHook</string>
-    <string>LtnSmLRetrHook</string>
-    <string>LtnSmLRetrHookBelt</string>
     <string>LtnSmLSDigraph</string>
     <string>LtnSmLStrk</string>
     <string>LtnSmLZDigraph</string>
-    <string>LtnSmLezh</string>
-    <string>LtnSmLezhRetrHook</string>
     <string>LtnSmLngS</string>
     <string>LtnSmLngSDiagStrk</string>
     <string>LtnSmLngSHighStrk</string>
     <string>LtnSmLum</string>
     <string>LtnSmPHighCurl</string>
+    <string>LtnSmTrndI</string>
+    <string>SmRomNumFifty</string>
+  </array>
+  <key>public.kern2.RSmAscDesc</key>
+  <array>
+    <string>LtnSmHeng</string>
+    <string>LtnSmHengHook</string>
+    <string>LtnSmLPalHook</string>
+    <string>LtnSmLRetrHook</string>
+    <string>LtnSmLRetrHookBelt</string>
+    <string>LtnSmLezh</string>
+    <string>LtnSmLezhRetrHook</string>
     <string>LtnSmPHook</string>
     <string>LtnSmThorn</string>
     <string>LtnSmThornHighStrk</string>
     <string>LtnSmThornLowStrk</string>
-    <string>LtnSmTrndI</string>
     <string>LtnSmVisigothicZ</string>
-    <string>SmRomNumFifty</string>
   </array>
   <key>public.kern2.RSmBar</key>
   <array>
@@ -1287,13 +1290,10 @@
     <string>LtnLigSmFSmFSmL.SItal</string>
     <string>LtnLigSmFSmI.SItal</string>
     <string>LtnLigSmFSmL.SItal</string>
-    <string>LtnSmDotlessJStrkHook</string>
     <string>LtnSmF</string>
     <string>LtnSmF.SItal</string>
-    <string>LtnSmFPalHook</string>
     <string>LtnSmFengDigraph</string>
     <string>LtnSmFengDigraphTrill</string>
-    <string>LtnSmIs</string>
     <string>LtnSmLigFf</string>
     <string>LtnSmLigFfi</string>
     <string>LtnSmLigFfl</string>
@@ -1301,16 +1301,22 @@
     <string>LtnSmTCaron</string>
     <string>LtnSmTHStrk</string>
     <string>LtnSmTHook</string>
-    <string>LtnSmTHookRetrHook</string>
-    <string>LtnSmTPalHook</string>
-    <string>LtnSmTRetrHook</string>
     <string>LtnSmTcDigraphCurl</string>
-    <string>LtnSmTeshDigraph</string>
-    <string>LtnSmTeshPalHook</string>
-    <string>LtnSmTeshRetrHook</string>
     <string>LtnSmTsDigraph</string>
     <string>LtnSmTsHook</string>
     <string>LtnSmTum</string>
+  </array>
+  <key>public.kern2.RSmBarDesc</key>
+  <array>
+    <string>LtnSmDotlessJStrkHook</string>
+    <string>LtnSmFPalHook</string>
+    <string>LtnSmIs</string>
+    <string>LtnSmTHookRetrHook</string>
+    <string>LtnSmTPalHook</string>
+    <string>LtnSmTRetrHook</string>
+    <string>LtnSmTeshDigraph</string>
+    <string>LtnSmTeshPalHook</string>
+    <string>LtnSmTeshRetrHook</string>
     <string>LtnSmTzDigraph</string>
   </array>
   <key>public.kern2.RSmCurve</key>
@@ -1324,16 +1330,11 @@
     <string>LtnSmAUDigraph</string>
     <string>LtnSmAVDigraph</string>
     <string>LtnSmAVDigraphStrk</string>
-    <string>LtnSmAYDigraph</string>
     <string>LtnSmAe</string>
     <string>LtnSmCapOpnO</string>
     <string>LtnSmCapOpnO.TopSerif</string>
     <string>LtnSmCapS</string>
     <string>LtnSmClosedOpnE</string>
-    <string>LtnSmG</string>
-    <string>LtnSmG.BarBowl</string>
-    <string>LtnSmGDiagStrk</string>
-    <string>LtnSmGStrk</string>
     <string>LtnSmOpnE</string>
     <string>LtnSmOpnERetrHook</string>
     <string>LtnSmOpnO</string>
@@ -1343,12 +1344,20 @@
     <string>LtnSmS</string>
     <string>LtnSmSCurl</string>
     <string>LtnSmSDiagStrk</string>
-    <string>LtnSmSHook</string>
     <string>LtnSmSMiddleTilde</string>
-    <string>LtnSmSPalHook</string>
     <string>LtnSmSShortStrk</string>
     <string>LtnSmSSwashTail</string>
     <string>LtnSmTnTwo</string>
+  </array>
+  <key>public.kern2.RSmCurveDesc</key>
+  <array>
+    <string>LtnSmAYDigraph</string>
+    <string>LtnSmG</string>
+    <string>LtnSmG.BarBowl</string>
+    <string>LtnSmGDiagStrk</string>
+    <string>LtnSmGStrk</string>
+    <string>LtnSmSHook</string>
+    <string>LtnSmSPalHook</string>
     <string>LtnSmTresillo</string>
   </array>
   <key>public.kern2.RSmDescJ</key>
@@ -1392,7 +1401,6 @@
     <string>LtnSmCapW</string>
     <string>LtnSmCapY</string>
     <string>LtnSmDMidLftHook</string>
-    <string>LtnSmGamma</string>
     <string>LtnSmLMidLftHook</string>
     <string>LtnSmNMidLftHook</string>
     <string>LtnSmRMidLftHook</string>
@@ -1411,15 +1419,8 @@
     <string>LtnSmVHook.StraightLftHighHook</string>
     <string>LtnSmVPalHook</string>
     <string>LtnSmVRtHook</string>
-    <string>LtnSmVYDigraph</string>
     <string>LtnSmW</string>
     <string>LtnSmWHook</string>
-    <string>LtnSmY</string>
-    <string>LtnSmYHook.RtHook</string>
-    <string>LtnSmYLoop</string>
-    <string>LtnSmYOgonek</string>
-    <string>LtnSmYOgonek.RetroHook</string>
-    <string>LtnSmYStrk</string>
     <string>SmRomNumEight</string>
     <string>SmRomNumFive</string>
     <string>SmRomNumSeven</string>
@@ -1436,6 +1437,17 @@
     <string>SmRomNumEleven</string>
     <string>SmRomNumTen</string>
     <string>SmRomNumTwelve</string>
+  </array>
+  <key>public.kern2.RSmDiagY</key>
+  <array>
+    <string>LtnSmGamma</string>
+    <string>LtnSmVYDigraph</string>
+    <string>LtnSmY</string>
+    <string>LtnSmYHook.RtHook</string>
+    <string>LtnSmYLoop</string>
+    <string>LtnSmYOgonek</string>
+    <string>LtnSmYOgonek.RetroHook</string>
+    <string>LtnSmYStrk</string>
   </array>
   <key>public.kern2.RSmRound</key>
   <array>
@@ -1477,12 +1489,8 @@
     <string>LtnSmDzRetrHook</string>
     <string>LtnSmE</string>
     <string>LtnSmENotch</string>
-    <string>LtnSmEOgonek</string>
     <string>LtnSmERetrHook</string>
     <string>LtnSmEth</string>
-    <string>LtnSmG.SngBowl</string>
-    <string>LtnSmGHook</string>
-    <string>LtnSmGStrk.SngBowl</string>
     <string>LtnSmGlottalStop</string>
     <string>LtnSmInvAlpha</string>
     <string>LtnSmLigOe</string>
@@ -1491,9 +1499,6 @@
     <string>LtnSmOHorn</string>
     <string>LtnSmOLngStrk</string>
     <string>LtnSmOODigraph</string>
-    <string>LtnSmOOgonek</string>
-    <string>LtnSmOOgonek.RetroHook</string>
-    <string>LtnSmORetrHook</string>
     <string>LtnSmORingInside</string>
     <string>LtnSmOi</string>
     <string>LtnSmOmega</string>
@@ -1507,16 +1512,26 @@
     <string>LtnSmRevE</string>
     <string>LtnSmSchwa</string>
     <string>LtnSmSchwaRetrHook</string>
-    <string>LtnSmScriptGPalHook</string>
     <string>LtnSmSdwysO</string>
     <string>LtnSmSdwysOStrk</string>
     <string>LtnSmTrndAe</string>
-    <string>LtnSmTrndDelta</string>
     <string>LtnSmTrndOe</string>
     <string>LtnSmTurnedE</string>
     <string>LtnVcdLrynglSpirant</string>
     <string>SmRomNumFiveHundred</string>
     <string>SmRomNumOneHundred</string>
+  </array>
+  <key>public.kern2.RSmRoundDesc</key>
+  <array>
+    <string>LtnSmEOgonek</string>
+    <string>LtnSmG.SngBowl</string>
+    <string>LtnSmGHook</string>
+    <string>LtnSmGStrk.SngBowl</string>
+    <string>LtnSmOOgonek</string>
+    <string>LtnSmOOgonek.RetroHook</string>
+    <string>LtnSmORetrHook</string>
+    <string>LtnSmScriptGPalHook</string>
+    <string>LtnSmTrndDelta</string>
   </array>
   <key>public.kern2.RSmSerif</key>
   <array>
@@ -1529,19 +1544,7 @@
     <string>LtnSmCapU</string>
     <string>LtnSmCapUBar</string>
     <string>LtnSmCapZ</string>
-    <string>LtnSmEng</string>
-    <string>LtnSmEngPalHook</string>
     <string>LtnSmEt</string>
-    <string>LtnSmEzh</string>
-    <string>LtnSmEzhCurl</string>
-    <string>LtnSmEzhCurl.LrgBowl</string>
-    <string>LtnSmEzhHook</string>
-    <string>LtnSmEzhPalHook</string>
-    <string>LtnSmEzhRev</string>
-    <string>LtnSmEzhTail</string>
-    <string>LtnSmInsularF</string>
-    <string>LtnSmInsularR</string>
-    <string>LtnSmInsularS</string>
     <string>LtnSmInsularT</string>
     <string>LtnSmM</string>
     <string>LtnSmMHook</string>
@@ -1556,22 +1559,12 @@
     <string>LtnSmNPalHook</string>
     <string>LtnSmNRetrHook</string>
     <string>LtnSmNum</string>
-    <string>LtnSmP</string>
-    <string>LtnSmPHook.BowlHook</string>
-    <string>LtnSmPLowStrk</string>
-    <string>LtnSmPMiddleTilde</string>
-    <string>LtnSmPPalHook</string>
-    <string>LtnSmPStrk</string>
     <string>LtnSmR</string>
     <string>LtnSmRBar</string>
     <string>LtnSmRDiagStrk</string>
     <string>LtnSmRFishhook</string>
     <string>LtnSmRFishhookMiddleTilde</string>
-    <string>LtnSmRFishhookPalHook</string>
-    <string>LtnSmRHookTail</string>
-    <string>LtnSmRLngLeg</string>
     <string>LtnSmRMiddleTilde</string>
-    <string>LtnSmRPalHook</string>
     <string>LtnSmRRotunda</string>
     <string>LtnSmRum</string>
     <string>LtnSmRumRotunda</string>
@@ -1592,7 +1585,6 @@
     <string>LtnSmUpsilon</string>
     <string>LtnSmUpsilonStrk</string>
     <string>LtnSmVHook</string>
-    <string>LtnSmYogh</string>
     <string>LtnSmZ</string>
     <string>LtnSmZ.SItal</string>
     <string>LtnSmZCurl</string>
@@ -1603,8 +1595,34 @@
     <string>LtnSmZRetrHook</string>
     <string>LtnSmZStrk</string>
     <string>LtnSmZSwashTail</string>
-    <string>LtnWynn</string>
     <string>SmRomNumOneThousand</string>
+  </array>
+  <key>public.kern2.RSmSerifDesc</key>
+  <array>
+    <string>LtnSmEng</string>
+    <string>LtnSmEngPalHook</string>
+    <string>LtnSmEzh</string>
+    <string>LtnSmEzhCurl</string>
+    <string>LtnSmEzhCurl.LrgBowl</string>
+    <string>LtnSmEzhHook</string>
+    <string>LtnSmEzhPalHook</string>
+    <string>LtnSmEzhRev</string>
+    <string>LtnSmEzhTail</string>
+    <string>LtnSmInsularF</string>
+    <string>LtnSmInsularR</string>
+    <string>LtnSmInsularS</string>
+    <string>LtnSmP</string>
+    <string>LtnSmPHook.BowlHook</string>
+    <string>LtnSmPLowStrk</string>
+    <string>LtnSmPMiddleTilde</string>
+    <string>LtnSmPPalHook</string>
+    <string>LtnSmPStrk</string>
+    <string>LtnSmRFishhookPalHook</string>
+    <string>LtnSmRHookTail</string>
+    <string>LtnSmRLngLeg</string>
+    <string>LtnSmRPalHook</string>
+    <string>LtnSmYogh</string>
+    <string>LtnWynn</string>
   </array>
 </dict>
 </plist>
