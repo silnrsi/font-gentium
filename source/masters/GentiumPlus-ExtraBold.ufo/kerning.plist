@@ -1080,8 +1080,20 @@
   <dict>
     <key>public.kern2.RBracket</key>
     <integer>380</integer>
+    <key>public.kern2.RSmAscDesc</key>
+    <integer>310</integer>
+    <key>public.kern2.RSmBarDesc</key>
+    <integer>320</integer>
+    <key>public.kern2.RSmCurveDesc</key>
+    <integer>430</integer>
     <key>public.kern2.RSmDescJ</key>
-    <integer>640</integer>
+    <integer>680</integer>
+    <key>public.kern2.RSmDiagY</key>
+    <integer>420</integer>
+    <key>public.kern2.RSmRoundDesc</key>
+    <integer>280</integer>
+    <key>public.kern2.RSmSerifDesc</key>
+    <integer>300</integer>
   </dict>
   <key>public.kern1.LSmDiagTrndV</key>
   <dict>

@@ -1079,9 +1079,21 @@
   <key>public.kern1.LSmDescHook</key>
   <dict>
     <key>public.kern2.RBracket</key>
-    <integer>280</integer>
+    <integer>400</integer>
+    <key>public.kern2.RSmAscDesc</key>
+    <integer>270</integer>
+    <key>public.kern2.RSmBarDesc</key>
+    <integer>340</integer>
+    <key>public.kern2.RSmCurveDesc</key>
+    <integer>270</integer>
     <key>public.kern2.RSmDescJ</key>
     <integer>660</integer>
+    <key>public.kern2.RSmDiagY</key>
+    <integer>330</integer>
+    <key>public.kern2.RSmRoundDesc</key>
+    <integer>280</integer>
+    <key>public.kern2.RSmSerifDesc</key>
+    <integer>310</integer>
   </dict>
   <key>public.kern1.LSmDiagTrndV</key>
   <dict>
@@ -1192,13 +1204,13 @@
   <dict>
     <key>public.kern2.RSmAsc</key>
     <integer>-50</integer>
+    <key>public.kern2.RSmAscDesc</key>
+    <integer>-50</integer>
     <key>public.kern2.RSmCurve</key>
     <integer>-120</integer>
     <key>public.kern2.RSmCurveDesc</key>
     <integer>-120</integer>
     <key>public.kern2.RSmRound</key>
-    <integer>-120</integer>
-    <key>public.kern2.RSmRoundDesc</key>
     <integer>-120</integer>
     <key>public.kern2.RSmRoundDesc</key>
     <integer>-120</integer>
