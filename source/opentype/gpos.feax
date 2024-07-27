@@ -77,7 +77,7 @@ ifinfo(familyName, "Gentium") {
 #   return l
 # } kpairs;
 
-# undo kerning for pairs in UFO. usually to apply contextual kerning later
+# undo kerning for pairs in UFO followed by an upper mark. usually to apply contextual kerning later
 include(../../source/opentype/kernpairs_undo.feax);
 # example of content from kernpairs_undo.feax for refernce 
 # def unkpairs() {
@@ -104,7 +104,7 @@ do
   let n = -n;
   if k1 == g1 and k2 == g2; # no way to terminate inner loop
   {
-    pos $g1 $n $g2;
+    pos $g1' $n $g2 @_U;
   }
   } kernpairs_undo;
 
