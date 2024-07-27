@@ -68,31 +68,31 @@ feature mkmk {
 
 # Gentium
 
-# do let f = info("familyName");
-#    if f.find("Gentium") != -1; {
-
 ifinfo(familyName, "Gentium") {
 
-# TODO: remove later, just for providing debug data during devlopment
-def kpairs() {
-  # l = [('@public.kern1.LCapTopT', '@public.kern2.RSmCurve', '-90')]
-  l = kerninfo(0) # one arg required (not used so can be anything)
-  return l
-} kpairs;
+# for debugging
+# def kpairs() {
+#   # l = [('@public.kern1.LCapTopT', '@public.kern2.RSmCurve', '-90')]
+#   l = kerninfo(0) # one arg required (not used so can be anything)
+#   return l
+# } kpairs;
 
-# TODO: include this data from an external file where it's easier to maintain
-def unkpairs() {
-  l = [
-    ('@public.kern1.LCapTopT', '@public.kern2.RSmCurve')
-  ]
-  return l
-} unkpairs;
+# undo kerning for pairs in UFO. usually to apply contextual kerning later
+include(../../source/opentype/kernpairs_undo.feax);
+# example of content from kernpairs_undo.feax for refernce 
+# def unkpairs() {
+#   l = [
+#     ('@public.kern1.LCapTopT', '@public.kern2.RSmCurve')
+#   ]
+#   return l
+# } unkpairs;
 
 lookup kernpairs {
   lookupflag IgnoreMarks;
     kernpairs;
 } kernpairs;
 
+lookup kernpairs_undo {
 do
   let u = unkpairs();
   # let k = kpairs(); # for debugging
@@ -104,21 +104,20 @@ do
   let n = -n;
   if k1 == g1 and k2 == g2; # no way to terminate inner loop
   {
-  lookup kernpairs_undo_ctx {
-    pos $g1' $n $g2;
-  } kernpairs_undo_ctx;
+    pos $g1 $n $g2;
   }
+  } kernpairs_undo;
 
-# TODO: include this data from an external file where it's easier to maintain
 # contextual kerning mainly for base+base+mark
-# Currently only for testing
-lookup kern_ctx {
-    pos @public.kern1.LCapTopT' 45 @public.kern2.RSmCurve CombDiaer;
-} kern_ctx;
+include(../../source/opentype/kern_ctx.feax);
+# example of content from kernpairs_undo.feax for refernce 
+# lookup kern_ctx {
+#     pos @public.kern1.LCapTopT' 45 @public.kern2.RSmCurve CombDiaer;
+# } kern_ctx;
 
 feature kern {
   lookup kernpairs;
-  lookup kernpairs_undo_ctx;
+  lookup kernpairs_undo;
   lookup kern_ctx;
 } kern;
 
