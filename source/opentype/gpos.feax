@@ -79,7 +79,7 @@ ifinfo(familyName, "Gentium") {
 
 # undo kerning for pairs in UFO followed by an upper mark. usually to apply contextual kerning later
 include(../../source/opentype/kernpairs_undo.feax);
-# example of content from kernpairs_undo.feax for refernce 
+# example of content from kernpairs_undo.feax for reference
 # def unkpairs() {
 #   l = [
 #     ('@public.kern1.LCapTopT', '@public.kern2.RSmCurve')
@@ -110,7 +110,7 @@ do
 
 # contextual kerning mainly for base+base+mark
 include(../../source/opentype/kern_ctx.feax);
-# example of content from kernpairs_undo.feax for refernce 
+# example of content from kern_ctx.feax for reference
 # lookup kern_ctx {
 #     pos @public.kern1.LCapTopT' 45 @public.kern2.RSmCurve CombDiaer;
 # } kern_ctx;

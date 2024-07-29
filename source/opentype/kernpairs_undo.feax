@@ -1,9 +1,9 @@
 def unkpairs() {
   l = [
-    ('@public.kern1.LCapTopT', '@public.kern2.RSmCurve'), 
-    ('GrBetaSym', 'GrSmGamma'), 
-    ('GrBetaSym', '@public.kern2.GrSmEta'), 
-    ('@public.kern1.GrCapAlpha', 'GrCapOmicron')
+    # ('@public.kern1.LCapTopT', '@public.kern2.RSmCurve'), 
+    # ('GrBetaSym', 'GrSmGamma'), 
+    # ('GrBetaSym', '@public.kern2.GrSmEta'), 
+    # ('@public.kern1.GrCapAlpha', 'GrCapOmicron')
   ]
   return l
 } unkpairs;

@@ -1,10 +1,10 @@
 lookup kern_ctx {
     # Regular 
     ifinfo(styleName, "(?<!Italic)$") {
-    pos @public.kern1.LCapTopT' 45 @public.kern2.RSmCurve CombDiaer;
+    # pos @public.kern1.LCapTopT' 45 @public.kern2.RSmCurve CombDiaer;
     }
     # Italic
     ifinfo(styleName, "(?<=Italic)$") {
-    pos @public.kern1.LCapTopT' 35 @public.kern2.RSmCurve CombDiaer;
+    # pos @public.kern1.LCapTopT' 35 @public.kern2.RSmCurve CombDiaer;
     }
 } kern_ctx;
