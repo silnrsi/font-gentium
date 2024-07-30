@@ -1146,20 +1146,20 @@
     <key>public.kern2.RSmRoundDesc</key>
     <integer>-20</integer>
   </dict>
-  <key>public.kern1.LSmOHorn</key>
+  <key>public.kern1.LSmHorn</key>
   <dict>
     <key>public.kern2.RSmAsc</key>
-    <integer>-60</integer>
+    <integer>-50</integer>
     <key>public.kern2.RSmAscDesc</key>
-    <integer>-60</integer>
+    <integer>-50</integer>
     <key>public.kern2.RSmCurve</key>
-    <integer>-70</integer>
+    <integer>-80</integer>
     <key>public.kern2.RSmCurveDesc</key>
-    <integer>-70</integer>
+    <integer>-80</integer>
     <key>public.kern2.RSmRound</key>
-    <integer>-70</integer>
+    <integer>-80</integer>
     <key>public.kern2.RSmRoundDesc</key>
-    <integer>-70</integer>
+    <integer>-80</integer>
   </dict>
   <key>public.kern1.LSmRound</key>
   <dict>
@@ -1199,21 +1199,6 @@
     <integer>290</integer>
     <key>public.kern2.RQuote</key>
     <integer>240</integer>
-  </dict>
-  <key>public.kern1.LSmUHorn</key>
-  <dict>
-    <key>public.kern2.RSmAsc</key>
-    <integer>-50</integer>
-    <key>public.kern2.RSmAscDesc</key>
-    <integer>-50</integer>
-    <key>public.kern2.RSmCurve</key>
-    <integer>-80</integer>
-    <key>public.kern2.RSmCurveDesc</key>
-    <integer>-80</integer>
-    <key>public.kern2.RSmRound</key>
-    <integer>-80</integer>
-    <key>public.kern2.RSmRoundDesc</key>
-    <integer>-80</integer>
   </dict>
   <key>public.kern1.LSmVCaronD</key>
   <dict>

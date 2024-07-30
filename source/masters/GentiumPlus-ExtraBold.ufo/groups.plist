@@ -709,9 +709,10 @@
     <string>SmRomNumNine</string>
     <string>SmRomNumTen</string>
   </array>
-  <key>public.kern1.LSmOHorn</key>
+  <key>public.kern1.LSmHorn</key>
   <array>
     <string>LtnSmOHorn</string>
+    <string>LtnSmUHorn</string>
   </array>
   <key>public.kern1.LSmRound</key>
   <array>
@@ -848,10 +849,6 @@
     <string>LtnSmQHook</string>
     <string>LtnSmTeshDigraph</string>
     <string>LtnSmTeshRetrHook</string>
-  </array>
-  <key>public.kern1.LSmUHorn</key>
-  <array>
-    <string>LtnSmUHorn</string>
   </array>
   <key>public.kern1.LSmVCaronD</key>
   <array>
