@@ -59,7 +59,7 @@ def unkpairs() {
     ('@public.kern1.LCapTopT', '@public.kern2.RSmDiagTrndV'),
     ('@public.kern1.LCapDiagW', '@public.kern2.RSmDiagTrndV'),
     ('@public.kern1.LCapDiagV', '@public.kern2.RSmDiagTrndV'),
-    ('@public.kern1.LQuote', '@public.kern2.RSmDiagTrndV'),
+    ('@public.kern1.LQuote', '@public.kern2.RSmDiagTrndV')
     ]
   return l
 } unkpairs;
