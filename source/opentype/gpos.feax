@@ -101,7 +101,7 @@ do
   let k1, k2 = p;
   forlet q = k;
   let g1, g2, n = q;
-  let n = -n;
+  let n = -int(n); # should probably use round() but not supported in feax
   if k1 == g1 and k2 == g2; # no way to terminate inner loop
   {
     pos $g1' $n $g2 @_U;
