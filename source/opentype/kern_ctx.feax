@@ -1,10 +1,32 @@
 lookup kern_ctx {
     # Regular 
     ifinfo(styleName, "(?<!Italic)$") {
-    # pos @public.kern1.LCapTopT' 45 @public.kern2.RSmCurve CombDiaer;
+    pos @public.kern1.LCapDiagV' -70 @public.kern2.RSmCurve @_U;
+    pos @public.kern1.LCapDiagV' -70 @public.kern2.RSmCurveDesc @_U;
+    pos @public.kern1.LCapDiagV' -90 @public.kern2.RSmRound @_U;
+    pos @public.kern1.LCapDiagV' -90 @public.kern2.RSmRoundDesc @_U;
+    pos @public.kern1.LCapDiagW' -50 @public.kern2.RSmCurve @_U;
+    pos @public.kern1.LCapDiagW' -50 @public.kern2.RSmCurveDesc @_U;
+    pos @public.kern1.LCapTopT' -45 @public.kern2.RSmRound @_U;
+    pos @public.kern1.LCapTopT' -45 @public.kern2.RSmRoundDesc @_U;
+    pos @public.kern1.LModApos' -60 @public.kern2.RSmCurve @_U;
+    pos @public.kern1.LModApos' -60 @public.kern2.RSmCurveDesc @_U;
+    pos @public.kern1.LModApos' -70 @public.kern2.RSmRound @_U;
+    pos @public.kern1.LModApos' -70 @public.kern2.RSmRoundDesc @_U;
     }
     # Italic
     ifinfo(styleName, "(?<=Italic)$") {
-    # pos @public.kern1.LCapTopT' 35 @public.kern2.RSmCurve CombDiaer;
+    pos @public.kern1.LCapDiagV' -80 @public.kern2.RSmCurve @_U;
+    pos @public.kern1.LCapDiagV' -80 @public.kern2.RSmCurveDesc @_U;
+    pos @public.kern1.LCapDiagV' -80 @public.kern2.RSmRound @_U;
+    pos @public.kern1.LCapDiagV' -80 @public.kern2.RSmRoundDesc @_U;
+    pos @public.kern1.LCapDiagW' -45 @public.kern2.RSmCurve @_U;
+    pos @public.kern1.LCapDiagW' -45 @public.kern2.RSmCurveDesc @_U;
+    pos @public.kern1.LCapTopT' -70 @public.kern2.RSmRound @_U;
+    pos @public.kern1.LCapTopT' -70 @public.kern2.RSmRoundDesc @_U;
+    pos @public.kern1.LModApos' -35 @public.kern2.RSmCurve @_U;
+    pos @public.kern1.LModApos' -35 @public.kern2.RSmCurveDesc @_U;
+    pos @public.kern1.LModApos' -45 @public.kern2.RSmRound @_U;
+    pos @public.kern1.LModApos' -45 @public.kern2.RSmRoundDesc @_U;
     }
 } kern_ctx;
