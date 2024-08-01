@@ -93,6 +93,7 @@ lookup kernpairs {
 } kernpairs;
 
 lookup kernpairs_undo {
+  lookupflag 0;
 do
   let u = unkpairs();
   # let k = kpairs(); # for debugging
