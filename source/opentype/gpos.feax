@@ -68,7 +68,7 @@ feature mkmk {
 
 # Gentium
 
-ifinfo(familyName, "Gentium") {
+ifinfo(familyName, "Andika|Charis|Gentium") {
 
 # for debugging
 # def kpairs() {
