@@ -92,12 +92,8 @@ lookup y_ognk_sub {
     sub LtnSmY CombOgonek.RetroHook by LtnSmYOgonek.RetroHook;
 } y_ognk_sub;
 
+# Handle bridging diacritics
 @c_cgj = [CombGraphemeJoiner];
-
-# @cno_mid and @cno_low should the same and like
-# [CombDblInvBreve CombDblBreve CombDblCircum CombDblTilde CombDblMacron CombDblDiaer]
-# @cno_blwhigh should be like
-# [CombDblBreveBlw CombDblMacronBlw CombDblInvBreveBlw CombDblRtArrwBlw]
 
 lookup dbl_diac_mid {
   lookupflag 0;
@@ -112,16 +108,46 @@ lookup dbl_diac_low {
 # Do not change bridging diac height if a diac is placed over (or under) a base glyph
 lookup dbl_diac_abv_lower { #lower dbl diac over two lower glyphs
   lookupflag 0;
+    # The below ignores seqs with U diacs over the second base
+    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_U @_L @c_takes_mid_diac @_U;
+    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_L @_U @c_takes_mid_diac @_U;
+    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_U @c_takes_mid_diac @_U;
+    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_L @c_takes_mid_diac @_U;
+    ignore sub @c_takes_mid_diac @cno_mid' @c_takes_mid_diac @_U;
+    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_U @_L @c_takes_low_diac @_U;
+    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_L @_U @c_takes_low_diac @_U;
+    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_U @c_takes_low_diac @_U;
+    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_L @c_takes_low_diac @_U;
+    ignore sub @c_takes_mid_diac @cno_mid' @c_takes_low_diac @_U;
+    ignore sub @c_takes_low_diac @cno_mid' @c_cgj @_U @_L @c_takes_mid_diac @_U;
+    ignore sub @c_takes_low_diac @cno_mid' @c_cgj @_L @_U @c_takes_mid_diac @_U;
+    ignore sub @c_takes_low_diac @cno_mid' @c_cgj @_U @c_takes_mid_diac @_U;
+    ignore sub @c_takes_low_diac @cno_mid' @c_cgj @_L @c_takes_mid_diac @_U;
+    ignore sub @c_takes_low_diac @cno_mid' @c_takes_mid_diac @_U;
+    ignore sub @c_takes_low_diac @cno_low' @c_cgj @_U @_L @c_takes_low_diac @_U;
+    ignore sub @c_takes_low_diac @cno_low' @c_cgj @_L @_U @c_takes_low_diac @_U;
+    ignore sub @c_takes_low_diac @cno_low' @c_cgj @_U @c_takes_low_diac @_U;
+    ignore sub @c_takes_low_diac @cno_low' @c_cgj @_L @c_takes_low_diac @_U;
+    ignore sub @c_takes_low_diac @cno_low' @c_takes_low_diac @_U;
+    # The below ignores seqs with U diacs over the first base intrinsically 
+    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_U @_L @c_takes_mid_diac;
+    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_L @_U @c_takes_mid_diac;
     sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_U @c_takes_mid_diac;
     sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_L @c_takes_mid_diac;
     sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_takes_mid_diac;
+    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_U @_L @c_takes_low_diac;
+    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_L @_U @c_takes_low_diac;
     sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_U @c_takes_low_diac;
     sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_L @c_takes_low_diac;
     sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_takes_low_diac;
+    sub @c_takes_low_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_U @_L @c_takes_mid_diac;
+    sub @c_takes_low_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_L @_U @c_takes_mid_diac;
     sub @c_takes_low_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_U @c_takes_mid_diac;
     sub @c_takes_low_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_L @c_takes_mid_diac;
     sub @c_takes_low_diac @cno_mid' lookup dbl_diac_mid @c_takes_mid_diac;
-    sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_cgj @_U  @c_takes_low_diac;
+    sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_cgj @_U @_L @c_takes_low_diac;
+    sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_cgj @_L @_U @c_takes_low_diac;
+    sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_cgj @_U @c_takes_low_diac;
     sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_cgj @_L @c_takes_low_diac;
     sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_takes_low_diac;
 } dbl_diac_abv_lower;
@@ -133,10 +159,60 @@ lookup dbl_diac_blwhigh {
 
 lookup dbl_diac_blw_raise { #raise dbl diac under two glyphs without descenders
   lookupflag 0;
+    # The below ignores seqs with L diacs over the second base
+    ignore sub @c_takes_belowhigh_diac @cno_blwhigh' @c_cgj @_U @_L @c_takes_belowhigh_diac @_L;
+    ignore sub @c_takes_belowhigh_diac @cno_blwhigh' @c_cgj @_L @_U @c_takes_belowhigh_diac @_L;
+    ignore sub @c_takes_belowhigh_diac @cno_blwhigh' @c_cgj @_L @_U @c_takes_belowhigh_diac @_L;
+    ignore sub @c_takes_belowhigh_diac @cno_blwhigh' @c_cgj @_U @c_takes_belowhigh_diac @_L;
+    ignore sub @c_takes_belowhigh_diac @cno_blwhigh' @c_cgj @_L @c_takes_belowhigh_diac @_L;
+    ignore sub @c_takes_belowhigh_diac @cno_blwhigh' @c_takes_belowhigh_diac @_L;
+    # The below ignores seqs with L diacs over the first base intrinsically 
+    sub @c_takes_belowhigh_diac @cno_blwhigh' lookup dbl_diac_blwhigh @c_cgj @_U @_L @c_takes_belowhigh_diac;
+    sub @c_takes_belowhigh_diac @cno_blwhigh' lookup dbl_diac_blwhigh @c_cgj @_L @_U @c_takes_belowhigh_diac;
     sub @c_takes_belowhigh_diac @cno_blwhigh' lookup dbl_diac_blwhigh @c_cgj @_U @c_takes_belowhigh_diac;
     sub @c_takes_belowhigh_diac @cno_blwhigh' lookup dbl_diac_blwhigh @c_cgj @_L @c_takes_belowhigh_diac;
     sub @c_takes_belowhigh_diac @cno_blwhigh' lookup dbl_diac_blwhigh @c_takes_belowhigh_diac;
 } dbl_diac_blw_raise;
+
+lookup dbl_diac_lhigh {
+  lookupflag 0;
+    sub @cno_lhigh by @c_lhigh;
+} dbl_diac_lhigh;
+
+lookup dbl_diac_abv_raise_l { #raise l ap under two glyphs without descenders
+  lookupflag 0;
+    sub @c_takes_belowhigh_diac @cno_lhigh' lookup dbl_diac_lhigh @c_cgj @_L @_U @c_takes_belowhigh_diac;
+    sub @c_takes_belowhigh_diac @cno_lhigh' lookup dbl_diac_lhigh @c_cgj @_U @_L @c_takes_belowhigh_diac;
+    sub @c_takes_belowhigh_diac @cno_lhigh' lookup dbl_diac_lhigh @c_cgj @_L @c_takes_belowhigh_diac;
+} dbl_diac_abv_raise_l;
+
+lookup dbl_diac_umid {
+  lookupflag 0;
+    sub @cno_umid by @c_umid;
+} dbl_diac_umid;
+
+lookup dbl_diac_ulow {
+  lookupflag 0;
+    sub @cno_ulow by @c_ulow;
+} dbl_diac_ulow;
+
+lookup dbl_diac_blw_lower_u { #lower u ap over two lower glyphs
+  lookupflag 0;
+    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @_L @c_takes_mid_diac;
+    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_L @_U @c_takes_mid_diac;
+    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @c_takes_mid_diac;
+    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @_L @c_takes_low_diac;
+    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_L @_U @c_takes_low_diac;
+    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @c_takes_low_diac;
+    sub @c_takes_low_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @_L @c_takes_mid_diac;
+    sub @c_takes_low_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_L @_U @c_takes_mid_diac;
+    sub @c_takes_low_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @c_takes_mid_diac;
+    sub @c_takes_low_diac @cno_ulow' lookup dbl_diac_ulow @c_cgj @_U @_L @c_takes_low_diac;
+    sub @c_takes_low_diac @cno_ulow' lookup dbl_diac_ulow @c_cgj @_L @_U @c_takes_low_diac;
+    sub @c_takes_low_diac @cno_ulow' lookup dbl_diac_ulow @c_cgj @_U @c_takes_low_diac;
+} dbl_diac_blw_lower_u;
+
+# End of bridging diacritics
 
 lookup sc1_sub {
   lookupflag 0;
@@ -509,6 +585,7 @@ lookup ezh_sub {
 lookup rams_sub {
   lookupflag 0;
     sub LtnSmRamsHorn from [LtnSmRamsHorn.LrgBowl LtnSmRamsHorn.GammaStyle ];
+    sub LtnSupSmRamsHorn from [LtnSupSmRamsHorn.LrgBowl LtnSupSmRamsHorn.GammaStyle ];
 } rams_sub;
 
 lookup hstrk_sub {
@@ -680,8 +757,10 @@ lookup apos_sub {
   lookupflag 0;
     sub LtnCapSaltillo from [LtnCapSaltillo.Lrg ];
     sub LtnSmSaltillo from [LtnSmSaltillo.Lrg ];
-    sub ModApos from [ModApos.Lrg ];
     sub LtnSmSaltillo.sc from [LtnSmSaltillo.Lrg.sc ];
+    sub ModApos from [ModApos.Lrg ];
+    sub CombTrndCommaAbv from [CombTrndCommaAbv.Lrg ];
+    sub CombRevCommaAbv from [CombRevCommaAbv.Lrg ];
 } apos_sub;
 
 lookup colon_sub {
@@ -939,6 +1018,8 @@ feature ccmp {
   lookup y_ognk_sub;
   lookup dbl_diac_abv_lower;
   lookup dbl_diac_blw_raise;
+  lookup dbl_diac_abv_raise_l;
+  lookup dbl_diac_blw_lower_u;
 do let f = info("familyName");
    if f.find("Gentium") != -1; {
   lookup lpdiac_ctx; #Gentium
