@@ -69,7 +69,7 @@ for dspace in ('Roman', 'Italic'):
                     mapfile = 'source/${DS:FILENAME_BASE}.map',
                     to_ufo = 'False' # copies to instance UFOs
                     ),
-                #typetuner = typetuner('source/typetuner/feat_all.xml'),
+                typetuner = typetuner('source/typetuner/feat_all.xml'),
                 woff = woff('web_book/${DS:FILENAME_BASE}.woff',
                     metadata=f'../source/gentiumbookplus-WOFF-metadata.xml',
                     dontship=True),
