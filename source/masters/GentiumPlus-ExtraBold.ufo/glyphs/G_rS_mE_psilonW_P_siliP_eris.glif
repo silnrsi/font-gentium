@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmEpsilonWPsiliPeris" format="2">
+  <advance width="920"/>
+  <anchor x="723" y="1360" name="_G"/>
+  <outline>
+    <component base="GrSmEpsilon"/>
+    <component base="GrPsiliPeris" xOffset="235"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

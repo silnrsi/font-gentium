@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapAlphaWMacronDial" format="2">
+  <advance width="1309"/>
+  <anchor x="230" y="1260" name="G"/>
+  <anchor x="605" y="-100" name="L"/>
+  <anchor x="620" y="2010" name="U"/>
+  <outline>
+    <component base="GrCapAlpha"/>
+    <component base="CombMacron.LP" xOffset="1178" yOffset="320"/>
+    <component base="CombDiaer.LP" xOffset="1168" yOffset="640"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

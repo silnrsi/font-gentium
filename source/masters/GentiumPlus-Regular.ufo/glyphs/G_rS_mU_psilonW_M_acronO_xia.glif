@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmUpsilonWMacronOxia" format="2">
+  <advance width="1040"/>
+  <anchor x="886" y="1680" name="_G"/>
+  <outline>
+    <component base="GrSmUpsilon"/>
+    <component base="CombMacron.Gr" xOffset="1080"/>
+    <component base="GrOxia" xOffset="425" yOffset="320"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

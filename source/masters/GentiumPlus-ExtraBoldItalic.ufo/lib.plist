@@ -730,8 +730,13 @@ uauduhunutuvuxu/ModApos u/RtSglQuotMrk
 /LtnCapYHook.RtHook a/LtnCapYHook.RtHook e/LtnCapYHook.RtHook/LtnSmOpnE/LtnCapYHook.RtHook/LtnSmVHook/LtnCapYHook.RtHook b/LtnCapYHook.RtHook f/LtnCapYHook.RtHook v/LtnCapYHook.RtHook/LtnSmTurnedV 
 H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</string>
     <string>/GrCapAlpha/GrCapAlphaWOxia/GrCapAlphaWVaria/GrCapAlphaWDasia/GrCapAlphaWDasiaOxia/GrCapAlphaWDasiaVaria/GrCapAlphaWPsili/GrCapAlphaWPsiliOxia/GrCapAlphaWPsiliVaria 
-/GrCapIota/GrCapIotaWOxia/GrCapIotaWVaria/GrCapIotaWDasia/GrCapIotaWDasiaVaria/GrCapIotaWDasiaVaria/GrCapIotaWPsili/GrCapIotaWPsiliOxia/GrCapIotaWPsiliVaria 
-/GrCapUpsilon/GrCapUpsilonWOxia/GrCapUpsilonWVaria/GrCapUpsilonWDasia/GrCapUpsilonWDasiaOxia/GrCapUpsilonWDasiaVaria</string>
+/GrCapIota/GrCapIotaWOxia/GrCapIotaWVaria/GrCapIotaWDasia/GrCapIotaWDasiaOxia/GrCapIotaWDasiaVaria/GrCapIotaWPsili/GrCapIotaWPsiliOxia/GrCapIotaWPsiliVaria 
+/GrCapUpsilon/GrCapUpsilonWOxia/GrCapUpsilonWVaria/GrCapUpsilonWDasia/GrCapUpsilonWDasiaOxia/GrCapUpsilonWDasiaVaria 
+/GrSmAlphaWDasiaOxia/GrSmAlphaWMacron/GrSmAlphaWMacronOxia/GrSmAlphaWMacronVaria/GrSmAlphaWMacronDasia/GrSmAlphaWMacronDasiaOxia/GrSmAlphaWMacronDasiaVaria/GrSmAlphaWMacronPsili/GrSmAlphaWMacronPsiliOxia/GrSmAlphaWMacronPsiliVaria/GrSmAlphaWMacronDial/GrCapAlphaWMacronOxia/GrCapAlphaWMacronVaria/GrCapAlphaWMacronDasia/GrCapAlphaWMacronDasiaOxia/GrCapAlphaWMacronDasiaVaria/GrCapAlphaWMacronPsili/GrCapAlphaWMacronPsiliOxia/GrCapAlphaWMacronPsiliVaria/GrCapAlphaWMacronDial 
+/GrSmEpsilonWDasia/GrSmEpsilonWPeris/GrSmEpsilonWPeris.Por/GrSmEpsilonWDasiaPeris/GrSmEpsilonWDasiaPeris.Por/GrSmEpsilonWPsiliPeris/GrSmEpsilonWPsiliPeris.Por 
+/GrSmIotaWDasiaOxia/GrSmIotaWMacron/GrSmIotaWMacronOxia/GrSmIotaWMacronVaria/GrSmIotaWMacronDasia/GrSmIotaWMacronDasiaOxia/GrSmIotaWMacronDasiaVaria/GrSmIotaWMacronPsili/GrSmIotaWMacronPsiliOxia/GrSmIotaWMacronPsiliVaria/GrSmIotaWMacronDial/GrCapIotaWMacronOxia/GrCapIotaWMacronVaria/GrCapIotaWMacronDasia/GrCapIotaWMacronDasiaOxia/GrCapIotaWMacronDasiaVaria/GrCapIotaWMacronPsili/GrCapIotaWMacronPsiliOxia/GrCapIotaWMacronPsiliVaria/GrCapIotaWMacronDial 
+/GrSmOmicronWDasia/GrSmOmicronWPeris/GrSmOmicronWPeris.Por/GrSmOmicronWDasiaPeris/GrSmOmicronWDasiaPeris.Por/GrSmOmicronWPsiliPeris/GrSmOmicronWPsiliPeris.Por 
+/GrSmUpsilonWDasiaOxia/GrSmUpsilonWMacron/GrSmUpsilonWMacronOxia/GrSmUpsilonWMacronVaria/GrSmUpsilonWMacronDasia/GrSmUpsilonWMacronDasiaOxia/GrSmUpsilonWMacronDasiaVaria/GrSmUpsilonWMacronPsili/GrSmUpsilonWMacronPsiliOxia/GrSmUpsilonWMacronPsiliVaria/GrSmUpsilonWMacronDial/GrCapUpsilonWMacronOxia/GrCapUpsilonWMacronVaria/GrCapUpsilonWMacronDasia/GrCapUpsilonWMacronDasiaOxia/GrCapUpsilonWMacronDasiaVaria/GrCapUpsilonWMacronDial/Space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -4134,6 +4139,15 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>GrSmAlphaWPsiliPerisYpo</string>
     <string>GrSmAlphaWPsiliPerisYpo.Por</string>
     <string>GrSmAlphaWPsiliYpo</string>
+    <string>GrSmAlphaWMacronOxia</string>
+    <string>GrSmAlphaWMacronVaria</string>
+    <string>GrSmAlphaWMacronDasia</string>
+    <string>GrSmAlphaWMacronDasiaOxia</string>
+    <string>GrSmAlphaWMacronDasiaVaria</string>
+    <string>GrSmAlphaWMacronPsili</string>
+    <string>GrSmAlphaWMacronPsiliOxia</string>
+    <string>GrSmAlphaWMacronPsiliVaria</string>
+    <string>GrSmAlphaWMacronDial</string>
     <string>GrCapAlphaWTonos</string>
     <string>GrCapAlphaWOxia</string>
     <string>GrCapAlphaWVaria</string>
@@ -4171,6 +4185,15 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>GrCapAlphaWPsiliPerisPros.ISub</string>
     <string>GrCapAlphaWPsiliPros</string>
     <string>GrCapAlphaWPsiliPros.ISub</string>
+    <string>GrCapAlphaWMacronOxia</string>
+    <string>GrCapAlphaWMacronVaria</string>
+    <string>GrCapAlphaWMacronDasia</string>
+    <string>GrCapAlphaWMacronDasiaOxia</string>
+    <string>GrCapAlphaWMacronDasiaVaria</string>
+    <string>GrCapAlphaWMacronPsili</string>
+    <string>GrCapAlphaWMacronPsiliOxia</string>
+    <string>GrCapAlphaWMacronPsiliVaria</string>
+    <string>GrCapAlphaWMacronDial</string>
     <string>GrCapLamda</string>
     <string>LtnSmBDotAbv.LP</string>
     <string>GrBetaSym</string>
@@ -4221,6 +4244,12 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>GrSmEpsilonWPsili</string>
     <string>GrSmEpsilonWPsiliOxia</string>
     <string>GrSmEpsilonWPsiliVaria</string>
+    <string>GrSmEpsilonWPeris</string>
+    <string>GrSmEpsilonWPeris.Por</string>
+    <string>GrSmEpsilonWDasiaPeris</string>
+    <string>GrSmEpsilonWDasiaPeris.Por</string>
+    <string>GrSmEpsilonWPsiliPeris</string>
+    <string>GrSmEpsilonWPsiliPeris.Por</string>
     <string>GrCapEpsilonWTonos</string>
     <string>GrCapEpsilonWOxia</string>
     <string>GrCapEpsilonWVaria</string>
@@ -4332,6 +4361,15 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>GrSmIotaWDialVaria</string>
     <string>GrSmIotaWDialPeris</string>
     <string>GrSmIotaWDialPeris.Por</string>
+    <string>GrSmIotaWMacronOxia</string>
+    <string>GrSmIotaWMacronVaria</string>
+    <string>GrSmIotaWMacronDasia</string>
+    <string>GrSmIotaWMacronDasiaOxia</string>
+    <string>GrSmIotaWMacronDasiaVaria</string>
+    <string>GrSmIotaWMacronPsili</string>
+    <string>GrSmIotaWMacronPsiliOxia</string>
+    <string>GrSmIotaWMacronPsiliVaria</string>
+    <string>GrSmIotaWMacronDial</string>
     <string>GrPros</string>
     <string>GrCapIotaWTonos</string>
     <string>GrCapIotaWOxia</string>
@@ -4349,6 +4387,15 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>GrCapIotaWPsiliPeris</string>
     <string>GrCapIotaWPsiliPeris.Por</string>
     <string>GrCapIotaWDial</string>
+    <string>GrCapIotaWMacronOxia</string>
+    <string>GrCapIotaWMacronVaria</string>
+    <string>GrCapIotaWMacronDasia</string>
+    <string>GrCapIotaWMacronDasiaOxia</string>
+    <string>GrCapIotaWMacronDasiaVaria</string>
+    <string>GrCapIotaWMacronPsili</string>
+    <string>GrCapIotaWMacronPsiliOxia</string>
+    <string>GrCapIotaWMacronPsiliVaria</string>
+    <string>GrCapIotaWMacronDial</string>
     <string>GrYot</string>
     <string>LtnSmJ.LP</string>
     <string>LtnSmJCircum.LP</string>
@@ -4445,6 +4492,12 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>GrSmOmicronWPsili</string>
     <string>GrSmOmicronWPsiliOxia</string>
     <string>GrSmOmicronWPsiliVaria</string>
+    <string>GrSmOmicronWPeris</string>
+    <string>GrSmOmicronWPeris.Por</string>
+    <string>GrSmOmicronWDasiaPeris</string>
+    <string>GrSmOmicronWDasiaPeris.Por</string>
+    <string>GrSmOmicronWPsiliPeris</string>
+    <string>GrSmOmicronWPsiliPeris.Por</string>
     <string>GrSmArchaicKoppa</string>
     <string>GrCapOmicronWTonos</string>
     <string>GrCapOmicronWOxia</string>
@@ -4559,6 +4612,15 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>GrSmUpsilonWDialVaria</string>
     <string>GrSmUpsilonWDialPeris</string>
     <string>GrSmUpsilonWDialPeris.Por</string>
+    <string>GrSmUpsilonWMacronOxia</string>
+    <string>GrSmUpsilonWMacronVaria</string>
+    <string>GrSmUpsilonWMacronDasia</string>
+    <string>GrSmUpsilonWMacronDasiaOxia</string>
+    <string>GrSmUpsilonWMacronDasiaVaria</string>
+    <string>GrSmUpsilonWMacronPsili</string>
+    <string>GrSmUpsilonWMacronPsiliOxia</string>
+    <string>GrSmUpsilonWMacronPsiliVaria</string>
+    <string>GrSmUpsilonWMacronDial</string>
     <string>LtnSmVTilde.SItal.LP</string>
     <string>LtnSmVTilde.LP</string>
     <string>GrSmNu</string>
@@ -4618,6 +4680,12 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>GrCapUpsilonWDasiaPeris</string>
     <string>GrCapUpsilonWDasiaPeris.Por</string>
     <string>GrCapUpsilonWDial</string>
+    <string>GrCapUpsilonWMacronOxia</string>
+    <string>GrCapUpsilonWMacronVaria</string>
+    <string>GrCapUpsilonWMacronDasia</string>
+    <string>GrCapUpsilonWMacronDasiaOxia</string>
+    <string>GrCapUpsilonWMacronDasiaVaria</string>
+    <string>GrCapUpsilonWMacronDial</string>
     <string>GrUpsilonWHookSym</string>
     <string>GrUpsilonWAcuteHookSym</string>
     <string>GrUpsilonWDiaerHookSym</string>
@@ -7528,6 +7596,24 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1F8B.ISub</string>
     <key>GrCapAlphaWMacron</key>
     <string>uni1FB9</string>
+    <key>GrCapAlphaWMacronDasia</key>
+    <string>uni039103040314</string>
+    <key>GrCapAlphaWMacronDasiaOxia</key>
+    <string>uni0391030403140301</string>
+    <key>GrCapAlphaWMacronDasiaVaria</key>
+    <string>uni0391030403140300</string>
+    <key>GrCapAlphaWMacronDial</key>
+    <string>uni039103040308</string>
+    <key>GrCapAlphaWMacronOxia</key>
+    <string>uni039103040301</string>
+    <key>GrCapAlphaWMacronPsili</key>
+    <string>uni039103040313</string>
+    <key>GrCapAlphaWMacronPsiliOxia</key>
+    <string>uni0391030403130301</string>
+    <key>GrCapAlphaWMacronPsiliVaria</key>
+    <string>uni0391030403130300</string>
+    <key>GrCapAlphaWMacronVaria</key>
+    <string>uni039103040300</string>
     <key>GrCapAlphaWOxia</key>
     <string>uni1FBB</string>
     <key>GrCapAlphaWPros</key>
@@ -7692,6 +7778,24 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>Iotadieresis</string>
     <key>GrCapIotaWMacron</key>
     <string>uni1FD9</string>
+    <key>GrCapIotaWMacronDasia</key>
+    <string>uni039903040314</string>
+    <key>GrCapIotaWMacronDasiaOxia</key>
+    <string>uni0399030403140301</string>
+    <key>GrCapIotaWMacronDasiaVaria</key>
+    <string>uni0399030403140300</string>
+    <key>GrCapIotaWMacronDial</key>
+    <string>uni039903040308</string>
+    <key>GrCapIotaWMacronOxia</key>
+    <string>uni039903040301</string>
+    <key>GrCapIotaWMacronPsili</key>
+    <string>uni039903040313</string>
+    <key>GrCapIotaWMacronPsiliOxia</key>
+    <string>uni0399030403130301</string>
+    <key>GrCapIotaWMacronPsiliVaria</key>
+    <string>uni0399030403130300</string>
+    <key>GrCapIotaWMacronVaria</key>
+    <string>uni039903040300</string>
     <key>GrCapIotaWOxia</key>
     <string>uni1FDB</string>
     <key>GrCapIotaWPsili</key>
@@ -7858,6 +7962,18 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>Upsilondieresis</string>
     <key>GrCapUpsilonWMacron</key>
     <string>uni1FE9</string>
+    <key>GrCapUpsilonWMacronDasia</key>
+    <string>uni03A503040314</string>
+    <key>GrCapUpsilonWMacronDasiaOxia</key>
+    <string>uni03A5030403140301</string>
+    <key>GrCapUpsilonWMacronDasiaVaria</key>
+    <string>uni03A5030403140300</string>
+    <key>GrCapUpsilonWMacronDial</key>
+    <string>uni03A503040308</string>
+    <key>GrCapUpsilonWMacronOxia</key>
+    <string>uni03A503040301</string>
+    <key>GrCapUpsilonWMacronVaria</key>
+    <string>uni03A503040300</string>
     <key>GrCapUpsilonWOxia</key>
     <string>uni1FEB</string>
     <key>GrCapUpsilonWTonos</key>
@@ -7970,6 +8086,24 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1F81</string>
     <key>GrSmAlphaWMacron</key>
     <string>uni1FB1</string>
+    <key>GrSmAlphaWMacronDasia</key>
+    <string>uni03B103040314</string>
+    <key>GrSmAlphaWMacronDasiaOxia</key>
+    <string>uni03B1030403140301</string>
+    <key>GrSmAlphaWMacronDasiaVaria</key>
+    <string>uni03B1030403140300</string>
+    <key>GrSmAlphaWMacronDial</key>
+    <string>uni03B103040308</string>
+    <key>GrSmAlphaWMacronOxia</key>
+    <string>uni03B103040301</string>
+    <key>GrSmAlphaWMacronPsili</key>
+    <string>uni03B103040313</string>
+    <key>GrSmAlphaWMacronPsiliOxia</key>
+    <string>uni03B1030403130301</string>
+    <key>GrSmAlphaWMacronPsiliVaria</key>
+    <string>uni03B1030403130300</string>
+    <key>GrSmAlphaWMacronVaria</key>
+    <string>uni03B103040300</string>
     <key>GrSmAlphaWOxia</key>
     <string>uni1F71</string>
     <key>GrSmAlphaWOxiaYpo</key>
@@ -8044,14 +8178,26 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1F11</string>
     <key>GrSmEpsilonWDasiaOxia</key>
     <string>uni1F15</string>
+    <key>GrSmEpsilonWDasiaPeris</key>
+    <string>uni03B503140342</string>
+    <key>GrSmEpsilonWDasiaPeris.Por</key>
+    <string>uni03B503140342.Por</string>
     <key>GrSmEpsilonWDasiaVaria</key>
     <string>uni1F13</string>
     <key>GrSmEpsilonWOxia</key>
     <string>uni1F73</string>
+    <key>GrSmEpsilonWPeris</key>
+    <string>uni03B50342</string>
+    <key>GrSmEpsilonWPeris.Por</key>
+    <string>uni03B50342.Por</string>
     <key>GrSmEpsilonWPsili</key>
     <string>uni1F10</string>
     <key>GrSmEpsilonWPsiliOxia</key>
     <string>uni1F14</string>
+    <key>GrSmEpsilonWPsiliPeris</key>
+    <string>uni03B503130342</string>
+    <key>GrSmEpsilonWPsiliPeris.Por</key>
+    <string>uni03B503130342.Por</string>
     <key>GrSmEpsilonWPsiliVaria</key>
     <string>uni1F12</string>
     <key>GrSmEpsilonWTonos</key>
@@ -8152,6 +8298,24 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1FD2</string>
     <key>GrSmIotaWMacron</key>
     <string>uni1FD1</string>
+    <key>GrSmIotaWMacronDasia</key>
+    <string>uni03B903040314</string>
+    <key>GrSmIotaWMacronDasiaOxia</key>
+    <string>uni03B9030403140301</string>
+    <key>GrSmIotaWMacronDasiaVaria</key>
+    <string>uni03B9030403140300</string>
+    <key>GrSmIotaWMacronDial</key>
+    <string>uni03B903040308</string>
+    <key>GrSmIotaWMacronOxia</key>
+    <string>uni03B903040301</string>
+    <key>GrSmIotaWMacronPsili</key>
+    <string>uni03B903040313</string>
+    <key>GrSmIotaWMacronPsiliOxia</key>
+    <string>uni03B9030403130301</string>
+    <key>GrSmIotaWMacronPsiliVaria</key>
+    <string>uni03B9030403130300</string>
+    <key>GrSmIotaWMacronVaria</key>
+    <string>uni03B903040300</string>
     <key>GrSmIotaWOxia</key>
     <string>uni1F77</string>
     <key>GrSmIotaWPeris</key>
@@ -8252,14 +8416,26 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1F41</string>
     <key>GrSmOmicronWDasiaOxia</key>
     <string>uni1F45</string>
+    <key>GrSmOmicronWDasiaPeris</key>
+    <string>uni03BF03140342</string>
+    <key>GrSmOmicronWDasiaPeris.Por</key>
+    <string>uni03BF03140342.Por</string>
     <key>GrSmOmicronWDasiaVaria</key>
     <string>uni1F43</string>
     <key>GrSmOmicronWOxia</key>
     <string>uni1F79</string>
+    <key>GrSmOmicronWPeris</key>
+    <string>uni03BF0342</string>
+    <key>GrSmOmicronWPeris.Por</key>
+    <string>uni03BF0342.Por</string>
     <key>GrSmOmicronWPsili</key>
     <string>uni1F40</string>
     <key>GrSmOmicronWPsiliOxia</key>
     <string>uni1F44</string>
+    <key>GrSmOmicronWPsiliPeris</key>
+    <string>uni03BF03130342</string>
+    <key>GrSmOmicronWPsiliPeris.Por</key>
+    <string>uni03BF03130342.Por</string>
     <key>GrSmOmicronWPsiliVaria</key>
     <string>uni1F42</string>
     <key>GrSmOmicronWTonos</key>
@@ -8322,6 +8498,24 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1FE2</string>
     <key>GrSmUpsilonWMacron</key>
     <string>uni1FE1</string>
+    <key>GrSmUpsilonWMacronDasia</key>
+    <string>uni03C503040314</string>
+    <key>GrSmUpsilonWMacronDasiaOxia</key>
+    <string>uni03C5030403140301</string>
+    <key>GrSmUpsilonWMacronDasiaVaria</key>
+    <string>uni03C5030403140300</string>
+    <key>GrSmUpsilonWMacronDial</key>
+    <string>uni03C503040308</string>
+    <key>GrSmUpsilonWMacronOxia</key>
+    <string>uni03C503040301</string>
+    <key>GrSmUpsilonWMacronPsili</key>
+    <string>uni03C503040313</string>
+    <key>GrSmUpsilonWMacronPsiliOxia</key>
+    <string>uni03C5030403130301</string>
+    <key>GrSmUpsilonWMacronPsiliVaria</key>
+    <string>uni03C5030403130300</string>
+    <key>GrSmUpsilonWMacronVaria</key>
+    <string>uni03C503040300</string>
     <key>GrSmUpsilonWOxia</key>
     <string>uni1F7B</string>
     <key>GrSmUpsilonWPeris</key>

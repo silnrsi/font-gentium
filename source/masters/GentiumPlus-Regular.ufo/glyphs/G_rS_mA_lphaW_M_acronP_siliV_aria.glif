@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmAlphaWMacronPsiliVaria" format="2">
+  <advance width="1076"/>
+  <anchor x="510" y="-100" name="L"/>
+  <anchor x="880" y="1680" name="_G"/>
+  <outline>
+    <component base="GrSmAlpha"/>
+    <component base="CombMacron.Gr" xOffset="1045"/>
+    <component base="GrPsiliVaria" xOffset="160" yOffset="320"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

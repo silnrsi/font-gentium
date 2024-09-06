@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapAlphaWMacronPsiliOxia" format="2">
+  <advance width="1649"/>
+  <anchor x="1020" y="1690" name="U"/>
+  <outline>
+    <component base="GrCapAlpha" xOffset="430"/>
+    <component base="GrPsiliOxia" yOffset="-100"/>
+    <component base="CombMacron.LP" xOffset="1545" yOffset="320"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>
