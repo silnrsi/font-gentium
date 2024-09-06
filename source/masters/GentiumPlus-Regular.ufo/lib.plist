@@ -4660,6 +4660,7 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>CombGrPeris</string>
     <string>Macron.LP</string>
     <string>CombMacron.LP</string>
+    <string>CombMacron.Gr</string>
     <string>CombMacron.Short.LP</string>
     <string>Diaer.LP</string>
     <string>CombDiaer.LP</string>
@@ -6101,6 +6102,8 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni036F</string>
     <key>CombMacron</key>
     <string>uni0304</string>
+    <key>CombMacron.Gr</key>
+    <string>uni0304.Gr</string>
     <key>CombMacron.LP</key>
     <string>uni0304.LP</string>
     <key>CombMacron.Short</key>
