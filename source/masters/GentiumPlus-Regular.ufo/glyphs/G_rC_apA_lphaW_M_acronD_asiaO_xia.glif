@@ -3,14 +3,13 @@
   <advance width="1649"/>
   <anchor x="1030" y="1690" name="U"/>
   <outline>
-    <component base="GrCapAlpha" xOffset="430"/>
-    <component base="GrDasiaOxia" yOffset="-100"/>
+    <component base="GrCapAlphaWDasiaOxia"/>
     <component base="CombMacron.LP" xOffset="1555" yOffset="320"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.18,0.16,0.78,1</string>
     </dict>
   </lib>
 </glyph>
