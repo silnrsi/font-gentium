@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmDelta.sc" format="2">
+  <advance width="1105"/>
+  <outline>
+    <contour>
+      <point x="61" y="0" type="line"/>
+      <point x="1008" y="0" type="line"/>
+      <point x="1028" y="42" type="line"/>
+      <point x="1028" y="42"/>
+      <point x="707" y="763"/>
+      <point x="576" y="1088" type="curve"/>
+      <point x="544" y="1072"/>
+      <point x="485" y="1049"/>
+      <point x="457" y="1022" type="curve"/>
+      <point x="349" y="734"/>
+      <point x="47" y="42"/>
+      <point x="47" y="42" type="curve"/>
+    </contour>
+    <contour>
+      <point x="316" y="109" type="line" smooth="yes"/>
+      <point x="197" y="109"/>
+      <point x="197" y="109"/>
+      <point x="214" y="151" type="curve"/>
+      <point x="214" y="151"/>
+      <point x="396" y="573"/>
+      <point x="509" y="852" type="curve"/>
+      <point x="612" y="604"/>
+      <point x="813" y="151"/>
+      <point x="813" y="151" type="curve"/>
+      <point x="830" y="109"/>
+      <point x="832" y="109"/>
+      <point x="709" y="109" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

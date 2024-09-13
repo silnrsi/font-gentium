@@ -5465,6 +5465,47 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>TripleVertBar.sc</string>
     <string>LtnSmEgAin.sc</string>
     <string>LtnSmEgAlef.sc</string>
+    <string>GrSmAlpha.sc</string>
+    <string>GrSmBeta.sc</string>
+    <string>GrSmChi.sc</string>
+    <string>GrSmDelta.sc</string>
+    <string>GrSmEpsilon.sc</string>
+    <string>GrSmEta.sc</string>
+    <string>GrSmGamma.sc</string>
+    <string>GrSmIota.sc</string>
+    <string>GrSmIotaWDial.sc</string>
+    <string>GrSmKappa.sc</string>
+    <string>GrSmLamda.sc</string>
+    <string>GrSmMu.sc</string>
+    <string>GrSmNu.sc</string>
+    <string>GrSmOmega.sc</string>
+    <string>GrSmOmicron.sc</string>
+    <string>GrSmPhi.sc</string>
+    <string>GrSmPi.sc</string>
+    <string>GrSmPsi.sc</string>
+    <string>GrSmRho.sc</string>
+    <string>GrSmSigma.sc</string>
+    <string>GrSmTau.sc</string>
+    <string>GrSmTheta.sc</string>
+    <string>GrSmUpsilon.sc</string>
+    <string>GrSmUpsilonWDial.sc</string>
+    <string>GrSmXi.sc</string>
+    <string>GrSmZeta.sc</string>
+    <string>GrDottedLunateSigma.sc</string>
+    <string>GrLunateSigma.sc</string>
+    <string>GrRevDottedLunateSigma.sc</string>
+    <string>GrRevLunateSigma.sc</string>
+    <string>GrSmArchaicKoppa.sc</string>
+    <string>GrSmArchaicSampi.sc</string>
+    <string>GrSmDigamma.sc</string>
+    <string>GrSmHeta.sc</string>
+    <string>GrSmKoppa.sc</string>
+    <string>GrSmPamphylianDigamma.sc</string>
+    <string>GrSmSampi.sc</string>
+    <string>GrSmSan.sc</string>
+    <string>GrSmSho.sc</string>
+    <string>GrSmStigma.sc</string>
+    <string>GrYot.sc</string>
     <string>LtnSmARetrHookDep</string>
     <string>LtnSmAlphaRetrHookDep</string>
     <string>LtnSupSmTurnedAlphaDep</string>
@@ -8008,6 +8049,8 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni03DC</string>
     <key>GrDottedLunateSigma</key>
     <string>uni037C</string>
+    <key>GrDottedLunateSigma.sc</key>
+    <string>uni037C.sc</string>
     <key>GrKaiSym</key>
     <string>uni03D7</string>
     <key>GrKappaSym</key>
@@ -8022,6 +8065,8 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni03F5</string>
     <key>GrLunateSigma</key>
     <string>uni03F2</string>
+    <key>GrLunateSigma.sc</key>
+    <string>uni03F2.sc</string>
     <key>GrNumSgn</key>
     <string>uni0374</string>
     <key>GrOxia</key>
@@ -8050,16 +8095,22 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni037E</string>
     <key>GrRevDottedLunateSigma</key>
     <string>uni037D</string>
+    <key>GrRevDottedLunateSigma.sc</key>
+    <string>uni037D.sc</string>
     <key>GrRevLunateEpsilon</key>
     <string>uni03F6</string>
     <key>GrRevLunateSigma</key>
     <string>uni037B</string>
+    <key>GrRevLunateSigma.sc</key>
+    <string>uni037B.sc</string>
     <key>GrRhoSym</key>
     <string>uni03F1</string>
     <key>GrSampi</key>
     <string>uni03E0</string>
     <key>GrSmAlpha</key>
     <string>alpha</string>
+    <key>GrSmAlpha.sc</key>
+    <string>alpha.sc</string>
     <key>GrSmAlphaWDasia</key>
     <string>uni1F01</string>
     <key>GrSmAlphaWDasiaOxia</key>
@@ -8144,12 +8195,18 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1FB3</string>
     <key>GrSmArchaicKoppa</key>
     <string>uni03D9</string>
+    <key>GrSmArchaicKoppa.sc</key>
+    <string>uni03D9.sc</string>
     <key>GrSmArchaicSampi</key>
     <string>uni0373</string>
+    <key>GrSmArchaicSampi.sc</key>
+    <string>uni0373.sc</string>
     <key>GrSmBeta</key>
     <string>beta</string>
     <key>GrSmBeta.Serif</key>
     <string>beta.Serif</string>
+    <key>GrSmBeta.sc</key>
+    <string>beta.sc</string>
     <key>GrSmCapGamma</key>
     <string>uni1D26</string>
     <key>GrSmCapLamda</key>
@@ -8164,12 +8221,20 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1D29</string>
     <key>GrSmChi</key>
     <string>chi</string>
+    <key>GrSmChi.sc</key>
+    <string>chi.sc</string>
     <key>GrSmDelta</key>
     <string>delta</string>
+    <key>GrSmDelta.sc</key>
+    <string>delta.sc</string>
     <key>GrSmDigamma</key>
     <string>uni03DD</string>
+    <key>GrSmDigamma.sc</key>
+    <string>uni03DD.sc</string>
     <key>GrSmEpsilon</key>
     <string>epsilon</string>
+    <key>GrSmEpsilon.sc</key>
+    <string>epsilon.sc</string>
     <key>GrSmEpsilonWDasia</key>
     <string>uni1F11</string>
     <key>GrSmEpsilonWDasiaOxia</key>
@@ -8202,6 +8267,8 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1F72</string>
     <key>GrSmEta</key>
     <string>eta</string>
+    <key>GrSmEta.sc</key>
+    <string>eta.sc</string>
     <key>GrSmEtaWDasia</key>
     <string>uni1F21</string>
     <key>GrSmEtaWDasiaOxia</key>
@@ -8266,10 +8333,16 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>sigma1</string>
     <key>GrSmGamma</key>
     <string>gamma</string>
+    <key>GrSmGamma.sc</key>
+    <string>gamma.sc</string>
     <key>GrSmHeta</key>
     <string>uni0371</string>
+    <key>GrSmHeta.sc</key>
+    <string>uni0371.sc</string>
     <key>GrSmIota</key>
     <string>iota</string>
+    <key>GrSmIota.sc</key>
+    <string>iota.sc</string>
     <key>GrSmIotaWDasia</key>
     <string>uni1F31</string>
     <key>GrSmIotaWDasiaOxia</key>
@@ -8282,6 +8355,8 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1F33</string>
     <key>GrSmIotaWDial</key>
     <string>iotadieresis</string>
+    <key>GrSmIotaWDial.sc</key>
+    <string>iotadieresis.sc</string>
     <key>GrSmIotaWDialOxia</key>
     <string>uni1FD3</string>
     <key>GrSmIotaWDialPeris</key>
@@ -8336,16 +8411,28 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1FD0</string>
     <key>GrSmKappa</key>
     <string>kappa</string>
+    <key>GrSmKappa.sc</key>
+    <string>kappa.sc</string>
     <key>GrSmKoppa</key>
     <string>uni03DF</string>
+    <key>GrSmKoppa.sc</key>
+    <string>uni03DF.sc</string>
     <key>GrSmLamda</key>
     <string>lambda</string>
+    <key>GrSmLamda.sc</key>
+    <string>lambda.sc</string>
     <key>GrSmMu</key>
     <string>uni03BC</string>
+    <key>GrSmMu.sc</key>
+    <string>uni03BC.sc</string>
     <key>GrSmNu</key>
     <string>nu</string>
+    <key>GrSmNu.sc</key>
+    <string>nu.sc</string>
     <key>GrSmOmega</key>
     <string>omega</string>
+    <key>GrSmOmega.sc</key>
+    <string>omega.sc</string>
     <key>GrSmOmegaWDasia</key>
     <string>uni1F61</string>
     <key>GrSmOmegaWDasiaOxia</key>
@@ -8408,6 +8495,8 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1FF3</string>
     <key>GrSmOmicron</key>
     <string>omicron</string>
+    <key>GrSmOmicron.sc</key>
+    <string>omicron.sc</string>
     <key>GrSmOmicronWDasia</key>
     <string>uni1F41</string>
     <key>GrSmOmicronWDasiaOxia</key>
@@ -8440,14 +8529,24 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1F78</string>
     <key>GrSmPamphylianDigamma</key>
     <string>uni0377</string>
+    <key>GrSmPamphylianDigamma.sc</key>
+    <string>uni0377.sc</string>
     <key>GrSmPhi</key>
     <string>phi</string>
+    <key>GrSmPhi.sc</key>
+    <string>phi.sc</string>
     <key>GrSmPi</key>
     <string>pi</string>
+    <key>GrSmPi.sc</key>
+    <string>pi.sc</string>
     <key>GrSmPsi</key>
     <string>psi</string>
+    <key>GrSmPsi.sc</key>
+    <string>psi.sc</string>
     <key>GrSmRho</key>
     <string>rho</string>
+    <key>GrSmRho.sc</key>
+    <string>rho.sc</string>
     <key>GrSmRhoStrkSym</key>
     <string>uni03FC</string>
     <key>GrSmRhoWDasia</key>
@@ -8456,20 +8555,36 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1FE4</string>
     <key>GrSmSampi</key>
     <string>uni03E1</string>
+    <key>GrSmSampi.sc</key>
+    <string>uni03E1.sc</string>
     <key>GrSmSan</key>
     <string>uni03FB</string>
+    <key>GrSmSan.sc</key>
+    <string>uni03FB.sc</string>
     <key>GrSmSho</key>
     <string>uni03F8</string>
+    <key>GrSmSho.sc</key>
+    <string>uni03F8.sc</string>
     <key>GrSmSigma</key>
     <string>sigma</string>
+    <key>GrSmSigma.sc</key>
+    <string>sigma.sc</string>
     <key>GrSmStigma</key>
     <string>uni03DB</string>
+    <key>GrSmStigma.sc</key>
+    <string>uni03DB.sc</string>
     <key>GrSmTau</key>
     <string>tau</string>
+    <key>GrSmTau.sc</key>
+    <string>tau.sc</string>
     <key>GrSmTheta</key>
     <string>theta</string>
+    <key>GrSmTheta.sc</key>
+    <string>theta.sc</string>
     <key>GrSmUpsilon</key>
     <string>upsilon</string>
+    <key>GrSmUpsilon.sc</key>
+    <string>upsilon.sc</string>
     <key>GrSmUpsilonWDasia</key>
     <string>uni1F51</string>
     <key>GrSmUpsilonWDasiaOxia</key>
@@ -8482,6 +8597,8 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1F53</string>
     <key>GrSmUpsilonWDial</key>
     <string>upsilondieresis</string>
+    <key>GrSmUpsilonWDial.sc</key>
+    <string>upsilondieresis.sc</string>
     <key>GrSmUpsilonWDialOxia</key>
     <string>uni1FE3</string>
     <key>GrSmUpsilonWDialPeris</key>
@@ -8536,8 +8653,12 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1FE0</string>
     <key>GrSmXi</key>
     <string>xi</string>
+    <key>GrSmXi.sc</key>
+    <string>xi.sc</string>
     <key>GrSmZeta</key>
     <string>zeta</string>
+    <key>GrSmZeta.sc</key>
+    <string>zeta.sc</string>
     <key>GrStigma</key>
     <string>uni03DA</string>
     <key>GrSubSmBeta</key>
@@ -8568,6 +8689,8 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1FEF</string>
     <key>GrYot</key>
     <string>uni03F3</string>
+    <key>GrYot.sc</key>
+    <string>uni03F3.sc</string>
     <key>GrYpo</key>
     <string>uni037A</string>
     <key>GraveAccent</key>

@@ -2336,6 +2336,8 @@
   <string>G_rD_igamma.glif</string>
   <key>GrDottedLunateSigma</key>
   <string>G_rD_ottedL_unateS_igma.glif</string>
+  <key>GrDottedLunateSigma.sc</key>
+  <string>G_rD_ottedL_unateS_igma.sc.glif</string>
   <key>GrKaiSym</key>
   <string>G_rK_aiS_ym.glif</string>
   <key>GrKappaSym</key>
@@ -2350,6 +2352,8 @@
   <string>G_rL_unateE_psilon.glif</string>
   <key>GrLunateSigma</key>
   <string>G_rL_unateS_igma.glif</string>
+  <key>GrLunateSigma.sc</key>
+  <string>G_rL_unateS_igma.sc.glif</string>
   <key>GrNumSgn</key>
   <string>G_rN_umS_gn.glif</string>
   <key>GrOxia</key>
@@ -2378,16 +2382,22 @@
   <string>G_rQ_stnM_rk.glif</string>
   <key>GrRevDottedLunateSigma</key>
   <string>G_rR_evD_ottedL_unateS_igma.glif</string>
+  <key>GrRevDottedLunateSigma.sc</key>
+  <string>G_rR_evD_ottedL_unateS_igma.sc.glif</string>
   <key>GrRevLunateEpsilon</key>
   <string>G_rR_evL_unateE_psilon.glif</string>
   <key>GrRevLunateSigma</key>
   <string>G_rR_evL_unateS_igma.glif</string>
+  <key>GrRevLunateSigma.sc</key>
+  <string>G_rR_evL_unateS_igma.sc.glif</string>
   <key>GrRhoSym</key>
   <string>G_rR_hoS_ym.glif</string>
   <key>GrSampi</key>
   <string>G_rS_ampi.glif</string>
   <key>GrSmAlpha</key>
   <string>G_rS_mA_lpha.glif</string>
+  <key>GrSmAlpha.sc</key>
+  <string>G_rS_mA_lpha.sc.glif</string>
   <key>GrSmAlphaWDasia</key>
   <string>G_rS_mA_lphaW_D_asia.glif</string>
   <key>GrSmAlphaWDasiaOxia</key>
@@ -2472,12 +2482,18 @@
   <string>G_rS_mA_lphaW_Y_po.glif</string>
   <key>GrSmArchaicKoppa</key>
   <string>G_rS_mA_rchaicK_oppa.glif</string>
+  <key>GrSmArchaicKoppa.sc</key>
+  <string>G_rS_mA_rchaicK_oppa.sc.glif</string>
   <key>GrSmArchaicSampi</key>
   <string>G_rS_mA_rchaicS_ampi.glif</string>
+  <key>GrSmArchaicSampi.sc</key>
+  <string>G_rS_mA_rchaicS_ampi.sc.glif</string>
   <key>GrSmBeta</key>
   <string>G_rS_mB_eta.glif</string>
   <key>GrSmBeta.Serif</key>
   <string>G_rS_mB_eta.S_erif.glif</string>
+  <key>GrSmBeta.sc</key>
+  <string>G_rS_mB_eta.sc.glif</string>
   <key>GrSmCapGamma</key>
   <string>G_rS_mC_apG_amma.glif</string>
   <key>GrSmCapLamda</key>
@@ -2492,12 +2508,20 @@
   <string>G_rS_mC_apR_ho.glif</string>
   <key>GrSmChi</key>
   <string>G_rS_mC_hi.glif</string>
+  <key>GrSmChi.sc</key>
+  <string>G_rS_mC_hi.sc.glif</string>
   <key>GrSmDelta</key>
   <string>G_rS_mD_elta.glif</string>
+  <key>GrSmDelta.sc</key>
+  <string>G_rS_mD_elta.sc.glif</string>
   <key>GrSmDigamma</key>
   <string>G_rS_mD_igamma.glif</string>
+  <key>GrSmDigamma.sc</key>
+  <string>G_rS_mD_igamma.sc.glif</string>
   <key>GrSmEpsilon</key>
   <string>G_rS_mE_psilon.glif</string>
+  <key>GrSmEpsilon.sc</key>
+  <string>G_rS_mE_psilon.sc.glif</string>
   <key>GrSmEpsilonWDasia</key>
   <string>G_rS_mE_psilonW_D_asia.glif</string>
   <key>GrSmEpsilonWDasiaOxia</key>
@@ -2530,6 +2554,8 @@
   <string>G_rS_mE_psilonW_V_aria.glif</string>
   <key>GrSmEta</key>
   <string>G_rS_mE_ta.glif</string>
+  <key>GrSmEta.sc</key>
+  <string>G_rS_mE_ta.sc.glif</string>
   <key>GrSmEtaWDasia</key>
   <string>G_rS_mE_taW_D_asia.glif</string>
   <key>GrSmEtaWDasiaOxia</key>
@@ -2594,10 +2620,16 @@
   <string>G_rS_mF_inS_igma.glif</string>
   <key>GrSmGamma</key>
   <string>G_rS_mG_amma.glif</string>
+  <key>GrSmGamma.sc</key>
+  <string>G_rS_mG_amma.sc.glif</string>
   <key>GrSmHeta</key>
   <string>G_rS_mH_eta.glif</string>
+  <key>GrSmHeta.sc</key>
+  <string>G_rS_mH_eta.sc.glif</string>
   <key>GrSmIota</key>
   <string>G_rS_mI_ota.glif</string>
+  <key>GrSmIota.sc</key>
+  <string>G_rS_mI_ota.sc.glif</string>
   <key>GrSmIotaWDasia</key>
   <string>G_rS_mI_otaW_D_asia.glif</string>
   <key>GrSmIotaWDasiaOxia</key>
@@ -2610,6 +2642,8 @@
   <string>G_rS_mI_otaW_D_asiaV_aria.glif</string>
   <key>GrSmIotaWDial</key>
   <string>G_rS_mI_otaW_D_ial.glif</string>
+  <key>GrSmIotaWDial.sc</key>
+  <string>G_rS_mI_otaW_D_ial.sc.glif</string>
   <key>GrSmIotaWDialOxia</key>
   <string>G_rS_mI_otaW_D_ialO_xia.glif</string>
   <key>GrSmIotaWDialPeris</key>
@@ -2664,16 +2698,28 @@
   <string>G_rS_mI_otaW_V_rachy.glif</string>
   <key>GrSmKappa</key>
   <string>G_rS_mK_appa.glif</string>
+  <key>GrSmKappa.sc</key>
+  <string>G_rS_mK_appa.sc.glif</string>
   <key>GrSmKoppa</key>
   <string>G_rS_mK_oppa.glif</string>
+  <key>GrSmKoppa.sc</key>
+  <string>G_rS_mK_oppa.sc.glif</string>
   <key>GrSmLamda</key>
   <string>G_rS_mL_amda.glif</string>
+  <key>GrSmLamda.sc</key>
+  <string>G_rS_mL_amda.sc.glif</string>
   <key>GrSmMu</key>
   <string>G_rS_mM_u.glif</string>
+  <key>GrSmMu.sc</key>
+  <string>G_rS_mM_u.sc.glif</string>
   <key>GrSmNu</key>
   <string>G_rS_mN_u.glif</string>
+  <key>GrSmNu.sc</key>
+  <string>G_rS_mN_u.sc.glif</string>
   <key>GrSmOmega</key>
   <string>G_rS_mO_mega.glif</string>
+  <key>GrSmOmega.sc</key>
+  <string>G_rS_mO_mega.sc.glif</string>
   <key>GrSmOmegaWDasia</key>
   <string>G_rS_mO_megaW_D_asia.glif</string>
   <key>GrSmOmegaWDasiaOxia</key>
@@ -2736,6 +2782,8 @@
   <string>G_rS_mO_megaW_Y_po.glif</string>
   <key>GrSmOmicron</key>
   <string>G_rS_mO_micron.glif</string>
+  <key>GrSmOmicron.sc</key>
+  <string>G_rS_mO_micron.sc.glif</string>
   <key>GrSmOmicronWDasia</key>
   <string>G_rS_mO_micronW_D_asia.glif</string>
   <key>GrSmOmicronWDasiaOxia</key>
@@ -2768,14 +2816,24 @@
   <string>G_rS_mO_micronW_V_aria.glif</string>
   <key>GrSmPamphylianDigamma</key>
   <string>G_rS_mP_amphylianD_igamma.glif</string>
+  <key>GrSmPamphylianDigamma.sc</key>
+  <string>G_rS_mP_amphylianD_igamma.sc.glif</string>
   <key>GrSmPhi</key>
   <string>G_rS_mP_hi.glif</string>
+  <key>GrSmPhi.sc</key>
+  <string>G_rS_mP_hi.sc.glif</string>
   <key>GrSmPi</key>
   <string>G_rS_mP_i.glif</string>
+  <key>GrSmPi.sc</key>
+  <string>G_rS_mP_i.sc.glif</string>
   <key>GrSmPsi</key>
   <string>G_rS_mP_si.glif</string>
+  <key>GrSmPsi.sc</key>
+  <string>G_rS_mP_si.sc.glif</string>
   <key>GrSmRho</key>
   <string>G_rS_mR_ho.glif</string>
+  <key>GrSmRho.sc</key>
+  <string>G_rS_mR_ho.sc.glif</string>
   <key>GrSmRhoStrkSym</key>
   <string>G_rS_mR_hoS_trkS_ym.glif</string>
   <key>GrSmRhoWDasia</key>
@@ -2784,20 +2842,36 @@
   <string>G_rS_mR_hoW_P_sili.glif</string>
   <key>GrSmSampi</key>
   <string>G_rS_mS_ampi.glif</string>
+  <key>GrSmSampi.sc</key>
+  <string>G_rS_mS_ampi.sc.glif</string>
   <key>GrSmSan</key>
   <string>G_rS_mS_an.glif</string>
+  <key>GrSmSan.sc</key>
+  <string>G_rS_mS_an.sc.glif</string>
   <key>GrSmSho</key>
   <string>G_rS_mS_ho.glif</string>
+  <key>GrSmSho.sc</key>
+  <string>G_rS_mS_ho.sc.glif</string>
   <key>GrSmSigma</key>
   <string>G_rS_mS_igma.glif</string>
+  <key>GrSmSigma.sc</key>
+  <string>G_rS_mS_igma.sc.glif</string>
   <key>GrSmStigma</key>
   <string>G_rS_mS_tigma.glif</string>
+  <key>GrSmStigma.sc</key>
+  <string>G_rS_mS_tigma.sc.glif</string>
   <key>GrSmTau</key>
   <string>G_rS_mT_au.glif</string>
+  <key>GrSmTau.sc</key>
+  <string>G_rS_mT_au.sc.glif</string>
   <key>GrSmTheta</key>
   <string>G_rS_mT_heta.glif</string>
+  <key>GrSmTheta.sc</key>
+  <string>G_rS_mT_heta.sc.glif</string>
   <key>GrSmUpsilon</key>
   <string>G_rS_mU_psilon.glif</string>
+  <key>GrSmUpsilon.sc</key>
+  <string>G_rS_mU_psilon.sc.glif</string>
   <key>GrSmUpsilonWDasia</key>
   <string>G_rS_mU_psilonW_D_asia.glif</string>
   <key>GrSmUpsilonWDasiaOxia</key>
@@ -2810,6 +2884,8 @@
   <string>G_rS_mU_psilonW_D_asiaV_aria.glif</string>
   <key>GrSmUpsilonWDial</key>
   <string>G_rS_mU_psilonW_D_ial.glif</string>
+  <key>GrSmUpsilonWDial.sc</key>
+  <string>G_rS_mU_psilonW_D_ial.sc.glif</string>
   <key>GrSmUpsilonWDialOxia</key>
   <string>G_rS_mU_psilonW_D_ialO_xia.glif</string>
   <key>GrSmUpsilonWDialPeris</key>
@@ -2864,8 +2940,12 @@
   <string>G_rS_mU_psilonW_V_rachy.glif</string>
   <key>GrSmXi</key>
   <string>G_rS_mX_i.glif</string>
+  <key>GrSmXi.sc</key>
+  <string>G_rS_mX_i.sc.glif</string>
   <key>GrSmZeta</key>
   <string>G_rS_mZ_eta.glif</string>
+  <key>GrSmZeta.sc</key>
+  <string>G_rS_mZ_eta.sc.glif</string>
   <key>GrStigma</key>
   <string>G_rS_tigma.glif</string>
   <key>GrSubSmBeta</key>
@@ -2896,6 +2976,8 @@
   <string>G_rV_aria.glif</string>
   <key>GrYot</key>
   <string>G_rY_ot.glif</string>
+  <key>GrYot.sc</key>
+  <string>G_rY_ot.sc.glif</string>
   <key>GrYpo</key>
   <string>G_rY_po.glif</string>
   <key>GraveAccent</key>

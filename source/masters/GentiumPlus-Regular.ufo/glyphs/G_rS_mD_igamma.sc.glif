@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmDigamma.sc" format="2">
+  <advance width="922"/>
+  <anchor x="441" y="-83" name="L"/>
+  <anchor x="441" y="1132" name="U"/>
+  <outline>
+    <contour>
+      <point x="44" y="0" type="line"/>
+      <point x="499" y="0" type="line"/>
+      <point x="499" y="49" type="line"/>
+      <point x="379" y="69"/>
+      <point x="338" y="83"/>
+      <point x="338" y="92" type="curve"/>
+      <point x="338" y="965" type="line"/>
+      <point x="338" y="969"/>
+      <point x="361" y="974"/>
+      <point x="472" y="992" type="curve"/>
+      <point x="472" y="1041" type="line"/>
+      <point x="44" y="1041" type="line"/>
+      <point x="44" y="992" type="line"/>
+      <point x="133" y="976"/>
+      <point x="178" y="958"/>
+      <point x="178" y="948" type="curve"/>
+      <point x="178" y="92" type="line"/>
+      <point x="178" y="81"/>
+      <point x="127" y="64"/>
+      <point x="44" y="49" type="curve"/>
+    </contour>
+    <contour>
+      <point x="616" y="485" type="curve"/>
+      <point x="646" y="504"/>
+      <point x="685" y="549"/>
+      <point x="709" y="579" type="curve"/>
+      <point x="679" y="613" type="line"/>
+      <point x="260" y="613" type="line"/>
+      <point x="233" y="530" type="line"/>
+      <point x="435" y="530" type="line"/>
+      <point x="536" y="530"/>
+      <point x="579" y="517"/>
+    </contour>
+    <contour>
+      <point x="745" y="823" type="curve"/>
+      <point x="800" y="823" type="line"/>
+      <point x="816" y="867"/>
+      <point x="836" y="956"/>
+      <point x="838" y="1013" type="curve"/>
+      <point x="804" y="1041" type="line"/>
+      <point x="305" y="1041" type="line"/>
+      <point x="274" y="953" type="line"/>
+      <point x="677" y="953" type="line"/>
+      <point x="719" y="953"/>
+      <point x="742" y="922"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmGamma.sc" format="2">
+  <advance width="916"/>
+  <anchor x="492" y="-83" name="L"/>
+  <anchor x="492" y="1132" name="U"/>
+  <outline>
+    <contour>
+      <point x="44" y="0" type="line"/>
+      <point x="519" y="0" type="line"/>
+      <point x="519" y="49" type="line"/>
+      <point x="371" y="71"/>
+      <point x="338" y="81"/>
+      <point x="338" y="92" type="curve"/>
+      <point x="338" y="965" type="line"/>
+      <point x="338" y="969"/>
+      <point x="448" y="988"/>
+      <point x="472" y="992" type="curve"/>
+      <point x="472" y="1041" type="line"/>
+      <point x="44" y="1041" type="line"/>
+      <point x="44" y="992" type="line"/>
+      <point x="133" y="976"/>
+      <point x="178" y="958"/>
+      <point x="178" y="948" type="curve"/>
+      <point x="178" y="92" type="line"/>
+      <point x="178" y="81"/>
+      <point x="127" y="64"/>
+      <point x="44" y="49" type="curve"/>
+    </contour>
+    <contour>
+      <point x="756" y="733" type="curve"/>
+      <point x="811" y="733" type="line"/>
+      <point x="831" y="797"/>
+      <point x="863" y="957"/>
+      <point x="867" y="1012" type="curve"/>
+      <point x="833" y="1041" type="line"/>
+      <point x="305" y="1041" type="line"/>
+      <point x="274" y="953" type="line"/>
+      <point x="696" y="953" type="line"/>
+      <point x="738" y="953"/>
+      <point x="748" y="871"/>
+    </contour>
+  </outline>
+</glyph>
