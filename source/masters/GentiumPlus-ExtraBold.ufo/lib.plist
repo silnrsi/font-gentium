@@ -5466,11 +5466,13 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>LtnSmEgAin.sc</string>
     <string>LtnSmEgAlef.sc</string>
     <string>GrSmAlpha.sc</string>
+    <string>GrSmAlphaWYpo.sc</string>
     <string>GrSmBeta.sc</string>
     <string>GrSmChi.sc</string>
     <string>GrSmDelta.sc</string>
     <string>GrSmEpsilon.sc</string>
     <string>GrSmEta.sc</string>
+    <string>GrSmEtaWYpo.sc</string>
     <string>GrSmGamma.sc</string>
     <string>GrSmIota.sc</string>
     <string>GrSmIotaWDial.sc</string>
@@ -5479,6 +5481,7 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>GrSmMu.sc</string>
     <string>GrSmNu.sc</string>
     <string>GrSmOmega.sc</string>
+    <string>GrSmOmegaWYpo.sc</string>
     <string>GrSmOmicron.sc</string>
     <string>GrSmPhi.sc</string>
     <string>GrSmPi.sc</string>
@@ -8193,6 +8196,8 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1FB0</string>
     <key>GrSmAlphaWYpo</key>
     <string>uni1FB3</string>
+    <key>GrSmAlphaWYpo.sc</key>
+    <string>uni1FB3.sc</string>
     <key>GrSmArchaicKoppa</key>
     <string>uni03D9</string>
     <key>GrSmArchaicKoppa.sc</key>
@@ -8329,6 +8334,8 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1FC2</string>
     <key>GrSmEtaWYpo</key>
     <string>uni1FC3</string>
+    <key>GrSmEtaWYpo.sc</key>
+    <string>uni1FC3.sc</string>
     <key>GrSmFinSigma</key>
     <string>sigma1</string>
     <key>GrSmGamma</key>
@@ -8493,6 +8500,8 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <string>uni1FF2</string>
     <key>GrSmOmegaWYpo</key>
     <string>uni1FF3</string>
+    <key>GrSmOmegaWYpo.sc</key>
+    <string>uni1FF3.sc</string>
     <key>GrSmOmicron</key>
     <string>omicron</string>
     <key>GrSmOmicron.sc</key>
