@@ -6,7 +6,7 @@ DOCDIR = ["documentation", "web"]
 
 STANDARDS = 'references/v6101'
 
-APPNAME = 'GentiumPlus'
+APPNAME = 'Gentium'
 sourcefontfamily = APPNAME
 DEBPKG = 'fonts-sil-gentium'
 
@@ -30,7 +30,7 @@ cmds.append(cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'))
 for dspace in ('Roman', 'Italic'):
     designspace('source/' + sourcefontfamily + dspace + '.designspace',
                 target = process('${DS:FILENAME_BASE}.ttf', *cmds),
-                instances = ['Gentium Plus Regular'] if '--quick' in opts else None,
+                instances = ['Gentium Regular'] if '--quick' in opts else None,
 #                classes = 'source/${DS:FAMILYNAME_NOSPC}_classes.xml', #fails for Book fonts
                 classes = 'source/classes.xml',
                 opentype = fea('source/${DS:FILENAME_BASE}.fea',
@@ -44,14 +44,14 @@ for dspace in ('Roman', 'Italic'):
                     ),
                 typetuner = typetuner('source/typetuner/feat_all.xml'),
                 woff = woff('web/${DS:FILENAME_BASE}.woff',
-                    metadata=f'../source/gentiumplus-WOFF-metadata.xml'),
+                    metadata=f'../source/gentium-WOFF-metadata.xml'),
                 version = VERSION,
                 shortcircuit = False,
 #                pdf=fret(params = '-r -oi')
                 )
 
-bookpackage = package(appname = "GentiumBookPlus", docdir = {"documentation": "documentation", "web_book": "web"})
-bookfamily = "GentiumBookPlus"
+bookpackage = package(appname = "GentiumBook", docdir = {"documentation": "documentation", "web_book": "web"})
+bookfamily = "GentiumBook"
 
 getufoinfo('source/masters/' + sourcefontfamily + '-Regular' + '.ufo', bookpackage)
 
@@ -71,7 +71,7 @@ for dspace in ('Roman', 'Italic'):
                     ),
                 typetuner = typetuner('source/typetuner/feat_all.xml'),
                 woff = woff('web_book/${DS:FILENAME_BASE}.woff',
-                    metadata=f'../source/gentiumbookplus-WOFF-metadata.xml',
+                    metadata=f'../source/gentiumbook-WOFF-metadata.xml',
                     dontship=True),
                 version = VERSION,
                 shortcircuit = False,
