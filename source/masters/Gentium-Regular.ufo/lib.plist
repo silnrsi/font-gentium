@@ -553,14 +553,13 @@
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
   <string>3316</string>
-  <key>com.schriftgestaltung.customName</key>
-  <string>Extra Italic</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>ngjnqjn/LtnSmARetrHook jn
 nf)nf]nf}/Space (jn[jn{jn/Space/LtnSmCHook ]/LtnSmDHook ]/LtnSmDTailHook ]
 /LtnSmARetrHook g/LtnSmAlphaRetrHook g/LtnSmCRetrHook g/LtnSmDTail g/LtnSmDTailHook g/LtnSmDzRetrHook g/LtnSmERetrHook g/LtnSmSchwaRetrHook g/LtnSmOpnERetrHook g/LtnSmTurnedHFishhookTail g/LtnSmIRetrHook g/LtnSmIStrkRetrHook g/LtnSmIRetrHook.Dotless g
-/LtnSmLRetrHook g/LtnSmLRetrHookBelt g/LtnSmNRetrHook g/LtnSmQHookTail g/LtnRevEshLoop g/LtnSmTurnedRHook g/LtnSmTurnedRLngLegHook g/LtnSmSquatRevEsh g/LtnSmURetrHook g/LtnSmYOgonek.RetroHook g/LtnSmZRetrHook g</string>
+/LtnSmLRetrHook g/LtnSmLRetrHookBelt g/LtnSmNRetrHook g/LtnSmQHookTail g/LtnRevEshLoop g/LtnSmTurnedRHook g/LtnSmTurnedRLngLegHook g/LtnSmSquatRevEsh g/LtnSmURetrHook g/LtnSmYOgonek.RetroHook g/LtnSmZRetrHook g
+/LtnSmDTail þ/LtnSmDTail/LtnSmTRetrHook/LtnSmDTail g/LtnSmDTail/LtnSmORetrHook/LtnSmDTail p/LtnSmDTail y</string>
     <string>FALTEPARELVESLYH
 HHACHAGHAOHAQH
 HATHAVHAYHAWH
@@ -588,14 +587,15 @@ nevnewneynexne/LtnSmTurnedV n
 novnownoynoxno/LtnSmTurnedV n
 npvnpwnpynpxnp/LtnSmTurnedV n
 n/LtnSmTurnedV vn/LtnSmTurnedV wn/LtnSmTurnedV yn/LtnSmTurnedV xn/LtnSmCapA vn
-nv/LtnSmTurnedV nw/LtnSmTurnedV ny/LtnSmTurnedV nv/LtnSmCapA n</string>
-    <string>nrcnrdnrenronrqnranrgnrsn
-nvcnvdnvenvovnvqnvanvgnvsn
-nwcnwdnwenwownwqnwanwgnwsn
-nycnydnyenyonyqnyanygnysn
-n/LtnSmCapA cn/LtnSmTurnedV cn/LtnSmTurnedV dn/LtnSmTurnedV en/LtnSmTurnedV on/LtnSmTurnedV qn/LtnSmTurnedV an/LtnSmTurnedV gn/LtnSmTurnedV sn
-nkcnkdnkenkonkqn
-nxcnxdnxenxonxqn
+nv/LtnSmTurnedV nw/LtnSmTurnedV ny/LtnSmTurnedV nv/LtnSmCapA n
+n/LtnSmDCurl vn/LtnSmDCurl on/LtnSmDCurl sn/LtnSmDezhDigraphPalHook vn/LtnSmENotch vn</string>
+    <string>nrcnrdnrenronrqnranrgnrsnr/LtnSmORetrHook n
+nvcnvdnvenvovnvqnvanvgnvsnv/LtnSmORetrHook n
+nwcnwdnwenwownwqnwanwgnwsnw/LtnSmORetrHook n
+nycnydnyenyonyqnyanygnysny/LtnSmORetrHook n
+n/LtnSmCapA cn/LtnSmTurnedV cn/LtnSmTurnedV dn/LtnSmTurnedV en/LtnSmTurnedV on/LtnSmTurnedV qn/LtnSmTurnedV an/LtnSmTurnedV gn/LtnSmTurnedV sn/LtnSmTurnedV/LtnSmORetrHook n
+nkcnkdnkenkonkqnk/LtnSmORetrHook n
+nxcnxdnxenxonxqnx/LtnSmORetrHook n
 </string>
     <string>HAnnHAbnHAsn
 HAvnHAwnHAyn
@@ -608,13 +608,13 @@ HTcnHTdnHTenHTonHTqnHT/LtnSmTurnedV n
 HFcnHFdnHFenHFonHFqnHF/LtnSmTurnedV n
 HPcnHPdnHPenHPonHPqnHP/LtnSmTurnedV n
 HUcnHUdnHUenHUonHUqnHU/LtnSmTurnedV n</string>
-    <string>HVanHVgnHVmnHVnn
+    <string>/Space HVanHVgnHVmnHVnn
 HVpnHVrnHVsnHVunHVzn
 HYanHYgnHYmnHYnn
 HYpnHYrnHYsnHYunHYzn
 HWanHWgnHWmnHWnn
 HWpnHWrnHWsnHWunHWz
-HTanHTgnHT/Space mnHTnn
+HTanHTgnHTmnHTnn
 HTpnHTrnHTsnHTunHTzn
 HFanHFgnHFmnHFnn
 HFpnHFrnHFsnHFunHFzn
@@ -622,7 +622,8 @@ HPanHPgnHPmnHPnn
 HPpnHPrnHPsnHPunHPzn
 </string>
     <string>H"HH'HH/LftDblQuotMrk HH/RtDblQuotMrk HH/LftSglQuotMrk HH/RtSglQuotMrk HH/ModApos HH/CombLftAngAbv H
-A"HA'HA/LftDblQuotMrk HA/RtDblQuotMrk HA/LftSglQuotMrk HA/RtSglQuotMrk HA/ModApos HA/CombLftAngAbv H
+O"OO'OO/LftDblQuotMrk OO/RtDblQuotMrk OO/LftSglQuotMrk OO/RtSglQuotMrk OO/ModApos OO/CombLftAngAbv O
+'A"HA'HA/LftDblQuotMrk HA/RtDblQuotMrk HA/LftSglQuotMrk HA/RtSglQuotMrk HA/ModApos HA/CombLftAngAbv H
 L"HL'HL/LftDblQuotMrk HEAL/RtDblQuotMrk HL/LftSglQuotMrk HL/RtSglQuotMrk HL/ModApos HL/CombLftAngAbv H
 d"hd'hd/LftDblQuotMrk hd/RtDblQuotMrk hd/LftSglQuotMrk hd/RtSglQuotMrk hd/ModApos hd/CombLftAngAbv h
 b"hb'hb/LftDblQuotMrk hb/RtDblQuotMrk hb/LftSglQuotMrk hb/RtSglQuotMrk hb/ModApos hb/CombLftAngAbv h
@@ -664,7 +665,7 @@ f"hf'hf/LftDblQuotMrk hf/RtDblQuotMrk hf/LftSglQuotMrk hf/RtSglQuotMrk hf/ModApo
 /RtSglQuotMrk a/RtSglQuotMrk g/RtSglQuotMrk s/RtSglQuotMrk m/RtSglQuotMrk n/RtSglQuotMrk p/RtSglQuotMrk r/RtSglQuotMrk u/RtSglQuotMrk z
 /ModApos a/ModApos g/ModApos s/ModApos m/ModApos n/ModApos p/ModApos r/ModApos u/ModApos z
 a/CombLftAngAbv h/CombLftAngAbv m/CombLftAngAbv n/CombLftAngAbv u/CombLftAngAbv c/CombLftAngAbv s/CombLftAngAbv t/CombLftAngAbv z/CombLftAngAbv</string>
-    <string>HH./Space F./Space P./Space T./Space V./Space Y./Space W./Space n./Space r./Space v./Space y./Space w./Space 
+    <string>/Space HH./Space F./Space P./Space T./Space V./Space Y./Space W./Space n./Space r./Space v./Space y./Space w./Space 
 HH,/Space F,/Space P,/Space T,/Space V,/Space Y,/Space W,/Space n,/Space r,/Space v,/Space y,/Space w,/Space 
 .HH/Space .T/Space .V/Space .Y/Space .W/Space .n/Space .v/Space .y/Space .w/Space 
 ,HH/Space ,T/Space ,V/Space ,Y/Space ,W/Space ,n/Space ,v/Space ,y/Space ,w/Space 
@@ -675,29 +676,29 @@ H/RtDblQuotMrk ,H/RtDblQuotMrk .H/RtDblQuotMrk/HorizEllipsis H/RtDblQuotMrk/SglL
 H/LftSglQuotMrk ,H/LftSglQuotMrk .H/LftSglQuotMrk/HorizEllipsis H/LftSglQuotMrk/SglLow9QuotMrk H/LftSglQuotMrk/DblLow9QuotMrk H
 H/RtSglQuotMrk ,H/RtSglQuotMrk .H/RtSglQuotMrk/HorizEllipsis H/RtSglQuotMrk/SglLow9QuotMrk H/RtSglQuotMrk/DblLow9QuotMrk H
 H/ModApos ,H/ModApos .H/ModApos/HorizEllipsis H/ModApos/SglLow9QuotMrk H/ModApos/DblLow9QuotMrk H</string>
-    <string>H,"H,'H,/LftDblQuotMrk H,/RtDblQuotMrk H,/LftSglQuotMrk H,/RtSglQuotMrk H,/ModApos H
+    <string>/Space H,"H,'H,/LftDblQuotMrk H,/RtDblQuotMrk H,/LftSglQuotMrk H,/RtSglQuotMrk H,/ModApos H
 H."H.'H./LftDblQuotMrk H./RtDblQuotMrk H./LftSglQuotMrk H./RtSglQuotMrk H./ModApos H
 H/HorizEllipsis "H/HorizEllipsis 'H/HorizEllipsis/LftDblQuotMrk H/HorizEllipsis/RtDblQuotMrk H/HorizEllipsis/LftSglQuotMrk H/HorizEllipsis/RtSglQuotMrk H/HorizEllipsis/ModApos H
 H/SglLow9QuotMrk "H/SglLow9QuotMrk 'H/SglLow9QuotMrk/LftDblQuotMrk H/SglLow9QuotMrk/RtDblQuotMrk H/SglLow9QuotMrk/LftSglQuotMrk H/SglLow9QuotMrk/RtSglQuotMrk H/SglLow9QuotMrk/ModApos H
 H/DblLow9QuotMrk "H/DblLow9QuotMrk 'H/DblLow9QuotMrk/LftDblQuotMrk H/DblLow9QuotMrk/RtDblQuotMrk H/DblLow9QuotMrk/LftSglQuotMrk H/DblLow9QuotMrk/RtSglQuotMrk H/DblLow9QuotMrk/ModApos H</string>
-    <string>ncnchnclnckncbn
-nsnshnslnsknsbn
-ntnthntlntkntbn
-nznzhnzlnzknzbn
+    <string>ncnchnclnckncbncþn
+nsnshnslnsknsbnsþn
+ntnthntlntkntbntþn
+nznzhnzlnzknzbnzþn
 </string>
     <string>nanavnaynawnnh
 nhnhvnhynhwn
 nmnmvnmynmwn
 nnnnvnnynnwn
 nunuvnuynuwn/Space</string>
-    <string>n/LtnSmDCaron ,/Space/LtnSmDCaron ./Space/LtnSmDCaron :/Space/LtnSmDCaron ;/Space/LtnSmDCaron !/Space/LtnSmDCaron ?/Space (/LtnSmDCaron )/Space [/LtnSmDCaron ]/Space {/LtnSmDCaron }/Space/LftSglQuotMrk/LtnSmDCaron/RtSglQuotMrk/Space/DblLow9QuotMrk/LtnSmDCaron/LftDblQuotMrk/Space/SglLow9QuotMrk/LtnSmDCaron/LftSglQuotMrk/Space/LtnSmDCaron *
-nda/Space n/LtnSmDCaron a/Space/LtnSmDCaron á/Space/LtnSmDCaron h/Space/LtnSmDCaron k/Space/LtnSmDCaron l/Space/LtnSmDCaron m/Space/LtnSmDCaron n/Space/LtnSmDCaron o/Space/LtnSmDCaron t/Space/LtnSmDCaron u/Space/LtnSmDCaron/LtnSmZCaron 
+    <string>/Space n/LtnSmDCaron ,/Space/LtnSmDCaron ./Space/LtnSmDCaron :/Space/LtnSmDCaron ;/Space/LtnSmDCaron !/Space/LtnSmDCaron ?/Space (/LtnSmDCaron )/Space [/LtnSmDCaron ]/Space {/LtnSmDCaron }/Space/LftSglQuotMrk/LtnSmDCaron/RtSglQuotMrk/Space/DblLow9QuotMrk/LtnSmDCaron/LftDblQuotMrk/Space/SglLow9QuotMrk/LtnSmDCaron/LftSglQuotMrk/Space/LtnSmDCaron *
+nda/Space n/LtnSmDCaron a/Space/LtnSmDCaron á/Space/LtnSmDCaron h/Space/LtnSmDCaron k/Space/LtnSmDCaron l/Space/LtnSmDCaron m/Space/LtnSmDCaron n/Space/LtnSmDCaron o/Space/LtnSmDCaron t/Space/LtnSmDCaron u/Space/LtnSmDCaron/LtnSmZCaron/Space/LtnSmDCaron/LtnSmTRetrHook 
 /LtnSmDCaron/LtnSmTCaron/LtnCapLCaron/Space lo/LtnSmDCaron ka/Space/LtnSmDCaron as/Space/LtnSmDCaron áblova/Space bu/LtnSmDCaron !
 n/LtnSmTCaron ,/Space/LtnSmTCaron ./Space/LtnSmTCaron :/Space/LtnSmTCaron ;/Space/LtnSmTCaron !/Space/LtnSmTCaron ?/Space (/LtnSmTCaron )/Space [/LtnSmTCaron ]/Space {/LtnSmTCaron }/Space/LftSglQuotMrk/LtnSmTCaron/RtSglQuotMrk/Space/DblLow9QuotMrk/LtnSmTCaron/LftDblQuotMrk/Space/SglLow9QuotMrk/LtnSmTCaron/LftSglQuotMrk/Space/LtnSmTCaron *
 n/LtnSmTCaron a/Space/LtnSmTCaron á/Space/LtnSmTCaron c/Space/LtnSmTCaron d/Space/LtnSmTCaron j/Space/LtnSmTCaron k/Space/LtnSmTCaron m/Space/LtnSmTCaron n/Space/LtnSmTCaron o/Space/LtnSmTCaron r/Space/LtnSmTCaron s/Space/LtnSmTCaron t/Space/LtnSmTCaron u/Space/LtnSmTCaron/LtnSmZCaron 
 /LtnSmSCaron/LtnSmTCaron astne/CombCaron/Space kr/CombCaron i/LtnSmSCaron/LtnSmTCaron álový/Space dé/LtnSmSCaron/LtnSmTCaron/Space voli/LtnSmTCaron )
 n/LtnSmLCaron ,/Space/LtnSmLCaron ./Space/LtnSmLCaron :/Space/LtnSmLCaron ;/Space/LtnSmLCaron !/Space/LtnSmLCaron ?/Space (/LtnSmLCaron )/Space [/LtnSmLCaron ]/Space {/LtnSmLCaron }/Space/LftSglQuotMrk/LtnSmLCaron/RtSglQuotMrk/Space/DblLow9QuotMrk/LtnSmLCaron/LftDblQuotMrk/Space/SglLow9QuotMrk/LtnSmLCaron/LftSglQuotMrk/Space/LtnSmLCaron *
-n/LtnSmLCaron a/Space/LtnSmLCaron b/Space/LtnSmLCaron/LtnSmCCaron/Space/LtnSmLCaron g/Space/LtnSmLCaron h/Space/LtnSmLCaron k/Space/LtnSmLCaron m/Space/LtnSmLCaron n/Space/LtnSmLCaron/LtnSmNCaron/Space/LtnSmLCaron o/Space/LtnSmLCaron s/Space/LtnSmLCaron/LtnSmSCaron/Space/LtnSmLCaron f/Space/LtnSmLCaron t/Space/LtnSmLCaron u/Space/LtnSmLCaron ú/Space/LtnSmLCaron v/Space/LtnSmLCaron x
+/LtnSmLCaron a/Space/LtnSmLCaron b/Space/LtnSmLCaron/LtnSmCCaron/Space/LtnSmLCaron g/Space/LtnSmLCaron h/Space/LtnSmLCaron k/Space/LtnSmLCaron m/Space/LtnSmLCaron n/Space/LtnSmLCaron/LtnSmNCaron/Space/LtnSmLCaron o/Space/LtnSmLCaron s/Space/LtnSmLCaron/LtnSmSCaron/Space/LtnSmLCaron f/Space/LtnSmLCaron t/Space/LtnSmLCaron u/Space/LtnSmLCaron ú/Space/LtnSmLCaron v/Space/LtnSmLCaron x/Space/LtnSmLCaron/LtnSmTRetrHook 
 Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
 /LtnCapLCaron ,/Space/LtnCapLCaron ./Space/LtnCapLCaron :/Space/LtnCapLCaron ;/Space/LtnCapLCaron !/Space/LtnCapLCaron ?/Space (/LtnCapLCaron )/Space [/LtnCapLCaron ]/Space {/LtnCapLCaron }/Space/LftSglQuotMrk/LtnCapLCaron/RtSglQuotMrk/Space/DblLow9QuotMrk/LtnCapLCaron/LftDblQuotMrk/Space/SglLow9QuotMrk/LtnCapLCaron/LftSglQuotMrk/Space/LtnCapLCaron *
 /LtnCapLCaron a/Space/LtnCapLCaron b/Space/LtnCapLCaron/LtnSmCCaron/Space/LtnCapLCaron g/Space/LtnCapLCaron h/Space/LtnCapLCaron k/Space/LtnCapLCaron m/Space/LtnCapLCaron n/Space/LtnCapLCaron/LtnSmNCaron 
@@ -705,17 +706,12 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
 /LtnCapLCaron A/Space/LtnCapLCaron B/Space/LtnCapLCaron/LtnCapCCaron/Space/LtnCapLCaron G/Space/LtnCapLCaron H/Space/LtnCapLCaron K/Space/LtnCapLCaron M/Space/LtnCapLCaron N/Space/LtnCapLCaron/LtnCapNCaron 
 /LtnCapLCaron O/Space/LtnCapLCaron S/Space/LtnCapLCaron/LtnCapSCaron/Space/LtnCapLCaron T/Space/LtnCapLCaron U/Space/LtnCapLCaron Ú/Space/LtnCapLCaron VALVELT
 /LtnCapLCaron ahko</string>
-    <string>ôöõÖÕÔf/LtnSmF.SItal/LtnSmFDotAbv/LtnSmFDotAbv.SItal/LtnSmFPalHook/LtnSmFMiddleTilde/LtnSmFHookStrk l/LtnSmLDotBlwMacron/Space i/LtnSmI.SItal/SmRomNumOne/LtnSmIRetrHook/LtnSmIStrk/LtnSmIStrkRetrHook/Space j/LtnSmJStrk/LtnSmJCrossedTail 
-o/CombDblInvBreveBlw oo/CombDblBreveBlw oo/CombDblMacronBlw oo/CombDblRtArrwBlw oo/CombDblInvBreve oo/CombDblBreve oo/CombDblCircum oo/CombDblTilde oo/CombDblMacron oo/CombDblDiaer o
-g/CombDblInvBreveBlw gg/CombDblBreveBlw gg/CombDblMacronBlw gg/CombDblRtArrwBlw g/Space f/CombDblInvBreve f/Space f/CombDblBreve f/Space f/CombDblCircum f/Space f/CombDblTilde f/Space f/CombDblMacron f/Space f/CombDblDiaer f
-O/CombDblInvBreve OO/CombDblBreve OO/CombDblCircum OO/CombDblTilde OO/CombDblMacron OO/CombDblDiaer O
-</string>
-    <string>l/CombDblInvBreve l/Space l/CombDblBreve l/Space l/CombDblCircum l/Space l/CombDblTilde l/Space l/CombDblMacron l/Space l/CombDblDiaer l
+    <string>/Space l/CombDblInvBreve l/Space l/CombDblBreve l/Space l/CombDblCircum l/Space l/CombDblTilde l/Space l/CombDblMacron l/Space l/CombDblDiaer l
 O/CombDblInvBreve.mid OO/CombDblBreve.mid OO/CombDblCircum.mid OO/CombDblTilde.mid OO/CombDblMacron.mid OO/CombDblDiaer.mid O
 o/CombDblInvBreve.low oo/CombDblBreve.low oo/CombDblCircum.low oo/CombDblTilde.low oo/CombDblMacron.low oo/CombDblDiaer.low o
 o/CombDblInvBreveBlw.blwhigh oo/CombDblBreveBlw.blwhigh oo/CombDblMacronBlw.blwhigh oo/CombDblRtArrwBlw.blwhigh o
 g/CombDblInvBreveBlw gg/CombDblBreveBlw gg/CombDblMacronBlw gg/CombDblRtArrwBlw g/Space</string>
-    <string>H/LtnCapBHook HL/LtnCapBHook A/LtnCapBHook R/LtnCapBHook C/LtnCapBHook O/LtnCapBHook 
+    <string>/Space H/LtnCapBHook HL/LtnCapBHook A/LtnCapBHook R/LtnCapBHook C/LtnCapBHook O/LtnCapBHook 
 H/LtnCapDStrkHook H/LtnCapDHook H/LtnCapHHook H/LtnCapPHook H/LtnCapYHook HT
 R/LtnCapDStrkHook R/LtnCapDHook R/LtnCapHHook R/LtnCapPHook R/LtnCapYHook RT</string>
     <string>OA/LtnCapOHorn AUA/LtnCapUHorn AO/RtSglQuotMrk/LtnCapOHorn/RtSglQuotMrk U/RtSglQuotMrk/LtnCapUHorn/RtSglQuotMrk 
@@ -723,11 +719,11 @@ oaodohonotovoxo/ModApos o/RtSglQuotMrk
 /LtnSmOHorn a/LtnSmOHorn g/LtnSmOHorn/LtnSmORetrHook/LtnSmOHorn d/LtnSmOHorn h/LtnSmOHorn þ/LtnSmOHorn n/LtnSmOHorn t/LtnSmOHorn v/LtnSmOHorn x/LtnSmOHorn/ModApos/LtnSmOHorn/RtSglQuotMrk 
 uauduhunutuvuxu/ModApos u/RtSglQuotMrk 
 /LtnSmUHorn a/LtnSmUHorn g/LtnSmUHorn/LtnSmORetrHook/LtnSmUHorn d/LtnSmUHorn h/LtnSmUHorn þ/LtnSmUHorn n/LtnSmUHorn t/LtnSmUHorn v/LtnSmUHorn x/LtnSmUHorn/ModApos/LtnSmUHorn/RtSglQuotMrk</string>
-    <string>/LtnSmVRtHook a/LtnSmVRtHook e/LtnSmVRtHook/LtnSmOpnE/LtnSmVRtHook/LtnSmVHook/LtnSmVRtHook b/LtnSmVRtHook f/LtnSmVRtHook v/LtnSmVRtHook/LtnSmTurnedV 
-/LtnSmWHook a/LtnSmWHook e/LtnSmWHook/LtnSmOpnE/LtnSmWHook/LtnSmVHook/LtnSmWHook b/LtnSmWHook f/LtnSmWHook v/LtnSmWHook/LtnSmTurnedV 
-/LtnSmYHook.RtHook a/LtnSmYHook.RtHook e/LtnSmYHook.RtHook/LtnSmOpnE nyn/LtnSmYHook.RtHook n/LtnSmVHook/LtnSmYHook.RtHook b/LtnSmYHook.RtHook f/LtnSmYHook.RtHook v/LtnSmYHook.RtHook/LtnSmTurnedV 
-/LtnCapWHook a/LtnCapWHook e/LtnCapWHook/LtnSmOpnE/LtnCapWHook/LtnSmVHook/LtnCapWHook b/LtnCapWHook f/LtnCapWHook v/LtnCapWHook/LtnSmTurnedV 
-/LtnCapYHook.RtHook a/LtnCapYHook.RtHook e/LtnCapYHook.RtHook/LtnSmOpnE/LtnCapYHook.RtHook/LtnSmVHook/LtnCapYHook.RtHook b/LtnCapYHook.RtHook f/LtnCapYHook.RtHook v/LtnCapYHook.RtHook/LtnSmTurnedV 
+    <string>/LtnSmVRtHook a/LtnSmVRtHook e/LtnSmVRtHook/LtnSmOpnE/LtnSmVRtHook nvn/LtnSmVRtHook/LtnSmVHook/LtnSmVRtHook b/LtnSmVRtHook f/LtnSmVRtHook v/LtnSmVRtHook/LtnSmTurnedV 
+/LtnSmWHook a/LtnSmWHook e/LtnSmWHook/LtnSmOpnE/LtnSmWHook nwn/LtnSmWHook/LtnSmVHook/LtnSmWHook b/LtnSmWHook f/LtnSmWHook v/LtnSmWHook/LtnSmTurnedV 
+/LtnSmYHook.RtHook a/LtnSmYHook.RtHook e/LtnSmYHook.RtHook/LtnSmOpnE/LtnSmYHook.RtHook nyn/LtnSmYHook.RtHook/LtnSmVHook/LtnSmYHook.RtHook b/LtnSmYHook.RtHook f/LtnSmYHook.RtHook v/LtnSmYHook.RtHook/LtnSmTurnedV 
+/LtnCapWHook a/LtnCapWHook e/LtnCapWHook/LtnSmOpnE/LtnCapWHook n/LtnCapWHook/LtnSmVHook/LtnCapWHook b/LtnCapWHook f/LtnCapWHook v/LtnCapWHook/LtnSmTurnedV 
+/LtnCapYHook.RtHook a/LtnCapYHook.RtHook e/LtnCapYHook.RtHook/LtnSmOpnE/LtnCapYHook.RtHook n/LtnCapYHook.RtHook/LtnSmVHook/LtnCapYHook.RtHook b/LtnCapYHook.RtHook f/LtnCapYHook.RtHook v/LtnCapYHook.RtHook/LtnSmTurnedV 
 H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</string>
     <string>/GrCapAlpha/GrCapAlphaWOxia/GrCapAlphaWVaria/GrCapAlphaWDasia/GrCapAlphaWDasiaOxia/GrCapAlphaWDasiaVaria/GrCapAlphaWPsili/GrCapAlphaWPsiliOxia/GrCapAlphaWPsiliVaria 
 /GrCapIota/GrCapIotaWOxia/GrCapIotaWVaria/GrCapIotaWDasia/GrCapIotaWDasiaOxia/GrCapIotaWDasiaVaria/GrCapIotaWPsili/GrCapIotaWPsiliOxia/GrCapIotaWPsiliVaria 
@@ -736,14 +732,14 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
 /GrSmEpsilonWDasia/GrSmEpsilonWPeris/GrSmEpsilonWPeris.Por/GrSmEpsilonWDasiaPeris/GrSmEpsilonWDasiaPeris.Por/GrSmEpsilonWPsiliPeris/GrSmEpsilonWPsiliPeris.Por 
 /GrSmIotaWDasiaOxia/GrSmIotaWMacron/GrSmIotaWMacronOxia/GrSmIotaWMacronVaria/GrSmIotaWMacronDasia/GrSmIotaWMacronDasiaOxia/GrSmIotaWMacronDasiaVaria/GrSmIotaWMacronPsili/GrSmIotaWMacronPsiliOxia/GrSmIotaWMacronPsiliVaria/GrSmIotaWMacronDial/GrCapIotaWMacronOxia/GrCapIotaWMacronVaria/GrCapIotaWMacronDasia/GrCapIotaWMacronDasiaOxia/GrCapIotaWMacronDasiaVaria/GrCapIotaWMacronPsili/GrCapIotaWMacronPsiliOxia/GrCapIotaWMacronPsiliVaria/GrCapIotaWMacronDial 
 /GrSmOmicronWDasia/GrSmOmicronWPeris/GrSmOmicronWPeris.Por/GrSmOmicronWDasiaPeris/GrSmOmicronWDasiaPeris.Por/GrSmOmicronWPsiliPeris/GrSmOmicronWPsiliPeris.Por 
-/GrSmUpsilonWDasiaOxia/GrSmUpsilonWMacron/GrSmUpsilonWMacronOxia/GrSmUpsilonWMacronVaria/GrSmUpsilonWMacronDasia/GrSmUpsilonWMacronDasiaOxia/GrSmUpsilonWMacronDasiaVaria/GrSmUpsilonWMacronPsili/GrSmUpsilonWMacronPsiliOxia/GrSmUpsilonWMacronPsiliVaria/GrSmUpsilonWMacronDial/GrCapUpsilonWMacronOxia/GrCapUpsilonWMacronVaria/GrCapUpsilonWMacronDasia/GrCapUpsilonWMacronDasiaOxia/GrCapUpsilonWMacronDasiaVaria/GrCapUpsilonWMacronDial/Space</string>
+/GrSmUpsilonWDasiaOxia/GrSmUpsilonWMacron/GrSmUpsilonWMacronOxia/GrSmUpsilonWMacronVaria/GrSmUpsilonWMacronDasia/GrSmUpsilonWMacronDasiaOxia/GrSmUpsilonWMacronDasiaVaria/GrSmUpsilonWMacronPsili/GrSmUpsilonWMacronPsiliOxia/GrSmUpsilonWMacronPsiliVaria/GrSmUpsilonWMacronDial/GrCapUpsilonWMacronOxia/GrCapUpsilonWMacronVaria/GrCapUpsilonWMacronDasia/GrCapUpsilonWMacronDasiaOxia/GrCapUpsilonWMacronDasiaVaria/GrCapUpsilonWMacronDial</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
-  <string>SIL International: Gentium Plus Italic: 2024</string>
+  <string>SIL International: Gentium Regular: 2024</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
@@ -755,19 +751,19 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
-  <string>Bold</string>
+  <string/>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-  <integer>800</integer>
+  <integer>400</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
   <integer>100</integer>
   <key>com.schriftgestaltung.fontMasterOrder</key>
-  <integer>1</integer>
+  <integer>0</integer>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
   <key>com.schriftgestaltung.weight</key>
-  <string>Bold</string>
+  <string>Regular</string>
   <key>com.schriftgestaltung.weightValue</key>
-  <integer>800</integer>
+  <integer>400</integer>
   <key>com.schriftgestaltung.width</key>
   <string>Regular</string>
   <key>com.schriftgestaltung.widthValue</key>
@@ -798,7 +794,7 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
       <key>LAnchorMin</key>
       <integer>-100</integer>
       <key>shiftX</key>
-      <integer>50</integer>
+      <integer>0</integer>
       <key>shiftY</key>
       <integer>390</integer>
     </dict>
@@ -831,7 +827,7 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
       <key>UAnchorMin</key>
       <integer>900</integer>
       <key>shiftX</key>
-      <integer>-60</integer>
+      <integer>0</integer>
       <key>shiftY</key>
       <integer>-510</integer>
     </dict>
@@ -842,7 +838,7 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
       <key>UAnchorMin</key>
       <integer>1051</integer>
       <key>shiftX</key>
-      <integer>-10</integer>
+      <integer>0</integer>
       <key>shiftY</key>
       <integer>-190</integer>
     </dict>
@@ -850,31 +846,31 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
   <key>org.sil.lcg.toneLetters</key>
   <dict>
     <key>contourWidth</key>
-    <integer>465</integer>
+    <integer>425</integer>
     <key>dotSize</key>
-    <integer>215</integer>
+    <integer>152</integer>
     <key>dotSpacing</key>
-    <integer>155</integer>
+    <integer>160</integer>
     <key>glyphDepth</key>
-    <integer>-30</integer>
+    <integer>-20</integer>
     <key>glyphHeight</key>
-    <integer>1520</integer>
+    <integer>1550</integer>
     <key>italicAngle</key>
-    <real>7.8</real>
+    <integer>0</integer>
     <key>marginDotLeft</key>
-    <integer>20</integer>
+    <integer>95</integer>
     <key>marginDotRight</key>
-    <integer>180</integer>
+    <integer>135</integer>
     <key>marginFlatLeft</key>
-    <integer>121</integer>
+    <integer>100</integer>
     <key>marginFlatRight</key>
-    <integer>191</integer>
+    <integer>140</integer>
     <key>marginPointLeft</key>
-    <integer>5</integer>
+    <integer>75</integer>
     <key>marginPointRight</key>
-    <integer>165</integer>
+    <integer>115</integer>
     <key>strokeThickness</key>
-    <integer>145</integer>
+    <integer>104</integer>
   </dict>
   <key>org.sil.lcg.transforms</key>
   <dict>
@@ -887,9 +883,9 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
       <key>manAdjustY</key>
       <integer>5</integer>
       <key>scaleX</key>
-      <real>0.515</real>
+      <real>0.505</real>
       <key>scaleY</key>
-      <real>0.47</real>
+      <real>0.45</real>
       <key>shiftX</key>
       <integer>0</integer>
       <key>shiftY</key>
@@ -904,9 +900,9 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
       <key>manAdjustY</key>
       <integer>5</integer>
       <key>scaleX</key>
-      <real>0.515</real>
+      <real>0.505</real>
       <key>scaleY</key>
-      <real>0.47</real>
+      <real>0.45</real>
       <key>shiftX</key>
       <integer>0</integer>
       <key>shiftY</key>
@@ -915,55 +911,53 @@ H/LtnCapWHook H/LtnCapWHook AH/LtnCapYHook.RtHook H/LtnCapYHook.RtHook AH</strin
     <key>smallcaps</key>
     <dict>
       <key>adjustMetrics</key>
-      <integer>12</integer>
+      <integer>2</integer>
       <key>manAdjustX</key>
-      <integer>0</integer>
+      <integer>10</integer>
       <key>manAdjustY</key>
       <integer>14</integer>
       <key>scaleX</key>
-      <real>0.964</real>
+      <real>0.938</real>
       <key>scaleY</key>
       <real>0.826</real>
       <key>shiftX</key>
       <integer>-5</integer>
       <key>shiftY</key>
       <integer>0</integer>
-      <key>skew</key>
-      <real>-0.01</real>
     </dict>
     <key>subscript</key>
     <dict>
       <key>adjustMetrics</key>
       <integer>0</integer>
       <key>manAdjustX</key>
-      <integer>0</integer>
+      <integer>20</integer>
       <key>manAdjustY</key>
-      <integer>0</integer>
+      <integer>10</integer>
       <key>scaleX</key>
       <real>0.7</real>
       <key>scaleY</key>
       <real>0.6</real>
       <key>shiftX</key>
-      <integer>-55</integer>
+      <integer>0</integer>
       <key>shiftY</key>
-      <integer>-198</integer>
+      <integer>-200</integer>
     </dict>
     <key>superscript</key>
     <dict>
       <key>adjustMetrics</key>
       <integer>0</integer>
       <key>manAdjustX</key>
-      <integer>0</integer>
+      <integer>20</integer>
       <key>manAdjustY</key>
-      <integer>0</integer>
+      <integer>10</integer>
       <key>scaleX</key>
       <real>0.7</real>
       <key>scaleY</key>
       <real>0.6</real>
       <key>shiftX</key>
-      <integer>45</integer>
+      <integer>0</integer>
       <key>shiftY</key>
-      <integer>608</integer>
+      <integer>620</integer>
     </dict>
   </dict>
   <key>public.glyphOrder</key>

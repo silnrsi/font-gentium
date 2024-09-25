@@ -18,7 +18,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Gentium Plus" filename="masters/GentiumPlus-Regular.ufo" name="Gentium Plus Regular" stylename="Regular">
+        <source familyname="Gentium" filename="masters/Gentium-Regular.ufo" name="Gentium Regular" stylename="Regular">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -29,7 +29,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Gentium Plus" filename="masters/GentiumPlus-ExtraBold.ufo" name="Gentium Plus ExtraBold" stylename="ExtraBold">
+        <source familyname="Gentium" filename="masters/Gentium-ExtraBold.ufo" name="Gentium ExtraBold" stylename="ExtraBold">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -38,7 +38,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-Regular.ufo" name="Gentium Book Plus Regular" stylemapfamilyname="Gentium Book Plus" stylemapstylename="regular" stylename="Regular" postscriptfontname="GentiumBookPlus">
+        <instance familyname="Gentium Book" filename="instances/GentiumBook-Regular.ufo" name="Gentium Book Regular" stylemapfamilyname="Gentium Book" stylemapstylename="regular" stylename="Regular" postscriptfontname="GentiumBook">
             <location>
                 <dimension name="weight" xvalue="500.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -47,7 +47,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-Medium.ufo" name="Gentium Book Plus Medium" stylemapfamilyname="Gentium Book Plus Medium" stylemapstylename="regular" stylename="Medium" postscriptfontname="GentiumBookPlus-Medium">
+        <instance familyname="Gentium Book" filename="instances/GentiumBook-Medium.ufo" name="Gentium Book Medium" stylemapfamilyname="Gentium Book Medium" stylemapstylename="regular" stylename="Medium" postscriptfontname="GentiumBook-Medium">
             <location>
                 <dimension name="weight" xvalue="600.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -56,7 +56,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-SemiBold.ufo" name="Gentium Book Plus SemiBold" stylemapfamilyname="Gentium Book Plus SemiBold" stylemapstylename="regular" stylename="SemiBold" postscriptfontname="GentiumBookPlus-SemiBold">
+        <instance familyname="Gentium Book" filename="instances/GentiumBook-SemiBold.ufo" name="Gentium Book SemiBold" stylemapfamilyname="Gentium Book SemiBold" stylemapstylename="regular" stylename="SemiBold" postscriptfontname="GentiumBook-SemiBold">
             <location>
                 <dimension name="weight" xvalue="700.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -65,7 +65,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-Bold.ufo" name="Gentium Book Plus Bold" stylemapfamilyname="Gentium Book Plus" stylemapstylename="bold" stylename="Bold" postscriptfontname="GentiumBookPlus-Bold">
+        <instance familyname="Gentium Book" filename="instances/GentiumBook-Bold.ufo" name="Gentium Book Bold" stylemapfamilyname="Gentium Book" stylemapstylename="bold" stylename="Bold" postscriptfontname="GentiumBook-Bold">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />

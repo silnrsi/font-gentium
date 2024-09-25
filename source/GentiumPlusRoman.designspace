@@ -19,7 +19,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Gentium Plus" filename="masters/GentiumPlus-Regular.ufo" name="Gentium Plus Regular" stylename="Regular">
+        <source familyname="Gentium" filename="masters/Gentium-Regular.ufo" name="Gentium Regular" stylename="Regular">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -30,7 +30,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Gentium Plus" filename="masters/GentiumPlus-ExtraBold.ufo" name="Gentium Plus ExtraBold" stylename="ExtraBold">
+        <source familyname="Gentium" filename="masters/Gentium-ExtraBold.ufo" name="Gentium ExtraBold" stylename="ExtraBold">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -39,7 +39,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-Regular.ufo" name="Gentium Plus Regular" stylemapfamilyname="Gentium Plus" stylemapstylename="regular" stylename="Regular" postscriptfontname="GentiumPlus">
+        <instance familyname="Gentium" filename="instances/Gentium-Regular.ufo" name="Gentium Regular" stylemapfamilyname="Gentium" stylemapstylename="regular" stylename="Regular" postscriptfontname="Gentium">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -48,7 +48,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-Medium.ufo" name="Gentium Plus Medium" stylemapfamilyname="Gentium Plus Medium" stylemapstylename="regular" stylename="Medium" postscriptfontname="GentiumPlus-Medium">
+        <instance familyname="Gentium" filename="instances/Gentium-Medium.ufo" name="Gentium Medium" stylemapfamilyname="Gentium Medium" stylemapstylename="regular" stylename="Medium" postscriptfontname="Gentium-Medium">
             <location>
                 <dimension name="weight" xvalue="500.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -57,7 +57,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-SemiBold.ufo" name="Gentium Plus SemiBold" stylemapfamilyname="Gentium Plus SemiBold" stylemapstylename="regular" stylename="SemiBold" postscriptfontname="GentiumPlus-SemiBold">
+        <instance familyname="Gentium" filename="instances/Gentium-SemiBold.ufo" name="Gentium SemiBold" stylemapfamilyname="Gentium SemiBold" stylemapstylename="regular" stylename="SemiBold" postscriptfontname="Gentium-SemiBold">
             <location>
                 <dimension name="weight" xvalue="600.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -66,7 +66,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-Bold.ufo" name="Gentium Plus Bold" stylemapfamilyname="Gentium Plus" stylemapstylename="bold" stylename="Bold" postscriptfontname="GentiumPlus-Bold">
+        <instance familyname="Gentium" filename="instances/Gentium-Bold.ufo" name="Gentium Bold" stylemapfamilyname="Gentium" stylemapstylename="bold" stylename="Bold" postscriptfontname="Gentium-Bold">
             <location>
                 <dimension name="weight" xvalue="700.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -75,7 +75,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Plus" filename="instances/GentiumPlus-ExtraBold.ufo" name="Gentium Plus ExtraBold" stylemapfamilyname="Gentium Plus ExtraBold" stylemapstylename="regular" stylename="ExtraBold"  postscriptfontname="GentiumPlus-ExtraBold">
+        <instance familyname="Gentium" filename="instances/Gentium-ExtraBold.ufo" name="Gentium ExtraBold" stylemapfamilyname="Gentium ExtraBold" stylemapstylename="regular" stylename="ExtraBold"  postscriptfontname="Gentium-ExtraBold">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />

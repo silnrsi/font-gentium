@@ -11,9 +11,11 @@
   <key>descender</key>
   <integer>-750</integer>
   <key>familyName</key>
-  <string>Gentium Plus</string>
+  <string>Gentium</string>
+  <key>italicAngle</key>
+  <integer>-8</integer>
   <key>openTypeHeadCreated</key>
-  <string>2024/09/13 13:41:41</string>
+  <string>2024/09/13 13:41:48</string>
   <key>openTypeHeadFlags</key>
   <array>
     <integer>0</integer>
@@ -83,11 +85,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameManufacturerURL</key>
   <string>https://www.sil.org/</string>
   <key>openTypeNamePreferredFamilyName</key>
-  <string>Gentium Plus</string>
+  <string>Gentium</string>
   <key>openTypeNamePreferredSubfamilyName</key>
-  <string>Regular</string>
+  <string>Italic</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Gentium Plus Regular: 2024</string>
+  <string>SIL International: Gentium Italic: 2024</string>
   <key>openTypeNameVersion</key>
   <string>Version 6.902</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -107,7 +109,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>0</integer>
     <integer>5</integer>
     <integer>3</integer>
-    <integer>6</integer>
+    <integer>8</integer>
     <integer>0</integer>
     <integer>0</integer>
     <integer>2</integer>
@@ -198,36 +200,36 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <array>
     <integer>-41</integer>
     <integer>0</integer>
-    <integer>930</integer>
-    <integer>966</integer>
+    <integer>915</integer>
+    <integer>936</integer>
     <integer>1260</integer>
-    <integer>1320</integer>
+    <integer>1317</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>GentiumPlus-Regular</string>
+  <string>Gentium-Italic</string>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-500</integer>
-    <integer>-480</integer>
+    <integer>-485</integer>
   </array>
   <key>postscriptStemSnapH</key>
   <array>
     <integer>43</integer>
     <integer>90</integer>
-    <integer>120</integer>
+    <integer>115</integer>
   </array>
   <key>postscriptStemSnapV</key>
   <array>
+    <integer>146</integer>
     <integer>150</integer>
-    <integer>155</integer>
-    <integer>160</integer>
+    <integer>154</integer>
   </array>
   <key>postscriptUnderlinePosition</key>
   <integer>-250</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>100</integer>
   <key>styleName</key>
-  <string>Regular</string>
+  <string>Italic</string>
   <key>trademark</key>
   <string>Gentium is a trademark of SIL International.</string>
   <key>unitsPerEm</key>

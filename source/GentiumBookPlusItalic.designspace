@@ -18,7 +18,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Gentium Plus" filename="masters/GentiumPlus-Italic.ufo" name="Gentium Plus Regular" stylename="Italic">
+        <source familyname="Gentium" filename="masters/Gentium-Italic.ufo" name="Gentium Regular" stylename="Italic">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -29,7 +29,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Gentium Plus" filename="masters/GentiumPlus-ExtraBoldItalic.ufo" name="Gentium Plus ExtraBold" stylename="ExtraBold Italic">
+        <source familyname="Gentium" filename="masters/Gentium-ExtraBoldItalic.ufo" name="Gentium ExtraBold" stylename="ExtraBold Italic">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -38,7 +38,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-Italic.ufo" name="Gentium Book Plus Italic" stylemapfamilyname="Gentium Book Plus" stylemapstylename="italic" stylename="Italic" postscriptfontname="GentiumBookPlus-Italic">
+        <instance familyname="Gentium Book" filename="instances/GentiumBook-Italic.ufo" name="Gentium Book Italic" stylemapfamilyname="Gentium Book" stylemapstylename="italic" stylename="Italic" postscriptfontname="GentiumBook-Italic">
             <location>
                 <dimension name="weight" xvalue="500.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -47,7 +47,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-MediumItalic.ufo" name="Gentium Book Plus Medium Italic" stylemapfamilyname="Gentium Book Plus Medium" stylemapstylename="italic" stylename="Medium Italic" postscriptfontname="GentiumBookPlus-MediumItalic">
+        <instance familyname="Gentium Book" filename="instances/GentiumBook-MediumItalic.ufo" name="Gentium Book Medium Italic" stylemapfamilyname="Gentium Book Medium" stylemapstylename="italic" stylename="Medium Italic" postscriptfontname="GentiumBook-MediumItalic">
             <location>
                 <dimension name="weight" xvalue="600.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -56,7 +56,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-SemiBoldItalic.ufo" name="Gentium Book Plus SemiBold Italic" stylemapfamilyname="Gentium Book Plus SemiBold" stylemapstylename="italic" stylename="SemiBold Italic" postscriptfontname="GentiumBookPlus-SemiBoldItalic">
+        <instance familyname="Gentium Book" filename="instances/GentiumBook-SemiBoldItalic.ufo" name="Gentium Book SemiBold Italic" stylemapfamilyname="Gentium Book SemiBold" stylemapstylename="italic" stylename="SemiBold Italic" postscriptfontname="GentiumBook-SemiBoldItalic">
             <location>
                 <dimension name="weight" xvalue="700.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -65,7 +65,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Gentium Book Plus" filename="instances/GentiumBookPlus-BoldItalic.ufo" name="Gentium Book Plus Bold Italic" stylemapfamilyname="Gentium Book Plus" stylemapstylename="bold italic" stylename="Bold Italic" postscriptfontname="GentiumBookPlus-BoldItalic">
+        <instance familyname="Gentium Book" filename="instances/GentiumBook-BoldItalic.ufo" name="Gentium Book Bold Italic" stylemapfamilyname="Gentium Book" stylemapstylename="bold italic" stylename="Bold Italic" postscriptfontname="GentiumBook-BoldItalic">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />

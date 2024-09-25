@@ -1,29 +1,29 @@
 #!/bin/sh
 
 echo "-----Fixing FontForge debris and normalizing UFOs..."
-psffixffglifs source/masters/GentiumPlus-Regular.ufo -p checkfix=fix          &
-psffixffglifs source/masters/GentiumPlus-ExtraBold.ufo -p checkfix=fix        &
-psffixffglifs source/masters/GentiumPlus-Italic.ufo -p checkfix=fix           &
-psffixffglifs source/masters/GentiumPlus-ExtraBoldItalic.ufo -p checkfix=fix  &
+psffixffglifs source/masters/Gentium-Regular.ufo -p checkfix=fix          &
+psffixffglifs source/masters/Gentium-ExtraBold.ufo -p checkfix=fix        &
+psffixffglifs source/masters/Gentium-Italic.ufo -p checkfix=fix           &
+psffixffglifs source/masters/Gentium-ExtraBoldItalic.ufo -p checkfix=fix  &
 wait
 
 echo "-----Updating production names in Regular..."
-psfsetpsnames -q -p checkfix=fix -i source/glyph_data.csv source/masters/GentiumPlus-Regular.ufo -p backup=False -x
+psfsetpsnames -q -p checkfix=fix -i source/glyph_data.csv source/masters/Gentium-Regular.ufo -p backup=False -x
 
 echo "-----Updating glyph orders in Regular..."
-psfsetglyphorder -q --header sort_final_cdg -i source/glyph_data.csv source/masters/GentiumPlus-Regular.ufo -p backup=False -x
+psfsetglyphorder -q --header sort_final_cdg -i source/glyph_data.csv source/masters/Gentium-Regular.ufo -p backup=False -x
 
 echo "-----Rebuilding composites..."
-psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlus-Regular.ufo -p backup=False
-psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlus-ExtraBold.ufo -p backup=False
-psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlus-Italic.ufo -p backup=False
-psfbuildcomp -i source/composites.txt -c -n source/masters/GentiumPlus-ExtraBoldItalic.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/Gentium-Regular.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/Gentium-ExtraBold.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/Gentium-Italic.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/Gentium-ExtraBoldItalic.ufo -p backup=False
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters -q source/GentiumPlusRoman.designspace source/GentiumPlusItalic.designspace
+psfsyncmasters -q source/GentiumRoman.designspace source/GentiumItalic.designspace
 
 # echo "-----Updating woff metadata file..."
-# psfmakewoffmetadata -q -n "gentiumplus" -i "org.sil.fonts" -o source/gentiumplus-WOFF-metadata.xml source/masters/GentiumPlus-Regular.ufo
-# psfmakewoffmetadata -q -n "gentiumbookplus" -i "org.sil.fonts" -o source/gentiumbookplus-WOFF-metadata.xml source/masters/GentiumPlus-Regular.ufo
+# psfmakewoffmetadata -q -n "gentium" -i "org.sil.fonts" -o source/gentium-WOFF-metadata.xml source/masters/Gentium-Regular.ufo
+# psfmakewoffmetadata -q -n "gentiumbook" -i "org.sil.fonts" -o source/gentiumbook-WOFF-metadata.xml source/masters/Gentium-Regular.ufo
 
 echo "-----Preflight completed!"
