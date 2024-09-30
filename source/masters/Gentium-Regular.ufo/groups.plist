@@ -379,6 +379,11 @@
   </array>
   <key>public.kern1.LCapBaseR</key>
   <array>
+    <string>CyCapElMiddleHook</string>
+    <string>CyCapHardSgn</string>
+    <string>CyCapLje</string>
+    <string>CyCapSemisoftSgn</string>
+    <string>CyCapSoftSgn</string>
     <string>LtnCapR</string>
     <string>LtnCapRBarredStem</string>
     <string>LtnCapRHookTail</string>
@@ -395,6 +400,10 @@
   </array>
   <key>public.kern1.LCapCurve</key>
   <array>
+    <string>CyCapEs</string>
+    <string>CyCapEsDesc</string>
+    <string>CyCapRevZe</string>
+    <string>CyCapUkrainIe</string>
     <string>LtnCapC</string>
     <string>LtnCapCBar</string>
     <string>LtnCapOpnE</string>
@@ -410,6 +419,9 @@
   </array>
   <key>public.kern1.LCapDiagV</key>
   <array>
+    <string>CyCapStraightU</string>
+    <string>CyCapStraightUStrk</string>
+    <string>CyCapU</string>
     <string>LtnCapArchaicM</string>
     <string>LtnCapInsularS</string>
     <string>LtnCapOCurl</string>
@@ -440,6 +452,11 @@
   </array>
   <key>public.kern1.LCapDiagX</key>
   <array>
+    <string>CyCapHa</string>
+    <string>CyCapHaDesc</string>
+    <string>CyCapHaHook</string>
+    <string>CyCapHaStrk</string>
+    <string>CyCapLha</string>
     <string>LtnCapChi</string>
     <string>LtnCapEzh.RevSigmaStyle</string>
     <string>LtnCapK</string>
@@ -452,6 +469,14 @@
   </array>
   <key>public.kern1.LCapRound</key>
   <array>
+    <string>CyCapAbkhasChe</string>
+    <string>CyCapAbkhasCheDesc</string>
+    <string>CyCapE</string>
+    <string>CyCapE.MongolStyle</string>
+    <string>CyCapEf</string>
+    <string>CyCapFita</string>
+    <string>CyCapO</string>
+    <string>CyCapYu</string>
     <string>LtnBilabialClick</string>
     <string>LtnCapAODigraph</string>
     <string>LtnCapAfricanD</string>
@@ -464,7 +489,6 @@
     <string>LtnCapHalfH</string>
     <string>LtnCapHwair</string>
     <string>LtnCapInsularD</string>
-    <string>LtnCapLigOe</string>
     <string>LtnCapO</string>
     <string>LtnCapOHorn</string>
     <string>LtnCapOLngStrk</string>
@@ -494,6 +518,8 @@
   </array>
   <key>public.kern1.LCapTopP</key>
   <array>
+    <string>CyCapEr</string>
+    <string>CyCapErTick</string>
     <string>LtnCapF</string>
     <string>LtnCapFHook</string>
     <string>LtnCapFHookStrk</string>
@@ -507,7 +533,14 @@
   </array>
   <key>public.kern1.LCapTopT</key>
   <array>
+    <string>CyCapGhe</string>
+    <string>CyCapGheDesc</string>
+    <string>CyCapGheStrk</string>
+    <string>CyCapGheStrkDesc</string>
+    <string>CyCapGheStrkHook</string>
+    <string>CyCapGheUpturn</string>
     <string>CyCapTe</string>
+    <string>CyCapTeDesc</string>
     <string>LtnCapGlottalStop</string>
     <string>LtnCapT</string>
     <string>LtnCapTDiagStrk</string>
@@ -544,6 +577,10 @@
   </array>
   <key>public.kern1.LSmCurve</key>
   <array>
+    <string>CySmA</string>
+    <string>CySmDje</string>
+    <string>CySmShhaDesc</string>
+    <string>CySmTshe</string>
     <string>LtnInvGlottalStopStrk</string>
     <string>LtnSmA</string>
     <string>LtnSmAADigraph</string>
@@ -686,6 +723,15 @@
   </array>
   <key>public.kern1.LSmDiagTrndV</key>
   <array>
+    <string>CySmElMiddleHook</string>
+    <string>CySmEnMiddleHook</string>
+    <string>CySmHardSgn</string>
+    <string>CySmLje</string>
+    <string>CySmNje</string>
+    <string>CySmPeMiddleHook</string>
+    <string>CySmSemisoftSgn</string>
+    <string>CySmShha.UCStyle</string>
+    <string>CySmSoftSgn</string>
     <string>LtnSmCapA</string>
     <string>LtnSmCapL</string>
     <string>LtnSmCapLBelt</string>
@@ -706,6 +752,9 @@
   </array>
   <key>public.kern1.LSmDiagV</key>
   <array>
+    <string>CySmStraightU</string>
+    <string>CySmStraightUStrk</string>
+    <string>CySmU</string>
     <string>LtnSmAVDigraph</string>
     <string>LtnSmAYDigraph</string>
     <string>LtnSmCapT</string>
@@ -751,6 +800,11 @@
   </array>
   <key>public.kern1.LSmDiagX</key>
   <array>
+    <string>CySmHa</string>
+    <string>CySmHaDesc</string>
+    <string>CySmHaHook</string>
+    <string>CySmHaStrk</string>
+    <string>CySmLha</string>
     <string>LtnGlottalStop</string>
     <string>LtnGlottalStopStrk</string>
     <string>LtnRevGlottalStop</string>
@@ -770,6 +824,17 @@
   </array>
   <key>public.kern1.LSmRound</key>
   <array>
+    <string>CySmAbkhasChe</string>
+    <string>CySmAbkhasCheDesc</string>
+    <string>CySmE</string>
+    <string>CySmE.MongolStyle</string>
+    <string>CySmEf</string>
+    <string>CySmEr</string>
+    <string>CySmFita</string>
+    <string>CySmIe</string>
+    <string>CySmO</string>
+    <string>CySmYae</string>
+    <string>CySmYu</string>
     <string>LtnInvGlottalStop</string>
     <string>LtnInvGlottalStopCurl</string>
     <string>LtnSmAODigraph</string>
@@ -834,6 +899,65 @@
   </array>
   <key>public.kern1.LSmSerif</key>
   <array>
+    <string>CySmAleutKa</string>
+    <string>CySmBashkirKa</string>
+    <string>CySmChe</string>
+    <string>CySmCheDesc</string>
+    <string>CySmCheVertStrk</string>
+    <string>CySmDe</string>
+    <string>CySmDe.Serb</string>
+    <string>CySmDeCheLig</string>
+    <string>CySmDeZheLig</string>
+    <string>CySmDze</string>
+    <string>CySmDzhe</string>
+    <string>CySmEl</string>
+    <string>CySmElDesc</string>
+    <string>CySmElHook</string>
+    <string>CySmElTail</string>
+    <string>CySmEm</string>
+    <string>CySmEmTail</string>
+    <string>CySmEn</string>
+    <string>CySmEnDesc</string>
+    <string>CySmEnHook</string>
+    <string>CySmEnLftHook</string>
+    <string>CySmEnTail</string>
+    <string>CySmEs</string>
+    <string>CySmEsDesc</string>
+    <string>CySmGhe</string>
+    <string>CySmGhe.Serb</string>
+    <string>CySmGheDesc</string>
+    <string>CySmGheMiddleHook</string>
+    <string>CySmGheStrk</string>
+    <string>CySmGheStrk.SItal</string>
+    <string>CySmGheStrkDesc</string>
+    <string>CySmGheStrkDesc.SItal</string>
+    <string>CySmGheStrkHook</string>
+    <string>CySmGheStrkHook.SItal</string>
+    <string>CySmGheUpturn</string>
+    <string>CySmI</string>
+    <string>CySmIzhitsa</string>
+    <string>CySmKa</string>
+    <string>CySmKaDesc</string>
+    <string>CySmKaHook</string>
+    <string>CySmKaStrk</string>
+    <string>CySmKaVertStrk</string>
+    <string>CySmKhakasChe</string>
+    <string>CySmLigEnGhe</string>
+    <string>CySmLigTeTse</string>
+    <string>CySmPe</string>
+    <string>CySmPe.Serb</string>
+    <string>CySmPeDesc</string>
+    <string>CySmRevZe</string>
+    <string>CySmSha</string>
+    <string>CySmShcha</string>
+    <string>CySmShortITail</string>
+    <string>CySmTe</string>
+    <string>CySmTe.Serb</string>
+    <string>CySmTeDesc</string>
+    <string>CySmTse</string>
+    <string>CySmUkrainIe</string>
+    <string>CySmZhe</string>
+    <string>CySmZheDesc</string>
     <string>LtnSmC</string>
     <string>LtnSmCBar</string>
     <string>LtnSmCCurl</string>
@@ -879,6 +1003,7 @@
   </array>
   <key>public.kern1.LSmTopF</key>
   <array>
+    <string>CySmYi</string>
     <string>LtnSmCHook</string>
     <string>LtnSmCapGHook</string>
     <string>LtnSmDHook</string>
@@ -1182,6 +1307,8 @@
   </array>
   <key>public.kern2.RCapDiagV</key>
   <array>
+    <string>CyCapIzhitsa</string>
+    <string>CyCapStraightU</string>
     <string>CyCapStraightUStrk</string>
     <string>LtnCapLTrnd</string>
     <string>LtnCapRamsHorn</string>
@@ -1207,6 +1334,10 @@
   </array>
   <key>public.kern2.RCapDiagX</key>
   <array>
+    <string>CyCapHa</string>
+    <string>CyCapHaDesc</string>
+    <string>CyCapHaHook</string>
+    <string>CyCapHaStrk</string>
     <string>LtnCapChi</string>
     <string>LtnCapEsh</string>
     <string>LtnCapSmCapI</string>
@@ -1218,6 +1349,14 @@
   </array>
   <key>public.kern2.RCapRound</key>
   <array>
+    <string>CyCapAbkhasHa</string>
+    <string>CyCapEf</string>
+    <string>CyCapEs</string>
+    <string>CyCapEsDesc</string>
+    <string>CyCapFita</string>
+    <string>CyCapKomiSje</string>
+    <string>CyCapO</string>
+    <string>CyCapUkrainIe</string>
     <string>LtnBilabialClick</string>
     <string>LtnCapC</string>
     <string>LtnCapCHook</string>
@@ -1225,6 +1364,7 @@
     <string>LtnCapG</string>
     <string>LtnCapGHook</string>
     <string>LtnCapGStrk</string>
+    <string>LtnCapLigOe</string>
     <string>LtnCapO</string>
     <string>LtnCapOCurl</string>
     <string>LtnCapOHorn</string>
@@ -1249,6 +1389,7 @@
   </array>
   <key>public.kern2.RCapTopS</key>
   <array>
+    <string>CyCapDze</string>
     <string>LtnCapS</string>
     <string>LtnCapSDiagStrk</string>
     <string>LtnCapSHook</string>
@@ -1258,7 +1399,12 @@
   </array>
   <key>public.kern2.RCapTopT</key>
   <array>
+    <string>CyCapDje</string>
+    <string>CyCapKomiTje</string>
+    <string>CyCapLigTeTse</string>
     <string>CyCapTe</string>
+    <string>CyCapTeDesc</string>
+    <string>CyCapTshe</string>
     <string>LtnCapBHook</string>
     <string>LtnCapDHook</string>
     <string>LtnCapDStrkHook</string>
@@ -1306,6 +1452,13 @@
   </array>
   <key>public.kern2.RSmAsc</key>
   <array>
+    <string>CySmBe</string>
+    <string>CySmBe.Serb</string>
+    <string>CySmDje</string>
+    <string>CySmKaStrk</string>
+    <string>CySmShhaDesc</string>
+    <string>CySmTshe</string>
+    <string>CySmYi</string>
     <string>LtnGlottalStop</string>
     <string>LtnGlottalStopStrk</string>
     <string>LtnInvGlottalStop</string>
@@ -1413,6 +1566,8 @@
   </array>
   <key>public.kern2.RSmCurve</key>
   <array>
+    <string>CySmA</string>
+    <string>CySmRevZe</string>
     <string>LtnSmA</string>
     <string>LtnSmAADigraph</string>
     <string>LtnSmAODigraph</string>
@@ -1487,6 +1642,7 @@
   </array>
   <key>public.kern2.RSmDiagV</key>
   <array>
+    <string>CySmIzhitsa</string>
     <string>LtnSmCapT</string>
     <string>LtnSmCapTrndR</string>
     <string>LtnSmCapV</string>
@@ -1520,6 +1676,10 @@
   </array>
   <key>public.kern2.RSmDiagX</key>
   <array>
+    <string>CySmHa</string>
+    <string>CySmHaDesc</string>
+    <string>CySmHaHook</string>
+    <string>CySmHaStrk</string>
     <string>LtnSmCapTurnedK</string>
     <string>LtnSmChi</string>
     <string>LtnSmRevK</string>
@@ -1532,6 +1692,9 @@
   </array>
   <key>public.kern2.RSmDiagY</key>
   <array>
+    <string>CySmStraightU</string>
+    <string>CySmStraightUStrk</string>
+    <string>CySmU</string>
     <string>LtnSmGamma</string>
     <string>LtnSmVYDigraph</string>
     <string>LtnSmY</string>
@@ -1543,6 +1706,17 @@
   </array>
   <key>public.kern2.RSmRound</key>
   <array>
+    <string>CySmAbkhasHa</string>
+    <string>CySmEf</string>
+    <string>CySmEs</string>
+    <string>CySmEsDesc</string>
+    <string>CySmFita</string>
+    <string>CySmIe</string>
+    <string>CySmKomiDe</string>
+    <string>CySmKomiDje</string>
+    <string>CySmKomiSje</string>
+    <string>CySmO</string>
+    <string>CySmUkrainIe</string>
     <string>LtnSmAOgonek.SngStory.RetroHook</string>
     <string>LtnSmAStrk.SngStory</string>
     <string>LtnSmAlpha</string>
@@ -1627,6 +1801,67 @@
   </array>
   <key>public.kern2.RSmSerif</key>
   <array>
+    <string>CySmAleutKa</string>
+    <string>CySmBashkirKa</string>
+    <string>CySmChe</string>
+    <string>CySmCheDesc</string>
+    <string>CySmCheVertStrk</string>
+    <string>CySmDzhe</string>
+    <string>CySmE</string>
+    <string>CySmE.MongolStyle</string>
+    <string>CySmEm</string>
+    <string>CySmEmTail</string>
+    <string>CySmEn</string>
+    <string>CySmEnDesc</string>
+    <string>CySmEnHook</string>
+    <string>CySmEnLftHook</string>
+    <string>CySmEnMiddleHook</string>
+    <string>CySmEnTail</string>
+    <string>CySmEr</string>
+    <string>CySmErTick</string>
+    <string>CySmGhe</string>
+    <string>CySmGhe.Serb</string>
+    <string>CySmGheDesc</string>
+    <string>CySmGheMiddleHook</string>
+    <string>CySmGheStrk</string>
+    <string>CySmGheStrk.SItal</string>
+    <string>CySmGheStrkDesc</string>
+    <string>CySmGheStrkDesc.SItal</string>
+    <string>CySmGheStrkHook</string>
+    <string>CySmGheStrkHook.SItal</string>
+    <string>CySmGheUpturn</string>
+    <string>CySmI</string>
+    <string>CySmKa</string>
+    <string>CySmKaDesc</string>
+    <string>CySmKaHook</string>
+    <string>CySmKaVertStrk</string>
+    <string>CySmKhakasChe</string>
+    <string>CySmKomiNje</string>
+    <string>CySmKomiTje</string>
+    <string>CySmLigEnGhe</string>
+    <string>CySmLigTeTse</string>
+    <string>CySmNje</string>
+    <string>CySmPe</string>
+    <string>CySmPe.Serb</string>
+    <string>CySmPeDesc</string>
+    <string>CySmPeMiddleHook</string>
+    <string>CySmRha</string>
+    <string>CySmSemisoftSgn</string>
+    <string>CySmSha</string>
+    <string>CySmShcha</string>
+    <string>CySmShha.UCStyle</string>
+    <string>CySmShortITail</string>
+    <string>CySmSoftSgn</string>
+    <string>CySmTe</string>
+    <string>CySmTe.Serb</string>
+    <string>CySmTeDesc</string>
+    <string>CySmTse</string>
+    <string>CySmVe</string>
+    <string>CySmYa</string>
+    <string>CySmYeru</string>
+    <string>CySmYu</string>
+    <string>CySmZhe</string>
+    <string>CySmZheDesc</string>
     <string>LtnSmCapEzh</string>
     <string>LtnSmCapInvR</string>
     <string>LtnSmCapP</string>
@@ -1691,6 +1926,7 @@
   </array>
   <key>public.kern2.RSmSerifDesc</key>
   <array>
+    <string>CySmDeCheLig</string>
     <string>LtnSmEng</string>
     <string>LtnSmEngPalHook</string>
     <string>LtnSmEzh</string>
