@@ -393,7 +393,11 @@
   <array>
     <string>LtnCapAUDigraph</string>
     <string>LtnCapU</string>
+    <string>LtnCapUAcute</string>
     <string>LtnCapUBar</string>
+    <string>LtnCapUCircum</string>
+    <string>LtnCapUDiaer</string>
+    <string>LtnCapUGrave</string>
     <string>LtnCapUOgonek</string>
     <string>LtnCapUOgonek.RetroHook</string>
     <string>LtnCapUStrk</string>
@@ -406,6 +410,7 @@
     <string>CyCapUkrainIe</string>
     <string>LtnCapC</string>
     <string>LtnCapCBar</string>
+    <string>LtnCapCCedilla</string>
     <string>LtnCapOpnE</string>
   </array>
   <key>public.kern1.LCapDiagA</key>
@@ -413,7 +418,13 @@
     <string>CyCapA</string>
     <string>LtnCapA</string>
     <string>LtnCapAADigraph</string>
+    <string>LtnCapAAcute</string>
+    <string>LtnCapACircum</string>
+    <string>LtnCapADiaer</string>
+    <string>LtnCapAGrave</string>
     <string>LtnCapAOgonek.RetroHook</string>
+    <string>LtnCapARingAbv</string>
+    <string>LtnCapATilde</string>
     <string>LtnCapTurnedT</string>
     <string>LtnCapTurnedV</string>
   </array>
@@ -433,6 +444,7 @@
     <string>LtnCapVHook.StraightLftHighHook</string>
     <string>LtnCapVend</string>
     <string>LtnCapY</string>
+    <string>LtnCapYDiaer</string>
     <string>LtnCapYHook</string>
     <string>LtnCapYLoop</string>
     <string>LtnCapYStrk</string>
@@ -490,11 +502,16 @@
     <string>LtnCapHwair</string>
     <string>LtnCapInsularD</string>
     <string>LtnCapO</string>
+    <string>LtnCapOAcute</string>
+    <string>LtnCapOCircum</string>
+    <string>LtnCapODiaer</string>
+    <string>LtnCapOGrave</string>
     <string>LtnCapOHorn</string>
     <string>LtnCapOLngStrk</string>
     <string>LtnCapOMiddleTilde</string>
     <string>LtnCapOODigraph</string>
     <string>LtnCapOOgonek.RetroHook</string>
+    <string>LtnCapOTilde</string>
     <string>LtnCapOmega</string>
     <string>LtnCapOpnO</string>
     <string>LtnCapOpnO.TopSerif</string>
@@ -618,6 +635,20 @@
     <string>LtnVcdLrynglSpirant</string>
     <string>LtnWynn</string>
     <string>SmRomNumOneThousand</string>
+  </array>
+  <key>public.kern1.LSmCurveDiac</key>
+  <array>
+    <string>LtnSmAAcute</string>
+    <string>LtnSmACircum</string>
+    <string>LtnSmADiaer</string>
+    <string>LtnSmAGrave</string>
+    <string>LtnSmARingAbv</string>
+    <string>LtnSmATilde</string>
+    <string>LtnSmNTilde</string>
+    <string>LtnSmUAcute</string>
+    <string>LtnSmUCircum</string>
+    <string>LtnSmUDiaer</string>
+    <string>LtnSmUGrave</string>
   </array>
   <key>public.kern1.LSmDesc</key>
   <array>
@@ -798,6 +829,10 @@
     <string>SmRomNumFive</string>
     <string>SmRomNumFour</string>
   </array>
+  <key>public.kern1.LSmDiagVDiac</key>
+  <array>
+    <string>LtnSmYDiaer</string>
+  </array>
   <key>public.kern1.LSmDiagX</key>
   <array>
     <string>CySmHa</string>
@@ -897,6 +932,18 @@
     <string>LtnSmUe</string>
     <string>LtnSmVHook</string>
   </array>
+  <key>public.kern1.LSmRoundDiac</key>
+  <array>
+    <string>LtnSmEAcute</string>
+    <string>LtnSmECircum</string>
+    <string>LtnSmEDiaer</string>
+    <string>LtnSmEGrave</string>
+    <string>LtnSmOAcute</string>
+    <string>LtnSmOCircum</string>
+    <string>LtnSmODiaer</string>
+    <string>LtnSmOGrave</string>
+    <string>LtnSmOTilde</string>
+  </array>
   <key>public.kern1.LSmSerif</key>
   <array>
     <string>CySmAleutKa</string>
@@ -960,6 +1007,7 @@
     <string>CySmZheDesc</string>
     <string>LtnSmC</string>
     <string>LtnSmCBar</string>
+    <string>LtnSmCCedilla</string>
     <string>LtnSmCCurl</string>
     <string>LtnSmCapC</string>
     <string>LtnSmCapEzh</string>
@@ -1281,7 +1329,11 @@
   <key>public.kern2.RCapBaseU</key>
   <array>
     <string>LtnCapU</string>
+    <string>LtnCapUAcute</string>
     <string>LtnCapUBar</string>
+    <string>LtnCapUCircum</string>
+    <string>LtnCapUDiaer</string>
+    <string>LtnCapUGrave</string>
     <string>LtnCapUHorn</string>
     <string>LtnCapUOgonek</string>
     <string>LtnCapUOgonek.RetroHook</string>
@@ -1293,9 +1345,15 @@
     <string>CyCapA</string>
     <string>LtnCapA</string>
     <string>LtnCapAADigraph</string>
+    <string>LtnCapAAcute</string>
+    <string>LtnCapACircum</string>
+    <string>LtnCapADiaer</string>
+    <string>LtnCapAGrave</string>
     <string>LtnCapAODigraph</string>
     <string>LtnCapAOgonek.RetroHook</string>
+    <string>LtnCapARingAbv</string>
     <string>LtnCapAStrk</string>
+    <string>LtnCapATilde</string>
     <string>LtnCapAUDigraph</string>
     <string>LtnCapAVDigraph</string>
     <string>LtnCapAVDigraphStrk</string>
@@ -1317,6 +1375,7 @@
     <string>LtnCapVHook.StraightLft</string>
     <string>LtnCapVHook.StraightLftHighHook</string>
     <string>LtnCapY</string>
+    <string>LtnCapYDiaer</string>
     <string>LtnCapYHook.RtHook</string>
     <string>LtnCapYStrk</string>
     <string>RomNumEight</string>
@@ -1359,6 +1418,7 @@
     <string>CyCapUkrainIe</string>
     <string>LtnBilabialClick</string>
     <string>LtnCapC</string>
+    <string>LtnCapCCedilla</string>
     <string>LtnCapCHook</string>
     <string>LtnCapCStrk</string>
     <string>LtnCapG</string>
@@ -1366,12 +1426,17 @@
     <string>LtnCapGStrk</string>
     <string>LtnCapLigOe</string>
     <string>LtnCapO</string>
+    <string>LtnCapOAcute</string>
+    <string>LtnCapOCircum</string>
     <string>LtnCapOCurl</string>
+    <string>LtnCapODiaer</string>
+    <string>LtnCapOGrave</string>
     <string>LtnCapOHorn</string>
     <string>LtnCapOLngStrk</string>
     <string>LtnCapOMiddleTilde</string>
     <string>LtnCapOODigraph</string>
     <string>LtnCapOOgonek.RetroHook</string>
+    <string>LtnCapOTilde</string>
     <string>LtnCapOi</string>
     <string>LtnCapOmega</string>
     <string>LtnCapOpnE</string>
@@ -1607,6 +1672,15 @@
     <string>LtnSmSPalHook</string>
     <string>LtnSmTresillo</string>
   </array>
+  <key>public.kern2.RSmCurveDiac</key>
+  <array>
+    <string>LtnSmAAcute</string>
+    <string>LtnSmACircum</string>
+    <string>LtnSmADiaer</string>
+    <string>LtnSmAGrave</string>
+    <string>LtnSmARingAbv</string>
+    <string>LtnSmATilde</string>
+  </array>
   <key>public.kern2.RSmDescJ</key>
   <array>
     <string>LtnSmDotlessJStrk</string>
@@ -1698,6 +1772,7 @@
     <string>LtnSmGamma</string>
     <string>LtnSmVYDigraph</string>
     <string>LtnSmY</string>
+    <string>LtnSmYDiaer</string>
     <string>LtnSmYHook.RtHook</string>
     <string>LtnSmYLoop</string>
     <string>LtnSmYOgonek</string>
@@ -1723,6 +1798,7 @@
     <string>LtnSmAlphaRetrHook</string>
     <string>LtnSmBarredO</string>
     <string>LtnSmC</string>
+    <string>LtnSmCCedilla</string>
     <string>LtnSmCCurl</string>
     <string>LtnSmCHook</string>
     <string>LtnSmCPalHook</string>
@@ -1798,6 +1874,18 @@
     <string>LtnSmORetrHook</string>
     <string>LtnSmScriptGPalHook</string>
     <string>LtnSmTrndDelta</string>
+  </array>
+  <key>public.kern2.RSmRoundDiac</key>
+  <array>
+    <string>LtnSmEAcute</string>
+    <string>LtnSmECircum</string>
+    <string>LtnSmEDiaer</string>
+    <string>LtnSmEGrave</string>
+    <string>LtnSmOAcute</string>
+    <string>LtnSmOCircum</string>
+    <string>LtnSmODiaer</string>
+    <string>LtnSmOGrave</string>
+    <string>LtnSmOTilde</string>
   </array>
   <key>public.kern2.RSmSerif</key>
   <array>
@@ -1885,6 +1973,7 @@
     <string>LtnSmNMiddleTilde</string>
     <string>LtnSmNPalHook</string>
     <string>LtnSmNRetrHook</string>
+    <string>LtnSmNTilde</string>
     <string>LtnSmNum</string>
     <string>LtnSmR</string>
     <string>LtnSmRBar</string>
@@ -1902,7 +1991,11 @@
     <string>LtnSmTurnedMLngLeg</string>
     <string>LtnSmTurnedT</string>
     <string>LtnSmU</string>
+    <string>LtnSmUAcute</string>
     <string>LtnSmUBar</string>
+    <string>LtnSmUCircum</string>
+    <string>LtnSmUDiaer</string>
+    <string>LtnSmUGrave</string>
     <string>LtnSmUHorn</string>
     <string>LtnSmUOgonek</string>
     <string>LtnSmUOgonek.RetroHook</string>
