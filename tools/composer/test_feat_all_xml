@@ -2,5 +2,5 @@
 #  and that build_feat_all_xml has been ran
 
 typetuner -t createset feat_all_composer_yaml.xml feat_set_test.xml
-psftuneraliases -m GentiumPlus-Regular.map -f GentiumPlus-Regular.ttf feat_all_composer_yaml.xml feat_all_composer_yaml_aliases.xml
-typetuner -d applyset_xml feat_all_composer_yaml_aliases.xml feat_set_test.xml GentiumPlus-Regular.ttf > typetuner_dbg.log
+psftuneraliases -m Gentium-Regular.map -f Gentium-Regular.ttf feat_all_composer_yaml.xml feat_all_composer_yaml_aliases.xml
+typetuner -d applyset_xml feat_all_composer_yaml_aliases.xml feat_set_test.xml Gentium-Regular.ttf > typetuner_dbg.log
