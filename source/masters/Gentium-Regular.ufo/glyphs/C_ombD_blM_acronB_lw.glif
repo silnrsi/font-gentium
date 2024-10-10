@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombDblMacronBlw" format="2">
   <unicode hex="035F"/>
-  <anchor x="0" y="-800" name="L"/>
+  <anchor x="0" y="-960" name="L"/>
   <anchor x="0" y="1560" name="U"/>
   <outline>
     <contour>
-      <point x="747" y="-613"/>
-      <point x="753" y="-584" type="curve"/>
-      <point x="731" y="-560" type="line"/>
-      <point x="-712" y="-560" type="line"/>
-      <point x="-725" y="-586"/>
-      <point x="-747" y="-636"/>
-      <point x="-753" y="-665" type="curve"/>
-      <point x="-731" y="-690" type="line"/>
-      <point x="714" y="-690" type="line"/>
-      <point x="724" y="-665"/>
+      <point x="747" y="-723"/>
+      <point x="753" y="-694" type="curve"/>
+      <point x="731" y="-670" type="line"/>
+      <point x="-712" y="-670" type="line"/>
+      <point x="-725" y="-696"/>
+      <point x="-747" y="-746"/>
+      <point x="-753" y="-775" type="curve"/>
+      <point x="-731" y="-800" type="line"/>
+      <point x="714" y="-800" type="line"/>
+      <point x="724" y="-775"/>
     </contour>
   </outline>
 </glyph>
