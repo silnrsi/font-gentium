@@ -3,16 +3,16 @@
 <ftml version="1.0">
   <head>
     <fontscale>200</fontscale>
-    <fontsrc label="GR">url(../results/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="GM">url(../results/GentiumPlus-Medium.ttf)</fontsrc>
-    <fontsrc label="GS">url(../results/GentiumPlus-SemiBold.ttf)</fontsrc>
-    <fontsrc label="GB">url(../results/GentiumPlus-Bold.ttf)</fontsrc>
-    <fontsrc label="GBkB">url(../results/GentiumBookPlus-Bold.ttf)</fontsrc>
-    <fontsrc label="GI">url(../results/GentiumPlus-Italic.ttf)</fontsrc>
-    <fontsrc label="GMI">url(../results/GentiumPlus-MediumItalic.ttf)</fontsrc>
-    <fontsrc label="GSI">url(../results/GentiumPlus-SemiBoldItalic.ttf)</fontsrc>
-    <fontsrc label="GBI">url(../results/GentiumPlus-BoldItalic.ttf)</fontsrc>
-    <fontsrc label="GBkBI">url(../results/GentiumBookPlus-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="GR">url(../results/Gentium-Regular.ttf)</fontsrc>
+    <fontsrc label="GM">url(../results/Gentium-Medium.ttf)</fontsrc>
+    <fontsrc label="GS">url(../results/Gentium-SemiBold.ttf)</fontsrc>
+    <fontsrc label="GBkB">url(../results/GentiumBook-Bold.ttf)</fontsrc>
+    <fontsrc label="GB">url(../results/Gentium-Bold.ttf)</fontsrc>
+    <fontsrc label="GI">url(../results/Gentium-Italic.ttf)</fontsrc>
+    <fontsrc label="GMI">url(../results/Gentium-MediumItalic.ttf)</fontsrc>
+    <fontsrc label="GSI">url(../results/Gentium-SemiBoldItalic.ttf)</fontsrc>
+    <fontsrc label="GBkBI">url(../results/GentiumBook-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="GBI">url(../results/Gentium-BoldItalic.ttf)</fontsrc>
     <fontsrc label="GRv6">url(../references/v6200/GentiumPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GIv6">url(../references/v6200/GentiumPlus-Italic.ttf)</fontsrc>
     <styles>
@@ -2571,6 +2571,10 @@
     <test label="U+03C9">
       <comment>GrSmOmega</comment>
       <string>\u0003C9\u000329 \u0003C9\u00030D</string>
+    </test>
+    <test label="U+03D1">
+      <comment>GrThetaSym</comment>
+      <string>\u0003D1\u00030D</string>
     </test>
     <test label="U+03D2">
       <comment>GrUpsilonWHookSym</comment>
@@ -5500,9 +5504,93 @@
       <comment>LtnSmYLoop</comment>
       <string>\u001EFF\u000329 \u001EFF\u000328 \u001EFF\u000315 \u001EFF\u00030D</string>
     </test>
+    <test label="U+1F08">
+      <comment>GrCapAlphaWPsili</comment>
+      <string>\u001F08\u00030D</string>
+    </test>
+    <test label="U+1F09">
+      <comment>GrCapAlphaWDasia</comment>
+      <string>\u001F09\u00030D</string>
+    </test>
+    <test label="U+1F0A">
+      <comment>GrCapAlphaWPsiliVaria</comment>
+      <string>\u001F0A\u00030D</string>
+    </test>
+    <test label="U+1F0B">
+      <comment>GrCapAlphaWDasiaVaria</comment>
+      <string>\u001F0B\u00030D</string>
+    </test>
+    <test label="U+1F0C">
+      <comment>GrCapAlphaWPsiliOxia</comment>
+      <string>\u001F0C\u00030D</string>
+    </test>
+    <test label="U+1F0D">
+      <comment>GrCapAlphaWDasiaOxia</comment>
+      <string>\u001F0D\u00030D</string>
+    </test>
+    <test label="U+1F38">
+      <comment>GrCapIotaWPsili</comment>
+      <string>\u001F38\u00030D</string>
+    </test>
+    <test label="U+1F39">
+      <comment>GrCapIotaWDasia</comment>
+      <string>\u001F39\u00030D</string>
+    </test>
+    <test label="U+1F3A">
+      <comment>GrCapIotaWPsiliVaria</comment>
+      <string>\u001F3A\u00030D</string>
+    </test>
+    <test label="U+1F3B">
+      <comment>GrCapIotaWDasiaVaria</comment>
+      <string>\u001F3B\u00030D</string>
+    </test>
+    <test label="U+1F3C">
+      <comment>GrCapIotaWPsiliOxia</comment>
+      <string>\u001F3C\u00030D</string>
+    </test>
+    <test label="U+1F3D">
+      <comment>GrCapIotaWDasiaOxia</comment>
+      <string>\u001F3D\u00030D</string>
+    </test>
+    <test label="U+1F59">
+      <comment>GrCapUpsilonWDasia</comment>
+      <string>\u001F59\u00030D</string>
+    </test>
+    <test label="U+1F5B">
+      <comment>GrCapUpsilonWDasiaVaria</comment>
+      <string>\u001F5B\u00030D</string>
+    </test>
+    <test label="U+1F5D">
+      <comment>GrCapUpsilonWDasiaOxia</comment>
+      <string>\u001F5D\u00030D</string>
+    </test>
+    <test label="U+1FBA">
+      <comment>GrCapAlphaWVaria</comment>
+      <string>\u001FBA\u00030D</string>
+    </test>
+    <test label="U+1FBB">
+      <comment>GrCapAlphaWOxia</comment>
+      <string>\u001FBB\u00030D</string>
+    </test>
     <test label="U+1FBE">
       <comment>GrPros</comment>
       <string>\u001FBE\u00030D</string>
+    </test>
+    <test label="U+1FDA">
+      <comment>GrCapIotaWVaria</comment>
+      <string>\u001FDA\u00030D</string>
+    </test>
+    <test label="U+1FDB">
+      <comment>GrCapIotaWOxia</comment>
+      <string>\u001FDB\u00030D</string>
+    </test>
+    <test label="U+1FEA">
+      <comment>GrCapUpsilonWVaria</comment>
+      <string>\u001FEA\u00030D</string>
+    </test>
+    <test label="U+1FEB">
+      <comment>GrCapUpsilonWOxia</comment>
+      <string>\u001FEB\u00030D</string>
     </test>
     <test label="U+2000">
       <comment>EnQuad</comment>

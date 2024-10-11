@@ -3,16 +3,16 @@
 <ftml version="1.0">
   <head>
     <fontscale>200</fontscale>
-    <fontsrc label="GR">url(../results/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="GM">url(../results/GentiumPlus-Medium.ttf)</fontsrc>
-    <fontsrc label="GS">url(../results/GentiumPlus-SemiBold.ttf)</fontsrc>
-    <fontsrc label="GB">url(../results/GentiumPlus-Bold.ttf)</fontsrc>
-    <fontsrc label="GBkB">url(../results/GentiumBookPlus-Bold.ttf)</fontsrc>
-    <fontsrc label="GI">url(../results/GentiumPlus-Italic.ttf)</fontsrc>
-    <fontsrc label="GMI">url(../results/GentiumPlus-MediumItalic.ttf)</fontsrc>
-    <fontsrc label="GSI">url(../results/GentiumPlus-SemiBoldItalic.ttf)</fontsrc>
-    <fontsrc label="GBI">url(../results/GentiumPlus-BoldItalic.ttf)</fontsrc>
-    <fontsrc label="GBkBI">url(../results/GentiumBookPlus-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="GR">url(../results/Gentium-Regular.ttf)</fontsrc>
+    <fontsrc label="GM">url(../results/Gentium-Medium.ttf)</fontsrc>
+    <fontsrc label="GS">url(../results/Gentium-SemiBold.ttf)</fontsrc>
+    <fontsrc label="GBkB">url(../results/GentiumBook-Bold.ttf)</fontsrc>
+    <fontsrc label="GB">url(../results/Gentium-Bold.ttf)</fontsrc>
+    <fontsrc label="GI">url(../results/Gentium-Italic.ttf)</fontsrc>
+    <fontsrc label="GMI">url(../results/Gentium-MediumItalic.ttf)</fontsrc>
+    <fontsrc label="GSI">url(../results/Gentium-SemiBoldItalic.ttf)</fontsrc>
+    <fontsrc label="GBkBI">url(../results/GentiumBook-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="GBI">url(../results/Gentium-BoldItalic.ttf)</fontsrc>
     <fontsrc label="GRv6">url(../references/v6200/GentiumPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GIv6">url(../references/v6200/GentiumPlus-Italic.ttf)</fontsrc>
     <styles>
@@ -20,6 +20,7 @@
       <style feats="'cv13' 1" name="cv13_1"/>
       <style feats="'cv13' 1, 'smcp' 1" name="cv13_1_smcp_1"/>
       <style feats="'cv14' 1" name="cv14_1"/>
+      <style feats="'cv14' 1, 'smcp' 1" name="cv14_1_smcp_1"/>
       <style feats="'cv17' 1" name="cv17_1"/>
       <style feats="'cv17' 1, 'smcp' 1" name="cv17_1_smcp_1"/>
       <style feats="'cv19' 1" name="cv19_1"/>
@@ -1941,6 +1942,16 @@ U+0039" stylename="sups_1">
     <test label="U+0253" stylename="cv13_1_smcp_1">
       <comment>LtnSmBHook</comment>
       <string>\u000253</string>
+    </test>
+  </testgroup>
+  <testgroup label="cv14 smcp">
+    <test label="U+03B2">
+      <comment>GrSmBeta</comment>
+      <string>\u0003B2</string>
+    </test>
+    <test label="U+03B2" stylename="cv14_1_smcp_1">
+      <comment>GrSmBeta</comment>
+      <string>\u0003B2</string>
     </test>
   </testgroup>
   <testgroup label="cv17 smcp">
