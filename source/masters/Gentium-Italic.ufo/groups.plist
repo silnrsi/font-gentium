@@ -752,8 +752,11 @@
     <string>CySmShha</string>
     <string>CySmShhaDesc</string>
     <string>CySmTshe</string>
+    <string>CySmZe</string>
+    <string>CySmZeDesc</string>
     <string>LtnInvGlottalStopStrk</string>
     <string>LtnSmA</string>
+    <string>LtnSmA.2StorySItal</string>
     <string>LtnSmAADigraph</string>
     <string>LtnSmADotBlw</string>
     <string>LtnSmADotBlw.2StorySItal</string>
@@ -799,9 +802,12 @@
     <string>LtnSmNMidLftHook</string>
     <string>LtnSmNMiddleTilde</string>
     <string>LtnSmRRotunda</string>
+    <string>LtnSmRevOpnE</string>
+    <string>LtnSmRevOpnERetrHook</string>
     <string>LtnSmTHStrk</string>
     <string>LtnSmTnTwo</string>
     <string>LtnSmTrndAe</string>
+    <string>LtnSmTrndOpnE</string>
     <string>LtnSmTurnedA</string>
     <string>LtnSmTurnedM</string>
     <string>LtnSmTurnedR</string>
@@ -1221,6 +1227,37 @@
     <string>LtnSmYOgonek.RetroHook</string>
     <string>LtnSmZRetrHook</string>
   </array>
+  <key>public.kern1.LSmDiacWide</key>
+  <array>
+    <string>LtnSmIBreve</string>
+    <string>LtnSmIBreve.SItal</string>
+    <string>LtnSmICaron</string>
+    <string>LtnSmICaron.LP</string>
+    <string>LtnSmICaron.SItal</string>
+    <string>LtnSmICaron.SItal.LP</string>
+    <string>LtnSmICircum</string>
+    <string>LtnSmICircum.LP</string>
+    <string>LtnSmICircum.SItal</string>
+    <string>LtnSmICircum.SItal.LP</string>
+    <string>LtnSmIDiaer</string>
+    <string>LtnSmIDiaer.LP</string>
+    <string>LtnSmIDiaer.SItal</string>
+    <string>LtnSmIDiaer.SItal.LP</string>
+    <string>LtnSmIDiaerAcute</string>
+    <string>LtnSmIDiaerAcute.LP</string>
+    <string>LtnSmIDiaerAcute.SItal</string>
+    <string>LtnSmIDiaerAcute.SItal.LP</string>
+    <string>LtnSmIInvBreve</string>
+    <string>LtnSmIInvBreve.SItal</string>
+    <string>LtnSmIMacron</string>
+    <string>LtnSmIMacron.LP</string>
+    <string>LtnSmIMacron.SItal</string>
+    <string>LtnSmIMacron.SItal.LP</string>
+    <string>LtnSmITilde</string>
+    <string>LtnSmITilde.LP</string>
+    <string>LtnSmITilde.SItal</string>
+    <string>LtnSmITilde.SItal.LP</string>
+  </array>
   <key>public.kern1.LSmDiagTrndV</key>
   <array>
     <string>CySmElMiddleHook</string>
@@ -1457,6 +1494,8 @@
     <string>LtnSmORetrHook</string>
     <string>LtnSmORingInside</string>
     <string>LtnSmOmega</string>
+    <string>LtnSmOpnORetrHook</string>
+    <string>LtnSmOpnORetrHook.TopSerif</string>
     <string>LtnSmP</string>
     <string>LtnSmPHighCurl</string>
     <string>LtnSmPLowCurl</string>
@@ -1684,6 +1723,7 @@
     <string>LtnSmKra</string>
     <string>LtnSmLSDigraph</string>
     <string>LtnSmLZDigraph</string>
+    <string>LtnSmOStrk</string>
     <string>LtnSmOpnE</string>
     <string>LtnSmS</string>
     <string>LtnSmSCurl</string>
@@ -2236,6 +2276,7 @@
     <string>LtnCapCCircum</string>
     <string>LtnCapCDotAbv</string>
     <string>LtnCapCHook</string>
+    <string>LtnCapCPalHook</string>
     <string>LtnCapCStrk</string>
     <string>LtnCapG</string>
     <string>LtnCapGAcute</string>
@@ -2558,11 +2599,13 @@
     <string>CySmLigAIe</string>
     <string>CySmRevZe</string>
     <string>LtnSmA</string>
+    <string>LtnSmA.2StorySItal</string>
     <string>LtnSmAADigraph</string>
     <string>LtnSmAODigraph</string>
     <string>LtnSmAOgonek.RetroHook</string>
     <string>LtnSmARetrHook</string>
     <string>LtnSmAStrk</string>
+    <string>LtnSmAStrk.2StorySItal</string>
     <string>LtnSmAUDigraph</string>
     <string>LtnSmAVDigraph</string>
     <string>LtnSmAVDigraphStrk</string>
@@ -2797,6 +2840,37 @@
     <string>LtnSmNLftHook</string>
     <string>LtnSmNLftHook.LCStyle</string>
     <string>LtnSmTurnedTCurl</string>
+  </array>
+  <key>public.kern2.RSmDiacWide</key>
+  <array>
+    <string>LtnSmIBreve</string>
+    <string>LtnSmIBreve.SItal</string>
+    <string>LtnSmICaron</string>
+    <string>LtnSmICaron.LP</string>
+    <string>LtnSmICaron.SItal</string>
+    <string>LtnSmICaron.SItal.LP</string>
+    <string>LtnSmICircum</string>
+    <string>LtnSmICircum.LP</string>
+    <string>LtnSmICircum.SItal</string>
+    <string>LtnSmICircum.SItal.LP</string>
+    <string>LtnSmIDiaer</string>
+    <string>LtnSmIDiaer.LP</string>
+    <string>LtnSmIDiaer.SItal</string>
+    <string>LtnSmIDiaer.SItal.LP</string>
+    <string>LtnSmIDiaerAcute</string>
+    <string>LtnSmIDiaerAcute.LP</string>
+    <string>LtnSmIDiaerAcute.SItal</string>
+    <string>LtnSmIDiaerAcute.SItal.LP</string>
+    <string>LtnSmIInvBreve</string>
+    <string>LtnSmIInvBreve.SItal</string>
+    <string>LtnSmIMacron</string>
+    <string>LtnSmIMacron.LP</string>
+    <string>LtnSmIMacron.SItal</string>
+    <string>LtnSmIMacron.SItal.LP</string>
+    <string>LtnSmITilde</string>
+    <string>LtnSmITilde.LP</string>
+    <string>LtnSmITilde.SItal</string>
+    <string>LtnSmITilde.SItal.LP</string>
   </array>
   <key>public.kern2.RSmDiagTrndV</key>
   <array>
@@ -3309,6 +3383,8 @@
     <string>CySmYeru</string>
     <string>CySmYeruDiaer</string>
     <string>CySmYu</string>
+    <string>CySmZe</string>
+    <string>CySmZeDesc</string>
     <string>CySmZhe</string>
     <string>CySmZheBreve</string>
     <string>CySmZheDesc</string>
@@ -3359,6 +3435,7 @@
     <string>LtnSmNj</string>
     <string>LtnSmNj.LP</string>
     <string>LtnSmNum</string>
+    <string>LtnSmOStrk</string>
     <string>LtnSmR</string>
     <string>LtnSmRAcute</string>
     <string>LtnSmRAcute.LP</string>
@@ -3375,9 +3452,12 @@
     <string>LtnSmRInvBreve</string>
     <string>LtnSmRMiddleTilde</string>
     <string>LtnSmRRotunda</string>
+    <string>LtnSmRevOpnE</string>
     <string>LtnSmRum</string>
     <string>LtnSmRumRotunda</string>
+    <string>LtnSmTrndOpnE</string>
     <string>LtnSmTurnedA</string>
+    <string>LtnSmTurnedA.2StorySItal</string>
     <string>LtnSmTurnedAlpha</string>
     <string>LtnSmTurnedH</string>
     <string>LtnSmTurnedM</string>
@@ -3482,6 +3562,8 @@
     <string>LtnSmInsularF</string>
     <string>LtnSmInsularR</string>
     <string>LtnSmInsularS</string>
+    <string>LtnSmOpnORetrHook</string>
+    <string>LtnSmOpnORetrHook.TopSerif</string>
     <string>LtnSmP</string>
     <string>LtnSmPAcute</string>
     <string>LtnSmPAcute.LP</string>
@@ -3501,6 +3583,7 @@
     <string>LtnSmRLineBlw</string>
     <string>LtnSmRLngLeg</string>
     <string>LtnSmRPalHook</string>
+    <string>LtnSmRevOpnERetrHook</string>
     <string>LtnSmUCircumBlw</string>
     <string>LtnSmUDiaerBlw</string>
     <string>LtnSmUDotBlw</string>
