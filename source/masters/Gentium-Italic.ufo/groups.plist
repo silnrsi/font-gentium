@@ -581,6 +581,11 @@
     <string>RomNumNine</string>
     <string>RomNumTen</string>
   </array>
+  <key>public.kern1.LCapHook</key>
+  <array>
+    <string>LtnCapWHook</string>
+    <string>LtnCapYHook.RtHook</string>
+  </array>
   <key>public.kern1.LCapRound</key>
   <array>
     <string>CyCapAbkhasChe</string>
@@ -1332,7 +1337,6 @@
     <string>LtnSmVDotBlw.SItal</string>
     <string>LtnSmVHook.StraightLft</string>
     <string>LtnSmVHook.StraightLftHighHook</string>
-    <string>LtnSmVRtHook</string>
     <string>LtnSmVYDigraph</string>
     <string>LtnSmVend</string>
     <string>LtnSmW</string>
@@ -1421,6 +1425,12 @@
     <string>LtnSmXDiaer.LP</string>
     <string>LtnSmXDotAbv</string>
     <string>LtnSmXDotAbv.LP</string>
+  </array>
+  <key>public.kern1.LSmHook</key>
+  <array>
+    <string>LtnSmVRtHook</string>
+    <string>LtnSmWHook</string>
+    <string>LtnSmYHook.RtHook</string>
   </array>
   <key>public.kern1.LSmHorn</key>
   <array>

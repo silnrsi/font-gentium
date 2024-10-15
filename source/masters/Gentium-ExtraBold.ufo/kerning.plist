@@ -1143,6 +1143,13 @@
     <key>public.kern2.RSmSerifDesc</key>
     <integer>300</integer>
   </dict>
+  <key>public.kern1.LSmDiacWide</key>
+  <dict>
+    <key>public.kern2.RSmDiacWide</key>
+    <integer>150</integer>
+    <key>public.kern2.RSmSerif</key>
+    <integer>0</integer>
+  </dict>
   <key>public.kern1.LSmDiagTrndV</key>
   <dict>
     <key>public.kern2.RQuote</key>
