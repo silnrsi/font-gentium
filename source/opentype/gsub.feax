@@ -93,6 +93,21 @@ lookup y_ognk_sub {
 
 # Handle bridging diacritics
 @c_cgj = [CombGraphemeJoiner];
+@c_takes_highmidlow_diac = [@c_takes_high_diac @c_takes_mid_diac @c_takes_low_diac];
+@c_takes_highmid_diac = [@c_takes_high_diac @c_takes_mid_diac];
+@c_takes_midlow_diac = [@c_takes_mid_diac @c_takes_low_diac];
+@c_takes_belowhighlow_diac = [@c_takes_belowhigh_diac @c_takes_belowlow_diac];
+
+def CGJSeq(n) {
+    return ["@c_cgj @_U @_L", "@c_cgj @_L @_U", "@c_cgj @_U", "@c_cgj @_L", ""]
+} CGJSeq;
+
+### Move dbl diac over two base glyphs if needed
+# high  - where bridge is higher than default
+lookup dbl_diac_high {
+  lookupflag 0;
+    sub @cno_high by @c_high;
+} dbl_diac_high;
 
 lookup dbl_diac_mid {
   lookupflag 0;
@@ -104,87 +119,72 @@ lookup dbl_diac_low {
     sub @cno_low by @c_low;
 } dbl_diac_low;
 
-# Do not change bridging diac height if a diac is placed over (or under) a base glyph
-lookup dbl_diac_abv_lower { #lower dbl diac over two lower glyphs
+# Lower dbl diac over two lower glyphs handling diacs on bases
+#  or raise dbl diac if over higher glyphs with diacs on bases
+lookup dbl_diac_abv_move { # Below rules that do not end with U will match a trailing U
   lookupflag 0;
-    # The below ignores seqs with U diacs over the second base
-    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_U @_L @c_takes_mid_diac @_U;
-    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_L @_U @c_takes_mid_diac @_U;
-    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_U @c_takes_mid_diac @_U;
-    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_L @c_takes_mid_diac @_U;
-    ignore sub @c_takes_mid_diac @cno_mid' @c_takes_mid_diac @_U;
-    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_U @_L @c_takes_low_diac @_U;
-    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_L @_U @c_takes_low_diac @_U;
-    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_U @c_takes_low_diac @_U;
-    ignore sub @c_takes_mid_diac @cno_mid' @c_cgj @_L @c_takes_low_diac @_U;
-    ignore sub @c_takes_mid_diac @cno_mid' @c_takes_low_diac @_U;
-    ignore sub @c_takes_low_diac @cno_mid' @c_cgj @_U @_L @c_takes_mid_diac @_U;
-    ignore sub @c_takes_low_diac @cno_mid' @c_cgj @_L @_U @c_takes_mid_diac @_U;
-    ignore sub @c_takes_low_diac @cno_mid' @c_cgj @_U @c_takes_mid_diac @_U;
-    ignore sub @c_takes_low_diac @cno_mid' @c_cgj @_L @c_takes_mid_diac @_U;
-    ignore sub @c_takes_low_diac @cno_mid' @c_takes_mid_diac @_U;
-    ignore sub @c_takes_low_diac @cno_low' @c_cgj @_U @_L @c_takes_low_diac @_U;
-    ignore sub @c_takes_low_diac @cno_low' @c_cgj @_L @_U @c_takes_low_diac @_U;
-    ignore sub @c_takes_low_diac @cno_low' @c_cgj @_U @c_takes_low_diac @_U;
-    ignore sub @c_takes_low_diac @cno_low' @c_cgj @_L @c_takes_low_diac @_U;
-    ignore sub @c_takes_low_diac @cno_low' @c_takes_low_diac @_U;
-    # The below ignores seqs with U diacs over the first base intrinsically 
-    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_U @_L @c_takes_mid_diac;
-    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_L @_U @c_takes_mid_diac;
-    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_U @c_takes_mid_diac;
-    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_L @c_takes_mid_diac;
-    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_takes_mid_diac;
-    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_U @_L @c_takes_low_diac;
-    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_L @_U @c_takes_low_diac;
-    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_U @c_takes_low_diac;
-    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_L @c_takes_low_diac;
-    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_takes_low_diac;
-    sub @c_takes_low_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_U @_L @c_takes_mid_diac;
-    sub @c_takes_low_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_L @_U @c_takes_mid_diac;
-    sub @c_takes_low_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_U @c_takes_mid_diac;
-    sub @c_takes_low_diac @cno_mid' lookup dbl_diac_mid @c_cgj @_L @c_takes_mid_diac;
-    sub @c_takes_low_diac @cno_mid' lookup dbl_diac_mid @c_takes_mid_diac;
-    sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_cgj @_U @_L @c_takes_low_diac;
-    sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_cgj @_L @_U @c_takes_low_diac;
-    sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_cgj @_U @c_takes_low_diac;
-    sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_cgj @_L @c_takes_low_diac;
-    sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_takes_low_diac;
-} dbl_diac_abv_lower;
+do
+  forlet cgj_combo = CGJSeq(0); # one arg required but not used
+  {
+    sub @c_takes_highmid_diac @_U @cno_high' lookup dbl_diac_high $cgj_combo @c_takes_highmidlow_diac;    
+    sub @c_takes_highmidlow_diac @cno_high' lookup dbl_diac_high $cgj_combo @c_takes_highmid_diac @_U;
 
+    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid $cgj_combo @c_takes_midlow_diac;
+    sub @c_takes_low_diac @cno_mid' lookup dbl_diac_mid $cgj_combo @c_takes_mid_diac;
+    sub @c_takes_low_diac @_U @cno_mid' lookup dbl_diac_mid $cgj_combo @c_takes_midlow_diac;
+    sub @c_takes_low_diac @cno_mid' lookup dbl_diac_mid $cgj_combo @c_takes_low_diac @_U;
+
+    # Ignores seqs with U over first base
+    sub @c_takes_low_diac @cno_low' lookup dbl_diac_low $cgj_combo @c_takes_low_diac;
+  }
+} dbl_diac_abv_move;
+
+### Move dbl diac under two glyphs if needed
 lookup dbl_diac_blwhigh {
   lookupflag 0;
     sub @cno_blwhigh by @c_blwhigh;
 } dbl_diac_blwhigh;
 
-lookup dbl_diac_blw_raise { #raise dbl diac under two glyphs without descenders
+# blwlow - where bridge below is lower than default
+lookup dbl_diac_blwlow {
   lookupflag 0;
-    # The below ignores seqs with L diacs over the second base
-    ignore sub @c_takes_belowhigh_diac @cno_blwhigh' @c_cgj @_U @_L @c_takes_belowhigh_diac @_L;
-    ignore sub @c_takes_belowhigh_diac @cno_blwhigh' @c_cgj @_L @_U @c_takes_belowhigh_diac @_L;
-    ignore sub @c_takes_belowhigh_diac @cno_blwhigh' @c_cgj @_L @_U @c_takes_belowhigh_diac @_L;
-    ignore sub @c_takes_belowhigh_diac @cno_blwhigh' @c_cgj @_U @c_takes_belowhigh_diac @_L;
-    ignore sub @c_takes_belowhigh_diac @cno_blwhigh' @c_cgj @_L @c_takes_belowhigh_diac @_L;
-    ignore sub @c_takes_belowhigh_diac @cno_blwhigh' @c_takes_belowhigh_diac @_L;
-    # The below ignores seqs with L diacs over the first base intrinsically 
-    sub @c_takes_belowhigh_diac @cno_blwhigh' lookup dbl_diac_blwhigh @c_cgj @_U @_L @c_takes_belowhigh_diac;
-    sub @c_takes_belowhigh_diac @cno_blwhigh' lookup dbl_diac_blwhigh @c_cgj @_L @_U @c_takes_belowhigh_diac;
-    sub @c_takes_belowhigh_diac @cno_blwhigh' lookup dbl_diac_blwhigh @c_cgj @_U @c_takes_belowhigh_diac;
-    sub @c_takes_belowhigh_diac @cno_blwhigh' lookup dbl_diac_blwhigh @c_cgj @_L @c_takes_belowhigh_diac;
-    sub @c_takes_belowhigh_diac @cno_blwhigh' lookup dbl_diac_blwhigh @c_takes_belowhigh_diac;
-} dbl_diac_blw_raise;
+    sub @cno_blwlow by @c_blwlow;
+} dbl_diac_blwlow;
 
+# Raise dbl diac under two lower glyphs with descenders handling diacs on bases
+#  or lower dbl diac if under low glyphs with diacs on bases
+lookup dbl_diac_blw_move { # Below rules that do not end with L will match a trailing L
+  lookupflag 0;
+do
+  forlet cgj_combo = CGJSeq(0); # one arg required but not used
+  {
+    sub @c_takes_belowlow_diac @_L @cno_blwlow' lookup dbl_diac_blwlow $cgj_combo @c_takes_belowhighlow_diac;
+    sub @c_takes_belowhighlow_diac @cno_blwlow' lookup dbl_diac_blwlow $cgj_combo @c_takes_belowlow_diac @_L;
+    sub @c_takes_belowhighlow_diac @_L @cno_blwlow' lookup dbl_diac_blwlow $cgj_combo @c_takes_belowlow_diac @_L;
+
+    ignore sub @c_takes_belowhigh_diac @cno_blwhigh' $cgj_combo @c_takes_belowhigh_diac @_L;
+    # Ignores seqs with L over first base
+    sub @c_takes_belowhigh_diac @cno_blwhigh' lookup dbl_diac_blwhigh $cgj_combo @c_takes_belowhigh_diac;
+  }
+} dbl_diac_blw_move;
+
+### Raise l ap under two glyphs without descenders
+# lhigh - above bridges where L AP is raised
 lookup dbl_diac_lhigh {
   lookupflag 0;
     sub @cno_lhigh by @c_lhigh;
 } dbl_diac_lhigh;
 
-lookup dbl_diac_abv_raise_l { #raise l ap under two glyphs without descenders
+# Ignores seqs with diacs under either (or both) base
+lookup dbl_diac_abv_raise_l { #raise l ap on dbl diac under two glyphs without descenders
   lookupflag 0;
     sub @c_takes_belowhigh_diac @cno_lhigh' lookup dbl_diac_lhigh @c_cgj @_L @_U @c_takes_belowhigh_diac;
     sub @c_takes_belowhigh_diac @cno_lhigh' lookup dbl_diac_lhigh @c_cgj @_U @_L @c_takes_belowhigh_diac;
     sub @c_takes_belowhigh_diac @cno_lhigh' lookup dbl_diac_lhigh @c_cgj @_L @c_takes_belowhigh_diac;
 } dbl_diac_abv_raise_l;
 
+### Lower u ap over two lower glyphs
+# umid and ulow - below bridges where U AP is lowered
 lookup dbl_diac_umid {
   lookupflag 0;
     sub @cno_umid by @c_umid;
@@ -195,21 +195,55 @@ lookup dbl_diac_ulow {
     sub @cno_ulow by @c_ulow;
 } dbl_diac_ulow;
 
-lookup dbl_diac_blw_lower_u { #lower u ap over two lower glyphs
+# Ignores seqs with diacs over either (or both) base
+lookup dbl_diac_blw_lower_u { #lower u ap on dbl diac over two lower glyphs
   lookupflag 0;
-    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @_L @c_takes_mid_diac;
-    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_L @_U @c_takes_mid_diac;
-    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @c_takes_mid_diac;
-    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @_L @c_takes_low_diac;
-    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_L @_U @c_takes_low_diac;
-    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @c_takes_low_diac;
+    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @_L @c_takes_midlow_diac;
+    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_L @_U @c_takes_midlow_diac;
+    sub @c_takes_mid_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @c_takes_midlow_diac;
     sub @c_takes_low_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @_L @c_takes_mid_diac;
     sub @c_takes_low_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_L @_U @c_takes_mid_diac;
     sub @c_takes_low_diac @cno_umid' lookup dbl_diac_umid @c_cgj @_U @c_takes_mid_diac;
+
     sub @c_takes_low_diac @cno_ulow' lookup dbl_diac_ulow @c_cgj @_U @_L @c_takes_low_diac;
     sub @c_takes_low_diac @cno_ulow' lookup dbl_diac_ulow @c_cgj @_L @_U @c_takes_low_diac;
     sub @c_takes_low_diac @cno_ulow' lookup dbl_diac_ulow @c_cgj @_U @c_takes_low_diac;
 } dbl_diac_blw_lower_u;
+
+### Handle two upper dbl diac seqs by moving and avoiding collision
+# also handle a third diac below (either dbl or not), all diacs separated by cgj
+# assumes c_low, c_mid, c_high (and their matching cno classes) are parallel
+lookup dbl_diac_abv_move_seq { # below rule order is important, glyph classes overlap and are not optimized
+  lookupflag 0;
+  sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_cgj' @cno_mid' lookup dbl_diac_mid @c_takes_low_diac;
+  sub @c_takes_midlow_diac @cno_mid' lookup dbl_diac_mid @c_cgj' @cno_mid' @c_takes_midlow_diac; #assume low low handled above
+  sub @c_takes_highmidlow_diac @cno_high' @c_cgj' @cno_high' lookup dbl_diac_high @c_takes_highmidlow_diac;
+
+  sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_cgj' @cno_mid' lookup dbl_diac_mid @c_cgj @_L @c_takes_low_diac;
+  sub @c_takes_midlow_diac @cno_mid' lookup dbl_diac_mid @c_cgj' @cno_mid' @c_cgj @_L @c_takes_midlow_diac;
+  sub @c_takes_highmidlow_diac @cno_high' @c_cgj' @cno_high' lookup dbl_diac_high @c_cgj @_L @c_takes_highmidlow_diac;
+
+  sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_cgj' @cno_mid' lookup dbl_diac_mid @c_cgj @cno_blwlow @c_takes_low_diac;
+  sub @c_takes_midlow_diac @cno_mid' lookup dbl_diac_mid @c_cgj' @cno_mid' @c_cgj @cno_blwlow @c_takes_midlow_diac;
+  sub @c_takes_highmidlow_diac @cno_high' @c_cgj' @cno_high' lookup dbl_diac_high @c_cgj @cno_blwlow @c_takes_highmidlow_diac;
+} dbl_diac_abv_move_seq;
+
+### Handle upper dbl diac followed by lower dbl diac with no other diacs
+# diacs separate by cgj
+lookup dbl_diac_abv_and_blw_move { 
+  lookupflag 0;
+    # Lower dbl diac over two lower glyphs. using cno_blwhigh is arbitrary
+    sub @c_takes_mid_diac @cno_mid' lookup dbl_diac_mid @c_cgj @cno_blwhigh @c_takes_midlow_diac;
+    sub @c_takes_midlow_diac @cno_mid' lookup dbl_diac_mid @c_cgj @cno_blwhigh @c_takes_mid_diac;
+
+    sub @c_takes_low_diac @cno_low' lookup dbl_diac_low @c_cgj @cno_blwhigh @c_takes_low_diac;
+
+    # Raise dbl diac under two lower glyphs
+    #  first dbl diac may be substituted by above rules. using cno_mid is arbitrary
+    sub @c_takes_belowhigh_diac @cno_mid @c_cgj @cno_blwhigh' lookup dbl_diac_blwhigh @c_takes_belowhigh_diac;
+    sub @c_takes_belowhigh_diac @c_mid @c_cgj @cno_blwhigh' lookup dbl_diac_blwhigh @c_takes_belowhigh_diac;
+    sub @c_takes_belowhigh_diac @c_low @c_cgj @cno_blwhigh' lookup dbl_diac_blwhigh @c_takes_belowhigh_diac;
+} dbl_diac_abv_and_blw_move;
 
 # End of bridging diacritics
 
@@ -1021,10 +1055,12 @@ feature ccmp {
   lookup di_ctx;
   lookup ss_ctx;
   lookup y_ognk_sub;
-  lookup dbl_diac_abv_lower;
-  lookup dbl_diac_blw_raise;
+  lookup dbl_diac_abv_move;
+  lookup dbl_diac_blw_move;
   lookup dbl_diac_abv_raise_l;
   lookup dbl_diac_blw_lower_u;
+  lookup dbl_diac_abv_move_seq;
+  lookup dbl_diac_abv_and_blw_move;
 do let f = info("familyName");
    if f.find("Gentium") != -1; {
   lookup lpdiac_ctx; #Gentium
