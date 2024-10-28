@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="GR">url(../results/Gentium-Regular.ttf)</fontsrc>
+    <fontsrc label="GM">url(../results/Gentium-Medium.ttf)</fontsrc>
+    <fontsrc label="GS">url(../results/Gentium-SemiBold.ttf)</fontsrc>
+    <fontsrc label="GB">url(../results/Gentium-Bold.ttf)</fontsrc>
+    <fontsrc label="GXB">url(../results/Gentium-ExtraBold.ttf)</fontsrc>
+    <fontsrc label="GI">url(../results/Gentium-Italic.ttf)</fontsrc>
+    <fontsrc label="GMI">url(../results/Gentium-MediumItalic.ttf)</fontsrc>
+    <fontsrc label="GSI">url(../results/Gentium-SemiBoldItalic.ttf)</fontsrc>
+    <fontsrc label="GBI">url(../results/Gentium-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="GXBI">url(../results/Gentium-ExtraBoldItalic.ttf)</fontsrc>
+    <fontsrc label="GRv6">url(../references/v6200/GentiumPlus-Regular.ttf)</fontsrc>
+    <fontsrc label="GIv6">url(../references/v6200/GentiumPlus-Italic.ttf)</fontsrc>
+    <title>Greek combinations</title>
+  </head>
+  <testgroup label="Precomposed both encoded and unencoded">
+    <test label="03B1+0314">
+      <string>\u0003B1\u000314</string>
+    </test>
+  </testgroup>
+  <testgroup label="Samples of hybrid combos">
+    <test label="1FB9+0308">
+      <string>\u001FB9\u000308</string>
+    </test>
+    <test label="1FB9+0314">
+      <string>\u001FB9\u000314</string>
+    </test>
+    <test label="1FB9+0301">
+      <string>\u001FB9\u000301</string>
+    </test>
+    <test label="1FB9+0314+0301">
+      <string>\u001FB9\u000314\u000301</string>
+    </test>
+    <test label="1FD9+0308">
+      <string>\u001FD9\u000308</string>
+    </test>
+    <test label="1FD9+0314">
+      <string>\u001FD9\u000314</string>
+    </test>
+    <test label="1FD9+0301">
+      <string>\u001FD9\u000301</string>
+    </test>
+    <test label="1FD9+0314+0301">
+      <string>\u001FD9\u000314\u000301</string>
+    </test>
+    <test label="1FE9+0308">
+      <string>\u001FE9\u000308</string>
+    </test>
+    <test label="1FE9+0314">
+      <string>\u001FE9\u000314</string>
+    </test>
+    <test label="1FE9+0301">
+      <string>\u001FE9\u000301</string>
+    </test>
+    <test label="1FE9+0314+0301">
+      <string>\u001FE9\u000314\u000301</string>
+    </test>
+    <test label="1FB1+0308">
+      <string>\u001FB1\u000308</string>
+    </test>
+    <test label="1FB1+0314">
+      <string>\u001FB1\u000314</string>
+    </test>
+    <test label="1FB1+0301">
+      <string>\u001FB1\u000301</string>
+    </test>
+    <test label="1FB1+0314+0301">
+      <string>\u001FB1\u000314\u000301</string>
+    </test>
+    <test label="1FD1+0308">
+      <string>\u001FD1\u000308</string>
+    </test>
+    <test label="1FD1+0314">
+      <string>\u001FD1\u000314</string>
+    </test>
+    <test label="1FD1+0301">
+      <string>\u001FD1\u000301</string>
+    </test>
+    <test label="1FD1+0314+0301">
+      <string>\u001FD1\u000314\u000301</string>
+    </test>
+    <test label="1FE1+0308">
+      <string>\u001FE1\u000308</string>
+    </test>
+    <test label="1FE1+0314">
+      <string>\u001FE1\u000314</string>
+    </test>
+    <test label="1FE1+0301">
+      <string>\u001FE1\u000301</string>
+    </test>
+    <test label="1FE1+0314+0301">
+      <string>\u001FE1\u000314\u000301</string>
+    </test>
+  </testgroup>
+</ftml>
+
