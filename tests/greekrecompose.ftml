@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="GR">url(../results/Gentium-Regular.ttf)</fontsrc>
+    <fontsrc label="GM">url(../results/Gentium-Medium.ttf)</fontsrc>
+    <fontsrc label="GS">url(../results/Gentium-SemiBold.ttf)</fontsrc>
+    <fontsrc label="GB">url(../results/Gentium-Bold.ttf)</fontsrc>
+    <fontsrc label="GXB">url(../results/Gentium-ExtraBold.ttf)</fontsrc>
+    <fontsrc label="GI">url(../results/Gentium-Italic.ttf)</fontsrc>
+    <fontsrc label="GMI">url(../results/Gentium-MediumItalic.ttf)</fontsrc>
+    <fontsrc label="GSI">url(../results/Gentium-SemiBoldItalic.ttf)</fontsrc>
+    <fontsrc label="GBI">url(../results/Gentium-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="GXBI">url(../results/Gentium-ExtraBoldItalic.ttf)</fontsrc>
+    <fontsrc label="GRv6">url(../references/v6200/GentiumPlus-Regular.ttf)</fontsrc>
+    <fontsrc label="GIv6">url(../references/v6200/GentiumPlus-Italic.ttf)</fontsrc>
+    <title>Greek combinations</title>
+  </head>
+  <testgroup label="Greek recomposition">
+    <test label="0391+0314">
+      <string>\u000391\u000314</string>
+    </test>
+    <test label="0391+0314+0301">
+      <string>\u000391\u000314\u000301</string>
+    </test>
+    <test label="0391+0314+0301+0345">
+      <string>\u000391\u000314\u000301\u000345</string>
+    </test>
+    <test label="0391+0314+0342">
+      <string>\u000391\u000314\u000342</string>
+    </test>
+    <test label="0391+0314+0342+0345">
+      <string>\u000391\u000314\u000342\u000345</string>
+    </test>
+    <test label="0391+0314+0345">
+      <string>\u000391\u000314\u000345</string>
+    </test>
+    <test label="0391+0314+0300">
+      <string>\u000391\u000314\u000300</string>
+    </test>
+    <test label="0391+0314+0300+0345">
+      <string>\u000391\u000314\u000300\u000345</string>
+    </test>
+    <test label="0391+0304">
+      <string>\u000391\u000304</string>
+    </test>
+    <test label="0391+0304+0314">
+      <string>\u000391\u000304\u000314</string>
+    </test>
+    <test label="0391+0304+0314+0301">
+      <string>\u000391\u000304\u000314\u000301</string>
+    </test>
+    <test label="0391+0304+0314+0300">
+      <string>\u000391\u000304\u000314\u000300</string>
+    </test>
+    <test label="0391+0304+0308">
+      <string>\u000391\u000304\u000308</string>
+    </test>
+    <test label="0391+0304+0301">
+      <string>\u000391\u000304\u000301</string>
+    </test>
+    <test label="0391+0304+0313">
+      <string>\u000391\u000304\u000313</string>
+    </test>
+    <test label="0391+0304+0313+0301">
+      <string>\u000391\u000304\u000313\u000301</string>
+    </test>
+    <test label="0391+0304+0313+0300">
+      <string>\u000391\u000304\u000313\u000300</string>
+    </test>
+    <test label="0391+0304+0300">
+      <string>\u000391\u000304\u000300</string>
+    </test>
+    <test label="0391+0301">
+      <string>\u000391\u000301</string>
+    </test>
+    <test label="0391+0345">
+      <string>\u000391\u000345</string>
+    </test>
+    <test label="0391+0313">
+      <string>\u000391\u000313</string>
+    </test>
+    <test label="0391+0313+0301">
+      <string>\u000391\u000313\u000301</string>
+    </test>
+    <test label="0391+0313+0301+0345">
+      <string>\u000391\u000313\u000301\u000345</string>
+    </test>
+    <test label="0391+0313+0342">
+      <string>\u000391\u000313\u000342</string>
+    </test>
+    <test label="0391+0313+0342+0345">
+      <string>\u000391\u000313\u000342\u000345</string>
+    </test>
+    <test label="0391+0313+0345">
+      <string>\u000391\u000313\u000345</string>
+    </test>
+    <test label="0391+0313+0300">
+      <string>\u000391\u000313\u000300</string>
+    </test>
+    <test label="0391+0313+0300+0345">
+      <string>\u000391\u000313\u000300\u000345</string>
+    </test>
+    <test label="0391+0300">
+      <string>\u000391\u000300</string>
+    </test>
+    <test label="0391+0306">
+      <string>\u000391\u000306</string>
+    </test>
+    <test label="0395+0314">
+      <string>\u000395\u000314</string>
+    </test>
+    <test label="0395+0314+0301">
+      <string>\u000395\u000314\u000301</string>
+    </test>
+    <test label="0395+0314+0300">
+      <string>\u000395\u000314\u000300</string>
+    </test>
+    <test label="0395+0301">
+      <string>\u000395\u000301</string>
+    </test>
+    <test label="0395+0313">
+      <string>\u000395\u000313</string>
+    </test>
+    <test label="0395+0313+0301">
+      <string>\u000395\u000313\u000301</string>
+    </test>
+    <test label="0395+0313+0300">
+      <string>\u000395\u000313\u000300</string>
+    </test>
+    <test label="0395+0300">
+      <string>\u000395\u000300</string>
+    </test>
+    <test label="0397+0314">
+      <string>\u000397\u000314</string>
+    </test>
+    <test label="0397+0314+0301">
+      <string>\u000397\u000314\u000301</string>
+    </test>
+    <test label="0397+0314+0301+0345">
+      <string>\u000397\u000314\u000301\u000345</string>
+    </test>
+    <test label="0397+0314+0342">
+      <string>\u000397\u000314\u000342</string>
+    </test>
+    <test label="0397+0314+0342+0345">
+      <string>\u000397\u000314\u000342\u000345</string>
+    </test>
+    <test label="0397+0314+0345">
+      <string>\u000397\u000314\u000345</string>
+    </test>
+    <test label="0397+0314+0300">
+      <string>\u000397\u000314\u000300</string>
+    </test>
+    <test label="0397+0314+0300+0345">
+      <string>\u000397\u000314\u000300\u000345</string>
+    </test>
+    <test label="0397+0301">
+      <string>\u000397\u000301</string>
+    </test>
+    <test label="0397+0345">
+      <string>\u000397\u000345</string>
+    </test>
+    <test label="0397+0313">
+      <string>\u000397\u000313</string>
+    </test>
+    <test label="0397+0313+0301">
+      <string>\u000397\u000313\u000301</string>
+    </test>
+    <test label="0397+0313+0301+0345">
+      <string>\u000397\u000313\u000301\u000345</string>
+    </test>
+    <test label="0397+0313+0342">
+      <string>\u000397\u000313\u000342</string>
+    </test>
+    <test label="0397+0313+0342+0345">
+      <string>\u000397\u000313\u000342\u000345</string>
+    </test>
+    <test label="0397+0313+0345">
+      <string>\u000397\u000313\u000345</string>
+    </test>
+    <test label="0397+0313+0300">
+      <string>\u000397\u000313\u000300</string>
+    </test>
+    <test label="0397+0313+0300+0345">
+      <string>\u000397\u000313\u000300\u000345</string>
+    </test>
+    <test label="0397+0300">
+      <string>\u000397\u000300</string>
+    </test>
+    <test label="0399+0314">
+      <string>\u000399\u000314</string>
+    </test>
+    <test label="0399+0314+0301">
+      <string>\u000399\u000314\u000301</string>
+    </test>
+    <test label="0399+0314+0342">
+      <string>\u000399\u000314\u000342</string>
+    </test>
+    <test label="0399+0314+0300">
+      <string>\u000399\u000314\u000300</string>
+    </test>
+    <test label="0399+0308">
+      <string>\u000399\u000308</string>
+    </test>
+    <test label="0399+0304">
+      <string>\u000399\u000304</string>
+    </test>
+    <test label="0399+0304+0314">
+      <string>\u000399\u000304\u000314</string>
+    </test>
+    <test label="0399+0304+0314+0301">
+      <string>\u000399\u000304\u000314\u000301</string>
+    </test>
+    <test label="0399+0304+0314+0300">
+      <string>\u000399\u000304\u000314\u000300</string>
+    </test>
+    <test label="0399+0304+0308">
+      <string>\u000399\u000304\u000308</string>
+    </test>
+    <test label="0399+0304+0301">
+      <string>\u000399\u000304\u000301</string>
+    </test>
+    <test label="0399+0304+0313">
+      <string>\u000399\u000304\u000313</string>
+    </test>
+    <test label="0399+0304+0313+0301">
+      <string>\u000399\u000304\u000313\u000301</string>
+    </test>
+    <test label="0399+0304+0313+0300">
+      <string>\u000399\u000304\u000313\u000300</string>
+    </test>
+    <test label="0399+0304+0300">
+      <string>\u000399\u000304\u000300</string>
+    </test>
+    <test label="0399+0301">
+      <string>\u000399\u000301</string>
+    </test>
+    <test label="0399+0313">
+      <string>\u000399\u000313</string>
+    </test>
+    <test label="0399+0313+0301">
+      <string>\u000399\u000313\u000301</string>
+    </test>
+    <test label="0399+0313+0342">
+      <string>\u000399\u000313\u000342</string>
+    </test>
+    <test label="0399+0313+0300">
+      <string>\u000399\u000313\u000300</string>
+    </test>
+    <test label="0399+0300">
+      <string>\u000399\u000300</string>
+    </test>
+    <test label="0399+0306">
+      <string>\u000399\u000306</string>
+    </test>
+    <test label="03A9+0314">
+      <string>\u0003A9\u000314</string>
+    </test>
+    <test label="03A9+0314+0301">
+      <string>\u0003A9\u000314\u000301</string>
+    </test>
+    <test label="03A9+0314+0301+0345">
+      <string>\u0003A9\u000314\u000301\u000345</string>
+    </test>
+    <test label="03A9+0314+0342">
+      <string>\u0003A9\u000314\u000342</string>
+    </test>
+    <test label="03A9+0314+0342+0345">
+      <string>\u0003A9\u000314\u000342\u000345</string>
+    </test>
+    <test label="03A9+0314+0345">
+      <string>\u0003A9\u000314\u000345</string>
+    </test>
+    <test label="03A9+0314+0300">
+      <string>\u0003A9\u000314\u000300</string>
+    </test>
+    <test label="03A9+0314+0300+0345">
+      <string>\u0003A9\u000314\u000300\u000345</string>
+    </test>
+    <test label="03A9+0301">
+      <string>\u0003A9\u000301</string>
+    </test>
+    <test label="03A9+0345">
+      <string>\u0003A9\u000345</string>
+    </test>
+    <test label="03A9+0313">
+      <string>\u0003A9\u000313</string>
+    </test>
+    <test label="03A9+0313+0301">
+      <string>\u0003A9\u000313\u000301</string>
+    </test>
+    <test label="03A9+0313+0301+0345">
+      <string>\u0003A9\u000313\u000301\u000345</string>
+    </test>
+    <test label="03A9+0313+0342">
+      <string>\u0003A9\u000313\u000342</string>
+    </test>
+    <test label="03A9+0313+0342+0345">
+      <string>\u0003A9\u000313\u000342\u000345</string>
+    </test>
+    <test label="03A9+0313+0345">
+      <string>\u0003A9\u000313\u000345</string>
+    </test>
+    <test label="03A9+0313+0300">
+      <string>\u0003A9\u000313\u000300</string>
+    </test>
+    <test label="03A9+0313+0300+0345">
+      <string>\u0003A9\u000313\u000300\u000345</string>
+    </test>
+    <test label="03A9+0300">
+      <string>\u0003A9\u000300</string>
+    </test>
+    <test label="039F+0314">
+      <string>\u00039F\u000314</string>
+    </test>
+    <test label="039F+0314+0301">
+      <string>\u00039F\u000314\u000301</string>
+    </test>
+    <test label="039F+0314+0300">
+      <string>\u00039F\u000314\u000300</string>
+    </test>
+    <test label="039F+0301">
+      <string>\u00039F\u000301</string>
+    </test>
+    <test label="039F+0313">
+      <string>\u00039F\u000313</string>
+    </test>
+    <test label="039F+0313+0301">
+      <string>\u00039F\u000313\u000301</string>
+    </test>
+    <test label="039F+0313+0300">
+      <string>\u00039F\u000313\u000300</string>
+    </test>
+    <test label="039F+0300">
+      <string>\u00039F\u000300</string>
+    </test>
+    <test label="03A1+0314">
+      <string>\u0003A1\u000314</string>
+    </test>
+    <test label="03A5+0314">
+      <string>\u0003A5\u000314</string>
+    </test>
+    <test label="03A5+0314+0301">
+      <string>\u0003A5\u000314\u000301</string>
+    </test>
+    <test label="03A5+0314+0342">
+      <string>\u0003A5\u000314\u000342</string>
+    </test>
+    <test label="03A5+0314+0300">
+      <string>\u0003A5\u000314\u000300</string>
+    </test>
+    <test label="03A5+0308">
+      <string>\u0003A5\u000308</string>
+    </test>
+    <test label="03A5+0304">
+      <string>\u0003A5\u000304</string>
+    </test>
+    <test label="03A5+0304+0314">
+      <string>\u0003A5\u000304\u000314</string>
+    </test>
+    <test label="03A5+0304+0314+0301">
+      <string>\u0003A5\u000304\u000314\u000301</string>
+    </test>
+    <test label="03A5+0304+0314+0300">
+      <string>\u0003A5\u000304\u000314\u000300</string>
+    </test>
+    <test label="03A5+0304+0308">
+      <string>\u0003A5\u000304\u000308</string>
+    </test>
+    <test label="03A5+0304+0301">
+      <string>\u0003A5\u000304\u000301</string>
+    </test>
+    <test label="03A5+0304+0300">
+      <string>\u0003A5\u000304\u000300</string>
+    </test>
+    <test label="03A5+0301">
+      <string>\u0003A5\u000301</string>
+    </test>
+    <test label="03A5+0300">
+      <string>\u0003A5\u000300</string>
+    </test>
+    <test label="03A5+0306">
+      <string>\u0003A5\u000306</string>
+    </test>
+    <test label="03B1+0314">
+      <string>\u0003B1\u000314</string>
+    </test>
+    <test label="03B1+0314+0301">
+      <string>\u0003B1\u000314\u000301</string>
+    </test>
+    <test label="03B1+0314+0301+0345">
+      <string>\u0003B1\u000314\u000301\u000345</string>
+    </test>
+    <test label="03B1+0314+0342">
+      <string>\u0003B1\u000314\u000342</string>
+    </test>
+    <test label="03B1+0314+0342+0345">
+      <string>\u0003B1\u000314\u000342\u000345</string>
+    </test>
+    <test label="03B1+0314+0300">
+      <string>\u0003B1\u000314\u000300</string>
+    </test>
+    <test label="03B1+0314+0300+0345">
+      <string>\u0003B1\u000314\u000300\u000345</string>
+    </test>
+    <test label="03B1+0314+0345">
+      <string>\u0003B1\u000314\u000345</string>
+    </test>
+    <test label="03B1+0304">
+      <string>\u0003B1\u000304</string>
+    </test>
+    <test label="03B1+0304+0314">
+      <string>\u0003B1\u000304\u000314</string>
+    </test>
+    <test label="03B1+0304+0314+0301">
+      <string>\u0003B1\u000304\u000314\u000301</string>
+    </test>
+    <test label="03B1+0304+0314+0300">
+      <string>\u0003B1\u000304\u000314\u000300</string>
+    </test>
+    <test label="03B1+0304+0308">
+      <string>\u0003B1\u000304\u000308</string>
+    </test>
+    <test label="03B1+0304+0301">
+      <string>\u0003B1\u000304\u000301</string>
+    </test>
+    <test label="03B1+0304+0313">
+      <string>\u0003B1\u000304\u000313</string>
+    </test>
+    <test label="03B1+0304+0313+0301">
+      <string>\u0003B1\u000304\u000313\u000301</string>
+    </test>
+    <test label="03B1+0304+0313+0300">
+      <string>\u0003B1\u000304\u000313\u000300</string>
+    </test>
+    <test label="03B1+0304+0300">
+      <string>\u0003B1\u000304\u000300</string>
+    </test>
+    <test label="03B1+0301">
+      <string>\u0003B1\u000301</string>
+    </test>
+    <test label="03B1+0301+0345">
+      <string>\u0003B1\u000301\u000345</string>
+    </test>
+    <test label="03B1+0342">
+      <string>\u0003B1\u000342</string>
+    </test>
+    <test label="03B1+0342+0345">
+      <string>\u0003B1\u000342\u000345</string>
+    </test>
+    <test label="03B1+0313">
+      <string>\u0003B1\u000313</string>
+    </test>
+    <test label="03B1+0313+0301">
+      <string>\u0003B1\u000313\u000301</string>
+    </test>
+    <test label="03B1+0313+0301+0345">
+      <string>\u0003B1\u000313\u000301\u000345</string>
+    </test>
+    <test label="03B1+0313+0342">
+      <string>\u0003B1\u000313\u000342</string>
+    </test>
+    <test label="03B1+0313+0342+0345">
+      <string>\u0003B1\u000313\u000342\u000345</string>
+    </test>
+    <test label="03B1+0313+0300">
+      <string>\u0003B1\u000313\u000300</string>
+    </test>
+    <test label="03B1+0313+0300+0345">
+      <string>\u0003B1\u000313\u000300\u000345</string>
+    </test>
+    <test label="03B1+0313+0345">
+      <string>\u0003B1\u000313\u000345</string>
+    </test>
+    <test label="03B1+0300">
+      <string>\u0003B1\u000300</string>
+    </test>
+    <test label="03B1+0300+0345">
+      <string>\u0003B1\u000300\u000345</string>
+    </test>
+    <test label="03B1+0306">
+      <string>\u0003B1\u000306</string>
+    </test>
+    <test label="03B1+0345">
+      <string>\u0003B1\u000345</string>
+    </test>
+    <test label="03B5+0314">
+      <string>\u0003B5\u000314</string>
+    </test>
+    <test label="03B5+0314+0301">
+      <string>\u0003B5\u000314\u000301</string>
+    </test>
+    <test label="03B5+0314+0342">
+      <string>\u0003B5\u000314\u000342</string>
+    </test>
+    <test label="03B5+0314+0300">
+      <string>\u0003B5\u000314\u000300</string>
+    </test>
+    <test label="03B5+0301">
+      <string>\u0003B5\u000301</string>
+    </test>
+    <test label="03B5+0342">
+      <string>\u0003B5\u000342</string>
+    </test>
+    <test label="03B5+0313">
+      <string>\u0003B5\u000313</string>
+    </test>
+    <test label="03B5+0313+0301">
+      <string>\u0003B5\u000313\u000301</string>
+    </test>
+    <test label="03B5+0313+0342">
+      <string>\u0003B5\u000313\u000342</string>
+    </test>
+    <test label="03B5+0313+0300">
+      <string>\u0003B5\u000313\u000300</string>
+    </test>
+    <test label="03B5+0300">
+      <string>\u0003B5\u000300</string>
+    </test>
+    <test label="03B7+0314">
+      <string>\u0003B7\u000314</string>
+    </test>
+    <test label="03B7+0314+0301">
+      <string>\u0003B7\u000314\u000301</string>
+    </test>
+    <test label="03B7+0314+0301+0345">
+      <string>\u0003B7\u000314\u000301\u000345</string>
+    </test>
+    <test label="03B7+0314+0342">
+      <string>\u0003B7\u000314\u000342</string>
+    </test>
+    <test label="03B7+0314+0342+0345">
+      <string>\u0003B7\u000314\u000342\u000345</string>
+    </test>
+    <test label="03B7+0314+0300">
+      <string>\u0003B7\u000314\u000300</string>
+    </test>
+    <test label="03B7+0314+0300+0345">
+      <string>\u0003B7\u000314\u000300\u000345</string>
+    </test>
+    <test label="03B7+0314+0345">
+      <string>\u0003B7\u000314\u000345</string>
+    </test>
+    <test label="03B7+0301">
+      <string>\u0003B7\u000301</string>
+    </test>
+    <test label="03B7+0301+0345">
+      <string>\u0003B7\u000301\u000345</string>
+    </test>
+    <test label="03B7+0342">
+      <string>\u0003B7\u000342</string>
+    </test>
+    <test label="03B7+0342+0345">
+      <string>\u0003B7\u000342\u000345</string>
+    </test>
+    <test label="03B7+0313">
+      <string>\u0003B7\u000313</string>
+    </test>
+    <test label="03B7+0313+0301">
+      <string>\u0003B7\u000313\u000301</string>
+    </test>
+    <test label="03B7+0313+0301+0345">
+      <string>\u0003B7\u000313\u000301\u000345</string>
+    </test>
+    <test label="03B7+0313+0342">
+      <string>\u0003B7\u000313\u000342</string>
+    </test>
+    <test label="03B7+0313+0342+0345">
+      <string>\u0003B7\u000313\u000342\u000345</string>
+    </test>
+    <test label="03B7+0313+0300">
+      <string>\u0003B7\u000313\u000300</string>
+    </test>
+    <test label="03B7+0313+0300+0345">
+      <string>\u0003B7\u000313\u000300\u000345</string>
+    </test>
+    <test label="03B7+0313+0345">
+      <string>\u0003B7\u000313\u000345</string>
+    </test>
+    <test label="03B7+0300">
+      <string>\u0003B7\u000300</string>
+    </test>
+    <test label="03B7+0300+0345">
+      <string>\u0003B7\u000300\u000345</string>
+    </test>
+    <test label="03B7+0345">
+      <string>\u0003B7\u000345</string>
+    </test>
+    <test label="03B9+0314">
+      <string>\u0003B9\u000314</string>
+    </test>
+    <test label="03B9+0314+0301">
+      <string>\u0003B9\u000314\u000301</string>
+    </test>
+    <test label="03B9+0314+0342">
+      <string>\u0003B9\u000314\u000342</string>
+    </test>
+    <test label="03B9+0314+0300">
+      <string>\u0003B9\u000314\u000300</string>
+    </test>
+    <test label="03B9+0308+0301">
+      <string>\u0003B9\u000308\u000301</string>
+    </test>
+    <test label="03B9+0308+0342">
+      <string>\u0003B9\u000308\u000342</string>
+    </test>
+    <test label="03B9+0308+0300">
+      <string>\u0003B9\u000308\u000300</string>
+    </test>
+    <test label="03B9+0304">
+      <string>\u0003B9\u000304</string>
+    </test>
+    <test label="03B9+0304+0314">
+      <string>\u0003B9\u000304\u000314</string>
+    </test>
+    <test label="03B9+0304+0314+0301">
+      <string>\u0003B9\u000304\u000314\u000301</string>
+    </test>
+    <test label="03B9+0304+0314+0300">
+      <string>\u0003B9\u000304\u000314\u000300</string>
+    </test>
+    <test label="03B9+0304+0308">
+      <string>\u0003B9\u000304\u000308</string>
+    </test>
+    <test label="03B9+0304+0301">
+      <string>\u0003B9\u000304\u000301</string>
+    </test>
+    <test label="03B9+0304+0313">
+      <string>\u0003B9\u000304\u000313</string>
+    </test>
+    <test label="03B9+0304+0313+0301">
+      <string>\u0003B9\u000304\u000313\u000301</string>
+    </test>
+    <test label="03B9+0304+0313+0300">
+      <string>\u0003B9\u000304\u000313\u000300</string>
+    </test>
+    <test label="03B9+0304+0300">
+      <string>\u0003B9\u000304\u000300</string>
+    </test>
+    <test label="03B9+0301">
+      <string>\u0003B9\u000301</string>
+    </test>
+    <test label="03B9+0342">
+      <string>\u0003B9\u000342</string>
+    </test>
+    <test label="03B9+0313">
+      <string>\u0003B9\u000313</string>
+    </test>
+    <test label="03B9+0313+0301">
+      <string>\u0003B9\u000313\u000301</string>
+    </test>
+    <test label="03B9+0313+0342">
+      <string>\u0003B9\u000313\u000342</string>
+    </test>
+    <test label="03B9+0313+0300">
+      <string>\u0003B9\u000313\u000300</string>
+    </test>
+    <test label="03B9+0300">
+      <string>\u0003B9\u000300</string>
+    </test>
+    <test label="03B9+0306">
+      <string>\u0003B9\u000306</string>
+    </test>
+    <test label="03C9+0314">
+      <string>\u0003C9\u000314</string>
+    </test>
+    <test label="03C9+0314+0301">
+      <string>\u0003C9\u000314\u000301</string>
+    </test>
+    <test label="03C9+0314+0301+0345">
+      <string>\u0003C9\u000314\u000301\u000345</string>
+    </test>
+    <test label="03C9+0314+0342">
+      <string>\u0003C9\u000314\u000342</string>
+    </test>
+    <test label="03C9+0314+0342+0345">
+      <string>\u0003C9\u000314\u000342\u000345</string>
+    </test>
+    <test label="03C9+0314+0300">
+      <string>\u0003C9\u000314\u000300</string>
+    </test>
+    <test label="03C9+0314+0300+0345">
+      <string>\u0003C9\u000314\u000300\u000345</string>
+    </test>
+    <test label="03C9+0314+0345">
+      <string>\u0003C9\u000314\u000345</string>
+    </test>
+    <test label="03C9+0301">
+      <string>\u0003C9\u000301</string>
+    </test>
+    <test label="03C9+0301+0345">
+      <string>\u0003C9\u000301\u000345</string>
+    </test>
+    <test label="03C9+0342">
+      <string>\u0003C9\u000342</string>
+    </test>
+    <test label="03C9+0342+0345">
+      <string>\u0003C9\u000342\u000345</string>
+    </test>
+    <test label="03C9+0313">
+      <string>\u0003C9\u000313</string>
+    </test>
+    <test label="03C9+0313+0301">
+      <string>\u0003C9\u000313\u000301</string>
+    </test>
+    <test label="03C9+0313+0301+0345">
+      <string>\u0003C9\u000313\u000301\u000345</string>
+    </test>
+    <test label="03C9+0313+0342">
+      <string>\u0003C9\u000313\u000342</string>
+    </test>
+    <test label="03C9+0313+0342+0345">
+      <string>\u0003C9\u000313\u000342\u000345</string>
+    </test>
+    <test label="03C9+0313+0300">
+      <string>\u0003C9\u000313\u000300</string>
+    </test>
+    <test label="03C9+0313+0300+0345">
+      <string>\u0003C9\u000313\u000300\u000345</string>
+    </test>
+    <test label="03C9+0313+0345">
+      <string>\u0003C9\u000313\u000345</string>
+    </test>
+    <test label="03C9+0300">
+      <string>\u0003C9\u000300</string>
+    </test>
+    <test label="03C9+0300+0345">
+      <string>\u0003C9\u000300\u000345</string>
+    </test>
+    <test label="03C9+0345">
+      <string>\u0003C9\u000345</string>
+    </test>
+    <test label="03BF+0314">
+      <string>\u0003BF\u000314</string>
+    </test>
+    <test label="03BF+0314+0301">
+      <string>\u0003BF\u000314\u000301</string>
+    </test>
+    <test label="03BF+0314+0342">
+      <string>\u0003BF\u000314\u000342</string>
+    </test>
+    <test label="03BF+0314+0300">
+      <string>\u0003BF\u000314\u000300</string>
+    </test>
+    <test label="03BF+0301">
+      <string>\u0003BF\u000301</string>
+    </test>
+    <test label="03BF+0342">
+      <string>\u0003BF\u000342</string>
+    </test>
+    <test label="03BF+0313">
+      <string>\u0003BF\u000313</string>
+    </test>
+    <test label="03BF+0313+0301">
+      <string>\u0003BF\u000313\u000301</string>
+    </test>
+    <test label="03BF+0313+0342">
+      <string>\u0003BF\u000313\u000342</string>
+    </test>
+    <test label="03BF+0313+0300">
+      <string>\u0003BF\u000313\u000300</string>
+    </test>
+    <test label="03BF+0300">
+      <string>\u0003BF\u000300</string>
+    </test>
+    <test label="03C1+0314">
+      <string>\u0003C1\u000314</string>
+    </test>
+    <test label="03C1+0313">
+      <string>\u0003C1\u000313</string>
+    </test>
+    <test label="03C5+0314">
+      <string>\u0003C5\u000314</string>
+    </test>
+    <test label="03C5+0314+0301">
+      <string>\u0003C5\u000314\u000301</string>
+    </test>
+    <test label="03C5+0314+0342">
+      <string>\u0003C5\u000314\u000342</string>
+    </test>
+    <test label="03C5+0314+0300">
+      <string>\u0003C5\u000314\u000300</string>
+    </test>
+    <test label="03C5+0308">
+      <string>\u0003C5\u000308</string>
+    </test>
+    <test label="03C5+0308+0301">
+      <string>\u0003C5\u000308\u000301</string>
+    </test>
+    <test label="03C5+0308+0342">
+      <string>\u0003C5\u000308\u000342</string>
+    </test>
+    <test label="03C5+0308+0300">
+      <string>\u0003C5\u000308\u000300</string>
+    </test>
+    <test label="03C5+0304">
+      <string>\u0003C5\u000304</string>
+    </test>
+    <test label="03C5+0304+0314">
+      <string>\u0003C5\u000304\u000314</string>
+    </test>
+    <test label="03C5+0304+0314+0301">
+      <string>\u0003C5\u000304\u000314\u000301</string>
+    </test>
+    <test label="03C5+0304+0314+0300">
+      <string>\u0003C5\u000304\u000314\u000300</string>
+    </test>
+    <test label="03C5+0304+0308">
+      <string>\u0003C5\u000304\u000308</string>
+    </test>
+    <test label="03C5+0304+0301">
+      <string>\u0003C5\u000304\u000301</string>
+    </test>
+    <test label="03C5+0304+0313">
+      <string>\u0003C5\u000304\u000313</string>
+    </test>
+    <test label="03C5+0304+0313+0301">
+      <string>\u0003C5\u000304\u000313\u000301</string>
+    </test>
+    <test label="03C5+0304+0313+0300">
+      <string>\u0003C5\u000304\u000313\u000300</string>
+    </test>
+    <test label="03C5+0304+0300">
+      <string>\u0003C5\u000304\u000300</string>
+    </test>
+    <test label="03C5+0301">
+      <string>\u0003C5\u000301</string>
+    </test>
+    <test label="03C5+0342">
+      <string>\u0003C5\u000342</string>
+    </test>
+    <test label="03C5+0313">
+      <string>\u0003C5\u000313</string>
+    </test>
+    <test label="03C5+0313+0301">
+      <string>\u0003C5\u000313\u000301</string>
+    </test>
+    <test label="03C5+0313+0342">
+      <string>\u0003C5\u000313\u000342</string>
+    </test>
+    <test label="03C5+0313+0300">
+      <string>\u0003C5\u000313\u000300</string>
+    </test>
+    <test label="03C5+0300">
+      <string>\u0003C5\u000300</string>
+    </test>
+    <test label="03C5+0306">
+      <string>\u0003C5\u000306</string>
+    </test>
+  </testgroup>
+</ftml>
