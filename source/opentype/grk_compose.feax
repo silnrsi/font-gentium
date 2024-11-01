@@ -1,3 +1,11 @@
+# In Gentium, this file supports Greek decomposition and recomposition to handle the complexities 
+# of Greek diacrtics.
+
+# In non-Gentium fonts, this file must be present, even if empty, because it is included in the 
+# CDGA shared gsub.feax file. Plesase note that even though the include is inside a conditional block 
+# which will not be applied in non-Gentium fonts, the file must still be present to avoid a fatal 
+# error from makefea.
+
 lookup grk_decomp_sub {
   lookupflag 0;
     sub GrCapAlphaWMacron by GrCapAlpha CombMacron;
