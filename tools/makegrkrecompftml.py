@@ -3,6 +3,7 @@
 '''
 Make ftml tests for Greek combinataions based on content of grk_compose.feax
 Hacky script intended for rare usage. There's no cli, so edit strings below if needed.
+Assumes input data is good with no real validation.
 '''
 
 # __url__ = 'http://github.com/silnrsi/font-gentium'
@@ -61,13 +62,11 @@ ufo_f = ufo.Ufont(ufo_fn)
 for g_name in ufo_f.deflayer:
     ufo_g = ufo_f.deflayer[g_name]
     unicode_lst = ufo_g['unicode'] # list of USV strings
-    if unicode_lst:
+    if unicode_lst: # exclude unencoded glyphs
         usv_str = unicode_lst[0].hex # store first USV string
-        # name_to_unicode.setdefault(g_name, []).append(usv_str)
         name_to_unicode[g_name] = usv_str
 
-# extract many-to-one substitution rules from feax
-# for example: sub GrCapAlpha CombRevCommaAbv by GrCapAlphaWDasia;
+# build data structs to generate ftml rules
 feax_f = open(feax_fn, "r")
 feax = feax_f.readlines()
 feax_f.close()
@@ -75,10 +74,22 @@ feax_f.close()
 ftml_f = open(ftml_fn, "w")
 ftml_f.write(ftml_start)
 
+compose_to_unicode = {}
 for l in feax:
     field = re.split(r"\W+", l) # first field of matching lines will contain white space
     glyph_lst = []
-    if field[1] == "sub" and field[3] != "by": # excludes one-to-many sub rules
+    if field[1] == "sub" and field[3] == "by":
+        # extract two-to-one mapping from base + diac to encoded precomposed base w diac
+        # based on decomposition rules
+        # for example: sub GrCapAlphaWMacron by GrCapAlpha CombMacron;
+        unicode = name_to_unicode[field[2]]
+        compose_to_unicode[field[4] + "-" + field[5]] = unicode
+        continue
+    elif field[1] == "sub" and field[3] != "by":
+        # extract many-to-one substitution rules from feax
+        # based on recomposition rules
+        # for example: sub GrCapAlpha CombRevCommaAbv by GrCapAlphaWDasia;
+        # ftml lines are immediately written below
         for s in field[2:]: # slice off leading white space and 'sub'
             if s == "by":
                 break
@@ -88,12 +99,20 @@ for l in feax:
         continue
 
     #write ftml lines to output file
-    # unicode_lst = [name_to_unicode[x][0] for x in glyph_lst]
     unicode_lst = [name_to_unicode[x] for x in glyph_lst]
     test_label = "+".join(unicode_lst) # joing USVs with '+'
     test_string = "".join([f"\\u{x:0>6}" for x in unicode_lst]) # USVs with six digits and leading zeroes
-    ftml_test_str = ftml_template.format(test_label, test_string) # slice of leading nl
+    ftml_test_str = ftml_template.format(test_label, test_string)
     ftml_f.write(ftml_test_str)
+
+    if glyph_lst[0] + "-" + glyph_lst[1] in compose_to_unicode:
+        # write line to test codes with precomposed base w diac
+        unicode_lst = [compose_to_unicode[glyph_lst[0] + "-" + glyph_lst[1]]]
+        unicode_lst.extend([name_to_unicode[x] for x in glyph_lst[2:]])
+        test_label = "+".join(unicode_lst)
+        test_string = "".join([f"\\u{x:0>6}" for x in unicode_lst])
+        ftml_test_str = ftml_template.format(test_label, test_string)
+        ftml_f.write(ftml_test_str)
 
 ftml_f.write(ftml_end)
 ftml_f.close()
