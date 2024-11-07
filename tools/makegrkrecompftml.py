@@ -2,6 +2,9 @@
 #!/usr/bin/python3
 '''
 Make ftml tests for Greek combinataions based on content of grk_compose.feax
+Also test smcp feature on lower case sequences for glyphs which are produced by recomposition. 
+  see smcp.ftml, etc for glyphs not so produced (eg GrSmAlpha)
+
 Hacky script intended for rare usage. There's no cli, so edit strings below if needed.
 Assumes input data is good with no real validation.
 '''
@@ -28,6 +31,13 @@ ftml_template = '''
 #   <string>\u001FB9\u000308</string>
 # </test>
 
+ftml_style_template = '''
+    <test label=\"{}\" stylename=\"{}\">
+      <string>{}</string>
+    </test>
+'''[1:]
+smcp_stylename="smcp_1"
+
 ftml_start = '''
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
@@ -46,9 +56,17 @@ ftml_start = '''
     <fontsrc label="GXBI">url(../results/Gentium-ExtraBoldItalic.ttf)</fontsrc>
     <fontsrc label="GRv6">url(../references/v6200/GentiumPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GIv6">url(../references/v6200/GentiumPlus-Italic.ttf)</fontsrc>
+    <styles>
+      <style feats="'smcp' 1" name="smcp_1"/>
+    </styles>
     <title>Greek combinations</title>
   </head>
   <testgroup label="Greek recomposition">
+'''[1:]
+
+ftml_smcp_special = '''
+  </testgroup>
+  <testgroup label="Greek small cap specials">
 '''[1:]
 
 ftml_end = '''
@@ -95,16 +113,20 @@ for l in feax:
                 break
             else:
                 glyph_lst.append(s)
+    elif field[1] == "grk_sc1_sub": # end loop after decomp and recomp rules processed
+        break
     else:
         continue
 
-    #write ftml lines to output file
+    # write ftml lines to output file
     unicode_lst = [name_to_unicode[x] for x in glyph_lst]
     test_label = "+".join(unicode_lst) # joing USVs with '+'
     test_string = "".join([f"\\u{x:0>6}" for x in unicode_lst]) # USVs with six digits and leading zeroes
     ftml_test_str = ftml_template.format(test_label, test_string)
     ftml_f.write(ftml_test_str)
-
+    if chr(int(unicode_lst[0], 16)).islower(): # add smcp test for lower case glyphs
+        ftml_test_str = ftml_style_template.format(test_label, smcp_stylename, test_string)
+        ftml_f.write(ftml_test_str)
     if glyph_lst[0] + "-" + glyph_lst[1] in compose_to_unicode:
         # write line to test codes with precomposed base w diac
         unicode_lst = [compose_to_unicode[glyph_lst[0] + "-" + glyph_lst[1]]]
@@ -113,6 +135,22 @@ for l in feax:
         test_string = "".join([f"\\u{x:0>6}" for x in unicode_lst])
         ftml_test_str = ftml_template.format(test_label, test_string)
         ftml_f.write(ftml_test_str)
+        if chr(int(unicode_lst[0], 16)).islower():
+            ftml_test_str = ftml_style_template.format(test_label, smcp_stylename, test_string)
+            ftml_f.write(ftml_test_str)
+
+# add tests for certain glyphs that are not accessed through recomposition
+#  derived by examinging lookup grk_sc1_sub in grk_compose.feax for non GrSm* glyphs
+#  these are also tested in smcp.ftml tests
+ftml_f.write(ftml_smcp_special)
+smcp_test_lst = ["GrDottedLunateSigma", "GrLunateSigma", "GrRevDottedLunateSigma",
+                  "GrRevLunateSigma", "GrYot"]
+for g in smcp_test_lst:
+    u = name_to_unicode[g]
+    ftml_test_str = ftml_template.format(u, f"\\u{u:0>6}")
+    ftml_f.write(ftml_test_str)
+    ftml_test_str = ftml_style_template.format(u, smcp_stylename, f"\\u{u:0>6}")
+    ftml_f.write(ftml_test_str)
 
 ftml_f.write(ftml_end)
 ftml_f.close()

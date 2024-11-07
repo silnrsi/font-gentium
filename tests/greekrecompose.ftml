@@ -15,6 +15,9 @@
     <fontsrc label="GXBI">url(../results/Gentium-ExtraBoldItalic.ttf)</fontsrc>
     <fontsrc label="GRv6">url(../references/v6200/GentiumPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GIv6">url(../references/v6200/GentiumPlus-Italic.ttf)</fontsrc>
+    <styles>
+      <style feats="'smcp' 1" name="smcp_1"/>
+    </styles>
     <title>Greek combinations</title>
   </head>
   <testgroup label="Greek recomposition">
@@ -468,557 +471,1144 @@
     <test label="03B1+0314">
       <string>\u0003B1\u000314</string>
     </test>
+    <test label="03B1+0314" stylename="smcp_1">
+      <string>\u0003B1\u000314</string>
+    </test>
     <test label="03B1+0314+0301">
+      <string>\u0003B1\u000314\u000301</string>
+    </test>
+    <test label="03B1+0314+0301" stylename="smcp_1">
       <string>\u0003B1\u000314\u000301</string>
     </test>
     <test label="03B1+0314+0301+0345">
       <string>\u0003B1\u000314\u000301\u000345</string>
     </test>
+    <test label="03B1+0314+0301+0345" stylename="smcp_1">
+      <string>\u0003B1\u000314\u000301\u000345</string>
+    </test>
     <test label="03B1+0314+0342">
+      <string>\u0003B1\u000314\u000342</string>
+    </test>
+    <test label="03B1+0314+0342" stylename="smcp_1">
       <string>\u0003B1\u000314\u000342</string>
     </test>
     <test label="03B1+0314+0342+0345">
       <string>\u0003B1\u000314\u000342\u000345</string>
     </test>
+    <test label="03B1+0314+0342+0345" stylename="smcp_1">
+      <string>\u0003B1\u000314\u000342\u000345</string>
+    </test>
     <test label="03B1+0314+0300">
+      <string>\u0003B1\u000314\u000300</string>
+    </test>
+    <test label="03B1+0314+0300" stylename="smcp_1">
       <string>\u0003B1\u000314\u000300</string>
     </test>
     <test label="03B1+0314+0300+0345">
       <string>\u0003B1\u000314\u000300\u000345</string>
     </test>
+    <test label="03B1+0314+0300+0345" stylename="smcp_1">
+      <string>\u0003B1\u000314\u000300\u000345</string>
+    </test>
     <test label="03B1+0314+0345">
+      <string>\u0003B1\u000314\u000345</string>
+    </test>
+    <test label="03B1+0314+0345" stylename="smcp_1">
       <string>\u0003B1\u000314\u000345</string>
     </test>
     <test label="03B1+0304">
       <string>\u0003B1\u000304</string>
     </test>
+    <test label="03B1+0304" stylename="smcp_1">
+      <string>\u0003B1\u000304</string>
+    </test>
     <test label="1FB1">
+      <string>\u001FB1</string>
+    </test>
+    <test label="1FB1" stylename="smcp_1">
       <string>\u001FB1</string>
     </test>
     <test label="03B1+0304+0314">
       <string>\u0003B1\u000304\u000314</string>
     </test>
+    <test label="03B1+0304+0314" stylename="smcp_1">
+      <string>\u0003B1\u000304\u000314</string>
+    </test>
     <test label="1FB1+0314">
+      <string>\u001FB1\u000314</string>
+    </test>
+    <test label="1FB1+0314" stylename="smcp_1">
       <string>\u001FB1\u000314</string>
     </test>
     <test label="03B1+0304+0314+0301">
       <string>\u0003B1\u000304\u000314\u000301</string>
     </test>
+    <test label="03B1+0304+0314+0301" stylename="smcp_1">
+      <string>\u0003B1\u000304\u000314\u000301</string>
+    </test>
     <test label="1FB1+0314+0301">
+      <string>\u001FB1\u000314\u000301</string>
+    </test>
+    <test label="1FB1+0314+0301" stylename="smcp_1">
       <string>\u001FB1\u000314\u000301</string>
     </test>
     <test label="03B1+0304+0314+0300">
       <string>\u0003B1\u000304\u000314\u000300</string>
     </test>
+    <test label="03B1+0304+0314+0300" stylename="smcp_1">
+      <string>\u0003B1\u000304\u000314\u000300</string>
+    </test>
     <test label="1FB1+0314+0300">
+      <string>\u001FB1\u000314\u000300</string>
+    </test>
+    <test label="1FB1+0314+0300" stylename="smcp_1">
       <string>\u001FB1\u000314\u000300</string>
     </test>
     <test label="03B1+0304+0308">
       <string>\u0003B1\u000304\u000308</string>
     </test>
+    <test label="03B1+0304+0308" stylename="smcp_1">
+      <string>\u0003B1\u000304\u000308</string>
+    </test>
     <test label="1FB1+0308">
+      <string>\u001FB1\u000308</string>
+    </test>
+    <test label="1FB1+0308" stylename="smcp_1">
       <string>\u001FB1\u000308</string>
     </test>
     <test label="03B1+0304+0301">
       <string>\u0003B1\u000304\u000301</string>
     </test>
+    <test label="03B1+0304+0301" stylename="smcp_1">
+      <string>\u0003B1\u000304\u000301</string>
+    </test>
     <test label="1FB1+0301">
+      <string>\u001FB1\u000301</string>
+    </test>
+    <test label="1FB1+0301" stylename="smcp_1">
       <string>\u001FB1\u000301</string>
     </test>
     <test label="03B1+0304+0313">
       <string>\u0003B1\u000304\u000313</string>
     </test>
+    <test label="03B1+0304+0313" stylename="smcp_1">
+      <string>\u0003B1\u000304\u000313</string>
+    </test>
     <test label="1FB1+0313">
+      <string>\u001FB1\u000313</string>
+    </test>
+    <test label="1FB1+0313" stylename="smcp_1">
       <string>\u001FB1\u000313</string>
     </test>
     <test label="03B1+0304+0313+0301">
       <string>\u0003B1\u000304\u000313\u000301</string>
     </test>
+    <test label="03B1+0304+0313+0301" stylename="smcp_1">
+      <string>\u0003B1\u000304\u000313\u000301</string>
+    </test>
     <test label="1FB1+0313+0301">
+      <string>\u001FB1\u000313\u000301</string>
+    </test>
+    <test label="1FB1+0313+0301" stylename="smcp_1">
       <string>\u001FB1\u000313\u000301</string>
     </test>
     <test label="03B1+0304+0313+0300">
       <string>\u0003B1\u000304\u000313\u000300</string>
     </test>
+    <test label="03B1+0304+0313+0300" stylename="smcp_1">
+      <string>\u0003B1\u000304\u000313\u000300</string>
+    </test>
     <test label="1FB1+0313+0300">
+      <string>\u001FB1\u000313\u000300</string>
+    </test>
+    <test label="1FB1+0313+0300" stylename="smcp_1">
       <string>\u001FB1\u000313\u000300</string>
     </test>
     <test label="03B1+0304+0300">
       <string>\u0003B1\u000304\u000300</string>
     </test>
+    <test label="03B1+0304+0300" stylename="smcp_1">
+      <string>\u0003B1\u000304\u000300</string>
+    </test>
     <test label="1FB1+0300">
+      <string>\u001FB1\u000300</string>
+    </test>
+    <test label="1FB1+0300" stylename="smcp_1">
       <string>\u001FB1\u000300</string>
     </test>
     <test label="03B1+0301">
       <string>\u0003B1\u000301</string>
     </test>
+    <test label="03B1+0301" stylename="smcp_1">
+      <string>\u0003B1\u000301</string>
+    </test>
     <test label="03B1+0301+0345">
+      <string>\u0003B1\u000301\u000345</string>
+    </test>
+    <test label="03B1+0301+0345" stylename="smcp_1">
       <string>\u0003B1\u000301\u000345</string>
     </test>
     <test label="03B1+0342">
       <string>\u0003B1\u000342</string>
     </test>
+    <test label="03B1+0342" stylename="smcp_1">
+      <string>\u0003B1\u000342</string>
+    </test>
     <test label="03B1+0342+0345">
+      <string>\u0003B1\u000342\u000345</string>
+    </test>
+    <test label="03B1+0342+0345" stylename="smcp_1">
       <string>\u0003B1\u000342\u000345</string>
     </test>
     <test label="03B1+0313">
       <string>\u0003B1\u000313</string>
     </test>
+    <test label="03B1+0313" stylename="smcp_1">
+      <string>\u0003B1\u000313</string>
+    </test>
     <test label="03B1+0313+0301">
+      <string>\u0003B1\u000313\u000301</string>
+    </test>
+    <test label="03B1+0313+0301" stylename="smcp_1">
       <string>\u0003B1\u000313\u000301</string>
     </test>
     <test label="03B1+0313+0301+0345">
       <string>\u0003B1\u000313\u000301\u000345</string>
     </test>
+    <test label="03B1+0313+0301+0345" stylename="smcp_1">
+      <string>\u0003B1\u000313\u000301\u000345</string>
+    </test>
     <test label="03B1+0313+0342">
+      <string>\u0003B1\u000313\u000342</string>
+    </test>
+    <test label="03B1+0313+0342" stylename="smcp_1">
       <string>\u0003B1\u000313\u000342</string>
     </test>
     <test label="03B1+0313+0342+0345">
       <string>\u0003B1\u000313\u000342\u000345</string>
     </test>
+    <test label="03B1+0313+0342+0345" stylename="smcp_1">
+      <string>\u0003B1\u000313\u000342\u000345</string>
+    </test>
     <test label="03B1+0313+0300">
+      <string>\u0003B1\u000313\u000300</string>
+    </test>
+    <test label="03B1+0313+0300" stylename="smcp_1">
       <string>\u0003B1\u000313\u000300</string>
     </test>
     <test label="03B1+0313+0300+0345">
       <string>\u0003B1\u000313\u000300\u000345</string>
     </test>
+    <test label="03B1+0313+0300+0345" stylename="smcp_1">
+      <string>\u0003B1\u000313\u000300\u000345</string>
+    </test>
     <test label="03B1+0313+0345">
+      <string>\u0003B1\u000313\u000345</string>
+    </test>
+    <test label="03B1+0313+0345" stylename="smcp_1">
       <string>\u0003B1\u000313\u000345</string>
     </test>
     <test label="03B1+0300">
       <string>\u0003B1\u000300</string>
     </test>
+    <test label="03B1+0300" stylename="smcp_1">
+      <string>\u0003B1\u000300</string>
+    </test>
     <test label="03B1+0300+0345">
+      <string>\u0003B1\u000300\u000345</string>
+    </test>
+    <test label="03B1+0300+0345" stylename="smcp_1">
       <string>\u0003B1\u000300\u000345</string>
     </test>
     <test label="03B1+0306">
       <string>\u0003B1\u000306</string>
     </test>
+    <test label="03B1+0306" stylename="smcp_1">
+      <string>\u0003B1\u000306</string>
+    </test>
     <test label="03B1+0345">
+      <string>\u0003B1\u000345</string>
+    </test>
+    <test label="03B1+0345" stylename="smcp_1">
       <string>\u0003B1\u000345</string>
     </test>
     <test label="03B5+0314">
       <string>\u0003B5\u000314</string>
     </test>
+    <test label="03B5+0314" stylename="smcp_1">
+      <string>\u0003B5\u000314</string>
+    </test>
     <test label="03B5+0314+0301">
+      <string>\u0003B5\u000314\u000301</string>
+    </test>
+    <test label="03B5+0314+0301" stylename="smcp_1">
       <string>\u0003B5\u000314\u000301</string>
     </test>
     <test label="03B5+0314+0342">
       <string>\u0003B5\u000314\u000342</string>
     </test>
+    <test label="03B5+0314+0342" stylename="smcp_1">
+      <string>\u0003B5\u000314\u000342</string>
+    </test>
     <test label="03B5+0314+0300">
+      <string>\u0003B5\u000314\u000300</string>
+    </test>
+    <test label="03B5+0314+0300" stylename="smcp_1">
       <string>\u0003B5\u000314\u000300</string>
     </test>
     <test label="03B5+0301">
       <string>\u0003B5\u000301</string>
     </test>
+    <test label="03B5+0301" stylename="smcp_1">
+      <string>\u0003B5\u000301</string>
+    </test>
     <test label="03B5+0342">
+      <string>\u0003B5\u000342</string>
+    </test>
+    <test label="03B5+0342" stylename="smcp_1">
       <string>\u0003B5\u000342</string>
     </test>
     <test label="03B5+0313">
       <string>\u0003B5\u000313</string>
     </test>
+    <test label="03B5+0313" stylename="smcp_1">
+      <string>\u0003B5\u000313</string>
+    </test>
     <test label="03B5+0313+0301">
+      <string>\u0003B5\u000313\u000301</string>
+    </test>
+    <test label="03B5+0313+0301" stylename="smcp_1">
       <string>\u0003B5\u000313\u000301</string>
     </test>
     <test label="03B5+0313+0342">
       <string>\u0003B5\u000313\u000342</string>
     </test>
+    <test label="03B5+0313+0342" stylename="smcp_1">
+      <string>\u0003B5\u000313\u000342</string>
+    </test>
     <test label="03B5+0313+0300">
+      <string>\u0003B5\u000313\u000300</string>
+    </test>
+    <test label="03B5+0313+0300" stylename="smcp_1">
       <string>\u0003B5\u000313\u000300</string>
     </test>
     <test label="03B5+0300">
       <string>\u0003B5\u000300</string>
     </test>
+    <test label="03B5+0300" stylename="smcp_1">
+      <string>\u0003B5\u000300</string>
+    </test>
     <test label="03B7+0314">
+      <string>\u0003B7\u000314</string>
+    </test>
+    <test label="03B7+0314" stylename="smcp_1">
       <string>\u0003B7\u000314</string>
     </test>
     <test label="03B7+0314+0301">
       <string>\u0003B7\u000314\u000301</string>
     </test>
+    <test label="03B7+0314+0301" stylename="smcp_1">
+      <string>\u0003B7\u000314\u000301</string>
+    </test>
     <test label="03B7+0314+0301+0345">
+      <string>\u0003B7\u000314\u000301\u000345</string>
+    </test>
+    <test label="03B7+0314+0301+0345" stylename="smcp_1">
       <string>\u0003B7\u000314\u000301\u000345</string>
     </test>
     <test label="03B7+0314+0342">
       <string>\u0003B7\u000314\u000342</string>
     </test>
+    <test label="03B7+0314+0342" stylename="smcp_1">
+      <string>\u0003B7\u000314\u000342</string>
+    </test>
     <test label="03B7+0314+0342+0345">
+      <string>\u0003B7\u000314\u000342\u000345</string>
+    </test>
+    <test label="03B7+0314+0342+0345" stylename="smcp_1">
       <string>\u0003B7\u000314\u000342\u000345</string>
     </test>
     <test label="03B7+0314+0300">
       <string>\u0003B7\u000314\u000300</string>
     </test>
+    <test label="03B7+0314+0300" stylename="smcp_1">
+      <string>\u0003B7\u000314\u000300</string>
+    </test>
     <test label="03B7+0314+0300+0345">
+      <string>\u0003B7\u000314\u000300\u000345</string>
+    </test>
+    <test label="03B7+0314+0300+0345" stylename="smcp_1">
       <string>\u0003B7\u000314\u000300\u000345</string>
     </test>
     <test label="03B7+0314+0345">
       <string>\u0003B7\u000314\u000345</string>
     </test>
+    <test label="03B7+0314+0345" stylename="smcp_1">
+      <string>\u0003B7\u000314\u000345</string>
+    </test>
     <test label="03B7+0301">
+      <string>\u0003B7\u000301</string>
+    </test>
+    <test label="03B7+0301" stylename="smcp_1">
       <string>\u0003B7\u000301</string>
     </test>
     <test label="03B7+0301+0345">
       <string>\u0003B7\u000301\u000345</string>
     </test>
+    <test label="03B7+0301+0345" stylename="smcp_1">
+      <string>\u0003B7\u000301\u000345</string>
+    </test>
     <test label="03B7+0342">
+      <string>\u0003B7\u000342</string>
+    </test>
+    <test label="03B7+0342" stylename="smcp_1">
       <string>\u0003B7\u000342</string>
     </test>
     <test label="03B7+0342+0345">
       <string>\u0003B7\u000342\u000345</string>
     </test>
+    <test label="03B7+0342+0345" stylename="smcp_1">
+      <string>\u0003B7\u000342\u000345</string>
+    </test>
     <test label="03B7+0313">
+      <string>\u0003B7\u000313</string>
+    </test>
+    <test label="03B7+0313" stylename="smcp_1">
       <string>\u0003B7\u000313</string>
     </test>
     <test label="03B7+0313+0301">
       <string>\u0003B7\u000313\u000301</string>
     </test>
+    <test label="03B7+0313+0301" stylename="smcp_1">
+      <string>\u0003B7\u000313\u000301</string>
+    </test>
     <test label="03B7+0313+0301+0345">
+      <string>\u0003B7\u000313\u000301\u000345</string>
+    </test>
+    <test label="03B7+0313+0301+0345" stylename="smcp_1">
       <string>\u0003B7\u000313\u000301\u000345</string>
     </test>
     <test label="03B7+0313+0342">
       <string>\u0003B7\u000313\u000342</string>
     </test>
+    <test label="03B7+0313+0342" stylename="smcp_1">
+      <string>\u0003B7\u000313\u000342</string>
+    </test>
     <test label="03B7+0313+0342+0345">
+      <string>\u0003B7\u000313\u000342\u000345</string>
+    </test>
+    <test label="03B7+0313+0342+0345" stylename="smcp_1">
       <string>\u0003B7\u000313\u000342\u000345</string>
     </test>
     <test label="03B7+0313+0300">
       <string>\u0003B7\u000313\u000300</string>
     </test>
+    <test label="03B7+0313+0300" stylename="smcp_1">
+      <string>\u0003B7\u000313\u000300</string>
+    </test>
     <test label="03B7+0313+0300+0345">
+      <string>\u0003B7\u000313\u000300\u000345</string>
+    </test>
+    <test label="03B7+0313+0300+0345" stylename="smcp_1">
       <string>\u0003B7\u000313\u000300\u000345</string>
     </test>
     <test label="03B7+0313+0345">
       <string>\u0003B7\u000313\u000345</string>
     </test>
+    <test label="03B7+0313+0345" stylename="smcp_1">
+      <string>\u0003B7\u000313\u000345</string>
+    </test>
     <test label="03B7+0300">
+      <string>\u0003B7\u000300</string>
+    </test>
+    <test label="03B7+0300" stylename="smcp_1">
       <string>\u0003B7\u000300</string>
     </test>
     <test label="03B7+0300+0345">
       <string>\u0003B7\u000300\u000345</string>
     </test>
+    <test label="03B7+0300+0345" stylename="smcp_1">
+      <string>\u0003B7\u000300\u000345</string>
+    </test>
     <test label="03B7+0345">
+      <string>\u0003B7\u000345</string>
+    </test>
+    <test label="03B7+0345" stylename="smcp_1">
       <string>\u0003B7\u000345</string>
     </test>
     <test label="03B9+0314">
       <string>\u0003B9\u000314</string>
     </test>
+    <test label="03B9+0314" stylename="smcp_1">
+      <string>\u0003B9\u000314</string>
+    </test>
     <test label="03B9+0314+0301">
+      <string>\u0003B9\u000314\u000301</string>
+    </test>
+    <test label="03B9+0314+0301" stylename="smcp_1">
       <string>\u0003B9\u000314\u000301</string>
     </test>
     <test label="03B9+0314+0342">
       <string>\u0003B9\u000314\u000342</string>
     </test>
+    <test label="03B9+0314+0342" stylename="smcp_1">
+      <string>\u0003B9\u000314\u000342</string>
+    </test>
     <test label="03B9+0314+0300">
+      <string>\u0003B9\u000314\u000300</string>
+    </test>
+    <test label="03B9+0314+0300" stylename="smcp_1">
       <string>\u0003B9\u000314\u000300</string>
     </test>
     <test label="03B9+0308+0301">
       <string>\u0003B9\u000308\u000301</string>
     </test>
+    <test label="03B9+0308+0301" stylename="smcp_1">
+      <string>\u0003B9\u000308\u000301</string>
+    </test>
     <test label="03B9+0308+0342">
+      <string>\u0003B9\u000308\u000342</string>
+    </test>
+    <test label="03B9+0308+0342" stylename="smcp_1">
       <string>\u0003B9\u000308\u000342</string>
     </test>
     <test label="03B9+0308+0300">
       <string>\u0003B9\u000308\u000300</string>
     </test>
+    <test label="03B9+0308+0300" stylename="smcp_1">
+      <string>\u0003B9\u000308\u000300</string>
+    </test>
     <test label="03B9+0304">
+      <string>\u0003B9\u000304</string>
+    </test>
+    <test label="03B9+0304" stylename="smcp_1">
       <string>\u0003B9\u000304</string>
     </test>
     <test label="1FD1">
       <string>\u001FD1</string>
     </test>
+    <test label="1FD1" stylename="smcp_1">
+      <string>\u001FD1</string>
+    </test>
     <test label="03B9+0304+0314">
+      <string>\u0003B9\u000304\u000314</string>
+    </test>
+    <test label="03B9+0304+0314" stylename="smcp_1">
       <string>\u0003B9\u000304\u000314</string>
     </test>
     <test label="1FD1+0314">
       <string>\u001FD1\u000314</string>
     </test>
+    <test label="1FD1+0314" stylename="smcp_1">
+      <string>\u001FD1\u000314</string>
+    </test>
     <test label="03B9+0304+0314+0301">
+      <string>\u0003B9\u000304\u000314\u000301</string>
+    </test>
+    <test label="03B9+0304+0314+0301" stylename="smcp_1">
       <string>\u0003B9\u000304\u000314\u000301</string>
     </test>
     <test label="1FD1+0314+0301">
       <string>\u001FD1\u000314\u000301</string>
     </test>
+    <test label="1FD1+0314+0301" stylename="smcp_1">
+      <string>\u001FD1\u000314\u000301</string>
+    </test>
     <test label="03B9+0304+0314+0300">
+      <string>\u0003B9\u000304\u000314\u000300</string>
+    </test>
+    <test label="03B9+0304+0314+0300" stylename="smcp_1">
       <string>\u0003B9\u000304\u000314\u000300</string>
     </test>
     <test label="1FD1+0314+0300">
       <string>\u001FD1\u000314\u000300</string>
     </test>
+    <test label="1FD1+0314+0300" stylename="smcp_1">
+      <string>\u001FD1\u000314\u000300</string>
+    </test>
     <test label="03B9+0304+0308">
+      <string>\u0003B9\u000304\u000308</string>
+    </test>
+    <test label="03B9+0304+0308" stylename="smcp_1">
       <string>\u0003B9\u000304\u000308</string>
     </test>
     <test label="1FD1+0308">
       <string>\u001FD1\u000308</string>
     </test>
+    <test label="1FD1+0308" stylename="smcp_1">
+      <string>\u001FD1\u000308</string>
+    </test>
     <test label="03B9+0304+0301">
+      <string>\u0003B9\u000304\u000301</string>
+    </test>
+    <test label="03B9+0304+0301" stylename="smcp_1">
       <string>\u0003B9\u000304\u000301</string>
     </test>
     <test label="1FD1+0301">
       <string>\u001FD1\u000301</string>
     </test>
+    <test label="1FD1+0301" stylename="smcp_1">
+      <string>\u001FD1\u000301</string>
+    </test>
     <test label="03B9+0304+0313">
+      <string>\u0003B9\u000304\u000313</string>
+    </test>
+    <test label="03B9+0304+0313" stylename="smcp_1">
       <string>\u0003B9\u000304\u000313</string>
     </test>
     <test label="1FD1+0313">
       <string>\u001FD1\u000313</string>
     </test>
+    <test label="1FD1+0313" stylename="smcp_1">
+      <string>\u001FD1\u000313</string>
+    </test>
     <test label="03B9+0304+0313+0301">
+      <string>\u0003B9\u000304\u000313\u000301</string>
+    </test>
+    <test label="03B9+0304+0313+0301" stylename="smcp_1">
       <string>\u0003B9\u000304\u000313\u000301</string>
     </test>
     <test label="1FD1+0313+0301">
       <string>\u001FD1\u000313\u000301</string>
     </test>
+    <test label="1FD1+0313+0301" stylename="smcp_1">
+      <string>\u001FD1\u000313\u000301</string>
+    </test>
     <test label="03B9+0304+0313+0300">
+      <string>\u0003B9\u000304\u000313\u000300</string>
+    </test>
+    <test label="03B9+0304+0313+0300" stylename="smcp_1">
       <string>\u0003B9\u000304\u000313\u000300</string>
     </test>
     <test label="1FD1+0313+0300">
       <string>\u001FD1\u000313\u000300</string>
     </test>
+    <test label="1FD1+0313+0300" stylename="smcp_1">
+      <string>\u001FD1\u000313\u000300</string>
+    </test>
     <test label="03B9+0304+0300">
+      <string>\u0003B9\u000304\u000300</string>
+    </test>
+    <test label="03B9+0304+0300" stylename="smcp_1">
       <string>\u0003B9\u000304\u000300</string>
     </test>
     <test label="1FD1+0300">
       <string>\u001FD1\u000300</string>
     </test>
+    <test label="1FD1+0300" stylename="smcp_1">
+      <string>\u001FD1\u000300</string>
+    </test>
     <test label="03B9+0301">
+      <string>\u0003B9\u000301</string>
+    </test>
+    <test label="03B9+0301" stylename="smcp_1">
       <string>\u0003B9\u000301</string>
     </test>
     <test label="03B9+0342">
       <string>\u0003B9\u000342</string>
     </test>
+    <test label="03B9+0342" stylename="smcp_1">
+      <string>\u0003B9\u000342</string>
+    </test>
     <test label="03B9+0313">
+      <string>\u0003B9\u000313</string>
+    </test>
+    <test label="03B9+0313" stylename="smcp_1">
       <string>\u0003B9\u000313</string>
     </test>
     <test label="03B9+0313+0301">
       <string>\u0003B9\u000313\u000301</string>
     </test>
+    <test label="03B9+0313+0301" stylename="smcp_1">
+      <string>\u0003B9\u000313\u000301</string>
+    </test>
     <test label="03B9+0313+0342">
+      <string>\u0003B9\u000313\u000342</string>
+    </test>
+    <test label="03B9+0313+0342" stylename="smcp_1">
       <string>\u0003B9\u000313\u000342</string>
     </test>
     <test label="03B9+0313+0300">
       <string>\u0003B9\u000313\u000300</string>
     </test>
+    <test label="03B9+0313+0300" stylename="smcp_1">
+      <string>\u0003B9\u000313\u000300</string>
+    </test>
     <test label="03B9+0300">
+      <string>\u0003B9\u000300</string>
+    </test>
+    <test label="03B9+0300" stylename="smcp_1">
       <string>\u0003B9\u000300</string>
     </test>
     <test label="03B9+0306">
       <string>\u0003B9\u000306</string>
     </test>
+    <test label="03B9+0306" stylename="smcp_1">
+      <string>\u0003B9\u000306</string>
+    </test>
     <test label="03C9+0314">
+      <string>\u0003C9\u000314</string>
+    </test>
+    <test label="03C9+0314" stylename="smcp_1">
       <string>\u0003C9\u000314</string>
     </test>
     <test label="03C9+0314+0301">
       <string>\u0003C9\u000314\u000301</string>
     </test>
+    <test label="03C9+0314+0301" stylename="smcp_1">
+      <string>\u0003C9\u000314\u000301</string>
+    </test>
     <test label="03C9+0314+0301+0345">
+      <string>\u0003C9\u000314\u000301\u000345</string>
+    </test>
+    <test label="03C9+0314+0301+0345" stylename="smcp_1">
       <string>\u0003C9\u000314\u000301\u000345</string>
     </test>
     <test label="03C9+0314+0342">
       <string>\u0003C9\u000314\u000342</string>
     </test>
+    <test label="03C9+0314+0342" stylename="smcp_1">
+      <string>\u0003C9\u000314\u000342</string>
+    </test>
     <test label="03C9+0314+0342+0345">
+      <string>\u0003C9\u000314\u000342\u000345</string>
+    </test>
+    <test label="03C9+0314+0342+0345" stylename="smcp_1">
       <string>\u0003C9\u000314\u000342\u000345</string>
     </test>
     <test label="03C9+0314+0300">
       <string>\u0003C9\u000314\u000300</string>
     </test>
+    <test label="03C9+0314+0300" stylename="smcp_1">
+      <string>\u0003C9\u000314\u000300</string>
+    </test>
     <test label="03C9+0314+0300+0345">
+      <string>\u0003C9\u000314\u000300\u000345</string>
+    </test>
+    <test label="03C9+0314+0300+0345" stylename="smcp_1">
       <string>\u0003C9\u000314\u000300\u000345</string>
     </test>
     <test label="03C9+0314+0345">
       <string>\u0003C9\u000314\u000345</string>
     </test>
+    <test label="03C9+0314+0345" stylename="smcp_1">
+      <string>\u0003C9\u000314\u000345</string>
+    </test>
     <test label="03C9+0301">
+      <string>\u0003C9\u000301</string>
+    </test>
+    <test label="03C9+0301" stylename="smcp_1">
       <string>\u0003C9\u000301</string>
     </test>
     <test label="03C9+0301+0345">
       <string>\u0003C9\u000301\u000345</string>
     </test>
+    <test label="03C9+0301+0345" stylename="smcp_1">
+      <string>\u0003C9\u000301\u000345</string>
+    </test>
     <test label="03C9+0342">
+      <string>\u0003C9\u000342</string>
+    </test>
+    <test label="03C9+0342" stylename="smcp_1">
       <string>\u0003C9\u000342</string>
     </test>
     <test label="03C9+0342+0345">
       <string>\u0003C9\u000342\u000345</string>
     </test>
+    <test label="03C9+0342+0345" stylename="smcp_1">
+      <string>\u0003C9\u000342\u000345</string>
+    </test>
     <test label="03C9+0313">
+      <string>\u0003C9\u000313</string>
+    </test>
+    <test label="03C9+0313" stylename="smcp_1">
       <string>\u0003C9\u000313</string>
     </test>
     <test label="03C9+0313+0301">
       <string>\u0003C9\u000313\u000301</string>
     </test>
+    <test label="03C9+0313+0301" stylename="smcp_1">
+      <string>\u0003C9\u000313\u000301</string>
+    </test>
     <test label="03C9+0313+0301+0345">
+      <string>\u0003C9\u000313\u000301\u000345</string>
+    </test>
+    <test label="03C9+0313+0301+0345" stylename="smcp_1">
       <string>\u0003C9\u000313\u000301\u000345</string>
     </test>
     <test label="03C9+0313+0342">
       <string>\u0003C9\u000313\u000342</string>
     </test>
+    <test label="03C9+0313+0342" stylename="smcp_1">
+      <string>\u0003C9\u000313\u000342</string>
+    </test>
     <test label="03C9+0313+0342+0345">
+      <string>\u0003C9\u000313\u000342\u000345</string>
+    </test>
+    <test label="03C9+0313+0342+0345" stylename="smcp_1">
       <string>\u0003C9\u000313\u000342\u000345</string>
     </test>
     <test label="03C9+0313+0300">
       <string>\u0003C9\u000313\u000300</string>
     </test>
+    <test label="03C9+0313+0300" stylename="smcp_1">
+      <string>\u0003C9\u000313\u000300</string>
+    </test>
     <test label="03C9+0313+0300+0345">
+      <string>\u0003C9\u000313\u000300\u000345</string>
+    </test>
+    <test label="03C9+0313+0300+0345" stylename="smcp_1">
       <string>\u0003C9\u000313\u000300\u000345</string>
     </test>
     <test label="03C9+0313+0345">
       <string>\u0003C9\u000313\u000345</string>
     </test>
+    <test label="03C9+0313+0345" stylename="smcp_1">
+      <string>\u0003C9\u000313\u000345</string>
+    </test>
     <test label="03C9+0300">
+      <string>\u0003C9\u000300</string>
+    </test>
+    <test label="03C9+0300" stylename="smcp_1">
       <string>\u0003C9\u000300</string>
     </test>
     <test label="03C9+0300+0345">
       <string>\u0003C9\u000300\u000345</string>
     </test>
+    <test label="03C9+0300+0345" stylename="smcp_1">
+      <string>\u0003C9\u000300\u000345</string>
+    </test>
     <test label="03C9+0345">
+      <string>\u0003C9\u000345</string>
+    </test>
+    <test label="03C9+0345" stylename="smcp_1">
       <string>\u0003C9\u000345</string>
     </test>
     <test label="03BF+0314">
       <string>\u0003BF\u000314</string>
     </test>
+    <test label="03BF+0314" stylename="smcp_1">
+      <string>\u0003BF\u000314</string>
+    </test>
     <test label="03BF+0314+0301">
+      <string>\u0003BF\u000314\u000301</string>
+    </test>
+    <test label="03BF+0314+0301" stylename="smcp_1">
       <string>\u0003BF\u000314\u000301</string>
     </test>
     <test label="03BF+0314+0342">
       <string>\u0003BF\u000314\u000342</string>
     </test>
+    <test label="03BF+0314+0342" stylename="smcp_1">
+      <string>\u0003BF\u000314\u000342</string>
+    </test>
     <test label="03BF+0314+0300">
+      <string>\u0003BF\u000314\u000300</string>
+    </test>
+    <test label="03BF+0314+0300" stylename="smcp_1">
       <string>\u0003BF\u000314\u000300</string>
     </test>
     <test label="03BF+0301">
       <string>\u0003BF\u000301</string>
     </test>
+    <test label="03BF+0301" stylename="smcp_1">
+      <string>\u0003BF\u000301</string>
+    </test>
     <test label="03BF+0342">
+      <string>\u0003BF\u000342</string>
+    </test>
+    <test label="03BF+0342" stylename="smcp_1">
       <string>\u0003BF\u000342</string>
     </test>
     <test label="03BF+0313">
       <string>\u0003BF\u000313</string>
     </test>
+    <test label="03BF+0313" stylename="smcp_1">
+      <string>\u0003BF\u000313</string>
+    </test>
     <test label="03BF+0313+0301">
+      <string>\u0003BF\u000313\u000301</string>
+    </test>
+    <test label="03BF+0313+0301" stylename="smcp_1">
       <string>\u0003BF\u000313\u000301</string>
     </test>
     <test label="03BF+0313+0342">
       <string>\u0003BF\u000313\u000342</string>
     </test>
+    <test label="03BF+0313+0342" stylename="smcp_1">
+      <string>\u0003BF\u000313\u000342</string>
+    </test>
     <test label="03BF+0313+0300">
+      <string>\u0003BF\u000313\u000300</string>
+    </test>
+    <test label="03BF+0313+0300" stylename="smcp_1">
       <string>\u0003BF\u000313\u000300</string>
     </test>
     <test label="03BF+0300">
       <string>\u0003BF\u000300</string>
     </test>
+    <test label="03BF+0300" stylename="smcp_1">
+      <string>\u0003BF\u000300</string>
+    </test>
     <test label="03C1+0314">
+      <string>\u0003C1\u000314</string>
+    </test>
+    <test label="03C1+0314" stylename="smcp_1">
       <string>\u0003C1\u000314</string>
     </test>
     <test label="03C1+0313">
       <string>\u0003C1\u000313</string>
     </test>
+    <test label="03C1+0313" stylename="smcp_1">
+      <string>\u0003C1\u000313</string>
+    </test>
     <test label="03C5+0314">
+      <string>\u0003C5\u000314</string>
+    </test>
+    <test label="03C5+0314" stylename="smcp_1">
       <string>\u0003C5\u000314</string>
     </test>
     <test label="03C5+0314+0301">
       <string>\u0003C5\u000314\u000301</string>
     </test>
+    <test label="03C5+0314+0301" stylename="smcp_1">
+      <string>\u0003C5\u000314\u000301</string>
+    </test>
     <test label="03C5+0314+0342">
+      <string>\u0003C5\u000314\u000342</string>
+    </test>
+    <test label="03C5+0314+0342" stylename="smcp_1">
       <string>\u0003C5\u000314\u000342</string>
     </test>
     <test label="03C5+0314+0300">
       <string>\u0003C5\u000314\u000300</string>
     </test>
+    <test label="03C5+0314+0300" stylename="smcp_1">
+      <string>\u0003C5\u000314\u000300</string>
+    </test>
     <test label="03C5+0308">
+      <string>\u0003C5\u000308</string>
+    </test>
+    <test label="03C5+0308" stylename="smcp_1">
       <string>\u0003C5\u000308</string>
     </test>
     <test label="03C5+0308+0301">
       <string>\u0003C5\u000308\u000301</string>
     </test>
+    <test label="03C5+0308+0301" stylename="smcp_1">
+      <string>\u0003C5\u000308\u000301</string>
+    </test>
     <test label="03C5+0308+0342">
+      <string>\u0003C5\u000308\u000342</string>
+    </test>
+    <test label="03C5+0308+0342" stylename="smcp_1">
       <string>\u0003C5\u000308\u000342</string>
     </test>
     <test label="03C5+0308+0300">
       <string>\u0003C5\u000308\u000300</string>
     </test>
+    <test label="03C5+0308+0300" stylename="smcp_1">
+      <string>\u0003C5\u000308\u000300</string>
+    </test>
     <test label="03C5+0304">
+      <string>\u0003C5\u000304</string>
+    </test>
+    <test label="03C5+0304" stylename="smcp_1">
       <string>\u0003C5\u000304</string>
     </test>
     <test label="1FE1">
       <string>\u001FE1</string>
     </test>
+    <test label="1FE1" stylename="smcp_1">
+      <string>\u001FE1</string>
+    </test>
     <test label="03C5+0304+0314">
+      <string>\u0003C5\u000304\u000314</string>
+    </test>
+    <test label="03C5+0304+0314" stylename="smcp_1">
       <string>\u0003C5\u000304\u000314</string>
     </test>
     <test label="1FE1+0314">
       <string>\u001FE1\u000314</string>
     </test>
+    <test label="1FE1+0314" stylename="smcp_1">
+      <string>\u001FE1\u000314</string>
+    </test>
     <test label="03C5+0304+0314+0301">
+      <string>\u0003C5\u000304\u000314\u000301</string>
+    </test>
+    <test label="03C5+0304+0314+0301" stylename="smcp_1">
       <string>\u0003C5\u000304\u000314\u000301</string>
     </test>
     <test label="1FE1+0314+0301">
       <string>\u001FE1\u000314\u000301</string>
     </test>
+    <test label="1FE1+0314+0301" stylename="smcp_1">
+      <string>\u001FE1\u000314\u000301</string>
+    </test>
     <test label="03C5+0304+0314+0300">
+      <string>\u0003C5\u000304\u000314\u000300</string>
+    </test>
+    <test label="03C5+0304+0314+0300" stylename="smcp_1">
       <string>\u0003C5\u000304\u000314\u000300</string>
     </test>
     <test label="1FE1+0314+0300">
       <string>\u001FE1\u000314\u000300</string>
     </test>
+    <test label="1FE1+0314+0300" stylename="smcp_1">
+      <string>\u001FE1\u000314\u000300</string>
+    </test>
     <test label="03C5+0304+0308">
+      <string>\u0003C5\u000304\u000308</string>
+    </test>
+    <test label="03C5+0304+0308" stylename="smcp_1">
       <string>\u0003C5\u000304\u000308</string>
     </test>
     <test label="1FE1+0308">
       <string>\u001FE1\u000308</string>
     </test>
+    <test label="1FE1+0308" stylename="smcp_1">
+      <string>\u001FE1\u000308</string>
+    </test>
     <test label="03C5+0304+0301">
+      <string>\u0003C5\u000304\u000301</string>
+    </test>
+    <test label="03C5+0304+0301" stylename="smcp_1">
       <string>\u0003C5\u000304\u000301</string>
     </test>
     <test label="1FE1+0301">
       <string>\u001FE1\u000301</string>
     </test>
+    <test label="1FE1+0301" stylename="smcp_1">
+      <string>\u001FE1\u000301</string>
+    </test>
     <test label="03C5+0304+0313">
+      <string>\u0003C5\u000304\u000313</string>
+    </test>
+    <test label="03C5+0304+0313" stylename="smcp_1">
       <string>\u0003C5\u000304\u000313</string>
     </test>
     <test label="1FE1+0313">
       <string>\u001FE1\u000313</string>
     </test>
+    <test label="1FE1+0313" stylename="smcp_1">
+      <string>\u001FE1\u000313</string>
+    </test>
     <test label="03C5+0304+0313+0301">
+      <string>\u0003C5\u000304\u000313\u000301</string>
+    </test>
+    <test label="03C5+0304+0313+0301" stylename="smcp_1">
       <string>\u0003C5\u000304\u000313\u000301</string>
     </test>
     <test label="1FE1+0313+0301">
       <string>\u001FE1\u000313\u000301</string>
     </test>
+    <test label="1FE1+0313+0301" stylename="smcp_1">
+      <string>\u001FE1\u000313\u000301</string>
+    </test>
     <test label="03C5+0304+0313+0300">
+      <string>\u0003C5\u000304\u000313\u000300</string>
+    </test>
+    <test label="03C5+0304+0313+0300" stylename="smcp_1">
       <string>\u0003C5\u000304\u000313\u000300</string>
     </test>
     <test label="1FE1+0313+0300">
       <string>\u001FE1\u000313\u000300</string>
     </test>
+    <test label="1FE1+0313+0300" stylename="smcp_1">
+      <string>\u001FE1\u000313\u000300</string>
+    </test>
     <test label="03C5+0304+0300">
+      <string>\u0003C5\u000304\u000300</string>
+    </test>
+    <test label="03C5+0304+0300" stylename="smcp_1">
       <string>\u0003C5\u000304\u000300</string>
     </test>
     <test label="1FE1+0300">
       <string>\u001FE1\u000300</string>
     </test>
+    <test label="1FE1+0300" stylename="smcp_1">
+      <string>\u001FE1\u000300</string>
+    </test>
     <test label="03C5+0301">
+      <string>\u0003C5\u000301</string>
+    </test>
+    <test label="03C5+0301" stylename="smcp_1">
       <string>\u0003C5\u000301</string>
     </test>
     <test label="03C5+0342">
       <string>\u0003C5\u000342</string>
     </test>
+    <test label="03C5+0342" stylename="smcp_1">
+      <string>\u0003C5\u000342</string>
+    </test>
     <test label="03C5+0313">
+      <string>\u0003C5\u000313</string>
+    </test>
+    <test label="03C5+0313" stylename="smcp_1">
       <string>\u0003C5\u000313</string>
     </test>
     <test label="03C5+0313+0301">
       <string>\u0003C5\u000313\u000301</string>
     </test>
+    <test label="03C5+0313+0301" stylename="smcp_1">
+      <string>\u0003C5\u000313\u000301</string>
+    </test>
     <test label="03C5+0313+0342">
+      <string>\u0003C5\u000313\u000342</string>
+    </test>
+    <test label="03C5+0313+0342" stylename="smcp_1">
       <string>\u0003C5\u000313\u000342</string>
     </test>
     <test label="03C5+0313+0300">
       <string>\u0003C5\u000313\u000300</string>
     </test>
+    <test label="03C5+0313+0300" stylename="smcp_1">
+      <string>\u0003C5\u000313\u000300</string>
+    </test>
     <test label="03C5+0300">
+      <string>\u0003C5\u000300</string>
+    </test>
+    <test label="03C5+0300" stylename="smcp_1">
       <string>\u0003C5\u000300</string>
     </test>
     <test label="03C5+0306">
       <string>\u0003C5\u000306</string>
+    </test>
+    <test label="03C5+0306" stylename="smcp_1">
+      <string>\u0003C5\u000306</string>
+    </test>
+  </testgroup>
+  <testgroup label="Greek small cap specials">
+    <test label="037C">
+      <string>\u00037C</string>
+    </test>
+    <test label="037C" stylename="smcp_1">
+      <string>\u00037C</string>
+    </test>
+    <test label="03F2">
+      <string>\u0003F2</string>
+    </test>
+    <test label="03F2" stylename="smcp_1">
+      <string>\u0003F2</string>
+    </test>
+    <test label="037D">
+      <string>\u00037D</string>
+    </test>
+    <test label="037D" stylename="smcp_1">
+      <string>\u00037D</string>
+    </test>
+    <test label="037B">
+      <string>\u00037B</string>
+    </test>
+    <test label="037B" stylename="smcp_1">
+      <string>\u00037B</string>
+    </test>
+    <test label="03F3">
+      <string>\u0003F3</string>
+    </test>
+    <test label="03F3" stylename="smcp_1">
+      <string>\u0003F3</string>
     </test>
   </testgroup>
 </ftml>
