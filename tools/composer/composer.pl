@@ -382,6 +382,7 @@ my %featset_to_suffix = (
 # Chinantec tones negates low profile diacritics
 # small caps negate the lower case tail variants
 my %reduced_featsets = (
+	'BetaSerif-T SmCp-T' => 'SmCp-T',
 	'Click-T SmCp-T' => 'SmCp-T',
 	'CapQ-T SmQTail-T' => 'SmQTail-T', # lower case glyph not affected by Capital Q alternate
 	'Caron-T SmCp-T' => 'SmCp-T',
