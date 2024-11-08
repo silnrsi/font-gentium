@@ -348,6 +348,7 @@ lookup grk_sc1_sub { # TODO: perhaps remove rules that are reduntant with common
     sub GrSmDigamma by GrSmDigamma.sc;
     sub GrSmEpsilon by GrSmEpsilon.sc;
     sub GrSmEpsilonWDasia by GrSmEpsilon.sc;
+    sub GrSmEpsilonWDasiaOxia by GrSmEpsilon.sc;
     sub GrSmEpsilonWDasiaPeris by GrSmEpsilon.sc;
     sub GrSmEpsilonWDasiaVaria by GrSmEpsilon.sc;
     sub GrSmEpsilonWOxia by GrSmEpsilon.sc;
