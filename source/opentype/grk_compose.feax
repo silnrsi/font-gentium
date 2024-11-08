@@ -216,6 +216,7 @@ lookup grk_recomp_sub {
     sub GrSmIota CombRevCommaAbv CombAcute by GrSmIotaWDasiaOxia;
     sub GrSmIota CombRevCommaAbv CombGrPeris by GrSmIotaWDasiaPeris;
     sub GrSmIota CombRevCommaAbv CombGrave by GrSmIotaWDasiaVaria;
+    sub GrSmIota CombDiaer by GrSmIotaWDial;
     sub GrSmIota CombDiaer CombAcute by GrSmIotaWDialOxia;
     sub GrSmIota CombDiaer CombGrPeris by GrSmIotaWDialPeris;
     sub GrSmIota CombDiaer CombGrave by GrSmIotaWDialVaria;

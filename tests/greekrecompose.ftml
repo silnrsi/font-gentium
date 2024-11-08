@@ -960,6 +960,12 @@
     <test label="03B9+0314+0300" stylename="smcp_1">
       <string>\u0003B9\u000314\u000300</string>
     </test>
+    <test label="03B9+0308">
+      <string>\u0003B9\u000308</string>
+    </test>
+    <test label="03B9+0308" stylename="smcp_1">
+      <string>\u0003B9\u000308</string>
+    </test>
     <test label="03B9+0308+0301">
       <string>\u0003B9\u000308\u000301</string>
     </test>
