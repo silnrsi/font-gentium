@@ -2718,6 +2718,7 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>ModSmSHook</string>
     <string>LtnSmSPalHook</string>
     <string>LtnSmSMiddleTilde</string>
+    <string>LtnSmSFullDiagStrk</string>
     <string>LtnSmSDiagStrk</string>
     <string>LtnSmSShortStrk</string>
     <string>LtnSmSMidLftHook</string>
@@ -2747,6 +2748,7 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>LtnCapSCommaBlw</string>
     <string>LtnCapSCedilla</string>
     <string>LtnCapSHook</string>
+    <string>LtnCapSFullDiagStrk</string>
     <string>LtnCapSDiagStrk</string>
     <string>LtnCapSShortStrk</string>
     <string>LtnCapSSwashTail</string>
@@ -2802,6 +2804,7 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>ModCySmTe.Serb</string>
     <string>CySmTeDesc</string>
     <string>CySmKomiTje</string>
+    <string>CySmTje</string>
     <string>CySmLigTeTse</string>
     <string>CyCapTe</string>
     <string>GrCapTau</string>
@@ -2829,6 +2832,7 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>CyCapLigTeTse</string>
     <string>CyCapTshe</string>
     <string>CyCapDje</string>
+    <string>CyCapTje</string>
     <string>MathFrktCapT</string>
     <string>LtnSubSmU</string>
     <string>LtnSupSmU</string>
@@ -3064,6 +3068,7 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>LtnSmTurnedYBelt</string>
     <string>ModSmTurnedYBelt</string>
     <string>GrSmLamda</string>
+    <string>LtnSmLambda</string>
     <string>LtnSmLambdaStrk</string>
     <string>CySmChe</string>
     <string>CySubSmChe</string>
@@ -3096,6 +3101,8 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>CyCapShortU</string>
     <string>CyCapUMacron</string>
     <string>CyCapUDiaer</string>
+    <string>LtnCapLambda</string>
+    <string>LtnCapLambdaStrk</string>
     <string>CyCapChe</string>
     <string>CyCapCheDiaer</string>
     <string>CyCapCheVertStrk</string>
@@ -5352,6 +5359,7 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>LtnSmSDotBlwDotAbv.sc</string>
     <string>LtnSmSCommaBlw.sc</string>
     <string>LtnSmSCedilla.sc</string>
+    <string>LtnSmSFullDiagStrk.sc</string>
     <string>LtnSmSDiagStrk.sc</string>
     <string>LtnSmSSwashTail.sc</string>
     <string>LtnSmSharpS.sc</string>
@@ -5377,6 +5385,7 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>LtnSmTurnedT.sc</string>
     <string>CySmTe.sc</string>
     <string>CySmKomiTje.sc</string>
+    <string>CySmTje.sc</string>
     <string>CySmLigTeTse.sc</string>
     <string>CySmTeDesc.sc</string>
     <string>LtnSmU.sc</string>
@@ -5467,6 +5476,8 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>LtnSmYLoop.sc</string>
     <string>CySmStraightU.sc</string>
     <string>CySmStraightUStrk.sc</string>
+    <string>LtnSmLambda.sc</string>
+    <string>LtnSmLambdaStrk.sc</string>
     <string>CySmChe.sc</string>
     <string>CySmCheDiaer.sc</string>
     <string>CySmKhakasChe.sc</string>
@@ -5682,6 +5693,7 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>LtnSupSmTurnedVDep</string>
     <string>LtnSupSmRamsHornDep</string>
     <string>LtnCapTurnedVDep</string>
+    <string>LtnCapRamsHornDep</string>
     <string>LtnSmWHookDep</string>
     <string>LtnCapWHookDep</string>
     <string>LtnSmXPalHookDep</string>
@@ -6691,6 +6703,8 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>uni0422</string>
     <key>CyCapTeDesc</key>
     <string>uni04AC</string>
+    <key>CyCapTje</key>
+    <string>uni1C89</string>
     <key>CyCapTse</key>
     <string>uni0426</string>
     <key>CyCapTshe</key>
@@ -7237,6 +7251,10 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>uni04AD</string>
     <key>CySmTeDesc.sc</key>
     <string>uni04AD.sc</string>
+    <key>CySmTje</key>
+    <string>uni1C8A</string>
+    <key>CySmTje.sc</key>
+    <string>uni1C8A.sc</string>
     <key>CySmTse</key>
     <string>uni0446</string>
     <key>CySmTse.sc</key>
@@ -9495,6 +9513,10 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>Lslash</string>
     <key>LtnCapLTrnd</key>
     <string>uniA780</string>
+    <key>LtnCapLambda</key>
+    <string>uniA7DA</string>
+    <key>LtnCapLambdaStrk</key>
+    <string>uniA7DC</string>
     <key>LtnCapLigIj</key>
     <string>IJ</string>
     <key>LtnCapLigOe</key>
@@ -9731,6 +9753,8 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>uniA75A</string>
     <key>LtnCapRamsHorn</key>
     <string>uniA7CB</string>
+    <key>LtnCapRamsHornDep</key>
+    <string>uniF26E</string>
     <key>LtnCapRevCMiddleDot</key>
     <string>uniA73E</string>
     <key>LtnCapRevE</key>
@@ -9769,6 +9793,8 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>uni1E62</string>
     <key>LtnCapSDotBlwDotAbv</key>
     <string>uni1E68</string>
+    <key>LtnCapSFullDiagStrk</key>
+    <string>uniA7CC</string>
     <key>LtnCapSHook</key>
     <string>uniA7C5</string>
     <key>LtnCapSShortStrk</key>
@@ -12067,8 +12093,14 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>uniA781.sc</string>
     <key>LtnSmLZDigraph</key>
     <string>uni02AB</string>
+    <key>LtnSmLambda</key>
+    <string>uniA7DB</string>
+    <key>LtnSmLambda.sc</key>
+    <string>uniA7DB.sc</string>
     <key>LtnSmLambdaStrk</key>
     <string>uni019B</string>
+    <key>LtnSmLambdaStrk.sc</key>
+    <string>uni019B.sc</string>
     <key>LtnSmLezh</key>
     <string>uni026E</string>
     <key>LtnSmLezhRetrHook</key>
@@ -12803,6 +12835,10 @@ c/ModApos/LtnSmCAcute/ModApos c/RtSglQuotMrk/LtnSmCAcute/RtSglQuotMrk c/CombLftA
     <string>uni1E69.LP</string>
     <key>LtnSmSDotBlwDotAbv.sc</key>
     <string>uni1E69.sc</string>
+    <key>LtnSmSFullDiagStrk</key>
+    <string>uniA7CD</string>
+    <key>LtnSmSFullDiagStrk.sc</key>
+    <string>uniA7CD.sc</string>
     <key>LtnSmSHook</key>
     <string>uni0282</string>
     <key>LtnSmSHook.sc</key>

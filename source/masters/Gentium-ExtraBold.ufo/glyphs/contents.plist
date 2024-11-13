@@ -932,6 +932,8 @@
   <string>C_yC_apT_e.glif</string>
   <key>CyCapTeDesc</key>
   <string>C_yC_apT_eD_esc.glif</string>
+  <key>CyCapTje</key>
+  <string>C_yC_apT_je.glif</string>
   <key>CyCapTse</key>
   <string>C_yC_apT_se.glif</string>
   <key>CyCapTshe</key>
@@ -1478,6 +1480,10 @@
   <string>C_yS_mT_eD_esc.glif</string>
   <key>CySmTeDesc.sc</key>
   <string>C_yS_mT_eD_esc.sc.glif</string>
+  <key>CySmTje</key>
+  <string>C_yS_mT_je.glif</string>
+  <key>CySmTje.sc</key>
+  <string>C_yS_mT_je.sc.glif</string>
   <key>CySmTse</key>
   <string>C_yS_mT_se.glif</string>
   <key>CySmTse.sc</key>
@@ -3736,6 +3742,10 @@
   <string>L_tnC_apL_S_trk.glif</string>
   <key>LtnCapLTrnd</key>
   <string>L_tnC_apL_T_rnd.glif</string>
+  <key>LtnCapLambda</key>
+  <string>L_tnC_apL_ambda.glif</string>
+  <key>LtnCapLambdaStrk</key>
+  <string>L_tnC_apL_ambdaS_trk.glif</string>
   <key>LtnCapLigIj</key>
   <string>L_tnC_apL_igI_j.glif</string>
   <key>LtnCapLigOe</key>
@@ -3972,6 +3982,8 @@
   <string>L_tnC_apR_R_otunda.glif</string>
   <key>LtnCapRamsHorn</key>
   <string>L_tnC_apR_amsH_orn.glif</string>
+  <key>LtnCapRamsHornDep</key>
+  <string>L_tnC_apR_amsH_ornD_ep.glif</string>
   <key>LtnCapRevCMiddleDot</key>
   <string>L_tnC_apR_evC_M_iddleD_ot.glif</string>
   <key>LtnCapRevE</key>
@@ -4010,6 +4022,8 @@
   <string>L_tnC_apS_D_otB_lw.glif</string>
   <key>LtnCapSDotBlwDotAbv</key>
   <string>L_tnC_apS_D_otB_lwD_otA_bv.glif</string>
+  <key>LtnCapSFullDiagStrk</key>
+  <string>L_tnC_apS_F_ullD_iagS_trk.glif</string>
   <key>LtnCapSHook</key>
   <string>L_tnC_apS_H_ook.glif</string>
   <key>LtnCapSShortStrk</key>
@@ -6308,8 +6322,14 @@
   <string>L_tnS_mL_T_rnd.sc.glif</string>
   <key>LtnSmLZDigraph</key>
   <string>L_tnS_mL_Z_D_igraph.glif</string>
+  <key>LtnSmLambda</key>
+  <string>L_tnS_mL_ambda.glif</string>
+  <key>LtnSmLambda.sc</key>
+  <string>L_tnS_mL_ambda.sc.glif</string>
   <key>LtnSmLambdaStrk</key>
   <string>L_tnS_mL_ambdaS_trk.glif</string>
+  <key>LtnSmLambdaStrk.sc</key>
+  <string>L_tnS_mL_ambdaS_trk.sc.glif</string>
   <key>LtnSmLezh</key>
   <string>L_tnS_mL_ezh.glif</string>
   <key>LtnSmLezhRetrHook</key>
@@ -7044,6 +7064,10 @@
   <string>L_tnS_mS_D_otB_lwD_otA_bv.L_P_.glif</string>
   <key>LtnSmSDotBlwDotAbv.sc</key>
   <string>L_tnS_mS_D_otB_lwD_otA_bv.sc.glif</string>
+  <key>LtnSmSFullDiagStrk</key>
+  <string>L_tnS_mS_F_ullD_iagS_trk.glif</string>
+  <key>LtnSmSFullDiagStrk.sc</key>
+  <string>L_tnS_mS_F_ullD_iagS_trk.sc.glif</string>
   <key>LtnSmSHook</key>
   <string>L_tnS_mS_H_ook.glif</string>
   <key>LtnSmSHook.sc</key>
