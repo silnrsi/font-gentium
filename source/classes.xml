@@ -679,18 +679,18 @@
 	<class name="c_dotlss" fixed="0">
 		CySmByelorusUkrainI.Dotless CySmByelorusUkrainI.Dotless.sc CySmJe.Dotless CySmJe.Dotless.sc
 		LtnSmI.Dotless LtnSmI.Dotless.SItal LtnSmI.Dotless.sc LtnSmIDotBlw.Dotless.sc
-		LtnSmIRetrHook.Dotless LtnSmIStrk.Dotless LtnSmIStrk.Dotless.sc LtnSmJ.Dotless
-		LtnSmJ.Dotless.sc LtnSmJCrossedTail.Dotless LtnSmJCrossedTail.Dotless.sc LtnSmJStrk.Dotless
-		LtnSmJStrk.Dotless.sc LtnSubSmI.Dotless LtnSubSmJ.Dotless LtnSupSmI.Dotless
-		LtnSupSmIStrk.Dotless ModSmJ.Dotless ModSmJCrossedTail.Dotless
+		LtnSmIRetrHook.Dotless LtnSmIStrk.Dotless LtnSmIStrk.Dotless.sc LtnSmIStrkRetrHook.Dotless
+		LtnSmJ.Dotless LtnSmJ.Dotless.sc LtnSmJCrossedTail.Dotless LtnSmJCrossedTail.Dotless.sc
+		LtnSmJStrk.Dotless LtnSmJStrk.Dotless.sc LtnSubSmI.Dotless LtnSubSmJ.Dotless
+		LtnSupSmI.Dotless LtnSupSmIStrk.Dotless ModSmJ.Dotless ModSmJCrossedTail.Dotless
 	</class>
 	<class name="cno_dotlss" fixed="0">
 		CySmByelorusUkrainI CySmByelorusUkrainI.sc CySmJe CySmJe.sc
 		LtnSmI LtnSmI.SItal LtnSmI.sc LtnSmIDotBlw.sc
-		LtnSmIRetrHook LtnSmIStrk LtnSmIStrk.sc LtnSmJ
-		LtnSmJ.sc LtnSmJCrossedTail LtnSmJCrossedTail.sc LtnSmJStrk
-		LtnSmJStrk.sc LtnSubSmI LtnSubSmJ LtnSupSmI
-		LtnSupSmIStrk ModSmJ ModSmJCrossedTail
+		LtnSmIRetrHook LtnSmIStrk LtnSmIStrk.sc LtnSmIStrkRetrHook
+		LtnSmJ LtnSmJ.sc LtnSmJCrossedTail LtnSmJCrossedTail.sc
+		LtnSmJStrk LtnSmJStrk.sc LtnSubSmI LtnSubSmJ
+		LtnSupSmI LtnSupSmIStrk ModSmJ ModSmJCrossedTail
 	</class>
 	<class name="c_rtrhk" fixed="0">
 		CombOgonek.RetroHook LtnCapAOgonek.RetroHook LtnCapEOgonek.RetroHook LtnCapIOgonek.RetroHook
@@ -1966,69 +1966,70 @@
 		LtnSmIDotAbv.LP LtnSmIDotAbv.SItal.LP LtnSmIDotBlw.LP LtnSmIDotBlw.SItal.LP
 		LtnSmIOgonek.Dotless LtnSmIOgonek.LP LtnSmIOgonek.RetroHook LtnSmIOgonek.RetroHook.LP
 		LtnSmIRetrHook.Dotless LtnSmIRetrHookDep LtnSmIStrk.Dotless LtnSmIStrk.LP
-		LtnSmITildeBlw.LP LtnSmITildeBlw.SItal.LP LtnSmInsularF LtnSmInsularG
-		LtnSmInsularR LtnSmInsularS LtnSmInsularT LtnSmInvAlpha
-		LtnSmIota LtnSmIotaStrk LtnSmIotaStrkDep LtnSmJ.Dotless
-		LtnSmJ.LP LtnSmJCrossedTail.Dotless LtnSmJCrossedTail.LP LtnSmJStrk.Dotless
-		LtnSmJStrkDep LtnSmKra LtnSmLTrnd LtnSmLigFfi.LP
-		LtnSmLigFi.LP LtnSmLigIj.LP LtnSmLigOe LtnSmLj.LP
-		LtnSmM LtnSmMDotBlw LtnSmMHook LtnSmMMiddleTilde
-		LtnSmMMiddleTildeDep LtnSmMPalHook LtnSmMPalHookDep LtnSmMum
-		LtnSmN LtnSmNCedilla LtnSmNCircumBlw LtnSmNCurl
-		LtnSmNDesc LtnSmNDiagStrk LtnSmNDotBlw LtnSmNLftHook
-		LtnSmNLftHook.LCStyle LtnSmNLineBlw LtnSmNLngRtLeg LtnSmNMidLftHook
-		LtnSmNMiddleTilde LtnSmNMiddleTildeDep LtnSmNPalHook LtnSmNPalHookDep
-		LtnSmNRetrHook LtnSmNj.LP LtnSmNum LtnSmO
-		LtnSmOCurl LtnSmODotBlw LtnSmOHorn LtnSmOHornDotBlw
-		LtnSmOLngStrk LtnSmOODigraph LtnSmOOgonek LtnSmOOgonek.RetroHook
-		LtnSmORetrHook LtnSmORingInside LtnSmOStrk LtnSmOi
-		LtnSmOmega LtnSmOpenNine LtnSmOpnE LtnSmOpnERetrHook
-		LtnSmOpnERetrHookDep LtnSmOpnO LtnSmOpnO.TopSerif LtnSmOpnORetrHook
-		LtnSmOpnORetrHook.TopSerif LtnSmOpnORetrHookDep LtnSmP LtnSmPHighCurl
-		LtnSmPLowCurl LtnSmPLowStrk LtnSmPMiddleTilde LtnSmPMiddleTildeDep
-		LtnSmPPalHook LtnSmPPalHookDep LtnSmPStrk LtnSmPStrkDep
-		LtnSmQ LtnSmQDiagStrk LtnSmQHookTail LtnSmQHookTailDep
-		LtnSmQPDigraph LtnSmQPDigraphDep LtnSmQStrk LtnSmR
-		LtnSmRBar LtnSmRBarDep LtnSmRCedilla LtnSmRDiagStrk
-		LtnSmRDotBlw LtnSmRFishhook LtnSmRFishhookMiddleTilde LtnSmRFishhookMiddleTildeDep
-		LtnSmRFishhookPalHook LtnSmRHookTail LtnSmRHookTail.LCStyle LtnSmRLineBlw
-		LtnSmRLngLeg LtnSmRMidLftHook LtnSmRMiddleTilde LtnSmRMiddleTildeDep
-		LtnSmRPalHook LtnSmRPalHookDep LtnSmRRotunda LtnSmRamsHorn
-		LtnSmRamsHorn.GammaStyle LtnSmRamsHorn.LrgBowl LtnSmRevC LtnSmRevCMiddleDot
-		LtnSmRevE LtnSmRevEng LtnSmRevOpnE LtnSmRevOpnEHook
-		LtnSmRevOpnERetrHook LtnSmRevOpnERetrHookDep LtnSmRevRFishhook LtnSmRevScriptG
-		LtnSmRumRotunda LtnSmS LtnSmSCedilla LtnSmSCommaBlw
-		LtnSmSCurl LtnSmSDiagStrk LtnSmSDotBlw LtnSmSFullDiagStrk
-		LtnSmSHook LtnSmSMidLftHook LtnSmSMiddleTilde LtnSmSMiddleTildeDep
-		LtnSmSPalHook LtnSmSPalHookDep LtnSmSShortStrk LtnSmSSwashTail
-		LtnSmSSwashTailDep LtnSmSchwa LtnSmSchwaHook LtnSmSchwaRetrHook
-		LtnSmSchwaRetrHookDep LtnSmScriptG LtnSmScriptGPalHook LtnSmScriptGPalHookDep
-		LtnSmSdwysDiaerU LtnSmSdwysO LtnSmSdwysOStrk LtnSmSdwysOpnO
-		LtnSmSdwysU LtnSmSquatRevEsh LtnSmTnFive LtnSmTnTwo
-		LtnSmTopHalfO LtnSmTresillo LtnSmTrndAe LtnSmTrndDelta
-		LtnSmTrndOe LtnSmTrndOpnE LtnSmTurnedA LtnSmTurnedA.2StorySItal
-		LtnSmTurnedAlpha LtnSmTurnedE LtnSmTurnedH LtnSmTurnedHFishhook
-		LtnSmTurnedHFishhookTail LtnSmTurnedK LtnSmTurnedM LtnSmTurnedMLngLeg
-		LtnSmTurnedR LtnSmTurnedRHook LtnSmTurnedRMiddleTilde LtnSmTurnedRPalHook
-		LtnSmTurnedT LtnSmTurnedTCurl LtnSmTurnedV LtnSmTurnedW
-		LtnSmU LtnSmUBar LtnSmUCircumBlw LtnSmUDiaerBlw
-		LtnSmUDotBlw LtnSmUHorn LtnSmUHornDotBlw LtnSmUOgonek
-		LtnSmUOgonek.RetroHook LtnSmURetrHook LtnSmURetrHookDep LtnSmUStrk
-		LtnSmUTildeBlw LtnSmUe LtnSmUpsilon LtnSmUpsilonStrk
-		LtnSmUpsilonStrkDep LtnSmV LtnSmV.SItal LtnSmVCurl
-		LtnSmVCurlDep LtnSmVDiagStrk LtnSmVDiagStrk.SItal LtnSmVDotBlw
-		LtnSmVDotBlw.SItal LtnSmVHook LtnSmVHook.StraightLft LtnSmVPalHook
-		LtnSmVPalHookDep LtnSmVRtHook LtnSmVRtHookDep LtnSmVYDigraph
-		LtnSmVend LtnSmW LtnSmWDotBlw LtnSmWHook
-		LtnSmX LtnSmXPalHook LtnSmXPalHookDep LtnSmY
-		LtnSmYDotBlw LtnSmYHook LtnSmYHook.RtHook LtnSmYLoop
-		LtnSmYOgonek LtnSmYOgonek.RetroHook LtnSmYStrk LtnSmYStrkDep
-		LtnSmYogh LtnSmZ LtnSmZ.SItal LtnSmZCurl
-		LtnSmZDesc LtnSmZDescDep LtnSmZDotBlw LtnSmZDotBlw.SItal
-		LtnSmZHook LtnSmZLineBlw LtnSmZLineBlw.SItal LtnSmZMiddleTilde
-		LtnSmZMiddleTildeDep LtnSmZPalHook LtnSmZPalHookDep LtnSmZRetrHook
-		LtnSmZStrk LtnSmZSwashTail LtnSmZSwashTailDep LtnStretchedC
-		LtnStretchedCCurl LtnWynn ModTriangularColon GrSmCapOmega
+		LtnSmIStrkRetrHook.Dotless LtnSmITildeBlw.LP LtnSmITildeBlw.SItal.LP LtnSmInsularF
+		LtnSmInsularG LtnSmInsularR LtnSmInsularS LtnSmInsularT
+		LtnSmInvAlpha LtnSmIota LtnSmIotaStrk LtnSmIotaStrkDep
+		LtnSmJ.Dotless LtnSmJ.LP LtnSmJCrossedTail.Dotless LtnSmJCrossedTail.LP
+		LtnSmJStrk.Dotless LtnSmJStrkDep LtnSmKra LtnSmLTrnd
+		LtnSmLigFfi.LP LtnSmLigFi.LP LtnSmLigIj.LP LtnSmLigOe
+		LtnSmLj.LP LtnSmM LtnSmMDotBlw LtnSmMHook
+		LtnSmMMiddleTilde LtnSmMMiddleTildeDep LtnSmMPalHook LtnSmMPalHookDep
+		LtnSmMum LtnSmN LtnSmNCedilla LtnSmNCircumBlw
+		LtnSmNCurl LtnSmNDesc LtnSmNDiagStrk LtnSmNDotBlw
+		LtnSmNLftHook LtnSmNLftHook.LCStyle LtnSmNLineBlw LtnSmNLngRtLeg
+		LtnSmNMidLftHook LtnSmNMiddleTilde LtnSmNMiddleTildeDep LtnSmNPalHook
+		LtnSmNPalHookDep LtnSmNRetrHook LtnSmNj.LP LtnSmNum
+		LtnSmO LtnSmOCurl LtnSmODotBlw LtnSmOHorn
+		LtnSmOHornDotBlw LtnSmOLngStrk LtnSmOODigraph LtnSmOOgonek
+		LtnSmOOgonek.RetroHook LtnSmORetrHook LtnSmORingInside LtnSmOStrk
+		LtnSmOi LtnSmOmega LtnSmOpenNine LtnSmOpnE
+		LtnSmOpnERetrHook LtnSmOpnERetrHookDep LtnSmOpnO LtnSmOpnO.TopSerif
+		LtnSmOpnORetrHook LtnSmOpnORetrHook.TopSerif LtnSmOpnORetrHookDep LtnSmP
+		LtnSmPHighCurl LtnSmPLowCurl LtnSmPLowStrk LtnSmPMiddleTilde
+		LtnSmPMiddleTildeDep LtnSmPPalHook LtnSmPPalHookDep LtnSmPStrk
+		LtnSmPStrkDep LtnSmQ LtnSmQDiagStrk LtnSmQHookTail
+		LtnSmQHookTailDep LtnSmQPDigraph LtnSmQPDigraphDep LtnSmQStrk
+		LtnSmR LtnSmRBar LtnSmRBarDep LtnSmRCedilla
+		LtnSmRDiagStrk LtnSmRDotBlw LtnSmRFishhook LtnSmRFishhookMiddleTilde
+		LtnSmRFishhookMiddleTildeDep LtnSmRFishhookPalHook LtnSmRHookTail LtnSmRHookTail.LCStyle
+		LtnSmRLineBlw LtnSmRLngLeg LtnSmRMidLftHook LtnSmRMiddleTilde
+		LtnSmRMiddleTildeDep LtnSmRPalHook LtnSmRPalHookDep LtnSmRRotunda
+		LtnSmRamsHorn LtnSmRamsHorn.GammaStyle LtnSmRamsHorn.LrgBowl LtnSmRevC
+		LtnSmRevCMiddleDot LtnSmRevE LtnSmRevEng LtnSmRevOpnE
+		LtnSmRevOpnEHook LtnSmRevOpnERetrHook LtnSmRevOpnERetrHookDep LtnSmRevRFishhook
+		LtnSmRevScriptG LtnSmRumRotunda LtnSmS LtnSmSCedilla
+		LtnSmSCommaBlw LtnSmSCurl LtnSmSDiagStrk LtnSmSDotBlw
+		LtnSmSFullDiagStrk LtnSmSHook LtnSmSMidLftHook LtnSmSMiddleTilde
+		LtnSmSMiddleTildeDep LtnSmSPalHook LtnSmSPalHookDep LtnSmSShortStrk
+		LtnSmSSwashTail LtnSmSSwashTailDep LtnSmSchwa LtnSmSchwaHook
+		LtnSmSchwaRetrHook LtnSmSchwaRetrHookDep LtnSmScriptG LtnSmScriptGPalHook
+		LtnSmScriptGPalHookDep LtnSmSdwysDiaerU LtnSmSdwysO LtnSmSdwysOStrk
+		LtnSmSdwysOpnO LtnSmSdwysU LtnSmSquatRevEsh LtnSmTnFive
+		LtnSmTnTwo LtnSmTopHalfO LtnSmTresillo LtnSmTrndAe
+		LtnSmTrndDelta LtnSmTrndOe LtnSmTrndOpnE LtnSmTurnedA
+		LtnSmTurnedA.2StorySItal LtnSmTurnedAlpha LtnSmTurnedE LtnSmTurnedH
+		LtnSmTurnedHFishhook LtnSmTurnedHFishhookTail LtnSmTurnedK LtnSmTurnedM
+		LtnSmTurnedMLngLeg LtnSmTurnedR LtnSmTurnedRHook LtnSmTurnedRMiddleTilde
+		LtnSmTurnedRPalHook LtnSmTurnedT LtnSmTurnedTCurl LtnSmTurnedV
+		LtnSmTurnedW LtnSmU LtnSmUBar LtnSmUCircumBlw
+		LtnSmUDiaerBlw LtnSmUDotBlw LtnSmUHorn LtnSmUHornDotBlw
+		LtnSmUOgonek LtnSmUOgonek.RetroHook LtnSmURetrHook LtnSmURetrHookDep
+		LtnSmUStrk LtnSmUTildeBlw LtnSmUe LtnSmUpsilon
+		LtnSmUpsilonStrk LtnSmUpsilonStrkDep LtnSmV LtnSmV.SItal
+		LtnSmVCurl LtnSmVCurlDep LtnSmVDiagStrk LtnSmVDiagStrk.SItal
+		LtnSmVDotBlw LtnSmVDotBlw.SItal LtnSmVHook LtnSmVHook.StraightLft
+		LtnSmVPalHook LtnSmVPalHookDep LtnSmVRtHook LtnSmVRtHookDep
+		LtnSmVYDigraph LtnSmVend LtnSmW LtnSmWDotBlw
+		LtnSmWHook LtnSmX LtnSmXPalHook LtnSmXPalHookDep
+		LtnSmY LtnSmYDotBlw LtnSmYHook LtnSmYHook.RtHook
+		LtnSmYLoop LtnSmYOgonek LtnSmYOgonek.RetroHook LtnSmYStrk
+		LtnSmYStrkDep LtnSmYogh LtnSmZ LtnSmZ.SItal
+		LtnSmZCurl LtnSmZDesc LtnSmZDescDep LtnSmZDotBlw
+		LtnSmZDotBlw.SItal LtnSmZHook LtnSmZLineBlw LtnSmZLineBlw.SItal
+		LtnSmZMiddleTilde LtnSmZMiddleTildeDep LtnSmZPalHook LtnSmZPalHookDep
+		LtnSmZRetrHook LtnSmZStrk LtnSmZSwashTail LtnSmZSwashTailDep
+		LtnStretchedC LtnStretchedCCurl LtnWynn ModTriangularColon
+		GrSmCapOmega
 	</class>
 	<class name="c_takes_belowlow_diac" fixed="0">
 		CyCapAbkhasCheDesc CyCapDzhe CyCapElHook CyCapElHookDep
@@ -2103,72 +2104,73 @@
 		LtnSmHengHook LtnSmIDotBlw LtnSmIDotBlw.LP LtnSmIDotBlw.SItal
 		LtnSmIDotBlw.SItal.LP LtnSmIOgonek LtnSmIOgonek.Dotless LtnSmIOgonek.LP
 		LtnSmIOgonek.RetroHook LtnSmIOgonek.RetroHook.LP LtnSmIRetrHook LtnSmIRetrHook.Dotless
-		LtnSmIRetrHookDep LtnSmIStrkRetrHook LtnSmITildeBlw LtnSmITildeBlw.LP
-		LtnSmITildeBlw.SItal LtnSmITildeBlw.SItal.LP LtnSmInsularF LtnSmInsularG
-		LtnSmInsularS LtnSmIs LtnSmJ LtnSmJ.Dotless
-		LtnSmJ.LP LtnSmJCaron LtnSmJCaron.LP LtnSmJCircum
-		LtnSmJCircum.LP LtnSmJCrossedTail LtnSmJCrossedTail.Dotless LtnSmJCrossedTail.LP
-		LtnSmJStrk LtnSmJStrk.Dotless LtnSmJStrkDep LtnSmKCedilla
-		LtnSmKDotBlw LtnSmKPalHookDep LtnSmLBeltPalHook LtnSmLCedilla
-		LtnSmLCircumBlw LtnSmLCircumBlw.SItal LtnSmLDotBlw LtnSmLDotBlw.SItal
-		LtnSmLDotBlwMacron LtnSmLDotBlwMacron.SItal LtnSmLPalHook LtnSmLPalHookDep
-		LtnSmLRetrHook LtnSmLRetrHookBelt LtnSmLRetrHookBeltDep LtnSmLTrnd
-		LtnSmLezh LtnSmLezhRetrHook LtnSmLigIj LtnSmLigIj.LP
-		LtnSmLj LtnSmLj.LP LtnSmMDotBlw LtnSmNCedilla
-		LtnSmNCircumBlw LtnSmNDotBlw LtnSmNLngRtLeg LtnSmNPalHookDep
-		LtnSmNj LtnSmNj.LP LtnSmOCircumDotBlw LtnSmOCircumDotBlw.LP
-		LtnSmODotBlw LtnSmOHornDotBlw LtnSmOOgonek LtnSmOOgonek.RetroHook
-		LtnSmOOgonekMacron LtnSmOOgonekMacron.LP LtnSmOOgonekMacron.RetroHook LtnSmOOgonekMacron.RetroHook.LP
-		LtnSmORetrHook LtnSmOpenNine LtnSmOpnORetrHook LtnSmOpnORetrHook.TopSerif
-		LtnSmOpnORetrHookDep LtnSmPHighCurl LtnSmPLowStrk LtnSmPMiddleTildeDep
-		LtnSmPPalHook LtnSmPPalHookDep LtnSmPStrkDep LtnSmPhi
-		LtnSmQDiagStrk LtnSmQHookTailDep LtnSmQPDigraph LtnSmQPDigraphDep
-		LtnSmQStrk LtnSmRCedilla LtnSmRDotBlw LtnSmRDotBlwMacron
-		LtnSmRDotBlwMacron.LP LtnSmRFishhookPalHook LtnSmRHookTail LtnSmRHookTail.LCStyle
-		LtnSmRLngLeg LtnSmRPalHook LtnSmRPalHookDep LtnSmRevEng
-		LtnSmRevOpnERetrHook LtnSmRevOpnERetrHookDep LtnSmRevRFishhook LtnSmRevScriptG
-		LtnSmSCedilla LtnSmSCommaBlw LtnSmSDotBlw LtnSmSDotBlwDotAbv
-		LtnSmSDotBlwDotAbv.LP LtnSmSHook LtnSmSPalHook LtnSmSPalHookDep
-		LtnSmSSwashTail LtnSmSSwashTailDep LtnSmScriptG LtnSmScriptGPalHook
-		LtnSmScriptGPalHookDep LtnSmSquatRevEsh LtnSmTCedilla LtnSmTCircumBlw
-		LtnSmTCommaBlw LtnSmTDotBlw LtnSmTHookRetrHook LtnSmTPalHook
-		LtnSmTRetrHook LtnSmTeshDigraph LtnSmTeshPalHook LtnSmThornLowStrk
-		LtnSmTresillo LtnSmTrndDelta LtnSmTurnedRHook LtnSmTurnedRLngLegHook
-		LtnSmTurnedRLngLegHookDep LtnSmTurnedRPalHook LtnSmTurnedT LtnSmTurnedTCurl
-		LtnSmTzDigraph LtnSmUCircumBlw LtnSmUDiaerBlw LtnSmUDotBlw
-		LtnSmUHornDotBlw LtnSmUOgonek LtnSmUOgonek.RetroHook LtnSmUTildeBlw
-		LtnSmUm LtnSmVDotBlw LtnSmVDotBlw.SItal LtnSmVPalHook
-		LtnSmVPalHookDep LtnSmVYDigraph LtnSmVend LtnSmVisigothicZ
-		LtnSmWDotBlw LtnSmXPalHook LtnSmXPalHookDep LtnSmYDotBlw
-		LtnSmYStrkDep LtnSmYogh LtnSmZDescDep LtnSmZDotBlw
-		LtnSmZDotBlw.SItal LtnSmZPalHook LtnSmZPalHookDep LtnSmZSwashTail
-		LtnSmZSwashTailDep LtnStretchedC LtnStretchedCCurl LtnWynn
-		TripleVertBar CombDblBreve CombDblBreve.high CombDblBreve.low
-		CombDblBreve.mid CombDblCircum CombDblCircum.high CombDblCircum.low
-		CombDblCircum.mid CombDblDiaer CombDblDiaer.high CombDblDiaer.low
-		CombDblDiaer.mid CombDblInvBreve CombDblInvBreve.high CombDblInvBreve.low
-		CombDblInvBreve.mid CombDblMacron CombDblMacron.high CombDblMacron.low
-		CombDblMacron.mid CombDblTilde CombDblTilde.high CombDblTilde.low
-		CombDblTilde.mid CombDblBreveBlw CombDblBreveBlw.ulow CombDblBreveBlw.umid
-		CombDblBreveBlw.blwhigh CombDblBreveBlw.blwhigh.ulow CombDblBreveBlw.blwhigh.umid CombDblInvBreveBlw
-		CombDblInvBreveBlw.ulow CombDblInvBreveBlw.umid LtnSmEshHook LtnSmEzhHook
-		CombDblInvBreveBlw.blwhigh CombDblInvBreveBlw.blwhigh.ulow CombDblInvBreveBlw.blwhigh.umid CombDblMacronBlw
-		CombDblMacronBlw.ulow CombDblMacronBlw.umid CombDblMacronBlw.blwhigh CombDblMacronBlw.blwhigh.ulow
-		CombDblMacronBlw.blwhigh.umid LtnCapARingBlw LtnSmARingBlw LtnSmARingBlw.2StorySItal
-		LtnSmARingBlw.SngStory CombDblRtArrwBlw CombDblRtArrwBlw.ulow CombDblRtArrwBlw.umid
-		CombDblRtArrwBlw.blwhigh CombDblRtArrwBlw.blwhigh.ulow CombDblRtArrwBlw.blwhigh.umid LtnSmTsHook
-		LtnCapBLineBlw LtnCapDLineBlw LtnCapKLineBlw LtnCapLLineBlw
-		LtnCapNLineBlw LtnCapRLineBlw LtnCapTLineBlw LtnCapZLineBlw
-		LtnSmBLineBlw LtnSmDLineBlw LtnSmHLineBlw LtnSmKLineBlw
-		LtnSmLLineBlw LtnSmLLineBlw.SItal LtnSmNLineBlw LtnSmRLineBlw
-		LtnSmTLineBlw LtnSmZLineBlw LtnSmZLineBlw.SItal CyCapElTail
-		CyCapEmTail CyCapEnTail CyCapShortITail CySmElTail
-		CySmEmTail CySmEnTail CySmShortITail CyCapJe
-		CySmAbkhasCheDesc.sc CySmEsDesc.sc CySmGheDesc.sc CySmGheStrkDesc.sc
-		CySmTeDesc.sc CySmZeDesc.sc LtnCapInsularR LtnCapRHookTail
-		LtnCapSSwashTail LtnSmCapJ LtnSmNLngRtLeg.sc LtnWynn.sc
-		CyCapLigTeTse CyCapQa LtnCapQ LtnCapQDiagStrk
-		LtnCapQStrk LtnSmRum CySmDzhe.sc CySmEnLftHook.sc
+		LtnSmIRetrHookDep LtnSmIStrkRetrHook LtnSmIStrkRetrHook.Dotless LtnSmITildeBlw
+		LtnSmITildeBlw.LP LtnSmITildeBlw.SItal LtnSmITildeBlw.SItal.LP LtnSmInsularF
+		LtnSmInsularG LtnSmInsularS LtnSmIs LtnSmJ
+		LtnSmJ.Dotless LtnSmJ.LP LtnSmJCaron LtnSmJCaron.LP
+		LtnSmJCircum LtnSmJCircum.LP LtnSmJCrossedTail LtnSmJCrossedTail.Dotless
+		LtnSmJCrossedTail.LP LtnSmJStrk LtnSmJStrk.Dotless LtnSmJStrkDep
+		LtnSmKCedilla LtnSmKDotBlw LtnSmKPalHookDep LtnSmLBeltPalHook
+		LtnSmLCedilla LtnSmLCircumBlw LtnSmLCircumBlw.SItal LtnSmLDotBlw
+		LtnSmLDotBlw.SItal LtnSmLDotBlwMacron LtnSmLDotBlwMacron.SItal LtnSmLPalHook
+		LtnSmLPalHookDep LtnSmLRetrHook LtnSmLRetrHookBelt LtnSmLRetrHookBeltDep
+		LtnSmLTrnd LtnSmLezh LtnSmLezhRetrHook LtnSmLigIj
+		LtnSmLigIj.LP LtnSmLj LtnSmLj.LP LtnSmMDotBlw
+		LtnSmNCedilla LtnSmNCircumBlw LtnSmNDotBlw LtnSmNLngRtLeg
+		LtnSmNPalHookDep LtnSmNj LtnSmNj.LP LtnSmOCircumDotBlw
+		LtnSmOCircumDotBlw.LP LtnSmODotBlw LtnSmOHornDotBlw LtnSmOOgonek
+		LtnSmOOgonek.RetroHook LtnSmOOgonekMacron LtnSmOOgonekMacron.LP LtnSmOOgonekMacron.RetroHook
+		LtnSmOOgonekMacron.RetroHook.LP LtnSmORetrHook LtnSmOpenNine LtnSmOpnORetrHook
+		LtnSmOpnORetrHook.TopSerif LtnSmOpnORetrHookDep LtnSmPHighCurl LtnSmPLowStrk
+		LtnSmPMiddleTildeDep LtnSmPPalHook LtnSmPPalHookDep LtnSmPStrkDep
+		LtnSmPhi LtnSmQDiagStrk LtnSmQHookTailDep LtnSmQPDigraph
+		LtnSmQPDigraphDep LtnSmQStrk LtnSmRCedilla LtnSmRDotBlw
+		LtnSmRDotBlwMacron LtnSmRDotBlwMacron.LP LtnSmRFishhookPalHook LtnSmRHookTail
+		LtnSmRHookTail.LCStyle LtnSmRLngLeg LtnSmRPalHook LtnSmRPalHookDep
+		LtnSmRevEng LtnSmRevOpnERetrHook LtnSmRevOpnERetrHookDep LtnSmRevRFishhook
+		LtnSmRevScriptG LtnSmSCedilla LtnSmSCommaBlw LtnSmSDotBlw
+		LtnSmSDotBlwDotAbv LtnSmSDotBlwDotAbv.LP LtnSmSHook LtnSmSPalHook
+		LtnSmSPalHookDep LtnSmSSwashTail LtnSmSSwashTailDep LtnSmScriptG
+		LtnSmScriptGPalHook LtnSmScriptGPalHookDep LtnSmSquatRevEsh LtnSmTCedilla
+		LtnSmTCircumBlw LtnSmTCommaBlw LtnSmTDotBlw LtnSmTHookRetrHook
+		LtnSmTPalHook LtnSmTRetrHook LtnSmTeshDigraph LtnSmTeshPalHook
+		LtnSmThornLowStrk LtnSmTresillo LtnSmTrndDelta LtnSmTurnedRHook
+		LtnSmTurnedRLngLegHook LtnSmTurnedRLngLegHookDep LtnSmTurnedRPalHook LtnSmTurnedT
+		LtnSmTurnedTCurl LtnSmTzDigraph LtnSmUCircumBlw LtnSmUDiaerBlw
+		LtnSmUDotBlw LtnSmUHornDotBlw LtnSmUOgonek LtnSmUOgonek.RetroHook
+		LtnSmUTildeBlw LtnSmUm LtnSmVDotBlw LtnSmVDotBlw.SItal
+		LtnSmVPalHook LtnSmVPalHookDep LtnSmVYDigraph LtnSmVend
+		LtnSmVisigothicZ LtnSmWDotBlw LtnSmXPalHook LtnSmXPalHookDep
+		LtnSmYDotBlw LtnSmYStrkDep LtnSmYogh LtnSmZDescDep
+		LtnSmZDotBlw LtnSmZDotBlw.SItal LtnSmZPalHook LtnSmZPalHookDep
+		LtnSmZSwashTail LtnSmZSwashTailDep LtnStretchedC LtnStretchedCCurl
+		LtnWynn TripleVertBar CombDblBreve CombDblBreve.high
+		CombDblBreve.low CombDblBreve.mid CombDblCircum CombDblCircum.high
+		CombDblCircum.low CombDblCircum.mid CombDblDiaer CombDblDiaer.high
+		CombDblDiaer.low CombDblDiaer.mid CombDblInvBreve CombDblInvBreve.high
+		CombDblInvBreve.low CombDblInvBreve.mid CombDblMacron CombDblMacron.high
+		CombDblMacron.low CombDblMacron.mid CombDblTilde CombDblTilde.high
+		CombDblTilde.low CombDblTilde.mid CombDblBreveBlw CombDblBreveBlw.ulow
+		CombDblBreveBlw.umid CombDblBreveBlw.blwhigh CombDblBreveBlw.blwhigh.ulow CombDblBreveBlw.blwhigh.umid
+		CombDblInvBreveBlw CombDblInvBreveBlw.ulow CombDblInvBreveBlw.umid LtnSmEshHook
+		LtnSmEzhHook CombDblInvBreveBlw.blwhigh CombDblInvBreveBlw.blwhigh.ulow CombDblInvBreveBlw.blwhigh.umid
+		CombDblMacronBlw CombDblMacronBlw.ulow CombDblMacronBlw.umid CombDblMacronBlw.blwhigh
+		CombDblMacronBlw.blwhigh.ulow CombDblMacronBlw.blwhigh.umid LtnCapARingBlw LtnSmARingBlw
+		LtnSmARingBlw.2StorySItal LtnSmARingBlw.SngStory CombDblRtArrwBlw CombDblRtArrwBlw.ulow
+		CombDblRtArrwBlw.umid CombDblRtArrwBlw.blwhigh CombDblRtArrwBlw.blwhigh.ulow CombDblRtArrwBlw.blwhigh.umid
+		LtnSmTsHook CySmDe CySmDe.Serb CySmDeCheLig
+		CySmDeZheLig LtnCapBLineBlw LtnCapDLineBlw LtnCapKLineBlw
+		LtnCapLLineBlw LtnCapNLineBlw LtnCapRLineBlw LtnCapTLineBlw
+		LtnCapZLineBlw LtnSmBLineBlw LtnSmDLineBlw LtnSmHLineBlw
+		LtnSmKLineBlw LtnSmLLineBlw LtnSmLLineBlw.SItal LtnSmNLineBlw
+		LtnSmRLineBlw LtnSmTLineBlw LtnSmZLineBlw LtnSmZLineBlw.SItal
+		CyCapElTail CyCapEmTail CyCapEnTail CyCapQa
+		CyCapShortITail CySmElTail CySmEmTail CySmEnTail
+		CySmShortITail LtnCapQ LtnCapQDiagStrk LtnCapQStrk
+		CyCapJe CySmAbkhasCheDesc.sc CySmEsDesc.sc CySmGheDesc.sc
+		CySmGheStrkDesc.sc CySmTeDesc.sc CySmZeDesc.sc LtnCapInsularR
+		LtnCapRHookTail LtnCapSSwashTail LtnSmCapJ LtnSmNLngRtLeg.sc
+		LtnWynn.sc CyCapLigTeTse CySmDzhe.sc CySmEnLftHook.sc
 		CySmGheStrkHook.sc CySmKhakasChe.sc LtnCapLSmJ.sc LtnCapNSmJ.sc
 		LtnSmAYDigraph.sc LtnSmCapSmRHookTail LtnSmEng.UCStyle.sc LtnSmEng.sc
 		LtnSmFHook.sc LtnSmFHookStrk.sc LtnSmHeng.sc LtnSmInsularF.sc
@@ -2182,34 +2184,34 @@
 		LtnSmJCrossedTail.Dotless.sc LtnSmJCrossedTail.sc LtnSmSHook.sc LtnSmZDesc.sc
 		CySmElTail.sc CySmEnTail.sc CySmShortITail.sc CySmJe.Dotless.sc
 		CySmJe.sc CySmQa.sc LtnSmEt.sc LtnSmQ.sc
-		LtnSmRumRotunda.sc LtnCapEt LtnCapRumRotunda LtnSmCapRum
-		LtnSmDum LtnSmEt LtnSmLum LtnSmMum
-		LtnSmNum LtnSmRumRotunda LtnSmSdwysTrndM LtnSmTum
-		LtnCapScriptG LtnSmZDesc LtnCapVisigothicZ LtnSmABreveDotBlw.SngStory.sc
-		LtnSmABreveDotBlw.sc LtnSmACircumDotBlw.SngStory.sc LtnSmACircumDotBlw.sc LtnSmADotBlw.SngStory.sc
-		LtnSmADotBlw.sc LtnSmAOgonek.RetroHook.sc LtnSmAOgonek.SngStory.RetroHook.sc LtnSmBDotBlw.sc
-		LtnSmDCedilla.sc LtnSmDCircumBlw.sc LtnSmDDotBlw.sc LtnSmECircumBlw.sc
-		LtnSmECircumDotBlw.sc LtnSmEDotBlw.sc LtnSmEOgonek.RetroHook.sc LtnSmETildeBlw.sc
-		LtnSmGCedilla.sc LtnSmHBreveBlw.sc LtnSmHDotBlw.sc LtnSmIDotBlw.Dotless.sc
-		LtnSmIDotBlw.sc LtnSmIOgonek.RetroHook.sc LtnSmITildeBlw.sc LtnSmKCedilla.sc
-		LtnSmKDotBlw.sc LtnSmLCedilla.sc LtnSmLCircumBlw.sc LtnSmLDotBlw.sc
-		LtnSmLDotBlwMacron.sc LtnSmMDotBlw.sc LtnSmNCedilla.sc LtnSmNCircumBlw.sc
-		LtnSmNDotBlw.sc LtnSmOCircumDotBlw.sc LtnSmODotBlw.sc LtnSmOHornDotBlw.sc
-		LtnSmOOgonek.RetroHook.sc LtnSmOOgonekMacron.RetroHook.sc LtnSmRCedilla.sc LtnSmRDotBlw.sc
-		LtnSmRDotBlwMacron.sc LtnSmSCommaBlw.sc LtnSmSDotBlw.sc LtnSmSDotBlwDotAbv.sc
-		LtnSmTCircumBlw.sc LtnSmTCommaBlw.sc LtnSmTDotBlw.sc LtnSmUCircumBlw.sc
-		LtnSmUDiaerBlw.sc LtnSmUDotBlw.sc LtnSmUHornDotBlw.sc LtnSmUOgonek.RetroHook.sc
-		LtnSmUTildeBlw.sc LtnSmVDotBlw.sc LtnSmWDotBlw.sc LtnSmYDotBlw.sc
-		LtnSmZDotBlw.sc LtnSmAOgonek.SngStory.sc LtnSmAOgonek.sc LtnSmCCedilla.sc
-		LtnSmCCedillaAcute.sc LtnSmECedilla.sc LtnSmECedillaBreve.sc LtnSmEOgonek.sc
-		LtnSmHCedilla.sc LtnSmIOgonek.sc LtnSmOOgonek.sc LtnSmOOgonekMacron.sc
-		LtnSmSCedilla.sc LtnSmTCedilla.sc LtnSmUOgonek.sc LtnSmARingBlw.SngStory.sc
-		LtnSmARingBlw.sc LtnSmBLineBlw.sc LtnSmDLineBlw.sc LtnSmKLineBlw.sc
-		LtnSmLLineBlw.sc LtnSmNLineBlw.sc LtnSmRLineBlw.sc LtnSmTLineBlw.sc
-		LtnSmZLineBlw.sc LtnSmCapEth LtnSmCapV LtnSmCapQ
-		LtnSmInsularR.sc LtnSmSSwashTail.sc LtnSmMHook.sc LtnSmOi.sc
-		LtnSmQDiagStrk.sc LtnSmQStrk.sc LtnSmTeshRetrHook LtnSmYOgonek
-		LtnSmYOgonek.RetroHook LtnSmYogh.sc LtnSmZHook
+		LtnSmRumRotunda.sc LtnSmRum LtnCapEt LtnCapRumRotunda
+		LtnSmCapRum LtnSmDum LtnSmEt LtnSmLum
+		LtnSmMum LtnSmNum LtnSmRumRotunda LtnSmSdwysTrndM
+		LtnSmTum LtnCapScriptG LtnSmZDesc LtnCapVisigothicZ
+		LtnSmABreveDotBlw.SngStory.sc LtnSmABreveDotBlw.sc LtnSmACircumDotBlw.SngStory.sc LtnSmACircumDotBlw.sc
+		LtnSmADotBlw.SngStory.sc LtnSmADotBlw.sc LtnSmAOgonek.RetroHook.sc LtnSmAOgonek.SngStory.RetroHook.sc
+		LtnSmBDotBlw.sc LtnSmDCedilla.sc LtnSmDCircumBlw.sc LtnSmDDotBlw.sc
+		LtnSmECircumBlw.sc LtnSmECircumDotBlw.sc LtnSmEDotBlw.sc LtnSmEOgonek.RetroHook.sc
+		LtnSmETildeBlw.sc LtnSmGCedilla.sc LtnSmHBreveBlw.sc LtnSmHDotBlw.sc
+		LtnSmIDotBlw.Dotless.sc LtnSmIDotBlw.sc LtnSmIOgonek.RetroHook.sc LtnSmITildeBlw.sc
+		LtnSmKCedilla.sc LtnSmKDotBlw.sc LtnSmLCedilla.sc LtnSmLCircumBlw.sc
+		LtnSmLDotBlw.sc LtnSmLDotBlwMacron.sc LtnSmMDotBlw.sc LtnSmNCedilla.sc
+		LtnSmNCircumBlw.sc LtnSmNDotBlw.sc LtnSmOCircumDotBlw.sc LtnSmODotBlw.sc
+		LtnSmOHornDotBlw.sc LtnSmOOgonek.RetroHook.sc LtnSmOOgonekMacron.RetroHook.sc LtnSmRCedilla.sc
+		LtnSmRDotBlw.sc LtnSmRDotBlwMacron.sc LtnSmSCommaBlw.sc LtnSmSDotBlw.sc
+		LtnSmSDotBlwDotAbv.sc LtnSmTCircumBlw.sc LtnSmTCommaBlw.sc LtnSmTDotBlw.sc
+		LtnSmUCircumBlw.sc LtnSmUDiaerBlw.sc LtnSmUDotBlw.sc LtnSmUHornDotBlw.sc
+		LtnSmUOgonek.RetroHook.sc LtnSmUTildeBlw.sc LtnSmVDotBlw.sc LtnSmWDotBlw.sc
+		LtnSmYDotBlw.sc LtnSmZDotBlw.sc LtnSmAOgonek.SngStory.sc LtnSmAOgonek.sc
+		LtnSmCCedilla.sc LtnSmCCedillaAcute.sc LtnSmECedilla.sc LtnSmECedillaBreve.sc
+		LtnSmEOgonek.sc LtnSmHCedilla.sc LtnSmIOgonek.sc LtnSmOOgonek.sc
+		LtnSmOOgonekMacron.sc LtnSmSCedilla.sc LtnSmTCedilla.sc LtnSmUOgonek.sc
+		LtnSmARingBlw.SngStory.sc LtnSmARingBlw.sc LtnSmBLineBlw.sc LtnSmDLineBlw.sc
+		LtnSmKLineBlw.sc LtnSmLLineBlw.sc LtnSmNLineBlw.sc LtnSmRLineBlw.sc
+		LtnSmTLineBlw.sc LtnSmZLineBlw.sc LtnSmCapEth LtnSmCapV
+		LtnSmCapQ LtnSmInsularR.sc LtnSmSSwashTail.sc LtnSmMHook.sc
+		LtnSmOi.sc LtnSmQDiagStrk.sc LtnSmQStrk.sc LtnSmTeshRetrHook
+		LtnSmYOgonek LtnSmYOgonek.RetroHook LtnSmYogh.sc LtnSmZHook
 	</class>
 	<class name="c_takes_belowhigh_diac" fixed="0">
 		CombDblBreve.high.lhigh CombDblBreve.lhigh CombDblBreve.low.lhigh CombDblBreve.mid.lhigh
@@ -2252,8 +2254,7 @@
 		CySmAleutKa CySmBarredO CySmBarredODiaer CySmBashkirKa
 		CySmBe CySmBe.Serb CySmByelorusUkrainI CySmByelorusUkrainI.Dotless
 		CySmCapEl CySmChe CySmCheDesc CySmCheDesc.sc
-		CySmCheDiaer CySmCheVertStrk CySmDe CySmDe.Serb
-		CySmDeCheLig CySmDeZheLig CySmDze CySmE
+		CySmCheDiaer CySmCheVertStrk CySmDze CySmE
 		CySmE.MongolStyle CySmEDiaer CySmEl CySmElDesc
 		CySmElMiddleHook CySmEm CySmEn CySmEnDesc
 		CySmEnDesc.sc CySmEnMiddleHook CySmErTick CySmEs
