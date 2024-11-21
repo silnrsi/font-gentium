@@ -5,7 +5,7 @@ fontversion: 6.200
 
 Gentium is a typeface family designed to enable the diverse ethnic groups around the world who use the Latin, Cyrillic, and Greek scripts to produce readable, high-quality publications. It supports a wide range of Latin- and Cyrillic-based alphabets. 
 
-The design is intended to be highly readable, reasonably compact, and visually attractive. The additional ‘extended’ Latin letters are designed to naturally harmonize with the traditional 26 ones. Diacritics are treated with careful thought and attention to their use. Gentium Plus also supports both polytonic and monotonic Greek. 
+The design is intended to be highly readable, reasonably compact, and visually attractive. The additional ‘extended’ Latin letters are designed to naturally harmonize with the traditional 26 ones. Diacritics are treated with careful thought and attention to their use. Gentium also supports both polytonic and monotonic Greek. 
 
 ## Type Samples
 

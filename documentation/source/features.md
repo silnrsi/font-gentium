@@ -1,15 +1,15 @@
 ---
-title: Gentium Plus - Font Features
+title: Gentium - Font Features
 fontversion: 6.200
 ---
 
-Gentium Plus is an OpenType-enabled font family that supports the Latin, Cyrillic, and Greek scripts. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.
+Gentium is an OpenType-enabled font family that supports the Latin, Cyrillic, and Greek scripts. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.
 
 These OpenType features are primarily specified using four-letter tags (e.g. 'cv17'), although some applications may provide a direct way to control certain common features such as small caps. For more information on how to access OpenType features in specific environments and applications, see [Using Font Features](https://software.sil.org/fonts/features).
 
 *Please note that Graphite support has been removed in the current release, but continues to be available in the version 5 fonts. See our [Previous Versions archive](https://software.sil.org/gentium/download/previous-versions).*
 
-This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Gentium Plus as a web font, see *GentiumPlus-webfont-example.html* in the font package *web* folder. For detailed information, see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts).
+This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Gentium as a web font, see *Gentium-webfont-example.html* in the font package *web* folder. For detailed information, see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts).
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
@@ -479,5 +479,5 @@ Standard (none) | <span class='gentium-R normal'>1⁄2 456⁄789 1/2 456/789</sp
 Automatic       | <span class='gentium-R normal' style='font-feature-settings: "frac" 1'>1⁄2 456⁄789 1/2 456/789</span> | `frac=1`
 
 <!-- PRODUCT SITE ONLY
-[font id='gentium' face='GentiumPlus-Regular' italic='GentiumPlus-Italic' size='150%']
+[font id='gentium' face='Gentium-Regular' italic='Gentium-Italic' size='150%']
 -->

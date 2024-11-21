@@ -34,9 +34,9 @@ The preferred pronunciation is with a soft G as in ‘general’, not a hard one
 
 It is a version of the font with redesigned diacritics (flatter ones) to make it more suitable for use with stacking diacritics, and for languages such as Vietnamese. The Greek glyphs also use the Porsonic (single-curve) design for the circumflex. Since the original Gentium fonts do not include any ‘smart’ rendering routines, there is no easy way to access these alternate diacritic shapes from within the original Gentium font. The encoding of the fonts is the same, so the same text can be viewed with either one. There is also no problem with having both font families installed at the same time.
 
-#### *How are the Basic fonts (Gentium Basic, Gentium Book Basic) different from Gentium Plus?*
+#### *How are the Basic fonts (Gentium Basic, Gentium Book Basic) different from Gentium?*
 
-These font families were based on the original Gentium design, but with limited character set support. Gentium Plus includes support for all the characters and styles supported by the Basic fonts.
+These font families were based on the original Gentium design, but with limited character set support. Gentium includes support for all the characters and styles supported by the Basic fonts.
 
 #### *What is the Book weight?*
 

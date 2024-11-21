@@ -1,8 +1,8 @@
 README 
-Gentium Plus
+Gentium
 ============
 
-Note: This package contains a TypeTuned version of the Gentium Plus fonts. The TypeTuner settings file used to generate the enclosed font is included in the package as GentiumPlus-feat_set_tuned.xml. By inspecting this file with a text editor you can determine which alternate behaviors have been enabled.
+Note: This package contains a TypeTuned version of the Gentium fonts. The TypeTuner settings file used to generate the enclosed font is included in the package as Gentium-feat_set_tuned.xml. By inspecting this file with a text editor you can determine which alternate behaviors have been enabled.
 
 This project is intended to provide a free and open font family for all current languages and writing systems that use Latin, Cyrillic, and Greek scripts. It supports almost the complete range of Unicode characters for these scripts, including a comprehensive range of diacritics and a large set of symbols useful for linguistics and literacy work. Smart font routines automatically adjust the position of diacritics to support and optimize arbitrary base+diacritic combinations. This project uses a UFO-based design and production workflow, with all sources in open formats and a completely open-source build toolkit. 
 
