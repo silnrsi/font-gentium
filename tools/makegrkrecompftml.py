@@ -9,9 +9,9 @@ Hacky script intended for rare usage. There's no cli, so edit strings below if n
 Assumes input data is good with no real validation.
 '''
 
-# __url__ = 'http://github.com/silnrsi/font-gentium'
+# __url__ = 'https://github.com/silnrsi/font-gentium'
 __copyright__ = 'Copyright (c) 2024 SIL Global  (https://www.sil.org)'
-__license__ = 'Released under the MIT License (http://opensource.org/licenses/MIT)'
+__license__ = 'Released under the MIT License (https://opensource.org/licenses/MIT)'
 __author__ = 'Alan Ward'
 
 import re
