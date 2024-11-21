@@ -1,17 +1,17 @@
 /*
 This file is from the Gentium project (https://software.sil.org/gentium/).
-Copyright (c) 2003-2024 SIL International (https://www.sil.org/) with Reserved
+Copyright (c) 2003-2024 SIL Global (https://www.sil.org/) with Reserved
 Font Names "Gentium" and "SIL". This Font Software is licensed under the SIL
 Open Font License, Version 1.1 (https://openfontlicense.org).
 */
 @font-face {
-    font-family: GentiumPlus-R;
-    src: url("../../../results/GentiumPlus-Regular.ttf") format("truetype");
+    font-family: Gentium-R;
+    src: url("../../../results/Gentium-Regular.ttf") format("truetype");
 }
 @font-face {
-    font-family: GentiumPlus-I;
-    src: url("../../../results/GentiumPlus-Italic.ttf") format("truetype");
+    font-family: Gentium-I;
+    src: url("../../../results/Gentium-Italic.ttf") format("truetype");
 }
 
-.gentium-R { font-family: GentiumPlus-R; }
-.gentium-I { font-family: GentiumPlus-I; }
+.gentium-R { font-family: Gentium-R; }
+.gentium-I { font-family: Gentium-I; }

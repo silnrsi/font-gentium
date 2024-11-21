@@ -23,6 +23,6 @@ An exhaustive set of proof sheets is also available that shows the complete glyp
 
 A document showing Polytonic, Monotonic and mixed Latin with Greek is demonstrated in the following specimen: [Gentium Greek Specimen](https://software.sil.org/gentium/wp-content/uploads/sites/20/2015/12/Gentium-Greek-Specimen.pdf).
 
-SIL International is the creator of the Gentium fonts, and is the owner of all proprietary rights therein.
+SIL Global is the creator of the Gentium fonts, and is the owner of all proprietary rights therein.
 
-*Gentium* is a trademark of SIL International.
+*Gentium* is a trademark of SIL Global.
