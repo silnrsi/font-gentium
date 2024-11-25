@@ -1,6 +1,6 @@
 ---
 title: Gentium - Resources
-fontversion: 6.200
+fontversion: 7.000
 ---
 
 ## Requirements

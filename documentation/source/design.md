@@ -1,6 +1,6 @@
 ---
 title: Gentium - Design
-fontversion: 6.200
+fontversion: 7.000
 ---
 
 Gentium is a typeface family designed to enable the diverse ethnic groups around the world who use the Latin, Cyrillic, and Greek scripts to produce readable, high-quality publications. It supports a wide range of Latin- and Cyrillic-based alphabets. 
@@ -13,7 +13,7 @@ For a complete list of characters included in Gentium, see [Character Set Suppor
 
 Gentium has been designed to balance the need for a compact, legible typeface with the need for an attractive, friendly one. The overall tensions that influenced the design are summarized by the following table:
 
-![Gentium design balance](assets/images/Gentium_design_balance.png){.fullsize}
+![Gentium design balance](../assets/images/Gentium_design_balance.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/gentium/wp-content/uploads/sites/20/2015/12/Gentium_design_balance.png -->
 <figcaption>Balancing forces in the design of Gentium</figcaption>
 

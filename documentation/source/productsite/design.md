@@ -1,7 +1,7 @@
 
 Gentium is a typeface family designed to enable the diverse ethnic groups around the world who use the Latin, Cyrillic, and Greek scripts to produce readable, high-quality publications. It supports a wide range of Latin- and Cyrillic-based alphabets. 
 
-The design is intended to be highly readable, reasonably compact, and visually attractive. The additional ‘extended’ Latin letters are designed to naturally harmonize with the traditional 26 ones. Diacritics are treated with careful thought and attention to their use. Gentium Plus also supports both polytonic and monotonic Greek. 
+The design is intended to be highly readable, reasonably compact, and visually attractive. The additional ‘extended’ Latin letters are designed to naturally harmonize with the traditional 26 ones. Diacritics are treated with careful thought and attention to their use. Gentium also supports both polytonic and monotonic Greek. 
 
 ## Type Samples
 
@@ -18,6 +18,6 @@ An exhaustive set of proof sheets is also available that shows the complete glyp
 
 A document showing Polytonic, Monotonic and mixed Latin with Greek is demonstrated in the following specimen: [Gentium Greek Specimen](https://software.sil.org/gentium/wp-content/uploads/sites/20/2015/12/Gentium-Greek-Specimen.pdf).
 
-SIL International is the creator of the Gentium fonts, and is the owner of all proprietary rights therein.
+SIL Global is the creator of the Gentium fonts, and is the owner of all proprietary rights therein.
 
-*Gentium* is a trademark of SIL International.
+*Gentium* is a trademark of SIL Global.
