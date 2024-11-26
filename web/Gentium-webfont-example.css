@@ -5,34 +5,75 @@ Font Names "Gentium" and "SIL". This Font Software is licensed under the SIL
 Open Font License, Version 1.1 (https://openfontlicense.org).
 */
 
-/* use Gentium Plus - Regular in .woff format */
+/* use Gentium - Regular in .woff2 format */
 @font-face {
-  font-family: GentiumPlusW;
-  src: url(GentiumPlus-Regular.woff2);
+  font-family: GentiumW;
+  font-weight: 400;
+  src: url(Gentium-Regular.woff2);
 }
-/* use Gentium Plus - Italic in .woff2 format */
+/* use Gentium - Medium in .woff2 format */
 @font-face {
-  font-family: GentiumPlusW;
+  font-family: GentiumW;
+  font-weight: 500;
+  src: url(Gentium-Medium.woff2);
+}
+/* use Gentium - SemiBold in .woff2 format */
+@font-face {
+  font-family: GentiumW;
+  font-weight: 600;
+  src: url(Gentium-SemiBold.woff2);
+}
+/* use Gentium - Bold in .woff2 format */
+@font-face {
+	font-family: GentiumW;
+  font-weight: 700;
+	src: url(Gentium-Bold.woff2);
+}
+/* use Gentium - ExtraBold in .woff2 format */
+@font-face {
+	font-family: GentiumW;
+  font-weight: 800;
+	src: url(Gentium-ExtraBold.woff2);
+}
+/* use Gentium - Italic in .woff2 format */
+@font-face {
+  font-family: GentiumW;
+  font-weight: 400;
   font-style: italic;
-  src: url(GentiumPlus-Italic.woff2);
+  src: url(Gentium-Italic.woff2);
 }
-/* use Gentium Plus - Bold in .woff2 format */
+/* use Gentium - MediumItalic in .woff2 format */
 @font-face {
-	font-family: GentiumPlusW;
-	font-weight: bold;
-	src: url(GentiumPlus-Bold.woff2);
+  font-family: GentiumW;
+  font-weight: 500;
+  font-style: italic;
+  src: url(Gentium-MediumItalic.woff2);
 }
-/* use Gentium Plus - Bold Italic in .woff2 format */
+/* use Gentium - SemiBoldItalic in .woff2 format */
 @font-face {
-	font-family: GentiumPlusW;
-	font-weight: bold;
-	font-style: italic;
-	src: url(GentiumPlus-BoldItalic.woff2);
+  font-family: GentiumW;
+  font-weight: 600;
+  font-style: italic;
+  src: url(Gentium-SemiBoldItalic.woff2);
+}
+/* use Gentium - BoldItalic in .woff2 format */
+@font-face {
+	font-family: GentiumW;
+  font-weight: 700;
+  font-style: italic;
+	src: url(Gentium-BoldItalic.woff2);
+}
+/* use Gentium - ExtraBoldItalic in .woff2 format */
+@font-face {
+	font-family: GentiumW;
+  font-weight: 800;
+  font-style: italic;
+	src: url(Gentium-ExtraBoldItalic.woff2);
 }
 
-/* set body to use Gentium Plus */
+/* set body to use Gentium */
 body {
-  font-family: GentiumPlusW, sans-serif;
+  font-family: GentiumW, sans-serif;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }
 /* remove bold styling from heading */
