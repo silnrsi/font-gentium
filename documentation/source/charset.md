@@ -3,7 +3,7 @@ title: Gentium - Character Set Support
 fontversion: 7.000
 ---
 
-This font supports over 2,750 characters from [The Unicode Standard](https://unicode.org/) as well as a number of [Private Use Area (PUA)](https://github.com/silnrsi/silpua) characters. In total, over 4,500 glyphs are included, supporting stylistic alternates for a number of characters as well as a large number of ligated sequences (e.g., contour tone letters used in phonetic transcription of tonal languages). 
+This font supports over 2,750 characters from [The Unicode Standard](https://unicode.org/) as well as a number of [Private Use Area (PUA)](https://github.com/silnrsi/unicode-resources/tree/main/sil-pua) characters. In total, over 4,500 glyphs are included, supporting stylistic alternates for a number of characters as well as a large number of ligated sequences (e.g., contour tone letters used in phonetic transcription of tonal languages). 
 
 ## Supported characters
 
@@ -70,7 +70,7 @@ Emoticons|U+1F610
 
 ## Private-use (PUA) characters
 
-There are a number of private-use characters that are supported in this font. These conform to [SIL Global’s corporate registry](https://scripts.sil.org/PUA_home) for usage of the Unicode private-use areas. Characters which are not yet in Unicode are shown below. 
+There are a number of private-use characters that are supported in this font. These conform to [SIL Global’s corporate registry](https://github.com/silnrsi/unicode-resources/tree/main/sil-pua) for usage of the Unicode private-use areas. Characters which are not yet in Unicode are shown below. 
 
 ### Specials
 
@@ -102,14 +102,14 @@ Some characters formerly in the PUA have been added to Unicode, and so have been
 
 ## Gentium Basic and Gentium Book Basic supported characters
 
-The supported character set for Gentium Basic and Gentium Book Basic is much smaller than for the main Gentium font. The *Basic* fonts support only the Basic Latin and Latin-1 Supplement Unicode ranges, plus a selection of the more commonly used extended Latin characters, with miscellaneous diacritical marks, symbols and punctuation. In particular, these fonts do not support:
+The supported character set for the old Gentium Basic and Gentium Book Basic fonts was much smaller than for the main Gentium font. The *Basic* fonts supported only the Basic Latin and Latin-1 Supplement Unicode ranges, plus a selection of the more commonly used extended Latin characters, with miscellaneous diacritical marks, symbols and punctuation. In particular, these fonts did not support:
 
 * Full extended Latin IPA
 * Complete support for Central European languages
 * Greek
 * Cyrillic
 
-A much more complete character set is supported in the Gentium fonts. The *Basic* fonts were intended as a way to provide additional weights for basic font users before the complete Gentium character set was finished. So please don’t request additional glyphs or characters to be supported in the Basic fonts—use Gentium.
+A much more complete character set is supported in the current Gentium fonts. The *Basic* fonts were intended as a way to provide additional weights for basic font users before the complete Gentium character set was finished. Please don’t request additional glyphs or characters to be supported in the Basic fonts—use Gentium.
 
 Unicode block | Gentium Basic support
 ------------- | ---------------
