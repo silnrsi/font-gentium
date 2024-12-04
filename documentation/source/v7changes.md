@@ -22,15 +22,15 @@ This enables you to keep the old v6.2 fonts installed when you install the new v
 
 Both Gentium and Gentium Book families now have additional intermediate weights, with the previous Book family weights integrated into the main Gentium family. Previously existing weights in both families have not changed. Here is a comparison, with retained weights in **bold** and new weights in *italic*. The CSS values for the weights within each family are in parentheses. Italic faces follow a similar structure and correspondence.
 
-| **Gentium Regular** (400) | |
-| *Gentium Medium* (500) | **Gentium Book Regular** (400) |
-| *Gentium SemiBold* (600) | *Gentium Book Medium* (500) |
-| **Gentium Bold** (700) | *Gentium Book SemiBold* (600) |
-| *Gentium ExtraBold* (800) | **Gentium Book Bold** (700) |
+| **Gentium Regular** (400) |                                |
+| *Gentium Medium* (500)    | **Gentium Book Regular** (400) |
+| *Gentium SemiBold* (600)  | *Gentium Book Medium* (500)    |
+| **Gentium Bold** (700)    | *Gentium Book SemiBold* (600)  |
+| *Gentium ExtraBold* (800) | **Gentium Book Bold** (700)    |
 
 All the previous Book weights are present in the main Gentium family, so for many users the Book family is no longer needed. The main reason to use the Book family is if you prefer Gentium Book Regular as a primary text face and want to retain automatic style linking with Gentium Book Bold.
 
-The new intermediate weights in these extended, axis-based families can sometimes be confusing for applications that still assume families should have only four members (Regular, Italic, Bold, Bold Italic). This is the case for Microsoft Word and some older Windows applications. For details on how to use the intermediate weights in these applications, see [Using Axis-Based Font Families](https://software.sil.org/fonts/axis-based-fonts/).
+The new intermediate weights in these extended, axis-based families can be confusing for applications that still assume families should have only four members (Regular, Italic, Bold, Bold Italic). This is the case for Microsoft Word and some older Windows applications. For details on how to use the intermediate weights in these applications, see [Using Axis-Based Font Families](https://software.sil.org/fonts/axis-based-fonts/).
 
 Gentium Book is now a separate download and is no longer included in the main Gentium package.
 
@@ -44,13 +44,15 @@ TypeTuner Web no longer offers line spacing alternatives for the v7 fonts (Norma
 
 ### Special-purpose modified variants have not been updated to v7
 
-In previous versions, special-purpose modified font variants were available that had been ‘tuned’ to turn on certain features by default for some regional and *Literacy* uses. These are not available for the v7 fonts, however, the [v6.2 special-purpose fonts are still available](https://software.sil.org/lcgfonts/download/). **If you need any of the new features or characters in this version, but also need them supported in the special-purpose modified fonts please [contact us](https://software.sil.org/charis/about/contact/).**
+In previous versions, special-purpose modified font variants were available that had been ‘pre-tuned’ to turn on certain features by default for some regional and *Literacy* uses. These are not available for the v7 fonts, however, the [v6.2 special-purpose fonts are still available](https://software.sil.org/lcgfonts/download/). **If you need any of the new features or characters in this version, but also need them supported in the special-purpose modified fonts please [contact us](https://software.sil.org/gentium/about/contact/).**
+
+Note that even in version 7 the literacy forms and other features can be manually preset with TypeTuner Web. The only change to this is that the 'pre-tuned' versions (only) remain at version 6.2.  
 
 ## New features and character support
 
 ### Greatly enhanced kerning
 
-Kerning has now been expanded to cover the full range of alphabetic symbols, including small caps. To make this practically useful for a wide range of languages the letters have been clustered into overly generalized groups. This enables the kerning to apply to more combinations, but does not allow for careful fine-tuning. The expanded kerning may not be ideal in all cases, and may still require manual adjustment, but it should provide improved spacing compared with previous versions. It is very possible that we have made some mistakes in this massive kerning effort, so please [contact us](https://software.sil.org/charis/about/contact/) if you encounter any combinations whose spacing has been made worse than in v6.2.
+Kerning has now been expanded to cover the full range of alphabetic symbols, including small caps. To make this practically useful for a wide range of languages the letters have been clustered into overly generalized groups. This enables the kerning to apply to more combinations, but does not allow for careful fine-tuning. The expanded kerning may not be ideal in all cases, and may still require manual adjustment, but it should provide improved spacing compared with previous versions. It is very possible that we have made some mistakes in this massive kerning effort, so please [contact us](https://software.sil.org/gentium/about/contact/) if you encounter any combinations whose spacing has been made worse than in v6.2.
 
 **Warning: Because of the addition of extensive kerning, line, paragraph, and page lengths may be different from v6.2.**
 
@@ -64,7 +66,7 @@ Greek OpenType support is significantly more robust, with better handling of bot
 
 ### Additional character support including Unicode 16
 
-Support has been added for 37 additional characters, some of which were introduced in Unicode 16. For a full list see [Version history](history.md).
+Support has been added for 29 additional characters, some of which were introduced in Unicode 16. For a full list see [Version history](history.md).
 
 ## General improvements
 
@@ -78,7 +80,7 @@ Other improvements have been made to over 150 glyphs, OpenType code, and other f
 
 For more details see [Version history](history.md).
 
-If you have any difficulty with these changes, or have other suggestions on how we can make the fonts better, please [contact us](https://software.sil.org/charis/about/contact/).
+If you have any difficulty with these changes, or have other suggestions on how we can make the fonts better, please [contact us](https://software.sil.org/gentium/about/contact/).
 
 
 
