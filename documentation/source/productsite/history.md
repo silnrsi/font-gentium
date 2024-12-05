@@ -29,17 +29,11 @@
 
 #### New features and enhancements
 
-- [CA] Kerning has now been added and covers the full range of alphabetic symbols, including small caps. **Warning: Because of the addition of extensive kerning, line, paragraph, and page lengths may be different from v6.2.**
+- Kerning has now been expanded to cover the full range of alphabetic symbols, including small caps. **Warning: Because of the addition of extensive kerning, line, paragraph, and page lengths may be different from v6.2.**
 
-- [G] Kerning has now been expanded to cover the full range of alphabetic symbols, including small caps. **Warning: Because of the addition of extensive kerning, line, paragraph, and page lengths may be different from v6.2.**
+- Greek OpenType support is significantly more robust, with better handling of both combining and non-combining diacritics. Macron + diacritic combinations are now supported, as well as some rare epsilon and omicron diacritic combinations. Small caps (both `smcp` and `c2sc`) are supported, with diacritics bring removed.
 
-- [G] Greek OpenType support is significantly more robust, with better handling of both combining and non-combining diacritics. Macron + diacritic combinations are now supported, as well as some rare epsilon and omicron diacritic combinations. Small caps (both `smcp` and `c2sc`) are supported, with diacritics bring removed.
-
-- [CG] Proportional Oldstyle figures are now supported through the standard OpenType feature (`onum`). These only apply to the main numerals, not fractions, superscripts, or numeral-based symbols.
-
-- [A] New OpenType features added to control alternate 6 and 9 separately
-
-- [A] New Opentype feature added to remove bars on capital I (`cv30`)
+- Proportional Oldstyle figures are now supported through the standard OpenType feature (`onum`). These only apply to the main numerals, not fractions, superscripts, or numeral-based symbols.
 
 - Additions to Modifier Apostrophe feature (`cv70`)
     - U+0312 COMBINING TURNED COMMA ABOVE
@@ -119,13 +113,13 @@
     - U+1DFC COMBINING DOUBLE INVERTED BREVE BELOW
     - U+F17A COMBINING DOUBLE DIAERESIS (in SIL PUA)
 
-- [CGA] Redesigned Central European carons
+- Redesigned Central European carons
     - U+010F LATIN SMALL LETTER D WITH CARON
     - U+013D LATIN CAPITAL LETTER L WITH CARON
     - U+013E LATIN SMALL LETTER L WITH CARON
     - U+0165 LATIN SMALL LETTER T WITH CARON
 
-- [CGA] Revised design and spacing of hooked letters
+- Revised design and spacing of hooked letters
     - U+01B3 LATIN CAPITAL LETTER Y WITH HOOK
     - U+01B4 LATIN SMALL LETTER Y WITH HOOK
     - U+2C71 LATIN SMALL LETTER V WITH RIGHT HOOK
@@ -136,32 +130,20 @@
     - U+1D09 LATIN SMALL LETTER TURNED I
     - U+1D4E MODIFIER LETTER SMALL TURNED I
 
-- [G] Made Greek spacing letters non-combining
+- Made Greek spacing letters non-combining
     - U+037A GREEK YPOGEGRAMMENI
     - U+0384 GREEK TONOS
     - U+0385 GREEK DIALYTIKA TONOS
 
-- [CDG] Fixed dotless form of
+- Fixed dotless form of
     - U+1DF1A LATIN SMALL LETTER I WITH STROKE AND RETROFLEX HOOK
-
-- [A] Fixed spacing of
-    - U+02D8 BREVE
-
-- [C] Fixed spacing of
-    - U+0037 DIGIT SEVEN
 
 - Revised design of
     - U+A720 MODIFIER LETTER STRESS AND HIGH TONE
     - U+A721 MODIFIER LETTER STRESS AND LOW TONE
 
-- [G] Based design on Greek form:
+- Based design on Greek form:
     - U+1D61 MODIFIER LETTER SMALL CHI
-
-- [C] Fixed position of
-    - U+1ACE COMBINING LATIN SMALL LETTER INSULAR T
-
-- [C] Increased size of Vietnamese hook above
-    - U+0309 COMBINING HOOK ABOVE
 
 - Improved design of some combining diacritics
     - U+032B COMBINING INVERTED DOUBLE ARCH BELOW
@@ -180,7 +162,7 @@
     - U+0079 LATIN SMALL LETTER Y
     - U+0434 CYRILLIC SMALL LETTER DE
 
-- [G] Added anchors to support use of diacritics on
+- Added anchors to support use of diacritics on
     - U+03C8 GREEK SMALL LETTER PSI
     - U+03D1 GREEK THETA SYMBOL
 
@@ -192,7 +174,7 @@
     - U+02CE MODIFIER LETTER LOW GRAVE ACCENT
     - U+02CF MODIFIER LETTER LOW ACUTE ACCENT
 
-- [G] Low-profile diacritics are used for capitals for Cyrillic as well as Latin.
+- Low-profile diacritics are used for capitals for Cyrillic as well as Latin.
 
 - Autohinting is more consistent across the font family
 
