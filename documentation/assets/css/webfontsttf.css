@@ -9,19 +9,49 @@ Open Font License, Version 1.1 (https://openfontlicense.org).
     src: url("../../../results/Gentium-Regular.ttf") format("truetype");
 }
 @font-face {
+    font-family: Gentium-M;
+    src: url("../../../results/Gentium-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: Gentium-SB;
+    src: url("../../../results/Gentium-SemiBold.ttf") format("truetype");
+}
+@font-face {
     font-family: Gentium-B;
     src: url("../../../results/Gentium-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: Gentium-XB;
+    src: url("../../../results/Gentium-ExtraBold.ttf") format("truetype");
 }
 @font-face {
     font-family: Gentium-I;
     src: url("../../../results/Gentium-Italic.ttf") format("truetype");
 }
 @font-face {
+    font-family: Gentium-M;
+    src: url("../../../results/Gentium-MediumItalic.ttf") format("truetype");
+}
+@font-face {
+    font-family: Gentium-SBI;
+    src: url("../../../results/Gentium-SemiBoldItalic.ttf") format("truetype");
+}
+@font-face {
     font-family: Gentium-BI;
     src: url("../../../results/Gentium-BoldItalic.ttf") format("truetype");
 }
+@font-face {
+    font-family: Gentium-XBI;
+    src: url("../../../results/Gentium-ExtraBoldItalic.ttf") format("truetype");
+}
 
 .gentium-R { font-family: Gentium-R; }
+.gentium-M { font-family: Gentium-M; }
+.gentium-SB { font-family: Gentium-SB; }
 .gentium-B { font-family: Gentium-B; }
+.gentium-XB { font-family: Gentium-XB; }
 .gentium-I { font-family: Gentium-I; }
+.gentium-MI { font-family: Gentium-MI; }
+.gentium-SBI { font-family: Gentium-SBI; }
 .gentium-BI { font-family: Gentium-BI; }
+.gentium-XBI { font-family: Gentium-XBI; }
