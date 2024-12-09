@@ -450,7 +450,7 @@ Hide staves  | <span class='gentium-R normal' style='font-feature-settings: "cv9
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
 Standard  | <span class='gentium-R normal'>0 1 2 3 4 5 6 7 8 9</span> | `onum=0`
-Subscript | <span class='gentium-R normal' style='font-feature-settings: "onum" 1'>0 1 2 3 4 5 6 7 8 9</span> | `onum=1`
+Oldstyle | <span class='gentium-R normal' style='font-feature-settings: "onum" 1'>0 1 2 3 4 5 6 7 8 9</span> | `onum=1`
 
 #### Subscript numerals
 
