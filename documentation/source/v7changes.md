@@ -22,11 +22,13 @@ This enables you to keep the old v6.2 fonts installed when you install the new v
 
 Both Gentium and Gentium Book families now have additional intermediate weights, with the previous Book family weights integrated into the main Gentium family. Previously existing weights in both families have not changed. Here is a comparison, with retained weights in **bold** and new weights in *italic*. The CSS values for the weights within each family are in parentheses. Italic faces follow a similar structure and correspondence.
 
-| **Gentium Regular** (400) |                                |
-| *Gentium Medium* (500)    | **Gentium Book Regular** (400) |
-| *Gentium SemiBold* (600)  | *Gentium Book Medium* (500)    |
-| **Gentium Bold** (700)    | *Gentium Book SemiBold* (600)  |
-| *Gentium ExtraBold* (800) | **Gentium Book Bold** (700)    |
+Gentium family            | Gentium Book family
+------------------        | -----------------------
+**Gentium Regular** (400) | 
+*Gentium Medium* (500)    | **Gentium Book Regular** (400)
+*Gentium SemiBold* (600)  | *Gentium Book Medium* (500)
+**Gentium Bold** (700)    | *Gentium Book SemiBold* (600)
+*Gentium ExtraBold* (800) | **Gentium Book Bold** (700)
 
 All the previous Book weights are present in the main Gentium family, so for many users the Book family is no longer needed. The main reason to use the Book family is if you prefer Gentium Book Regular as a primary text face and want to retain automatic style linking with Gentium Book Bold.
 
@@ -68,6 +70,14 @@ Greek OpenType support is significantly more robust, with better handling of bot
 
 Support has been added for 29 additional characters, some of which were introduced in Unicode 16. For a full list see [Version history](history.md).
 
+## Consistent autohinting
+
+Autohinting has been improved to be more consistent across the whole family.
+
+![Gentium autohinting](../assets/images/v7autohinting.png){.fullsize}
+<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/gentium/wp-content/uploads/sites/20/2015/12/v7autohinting.png -->
+<figcaption>Upright and italic faces appear more consistent in height in smaller sizes (Windows 11, Word, 9 pt, 150%, enlarged)</figcaption>
+
 ## General improvements
 
 Other improvements have been made to over 150 glyphs, OpenType code, and other font aspects, including: 
@@ -76,7 +86,6 @@ Other improvements have been made to over 150 glyphs, OpenType code, and other f
 - Bridging diacritics handle many more possible combinations. See [Using Bridging Diacritics](https://software.sil.org/fonts/bridging-diacritics/) for details on how these need to be encoded and ordered.
 - Low-profile diacritics are used for capitals for Cyrillic as well as Latin.
 - Small caps apply to bracketing punctuation.
-- Autohinting is more consistent.
 
 For more details see [Version history](history.md).
 

@@ -15,11 +15,13 @@ fontversion: 7.000
 
 - Gentium and Gentium Book families now have additional intermediate weights, with the previous Book family weights integrated into the main Gentium family. Previously existing weights in both families have not changed. Here is a comparison, with retained weights in **bold** and new weights in *italic*. The CSS values for the weights within each family are in parentheses. Italic faces follow a similar structure and correspondence.
 
-| **Gentium Regular** (400) |                                |
-| *Gentium Medium* (500)    | **Gentium Book Regular** (400) |
-| *Gentium SemiBold* (600)  | *Gentium Book Medium* (500)    |
-| **Gentium Bold** (700)    | *Gentium Book SemiBold* (600)  |
-| *Gentium ExtraBold* (800) | **Gentium Book Bold** (700)    |
+Gentium family            | Gentium Book family
+------------------        | -----------------------
+**Gentium Regular** (400) | 
+*Gentium Medium* (500)    | **Gentium Book Regular** (400)
+*Gentium SemiBold* (600)  | *Gentium Book Medium* (500)
+**Gentium Bold** (700)    | *Gentium Book SemiBold* (600)
+*Gentium ExtraBold* (800) | **Gentium Book Bold** (700)
 
 - The Gentium Book family is now a separate download and is no longer included in the main Gentium package.
 
