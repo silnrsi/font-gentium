@@ -6,10 +6,24 @@
   <anchor x="675" y="0" name="O"/>
   <anchor x="634" y="1370" name="U"/>
   <outline>
-    <component base="LtnCapY"/>
+    <component base="LtnCapLambda"/>
+    <contour>
+      <point x="962" y="1073"/>
+      <point x="968" y="1117" type="curve"/>
+      <point x="942" y="1142" type="line"/>
+      <point x="261" y="799" type="line"/>
+      <point x="247" y="773"/>
+      <point x="224" y="702"/>
+      <point x="220" y="657" type="curve"/>
+      <point x="247" y="635" type="line"/>
+      <point x="925" y="977" type="line"/>
+      <point x="942" y="1008"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>
