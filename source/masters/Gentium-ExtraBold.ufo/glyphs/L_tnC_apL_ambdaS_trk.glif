@@ -2,22 +2,22 @@
 <glyph name="LtnCapLambdaStrk" format="2">
   <advance width="1267"/>
   <unicode hex="A7DC"/>
-  <anchor x="636" y="-100" name="L"/>
-  <anchor x="675" y="0" name="O"/>
-  <anchor x="636" y="1370" name="U"/>
+  <anchor x="602" y="-100" name="L"/>
+  <anchor x="935" y="0" name="O"/>
+  <anchor x="602" y="1370" name="U"/>
   <outline>
     <component base="LtnCapLambda"/>
     <contour>
-      <point x="1089" y="754"/>
-      <point x="1095" y="798" type="curve"/>
-      <point x="1069" y="823" type="line"/>
-      <point x="141" y="689" type="line"/>
-      <point x="127" y="663"/>
-      <point x="84" y="592"/>
-      <point x="80" y="547" type="curve"/>
-      <point x="107" y="525" type="line"/>
-      <point x="1032" y="658" type="line"/>
-      <point x="1049" y="689"/>
+      <point x="1077" y="860"/>
+      <point x="1091" y="904" type="curve"/>
+      <point x="1063" y="928" type="line"/>
+      <point x="144" y="746" type="line"/>
+      <point x="127" y="719"/>
+      <point x="101" y="666"/>
+      <point x="89" y="621" type="curve"/>
+      <point x="117" y="600" type="line"/>
+      <point x="1034" y="781" type="line"/>
+      <point x="1053" y="813"/>
     </contour>
   </outline>
   <lib>
