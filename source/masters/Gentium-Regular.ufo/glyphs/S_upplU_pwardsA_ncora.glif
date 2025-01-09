@@ -3,6 +3,46 @@
   <advance width="1213"/>
   <unicode hex="2E15"/>
   <outline>
-    <component base="SupplDownwardsAncora"/>
+    <contour>
+      <point x="257" y="54" type="line"/>
+      <point x="1172" y="1039" type="line"/>
+      <point x="1142" y="1079" type="line"/>
+      <point x="1102" y="1078"/>
+      <point x="1067" y="1075"/>
+      <point x="1041" y="1063" type="curve"/>
+      <point x="179" y="132" type="line"/>
+    </contour>
+    <contour>
+      <point x="41" y="465"/>
+      <point x="41" y="368" type="curve" smooth="yes"/>
+      <point x="41" y="153"/>
+      <point x="193" y="-30"/>
+      <point x="428" y="-30" type="curve" smooth="yes"/>
+      <point x="533" y="-30"/>
+      <point x="654" y="6"/>
+      <point x="786" y="93" type="curve"/>
+      <point x="793" y="108"/>
+      <point x="800" y="131"/>
+      <point x="800" y="159" type="curve" smooth="yes"/>
+      <point x="800" y="171"/>
+      <point x="799" y="183"/>
+      <point x="796" y="196" type="curve"/>
+      <point x="694" y="127"/>
+      <point x="592" y="97"/>
+      <point x="500" y="97" type="curve" smooth="yes"/>
+      <point x="309" y="97"/>
+      <point x="175" y="230"/>
+      <point x="175" y="424" type="curve" smooth="yes"/>
+      <point x="175" y="497"/>
+      <point x="195" y="579"/>
+      <point x="231" y="665" type="curve"/>
+      <point x="212" y="669"/>
+      <point x="196" y="671"/>
+      <point x="181" y="671" type="curve" smooth="yes"/>
+      <point x="167" y="671"/>
+      <point x="155" y="669"/>
+      <point x="141" y="665" type="curve"/>
+      <point x="72" y="569"/>
+    </contour>
   </outline>
 </glyph>
