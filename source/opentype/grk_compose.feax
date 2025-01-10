@@ -609,7 +609,6 @@ lookup grk_sc2_sub { # TODO: perhaps remove rules that are reduntant with common
     sub GrCapIotaWTonos by GrSmIota.sc;
     sub GrCapIotaWVaria by GrSmIota.sc;
     sub GrCapIotaWVrachy by GrSmIota.sc;
-    # sub GrCapKaiSym by GrKaiSym.sc;
     sub GrCapKappa by GrSmKappa.sc;
     sub GrCapLamda by GrSmLamda.sc;
     sub GrCapLunateSigma by GrLunateSigma.sc;
