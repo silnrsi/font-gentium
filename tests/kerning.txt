@@ -1,26 +1,4 @@
-\begin[class=fontproof]{document}
-\bidi-off
-\setTestFont[size="14pt"]
-
-%%%%% GROUPS
-
-% Basic Cyr
-\patterngroup[name="cyrbasiccaps"]{АБВГЃҐДЂЕЀЁЄЖЗЅИЍЙІЇЈКЌЛЉМНЊОПРСТЋУЎФХЦЏШЩЪЫЬѢЭЮЯѲѴ№}
-\patterngroup[name="cyrbasiclc"]{абвгѓґдђеѐёєжзѕиѝйіїјкќлљмнњопрстћуўфхцџчшщъыьѣэюяѳѵ}
-
-% Ext Cyr
-\patterngroup[name="cyrextcaps"]{ҊҌҎҐҒҔҖҘҚҜҞҠҢҤҦԢҨҪҬҮҰҲҴҶҸҺҼҾӀӁӃӅӇӉӋӍӐӒӔӖӘӚӜӞӠӢӤӦӨӪӬӮӰӲӴӶӸӺӼӾԀԂԄԆԈԊԌԎԐԒ}
-\patterngroup[name="cyrextlc"]{ҋҍҏґғҕҗҙқҝҟҡңҥҧԣҩҫҭүұҳҵҷҹһҽҿӂӄӆӈӊӌӎӏӑӓӕӗәӛӝӟӡӣӥӧөӫӭӯӱӳӵӷӹӻӽӿԁԃԅԇԉԋԍԏԑ}
-
-% General
-\patterngroup[name="numerals"]{1234567890}
-\patterngroup[name="punctuation"]{.,:;!-}
-
-%%%%% TESTS
-
-\section{LATIN & CYR - Letters}
-
-\proof{HACH HAGH HAOH HAQH HATH HAVH HAYH HAWH HAUH
+HACH HAGH HAOH HAQH HATH HAVH HAYH HAWH HAUH
 
 HLCH HLGH HLOH HLQH HLVH HLYH HLTH HLWH
 
@@ -267,9 +245,7 @@ H‚"H‚'H‚“H‚”H‚‘H‚’H‚ʼH
 H„"H„'H„“H„”H„‘H„’H„ʼH}
 
 
-\section{LATIN - Czech & Slovak carons}
-
-\proof{nď, ď. ď: ď; ď! ď? (ď) [ď] {ď} ‘ď’ „ď“ ‚ď‘ ď*
+nď, ď. ď: ď; ď! ď? (ď) [ď] {ď} ‘ď’ „ď“ ‚ď‘ ď*
 
 nďa ďá ďh ďk ďl ďm ďn ďo ďt ďu ďž
 
@@ -303,9 +279,7 @@ Veľká Biľak podnikateľ]
 Ľahko }
 
 
-\section{LATIN - Viet hooks}
-
-\proof{OAƠAUAƯAO’Ơ’U’Ư’
+OAƠAUAƯAO’Ơ’U’Ư’
 
 oaodohonotovoxoʼo’
 
@@ -315,9 +289,7 @@ uauduhunutuvuxuʼu’
 
 ưaưgư𝼛ưdưhưþưnưtưvưxưʼư’}
 
-\section{LATIN - Right hooks}
-
-\proof{vavevɛvnvʋvbvfvvvʌvyvxvgv𝼛vþvp
+vavevɛvnvʋvbvfvvvʌvyvxvgv𝼛vþvp
 
 ⱱaⱱeⱱɛⱱnⱱʋⱱbⱱfⱱvⱱʌⱱyⱱxⱱgⱱ𝼛ⱱþⱱp
 
@@ -349,9 +321,7 @@ YgY𝼛YþYpYäYöY.Y‘
 
 HⱲHⱲAWAHƳHƳAYAH}
 
-\section{LATIN - Positive kerns}
-
-\proof{ngjnqjnᶏjn
+ngjnqjnᶏjn
 
 nf)nf]nf} (jn[jn{jn ƈ]ɗ]ᶑ]
 
@@ -363,9 +333,7 @@ nïn nïïn nïĩn
 
 aɳʈi aɳɡi ɳt̪ uɭɭa aʈʈa ʃh ʃʰ (GPS combos)}
 
-\section{LATIN - base+base+mark}
-
-\proof{Van Ván Vän Va͊n Vgn Vǵn Vg̈n Vg͊n Von Vón Vön Vo͊n Vnn Vńn Vn̈n Vn͊n
+Van Ván Vän Va͊n Vgn Vǵn Vg̈n Vg͊n Von Vón Vön Vo͊n Vnn Vńn Vn̈n Vn͊n
 
 Wan Wán Wän Wa͊n Wgn Wǵn Wg̈n Wg͊n Won Wón Wön Wo͊n Wnn Wńn Wn̈n Wn͊n
 
@@ -381,9 +349,7 @@ Tan Tán Tän Ta͊n Tgn Tǵn Tg̈n Tg͊n Ton Tón Tön To͊n Tnn Tńn Tn̈n 
 
 ťan ťán ťän ťa͊n ťgn ťǵn ťg̈n ťg͊n ťon ťón ťön ťo͊n ťnn ťńn ťn̈n ťn͊n}
 
-\section{LATIN & CYR - Precomposed}
-
-\proof{VaVäVoVöWaWäWoWöPaPäFaFäPoPöFoFö
+VaVäVoVöWaWäWoWöPaPäFaFäPoPöFoFö
 
 TaTäToTöʼaʼäʼoʼö‘a‘ä‘o‘ö
 
@@ -402,9 +368,7 @@ cʼćʼc’ć’c̚ć̚chćhcþćþ  ʌaʌäʌoʌö
 олод улмо кӱлшӧ тудын шӱдыр}
 
 
-\section{LATIN ORIGINAL - Examples of all the glyph-to-glyph pairs prior to 2024}
-
-\proof{HHHAHACHCH
+HHHAHACHCH
 HHHAHAGHGH
 HHHAHAOHOH
 HHHAHAQHQH
@@ -503,11 +467,4 @@ nnnynyonon
 nnnyny.n.n
 nnn.n.”n”n}
 
-\section{CYRILLIC - test cross-script kerning}
-
-\proof{Latin WATA Mixed WАТA}
-
-\section{GREEK ORIGINAL - See TestGrkPairs docs}
-
-
-\end{document}
+Latin WATA Mixed WАТA}
