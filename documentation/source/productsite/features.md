@@ -134,7 +134,7 @@ Alt. lowercase style on baseline  | <span class='gentium-cv43-3-R normal'>Ŋ</sp
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
 Standard        | <span class='gentium-R normal'>Ɲ</span> | `cv44=0`
-Lowercase-style | <span class='gentium-cv44-1-R normal'>Ɲ</span> | `cv44=1`
+Uppercase-style | <span class='gentium-cv44-1-R normal'>Ɲ</span> | `cv44=1`
 
 #### Open-O
 
