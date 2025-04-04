@@ -1301,7 +1301,7 @@
     <key>public.kern2.RSmCurve</key>
     <integer>-60</integer>
     <key>public.kern2.RSmCurveDiac</key>
-    <integer>0</integer>
+    <integer>30</integer>
     <key>public.kern2.RSmDiagTrndV</key>
     <integer>-60</integer>
     <key>public.kern2.RSmDiagV</key>
@@ -1314,6 +1314,8 @@
     <integer>-60</integer>
     <key>public.kern2.RSmRoundDesc</key>
     <integer>-60</integer>
+    <key>public.kern2.RSmRoundDiac</key>
+    <integer>10</integer>
     <key>public.kern2.RSmSerif</key>
     <integer>-60</integer>
     <key>public.kern2.RSmSerifDesc</key>
