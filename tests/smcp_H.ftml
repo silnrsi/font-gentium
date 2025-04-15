@@ -460,6 +460,18 @@ U+017D">
       <comment>LtnCapZAcute LtnCapZDotAbv LtnCapZCaron</comment>
       <string>\u000179\u000327\u00017B\u000327\u00017D\u000327</string>
     </test>
+    <test label="U+0188">
+      <comment>LtnSmCHook</comment>
+      <string>\u000188\u000327</string>
+    </test>
+    <test label="U+0188" stylename="smcp_1">
+      <comment>LtnSmCHook</comment>
+      <string>\u000188\u000327</string>
+    </test>
+    <test label="U+0187">
+      <comment>LtnCapCHook</comment>
+      <string>\u000187\u000327</string>
+    </test>
     <test label="U+01C5
 U+01C6
 U+01C8
