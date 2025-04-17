@@ -45,6 +45,8 @@ Gentium family            | Gentium Book family
     - U+019D LATIN CAPITAL LETTER N WITH LEFT HOOK
 
 - Additions to Modifier Apostrophe feature (`cv70`)
+    - U+02BB MODIFIER LETTER TURNED COMMA
+    - U+02BD MODIFIER LETTER REVERSED COMMA
     - U+0312 COMBINING TURNED COMMA ABOVE
     - U+0314 COMBINING REVERSED COMMA ABOVE
 
