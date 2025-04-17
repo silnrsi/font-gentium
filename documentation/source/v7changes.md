@@ -86,6 +86,7 @@ Autohinting has been improved to be more consistent across the whole family.
 
 Other improvements have been made to over 150 glyphs, OpenType code, and other font aspects, including: 
 
+- Letters with upper-right hooks have been redesigned to improve spacing (including kerning) and reduce collisions. Some collisions have been retained to reduce unwanted whitespace within words (e.g. ƴk).
 - Central European carons have improved designs and kerning.
 - Bridging diacritics handle many more possible combinations. See [Using Bridging Diacritics](https://software.sil.org/fonts/bridging-diacritics/) for details on how these need to be encoded and ordered.
 - Low-profile diacritics are used for capitals for Cyrillic as well as Latin.
