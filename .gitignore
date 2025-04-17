@@ -20,6 +20,9 @@ documentation/source/productsite/
 web/*.woff*
 web_book/*.woff*
 
+# temporary interpolation test folder
+variable_ttf/
+
 # graphite
 $_temp.gdl
 gdlerr.txt
