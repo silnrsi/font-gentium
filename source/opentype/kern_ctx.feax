@@ -36,12 +36,12 @@ lookup kern_ctx {
     pos @public.kern1.LModApos' -35 @public.kern2.RSmCurveDesc @_U;
     pos @public.kern1.LModApos' -45 @public.kern2.RSmRound @_U;
     pos @public.kern1.LModApos' -45 @public.kern2.RSmRoundDesc @_U;
-    pos @public.kern1.LSmDescHook' 260 @public.kern2.RSmCurve @_L;
-    pos @public.kern1.LSmDescHook' 260 @public.kern2.RSmRound @_L;
-    pos @public.kern1.LSmDescHook' 260 @public.kern2.RSmAsc @_L;
-    pos @public.kern1.LSmDescHook' 260 @public.kern2.RSmBar @_L;
-    pos @public.kern1.LSmDescHook' 260 @public.kern2.RSmSerif @_L;
-    pos @public.kern1.LSmDescHook' 260 @public.kern2.RSmDiagV @_L;
-    pos @public.kern1.LSmDescHook' 260 @public.kern2.RSmDiagTrndV @_L;
+    pos @public.kern1.LSmDescHook' 220 @public.kern2.RSmCurve @_L;
+    pos @public.kern1.LSmDescHook' 220 @public.kern2.RSmRound @_L;
+    pos @public.kern1.LSmDescHook' 220 @public.kern2.RSmAsc @_L;
+    pos @public.kern1.LSmDescHook' 220 @public.kern2.RSmBar @_L;
+    pos @public.kern1.LSmDescHook' 220 @public.kern2.RSmSerif @_L;
+    pos @public.kern1.LSmDescHook' 220 @public.kern2.RSmDiagV @_L;
+    pos @public.kern1.LSmDescHook' 220 @public.kern2.RSmDiagTrndV @_L;
     }
 } kern_ctx;
