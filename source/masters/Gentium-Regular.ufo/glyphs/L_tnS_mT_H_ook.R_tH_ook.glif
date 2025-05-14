@@ -2,14 +2,14 @@
 <glyph name="LtnSmTHook.RtHook" format="2">
   <advance width="705"/>
   <anchor x="396" y="-100" name="L"/>
-  <anchor x="416" y="1490" name="U"/>
+  <anchor x="416" y="1440" name="U"/>
   <outline>
     <component base="LtnSmTHook"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>
