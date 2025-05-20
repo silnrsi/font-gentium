@@ -974,7 +974,7 @@
   <key>public.kern1.LCapTopP</key>
   <dict>
     <key>public.kern2.RCapDiagA</key>
-    <integer>-180</integer>
+    <integer>-170</integer>
     <key>public.kern2.RPunctBase</key>
     <integer>-260</integer>
     <key>public.kern2.RSmCurve</key>
@@ -1296,7 +1296,7 @@
     <key>public.kern2.RSmCurve</key>
     <integer>-100</integer>
     <key>public.kern2.RSmCurveDesc</key>
-    <integer>-200</integer>
+    <integer>-110</integer>
     <key>public.kern2.RSmCurveDiac</key>
     <integer>130</integer>
     <key>public.kern2.RSmDiagTrndV</key>
@@ -1421,7 +1421,7 @@
     <key>public.kern2.RSmCurveDesc</key>
     <integer>-130</integer>
     <key>public.kern2.RSmCurveDiac</key>
-    <integer>-100</integer>
+    <integer>-130</integer>
     <key>public.kern2.RSmDescJ</key>
     <integer>-130</integer>
     <key>public.kern2.RSmDiagV</key>
