@@ -294,8 +294,8 @@ Global-style | <span class='gentium-R normal' style='font-feature-settings: "cv7
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='gentium-R normal'>ʻ ʼ ʽ  ̒  ̔ Ꞌ ꞌ</span> | `cv70=0`
-Large    | <span class='gentium-R normal' style='font-feature-settings: "cv70" 1'>ʻ ʼ ʽ  ̒  ̔ Ꞌ ꞌ</span> | `cv70=1`
+Standard | <span class='gentium-R normal'>ʻ ʼ ʽ ◌̒ ◌̔ Ꞌ ꞌ</span> | `cv70=0`
+Large    | <span class='gentium-R normal' style='font-feature-settings: "cv70" 1'>ʻ ʼ ʽ ◌̒ ◌̔ Ꞌ ꞌ</span> | `cv70=1`
 
 #### Modifier colon <a id="cv71"></a>
 

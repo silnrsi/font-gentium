@@ -74,7 +74,7 @@ These font families were based on the original Gentium design, but with limited 
 
 Font size is less of a concern than when the Basic fonts were introduced in 2008. New compression technologies have also reduced the size of the fonts, particularly for web use. For example, Gentium Basic Regular (TrueType) was 264K. The current Gentium Regular (WOFF2)—which contains six times the glyphs—is only 347K. If you still feel that font size is a significant concern please [contact us](https://software.sil.org/gentium/about/contact/). We may be able to point you to techniques that can reduce the size impact even further depending on your particular situation.
 
-#### *Do you plan to add Sans-serif font to go with Gentium?*
+#### *Do you plan to add sans-serif font to go with Gentium?*
 
 There is a definite need for a sans-serif font that shares some of Gentium’s strengths—high readability, economy of space, etc. It would also be great if that font also harmonized well with Gentium. We don’t currently have any plans for a companion face, although one of our other projects—[Andika](https://software.sil.org/andika/)—may be useful. Andika is a sans-serif font designed specifically for use in literacy programs around the world, and is available from our web site.
 

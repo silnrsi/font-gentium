@@ -35,7 +35,7 @@ Gentium family            | Gentium Book family
 
 #### New features and enhancements
 
-- Kerning has now been expanded to cover the full range of alphabetic symbols, including small caps. **Warning: Because of the addition of extensive kerning, line, paragraph, and page lengths may be different from v6.2.**
+- Kerning has now been expanded to cover the full range of alphabetic symbols except for small caps (which will be included in a future update). **Warning: Because of the addition of extensive kerning, line, paragraph, and page lengths may be different from v6.2.**
 
 - Greek OpenType support is significantly more robust, with better handling of both combining and non-combining diacritics. Macron + diacritic combinations are now supported, as well as some rare epsilon and omicron diacritic combinations. Small caps (both `smcp` and `c2sc`) are supported, with diacritics bring removed.
 
@@ -130,7 +130,7 @@ Gentium family            | Gentium Book family
     - U+013E LATIN SMALL LETTER L WITH CARON
     - U+0165 LATIN SMALL LETTER T WITH CARON
 
-- Revised hooked letters to improve spacing (including kerning) and reduce collisions. Some collisions have been retained to reduce unwanted whitespace within words (e.g. ƴk). 
+- Revised hooked letters to improve spacing (including kerning) and reduce collisions. Some collisions have been retained to reduce unwanted whitespace within words (e.g. ƴk).
     - U+0188 LATIN SMALL LETTER C WITH HOOK
     - U+01A5 LATIN SMALL LETTER P WITH HOOK
     - U+01AD LATIN SMALL LETTER T WITH HOOK
