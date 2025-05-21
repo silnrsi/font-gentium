@@ -1124,19 +1124,22 @@ U+03A3">
       <string>\u00039B\u000329\u0003A0\u000329\u0003A3\u000329</string>
     </test>
     <test label="U+03C7
+U+03C8
 U+03C9">
-      <comment>GrSmChi GrSmOmega</comment>
-      <string>\u0003C7\u000329\u0003C9\u000329</string>
+      <comment>GrSmChi GrSmPsi GrSmOmega</comment>
+      <string>\u0003C7\u000329\u0003C8\u000329\u0003C9\u000329</string>
     </test>
     <test label="U+03C7
+U+03C8
 U+03C9" stylename="smcp_1">
-      <comment>GrSmChi GrSmOmega</comment>
-      <string>\u0003C7\u000329\u0003C9\u000329</string>
+      <comment>GrSmChi GrSmPsi GrSmOmega</comment>
+      <string>\u0003C7\u000329\u0003C8\u000329\u0003C9\u000329</string>
     </test>
     <test label="U+03A7
+U+03A8
 U+03A9">
-      <comment>GrCapChi GrCapOmega</comment>
-      <string>\u0003A7\u000329\u0003A9\u000329</string>
+      <comment>GrCapChi GrCapPsi GrCapOmega</comment>
+      <string>\u0003A7\u000329\u0003A8\u000329\u0003A9\u000329</string>
     </test>
     <test label="U+03F3">
       <comment>GrYot</comment>
