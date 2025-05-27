@@ -24,6 +24,8 @@ echo "     > faq.html"
 pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/faq.md -o documentation/faq.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
 echo "     > features.html"
 pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/features.md -o documentation/features.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
+echo "     > greek.html"
+pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/greek.md -o documentation/greek.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
 echo "     > history.html"
 pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/history.md -o documentation/history.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
 echo "     > resources.html"
@@ -60,6 +62,9 @@ weasyprint documentation/source/pdftemp/faq.html documentation/pdf/faq.pdf
 echo "     > features.html > features.pdf"
 pandoc -s -f markdown-smart --template documentation/source/templatepdf.html documentation/source/features.md -o documentation/source/pdftemp/features.html --lua-filter=documentation/source/pandocfilters/filter-pdf.lua
 weasyprint documentation/source/pdftemp/features.html documentation/pdf/features.pdf
+echo "     > greek.html > greek.pdf"
+pandoc -s -f markdown-smart --template documentation/source/templatepdf.html documentation/source/greek.md -o documentation/source/pdftemp/greek.html --lua-filter=documentation/source/pandocfilters/filter-pdf.lua
+weasyprint documentation/source/pdftemp/greek.html documentation/pdf/greek.pdf
 echo "     > history.html > history.pdf"
 pandoc -s -f markdown-smart --template documentation/source/templatepdf.html documentation/source/history.md -o documentation/source/pdftemp/history.html --lua-filter=documentation/source/pandocfilters/filter-pdf.lua
 weasyprint documentation/source/pdftemp/history.html documentation/pdf/history.pdf
@@ -89,6 +94,8 @@ echo "     > faq.md"
 python3 documentation/source/makepsmd.py documentation/source/faq.md documentation/source/productsite/faq.md -q
 echo "     > features.md"
 python3 documentation/source/makepsmd.py documentation/source/features.md documentation/source/productsite/features.md -q
+echo "     > greek.md"
+python3 documentation/source/makepsmd.py documentation/source/greek.md documentation/source/productsite/greek.md -q
 echo "     > history.md"
 python3 documentation/source/makepsmd.py documentation/source/history.md documentation/source/productsite/history.md -q
 echo "     > resources.md"

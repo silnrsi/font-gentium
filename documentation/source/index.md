@@ -14,6 +14,7 @@ This documentation is a set of HTML pages that can be viewed in any modern web b
 - [Design](design.md) — History and background of the design
 - [Character set support](charset.md) — Details of Unicode characters that are supported
 - [Font features](features.md) — Using smart font features
+- [Greek encoding](greek.md) - How to encode complex Greek diacritic combinations 
 - [Support](support.md) — How to get additional support
 - [Developer information](developer.md) — How to modify and build the fonts
 - [Versions](versions.md) - Sources for alternate versions
