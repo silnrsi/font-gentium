@@ -67,8 +67,8 @@ Gentium now includes support for standard OpenType proportional oldstyle figures
 
 Greek OpenType support is significantly more robust. Small caps (both `smcp` and `c2sc`) are supported, with diacritics bring removed. There is better handling of both combining and non-combining diacritics. Macron + diacritic combinations are now supported, as well as some rare epsilon and omicron diacritic combinations. These require a very specific character order and may not be supported by some applications and keyboards - see [Greek Encoding Details](greek.md).
 
-![Greek improvements](../assets/images/v7greek.png){.fullsize}
-<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/gentium/wp-content/uploads/sites/20/2025/05/v7greek.png -->
+![Greek improvements](../assets/images/v7greekrev.png){.fullsize}
+<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/gentium/wp-content/uploads/sites/20/2025/05/v7greekrev.png -->
 
 ### Capital N Left Hook default changed to lowercase style
 
