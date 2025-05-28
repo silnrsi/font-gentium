@@ -22,6 +22,7 @@ lookup grk_decomp_sub {
 
 lookup grk_recomp_sub {
   lookupflag 0;
+    sub GrSmEpsilonWDasia CombGrPeris by GrSmEpsilonWDasiaPeris;
     sub GrCapAlpha CombRevCommaAbv by GrCapAlphaWDasia;
     sub GrCapAlpha CombRevCommaAbv CombAcute by GrCapAlphaWDasiaOxia;
     sub GrCapAlpha CombRevCommaAbv CombAcute CombGrYpo by GrCapAlphaWDasiaOxiaPros;
