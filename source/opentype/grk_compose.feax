@@ -8,16 +8,16 @@
 
 lookup grk_decomp_sub {
   lookupflag 0;
-    sub GrCapAlphaWMacron by GrCapAlpha CombMacron;
-    sub GrCapIotaWMacron by GrCapIota CombMacron;
-    sub GrCapUpsilonWMacron by GrCapUpsilon CombMacron;
-    sub GrSmAlphaWMacron by GrSmAlpha CombMacron;
-    sub GrSmIotaWMacron by GrSmIota CombMacron;
-    sub GrSmUpsilonWMacron by GrSmUpsilon CombMacron;
-    sub GrSmEpsilonWDasia by GrSmEpsilon CombRevCommaAbv;
-    sub GrSmEpsilonWPsili by GrSmEpsilon CombCommaAbv;
-    sub GrSmOmicronWDasia by GrSmOmicron CombRevCommaAbv;
-    sub GrSmOmicronWPsili by GrSmOmicron CombCommaAbv;
+    # sub GrCapAlphaWMacron by GrCapAlpha CombMacron;
+    # sub GrCapIotaWMacron by GrCapIota CombMacron;
+    # sub GrCapUpsilonWMacron by GrCapUpsilon CombMacron;
+    # sub GrSmAlphaWMacron by GrSmAlpha CombMacron;
+    # sub GrSmIotaWMacron by GrSmIota CombMacron;
+    # sub GrSmUpsilonWMacron by GrSmUpsilon CombMacron;
+    # sub GrSmEpsilonWDasia by GrSmEpsilon CombRevCommaAbv;
+    # sub GrSmEpsilonWPsili by GrSmEpsilon CombCommaAbv;
+    # sub GrSmOmicronWDasia by GrSmOmicron CombRevCommaAbv;
+    # sub GrSmOmicronWPsili by GrSmOmicron CombCommaAbv;
 } grk_decomp_sub;
 
 lookup grk_recomp_sub {
