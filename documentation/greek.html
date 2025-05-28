@@ -16,7 +16,7 @@
     </header>
     <p>Common ancient Greek letter+diacritic combinations have been
     supported in Gentium since its first release. Version 7 extends this
-    support to less common and even very rare combinations with much
+    support to less-common and even very rare combinations with much
     more robust OpenType handling.</p>
     <p>Most OS and application environments handle common combinations
     well, as the text often uses the large set of precomposed character
@@ -28,11 +28,11 @@
     see section 2.11 of <a
     href="https://www.unicode.org/versions/Unicode15.0.0/ch02.pdf">The
     Unicode Standard</a>.</p>
-    <p>Each cluster consists of a base letter followed by one or more
-    diacritics and an optional iota, and must be in the following order.
-    Note that this is not necessarily the order in which they are
-    commonly written from left to right, especially in the case of
-    capitals.</p>
+    <h3 id="required-order">Required order</h3>
+    <p>Each cluster must consist of a base letter followed by one or
+    more diacritics and an optional iota. The order is important and is
+    not necessarily the order in which they are commonly written from
+    left to right, especially in the case of capitals.</p>
     <blockquote>
     <p>base + [length] + [breathing|diaeresis] + [accent] + [circ] +
     [iota]</p>
@@ -62,7 +62,7 @@
     AND OXIA with the sequence U+1F00 GREEK SMALL LETTER ALPHA WITH
     PSILI + U+0301 COMBINING ACUTE ACCENT. This may work in some
     environments but not others.</p>
-    <p>Gentium version 7 does, however, provide specific support to
+    <p>Gentium version 7 does, however, provide specific support for
     hybrid precomposed+diacritic combinations that include U+0304
     COMBINING MACRON. This increases the likelihood that these
     combinations will render properly:</p>
@@ -75,15 +75,18 @@
     REVERSED COMMA ABOVE + U+0301 COMBINING ACUTE</p>
     <p>We still strongly recommend using the normal decomposed sequence
     for this cluster:</p>
-    <p>U+13B9 GREEK SMALL LETTER IOTA + U+0304 COMBINING MACRON + U+0314
+    <p>U+03B9 GREEK SMALL LETTER IOTA + U+0304 COMBINING MACRON + U+0314
     COMBINING REVERSED COMMA ABOVE + U+0301 COMBINING ACUTE</p>
+    <h3 id="keyboard-and-application-support">Keyboard and application
+    support</h3>
     <p>Properly encoding and rendering complex sequences depends on many
     factors: the software keyboard that turns keystrokes into
-    characters, internal operating systems routines that handle Unicode
+    characters, internal operating system routines that handle Unicode
     composition and decomposition, OpenType rules in the font, and the
     rendering engine used by the application. If a sequence is not
-    rendering well the problem could be with any one or more of these
-    factors. Contact us if you have problems, and tell us details of the
+    rendering well, the problem could be with any one or more of these
+    factors.</p>
+    <p>Contact us if you have problems, and tell us details of the
     operating system, application, keyboard, and font version. Please
     also include the exact character sequence you're using and a
     screenshot of the problem.</p>

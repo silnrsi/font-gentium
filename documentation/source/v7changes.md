@@ -5,13 +5,13 @@ fontversion: 7.000
 
 ## New major release
 
-Gentium version 7 is a major release with many new additions, enhancements, and improvements. This is a summary of the most notable changes and what you need to know if you have been using earlier versions. **Please read this carefully to understand the major changes.** For further details on these changes, particularly regarding individual characters, see [Version history](history.md).
+Gentium version 7 is a major release with many new additions, enhancements, and improvements. This is a summary of the most notable changes and what you need to know if you have been using earlier versions. **Please read this carefully to understand the major changes.** For further details on these changes, particularly regarding individual characters, see [Version History](history.md).
 
 ## Family names and structure
 
 ### Font family names have changed
 
-Since the changes to both line metrics and spacing are so extensive we have changed the names of the fonts for version 7.
+Since the changes to both line metrics and spacing are so extensive, we have changed the names of the fonts for version 7.
 
 - *Gentium Plus* is now *Gentium*
 - *Gentium Book Plus* is now *Gentium Book*
@@ -43,13 +43,13 @@ TypeTuner Web no longer offers line spacing alternatives for the v7 fonts (Norma
 
 In previous versions, special-purpose modified font variants were available that had been ‘pre-tuned’ to turn on certain features by default for some regional and *Literacy* uses. These are not available for the v7 fonts, however, the [v6.2 special-purpose fonts are still available](https://software.sil.org/lcgfonts/download/). **If you need any of the new features or characters in this version, but also need them supported in the special-purpose modified fonts please [contact us](https://software.sil.org/gentium/about/contact/).**
 
-Note that even in version 7 the literacy forms and other features can be manually preset with TypeTuner Web. The only change to this is that the 'pre-tuned' versions (only) remain at version 6.2.  
+Note that even in version 7 the literacy forms and other features can be manually preset with [TypeTuner Web](https://typetunerweb.languagetechnology.org/ttw/fonts2go.cgi). The only change to this is that the 'pre-tuned' versions remain at version 6.2.  
 
 ## New features and character support
 
 ### Greatly enhanced kerning
 
-Kerning has now been expanded to cover the full range of alphabetic symbols except for small caps (which will be included in a future update). To make this practically useful for a wide range of languages the letters have been clustered into overly generalized groups. This enables the kerning to apply to more combinations, but does not allow for careful fine-tuning. The expanded kerning may not be ideal in all cases, and may still require manual adjustment, but it should provide improved spacing compared with previous versions. It is very possible that we have made some mistakes in this massive kerning effort, so please [contact us](https://software.sil.org/gentium/about/contact/) if you encounter any combinations whose spacing has been made worse than in v6.2.
+Kerning has now been expanded to cover the full range of alphabetic symbols except for small caps (which will be included in a future update). To make this practically useful for a wide range of languages, the letters have been clustered into overly generalized groups. This enables the kerning to apply to more combinations, but does not allow for careful fine-tuning. The expanded kerning may not be ideal in all cases, and may still require manual adjustment, but it should provide improved spacing compared with previous versions. It is very possible that we have made some mistakes in this massive kerning effort, so please [contact us](https://software.sil.org/gentium/about/contact/) if you encounter any combinations whose spacing has been made worse than in v6.2.
 
 **Warning: Because of the addition of extensive kerning, line, paragraph, and page lengths may be different from v6.2.**
 
@@ -65,7 +65,7 @@ Gentium now includes support for standard OpenType proportional oldstyle figures
 
 ### Greek improvements
 
-Greek OpenType support is significantly more robust, with better handling of both combining and non-combining diacritics. Macron + diacritic combinations are now supported, as well as some rare epsilon and omicron diacritic combinations (see [Greek Encoding Details](greek.md)). Small caps (both `smcp` and `c2sc`) are supported, with diacritics bring removed.
+Greek OpenType support is significantly more robust. Small caps (both `smcp` and `c2sc`) are supported, with diacritics bring removed. There is better handling of both combining and non-combining diacritics. Macron + diacritic combinations are now supported, as well as some rare epsilon and omicron diacritic combinations. These require a very specific character order and may not be supported by some applications and keyboards - see [Greek Encoding Details](greek.md).
 
 ![Greek improvements](../assets/images/v7greek.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/gentium/wp-content/uploads/sites/20/2025/05/v7greek.png -->
@@ -76,7 +76,7 @@ The default form for capital N with left hook has been changed to the lowercase 
 
 ### Additional character support including Unicode 16
 
-Support has been added for 29 additional characters, some of which were introduced in Unicode 16. For a full list see [Version history](history.md).
+Support has been added for 29 additional characters, some of which were introduced in Unicode 16. For a full list see [Version History](history.md).
 
 ## Consistent autohinting
 
@@ -95,9 +95,9 @@ Other improvements have been made to over 150 glyphs, OpenType code, and other f
 - Central European carons have improved designs and kerning.
 - Bridging diacritics handle many more possible combinations. See [Using Bridging Diacritics](https://software.sil.org/fonts/bridging-diacritics/) for details on how these need to be encoded and ordered.
 - Low-profile diacritics are used for capitals for Cyrillic as well as Latin.
-- Small caps apply to bracketing punctuation.
+- The small caps feature now affects parentheses and brackets.
 
-For more details see [Version history](history.md).
+For more details see [Version History](history.md).
 
 If you have any difficulty with these changes, or have other suggestions on how we can make the fonts better, please [contact us](https://software.sil.org/gentium/about/contact/).
 
