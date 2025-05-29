@@ -7,12 +7,14 @@
     <fontsrc label="GBkR">url(../results/GentiumBook-Regular.ttf)</fontsrc>
     <fontsrc label="GB">url(../results/Gentium-Bold.ttf)</fontsrc>
     <fontsrc label="GBkB">url(../results/GentiumBook-Bold.ttf)</fontsrc>
+    <fontsrc label="GRv6">url(../references/v6200/GentiumPlus-Regular.ttf)</fontsrc>
+    <fontsrc label="GBkBv6">url(../references/v6200/GentiumBookPlus-Bold.ttf)</fontsrc>
     <fontsrc label="GI">url(../results/Gentium-Italic.ttf)</fontsrc>
     <fontsrc label="GBkI">url(../results/GentiumBook-Italic.ttf)</fontsrc>
     <fontsrc label="GBI">url(../results/Gentium-BoldItalic.ttf)</fontsrc>
     <fontsrc label="GBkBI">url(../results/GentiumBook-BoldItalic.ttf)</fontsrc>
-    <fontsrc label="GRv6">url(../references/v6101/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="GIv6">url(../references/v6101/GentiumPlus-Italic.ttf)</fontsrc>
+    <fontsrc label="GIv6">url(../references/v6200/GentiumPlus-Italic.ttf)</fontsrc>
+    <fontsrc label="GBkBIv6">url(../references/v6200/GentiumBookPlus-BoldItalic.ttf)</fontsrc>
     <title>Language Combos</title>
   </head>
   <testgroup label="Common base diacritic combos">
