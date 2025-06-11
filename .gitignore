@@ -20,6 +20,12 @@ documentation/source/productsite/
 web/*.woff*
 web_book/*.woff*
 
+# temporary doc image sources
+documentation/assets/images/*.indd
+documentation/assets/images/*.pdf
+documentation/assets/images/*.psd
+documentation/assets/images/*.rtf
+
 # temporary interpolation test folder
 variable_ttf/
 
