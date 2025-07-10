@@ -3223,6 +3223,8 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>LtnRevGlottalStop</string>
     <string>ModRevGlottalStop</string>
     <string>ModSmRevGlottalStop</string>
+    <string>LtnSmRevGlottalStop</string>
+    <string>LtnCapRevGlottalStop</string>
     <string>LtnRevGlottalStopStrk</string>
     <string>ModRevGlottalStopStrk</string>
     <string>LtnInvGlottalStop</string>
@@ -9801,6 +9803,8 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>uni018E</string>
     <key>LtnCapRevF</key>
     <string>uniA7FB</string>
+    <key>LtnCapRevGlottalStop</key>
+    <string>uniA7CE</string>
     <key>LtnCapRevOpnE</key>
     <string>uniA7AB</string>
     <key>LtnCapRevP</key>
@@ -12791,6 +12795,8 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>uni01DD.sc</string>
     <key>LtnSmRevEng</key>
     <string>u1DF07</string>
+    <key>LtnSmRevGlottalStop</key>
+    <string>uniA7CF</string>
     <key>LtnSmRevK</key>
     <string>u1DF03</string>
     <key>LtnSmRevOpnE</key>

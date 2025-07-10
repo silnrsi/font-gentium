@@ -784,6 +784,7 @@ x/LtnSmLTrnd/LtnSmTrndI/LtnSmLDotBlw n/ModSmTurnedH/ModSmX/ModSmTrndI st/SupplDo
 ´/ModAcuteAccent/AcuteAccent.LP/ModAcuteAccent.LP/ModLowAcuteAccent/Space `/ModGraveAccent/GraveAccent.LP/ModGraveAccent.LP/ModLowGraveAccent/Space/Space/CombAcute/Space/CombAcute.LP/Space/CombGrave/Space/CombGrave.LP 
 x/SglHighRev9QuotMrk x/ModTurnedComma x/ModTurnedComma.Lrg x/ModRevComma x/ModRevComma.Lrg x/ModApos x/ModApos.Lrg x/DblHighRev9QuotMrk x/ModDblApos x
 x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lrg</string>
+    <string>/LtnCapGlottalStop/LtnRevGlottalStop f/LtnSmRevGlottalStop NO/LtnCapRevGlottalStop/LtnSmGlottalStop no</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -3213,6 +3214,8 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>LtnRevGlottalStop</string>
     <string>ModRevGlottalStop</string>
     <string>ModSmRevGlottalStop</string>
+    <string>LtnSmRevGlottalStop</string>
+    <string>LtnCapRevGlottalStop</string>
     <string>LtnRevGlottalStopStrk</string>
     <string>ModRevGlottalStopStrk</string>
     <string>LtnInvGlottalStop</string>
@@ -9791,6 +9794,8 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>uni018E</string>
     <key>LtnCapRevF</key>
     <string>uniA7FB</string>
+    <key>LtnCapRevGlottalStop</key>
+    <string>uniA7CE</string>
     <key>LtnCapRevOpnE</key>
     <string>uniA7AB</string>
     <key>LtnCapRevP</key>
@@ -12781,6 +12786,8 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>uni01DD.sc</string>
     <key>LtnSmRevEng</key>
     <string>u1DF07</string>
+    <key>LtnSmRevGlottalStop</key>
+    <string>uniA7CF</string>
     <key>LtnSmRevK</key>
     <string>u1DF03</string>
     <key>LtnSmRevOpnE</key>
