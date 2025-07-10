@@ -4,40 +4,6 @@
   <anchor x="-309" y="1520" name="U"/>
   <anchor x="-385" y="1000" name="_U"/>
   <outline>
-    <contour>
-      <point x="-6" y="1320" type="curve"/>
-      <point x="-11" y="1330"/>
-      <point x="-58" y="1370"/>
-      <point x="-78" y="1376" type="curve"/>
-      <point x="-131" y="1253"/>
-      <point x="-177" y="1216"/>
-      <point x="-214" y="1216" type="curve" smooth="yes"/>
-      <point x="-255" y="1216"/>
-      <point x="-283" y="1273"/>
-      <point x="-285" y="1381" type="curve"/>
-      <point x="-294" y="1382"/>
-      <point x="-361" y="1383"/>
-      <point x="-369" y="1381" type="curve"/>
-      <point x="-402" y="1283"/>
-      <point x="-449" y="1216"/>
-      <point x="-491" y="1216" type="curve" smooth="yes"/>
-      <point x="-522" y="1216"/>
-      <point x="-552" y="1253"/>
-      <point x="-561" y="1376" type="curve"/>
-      <point x="-581" y="1370"/>
-      <point x="-649" y="1330"/>
-      <point x="-658" y="1320" type="curve"/>
-      <point x="-656" y="1155"/>
-      <point x="-605" y="1028"/>
-      <point x="-515" y="1028" type="curve" smooth="yes"/>
-      <point x="-461" y="1028"/>
-      <point x="-400" y="1070"/>
-      <point x="-360" y="1140" type="curve"/>
-      <point x="-339" y="1070"/>
-      <point x="-297" y="1028"/>
-      <point x="-250" y="1028" type="curve" smooth="yes"/>
-      <point x="-155" y="1028"/>
-      <point x="-66" y="1145"/>
-    </contour>
+    <component base="CombInvDblArchBlw" xOffset="194" yOffset="1518"/>
   </outline>
 </glyph>
