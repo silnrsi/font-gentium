@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmRevGlottalStop" format="2">
-  <advance width="950"/>
+  <advance width="945"/>
   <unicode hex="A7CF"/>
-  <anchor x="465" y="-100" name="L"/>
-  <anchor x="465" y="1690" name="U"/>
+  <anchor x="475" y="-100" name="L"/>
+  <anchor x="475" y="1050" name="U"/>
   <outline>
-    <component base="LtnRevGlottalStop"/>
+    <contour>
+      <point x="180" y="0" type="line"/>
+      <point x="770" y="0" type="line"/>
+      <point x="770" y="83" type="line"/>
+      <point x="655" y="103"/>
+      <point x="610" y="122"/>
+      <point x="610" y="144" type="curve" smooth="yes"/>
+      <point x="610" y="316" type="line" smooth="yes"/>
+      <point x="610" y="535"/>
+      <point x="350" y="540"/>
+      <point x="350" y="690" type="curve" smooth="yes"/>
+      <point x="350" y="784"/>
+      <point x="403" y="835"/>
+      <point x="479" y="835" type="curve" smooth="yes"/>
+      <point x="582" y="835"/>
+      <point x="618" y="767"/>
+      <point x="623" y="637" type="curve"/>
+      <point x="698" y="628"/>
+      <point x="873" y="688"/>
+      <point x="900" y="730" type="curve"/>
+      <point x="892" y="853"/>
+      <point x="788" y="960"/>
+      <point x="518" y="960" type="curve" smooth="yes"/>
+      <point x="292" y="960"/>
+      <point x="80" y="832"/>
+      <point x="80" y="625" type="curve" smooth="yes"/>
+      <point x="80" y="458"/>
+      <point x="340" y="398"/>
+      <point x="340" y="283" type="curve" smooth="yes"/>
+      <point x="340" y="144" type="line" smooth="yes"/>
+      <point x="340" y="124"/>
+      <point x="289" y="101"/>
+      <point x="180" y="83" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>
