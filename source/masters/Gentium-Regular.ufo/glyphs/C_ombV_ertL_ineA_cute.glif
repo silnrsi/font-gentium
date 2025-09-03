@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombVertLineAcute" format="2">
+  <unicode hex="1AD0"/>
+  <anchor x="-543" y="1410" name="U"/>
+  <anchor x="-543" y="1050" name="_U"/>
+  <outline>
+    <component base="CombVertLineAbv"/>
+    <component base="CombAcute"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>
