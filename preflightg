@@ -5,6 +5,12 @@ psfglyphs2ufo --preservefea source/masters/GentiumRoman.glyphs source/masters  &
 psfglyphs2ufo --preservefea source/masters/GentiumItalic.glyphs source/masters &
 wait
 
+echo "-----Fix spacing combining marks..."
+psfremovegliflibkeys source/masters/Gentium-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth
+psfremovegliflibkeys source/masters/Gentium-ExtraBold.ufo com.schriftgestaltung.Glyphs.originalWidth
+psfremovegliflibkeys source/masters/Gentium-Italic.ufo com.schriftgestaltung.Glyphs.originalWidth
+psfremovegliflibkeys source/masters/Gentium-ExtraBoldItalic.ufo com.schriftgestaltung.Glyphs.originalWidth
+
 echo "-----Normalizing Regular UFO..."
 echo "-----Updating production names in Regular..."
 psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/Gentium-Regular.ufo -x
