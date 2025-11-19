@@ -104,4 +104,41 @@ echo "     > support.md"
 python3 documentation/source/makepsmd.py documentation/source/support.md documentation/source/productsite/support.md -q
 echo "     Markdown source for other pages is in separate repo"
 
+echo "     >>> PRODUCT SITE WP HTML (documentation/source/productsite/)"
+
+echo "     > about.wphtml"
+pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/about.html -L documentation/source/pandocfilters/filter-wp.lua documentation/source/productsite/about.md
+python3 documentation/source/makepshtml.py documentation/source/productsite/about.html documentation/source/productsite/about.wphtml -q
+echo "     > v7changes.wphtml"
+pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/v7changes.html -L documentation/source/pandocfilters/filter-wp.lua documentation/source/productsite/v7changes.md
+python3 documentation/source/makepshtml.py documentation/source/productsite/v7changes.html documentation/source/productsite/v7changes.wphtml -q
+echo "     > charset.wphtml"
+pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/charset.html -L documentation/source/pandocfilters/filter-wp.lua documentation/source/productsite/charset.md
+python3 documentation/source/makepshtml.py documentation/source/productsite/charset.html documentation/source/productsite/charset.wphtml -q
+echo "     > design.wphtml"
+pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/design.html -L documentation/source/pandocfilters/filter-wp.lua documentation/source/productsite/design.md
+python3 documentation/source/makepshtml.py documentation/source/productsite/design.html documentation/source/productsite/design.wphtml -q
+echo "     > developer.wphtml"
+pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/developer.html -L documentation/source/pandocfilters/filter-wp.lua documentation/source/productsite/developer.md
+python3 documentation/source/makepshtml.py documentation/source/productsite/developer.html documentation/source/productsite/developer.wphtml -q
+echo "     > faq.wphtml"
+pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/faq.html -L documentation/source/pandocfilters/filter-wp.lua documentation/source/productsite/faq.md
+python3 documentation/source/makepshtml.py documentation/source/productsite/faq.html documentation/source/productsite/faq.wphtml -q
+echo "     > features.wphtml"
+pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/features.html -L documentation/source/pandocfilters/filter-wp.lua documentation/source/productsite/features.md
+python3 documentation/source/makepshtml.py documentation/source/productsite/features.html documentation/source/productsite/features.wphtml -q
+echo "     > greek.wphtml"
+pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/greek.html -L documentation/source/pandocfilters/filter-wp.lua documentation/source/productsite/greek.md
+python3 documentation/source/makepshtml.py documentation/source/productsite/greek.html documentation/source/productsite/greek.wphtml -q
+echo "     > history.wphtml"
+pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/history.html -L documentation/source/pandocfilters/filter-wp.lua documentation/source/productsite/history.md
+python3 documentation/source/makepshtml.py documentation/source/productsite/history.html documentation/source/productsite/history.wphtml -q
+echo "     > resources.wphtml"
+pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/resources.html -L documentation/source/pandocfilters/filter-wp.lua documentation/source/productsite/resources.md
+python3 documentation/source/makepshtml.py documentation/source/productsite/resources.html documentation/source/productsite/resources.wphtml -q
+echo "     > support.wphtml"
+pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/support.html -L documentation/source/pandocfilters/filter-wp.lua documentation/source/productsite/support.md
+python3 documentation/source/makepshtml.py documentation/source/productsite/support.html documentation/source/productsite/support.wphtml -q
+echo "     WP HTML source for other pages is in separate repo"
+
 echo "-----Completed!"
