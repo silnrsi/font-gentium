@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 '''Create composite definitions for complex Greek composites.'''
 __url__ = 'https://github.com/silnrsi/font-gentium'
-__copyright__ = 'Copyright (c) 2021-2025 SIL Global (https://www.sil.org)'
+__copyright__ = 'Copyright (c) 2021-2026 SIL Global (https://www.sil.org)'
 __license__ = 'Released under the MIT License (https://opensource.org/licenses/MIT)'
 __author__ = 'Victor Gaultney'
 
