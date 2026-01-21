@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="GrCapUpsilonWPsiliOxia" format="2">
-  <advance width="2131"/>
-  <anchor x="1474" y="1370" name="U"/>
+  <advance width="2134"/>
+  <anchor x="1477" y="1370" name="U"/>
   <outline>
-    <component base="GrCapUpsilon" xOffset="844"/>
-    <component base="GrDasiaOxia" yOffset="-100"/>
+    <component base="GrCapUpsilon" xOffset="847"/>
+    <component base="GrPsiliOxia" xOffset="3" yOffset="-100"/>
   </outline>
   <lib>
     <dict>
