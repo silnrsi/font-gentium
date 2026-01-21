@@ -718,7 +718,7 @@ Ve/LtnSmLCaron ká/Space Bi/LtnSmLCaron ak/Space podnikate/LtnSmLCaron ]
 /LtnCapLCaron A/Space/LtnCapLCaron B/Space/LtnCapLCaron/LtnCapCCaron/Space/LtnCapLCaron G/Space/LtnCapLCaron H/Space/LtnCapLCaron K/Space/LtnCapLCaron M/Space/LtnCapLCaron N/Space/LtnCapLCaron/LtnCapNCaron 
 /LtnCapLCaron O/Space/LtnCapLCaron S/Space/LtnCapLCaron/LtnCapSCaron/Space/LtnCapLCaron T/Space/LtnCapLCaron U/Space/LtnCapLCaron Ú/Space/LtnCapLCaron VALVELT
 /LtnCapLCaron ahko</string>
-    <string>ôöõÖÕÔf/LtnSmF.SItal/LtnSmFDotAbv/LtnSmFDotAbv.SItal/LtnSmFPalHook/LtnSmFMiddleTilde/LtnSmFHookStrk l/LtnSmLDotBlwMacron/Space i/LtnSmI.SItal/SmRomNumOne/LtnSmIRetrHook/LtnSmIStrk/LtnSmIStrkRetrHook/Space j/LtnSmJStrk/LtnSmJCrossedTail 
+    <string>ôöõÖÕÔf/LtnSmF.SItal/LtnSmFDotAbv/LtnSmFDotAbv.SItal/LtnSmFPalHook/LtnSmFMiddleTilde/LtnSmFStrk l/LtnSmLDotBlwMacron/Space i/LtnSmI.SItal/SmRomNumOne/LtnSmIRetrHook/LtnSmIStrk/LtnSmIStrkRetrHook/Space j/LtnSmJStrk/LtnSmJCrossedTail 
 o/CombDblInvBreveBlw oo/CombDblBreveBlw oo/CombDblMacronBlw oo/CombDblRtArrwBlw oo/CombDblInvBreve oo/CombDblBreve oo/CombDblCircum oo/CombDblTilde oo/CombDblMacron oo/CombDblDiaer o
 g/CombDblInvBreveBlw gg/CombDblBreveBlw gg/CombDblMacronBlw gg/CombDblRtArrwBlw g/Space f/CombDblInvBreve f/Space f/CombDblBreve f/Space f/CombDblCircum f/Space f/CombDblTilde f/Space f/CombDblMacron f/Space f/CombDblDiaer f
 O/CombDblInvBreve OO/CombDblBreve OO/CombDblCircum OO/CombDblTilde OO/CombDblMacron OO/CombDblDiaer O
@@ -1810,7 +1810,7 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>LtnSmFDotAbv.SItal</string>
     <string>LtnSmFPalHook</string>
     <string>LtnSmFMiddleTilde</string>
-    <string>LtnSmFHookStrk</string>
+    <string>LtnSmFStrk</string>
     <string>LtnLigSmFSmI</string>
     <string>LtnLigSmFSmI.SItal</string>
     <string>LtnLigSmFSmL</string>
@@ -1853,7 +1853,7 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>LtnCapFDotAbv</string>
     <string>FrenchFrancSgn</string>
     <string>LtnCapFHook</string>
-    <string>LtnCapFHookStrk</string>
+    <string>LtnCapFStrk</string>
     <string>LtnCapRevF</string>
     <string>CyCapGhe</string>
     <string>GrCapGamma</string>
@@ -5105,7 +5105,7 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>LtnSmF.sc</string>
     <string>LtnSmFDotAbv.sc</string>
     <string>LtnSmFHook.sc</string>
-    <string>LtnSmFHookStrk.sc</string>
+    <string>LtnSmFStrk.sc</string>
     <string>LtnLigSmFSmI.sc</string>
     <string>LtnLigSmFSmI.SItal.sc</string>
     <string>LtnLigSmFSmL.sc</string>
@@ -9437,7 +9437,7 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>uni1E1E</string>
     <key>LtnCapFHook</key>
     <string>uni0191</string>
-    <key>LtnCapFHookStrk</key>
+    <key>LtnCapFStrk</key>
     <string>uniA798</string>
     <key>LtnCapG</key>
     <string>G</string>
@@ -11593,10 +11593,6 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>florin</string>
     <key>LtnSmFHook.sc</key>
     <string>florin.sc</string>
-    <key>LtnSmFHookStrk</key>
-    <string>uniA799</string>
-    <key>LtnSmFHookStrk.sc</key>
-    <string>uniA799.sc</string>
     <key>LtnSmFMiddleTilde</key>
     <string>uni1D6E</string>
     <key>LtnSmFMiddleTildeDep</key>
@@ -11605,6 +11601,10 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>uni1D82</string>
     <key>LtnSmFPalHookDep</key>
     <string>uniF227</string>
+    <key>LtnSmFStrk</key>
+    <string>uniA799</string>
+    <key>LtnSmFStrk.sc</key>
+    <string>uniA799.sc</string>
     <key>LtnSmFengDigraph</key>
     <string>uni02A9</string>
     <key>LtnSmFengDigraphTrill</key>
