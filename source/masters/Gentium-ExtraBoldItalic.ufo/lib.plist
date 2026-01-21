@@ -557,7 +557,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3337</string>
+  <string>3436</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra Italic</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -4815,6 +4815,11 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>GrCapUpsilonWDasiaVaria</string>
     <string>GrCapUpsilonWDasiaPeris</string>
     <string>GrCapUpsilonWDasiaPeris.Por</string>
+    <string>GrCapUpsilonWPsili</string>
+    <string>GrCapUpsilonWPsiliOxia</string>
+    <string>GrCapUpsilonWPsiliVaria</string>
+    <string>GrCapUpsilonWPsiliPeris</string>
+    <string>GrCapUpsilonWPsiliPeris.Por</string>
     <string>GrCapUpsilonWDial</string>
     <string>GrCapUpsilonWMacronOxia</string>
     <string>GrCapUpsilonWMacronVaria</string>
@@ -8273,6 +8278,16 @@ x/CombTrndCommaAbv x/CombTrndCommaAbv.Lrg x/CombRevCommaAbv x/CombRevCommaAbv.Lr
     <string>uni03A503040300</string>
     <key>GrCapUpsilonWOxia</key>
     <string>uni1FEB</string>
+    <key>GrCapUpsilonWPsili</key>
+    <string>uni03A50313</string>
+    <key>GrCapUpsilonWPsiliOxia</key>
+    <string>uni03A503130301</string>
+    <key>GrCapUpsilonWPsiliPeris</key>
+    <string>uni03A503130342</string>
+    <key>GrCapUpsilonWPsiliPeris.Por</key>
+    <string>uni03A503130342.Por</string>
+    <key>GrCapUpsilonWPsiliVaria</key>
+    <string>uni03A503130300</string>
     <key>GrCapUpsilonWTonos</key>
     <string>Upsilontonos</string>
     <key>GrCapUpsilonWVaria</key>
