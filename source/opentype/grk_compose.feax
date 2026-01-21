@@ -142,6 +142,10 @@ lookup grk_recomp_sub {
     sub GrCapUpsilon CombMacron CombAcute by GrCapUpsilonWMacronOxia;
     sub GrCapUpsilon CombMacron CombGrave by GrCapUpsilonWMacronVaria;
     sub GrCapUpsilon CombAcute by GrCapUpsilonWOxia;
+    sub GrCapUpsilon CombCommaAbv by GrCapUpsilonWPsili;
+    sub GrCapUpsilon CombCommaAbv CombAcute by GrCapUpsilonWPsiliOxia;
+    sub GrCapUpsilon CombCommaAbv CombGrave by GrCapUpsilonWPsiliVaria;
+    sub GrCapUpsilon CombCommaAbv CombGrPeris by GrCapUpsilonWPsiliPeris;
     sub GrCapUpsilon CombGrave by GrCapUpsilonWVaria;
     sub GrCapUpsilon CombBreve by GrCapUpsilonWVrachy;
     sub GrSmAlpha CombRevCommaAbv by GrSmAlphaWDasia;
@@ -673,6 +677,10 @@ lookup grk_sc2_sub { # TODO: perhaps remove rules that are reduntant with common
     sub GrCapUpsilonWMacronOxia by GrSmUpsilon.sc;
     sub GrCapUpsilonWMacronVaria by GrSmUpsilon.sc;
     sub GrCapUpsilonWOxia by GrSmUpsilon.sc;
+    sub GrCapUpsilonWPsili by GrSmUpsilon.sc;
+    sub GrCapUpsilonWPsiliOxia by GrSmUpsilon.sc;
+    sub GrCapUpsilonWPsiliPeris by GrSmUpsilon.sc;
+    sub GrCapUpsilonWPsiliVaria by GrSmUpsilon.sc;
     sub GrCapUpsilonWTonos by GrSmUpsilon.sc;
     sub GrCapUpsilonWVaria by GrSmUpsilon.sc;
     sub GrCapUpsilonWVrachy by GrSmUpsilon.sc;
