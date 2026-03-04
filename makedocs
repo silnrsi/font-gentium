@@ -141,4 +141,8 @@ pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/sup
 python3 documentation/source/makepshtml.py documentation/source/productsite/support.html documentation/source/productsite/support.wphtml -q
 echo "     WP HTML source for other pages is in separate repo"
 
+echo "     >>> SAMPLE FONT IMAGES (documentation/assets/images/)"
+
+python3 documentation/source/makesampleimages.py results/Gentium-Regular.ttf documentation/assets/images --base "Gentium-R" --sizes "S,M,L"
+
 echo "-----Completed!"
