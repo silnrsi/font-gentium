@@ -13,8 +13,8 @@
     <fontsrc label="GSI">url(../results/Gentium-SemiBoldItalic.ttf)</fontsrc>
     <fontsrc label="GBkBI">url(../results/GentiumBook-BoldItalic.ttf)</fontsrc>
     <fontsrc label="GBI">url(../results/Gentium-BoldItalic.ttf)</fontsrc>
-    <fontsrc label="GRv6">url(../references/v6200/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="GIv6">url(../references/v6200/GentiumPlus-Italic.ttf)</fontsrc>
+    <fontsrc label="GRv7">url(../references/v7000/Gentium-Regular.ttf)</fontsrc>
+    <fontsrc label="GIv7">url(../references/v7000/Gentium-Italic.ttf)</fontsrc>
     <styles>
       <style feats="'c2sc' 1" name="c2sc_1"/>
       <style feats="'smcp' 1" name="smcp_1"/>
@@ -2496,7 +2496,7 @@ U+A7A1
 U+A7A3
 U+A7A5
 U+A7A7">
-      <comment>LtnSmCBar LtnSmCPalHook LtnSmBLftMidHook LtnSmFHookStrk LtnSmGDiagStrk LtnSmKDiagStrk LtnSmNDiagStrk LtnSmRDiagStrk</comment>
+      <comment>LtnSmCBar LtnSmCPalHook LtnSmBLftMidHook LtnSmFStrk LtnSmGDiagStrk LtnSmKDiagStrk LtnSmNDiagStrk LtnSmRDiagStrk</comment>
       <string>\u00A793\u00030D\u00A794\u00030D\u00A797\u00030D\u00A799\u00030D\u00A7A1\u00030D\u00A7A3\u00030D\u00A7A5\u00030D\u00A7A7\u00030D</string>
     </test>
     <test label="U+A793
@@ -2507,7 +2507,7 @@ U+A7A1
 U+A7A3
 U+A7A5
 U+A7A7" stylename="smcp_1">
-      <comment>LtnSmCBar LtnSmCPalHook LtnSmBLftMidHook LtnSmFHookStrk LtnSmGDiagStrk LtnSmKDiagStrk LtnSmNDiagStrk LtnSmRDiagStrk</comment>
+      <comment>LtnSmCBar LtnSmCPalHook LtnSmBLftMidHook LtnSmFStrk LtnSmGDiagStrk LtnSmKDiagStrk LtnSmNDiagStrk LtnSmRDiagStrk</comment>
       <string>\u00A793\u00030D\u00A794\u00030D\u00A797\u00030D\u00A799\u00030D\u00A7A1\u00030D\u00A7A3\u00030D\u00A7A5\u00030D\u00A7A7\u00030D</string>
     </test>
     <test label="U+A792
@@ -2518,7 +2518,7 @@ U+A7A0
 U+A7A2
 U+A7A4
 U+A7A6">
-      <comment>LtnCapCBar LtnCapCPalHook LtnCapBLftMidHook LtnCapFHookStrk LtnCapGDiagStrk LtnCapKDiagStrk LtnCapNDiagStrk LtnCapRDiagStrk</comment>
+      <comment>LtnCapCBar LtnCapCPalHook LtnCapBLftMidHook LtnCapFStrk LtnCapGDiagStrk LtnCapKDiagStrk LtnCapNDiagStrk LtnCapRDiagStrk</comment>
       <string>\u00A792\u00030D\u00A7C4\u00030D\u00A796\u00030D\u00A798\u00030D\u00A7A0\u00030D\u00A7A2\u00030D\u00A7A4\u00030D\u00A7A6\u00030D</string>
     </test>
     <test label="U+A7A9
@@ -4144,7 +4144,7 @@ U+A792
 U+A796
 U+A798
 U+A7A0">
-      <comment>LtnCapInsularT LtnCapSaltillo LtnCapTurnedH LtnCapNDesc LtnCapCBar LtnCapBLftMidHook LtnCapFHookStrk LtnCapGDiagStrk</comment>
+      <comment>LtnCapInsularT LtnCapSaltillo LtnCapTurnedH LtnCapNDesc LtnCapCBar LtnCapBLftMidHook LtnCapFStrk LtnCapGDiagStrk</comment>
       <string>\u00A786\u00030D\u00A78B\u00030D\u00A78D\u00030D\u00A790\u00030D\u00A792\u00030D\u00A796\u00030D\u00A798\u00030D\u00A7A0\u00030D</string>
     </test>
     <test label="U+A786
@@ -4155,7 +4155,7 @@ U+A792
 U+A796
 U+A798
 U+A7A0" stylename="c2sc_1">
-      <comment>LtnCapInsularT LtnCapSaltillo LtnCapTurnedH LtnCapNDesc LtnCapCBar LtnCapBLftMidHook LtnCapFHookStrk LtnCapGDiagStrk</comment>
+      <comment>LtnCapInsularT LtnCapSaltillo LtnCapTurnedH LtnCapNDesc LtnCapCBar LtnCapBLftMidHook LtnCapFStrk LtnCapGDiagStrk</comment>
       <string>\u00A786\u00030D\u00A78B\u00030D\u00A78D\u00030D\u00A790\u00030D\u00A792\u00030D\u00A796\u00030D\u00A798\u00030D\u00A7A0\u00030D</string>
     </test>
     <test label="U+A7A2

@@ -13,8 +13,8 @@
     <fontsrc label="GSI">url(../results/Gentium-SemiBoldItalic.ttf)</fontsrc>
     <fontsrc label="GBkBI">url(../results/GentiumBook-BoldItalic.ttf)</fontsrc>
     <fontsrc label="GBI">url(../results/Gentium-BoldItalic.ttf)</fontsrc>
-    <fontsrc label="GRv6">url(../references/v6200/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="GIv6">url(../references/v6200/GentiumPlus-Italic.ttf)</fontsrc>
+    <fontsrc label="GRv7">url(../references/v7000/Gentium-Regular.ttf)</fontsrc>
+    <fontsrc label="GIv7">url(../references/v7000/Gentium-Italic.ttf)</fontsrc>
     <styles>
       <style feats="'c2sc' 1" name="c2sc_1"/>
       <style feats="'smcp' 1" name="smcp_1"/>
@@ -1334,15 +1334,15 @@ U+A74E">
       <string>\u00A740\u000327\u00A74E\u000327</string>
     </test>
     <test label="U+A799">
-      <comment>LtnSmFHookStrk</comment>
+      <comment>LtnSmFStrk</comment>
       <string>\u00A799\u000327</string>
     </test>
     <test label="U+A799" stylename="smcp_1">
-      <comment>LtnSmFHookStrk</comment>
+      <comment>LtnSmFStrk</comment>
       <string>\u00A799\u000327</string>
     </test>
     <test label="U+A798">
-      <comment>LtnCapFHookStrk</comment>
+      <comment>LtnCapFStrk</comment>
       <string>\u00A798\u000327</string>
     </test>
     <test label="U+A7BB

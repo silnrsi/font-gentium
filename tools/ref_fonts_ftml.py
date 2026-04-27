@@ -1,4 +1,4 @@
 ref_fonts = [
-    "../references/v6200/GentiumPlus-Regular.ttf=GRv6",
-    "../references/v6200/GentiumPlus-Italic.ttf=GIv6",
+    "../references/v7000/Gentium-Regular.ttf=GRv7",
+    "../references/v7000/Gentium-Italic.ttf=GIv7",
 ]

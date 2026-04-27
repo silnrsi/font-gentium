@@ -13,8 +13,8 @@
     <fontsrc label="GSI">url(../results/Gentium-SemiBoldItalic.ttf)</fontsrc>
     <fontsrc label="GBkBI">url(../results/GentiumBook-BoldItalic.ttf)</fontsrc>
     <fontsrc label="GBI">url(../results/Gentium-BoldItalic.ttf)</fontsrc>
-    <fontsrc label="GRv6">url(../references/v6200/GentiumPlus-Regular.ttf)</fontsrc>
-    <fontsrc label="GIv6">url(../references/v6200/GentiumPlus-Italic.ttf)</fontsrc>
+    <fontsrc label="GRv7">url(../references/v7000/Gentium-Regular.ttf)</fontsrc>
+    <fontsrc label="GIv7">url(../references/v7000/Gentium-Italic.ttf)</fontsrc>
     <title>allchars</title>
   </head>
   <testgroup label="Encoded characters">
@@ -4910,6 +4910,114 @@
       <comment>CombLtnSmInsularT</comment>
       <string>\u0025CC\u001ACE</string>
     </test>
+    <test label="U+1ACF">
+      <comment>CombDoubledCaron</comment>
+      <string>\u0025CC\u001ACF</string>
+    </test>
+    <test label="U+1AD0">
+      <comment>CombVertLineAcute</comment>
+      <string>\u0025CC\u001AD0</string>
+    </test>
+    <test label="U+1AD1">
+      <comment>CombGraveVertLine</comment>
+      <string>\u0025CC\u001AD1</string>
+    </test>
+    <test label="U+1AD2">
+      <comment>CombVertLineGrave</comment>
+      <string>\u0025CC\u001AD2</string>
+    </test>
+    <test label="U+1AD3">
+      <comment>CombAcuteVertLine</comment>
+      <string>\u0025CC\u001AD3</string>
+    </test>
+    <test label="U+1AD4">
+      <comment>CombVertLineMacron</comment>
+      <string>\u0025CC\u001AD4</string>
+    </test>
+    <test label="U+1AD5">
+      <comment>CombMacronVertLine</comment>
+      <string>\u0025CC\u001AD5</string>
+    </test>
+    <test label="U+1AD6">
+      <comment>CombVertLineAcuteGrave</comment>
+      <string>\u0025CC\u001AD6</string>
+    </test>
+    <test label="U+1AD7">
+      <comment>CombVertLineGraveAcute</comment>
+      <string>\u0025CC\u001AD7</string>
+    </test>
+    <test label="U+1AD8">
+      <comment>CombMacronAcuteGrave</comment>
+      <string>\u0025CC\u001AD8</string>
+    </test>
+    <test label="U+1AD9">
+      <comment>CombSharp</comment>
+      <string>\u0025CC\u001AD9</string>
+    </test>
+    <test label="U+1ADA">
+      <comment>CombFlat</comment>
+      <string>\u0025CC\u001ADA</string>
+    </test>
+    <test label="U+1ADB">
+      <comment>CombDwnTackAbv</comment>
+      <string>\u0025CC\u001ADB</string>
+    </test>
+    <test label="U+1ADC">
+      <comment>CombDiaerRaisedLftDot</comment>
+      <string>\u0025CC\u001ADC</string>
+    </test>
+    <test label="U+1ADD">
+      <comment>CombDotRingBlw</comment>
+      <string>\u0025CC\u001ADD</string>
+    </test>
+    <test label="U+1AE0">
+      <comment>CombLftTackAbv</comment>
+      <string>\u0025CC\u001AE0</string>
+    </test>
+    <test label="U+1AE1">
+      <comment>CombRtTackAbv</comment>
+      <string>\u0025CC\u001AE1</string>
+    </test>
+    <test label="U+1AE2">
+      <comment>CombMinusSgnAbv</comment>
+      <string>\u0025CC\u001AE2</string>
+    </test>
+    <test label="U+1AE3">
+      <comment>CombInvBridgeAbv</comment>
+      <string>\u0025CC\u001AE3</string>
+    </test>
+    <test label="U+1AE4">
+      <comment>CombSqrAbv</comment>
+      <string>\u0025CC\u001AE4</string>
+    </test>
+    <test label="U+1AE5">
+      <comment>CombSeagullAbv</comment>
+      <string>\u0025CC\u001AE5</string>
+    </test>
+    <test label="U+1AE6">
+      <comment>CombDblArchBlw</comment>
+      <string>\u0025CC\u001AE6</string>
+    </test>
+    <test label="U+1AE7">
+      <comment>CombDblArchAbv</comment>
+      <string>\u0025CC\u001AE7</string>
+    </test>
+    <test label="U+1AE8">
+      <comment>CombEqSgnAbv</comment>
+      <string>\u0025CC\u001AE8</string>
+    </test>
+    <test label="U+1AE9">
+      <comment>CombLftAngCenteredAbv</comment>
+      <string>\u0025CC\u001AE9</string>
+    </test>
+    <test label="U+1AEA">
+      <comment>CombUpArrwAbv</comment>
+      <string>\u0025CC\u001AEA</string>
+    </test>
+    <test label="U+1AEB">
+      <comment>CombDblRtArrwAbv</comment>
+      <string>\u0025CC\u001AEB</string>
+    </test>
     <test label="U+1C89">
       <comment>CyCapTje</comment>
       <string>\u001C89</string>
@@ -8022,6 +8130,10 @@
       <comment>InvisibleSeparator</comment>
       <string>\u002063</string>
     </test>
+    <test label="U+2064">
+      <comment>InvisiblePlus</comment>
+      <string>\u002064</string>
+    </test>
     <test label="U+206A">
       <comment>InhibitSymmetricSwapping</comment>
       <string>\u00206A</string>
@@ -8346,6 +8458,10 @@
       <comment>SomSgn</comment>
       <string>\u0020C0</string>
     </test>
+    <test label="U+20E1">
+      <comment>CombLftRtArrwAbv</comment>
+      <string>\u0025CC\u0020E1</string>
+    </test>
     <test label="U+20E5">
       <comment>CombLngReverseSolidusOverlay</comment>
       <string>\u0025CC\u0020E5</string>
@@ -8365,6 +8481,10 @@
     <test label="U+20EF">
       <comment>CombRtArrwBlw</comment>
       <string>\u0025CC\u0020EF</string>
+    </test>
+    <test label="U+2105">
+      <comment>CareOf</comment>
+      <string>\u002105</string>
     </test>
     <test label="U+210C">
       <comment>LtrBlackCapH</comment>
@@ -8905,6 +9025,10 @@
     <test label="U+22BD">
       <comment>NOR</comment>
       <string>\u0022BD</string>
+    </test>
+    <test label="U+22C5">
+      <comment>DotOperator</comment>
+      <string>\u0022C5</string>
     </test>
     <test label="U+2308">
       <comment>SqrTxtBracHighLft</comment>
@@ -10027,11 +10151,11 @@
       <string>\u00A797</string>
     </test>
     <test label="U+A798">
-      <comment>LtnCapFHookStrk</comment>
+      <comment>LtnCapFStrk</comment>
       <string>\u00A798</string>
     </test>
     <test label="U+A799">
-      <comment>LtnSmFHookStrk</comment>
+      <comment>LtnSmFStrk</comment>
       <string>\u00A799</string>
     </test>
     <test label="U+A7A0">
@@ -10162,6 +10286,14 @@
       <comment>LtnSmUEgAlef</comment>
       <string>\u00A7BF</string>
     </test>
+    <test label="U+A7C2">
+      <comment>LtnCapAngW</comment>
+      <string>\u00A7C2</string>
+    </test>
+    <test label="U+A7C3">
+      <comment>LtnSmAngW</comment>
+      <string>\u00A7C3</string>
+    </test>
     <test label="U+A7C4">
       <comment>LtnCapCPalHook</comment>
       <string>\u00A7C4</string>
@@ -10201,6 +10333,38 @@
     <test label="U+A7CD">
       <comment>LtnSmSFullDiagStrk</comment>
       <string>\u00A7CD</string>
+    </test>
+    <test label="U+A7CE">
+      <comment>LtnCapRevGlottalStop</comment>
+      <string>\u00A7CE</string>
+    </test>
+    <test label="U+A7CF">
+      <comment>LtnSmRevGlottalStop</comment>
+      <string>\u00A7CF</string>
+    </test>
+    <test label="U+A7D0">
+      <comment>LtnCapClosedInsularG</comment>
+      <string>\u00A7D0</string>
+    </test>
+    <test label="U+A7D1">
+      <comment>LtnSmClosedInsularG</comment>
+      <string>\u00A7D1</string>
+    </test>
+    <test label="U+A7D2">
+      <comment>LtnCapDblThorn</comment>
+      <string>\u00A7D2</string>
+    </test>
+    <test label="U+A7D3">
+      <comment>LtnSmDblThorn</comment>
+      <string>\u00A7D3</string>
+    </test>
+    <test label="U+A7D4">
+      <comment>LtnCapDblWynn</comment>
+      <string>\u00A7D4</string>
+    </test>
+    <test label="U+A7D5">
+      <comment>LtnSmDblWynn</comment>
+      <string>\u00A7D5</string>
     </test>
     <test label="U+A7DA">
       <comment>LtnCapLambda</comment>
@@ -10270,6 +10434,10 @@
       <comment>LtnSmBarredAlpha</comment>
       <string>\u00AB30</string>
     </test>
+    <test label="U+AB52">
+      <comment>LtnSmULeftHook</comment>
+      <string>\u00AB52</string>
+    </test>
     <test label="U+AB53">
       <comment>LtnSmChi</comment>
       <string>\u00AB53</string>
@@ -10281,6 +10449,22 @@
     <test label="U+AB5E">
       <comment>ModSmLMiddleTilde</comment>
       <string>\u00AB5E</string>
+    </test>
+    <test label="U+AB60">
+      <comment>LtnSmSakhaYat</comment>
+      <string>\u00AB60</string>
+    </test>
+    <test label="U+AB61">
+      <comment>LtnSmIotifiedE</comment>
+      <string>\u00AB61</string>
+    </test>
+    <test label="U+AB62">
+      <comment>LtnSmOpnOe</comment>
+      <string>\u00AB62</string>
+    </test>
+    <test label="U+AB63">
+      <comment>LtnSmUo</comment>
+      <string>\u00AB63</string>
     </test>
     <test label="U+AB64">
       <comment>LtnSmInvAlpha</comment>

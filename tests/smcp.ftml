@@ -4,17 +4,17 @@
   <head>
     <fontscale>200</fontscale>
     <fontsrc label="GR">url(../results/Gentium-Regular.ttf)</fontsrc>
-    <fontsrc label="GRv6">url(../references/v6200/GentiumPlus-Regular.ttf)</fontsrc>
     <fontsrc label="GM">url(../results/Gentium-Medium.ttf)</fontsrc>
     <fontsrc label="GS">url(../results/Gentium-SemiBold.ttf)</fontsrc>
     <fontsrc label="GBkB">url(../results/GentiumBook-Bold.ttf)</fontsrc>
     <fontsrc label="GB">url(../results/Gentium-Bold.ttf)</fontsrc>
     <fontsrc label="GI">url(../results/Gentium-Italic.ttf)</fontsrc>
-    <fontsrc label="GIv6">url(../references/v6200/GentiumPlus-Italic.ttf)</fontsrc>
     <fontsrc label="GMI">url(../results/Gentium-MediumItalic.ttf)</fontsrc>
     <fontsrc label="GSI">url(../results/Gentium-SemiBoldItalic.ttf)</fontsrc>
     <fontsrc label="GBkBI">url(../results/GentiumBook-BoldItalic.ttf)</fontsrc>
     <fontsrc label="GBI">url(../results/Gentium-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="GRv7">url(../references/v7000/Gentium-Regular.ttf)</fontsrc>
+    <fontsrc label="GIv7">url(../references/v7000/Gentium-Italic.ttf)</fontsrc>
     <styles>
       <style feats="'c2sc' 1" name="c2sc_1"/>
       <style feats="'smcp' 1" name="smcp_1"/>
@@ -2204,7 +2204,7 @@ U+A7A1
 U+A7A3
 U+A7A5
 U+A7A7">
-      <comment>LtnSmInsularF LtnSmTrndInsularG LtnSmLTrnd LtnSmInsularR LtnSmInsularS LtnSmInsularT LtnSmSaltillo LtnSmNDesc LtnSmCBar LtnSmCPalHook LtnSmBLftMidHook LtnSmFHookStrk LtnSmGDiagStrk LtnSmKDiagStrk LtnSmNDiagStrk LtnSmRDiagStrk</comment>
+      <comment>LtnSmInsularF LtnSmTrndInsularG LtnSmLTrnd LtnSmInsularR LtnSmInsularS LtnSmInsularT LtnSmSaltillo LtnSmNDesc LtnSmCBar LtnSmCPalHook LtnSmBLftMidHook LtnSmFStrk LtnSmGDiagStrk LtnSmKDiagStrk LtnSmNDiagStrk LtnSmRDiagStrk</comment>
       <string>\u00A77C\u00A77F\u00A781\u00A783\u00A785\u00A787\u00A78C\u00A791\u00A793\u00A794\u00A797\u00A799\u00A7A1\u00A7A3\u00A7A5\u00A7A7</string>
     </test>
     <test label="U+A77C
@@ -2223,7 +2223,7 @@ U+A7A1
 U+A7A3
 U+A7A5
 U+A7A7" stylename="smcp_1">
-      <comment>LtnSmInsularF LtnSmTrndInsularG LtnSmLTrnd LtnSmInsularR LtnSmInsularS LtnSmInsularT LtnSmSaltillo LtnSmNDesc LtnSmCBar LtnSmCPalHook LtnSmBLftMidHook LtnSmFHookStrk LtnSmGDiagStrk LtnSmKDiagStrk LtnSmNDiagStrk LtnSmRDiagStrk</comment>
+      <comment>LtnSmInsularF LtnSmTrndInsularG LtnSmLTrnd LtnSmInsularR LtnSmInsularS LtnSmInsularT LtnSmSaltillo LtnSmNDesc LtnSmCBar LtnSmCPalHook LtnSmBLftMidHook LtnSmFStrk LtnSmGDiagStrk LtnSmKDiagStrk LtnSmNDiagStrk LtnSmRDiagStrk</comment>
       <string>\u00A77C\u00A77F\u00A781\u00A783\u00A785\u00A787\u00A78C\u00A791\u00A793\u00A794\u00A797\u00A799\u00A7A1\u00A7A3\u00A7A5\u00A7A7</string>
     </test>
     <test label="U+A77B
@@ -2242,7 +2242,7 @@ U+A7A0
 U+A7A2
 U+A7A4
 U+A7A6">
-      <comment>LtnCapInsularF LtnCapTrndInsularG LtnCapLTrnd LtnCapInsularR LtnCapInsularS LtnCapInsularT LtnCapSaltillo LtnCapNDesc LtnCapCBar LtnCapCPalHook LtnCapBLftMidHook LtnCapFHookStrk LtnCapGDiagStrk LtnCapKDiagStrk LtnCapNDiagStrk LtnCapRDiagStrk</comment>
+      <comment>LtnCapInsularF LtnCapTrndInsularG LtnCapLTrnd LtnCapInsularR LtnCapInsularS LtnCapInsularT LtnCapSaltillo LtnCapNDesc LtnCapCBar LtnCapCPalHook LtnCapBLftMidHook LtnCapFStrk LtnCapGDiagStrk LtnCapKDiagStrk LtnCapNDiagStrk LtnCapRDiagStrk</comment>
       <string>\u00A77B\u00A77E\u00A780\u00A782\u00A784\u00A786\u00A78B\u00A790\u00A792\u00A7C4\u00A796\u00A798\u00A7A0\u00A7A2\u00A7A4\u00A7A6</string>
     </test>
     <test label="U+A7A9
@@ -3711,7 +3711,7 @@ U+A7AA
 U+A7AB
 U+A7AC
 U+A7AD">
-      <comment>LtnCapInsularT LtnCapSaltillo LtnCapTurnedH LtnCapNDesc LtnCapCBar LtnCapBLftMidHook LtnCapFHookStrk LtnCapGDiagStrk LtnCapKDiagStrk LtnCapNDiagStrk LtnCapRDiagStrk LtnCapSDiagStrk LtnCapHHook LtnCapRevOpnE LtnCapScriptG LtnCapLBelt</comment>
+      <comment>LtnCapInsularT LtnCapSaltillo LtnCapTurnedH LtnCapNDesc LtnCapCBar LtnCapBLftMidHook LtnCapFStrk LtnCapGDiagStrk LtnCapKDiagStrk LtnCapNDiagStrk LtnCapRDiagStrk LtnCapSDiagStrk LtnCapHHook LtnCapRevOpnE LtnCapScriptG LtnCapLBelt</comment>
       <string>\u00A786\u00A78B\u00A78D\u00A790\u00A792\u00A796\u00A798\u00A7A0\u00A7A2\u00A7A4\u00A7A6\u00A7A8\u00A7AA\u00A7AB\u00A7AC\u00A7AD</string>
     </test>
     <test label="U+A786
@@ -3730,7 +3730,7 @@ U+A7AA
 U+A7AB
 U+A7AC
 U+A7AD" stylename="c2sc_1">
-      <comment>LtnCapInsularT LtnCapSaltillo LtnCapTurnedH LtnCapNDesc LtnCapCBar LtnCapBLftMidHook LtnCapFHookStrk LtnCapGDiagStrk LtnCapKDiagStrk LtnCapNDiagStrk LtnCapRDiagStrk LtnCapSDiagStrk LtnCapHHook LtnCapRevOpnE LtnCapScriptG LtnCapLBelt</comment>
+      <comment>LtnCapInsularT LtnCapSaltillo LtnCapTurnedH LtnCapNDesc LtnCapCBar LtnCapBLftMidHook LtnCapFStrk LtnCapGDiagStrk LtnCapKDiagStrk LtnCapNDiagStrk LtnCapRDiagStrk LtnCapSDiagStrk LtnCapHHook LtnCapRevOpnE LtnCapScriptG LtnCapLBelt</comment>
       <string>\u00A786\u00A78B\u00A78D\u00A790\u00A792\u00A796\u00A798\u00A7A0\u00A7A2\u00A7A4\u00A7A6\u00A7A8\u00A7AA\u00A7AB\u00A7AC\u00A7AD</string>
     </test>
     <test label="U+A7AE
