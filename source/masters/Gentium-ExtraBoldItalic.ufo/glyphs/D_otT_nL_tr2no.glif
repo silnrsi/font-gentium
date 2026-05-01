@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="DotTnLtr2no" format="2">
-  <advance width="724"/>
+  <advance width="380"/>
   <outline>
-    <component base="TnLtrSpcDotLeft"/>
-    <component base="TnLtrDot2" xOffset="127"/>
-    <component base="TnLtrSpcDotMiddle" xOffset="127"/>
-    <component base="TnLtrBar" xOffset="461"/>
-    <component base="TnLtrSpcFlatRight" xOffset="461"/>
+    <contour>
+      <point x="183" y="288" type="curve" smooth="yes"/>
+      <point x="251" y="288"/>
+      <point x="306" y="343"/>
+      <point x="306" y="411" type="curve" smooth="yes"/>
+      <point x="306" y="479"/>
+      <point x="251" y="534"/>
+      <point x="183" y="534" type="curve" smooth="yes"/>
+      <point x="115" y="534"/>
+      <point x="60" y="479"/>
+      <point x="60" y="411" type="curve" smooth="yes"/>
+      <point x="60" y="343"/>
+      <point x="115" y="288"/>
+    </contour>
   </outline>
 </glyph>
