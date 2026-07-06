@@ -1,10 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombSharp" format="2">
   <unicode hex="1AD9"/>
-  <anchor x="-311" y="1320" name="U"/>
+  <anchor x="-276" y="1620" name="U"/>
   <anchor x="-355" y="1000" name="_U"/>
   <outline>
-    <component base="CombVertLineAbv"/>
+    <contour>
+      <point x="-482" y="1312" type="line"/>
+      <point x="-130" y="1414" type="line"/>
+      <point x="-119" y="1433"/>
+      <point x="-110" y="1465"/>
+      <point x="-106" y="1484" type="curve"/>
+      <point x="-117" y="1494" type="line"/>
+      <point x="-469" y="1392" type="line"/>
+      <point x="-480" y="1373"/>
+      <point x="-489" y="1340"/>
+      <point x="-493" y="1322" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-440" y="1029" type="line"/>
+      <point x="-423" y="1035"/>
+      <point x="-408" y="1042"/>
+      <point x="-398" y="1048" type="curve"/>
+      <point x="-328" y="1548" type="line"/>
+      <point x="-339" y="1558" type="line"/>
+      <point x="-352" y="1554"/>
+      <point x="-366" y="1548"/>
+      <point x="-379" y="1541" type="curve"/>
+      <point x="-450" y="1039" type="line"/>
+    </contour>
+    <contour>
+      <point x="-507" y="1132" type="line"/>
+      <point x="-155" y="1234" type="line"/>
+      <point x="-144" y="1253"/>
+      <point x="-135" y="1285"/>
+      <point x="-131" y="1304" type="curve"/>
+      <point x="-142" y="1314" type="line"/>
+      <point x="-494" y="1212" type="line"/>
+      <point x="-505" y="1193"/>
+      <point x="-515" y="1160"/>
+      <point x="-518" y="1142" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-286" y="1068" type="line"/>
+      <point x="-270" y="1074"/>
+      <point x="-255" y="1081"/>
+      <point x="-245" y="1087" type="curve"/>
+      <point x="-174" y="1587" type="line"/>
+      <point x="-185" y="1597" type="line"/>
+      <point x="-199" y="1593"/>
+      <point x="-212" y="1587"/>
+      <point x="-225" y="1580" type="curve"/>
+      <point x="-296" y="1078" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
