@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombFlat" format="2">
   <unicode hex="1ADA"/>
-  <anchor x="-495" y="1510" name="U"/>
+  <anchor x="-495" y="1670" name="U"/>
   <anchor x="-495" y="1050" name="_U"/>
   <outline>
-    <component base="CombVertLineAbv"/>
+    <contour>
+      <point x="-610" y="1047" type="line"/>
+      <point x="-598" y="1037" type="line"/>
+      <point x="-369" y="1207"/>
+      <point x="-330" y="1302"/>
+      <point x="-330" y="1362" type="curve" smooth="yes"/>
+      <point x="-330" y="1417"/>
+      <point x="-363" y="1456"/>
+      <point x="-408" y="1456" type="curve" smooth="yes"/>
+      <point x="-455" y="1456"/>
+      <point x="-510" y="1428"/>
+      <point x="-550" y="1392" type="curve"/>
+      <point x="-550" y="1635" type="line"/>
+      <point x="-562" y="1645" type="line"/>
+      <point x="-575" y="1642"/>
+      <point x="-598" y="1633"/>
+      <point x="-610" y="1625" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-550" y="1126" type="curve"/>
+      <point x="-550" y="1336" type="line"/>
+      <point x="-521" y="1365"/>
+      <point x="-496" y="1382"/>
+      <point x="-464" y="1382" type="curve" smooth="yes"/>
+      <point x="-435" y="1382"/>
+      <point x="-413" y="1363"/>
+      <point x="-413" y="1323" type="curve" smooth="yes"/>
+      <point x="-413" y="1283"/>
+      <point x="-444" y="1220"/>
+    </contour>
   </outline>
   <lib>
     <dict>
