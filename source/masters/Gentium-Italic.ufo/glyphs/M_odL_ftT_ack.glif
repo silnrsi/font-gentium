@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModLftTack" format="2">
-  <advance width="608"/>
+  <advance width="560"/>
   <unicode hex="AB6A"/>
   <outline>
-    <component base="ModYangDepartingToneMrk" xScale="-1" yScale="-1" xOffset="601" yOffset="880"/>
+    <contour>
+      <point x="79" y="422" type="curve"/>
+      <point x="99" y="396" type="line"/>
+      <point x="403" y="396" type="line"/>
+      <point x="418" y="422"/>
+      <point x="426" y="434"/>
+      <point x="438" y="461" type="curve"/>
+      <point x="420" y="484" type="line"/>
+      <point x="113" y="484" type="line"/>
+      <point x="99" y="463"/>
+      <point x="90" y="448"/>
+    </contour>
+    <contour>
+      <point x="415" y="689" type="curve"/>
+      <point x="343" y="183" type="line"/>
+      <point x="367" y="156" type="line"/>
+      <point x="394" y="165"/>
+      <point x="409" y="175"/>
+      <point x="435" y="190" type="curve"/>
+      <point x="507" y="699" type="line"/>
+      <point x="485" y="724" type="line"/>
+      <point x="457" y="715"/>
+      <point x="445" y="707"/>
+    </contour>
   </outline>
 </glyph>

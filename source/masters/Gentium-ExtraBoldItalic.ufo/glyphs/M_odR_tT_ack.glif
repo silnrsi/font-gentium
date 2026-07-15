@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModRtTack" format="2">
-  <advance width="661"/>
+  <advance width="651"/>
   <unicode hex="AB6B"/>
   <outline>
-    <component base="ModYangDepartingToneMrk"/>
+    <contour>
+      <point x="561" y="488" type="curve"/>
+      <point x="541" y="514" type="line"/>
+      <point x="227" y="514" type="line"/>
+      <point x="212" y="488"/>
+      <point x="184" y="436"/>
+      <point x="172" y="409" type="curve"/>
+      <point x="190" y="386" type="line"/>
+      <point x="507" y="386" type="line"/>
+      <point x="521" y="407"/>
+      <point x="550" y="462"/>
+    </contour>
+    <contour>
+      <point x="211" y="181" type="curve"/>
+      <point x="286" y="727" type="line"/>
+      <point x="255" y="764" type="line"/>
+      <point x="228" y="755"/>
+      <point x="182" y="735"/>
+      <point x="156" y="720" type="curve"/>
+      <point x="80" y="171" type="line"/>
+      <point x="111" y="136" type="line"/>
+      <point x="139" y="145"/>
+      <point x="181" y="163"/>
+    </contour>
   </outline>
   <lib>
     <dict>

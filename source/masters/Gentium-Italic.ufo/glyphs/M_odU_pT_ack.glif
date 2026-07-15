@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModUpTack" format="2">
-  <advance width="517"/>
+  <advance width="668"/>
   <unicode hex="02D4"/>
   <outline>
     <contour>
-      <point x="377" y="-121" type="curve"/>
-      <point x="359" y="-95" type="line"/>
-      <point x="24" y="-95" type="line"/>
-      <point x="8" y="-121"/>
-      <point x="1" y="-130"/>
-      <point x="-10" y="-157" type="curve"/>
-      <point x="7" y="-180" type="line"/>
-      <point x="345" y="-180" type="line"/>
-      <point x="359" y="-159"/>
-      <point x="367" y="-147"/>
+      <point x="60" y="254" type="curve"/>
+      <point x="78" y="228" type="line"/>
+      <point x="533" y="228" type="line"/>
+      <point x="549" y="254"/>
+      <point x="557" y="266"/>
+      <point x="568" y="293" type="curve"/>
+      <point x="551" y="316" type="line"/>
+      <point x="93" y="316" type="line"/>
+      <point x="79" y="295"/>
+      <point x="70" y="280"/>
     </contour>
     <contour>
-      <point x="223" y="-142" type="curve"/>
-      <point x="261" y="149" type="line"/>
-      <point x="240" y="173" type="line"/>
-      <point x="216" y="164"/>
-      <point x="199" y="156"/>
-      <point x="176" y="141" type="curve"/>
-      <point x="138" y="-150" type="line"/>
-      <point x="158" y="-172" type="line"/>
-      <point x="181" y="-164"/>
-      <point x="197" y="-157"/>
+      <point x="327" y="637" type="curve"/>
+      <point x="272" y="274" type="line"/>
+      <point x="293" y="250" type="line"/>
+      <point x="317" y="259"/>
+      <point x="337" y="267"/>
+      <point x="360" y="282" type="curve"/>
+      <point x="415" y="645" type="line"/>
+      <point x="395" y="667" type="line"/>
+      <point x="372" y="659"/>
+      <point x="353" y="652"/>
     </contour>
   </outline>
 </glyph>
