@@ -2,6 +2,7 @@
 <glyph name="GrSmOmicronWTonos" format="2">
   <advance width="1090"/>
   <unicode hex="03CC"/>
+  <anchor x="545" y="-100" name="L"/>
   <outline>
     <component base="GrSmOmicron"/>
     <component base="GrTonos" xOffset="381"/>

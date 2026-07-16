@@ -2,6 +2,7 @@
 <glyph name="GrCapAlphaWTonos" format="2">
   <advance width="1589"/>
   <unicode hex="0386"/>
+  <anchor x="880" y="-100" name="L"/>
   <outline>
     <component base="GrCapAlpha" xOffset="280"/>
     <component base="GrTonos" yOffset="-100"/>
