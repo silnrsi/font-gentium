@@ -2,6 +2,7 @@
 <glyph name="GrKaiSym" format="2">
   <advance width="1163"/>
   <unicode hex="03D7"/>
+  <anchor x="920" y="1050" name="U"/>
   <outline>
     <contour>
       <point x="773" y="-215"/>
@@ -30,7 +31,6 @@
       <point x="786" y="-20"/>
     </contour>
     <contour>
-      <point x="1016" y="960"/>
       <point x="1016" y="960" type="curve"/>
       <point x="880" y="968"/>
       <point x="754" y="879"/>
@@ -68,17 +68,7 @@
       <point x="1029" y="845"/>
       <point x="1056" y="911" type="curve"/>
       <point x="1058" y="908"/>
-    </contour>
-    <contour>
-      <point x="1116" y="1068" type="curve"/>
-      <point x="1493" y="1496" type="line"/>
-      <point x="1452" y="1541" type="line"/>
-      <point x="1401" y="1529"/>
-      <point x="1222" y="1506"/>
-      <point x="1179" y="1490" type="curve"/>
-      <point x="1043" y="1105" type="line"/>
-      <point x="1066" y="1085"/>
-      <point x="1094" y="1073"/>
+      <point x="1016" y="960"/>
     </contour>
   </outline>
 </glyph>
