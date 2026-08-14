@@ -2,6 +2,7 @@
 <glyph name="GrCapDelta" format="2">
   <advance width="1174"/>
   <unicode hex="0394"/>
+  <anchor x="507" y="1370" name="U"/>
   <outline>
     <contour>
       <point x="1073" y="0" type="line"/>
@@ -18,7 +19,6 @@
       <point x="15" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="771" y="206"/>
       <point x="771" y="206" type="curve"/>
       <point x="789" y="155"/>
       <point x="791" y="155"/>
@@ -31,6 +31,7 @@
       <point x="373" y="570"/>
       <point x="494" y="908" type="curve"/>
       <point x="604" y="607"/>
+      <point x="771" y="206"/>
     </contour>
   </outline>
 </glyph>
