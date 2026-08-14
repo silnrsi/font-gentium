@@ -1765,6 +1765,7 @@
   <key>public.kern1.LSmHookC</key>
   <array>
     <string>LtnSmCHook</string>
+    <string>LtnSmCapGHook</string>
     <string>LtnSmGHook</string>
   </array>
   <key>public.kern1.LSmHookV</key>
@@ -2169,7 +2170,6 @@
     <string>CySmYi</string>
     <string>LtnLigSmFSmF</string>
     <string>LtnLigSmFSmF.SItal</string>
-    <string>LtnSmCapGHook</string>
     <string>LtnSmDHook</string>
     <string>LtnSmDHook.TopBar</string>
     <string>LtnSmDotlessJStrkHook</string>
@@ -3667,6 +3667,7 @@
     <string>LtnSmCStrk</string>
     <string>LtnSmCapC</string>
     <string>LtnSmCapG</string>
+    <string>LtnSmCapGHook</string>
     <string>LtnSmCapO</string>
     <string>LtnSmCapOe</string>
     <string>LtnSmCapQ</string>
