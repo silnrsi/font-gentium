@@ -1106,22 +1106,25 @@ U+0398">
       <string>\u000393\u000329\u000394\u000329\u000397\u000329\u000398\u000329</string>
     </test>
     <test label="U+03BB
+U+03BF
 U+03C0
 U+03C3">
-      <comment>GrSmLamda GrSmPi GrSmSigma</comment>
-      <string>\u0003BB\u000329\u0003C0\u000329\u0003C3\u000329</string>
+      <comment>GrSmLamda GrSmOmicron GrSmPi GrSmSigma</comment>
+      <string>\u0003BB\u000329\u0003BF\u000329\u0003C0\u000329\u0003C3\u000329</string>
     </test>
     <test label="U+03BB
+U+03BF
 U+03C0
 U+03C3" stylename="smcp_1">
-      <comment>GrSmLamda GrSmPi GrSmSigma</comment>
-      <string>\u0003BB\u000329\u0003C0\u000329\u0003C3\u000329</string>
+      <comment>GrSmLamda GrSmOmicron GrSmPi GrSmSigma</comment>
+      <string>\u0003BB\u000329\u0003BF\u000329\u0003C0\u000329\u0003C3\u000329</string>
     </test>
     <test label="U+039B
+U+039F
 U+03A0
 U+03A3">
-      <comment>GrCapLamda GrCapPi GrCapSigma</comment>
-      <string>\u00039B\u000329\u0003A0\u000329\u0003A3\u000329</string>
+      <comment>GrCapLamda GrCapOmicron GrCapPi GrCapSigma</comment>
+      <string>\u00039B\u000329\u00039F\u000329\u0003A0\u000329\u0003A3\u000329</string>
     </test>
     <test label="U+03C7
 U+03C8
@@ -3211,6 +3214,14 @@ U+0397
 U+0398" stylename="c2sc_1">
       <comment>GrCapGamma GrCapEta GrCapTheta</comment>
       <string>\u000393\u000329\u000397\u000329\u000398\u000329</string>
+    </test>
+    <test label="U+039F">
+      <comment>GrCapOmicron</comment>
+      <string>\u00039F\u000329</string>
+    </test>
+    <test label="U+039F" stylename="c2sc_1">
+      <comment>GrCapOmicron</comment>
+      <string>\u00039F\u000329</string>
     </test>
     <test label="U+03A9
 U+03D8

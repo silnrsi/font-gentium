@@ -1087,80 +1087,95 @@ U+0392">
     <test label="U+03B3
 U+03B4
 U+03B5
+U+03B6
 U+03B7
 U+03B8
-U+03B9">
-      <comment>GrSmGamma GrSmDelta GrSmEpsilon GrSmEta GrSmTheta GrSmIota</comment>
-      <string>\u0003B3\u00030D\u0003B4\u00030D\u0003B5\u00030D\u0003B7\u00030D\u0003B8\u00030D\u0003B9\u00030D</string>
+U+03B9
+U+03BA">
+      <comment>GrSmGamma GrSmDelta GrSmEpsilon GrSmZeta GrSmEta GrSmTheta GrSmIota GrSmKappa</comment>
+      <string>\u0003B3\u00030D\u0003B4\u00030D\u0003B5\u00030D\u0003B6\u00030D\u0003B7\u00030D\u0003B8\u00030D\u0003B9\u00030D\u0003BA\u00030D</string>
     </test>
     <test label="U+03B3
 U+03B4
 U+03B5
+U+03B6
 U+03B7
 U+03B8
-U+03B9" stylename="smcp_1">
-      <comment>GrSmGamma GrSmDelta GrSmEpsilon GrSmEta GrSmTheta GrSmIota</comment>
-      <string>\u0003B3\u00030D\u0003B4\u00030D\u0003B5\u00030D\u0003B7\u00030D\u0003B8\u00030D\u0003B9\u00030D</string>
+U+03B9
+U+03BA" stylename="smcp_1">
+      <comment>GrSmGamma GrSmDelta GrSmEpsilon GrSmZeta GrSmEta GrSmTheta GrSmIota GrSmKappa</comment>
+      <string>\u0003B3\u00030D\u0003B4\u00030D\u0003B5\u00030D\u0003B6\u00030D\u0003B7\u00030D\u0003B8\u00030D\u0003B9\u00030D\u0003BA\u00030D</string>
     </test>
     <test label="U+0393
 U+0394
 U+0395
+U+0396
 U+0397
 U+0398
-U+0399">
-      <comment>GrCapGamma GrCapDelta GrCapEpsilon GrCapEta GrCapTheta GrCapIota</comment>
-      <string>\u000393\u00030D\u000394\u00030D\u000395\u00030D\u000397\u00030D\u000398\u00030D\u000399\u00030D</string>
+U+0399
+U+039A">
+      <comment>GrCapGamma GrCapDelta GrCapEpsilon GrCapZeta GrCapEta GrCapTheta GrCapIota GrCapKappa</comment>
+      <string>\u000393\u00030D\u000394\u00030D\u000395\u00030D\u000396\u00030D\u000397\u00030D\u000398\u00030D\u000399\u00030D\u00039A\u00030D</string>
     </test>
     <test label="U+03BB
+U+03BD
+U+03BE
 U+03BF
 U+03C0
 U+03C1
 U+03C3">
-      <comment>GrSmLamda GrSmOmicron GrSmPi GrSmRho GrSmSigma</comment>
-      <string>\u0003BB\u00030D\u0003BF\u00030D\u0003C0\u00030D\u0003C1\u00030D\u0003C3\u00030D</string>
+      <comment>GrSmLamda GrSmNu GrSmXi GrSmOmicron GrSmPi GrSmRho GrSmSigma</comment>
+      <string>\u0003BB\u00030D\u0003BD\u00030D\u0003BE\u00030D\u0003BF\u00030D\u0003C0\u00030D\u0003C1\u00030D\u0003C3\u00030D</string>
     </test>
     <test label="U+03BB
+U+03BD
+U+03BE
 U+03BF
 U+03C0
 U+03C1
 U+03C3" stylename="smcp_1">
-      <comment>GrSmLamda GrSmOmicron GrSmPi GrSmRho GrSmSigma</comment>
-      <string>\u0003BB\u00030D\u0003BF\u00030D\u0003C0\u00030D\u0003C1\u00030D\u0003C3\u00030D</string>
+      <comment>GrSmLamda GrSmNu GrSmXi GrSmOmicron GrSmPi GrSmRho GrSmSigma</comment>
+      <string>\u0003BB\u00030D\u0003BD\u00030D\u0003BE\u00030D\u0003BF\u00030D\u0003C0\u00030D\u0003C1\u00030D\u0003C3\u00030D</string>
     </test>
     <test label="U+039B
+U+039D
+U+039E
 U+039F
 U+03A0
 U+03A1
 U+03A3">
-      <comment>GrCapLamda GrCapOmicron GrCapPi GrCapRho GrCapSigma</comment>
-      <string>\u00039B\u00030D\u00039F\u00030D\u0003A0\u00030D\u0003A1\u00030D\u0003A3\u00030D</string>
+      <comment>GrCapLamda GrCapNu GrCapXi GrCapOmicron GrCapPi GrCapRho GrCapSigma</comment>
+      <string>\u00039B\u00030D\u00039D\u00030D\u00039E\u00030D\u00039F\u00030D\u0003A0\u00030D\u0003A1\u00030D\u0003A3\u00030D</string>
     </test>
-    <test label="U+03C5
+    <test label="U+03C4
+U+03C5
 U+03C7
 U+03C8
 U+03C9
 U+03D1
 U+03D9">
-      <comment>GrSmUpsilon GrSmChi GrSmPsi GrSmOmega GrThetaSym GrSmArchaicKoppa</comment>
-      <string>\u0003C5\u00030D\u0003C7\u00030D\u0003C8\u00030D\u0003C9\u00030D\u0003D1\u00030D\u0003D9\u00030D</string>
+      <comment>GrSmTau GrSmUpsilon GrSmChi GrSmPsi GrSmOmega GrThetaSym GrSmArchaicKoppa</comment>
+      <string>\u0003C4\u00030D\u0003C5\u00030D\u0003C7\u00030D\u0003C8\u00030D\u0003C9\u00030D\u0003D1\u00030D\u0003D9\u00030D</string>
     </test>
-    <test label="U+03C5
+    <test label="U+03C4
+U+03C5
 U+03C7
 U+03C8
 U+03C9
 U+03D1
 U+03D9" stylename="smcp_1">
-      <comment>GrSmUpsilon GrSmChi GrSmPsi GrSmOmega GrThetaSym GrSmArchaicKoppa</comment>
-      <string>\u0003C5\u00030D\u0003C7\u00030D\u0003C8\u00030D\u0003C9\u00030D\u0003D1\u00030D\u0003D9\u00030D</string>
+      <comment>GrSmTau GrSmUpsilon GrSmChi GrSmPsi GrSmOmega GrThetaSym GrSmArchaicKoppa</comment>
+      <string>\u0003C4\u00030D\u0003C5\u00030D\u0003C7\u00030D\u0003C8\u00030D\u0003C9\u00030D\u0003D1\u00030D\u0003D9\u00030D</string>
     </test>
-    <test label="U+03A5
+    <test label="U+03A4
+U+03A5
 U+03A7
 U+03A8
 U+03A9
 U+0398
 U+03D8">
-      <comment>GrCapUpsilon GrCapChi GrCapPsi GrCapOmega GrCapTheta GrArchaicKoppa</comment>
-      <string>\u0003A5\u00030D\u0003A7\u00030D\u0003A8\u00030D\u0003A9\u00030D\u000398\u00030D\u0003D8\u00030D</string>
+      <comment>GrCapTau GrCapUpsilon GrCapChi GrCapPsi GrCapOmega GrCapTheta GrArchaicKoppa</comment>
+      <string>\u0003A4\u00030D\u0003A5\u00030D\u0003A7\u00030D\u0003A8\u00030D\u0003A9\u00030D\u000398\u00030D\u0003D8\u00030D</string>
     </test>
     <test label="U+03F3
 U+03F8">
@@ -3227,28 +3242,60 @@ U+0391" stylename="c2sc_1">
       <string>\u00024A\u00030D\u00024E\u00030D\u000370\u00030D\u000372\u00030D\u000376\u00030D\u00037F\u00030D\u000391\u00030D</string>
     </test>
     <test label="U+0393
+U+0394
+U+0396
 U+0398
-U+0399">
-      <comment>GrCapGamma GrCapTheta GrCapIota</comment>
-      <string>\u000393\u00030D\u000398\u00030D\u000399\u00030D</string>
+U+0399
+U+039A">
+      <comment>GrCapGamma GrCapDelta GrCapZeta GrCapTheta GrCapIota GrCapKappa</comment>
+      <string>\u000393\u00030D\u000394\u00030D\u000396\u00030D\u000398\u00030D\u000399\u00030D\u00039A\u00030D</string>
     </test>
     <test label="U+0393
+U+0394
+U+0396
 U+0398
-U+0399" stylename="c2sc_1">
-      <comment>GrCapGamma GrCapTheta GrCapIota</comment>
-      <string>\u000393\u00030D\u000398\u00030D\u000399\u00030D</string>
+U+0399
+U+039A" stylename="c2sc_1">
+      <comment>GrCapGamma GrCapDelta GrCapZeta GrCapTheta GrCapIota GrCapKappa</comment>
+      <string>\u000393\u00030D\u000394\u00030D\u000396\u00030D\u000398\u00030D\u000399\u00030D\u00039A\u00030D</string>
     </test>
-    <test label="U+03A5
+    <test label="U+039B
+U+039D
+U+039E
+U+039F
+U+03A0
+U+03A1
+U+03A3">
+      <comment>GrCapLamda GrCapNu GrCapXi GrCapOmicron GrCapPi GrCapRho GrCapSigma</comment>
+      <string>\u00039B\u00030D\u00039D\u00030D\u00039E\u00030D\u00039F\u00030D\u0003A0\u00030D\u0003A1\u00030D\u0003A3\u00030D</string>
+    </test>
+    <test label="U+039B
+U+039D
+U+039E
+U+039F
+U+03A0
+U+03A1
+U+03A3" stylename="c2sc_1">
+      <comment>GrCapLamda GrCapNu GrCapXi GrCapOmicron GrCapPi GrCapRho GrCapSigma</comment>
+      <string>\u00039B\u00030D\u00039D\u00030D\u00039E\u00030D\u00039F\u00030D\u0003A0\u00030D\u0003A1\u00030D\u0003A3\u00030D</string>
+    </test>
+    <test label="U+03A4
+U+03A5
+U+03A7
+U+03A8
 U+03D8
 U+03DA">
-      <comment>GrCapUpsilon GrArchaicKoppa GrStigma</comment>
-      <string>\u0003A5\u00030D\u0003D8\u00030D\u0003DA\u00030D</string>
+      <comment>GrCapTau GrCapUpsilon GrCapChi GrCapPsi GrArchaicKoppa GrStigma</comment>
+      <string>\u0003A4\u00030D\u0003A5\u00030D\u0003A7\u00030D\u0003A8\u00030D\u0003D8\u00030D\u0003DA\u00030D</string>
     </test>
-    <test label="U+03A5
+    <test label="U+03A4
+U+03A5
+U+03A7
+U+03A8
 U+03D8
 U+03DA" stylename="c2sc_1">
-      <comment>GrCapUpsilon GrArchaicKoppa GrStigma</comment>
-      <string>\u0003A5\u00030D\u0003D8\u00030D\u0003DA\u00030D</string>
+      <comment>GrCapTau GrCapUpsilon GrCapChi GrCapPsi GrArchaicKoppa GrStigma</comment>
+      <string>\u0003A4\u00030D\u0003A5\u00030D\u0003A7\u00030D\u0003A8\u00030D\u0003D8\u00030D\u0003DA\u00030D</string>
     </test>
     <test label="U+03DC
 U+03E0
