@@ -2699,8 +2699,6 @@
     <string>LtnSmSdwysDiaerU</string>
     <string>LtnSmVHook</string>
     <string>ModSmVHook</string>
-    <string>ModSmVHook.StraightLft</string>
-    <string>ModSmVHook.StraightLftHighHook</string>
     <string>GrSmMu</string>
     <string>LtnSmUpsilon</string>
     <string>LtnSupSmUpsilon</string>
@@ -2757,6 +2755,8 @@
     <string>ModSmVRtHook</string>
     <string>LtnSmVHook.StraightLft</string>
     <string>LtnSmVHook.StraightLftHighHook</string>
+    <string>ModSmVHook.StraightLftHighHook</string>
+    <string>ModSmVHook.StraightLft</string>
     <string>CySmIzhitsa</string>
     <string>LtnSmVCurl</string>
     <string>LtnSmVDiagStrk</string>
@@ -11150,7 +11150,7 @@
     <key>LtnSmDShortStrk</key>
     <string>uniA7C8</string>
     <key>LtnSmDShortStrk.sc</key>
-    <string>uniA7C7.sc</string>
+    <string>uniA7C8.sc</string>
     <key>LtnSmDTail</key>
     <string>uni0256</string>
     <key>LtnSmDTail.sc</key>
@@ -12900,7 +12900,7 @@
     <key>LtnSmSShortStrk</key>
     <string>uniA7CA</string>
     <key>LtnSmSShortStrk.sc</key>
-    <string>uniA7C9.sc</string>
+    <string>uniA7CA.sc</string>
     <key>LtnSmSSwashTail</key>
     <string>uni023F</string>
     <key>LtnSmSSwashTail.sc</key>
