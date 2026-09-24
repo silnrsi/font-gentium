@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmOpnEBarred" format="2">
+  <advance width="762"/>
+  <unicode hex="1DF44"/>
+  <anchor x="335" y="0" name="H"/>
+  <anchor x="323" y="-100" name="L"/>
+  <anchor x="390" y="0" name="O"/>
+  <anchor x="856" y="870" name="R"/>
+  <anchor x="474" y="1000" name="U"/>
+  <outline>
+    <component base="LtnSmOpnE"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

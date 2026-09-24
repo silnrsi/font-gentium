@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmRHookTailPalHook" format="2">
+  <advance width="872"/>
+  <unicode hex="1DF37"/>
+  <anchor x="239" y="-600" name="L"/>
+  <anchor x="533" y="1000" name="U"/>
+  <outline>
+    <component base="LtnSmRHookTail"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

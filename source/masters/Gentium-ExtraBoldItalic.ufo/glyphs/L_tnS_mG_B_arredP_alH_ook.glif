@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmGBarredPalHook" format="2">
+  <advance width="1331"/>
+  <unicode hex="1DF45"/>
+  <anchor x="328" y="-600" name="L"/>
+  <anchor x="548" y="1000" name="U"/>
+  <outline>
+    <component base="LtnSmGPalHook.SngBowl"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

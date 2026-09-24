@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmClosedOmegaBarred" format="2">
+  <advance width="1219"/>
+  <unicode hex="1DF53"/>
+  <anchor x="524" y="-100" name="L"/>
+  <anchor x="1196" y="870" name="R"/>
+  <anchor x="675" y="1000" name="U"/>
+  <outline>
+    <component base="LtnSmClosedOmega"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>
