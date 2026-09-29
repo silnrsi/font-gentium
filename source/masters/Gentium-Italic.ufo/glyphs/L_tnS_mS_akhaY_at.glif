@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmSakhaYat" format="2">
-  <advance width="1830"/>
+  <advance width="1307"/>
   <unicode hex="AB60"/>
-  <anchor x="1380" y="-100" name="L"/>
-  <anchor x="1531" y="1000" name="U"/>
+  <anchor x="564" y="-100" name="L"/>
+  <anchor x="718" y="1000" name="U"/>
   <outline>
-    <component base="CySmPe"/>
-    <component base="CySmSoftSgn" xOffset="1012"/>
+    <component base="CySmYat"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>
