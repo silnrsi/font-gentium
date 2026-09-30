@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModHighLowVertLine" format="2">
-  <advance width="896"/>
+  <advance width="448"/>
   <unicode hex="208F"/>
   <outline>
     <component base="ModVertLine"/>
-    <component base="ModLowVertLine" xOffset="448"/>
+    <component base="ModLowVertLine" xOffset="-30"/>
   </outline>
   <lib>
     <dict>
