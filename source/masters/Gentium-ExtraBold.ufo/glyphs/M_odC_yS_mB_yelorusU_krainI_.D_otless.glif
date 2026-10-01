@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModCySmByelorusUkrainI.Dotless" format="2">
+  <advance width="444"/>
+  <anchor x="227" y="560" name="L"/>
+  <anchor x="268" y="620" name="O"/>
+  <anchor x="511" y="1136" name="R"/>
+  <anchor x="227" y="1250" name="U"/>
+  <outline>
+    <contour>
+      <point x="42" y="620" type="line"/>
+      <point x="413" y="620" type="line"/>
+      <point x="413" y="670" type="line"/>
+      <point x="345" y="681"/>
+      <point x="322" y="697"/>
+      <point x="322" y="706" type="curve" smooth="yes"/>
+      <point x="322" y="1196" type="line"/>
+      <point x="270" y="1196" type="line"/>
+      <point x="202" y="1176"/>
+      <point x="129" y="1164"/>
+      <point x="42" y="1154" type="curve"/>
+      <point x="42" y="1106" type="line"/>
+      <point x="132" y="1099"/>
+      <point x="133" y="1086"/>
+      <point x="133" y="1004" type="curve" smooth="yes"/>
+      <point x="133" y="706" type="line" smooth="yes"/>
+      <point x="133" y="696"/>
+      <point x="105" y="681"/>
+      <point x="42" y="670" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>
