@@ -1086,24 +1086,30 @@ U+0392">
     </test>
     <test label="U+03B3
 U+03B4
+U+03B5
 U+03B7
-U+03B8">
-      <comment>GrSmGamma GrSmDelta GrSmEta GrSmTheta</comment>
-      <string>\u0003B3\u000329\u0003B4\u000329\u0003B7\u000329\u0003B8\u000329</string>
+U+03B8
+U+03B9">
+      <comment>GrSmGamma GrSmDelta GrSmEpsilon GrSmEta GrSmTheta GrSmIota</comment>
+      <string>\u0003B3\u000329\u0003B4\u000329\u0003B5\u000329\u0003B7\u000329\u0003B8\u000329\u0003B9\u000329</string>
     </test>
     <test label="U+03B3
 U+03B4
+U+03B5
 U+03B7
-U+03B8" stylename="smcp_1">
-      <comment>GrSmGamma GrSmDelta GrSmEta GrSmTheta</comment>
-      <string>\u0003B3\u000329\u0003B4\u000329\u0003B7\u000329\u0003B8\u000329</string>
+U+03B8
+U+03B9" stylename="smcp_1">
+      <comment>GrSmGamma GrSmDelta GrSmEpsilon GrSmEta GrSmTheta GrSmIota</comment>
+      <string>\u0003B3\u000329\u0003B4\u000329\u0003B5\u000329\u0003B7\u000329\u0003B8\u000329\u0003B9\u000329</string>
     </test>
     <test label="U+0393
 U+0394
+U+0395
 U+0397
-U+0398">
-      <comment>GrCapGamma GrCapDelta GrCapEta GrCapTheta</comment>
-      <string>\u000393\u000329\u000394\u000329\u000397\u000329\u000398\u000329</string>
+U+0398
+U+0399">
+      <comment>GrCapGamma GrCapDelta GrCapEpsilon GrCapEta GrCapTheta GrCapIota</comment>
+      <string>\u000393\u000329\u000394\u000329\u000395\u000329\u000397\u000329\u000398\u000329\u000399\u000329</string>
     </test>
     <test label="U+03BB
 U+03BF
