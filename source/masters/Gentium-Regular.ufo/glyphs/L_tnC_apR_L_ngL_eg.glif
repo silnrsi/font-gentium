@@ -2,7 +2,7 @@
 <glyph name="LtnCapRLngLeg" format="2">
   <advance width="871"/>
   <unicode hex="A7E2"/>
-  <anchor x="456" y="-600" name="L"/>
+  <anchor x="456" y="-100" name="L"/>
   <anchor x="490" y="1370" name="U"/>
   <outline>
     <contour>
@@ -50,7 +50,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>
