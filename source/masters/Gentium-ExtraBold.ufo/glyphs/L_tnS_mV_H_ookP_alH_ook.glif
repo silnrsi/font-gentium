@@ -7,41 +7,10 @@
   <anchor x="613" y="0" name="O"/>
   <anchor x="555" y="1050" name="U"/>
   <outline>
+    <component base="LtnSmVHook"/>
     <contour>
-      <point x="1086" y="265"/>
-      <point x="1086" y="544" type="curve" smooth="yes"/>
-      <point x="1086" y="810"/>
-      <point x="962" y="922"/>
-      <point x="847" y="960" type="curve"/>
-      <point x="772" y="946"/>
-      <point x="616" y="897"/>
-      <point x="573" y="877" type="curve"/>
-      <point x="594" y="801" type="line"/>
-      <point x="742" y="795"/>
-      <point x="835" y="657"/>
-      <point x="835" y="451" type="curve" smooth="yes"/>
-      <point x="835" y="279"/>
-      <point x="759" y="130"/>
-      <point x="615" y="130" type="curve" smooth="yes"/>
-      <point x="511" y="130"/>
-      <point x="420" y="208"/>
-      <point x="420" y="392" type="curve" smooth="yes"/>
-      <point x="420" y="911" type="line"/>
-      <point x="382" y="960" type="line"/>
-      <point x="294" y="929"/>
-      <point x="139" y="912"/>
-      <point x="31" y="904" type="curve"/>
-      <point x="31" y="824" type="line"/>
-      <point x="150" y="814"/>
-      <point x="150" y="808"/>
-      <point x="150" y="681" type="curve" smooth="yes"/>
-      <point x="150" y="329" type="line" smooth="yes"/>
-      <point x="150" y="79"/>
-      <point x="292" y="-30"/>
-      <point x="534" y="-30" type="curve" smooth="yes"/>
-      <point x="887" y="-30"/>
-    </contour>
-    <contour>
+      <point x="745" y="-149" type="curve"/>
+      <point x="691" y="-166"/>
       <point x="560" y="-242"/>
       <point x="527" y="-280" type="curve"/>
       <point x="515" y="-398"/>
@@ -61,12 +30,12 @@
       <point x="784" y="-187" type="curve"/>
       <point x="777" y="-174"/>
       <point x="755" y="-160"/>
-      <point x="745" y="-149" type="curve"/>
-      <point x="691" y="-166"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
       <key>public.markColor</key>
       <string>0.97,1,0,1</string>
     </dict>

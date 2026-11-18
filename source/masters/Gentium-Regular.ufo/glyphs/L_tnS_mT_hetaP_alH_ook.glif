@@ -5,43 +5,10 @@
   <anchor x="504" y="-100" name="L"/>
   <anchor x="504" y="1620" name="U"/>
   <outline>
+    <component base="GrSmTheta"/>
     <contour>
-      <point x="934" y="301"/>
-      <point x="932" y="711" type="curve" smooth="yes"/>
-      <point x="929" y="1121"/>
-      <point x="794" y="1450"/>
-      <point x="521" y="1450" type="curve" smooth="yes"/>
-      <point x="275" y="1450"/>
-      <point x="88" y="1099"/>
-      <point x="90" y="690" type="curve"/>
-      <point x="90" y="280"/>
-      <point x="229" y="-30"/>
-      <point x="491" y="-30" type="curve" smooth="yes"/>
-      <point x="753" y="-30"/>
-    </contour>
-    <contour>
-      <point x="719" y="90"/>
-      <point x="526" y="90" type="curve" smooth="yes"/>
-      <point x="356" y="90"/>
-      <point x="266" y="353"/>
-      <point x="252" y="670" type="curve"/>
-      <point x="406" y="683"/>
-      <point x="599" y="683"/>
-      <point x="772" y="672" type="curve"/>
-      <point x="781" y="293"/>
-    </contour>
-    <contour>
-      <point x="319" y="1330"/>
-      <point x="500" y="1330" type="curve" smooth="yes"/>
-      <point x="656" y="1330"/>
-      <point x="743" y="1084"/>
-      <point x="766" y="779" type="curve"/>
-      <point x="605" y="769"/>
-      <point x="435" y="764"/>
-      <point x="250" y="780" type="curve"/>
-      <point x="252" y="1144"/>
-    </contour>
-    <contour>
+      <point x="622" y="-194" type="curve"/>
+      <point x="580" y="-210"/>
       <point x="508" y="-259"/>
       <point x="485" y="-287" type="curve"/>
       <point x="473" y="-400"/>
@@ -61,12 +28,12 @@
       <point x="645" y="-221" type="curve"/>
       <point x="638" y="-210"/>
       <point x="627" y="-200"/>
-      <point x="622" y="-194" type="curve"/>
-      <point x="580" y="-210"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
       <key>public.markColor</key>
       <string>0.97,1,0,1</string>
     </dict>
