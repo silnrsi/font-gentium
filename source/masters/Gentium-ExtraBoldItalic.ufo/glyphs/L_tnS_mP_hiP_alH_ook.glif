@@ -1,16 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmPhiPalHook" format="2">
-  <advance width="1225"/>
+  <advance width="1250"/>
   <unicode hex="1DF33"/>
   <anchor x="466" y="-600" name="L"/>
   <anchor x="773" y="1640" name="U"/>
   <outline>
     <component base="LtnSmPhi"/>
+    <contour>
+      <point x="704" y="-289" type="curve"/>
+      <point x="701" y="-300"/>
+      <point x="700" y="-311"/>
+      <point x="700" y="-321" type="curve" smooth="yes"/>
+      <point x="700" y="-419"/>
+      <point x="802" y="-500"/>
+      <point x="903" y="-500" type="curve" smooth="yes"/>
+      <point x="983" y="-500"/>
+      <point x="1156" y="-431"/>
+      <point x="1191" y="-151" type="curve" smooth="yes"/>
+      <point x="1210" y="0" type="line"/>
+      <point x="1096" y="20" type="line"/>
+      <point x="1071" y="-180" type="line" smooth="yes"/>
+      <point x="1054" y="-320"/>
+      <point x="996" y="-367"/>
+      <point x="959" y="-367" type="curve" smooth="yes"/>
+      <point x="933" y="-367"/>
+      <point x="901" y="-345"/>
+      <point x="901" y="-294" type="curve" smooth="yes"/>
+      <point x="901" y="-271"/>
+      <point x="908" y="-243"/>
+      <point x="924" y="-208" type="curve"/>
+      <point x="918" y="-194"/>
+      <point x="903" y="-175"/>
+      <point x="895" y="-165" type="curve"/>
+      <point x="843" y="-182"/>
+      <point x="740" y="-247"/>
+    </contour>
+    <contour>
+      <point x="1219" y="71" type="line"/>
+      <point x="1190" y="106" type="line"/>
+      <point x="643" y="106" type="line"/>
+      <point x="612" y="58" type="line"/>
+      <point x="631" y="0" type="line"/>
+      <point x="1210" y="0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PPC</string>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

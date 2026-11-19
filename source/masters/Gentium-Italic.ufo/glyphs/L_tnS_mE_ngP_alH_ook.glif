@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmEngPalHook" format="2">
-  <advance width="989"/>
+  <advance width="1236"/>
   <unicode hex="1DF14"/>
   <anchor x="353" y="-600" name="L"/>
   <anchor x="572" y="1000" name="U"/>
@@ -50,6 +50,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>PPC</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,16 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSmChiPalHook" format="2">
-  <advance width="1020"/>
+  <advance width="1329"/>
   <unicode hex="1DF3D"/>
   <anchor x="360" y="-600" name="L"/>
   <anchor x="580" y="1000" name="U"/>
   <outline>
     <component base="LtnSmChi"/>
+    <contour>
+      <point x="779" y="147" type="curve"/>
+      <point x="776" y="136"/>
+      <point x="775" y="125"/>
+      <point x="775" y="115" type="curve" smooth="yes"/>
+      <point x="775" y="17"/>
+      <point x="877" y="-64"/>
+      <point x="978" y="-64" type="curve" smooth="yes"/>
+      <point x="1058" y="-64"/>
+      <point x="1231" y="5"/>
+      <point x="1266" y="285" type="curve" smooth="yes"/>
+      <point x="1285" y="436" type="line"/>
+      <point x="1171" y="456" type="line"/>
+      <point x="1146" y="256" type="line" smooth="yes"/>
+      <point x="1129" y="116"/>
+      <point x="1071" y="69"/>
+      <point x="1034" y="69" type="curve" smooth="yes"/>
+      <point x="1008" y="69"/>
+      <point x="976" y="91"/>
+      <point x="976" y="142" type="curve" smooth="yes"/>
+      <point x="976" y="165"/>
+      <point x="983" y="193"/>
+      <point x="999" y="228" type="curve"/>
+      <point x="993" y="242"/>
+      <point x="978" y="261"/>
+      <point x="970" y="271" type="curve"/>
+      <point x="918" y="254"/>
+      <point x="815" y="189"/>
+    </contour>
+    <contour>
+      <point x="1294" y="507" type="line"/>
+      <point x="1265" y="542" type="line"/>
+      <point x="718" y="542" type="line"/>
+      <point x="706" y="521"/>
+      <point x="696" y="515"/>
+      <point x="687" y="494" type="curve"/>
+      <point x="706" y="436" type="line"/>
+      <point x="1285" y="436" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PPC</string>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

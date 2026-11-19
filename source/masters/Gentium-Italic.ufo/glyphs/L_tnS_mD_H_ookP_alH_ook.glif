@@ -2,15 +2,48 @@
 <glyph name="LtnSmDHookPalHook" format="2">
   <advance width="969"/>
   <unicode hex="1DF2D"/>
-  <anchor x="374" y="-100" name="L"/>
+  <anchor x="354" y="-600" name="L"/>
   <anchor x="604" y="1640" name="U"/>
   <outline>
     <component base="LtnSmDHook"/>
+    <contour>
+      <point x="432" y="-290" type="curve"/>
+      <point x="406" y="-401"/>
+      <point x="484" y="-500"/>
+      <point x="586" y="-500" type="curve" smooth="yes"/>
+      <point x="676" y="-500"/>
+      <point x="828" y="-452"/>
+      <point x="865" y="-171" type="curve" smooth="yes"/>
+      <point x="880" y="-60" type="line" smooth="yes"/>
+      <point x="890" y="15"/>
+      <point x="902" y="41"/>
+      <point x="924" y="68" type="curve"/>
+      <point x="906" y="83"/>
+      <point x="861" y="40"/>
+      <point x="828" y="28" type="curve"/>
+      <point x="807" y="-15"/>
+      <point x="803" y="-42"/>
+      <point x="797" y="-87" type="curve" smooth="yes"/>
+      <point x="781" y="-200" type="line" smooth="yes"/>
+      <point x="760" y="-361"/>
+      <point x="697" y="-406"/>
+      <point x="639" y="-406" type="curve" smooth="yes"/>
+      <point x="592" y="-406"/>
+      <point x="527" y="-343"/>
+      <point x="583" y="-225" type="curve"/>
+      <point x="578" y="-214"/>
+      <point x="569" y="-204"/>
+      <point x="565" y="-198" type="curve"/>
+      <point x="527" y="-214"/>
+      <point x="456" y="-262"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>
